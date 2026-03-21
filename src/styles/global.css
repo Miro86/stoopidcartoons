@@ -259,7 +259,8 @@ p {
   border: 1px solid var(--color-border);
   background: rgba(255, 255, 255, 0.04);
   display: grid;
-  place-items: center;
+  place-content: center;
+  gap: 0.14rem;
   cursor: pointer;
 }
 
@@ -273,7 +274,7 @@ p {
   height: 2px;
   border-radius: 999px;
   background: #fff;
-  margin: 0.12rem 0;
+  margin: 0;
 }
 
 .mobile-panel {
@@ -377,6 +378,10 @@ p {
   flex-wrap: wrap;
   gap: 0.55rem;
   margin-bottom: 1rem;
+}
+
+.link-row a.cta-link {
+  color: #ff2732;
 }
 
 .hero-card-grid {
@@ -487,6 +492,14 @@ p {
   background:
     linear-gradient(135deg, rgba(229, 9, 20, 0.95), rgba(255, 214, 10, 0.95));
   margin-bottom: 1rem;
+}
+
+.legal-card h2 {
+  margin: 0;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  hyphens: auto;
 }
 
 .feature-card p,

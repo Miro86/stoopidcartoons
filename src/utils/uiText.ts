@@ -9,6 +9,7 @@ interface UiText {
   heroChips: {
     apps: string;
     games: string;
+    platform: string;
   };
   heroPanels: HeroPanel[];
   product: {
@@ -28,6 +29,7 @@ export const uiText: Record<Locale, UiText> = {
     heroChips: {
       apps: '20+ releases',
       games: 'Apps & games',
+      platform: 'Android',
     },
     heroPanels: [
       {
@@ -63,6 +65,7 @@ export const uiText: Record<Locale, UiText> = {
     heroChips: {
       apps: '20+ Veröffentlichungen',
       games: 'Apps & Spiele',
+      platform: 'Android',
     },
     heroPanels: [
       {
@@ -98,6 +101,7 @@ export const uiText: Record<Locale, UiText> = {
     heroChips: {
       apps: '20+ sorties',
       games: 'Apps & jeux',
+      platform: 'Android',
     },
     heroPanels: [
       {
@@ -133,6 +137,7 @@ export const uiText: Record<Locale, UiText> = {
     heroChips: {
       apps: '20+ uscite',
       games: 'App e giochi',
+      platform: 'Android',
     },
     heroPanels: [
       {
@@ -168,6 +173,7 @@ export const uiText: Record<Locale, UiText> = {
     heroChips: {
       apps: '20+ lanzamientos',
       games: 'Apps y juegos',
+      platform: 'Android',
     },
     heroPanels: [
       {
@@ -203,6 +209,7 @@ export const uiText: Record<Locale, UiText> = {
     heroChips: {
       apps: '20+ lançamentos',
       games: 'Apps e jogos',
+      platform: 'Android',
     },
     heroPanels: [
       {
@@ -236,36 +243,37 @@ export const uiText: Record<Locale, UiText> = {
 
   sr: {
     heroChips: {
-      apps: '20+ izdanja',
-      games: 'Aplikacije i igre',
+      apps: '20+ издања',
+      games: 'Апликације и игре',
+      platform: 'Андроид',
     },
     heroPanels: [
       {
-        title: 'Fokus na Android',
-        description: 'Pravimo Android aplikacije i igre koje su uglađene, brze i zabavne za korišćenje.',
+        title: 'Фокус на Андроид',
+        description: 'Правимо Андроид апликације и игре које су углађене, брзе и забавне за коришћење.',
       },
       {
-        title: 'Jak vizuelni identitet',
-        description: 'Snažne boje, čist interfejs i razigran stil pomažu da se naši proizvodi odmah izdvoje.',
+        title: 'Јак визуелни идентитет',
+        description: 'Снажне боје, чист интерфејс и разигран стил помажу да се наши производи одмах издвоје.',
       },
       {
-        title: 'Napravljeno da se pamti',
-        description: 'Težimo jasnoći, karakteru i iskustvima kojima ljudi žele da se vraćaju.',
+        title: 'Направљено да се памти',
+        description: 'Тежимо јасноћи, карактеру и искуствима којима људи желе да се враћају.',
       },
       {
-        title: 'Stalno rastemo',
-        description: 'Naš katalog stalno raste uz nove aplikacije, sveže ideje i igre koje vredi isprobati.',
+        title: 'Стално растемо',
+        description: 'Наш каталог стално расте уз нове апликације, свеже идеје и игре које вреди испробати.',
       },
     ],
     product: {
-      platforms: 'Platforme',
-      category: 'Kategorija',
-      tags: 'Oznake',
-      overview: 'Pregled',
-      highlights: 'Izdvojeno',
-      studio: 'Studio',
-      primaryPlatform: 'Glavna platforma',
-      productType: 'Tip proizvoda',
+      platforms: 'Платформе',
+      category: 'Категорија',
+      tags: 'Ознаке',
+      overview: 'Преглед',
+      highlights: 'Издвојено',
+      studio: 'Студио',
+      primaryPlatform: 'Главна платформа',
+      productType: 'Тип производа',
     },
   },
 
@@ -273,6 +281,7 @@ export const uiText: Record<Locale, UiText> = {
     heroChips: {
       apps: '20+ izdanja',
       games: 'Aplikacije i igre',
+      platform: 'Android',
     },
     heroPanels: [
       {
@@ -308,6 +317,7 @@ export const uiText: Record<Locale, UiText> = {
     heroChips: {
       apps: '20+ releases',
       games: 'Apps & games',
+      platform: 'Android',
     },
     heroPanels: [
       {
@@ -343,6 +353,7 @@ export const uiText: Record<Locale, UiText> = {
     heroChips: {
       apps: '20+ premier',
       games: 'Aplikacje i gry',
+      platform: 'Android',
     },
     heroPanels: [
       {
@@ -378,6 +389,7 @@ export const uiText: Record<Locale, UiText> = {
     heroChips: {
       apps: '20+ lansări',
       games: 'Aplicații și jocuri',
+      platform: 'Android',
     },
     heroPanels: [
       {

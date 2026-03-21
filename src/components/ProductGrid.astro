@@ -88,19 +88,27 @@ const accentClassMap = {
                 </div>
 
                 <div class="link-row">
-                  <a href={buildPath(lang, `showcase/${item.slug}`)}>
-                    {detailsLabel}
-                  </a>
-
-                  {item.googlePlayUrl && (
+                  {item.googlePlayUrl ? (
                     <a
+                      class="cta-link"
                       href={item.googlePlayUrl}
                       target="_blank"
                       rel="noreferrer"
                     >
                       {playStore}
                     </a>
+                  ) : (
+                    <a
+                      class="cta-link"
+                      href={buildPath(lang, `showcase/${item.slug}`)}
+                    >
+                      {detailsLabel}
+                    </a>
                   )}
+
+                  <a href={buildPath(lang, `showcase/${item.slug}`)}>
+                    {detailsLabel}
+                  </a>
 
                   {item.websiteUrl && (
                     <a href={item.websiteUrl} target="_blank" rel="noreferrer">

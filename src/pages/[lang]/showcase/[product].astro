@@ -123,14 +123,10 @@ const accentClassMap = {
         <p class="product-summary">{release.summary}</p>
 
         <div class="hero-actions">
-          <a class="button button-primary" href={buildPath(lang, "showcase")}>
-            {t.nav.showcase}
-          </a>
-
           {
             release.googlePlayUrl && (
               <a
-                class="button button-secondary"
+                class="button button-primary"
                 href={release.googlePlayUrl}
                 target="_blank"
                 rel="noreferrer"
@@ -139,6 +135,10 @@ const accentClassMap = {
               </a>
             )
           }
+
+          <a class="button button-secondary" href={buildPath(lang, "showcase")}>
+            {t.nav.showcase}
+          </a>
 
           {
             release.websiteUrl && (

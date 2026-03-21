@@ -9,6 +9,7 @@ interface Props {
   chips: {
     apps: string;
     games: string;
+    platform: string;
   };
   panels: Array<{ title: string; description: string }>;
 }
@@ -39,18 +40,20 @@ const {
 
     <div class="hero-card" data-reveal>
       <div class="hero-card-top">
-        <span class="chip chip-red">Android</span>
+        <span class="chip chip-red">{chips.platform}</span>
         <span class="chip">{chips.apps}</span>
         <span class="chip">{chips.games}</span>
       </div>
 
       <div class="hero-card-grid">
-        {panels.map((panel) => (
-          <article class="mini-panel">
-            <strong>{panel.title}</strong>
-            <p>{panel.description}</p>
-          </article>
-        ))}
+        {
+          panels.map((panel) => (
+            <article class="mini-panel">
+              <strong>{panel.title}</strong>
+              <p>{panel.description}</p>
+            </article>
+          ))
+        }
       </div>
     </div>
   </div>

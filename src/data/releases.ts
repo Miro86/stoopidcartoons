@@ -26,6 +26,14 @@ export interface Release extends ReleaseBase, ReleaseTranslation { }
 
 const releaseBases = [
   {
+    slug: 'water-reminder',
+    kind: 'app',
+    featured: true,
+    accent: 'green',
+    icon: 'apps/icons/WaterReminder.png',
+    googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.stoopidcartoons.waterreminder',
+  },
+  {
     slug: 'big-ben',
     kind: 'app',
     featured: true,
@@ -44,9 +52,10 @@ const releaseBases = [
   {
     slug: 'the-birds',
     kind: 'game',
-    featured: true,
+    featured: false,
     accent: 'orange',
     icon: 'apps/icons/TheBirds.png',
+    googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.stoopidcartoons.thebirds'
   },
   {
     slug: 'bank-escape',
@@ -54,6 +63,7 @@ const releaseBases = [
     featured: false,
     accent: 'green',
     icon: 'apps/icons/BankEscape.png',
+    googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.stoopidcartoons.bankescape'
   },
   {
     slug: 'zigzag-ski',
@@ -61,6 +71,7 @@ const releaseBases = [
     featured: false,
     accent: 'blue',
     icon: 'apps/icons/ZigZag.png',
+    googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.stoopidcartoons.zigzagski'
   },
   {
     slug: 'kiss-the-boss',
@@ -68,6 +79,7 @@ const releaseBases = [
     featured: false,
     accent: 'red',
     icon: 'apps/icons/KissTheBoss.png',
+    googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.stoopidcartoons.kisstheboss'
   },
   {
     slug: 'santas-lost-presents',
@@ -75,6 +87,7 @@ const releaseBases = [
     featured: false,
     accent: 'orange',
     icon: 'apps/icons/Santa.png',
+    googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.stoopidcartoons.santaslostpresents'
   },
 ] as const satisfies readonly ReleaseBase[];
 
@@ -82,6 +95,21 @@ type ReleaseSlug = (typeof releaseBases)[number]['slug'];
 
 const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation>> = {
   en: {
+    'water-reminder': {
+      name: 'Water Reminder',
+      summary:
+        'Track your daily water intake, build healthy hydration habits, and stay consistent with smart reminders and progress insights.',
+      longDescription: [
+        'Water Reminder is a simple and effective hydration tracking app designed to help you build a consistent daily water drinking habit. With quick-add buttons and an intuitive interface, logging your water intake takes just a second.',
+        'Stay motivated with daily streak tracking that shows how many days in a row you have reached your hydration goal. The app encourages consistency and helps you turn healthy hydration into a long-term routine.',
+        'Get a clear overview of your progress with weekly statistics, detailed history, and insights such as your average water consumption and best-performing day. This allows you to understand your habits and improve over time.',
+        'Customizable reminders help you stay on track throughout the day. Set your own schedule and never forget to drink water, whether you are at work, at home, or on the go.',
+        'Designed for simplicity and efficiency, Water Reminder is perfect for anyone looking to improve their health, increase energy levels, and maintain proper hydration with minimal effort.',
+      ],
+      category: 'Health & Fitness',
+      platforms: ['Android'],
+      tags: ['Hydration', 'Health', 'Habit Tracker', 'Reminders', 'Water Tracking'],
+    },
     'big-ben': {
       name: 'Big Ben (Chiming)',
       summary:
@@ -189,6 +217,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   de: {
+    'water-reminder': {
+      name: 'Water Reminder',
+      summary:
+        'Verfolge deine tägliche Wasseraufnahme, baue gesunde Gewohnheiten auf und bleibe mit intelligenten Erinnerungen konsequent hydriert.',
+      longDescription: [
+        'Water Reminder ist eine einfache und effektive App zur Verfolgung deiner täglichen Wasseraufnahme. Mit schnellen Eingabetasten und einer intuitiven Oberfläche kannst du deine Wasserzufuhr in Sekundenschnelle protokollieren.',
+        'Bleibe motiviert mit der Verfolgung deiner täglichen Serie, die zeigt, wie viele Tage in Folge du dein Trinkziel erreicht hast. Die App hilft dir, eine gesunde Routine aufzubauen und langfristig beizubehalten.',
+        'Erhalte einen klaren Überblick über deinen Fortschritt mit wöchentlichen Statistiken, detaillierter Historie und Einblicken wie deinem durchschnittlichen Wasserverbrauch und deinem besten Tag.',
+        'Individuell anpassbare Erinnerungen helfen dir, den ganzen Tag über ausreichend zu trinken. Lege deinen eigenen Zeitplan fest und vergiss nie wieder, Wasser zu trinken.',
+        'Entwickelt für Einfachheit und Effizienz ist Water Reminder ideal für alle, die ihre Gesundheit verbessern und mit minimalem Aufwand hydriert bleiben möchten.',
+      ],
+      category: 'Health & Fitness',
+      platforms: ['Android'],
+      tags: ['Hydration', 'Health', 'Habit Tracker', 'Reminders', 'Water Tracking'],
+    },
     'big-ben': {
       name: 'Big Ben (Glockenspiel)',
       summary:
@@ -296,6 +339,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   fr: {
+    'water-reminder': {
+      name: 'Water Reminder',
+      summary:
+        'Suivez votre consommation d’eau quotidienne, adoptez de bonnes habitudes et restez hydraté grâce à des rappels intelligents.',
+      longDescription: [
+        'Water Reminder est une application simple et efficace conçue pour vous aider à suivre votre consommation d’eau au quotidien. Grâce à des boutons rapides et une interface intuitive, enregistrer votre hydratation ne prend qu’une seconde.',
+        'Restez motivé grâce au suivi des séries quotidiennes qui indique combien de jours consécutifs vous avez atteint votre objectif. L’application vous aide à transformer l’hydratation en habitude durable.',
+        'Obtenez une vue claire de vos progrès avec des statistiques hebdomadaires, un historique détaillé et des informations comme votre consommation moyenne et votre meilleure journée.',
+        'Les rappels personnalisables vous permettent de rester sur la bonne voie tout au long de la journée. Définissez votre propre planning et n’oubliez plus jamais de boire de l’eau.',
+        'Conçue pour être simple et efficace, Water Reminder est idéale pour améliorer votre santé, augmenter votre énergie et maintenir une bonne hydratation sans effort.',
+      ],
+      category: 'Health & Fitness',
+      platforms: ['Android'],
+      tags: ['Hydration', 'Health', 'Habit Tracker', 'Reminders', 'Water Tracking'],
+    },
     'big-ben': {
       name: 'Big Ben (Carillon)',
       summary:
@@ -403,6 +461,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   it: {
+    'water-reminder': {
+      name: 'Water Reminder',
+      summary:
+        'Monitora l’assunzione quotidiana di acqua, crea abitudini sane e resta idratato con promemoria intelligenti.',
+      longDescription: [
+        'Water Reminder è un’app semplice ed efficace progettata per aiutarti a monitorare il consumo quotidiano di acqua. Grazie a pulsanti rapidi e a un’interfaccia intuitiva, registrare l’acqua bevuta richiede solo un secondo.',
+        'Rimani motivato con il tracciamento delle serie giornaliere che mostra per quanti giorni consecutivi hai raggiunto il tuo obiettivo di idratazione.',
+        'Ottieni una panoramica chiara dei tuoi progressi con statistiche settimanali, cronologia dettagliata e dati come il consumo medio e il giorno migliore.',
+        'I promemoria personalizzabili ti aiutano a bere acqua durante tutta la giornata. Imposta il tuo programma e non dimenticare mai di idratarti.',
+        'Water Reminder è progettata per essere semplice ed efficiente, ideale per migliorare la salute e mantenere una corretta idratazione con il minimo sforzo.',
+      ],
+      category: 'Health & Fitness',
+      platforms: ['Android'],
+      tags: ['Hydration', 'Health', 'Habit Tracker', 'Reminders', 'Water Tracking'],
+    },
     'big-ben': {
       name: 'Big Ben (Rintocchi)',
       summary:
@@ -510,6 +583,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   es: {
+    'water-reminder': {
+      name: 'Water Reminder',
+      summary:
+        'Controla tu consumo diario de agua, crea hábitos saludables y mantente constante con recordatorios inteligentes.',
+      longDescription: [
+        'Water Reminder es una aplicación sencilla y eficaz diseñada para ayudarte a controlar tu consumo diario de agua. Con botones rápidos y una interfaz intuitiva, registrar tu ingesta es fácil y rápido.',
+        'Mantente motivado con el seguimiento de rachas que muestra cuántos días consecutivos has alcanzado tu objetivo de hidratación.',
+        'Obtén una visión clara de tu progreso con estadísticas semanales, historial detallado y datos como tu consumo promedio y tu mejor día.',
+        'Los recordatorios personalizables te ayudan a mantenerte hidratado durante todo el día. Configura tu propio horario y no olvides beber agua.',
+        'Diseñada para ser simple y eficiente, Water Reminder es perfecta para mejorar tu salud y mantenerte hidratado sin esfuerzo.',
+      ],
+      category: 'Health & Fitness',
+      platforms: ['Android'],
+      tags: ['Hydration', 'Health', 'Habit Tracker', 'Reminders', 'Water Tracking'],
+    },
     'big-ben': {
       name: 'Big Ben (Campanadas)',
       summary:
@@ -617,6 +705,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   pt: {
+    'water-reminder': {
+      name: 'Water Reminder',
+      summary:
+        'Acompanhe sua ingestão diária de água, crie hábitos saudáveis e mantenha-se hidratado com lembretes inteligentes.',
+      longDescription: [
+        'Water Reminder é um aplicativo simples e eficaz projetado para ajudar você a monitorar sua ingestão diária de água.',
+        'Acompanhe suas sequências diárias e mantenha a consistência.',
+        'Visualize estatísticas e histórico detalhado.',
+        'Configure lembretes personalizados.',
+        'Melhore sua saúde e energia com hidratação adequada.',
+      ],
+      category: 'Health & Fitness',
+      platforms: ['Android'],
+      tags: ['Hydration', 'Health', 'Habit Tracker', 'Reminders', 'Water Tracking'],
+    },
     'big-ben': {
       name: 'Big Ben (Badaladas)',
       summary:
@@ -724,113 +827,143 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   sr: {
+    'water-reminder': {
+      name: 'Water Reminder',
+      summary:
+        'Пратите дневни унос воде, развијте здраве навике и останите хидрирани уз паметне подсетнике.',
+      longDescription: [
+        'Water Reminder је једноставна и ефикасна апликација за праћење дневног уноса воде.',
+        'Пратите низ дана у којима сте достигли циљ.',
+        'Прегледајте статистику и историју.',
+        'Подесите подсетнике.',
+        'Побољшајте здравље и енергију.',
+      ],
+      category: 'Здравље и фитнес',
+      platforms: ['Android'],
+      tags: ['Хидратација', 'Здравље', 'Праћење навика', 'Подсетници', 'Праћење уноса воде'],
+    },
     'big-ben': {
       name: 'Big Ben (Zvona)',
       summary:
-        'Nosite zvuke Big Bena sa sobom uz realistične zvuke sata i offline reprodukciju.',
+        'Носите звуке Big Bena са собом уз реалистичне звуке сата и офлајн репродукцију.',
       longDescription: [
-        'Big Ben (Zvona) donosi legendarni zvuk najpoznatijeg londonskog sata na vaš Android uređaj.',
-        'Jednostavna aplikacija omogućava reprodukciju kvalitetnih zvona u bilo kom trenutku, čak i bez interneta.',
-        'Idealno za opuštanje, nostalgiju ili kao jedinstven zvuk telefona.',
-        'Uživajte u bezvremenskom zvuku Big Bena gde god da ste.',
+        'Big Ben (Zvona) доноси легендарни звук најпознатијег лондонског сата на ваш Android уређај.',
+        'Једноставна апликација омогућава репродукцију квалитетних звона у било ком тренутку, чак и без интернета.',
+        'Идеално за опуштање, носталгију или као јединствен звук телефона.',
+        'Уживајте у безвременском звуку Big Bena где год да сте.',
       ],
-      category: 'Lifestyle',
+      category: 'Стил живота',
       platforms: ['Android'],
-      tags: ['Big Ben', 'Zvona', 'Sat', 'London', 'Offline'],
+      tags: ['Big Ben', 'Звона', 'Сат', 'Лондон', 'Офлајн'],
     },
     'gastarbajter': {
       name: 'Gastarbajter',
       summary:
-        'Pomozite Djuri da uspe u inostranstvu učenjem jezika i skupljanjem dokumenata.',
+        'Помозите Ђури да успе у иностранству учењем језика и сакупљањем докумената.',
       longDescription: [
-        'Gastarbajter je narativna casual igra.',
-        'Inspirisana stvarnim iskustvima.',
-        'Ispunjavajte zadatke i napredujte.',
-        'Tema: život u inostranstvu.',
-        'Jednostavan gameplay.',
+        'Gastarbajter је наративна casual игра.',
+        'Инспирисана стварним искуствима.',
+        'Испуњавајте задатке и напредујте.',
+        'Тема: живот у иностранству.',
+        'Једноставан гејмплеј.',
       ],
-      category: 'Casual',
+      category: 'Лежерна',
       platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Platformer'],
+      tags: ['Лежерна игра', 'Аркадна', 'Платформска'],
     },
     'the-birds': {
       name: 'The Birds',
       summary:
-        'Letite kroz prepreke i savladajte brzi arkadni gameplay.',
+        'Летите кроз препреке и савладајте брзи аркадни гејмплеј.',
       longDescription: [
-        'Brza arkadna igra zasnovana na refleksima.',
-        'Dodirnite za let i izbegavajte prepreke.',
-        'Otključajte ptice i svetove.',
-        'Jednostavno ali izazovno.',
-        'Idealno za kratke sesije.',
+        'Брза аркадна игра заснована на рефлексима.',
+        'Додирните за лет и избегавајте препреке.',
+        'Откључајте птице и светове.',
+        'Једноставно али изазовно.',
+        'Идеално за кратке сесије.',
       ],
-      category: 'Arcade',
+      category: 'Аркадна',
       platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade'],
+      tags: ['Лежерна игра', 'Аркадна'],
     },
     'bank-escape': {
       name: 'Bank Escape',
       summary:
-        'Pobegnite iz banke sa novcem i izbegnite hapšenje.',
+        'Побегните из банке са новцем и избегните хапшење.',
       longDescription: [
-        'Brza arkadna igra bekstva.',
-        'Skupljajte novac i bežite.',
-        'Jednostavne kontrole.',
-        'Poboljšajte rezultat.',
-        'Kratke sesije.',
+        'Брза аркадна игра бекства.',
+        'Скупљајте новац и бежите.',
+        'Једноставне контроле.',
+        'Побољшајте резултат.',
+        'Кратке сесије.',
       ],
-      category: 'Arcade',
+      category: 'Аркадна',
       platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Platformer'],
+      tags: ['Лежерна игра', 'Аркадна', 'Платформска'],
     },
     'zigzag-ski': {
       name: 'ZigZag Ski',
       summary:
-        'Spuštajte se niz planinu i izbegavajte prepreke u brzoj arkadnoj igri.',
+        'Спуштајте се низ планину и избегавајте препреке у брзој аркадној игри.',
       longDescription: [
-        'Brza arkadna ski igra.',
-        'Dodirnite za promenu pravca.',
-        'Beskrajni spust.',
-        'Poboljšajte reflekse.',
-        'Kratke sesije.',
+        'Брза аркадна ски игра.',
+        'Додирните за промену правца.',
+        'Бескрајни спуст.',
+        'Побољшајте рефлексе.',
+        'Кратке сесије.',
       ],
-      category: 'Arcade',
+      category: 'Аркадна',
       platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
+      tags: ['Лежерна игра', 'Аркадна', 'Акција'],
     },
     'kiss-the-boss': {
       name: 'Kiss The Boss',
       summary:
-        'Testirajte reflekse u zabavnoj igri gde morate da ljubite šefa.',
+        'Тестирајте рефлексе у забавној игри где морате да љубите шефа.',
       longDescription: [
-        'Brza i humoristična arkadna igra.',
-        'Ljubite šefa što brže.',
-        'Jednostavne kontrole.',
-        'Poboljšajte rezultat.',
-        'Kratke sesije.',
+        'Брза и хумористична аркадна игра.',
+        'Љубите шефа што брже.',
+        'Једноставне контроле.',
+        'Побољшајте резултат.',
+        'Кратке сесије.',
       ],
-      category: 'Arcade',
+      category: 'Аркадна',
       platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
+      tags: ['Лежерна игра', 'Аркадна', 'Акција'],
     },
     'santas-lost-presents': {
       name: 'Santa’s Lost Presents',
       summary:
-        'Pomozite Deda Mrazu da sakupi poklone i spasi Novu godinu.',
+        'Помозите Деда Мразу да сакупи поклоне и спасе Нову годину.',
       longDescription: [
-        'Praznična arkadna igra.',
-        'Skupljajte poklone i izbegavajte prepreke.',
-        'Jednostavne kontrole.',
-        'Poboljšajte rezultat.',
-        'Kratke sesije.',
+        'Празнична аркадна игра.',
+        'Скупљајте поклоне и избегавајте препреке.',
+        'Једноставне контроле.',
+        'Побољшајте резултат.',
+        'Кратке сесије.',
       ],
-      category: 'Arcade',
+      category: 'Аркадна',
       platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
+      tags: ['Лежерна игра', 'Аркадна', 'Акција'],
     },
   },
 
   hr: {
+    'water-reminder': {
+      name: 'Water Reminder',
+      summary:
+        'Pratite unos vode i razvijte zdrave navike uz pametne podsjetnike.',
+      longDescription: [
+        'Water Reminder je jednostavna aplikacija za praćenje unosa vode.',
+        'Pratite niz dana uspjeha.',
+        'Statistika i povijest.',
+        'Podsjetnici za vodu.',
+        'Bolje zdravlje.',
+      ],
+      category: 'Health & Fitness',
+      platforms: ['Android'],
+      tags: ['Hydration', 'Health', 'Habit Tracker', 'Reminders', 'Water Tracking'],
+    },
     'big-ben': {
       name: 'Big Ben (Zvona)',
       summary:
@@ -938,6 +1071,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   nl: {
+    'water-reminder': {
+      name: 'Water Reminder',
+      summary:
+        'Houd je dagelijkse waterinname bij, ontwikkel gezonde gewoonten en blijf gehydrateerd met slimme herinneringen.',
+      longDescription: [
+        'Water Reminder is een eenvoudige en effectieve app om je dagelijkse waterinname bij te houden en een gezonde drinkroutine op te bouwen.',
+        'Blijf gemotiveerd met dagelijkse streaks die laten zien hoeveel dagen je je doel hebt gehaald.',
+        'Bekijk je voortgang met statistieken, geschiedenis en inzichten.',
+        'Stel herinneringen in om regelmatig water te drinken.',
+        'Ideaal om je gezondheid en energie te verbeteren door goede hydratatie.',
+      ],
+      category: 'Health & Fitness',
+      platforms: ['Android'],
+      tags: ['Hydration', 'Health', 'Habit Tracker', 'Reminders', 'Water Tracking'],
+    },
     'big-ben': {
       name: 'Big Ben (Klokken)',
       summary:
@@ -1045,6 +1193,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   pl: {
+    'water-reminder': {
+      name: 'Water Reminder',
+      summary:
+        'Śledź dzienne spożycie wody, buduj zdrowe nawyki i utrzymuj nawodnienie dzięki przypomnieniom.',
+      longDescription: [
+        'Water Reminder to prosta i skuteczna aplikacja do monitorowania dziennego spożycia wody i budowania zdrowych nawyków.',
+        'Śledź kolejne dni realizacji celu i utrzymuj motywację.',
+        'Analizuj statystyki, historię i średnie wartości.',
+        'Ustaw przypomnienia o piciu wody.',
+        'Popraw zdrowie i samopoczucie dzięki odpowiedniemu nawodnieniu.',
+      ],
+      category: 'Health & Fitness',
+      platforms: ['Android'],
+      tags: ['Hydration', 'Health', 'Habit Tracker', 'Reminders', 'Water Tracking'],
+    },
     'big-ben': {
       name: 'Big Ben (Dzwony)',
       summary:
@@ -1152,6 +1315,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   ro: {
+    'water-reminder': {
+      name: 'Water Reminder',
+      summary:
+        'Urmărește consumul zilnic de apă, creează obiceiuri sănătoase și rămâi hidratat.',
+      longDescription: [
+        'Water Reminder este o aplicație simplă și eficientă pentru monitorizarea consumului zilnic de apă.',
+        'Rămâi motivat urmărind progresul zilnic.',
+        'Vezi statistici și istoricul consumului.',
+        'Setează mementouri pentru hidratare.',
+        'Îmbunătățește sănătatea prin hidratare corectă.',
+      ],
+      category: 'Health & Fitness',
+      platforms: ['Android'],
+      tags: ['Hydration', 'Health', 'Habit Tracker', 'Reminders', 'Water Tracking'],
+    },
     'big-ben': {
       name: 'Big Ben (Clopote)',
       summary:

@@ -37,7 +37,7 @@ export const localeNames: Record<Locale, string> = {
   it: "Italiano",
   es: "Español",
   pt: "Português",
-  sr: "Srpski",
+  sr: "Српски",
   hr: "Hrvatski",
   nl: "Nederlands",
   pl: "Polski",
@@ -1423,131 +1423,131 @@ export const baseTranslations = {
   },
 
   sr: {
-    tagline: "Android aplikacije i igre sa jakim karakterom.",
+    tagline: "Андроид апликације и игре са јаким карактером.",
     nav: {
-      home: "Početna",
+      home: "Почетна",
       showcase: "Showcase",
-      privacy: "Politika privatnosti",
-      terms: "Uslovi korišćenja",
-      contact: "Kontakt",
+      privacy: "Политика приватности",
+      terms: "Услови коришћења",
+      contact: "Контакт",
     },
     seo: {
-      homeTitle: "StoopidCartoons — Android aplikacije i igre",
+      homeTitle: "StoopidCartoons — Андроид апликације и игре",
       homeDescription:
-        "StoopidCartoons pravi Android aplikacije i igre sa karakterom, čistim UX-om i idejama koje su napravljene da se koriste, igraju i pamte.",
+        "StoopidCartoons прави Андроид апликације и игре са карактером, чистим UX-ом и идејама које су направљене да се користе, играју и памте.",
       showcaseTitle: "Showcase — StoopidCartoons",
       showcaseDescription:
-        "Istraži rastući katalog Android aplikacija i igara koje pravi StoopidCartoons.",
-      privacyTitle: "Politika privatnosti — StoopidCartoons",
+        "Истражи растући каталог Android апликација и игара које прави StoopidCartoons.",
+      privacyTitle: "Политика приватности — StoopidCartoons",
       privacyDescription:
-        "Informacije o privatnosti za StoopidCartoons sajt, aplikacije i igre.",
-      termsTitle: "Uslovi korišćenja — StoopidCartoons",
+        "Информације о приватности за StoopidCartoons сајт, апликације и игре.",
+      termsTitle: "Услови коришћења — StoopidCartoons",
       termsDescription:
-        "Uslovi korišćenja za StoopidCartoons proizvode i sajt.",
-      contactTitle: "Kontakt — StoopidCartoons",
+        "Услови коришћења за StoopidCartoons производе и сајт.",
+      contactTitle: "Контакт — StoopidCartoons",
       contactDescription:
-        "Kontaktiraj StoopidCartoons putem mejla, Play Store stranice i društvenih mreža.",
+        "Контактирај StoopidCartoons путем мејла, Play Store странице и друштвених мрежа.",
     },
     hero: {
-      title: "Android aplikacije i igre sa jakim karakterom.",
+      title: "Андроид апликације и игре са јаким карактером.",
       description:
-        "U StoopidCartoons-u pravimo zabavne igre i korisne aplikacije koje su lake za korišćenje, prijatne i napravljene da se izdvoje.",
-      primaryCta: "Pogledaj naše aplikacije i igre",
-      secondaryCta: "Kontaktiraj nas",
+        "У StoopidCartoons-у правимо забавне игре и корисне апликације које су лаке за коришћење, пријатне и направљене да се издвоје.",
+      primaryCta: "Погледај наше апликације и игре",
+      secondaryCta: "Контактирај нас",
     },
     stats: [
-      { value: "20+", label: "izdanja i broj raste" },
-      { value: "Android", label: "naša glavna platforma" },
-      { value: "Aplikacije", label: "sa karakterom" },
-      { value: "Nove ideje", label: "uvek u nastajanju" },
+      { value: "20+", label: "издања и број расте" },
+      { value: "Андроид", label: "наша главна платформа" },
+      { value: "Апликације", label: "са карактером" },
+      { value: "Нове идеје", label: "увек у настајању" },
     ],
     about: {
-      eyebrow: "O nama",
-      title: "Mali studio koji pravi proizvode sa karakterom.",
+      eyebrow: "О нама",
+      title: "Мали студио који прави производе са карактером.",
       description:
-        "StoopidCartoons je fokusiran na Android aplikacije i igre koje deluju živo, uglađeno i odmah prepoznatljivo. Važni su nam upotrebljivost, vizuelni identitet i proizvodi kojima se ljudi rado vraćaju.",
+        "StoopidCartoons је фокусиран на Андроид апликације и игре које делују живо, углађено и одмах препознатљиво. Важни су нам употребљивост, визуелни идентитет и производи којима се људи радо враћају.",
     },
     services: {
-      title: "Šta pravimo",
+      title: "Шта правимо",
       intro:
-        "Danas pravimo pre svega Android aplikacije i igre, dok je iOS planiran za kasniju fazu kako katalog bude rastao.",
+        "Данас правимо пре свега Андроид апликације и игре, док је iOS планиран за каснију фазу како каталог буде растао.",
       items: [
         {
-          title: "Igre koje privlače",
+          title: "Игре које привлаче",
           description:
-            "Brza, zabavna i vizuelno jaka gejming iskustva napravljena za vraćanje i prepoznatljiv karakter.",
+            "Брза, забавна и визуелно јака гејминг искуства направљена за враћање и препознатљив карактер.",
         },
         {
-          title: "Aplikacije sa pravom svrhom",
+          title: "Апликације са правом сврхом",
           description:
-            "Korisne Android aplikacije sa čistim UX-om, glatkim tokom i funkcijama za svakodnevne potrebe.",
+            "Корисне Android апликације са чистим UX-ом, глатким током и функцијама за свакодневне потребе.",
         },
         {
-          title: "Napravljeno da se izdvoji",
+          title: "Направљено да се издвоји",
           description:
-            "Od ikonice do interfejsa, gradimo proizvode sa snažnim identitetom koji se odmah prepoznaje.",
+            "Од иконице до интерфејса, градимо производе са снажним идентитетом који се одмах препознаје.",
         },
       ],
     },
     showcase: {
-      eyebrow: "Naši radovi",
-      title: "Istraži naše aplikacije i igre.",
+      eyebrow: "Наши радови",
+      title: "Истражи наше апликације и игре.",
       description:
-        "Od razigranih igara do korisnih mobilnih alata, naša izdanja su napravljena da zabave, pomognu i ostave snažan prvi utisak.",
+        "Од разиграних игара до корисних мобилних алата, наша издања су направљена да забаве, помогну и оставе снажан први утисак.",
       fallbackItems: [
         {
-          title: "Akcione i arkadne igre",
+          title: "Акционе и аркадне игре",
           description:
-            "Brze sesije, jasne kontrole i energične ideje za trenutnu zabavu.",
-          badge: "Igra",
+            "Брзе сесије, јасне контроле и енергичне идеје за тренутну забаву.",
+          badge: "Игра",
         },
         {
-          title: "Casual i puzzle igre",
+          title: "Casual и puzzle игре",
           description:
-            "Lako se počinju, prijatne su za savladavanje i pravljene su da igrači požele da se vrate.",
-          badge: "Igra",
+            "Лако се почињу, пријатне су за савладавање и прављене су да играчи пожеле да се врате.",
+          badge: "Игра",
         },
         {
-          title: "Utility aplikacije",
+          title: "Utility апликације",
           description:
-            "Praktični Android alati koji su brzi, jasni i zaista korisni.",
-          badge: "Aplikacija",
+            "Практични Android алати који су брзи, јасни и заиста корисни.",
+          badge: "Апликација",
         },
         {
-          title: "Produktivne aplikacije",
+          title: "Продуктивне апликације",
           description:
-            "Fokusirana mobilna iskustva koja pomažu korisnicima da organizuju obaveze i ostanu u toku.",
-          badge: "Aplikacija",
+            "Фокусирана мобилна искуства која помажу корисницима да организују обавезе и остану у току.",
+          badge: "Апликација",
         },
         {
-          title: "Porodična izdanja",
+          title: "Породична издања",
           description:
-            "Pristupačni proizvodi sa razigranim dizajnom i širokom privlačnošću.",
-          badge: "Aplikacija",
+            "Приступачни производи са разиграним дизајном и широком привлачношћу.",
+          badge: "Апликација",
         },
         {
-          title: "Novi eksperimenti",
+          title: "Нови експерименти",
           description:
-            "Sveži koncepti, prototipi i ideje koje istražujemo dok studio raste.",
+            "Свежи концепти, прототипи и идеје које истражујемо док студио расте.",
           badge: "Lab",
         },
       ],
-      emptyLabel: "Nova izdanja uskoro stižu.",
-      filledLabel: "20+ aplikacija i igara, i broj raste.",
-      kindApp: "Aplikacija",
-      kindGame: "Igra",
+      emptyLabel: "Нова издања ускоро стижу.",
+      filledLabel: "20+ апликација и игара, и број расте.",
+      kindApp: "Апликација",
+      kindGame: "Игра",
       playStore: "Google Play",
-      website: "Veb sajt",
-      detailsLabel: "Pogledaj detalje",
+      website: "Веб сајт",
+      detailsLabel: "Погледај детаље",
     },
     contact: {
-      eyebrow: "Kontakt",
-      title: "Hajde da pričamo.",
+      eyebrow: "Контакт",
+      title: "Хајде да причамо.",
       description:
-        "Nema kontakt forme — samo direktni linkovi za biznis, pravna pitanja, podršku i društvene mreže.",
-      email: "Opšti mejl",
-      legal: "Pravni mejl",
-      playStore: "Google Play developer stranica",
+        "Нема контакт форме — само директни линкови за бизнис, правна питања, подршку и друштвене мреже.",
+      email: "Општи мејл",
+      legal: "Правни мејл",
+      playStore: "Google Play developer страница",
       facebook: "Facebook",
       linkedin: "LinkedIn",
       x: "X / Twitter",
@@ -1555,91 +1555,91 @@ export const baseTranslations = {
       youtube: "YouTube",
     },
     privacy: {
-      title: "Politika privatnosti",
+      title: "Политика приватности",
       intro:
-        "Ova stranica objašnjava kako StoopidCartoons može obrađivati informacije vezane za svoj sajt, aplikacije, igre i kanale podrške.",
+        "Ова страница објашњава како StoopidCartoons може обрађивати информације везане за свој сајт, апликације, игре и канале подршке.",
       sections: [
         {
-          title: "Šta prikupljamo",
+          title: "Шта прикупљамо",
           body:
-            "Prikupljamo samo informacije koje su potrebne za rad naših sajtova, aplikacija, analitike i kanala podrške. To može uključivati podatke o uređaju, crash logove, identifikatore prodavnice i poruke koje nam šalješ.",
+            "Прикупљамо само информације које су потребне за рад наших сајтова, апликација, аналитике и канала подршке. То може укључивати податке о уређају, crash логове, идентификаторе продавнице и поруке које нам шаљеш.",
         },
         {
-          title: "Kako koristimo informacije",
+          title: "Како користимо информације",
           body:
-            "Podatke koristimo da bismo pokretali naše proizvode, unapređivali performanse, odgovarali na zahteve za podršku i poštovali zakonske obaveze.",
+            "Податке користимо да бисмо покретали наше производе, унапређивали перформансе, одговарали на захтеве за подршку и поштовали законске обавезе.",
         },
         {
-          title: "Treće strane i partneri",
+          title: "Треће стране и партнери",
           body:
-            "Ne prodajemo lične podatke. Možemo koristiti pouzdane pružaoce usluga za analitiku, crash reporting, hosting ili plaćanja kada je to potrebno za rad naših proizvoda.",
+            "Не продајемо личне податке. Можемо користити поуздане пружаоце услуга за аналитику, crash reporting, hosting или плаћања када је то потребно за рад наших производа.",
         },
         {
-          title: "Čuvanje podataka",
+          title: "Чување података",
           body:
-            "Podatke čuvamo samo onoliko dugo koliko je potrebno za svrhu zbog koje su prikupljeni, osim ako zakon ne zahteva duži rok čuvanja.",
+            "Податке чувамо само онолико дуго колико је потребно за сврху због које су прикупљени, осим ако закон не захтева дужи рок чувања.",
         },
         {
-          title: "Privatnost dece",
+          title: "Приватност деце",
           body:
-            "Neke igre i aplikacije mogu biti namenjene široj publici. Kada je proizvod namenjen deci, trudimo se da smanjimo prikupljanje podataka i poštujemo važeće zahteve platformi i privatnosti.",
+            "Неке игре и апликације могу бити намењене широј публици. Када је производ намењен деци, трудимо се да смањимо прикупљање података и поштујемо важеће захтеве платформи и приватности.",
         },
         {
-          title: "Pitanja i zahtevi",
+          title: "Питања и захтеви",
           body:
-            "Ako imaš pitanje o privatnosti, zahtev za podatke ili zahtev za uklanjanje sadržaja, kontaktiraj nas putem mejla navedenog na ovom sajtu.",
+            "Ако имаш питање о приватности, захтев за податке или захтев за уклањање садржаја, контактирај нас путем мејла наведеног на овом сајту.",
         },
       ],
       disclaimer:
-        "Zameni ovu početnu verziju konačnim tekstom politike privatnosti pre objave.",
+        "Замени ову почетну верзију коначним текстом политике приватности пре објаве.",
     },
     terms: {
-      title: "Uslovi korišćenja",
+      title: "Услови коришћења",
       intro:
-        "Ovi početni uslovi važe za StoopidCartoons sajt i mogu se prilagoditi za pojedinačne aplikacije ili igre.",
+        "Ови почетни услови важе за StoopidCartoons сајт и могу се прилагодити за појединачне апликације или игре.",
       sections: [
         {
-          title: "Prihvatanje",
+          title: "Прихватање",
           body:
-            "Korišćenjem našeg sajta, aplikacija ili igara prihvataš ove uslove i sva pravila specifična za proizvod prikazana unutar proizvoda ili na stranici prodavnice.",
+            "Коришћењем нашег сајта, апликација или игара прихваташ ове услове и сва правила специфична за производ приказана унутар производа или на страници продавнице.",
         },
         {
-          title: "Dozvoljeno korišćenje",
+          title: "Дозвољено коришћење",
           body:
-            "Naše proizvode možeš koristiti samo na zakonit način. Ne smeš kopirati, vršiti reverzni inženjering, zloupotrebljavati, ometati ili nepropisno koristiti naše usluge ili sadržaj.",
+            "Наше производе можеш користити само на законит начин. Не смеш копирати, вршити реверзни инжењеринг, злоупотребљавати, ометати или непрописно користити наше услуге или садржај.",
         },
         {
-          title: "Intelektualno vlasništvo",
+          title: "Интелектуално власништво",
           body:
-            "Sav brending, ilustracije, kod, tekst i materijali proizvoda pripadaju StoopidCartoons-u ili se koriste uz dozvolu, osim ako nije drugačije navedeno.",
+            "Сав брендинг, илустрације, код, текст и материјали производа припадају StoopidCartoons-у или се користе уз дозволу, осим ако није другачије наведено.",
         },
         {
-          title: "Dostupnost",
+          title: "Доступност",
           body:
-            "Možemo menjati, ažurirati, pauzirati ili ukinuti proizvode, funkcije ili sadržaj u bilo kom trenutku bez prethodne najave.",
+            "Можемо мењати, ажурирати, паузирати или укинути производе, функције или садржај у било ком тренутку без претходне најаве.",
         },
         {
-          title: "Odricanje odgovornosti",
+          title: "Одрицање од одговорности",
           body:
-            "Naši proizvodi se pružaju po principu “takvi kakvi jesu” i “u skladu sa dostupnošću”, u najvećoj meri dozvoljenoj zakonom.",
+            "Наши производи се пружају по принципу “такви какви јесу” и “у складу са доступношћу”, у највећој мери дозвољеној законом.",
         },
         {
-          title: "Kontakt",
+          title: "Контакт",
           body:
-            "Za pravna pitanja, poslovne upite ili zahteve vezane za prava koristi kontakt linkove navedene na ovom sajtu.",
+            "За правна питања, пословне упите или захтеве везане за права користи контакт линкове наведене на овом сајту.",
         },
       ],
       disclaimer:
-        "Neka pravnik pregleda konačni tekst pre objave.",
+        "Нека правник прегледа коначни текст пре објаве.",
     },
     footer: {
-      tagline: "Android aplikacije i igre sa jakim karakterom.",
-      rights: "Sva prava zadržana.",
-      switcher: "Jezik",
+      tagline: "Андроид апликације и игре са јаким карактером.",
+      rights: "Сва права задржана.",
+      switcher: "Језик",
     },
     common: {
-      backHome: "Nazad na početnu",
-      viewShowcase: "Pogledaj showcase",
+      backHome: "Назад на почетну",
+      viewShowcase: "Погледај showcase",
     },
   },
 
