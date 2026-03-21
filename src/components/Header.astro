@@ -1,0 +1,94 @@
+---
+import type { Locale, PagePath } from "../utils/i18n";
+import { buildPath } from "../utils/i18n";
+import LanguageSwitcher from "./LanguageSwitcher.astro";
+
+interface Props {
+  lang: Locale;
+  slug?: PagePath;
+  nav: {
+    home: string;
+    showcase: string;
+    privacy: string;
+    terms: string;
+    contact: string;
+  };
+  switcherLabel: string;
+}
+
+const { lang, slug = "", nav, switcherLabel } = Astro.props;
+
+const activeKey = slug.startsWith("showcase")
+  ? "showcase"
+  : slug === "privacy" || slug === "terms" || slug === "contact"
+    ? slug
+    : "";
+
+const links = [
+  { label: nav.home, href: buildPath(lang), key: "" },
+  { label: nav.showcase, href: buildPath(lang, "showcase"), key: "showcase" },
+  { label: nav.privacy, href: buildPath(lang, "privacy"), key: "privacy" },
+  { label: nav.terms, href: buildPath(lang, "terms"), key: "terms" },
+  { label: nav.contact, href: buildPath(lang, "contact"), key: "contact" },
+];
+---
+
+<header class="site-header">
+  <div class="wrapper topbar">
+    <a class="brand" href={buildPath(lang)}>
+      <img
+        class="brand-mark"
+        src={`${import.meta.env.BASE_URL}logo.png`}
+        alt=""
+        aria-hidden="true"
+      />
+      <span class="brand-name">StoopidCartoons</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary">
+      {
+        links.map((item) => (
+          <a
+            class:list={["nav-link", { active: item.key === activeKey }]}
+            href={item.href}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <div class="desktop-actions">
+      <LanguageSwitcher currentLang={lang} slug={slug} label={switcherLabel} />
+    </div>
+
+    <details class="mobile-menu">
+      <summary aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </summary>
+
+      <div class="mobile-panel">
+        <nav class="mobile-nav" aria-label="Mobile">
+          {
+            links.map((item) => (
+              <a
+                class:list={["nav-link", { active: item.key === activeKey }]}
+                href={item.href}
+              >
+                {item.label}
+              </a>
+            ))
+          }
+        </nav>
+
+        <LanguageSwitcher
+          currentLang={lang}
+          slug={slug}
+          label={switcherLabel}
+        />
+      </div>
+    </details>
+  </div>
+</header>

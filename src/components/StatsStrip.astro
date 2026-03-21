@@ -1,0 +1,18 @@
+---
+interface Props {
+  items?: Array<{ value: string; label: string }>;
+}
+
+const { items = [] } = Astro.props;
+---
+
+<section class="section section-tight">
+  <div class="wrapper stats-grid">
+    {items.map((item) => (
+      <article class="stat-card" data-reveal>
+        <strong>{item.value}</strong>
+        <span>{item.label}</span>
+      </article>
+    ))}
+  </div>
+</section>

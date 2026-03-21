@@ -1,0 +1,76 @@
+---
+import Hero from "../../components/Hero.astro";
+import ProductGrid from "../../components/ProductGrid.astro";
+import SectionTitle from "../../components/SectionTitle.astro";
+import ServicesGrid from "../../components/ServicesGrid.astro";
+import StatsStrip from "../../components/StatsStrip.astro";
+import MainLayout from "../../layouts/MainLayout.astro";
+import { getFeaturedReleases } from "../../data/releases";
+import { buildPath, isValidLocale } from "../../utils/i18n";
+import { uiText } from "../../utils/uiText";
+import { locales, translations } from "../../utils/translations";
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+
+if (!lang || !isValidLocale(lang)) {
+  return Astro.redirect("/en/");
+}
+
+const t = translations[lang];
+const ui = uiText[lang];
+const featuredReleases = getFeaturedReleases(lang);
+---
+
+<MainLayout
+  lang={lang}
+  title={t.seo.homeTitle}
+  description={t.seo.homeDescription}
+>
+  <Hero
+    title={t.hero.title}
+    description={t.hero.description}
+    primaryCta={t.hero.primaryCta}
+    secondaryCta={t.hero.secondaryCta}
+    showcaseHref={buildPath(lang, "showcase")}
+    contactHref={buildPath(lang, "contact")}
+    chips={ui.heroChips}
+    panels={ui.heroPanels}
+  />
+
+  <StatsStrip items={t.stats} />
+
+  <section class="section">
+    <div class="wrapper">
+      <SectionTitle
+        eyebrow={t.about.eyebrow}
+        title={t.about.title}
+        description={t.about.description}
+      />
+    </div>
+  </section>
+
+  <ServicesGrid
+    title={t.services.title}
+    intro={t.services.intro}
+    items={t.services.items}
+  />
+
+  <ProductGrid
+    lang={lang}
+    items={featuredReleases}
+    eyebrow={t.showcase.eyebrow}
+    title={t.showcase.title}
+    description={t.showcase.description}
+    emptyLabel={t.showcase.emptyLabel}
+    filledLabel={t.showcase.filledLabel}
+    kindApp={t.showcase.kindApp}
+    kindGame={t.showcase.kindGame}
+    playStore={t.showcase.playStore}
+    website={t.showcase.website}
+    detailsLabel={t.showcase.detailsLabel}
+  />
+</MainLayout>

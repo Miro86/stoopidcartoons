@@ -1,0 +1,29 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import { buildPath } from "../utils/i18n";
+
+const lang = "en";
+---
+
+<MainLayout
+  lang={lang}
+  title="Page not found — StoopidCartoons"
+  description="The page you are looking for could not be found."
+  noindex={true}
+>
+  <section class="section">
+    <div class="wrapper legal-wrapper">
+      <div class="section-heading" data-reveal>
+        <span class="eyebrow">404</span>
+        <h1 class="legal-title">Page not found</h1>
+        <p>The page you requested does not exist or has moved.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href={buildPath("en")}>Back home</a>
+          <a class="button button-secondary" href={buildPath("en", "showcase")}
+            >View showcase</a
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+</MainLayout>

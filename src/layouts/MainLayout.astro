@@ -1,0 +1,72 @@
+---
+import "../styles/global.css";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import SeoHead from "../components/SeoHead.astro";
+import type { Locale, PagePath } from "../utils/i18n";
+import { translations } from "../utils/translations";
+import Analytics from "../components/Analytics.astro";
+
+interface Props {
+  lang: Locale;
+  title: string;
+  description: string;
+  slug?: PagePath;
+  noindex?: boolean;
+}
+
+const { lang, title, description, slug = "", noindex = false } = Astro.props;
+const t = translations[lang];
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <SeoHead
+      lang={lang}
+      title={title}
+      description={description}
+      slug={slug}
+      noindex={noindex}
+    />
+    <Analytics />
+    <slot name="head" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <div class="bg-orb bg-orb-one" aria-hidden="true"></div>
+      <div class="bg-orb bg-orb-two" aria-hidden="true"></div>
+
+      <Header
+        lang={lang}
+        slug={slug}
+        nav={t.nav}
+        switcherLabel={t.footer.switcher}
+      />
+
+      <main>
+        <slot />
+      </main>
+
+      <Footer lang={lang} nav={t.nav} footer={t.footer} />
+    </div>
+
+    <script is:inline>
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.12 },
+      );
+
+      document.querySelectorAll("[data-reveal]").forEach((element) => {
+        observer.observe(element);
+      });
+    </script>
+  </body>
+</html>

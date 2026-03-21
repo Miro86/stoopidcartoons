@@ -1,0 +1,69 @@
+---
+import { siteConfig } from "../config/site";
+
+interface Props {
+  eyebrow: string;
+  title: string;
+  description: string;
+  labels: {
+    email: string;
+    legal: string;
+    playStore: string;
+    facebook: string;
+    linkedin: string;
+    x: string;
+    instagram: string;
+    youtube: string;
+  };
+}
+
+const { eyebrow, title, description, labels } = Astro.props;
+
+const links = [
+  {
+    label: labels.email,
+    value: siteConfig.email,
+    href: `mailto:${siteConfig.email}`,
+  },
+  {
+    label: labels.playStore,
+    value: "Google Play",
+    href: siteConfig.googlePlayDeveloperUrl,
+  },
+  { label: labels.facebook, value: "Facebook", href: siteConfig.facebookUrl },
+  { label: labels.x, value: "X", href: siteConfig.xUrl },
+  {
+    label: labels.instagram,
+    value: "Instagram",
+    href: siteConfig.instagramUrl,
+  },
+  { label: labels.youtube, value: "YouTube", href: siteConfig.youtubeUrl },
+];
+---
+
+<section class="section">
+  <div class="wrapper">
+    <div class="section-heading" data-reveal>
+      <span class="eyebrow">{eyebrow}</span>
+      <h2>{title}</h2>
+      <p>{description}</p>
+    </div>
+
+    <div class="contact-grid">
+      {
+        links.map((item) => (
+          <a
+            class="contact-card"
+            href={item.href}
+            target={item.href.startsWith("mailto:") ? "_self" : "_blank"}
+            rel="noreferrer"
+            data-reveal
+          >
+            <span class="contact-label">{item.label}</span>
+            <strong>{item.value}</strong>
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</section>

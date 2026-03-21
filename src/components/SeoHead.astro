@@ -1,0 +1,131 @@
+---
+import { siteConfig } from "../config/site";
+import { localeNames, locales } from "../utils/translations";
+import type { Locale, PagePath } from "../utils/i18n";
+import { buildAbsoluteUrl, buildPath } from "../utils/i18n";
+
+interface Props {
+  lang: Locale;
+  title: string;
+  description: string;
+  slug?: PagePath;
+  imagePath?: string;
+  noindex?: boolean;
+}
+
+const {
+  lang,
+  title,
+  description,
+  slug = "",
+  imagePath = siteConfig.socialImagePath,
+  noindex = false,
+} = Astro.props;
+
+const canonical = buildAbsoluteUrl(buildPath(lang, slug));
+const imageUrl = buildAbsoluteUrl(imagePath);
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: siteConfig.companyName,
+  url: siteConfig.siteUrl,
+  email: siteConfig.email,
+  logo: buildAbsoluteUrl("/favicon.png"),
+  sameAs: [
+    siteConfig.googlePlayDeveloperUrl,
+    siteConfig.facebookUrl,
+    siteConfig.xUrl,
+    siteConfig.instagramUrl,
+    siteConfig.youtubeUrl,
+  ],
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: siteConfig.companyName,
+  url: siteConfig.siteUrl,
+  inLanguage: lang,
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: localeNames[lang],
+      item: buildAbsoluteUrl(buildPath(lang)),
+    },
+    ...(slug
+      ? [
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: title,
+            item: canonical,
+          },
+        ]
+      : []),
+  ],
+};
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{title}</title>
+<meta name="description" content={description} />
+<meta name="theme-color" content={siteConfig.themeColor} />
+<meta name="generator" content={Astro.generator} />
+<meta
+  name="robots"
+  content={noindex
+    ? "noindex,nofollow"
+    : "index,follow,max-image-preview:large"}
+/>
+<link rel="canonical" href={canonical} />
+<link
+  rel="icon"
+  href={`${import.meta.env.BASE_URL}favicon.png`}
+  type="image/svg+xml"
+/>
+
+{
+  locales.map((locale) => (
+    <link
+      rel="alternate"
+      hreflang={locale}
+      href={buildAbsoluteUrl(buildPath(locale, slug))}
+    />
+  ))
+}
+<link
+  rel="alternate"
+  hreflang="x-default"
+  href={buildAbsoluteUrl(buildPath("en", slug))}
+/>
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content={siteConfig.companyName} />
+<meta property="og:locale" content={lang} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={imageUrl} />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={imageUrl} />
+
+<script
+  type="application/ld+json"
+  set:html={JSON.stringify(organizationSchema)}
+/>
+<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+<script
+  type="application/ld+json"
+  set:html={JSON.stringify(breadcrumbSchema)}
+/>

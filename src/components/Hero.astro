@@ -1,0 +1,57 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  primaryCta: string;
+  secondaryCta: string;
+  showcaseHref: string;
+  contactHref: string;
+  chips: {
+    apps: string;
+    games: string;
+  };
+  panels: Array<{ title: string; description: string }>;
+}
+
+const {
+  title,
+  description,
+  primaryCta,
+  secondaryCta,
+  showcaseHref,
+  contactHref,
+  chips,
+  panels,
+} = Astro.props;
+---
+
+<section class="hero section">
+  <div class="wrapper hero-grid">
+    <div class="hero-copy" data-reveal>
+      <h1>{title}</h1>
+      <p class="hero-description">{description}</p>
+
+      <div class="hero-actions">
+        <a class="button button-primary" href={showcaseHref}>{primaryCta}</a>
+        <a class="button button-secondary" href={contactHref}>{secondaryCta}</a>
+      </div>
+    </div>
+
+    <div class="hero-card" data-reveal>
+      <div class="hero-card-top">
+        <span class="chip chip-red">Android</span>
+        <span class="chip">{chips.apps}</span>
+        <span class="chip">{chips.games}</span>
+      </div>
+
+      <div class="hero-card-grid">
+        {panels.map((panel) => (
+          <article class="mini-panel">
+            <strong>{panel.title}</strong>
+            <p>{panel.description}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>

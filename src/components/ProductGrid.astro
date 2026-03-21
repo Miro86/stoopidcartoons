@@ -1,0 +1,117 @@
+---
+import type { Locale } from "../utils/i18n";
+import { buildPath } from "../utils/i18n";
+import type { Release } from "../data/releases";
+
+interface Props {
+  lang: Locale;
+  eyebrow: string;
+  title: string;
+  description: string;
+  items: Release[];
+  emptyLabel: string;
+  filledLabel: string;
+  kindApp: string;
+  kindGame: string;
+  playStore: string;
+  website: string;
+  detailsLabel?: string;
+}
+
+const {
+  lang,
+  eyebrow,
+  title,
+  description,
+  items,
+  emptyLabel,
+  filledLabel,
+  kindApp,
+  kindGame,
+  playStore,
+  website,
+  detailsLabel = "View details",
+} = Astro.props;
+
+const hasProducts = items.length > 0;
+const baseUrl = import.meta.env.BASE_URL;
+
+const accentClassMap = {
+  red: "pill-red",
+  blue: "pill-blue",
+  green: "pill-green",
+  orange: "pill-orange",
+} as const;
+---
+
+<section class="section">
+  <div class="wrapper">
+    <div class="section-heading" data-reveal>
+      <span class="eyebrow">{eyebrow}</span>
+      <h2>{title}</h2>
+      <p>{description}</p>
+    </div>
+
+    <div class="section-subtitle" data-reveal>
+      <span>{hasProducts ? filledLabel : emptyLabel}</span>
+    </div>
+
+    <div class="card-grid showcase-grid">
+      {
+        hasProducts
+          ? items.map((item) => (
+              <article class="showcase-card" data-reveal>
+                <div class="showcase-card-icon-shell">
+                  <img
+                    class="showcase-card-icon"
+                    src={`${baseUrl}${item.icon}`}
+                    alt={`${item.name} icon`}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+
+                <div class="showcase-top">
+                  <span class:list={["pill", accentClassMap[item.accent]]}>
+                    {item.kind === "game" ? kindGame : kindApp}
+                  </span>
+                </div>
+
+                <h3>{item.name}</h3>
+                <p>{item.summary}</p>
+
+                <div class="tag-row">
+                  <span class="tag tag-strong">{item.category}</span>
+                  {item.tags.map((tag) => (
+                    <span class="tag">{tag}</span>
+                  ))}
+                </div>
+
+                <div class="link-row">
+                  <a href={buildPath(lang, `showcase/${item.slug}`)}>
+                    {detailsLabel}
+                  </a>
+
+                  {item.googlePlayUrl && (
+                    <a
+                      href={item.googlePlayUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {playStore}
+                    </a>
+                  )}
+
+                  {item.websiteUrl && (
+                    <a href={item.websiteUrl} target="_blank" rel="noreferrer">
+                      {website}
+                    </a>
+                  )}
+                </div>
+              </article>
+            ))
+          : null
+      }
+    </div>
+  </div>
+</section>

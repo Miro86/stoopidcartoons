@@ -1,0 +1,27 @@
+---
+import { localeNames, locales } from '../utils/translations';
+import { buildPath } from '../utils/i18n';
+import type { PagePath } from '../utils/i18n';
+
+interface Props {
+  currentLang: typeof locales[number];
+  slug?: PagePath;
+  label: string;
+}
+
+const { currentLang, slug = '', label } = Astro.props;
+---
+
+<label class="language-switcher">
+  <span class="sr-only">{label}</span>
+  <select
+    aria-label={label}
+    onchange="window.location.href=this.value"
+  >
+    {locales.map((lang) => (
+      <option value={buildPath(lang, slug)} selected={lang === currentLang}>
+        {localeNames[lang]}
+      </option>
+    ))}
+  </select>
+</label>

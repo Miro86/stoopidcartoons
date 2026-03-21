@@ -1,0 +1,225 @@
+---
+import MainLayout from "../../../layouts/MainLayout.astro";
+import { siteConfig } from "../../../config/site";
+import { getReleaseBySlug, getReleases } from "../../../data/releases";
+import {
+  buildAbsoluteUrl,
+  buildPath,
+  isValidLocale,
+} from "../../../utils/i18n";
+import { locales, translations } from "../../../utils/translations";
+import { uiText } from "../../../utils/uiText";
+
+export function getStaticPaths() {
+  const releases = getReleases("en");
+
+  return locales.flatMap((lang) =>
+    releases.map((release) => ({ params: { lang, product: release.slug } })),
+  );
+}
+
+const { lang, product } = Astro.params;
+
+if (!lang || !isValidLocale(lang) || !product) {
+  return Astro.redirect("/en/showcase/");
+}
+
+const release = getReleaseBySlug(lang, product);
+
+if (!release) {
+  return Astro.redirect(buildPath(lang, "showcase"));
+}
+
+const t = translations[lang];
+const ui = uiText[lang];
+const pageTitle = `${release.name} — ${siteConfig.companyName}`;
+const pageDescription = release.summary;
+const pagePath = `showcase/${release.slug}` as const;
+const pageUrl = buildAbsoluteUrl(buildPath(lang, pagePath));
+
+const baseUrl = import.meta.env.BASE_URL;
+const releaseIconUrl = `${baseUrl}${release.icon}`;
+
+const softwareSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  name: release.name,
+  applicationCategory:
+    release.kind === "game" ? "GameApplication" : "UtilitiesApplication",
+  operatingSystem: release.platforms.join(", "),
+  description: release.summary,
+  image: buildAbsoluteUrl(releaseIconUrl),
+  creator: {
+    "@type": "Organization",
+    name: siteConfig.companyName,
+    url: siteConfig.siteUrl,
+  },
+  url: pageUrl,
+  ...(release.googlePlayUrl
+    ? {
+        offers: {
+          "@type": "Offer",
+          url: release.googlePlayUrl,
+          price: "0",
+          priceCurrency: "USD",
+          availability: "https://schema.org/InStock",
+        },
+        installUrl: release.googlePlayUrl,
+      }
+    : {}),
+};
+
+const accentClassMap = {
+  red: "pill-red",
+  blue: "pill-blue",
+  green: "pill-green",
+  orange: "pill-orange",
+} as const;
+---
+
+<MainLayout
+  lang={lang}
+  title={pageTitle}
+  description={pageDescription}
+  slug={pagePath}
+>
+  <Fragment slot="head">
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify(softwareSchema)}
+    />
+  </Fragment>
+
+  <section class="section product-hero-section">
+    <div class="wrapper product-hero-grid">
+      <div class="product-copy" data-reveal>
+        <div class="product-heading">
+          <div class="product-icon-shell">
+            <img
+              class="product-icon"
+              src={releaseIconUrl}
+              alt={`${release.name} icon`}
+              loading="eager"
+              decoding="async"
+            />
+          </div>
+
+          <div class="product-heading-copy">
+            <div class="product-meta-row">
+              <span class:list={["pill", accentClassMap[release.accent]]}>
+                {
+                  release.kind === "game"
+                    ? t.showcase.kindGame
+                    : t.showcase.kindApp
+                }
+              </span>
+              <span class="muted-label">{release.category}</span>
+            </div>
+
+            <h1 class="product-title">{release.name}</h1>
+          </div>
+        </div>
+
+        <p class="product-summary">{release.summary}</p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href={buildPath(lang, "showcase")}>
+            {t.nav.showcase}
+          </a>
+
+          {
+            release.googlePlayUrl && (
+              <a
+                class="button button-secondary"
+                href={release.googlePlayUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {t.showcase.playStore}
+              </a>
+            )
+          }
+
+          {
+            release.websiteUrl && (
+              <a
+                class="button button-secondary"
+                href={release.websiteUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {t.showcase.website}
+              </a>
+            )
+          }
+        </div>
+      </div>
+
+      <div class="product-panel" data-reveal>
+        <div class="product-panel-header">
+          <span class="muted-label">{release.category}</span>
+          <span class="muted-label">{release.platforms.join(" • ")}</span>
+        </div>
+
+        <div class="product-panel-grid">
+          <article class="mini-panel">
+            <strong>{ui.product.platforms}</strong>
+            <p>{release.platforms.join(", ")}</p>
+          </article>
+
+          <article class="mini-panel">
+            <strong>{ui.product.category}</strong>
+            <p>{release.category}</p>
+          </article>
+
+          <article class="mini-panel">
+            <strong>{ui.product.tags}</strong>
+            <p>{release.tags.join(", ")}</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section product-content-section">
+    <div class="wrapper product-content-grid">
+      <article class="content-card" data-reveal>
+        <h2>{ui.product.overview}</h2>
+        <div class="content-stack">
+          {release.longDescription.map((paragraph) => <p>{paragraph}</p>)}
+        </div>
+      </article>
+
+      <aside class="content-card" data-reveal>
+        <h2>{ui.product.highlights}</h2>
+
+        <div class="tag-row product-tag-row">
+          {release.tags.map((tag) => <span class="tag">{tag}</span>)}
+        </div>
+
+        <div class="product-quick-facts">
+          <div>
+            <span class="muted-label">{ui.product.studio}</span>
+            <strong>{siteConfig.companyName}</strong>
+          </div>
+
+          <div>
+            <span class="muted-label">{ui.product.primaryPlatform}</span>
+            <strong>{release.platforms[0]}</strong>
+          </div>
+
+          <div>
+            <span class="muted-label">{ui.product.productType}</span>
+            <strong
+              >{
+                release.kind === "game"
+                  ? t.showcase.kindGame
+                  : t.showcase.kindApp
+              }</strong
+            >
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+</MainLayout>
