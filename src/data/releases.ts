@@ -26,6 +26,14 @@ export interface Release extends ReleaseBase, ReleaseTranslation { }
 
 const releaseBases = [
   {
+    slug: 'habit-tracker',
+    kind: 'app',
+    featured: true,
+    accent: 'orange',
+    icon: 'apps/icons/HabitTracker.png',
+    googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.stoopidcartoons.habittracker',
+  },
+  {
     slug: 'water-reminder',
     kind: 'app',
     featured: true,
@@ -44,7 +52,7 @@ const releaseBases = [
   {
     slug: 'gastarbajter',
     kind: 'game',
-    featured: true,
+    featured: false,
     accent: 'red',
     icon: 'apps/icons/Gastarbajter.png',
     googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.stoopidcartoons.gastarbajter',
@@ -73,50 +81,26 @@ const releaseBases = [
     icon: 'apps/icons/ZigZag.png',
     googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.stoopidcartoons.zigzagski'
   },
-  {
-    slug: 'kiss-the-boss',
-    kind: 'game',
-    featured: false,
-    accent: 'red',
-    icon: 'apps/icons/KissTheBoss.png',
-    googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.stoopidcartoons.kisstheboss'
-  },
-  {
-    slug: 'santas-lost-presents',
-    kind: 'game',
-    featured: false,
-    accent: 'orange',
-    icon: 'apps/icons/Santa.png',
-    googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.stoopidcartoons.santaslostpresents'
-  },
-  {
-    slug: 'cowboy-duel',
-    kind: 'game',
-    featured: false,
-    accent: 'red',
-    icon: 'apps/icons/CowboyDuel.webp',
-    googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.stoopidcartoons.cowboyduel'
-  },
 ] as const satisfies readonly ReleaseBase[];
 
 type ReleaseSlug = (typeof releaseBases)[number]['slug'];
 
 const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation>> = {
   en: {
-    'cowboy-duel': {
-      name: 'Cowboy Duel',
+    'habit-tracker': {
+      name: 'Habit Tracker',
       summary:
-        'Test your reflexes in fast-paced western duels where timing is everything—draw faster than your opponent and become the ultimate gunslinger.',
+        'Build better routines with Habit Tracker, a flexible habit tracker with reminders, streaks, daily check-ins, and clear progress statistics.',
       longDescription: [
-        'Cowboy Duel is a fast-paced reaction game set in the wild west, where your goal is simple: draw your weapon faster than your opponent and win the duel. Every match is a test of timing, focus, and nerves.',
-        'Step into the boots of a gunslinger and face off against opponents in intense one-on-one duels. Wait for the perfect moment, react instantly, and fire before your rival gets the chance. But be careful—shoot too early and you lose.',
-        'The gameplay is easy to understand but difficult to master, making it perfect for quick sessions while still offering a challenge for players who want to improve their reaction speed.',
-        'With its simple controls and engaging mechanics, Cowboy Duel keeps you coming back to beat your best times and sharpen your reflexes. Each duel feels tense and rewarding, especially when victory comes down to split-second decisions.',
-        'Whether you are looking to pass time or compete with friends for the fastest draw, Cowboy Duel delivers a fun and addictive experience inspired by classic western shootouts.',
+        'Habit Tracker is a simple and flexible habit tracker app for building better daily routines, staying consistent, and reaching personal goals. Whether you want to read more, exercise, drink water, meditate, study, or improve productivity, Habit Tracker helps you turn intentions into habits you can keep.',
+        'Create habits that fit your lifestyle with multiple tracking types and flexible schedules. Track habits as done or not done, numeric goals, or minutes-based routines. Set habits for every day, specific days, every X days, or a target number of times per week.',
+        'Stay consistent with day by day check-ins, habit reminders, and a clean timeline that makes progress easy to follow. Habit Tracker helps you build streaks, review past days, and stay accountable without making the process complicated.',
+        'Understand your progress with detailed habit statistics, including current streak, longest streak, weekly completion, monthly completion, consistency score, total check-ins, a 7 day trend, and a calendar heatmap. These insights help you see what is working and where you can improve.',
+        'Designed for speed, clarity, and focus, Habit Tracker gives you an easy way to organize habits by title, description, category, and color. With dark mode, language support, and smart reminders, Habit Tracker is a practical Android app for anyone who wants to build lasting habits and stronger routines.',
       ],
-      category: 'Arcade',
+      category: 'Productivity',
       platforms: ['Android'],
-      tags: ['Reflex Game', 'Arcade', 'Reaction Time', 'Western', 'Casual'],
+      tags: ['Habit Tracker', 'Routines', 'Streaks', 'Reminders', 'Productivity'],
     },
     'water-reminder': {
       name: 'Water Reminder',
@@ -207,53 +191,23 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
       platforms: ['Android'],
       tags: ['Casual Game', 'Arcade', 'Action'],
     },
-    'kiss-the-boss': {
-      name: 'Kiss The Boss',
-      summary:
-        'Test your speed and reflexes in a humorous workplace arcade game where kissing the boss is the key to survival.',
-      longDescription: [
-        'Kiss The Boss is a quirky casual arcade game that turns workplace humor into a fast-paced reflex challenge. Your goal is simple — kiss your boss as quickly and efficiently as possible to keep your job and climb the ranks.',
-        'Built around a unique and comedic concept, the game challenges players to react fast, time their actions, and improve their performance with each attempt. The better and faster you perform, the higher your chances of success.',
-        'Inspired by exaggerated workplace scenarios, Kiss The Boss blends satire, humor, and simple gameplay mechanics into an experience that is both entertaining and easy to pick up.',
-        'The controls are minimal and accessible, making it perfect for short play sessions while still offering a competitive edge through score improvement and replayability.',
-        'Whether you’re looking for a lighthearted arcade game or something different from traditional mechanics, Kiss The Boss delivers a fun and unconventional gameplay loop designed for quick entertainment.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
-    'santas-lost-presents': {
-      name: 'Santa’s Lost Presents',
-      summary:
-        'Help Santa recover lost gifts, avoid obstacles, and save Christmas in a festive arcade action adventure.',
-      longDescription: [
-        'Santa’s Lost Presents is a festive arcade action game where your mission is to help Santa recover all the gifts he accidentally lost on his journey from the North Pole. With Christmas at stake, every present counts.',
-        'As Santa travels across different environments, players must collect scattered presents and overcome obstacles to ensure every child receives their gift on time. The gameplay is simple, fast-paced, and focused on movement, timing, and awareness.',
-        'Inspired by classic arcade mechanics, the game challenges players to improve their reflexes while navigating through increasingly difficult situations. Each run brings new opportunities to collect more presents and improve your score.',
-        'With a cheerful holiday theme and accessible controls, Santa’s Lost Presents is perfect for quick play sessions during the festive season or anytime you want a light and engaging experience.',
-        'Whether you enjoy Christmas-themed games or classic action arcade challenges, Santa’s Lost Presents delivers a fun and replayable gameplay loop centered around collecting, avoiding, and saving the holiday spirit.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
   },
 
   de: {
-    'cowboy-duel': {
-      name: 'Cowboy Duel',
+    'habit-tracker': {
+      name: 'Habit Tracker',
       summary:
-        'Teste deine Reflexe in schnellen Western-Duellen, bei denen Timing alles ist – ziehe schneller als dein Gegner und werde zum ultimativen Revolverhelden.',
+        'Baue bessere Routinen mit Habit Tracker auf, einem flexiblen Habit Tracker mit Erinnerungen, Streaks, täglichen Check-ins und klaren Fortschrittsstatistiken.',
       longDescription: [
-        'Cowboy Duel ist ein rasantes Reaktionsspiel im Wilden Westen, bei dem dein Ziel einfach ist: Ziehe deine Waffe schneller als dein Gegner und gewinne das Duell.',
-        'Schlüpfe in die Rolle eines Revolverhelden und tritt in intensiven Eins-gegen-eins-Duellen an. Warte auf den richtigen Moment, reagiere blitzschnell und schieße vor deinem Rivalen.',
-        'Das Gameplay ist leicht zu verstehen, aber schwer zu meistern – perfekt für kurze Spielsessions mit einer echten Herausforderung.',
-        'Mit einfachen Steuerungen und fesselnder Mechanik wirst du immer wieder zurückkommen, um deine Reaktionszeit zu verbessern.',
-        'Ob zum Zeitvertreib oder zum Wettbewerb mit Freunden – Cowboy Duel bietet ein spannendes und süchtig machendes Spielerlebnis.',
+        'Habit Tracker ist eine einfache und flexible Habit-Tracker-App, mit der du bessere tägliche Routinen aufbauen, konsequent bleiben und persönliche Ziele erreichen kannst. Egal ob du mehr lesen, trainieren, Wasser trinken, meditieren, lernen oder produktiver sein möchtest – Habit Tracker hilft dir dabei, gute Vorsätze in Gewohnheiten zu verwandeln, die du wirklich beibehalten kannst.',
+        'Erstelle Gewohnheiten, die zu deinem Alltag passen, mit mehreren Tracking-Typen und flexiblen Zeitplänen. Verfolge Gewohnheiten als erledigt oder nicht erledigt, als numerische Ziele oder als minutenbasierte Routinen. Plane Gewohnheiten für jeden Tag, bestimmte Tage, alle X Tage oder eine Zielanzahl pro Woche.',
+        'Bleibe konsequent mit täglichen Check-ins, Habit-Erinnerungen und einer klaren Zeitleiste, die deinen Fortschritt leicht nachvollziehbar macht. Habit Tracker hilft dir dabei, Streaks aufzubauen, vergangene Tage zu überprüfen und verantwortlich dranzubleiben, ohne den Prozess unnötig kompliziert zu machen.',
+        'Verstehe deinen Fortschritt mit detaillierten Habit-Statistiken wie aktueller Streak, längster Streak, wöchentlicher Erfüllung, monatlicher Erfüllung, Beständigkeitswert, Gesamtzahl der Check-ins, 7-Tage-Trend und Kalender-Heatmap. Diese Einblicke zeigen dir, was gut funktioniert und wo du dich verbessern kannst.',
+        'Habit Tracker wurde für Schnelligkeit, Übersicht und Fokus entwickelt und bietet dir eine einfache Möglichkeit, Gewohnheiten nach Titel, Beschreibung, Kategorie und Farbe zu organisieren. Mit Dark Mode, Sprachunterstützung und smarten Erinnerungen ist Habit Tracker eine praktische Android-App für alle, die dauerhafte Gewohnheiten und stärkere Routinen aufbauen möchten.',
       ],
-      category: 'Arcade',
+      category: 'Produktivität',
       platforms: ['Android'],
-      tags: ['Reflexspiel', 'Arcade', 'Reaktionszeit', 'Western', 'Casual'],
+      tags: ['Habit Tracker', 'Routinen', 'Streaks', 'Erinnerungen', 'Produktivität'],
     },
     'water-reminder': {
       name: 'Water Reminder',
@@ -344,53 +298,23 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
       platforms: ['Android'],
       tags: ['Casual Game', 'Arcade', 'Action'],
     },
-    'kiss-the-boss': {
-      name: 'Kiss The Boss',
-      summary:
-        'Teste deine Reflexe in einem humorvollen Spiel, in dem du den Chef küssen musst.',
-      longDescription: [
-        'Kiss The Boss ist ein skurriles Casual-Arcade-Spiel, das Bürohumor in eine rasante Reflex-Herausforderung verwandelt. Dein Ziel ist einfach — küsse deinen Chef so schnell und effizient wie möglich, um deinen Job zu behalten und die Karriereleiter hinaufzusteigen.',
-        'Rund um ein einzigartiges und komödiantisches Konzept fordert das Spiel die Spieler dazu auf, schnell zu reagieren, ihre Aktionen gut zu timen und ihre Leistung mit jedem Versuch zu verbessern. Je besser und schneller du spielst, desto höher sind deine Erfolgschancen.',
-        'Inspiriert von überzeichneten Arbeitsplatzszenarien verbindet Kiss The Boss Satire, Humor und einfache Spielmechaniken zu einem Erlebnis, das sowohl unterhaltsam als auch leicht zugänglich ist.',
-        'Die Steuerung ist minimalistisch und zugänglich, wodurch sich das Spiel perfekt für kurze Sessions eignet und gleichzeitig durch Highscores und Wiederspielwert einen Wettbewerbseffekt bietet.',
-        'Wenn du ein lockeres Arcade-Spiel suchst oder etwas anderes als klassische Spielmechaniken erleben möchtest, liefert Kiss The Boss eine spaßige und ungewöhnliche Gameplay-Schleife für schnelle Unterhaltung.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
-    'santas-lost-presents': {
-      name: 'Santa’s Lost Presents',
-      summary:
-        'Hilf dem Weihnachtsmann, verlorene Geschenke zu sammeln und Weihnachten zu retten.',
-      longDescription: [
-        'Santa’s Lost Presents ist ein festliches Arcade-Actionspiel, in dem deine Mission darin besteht, dem Weihnachtsmann dabei zu helfen, alle Geschenke wiederzufinden, die er auf seiner Reise vom Nordpol versehentlich verloren hat. Da Weihnachten auf dem Spiel steht, zählt jedes einzelne Geschenk.',
-        'Während Santa durch verschiedene Umgebungen reist, müssen die Spieler verstreute Geschenke einsammeln und Hindernisse überwinden, damit jedes Kind sein Geschenk rechtzeitig erhält. Das Gameplay ist einfach, schnell und konzentriert sich auf Bewegung, Timing und Aufmerksamkeit.',
-        'Inspiriert von klassischen Arcade-Mechaniken fordert das Spiel die Spieler dazu auf, ihre Reflexe zu verbessern, während sie sich durch immer schwierigere Situationen bewegen. Jeder Lauf bietet neue Chancen, mehr Geschenke zu sammeln und den eigenen Punktestand zu steigern.',
-        'Mit seinem fröhlichen Feiertagsthema und der zugänglichen Steuerung ist Santa’s Lost Presents perfekt für kurze Spielsessions in der Weihnachtszeit oder jederzeit, wenn du ein leichtes und unterhaltsames Erlebnis suchst.',
-        'Ob du Weihnachts-Spiele oder klassische Action-Arcade-Herausforderungen magst — Santa’s Lost Presents bietet eine spaßige und wiederspielbare Gameplay-Schleife rund ums Sammeln, Ausweichen und Retten des Weihnachtsgeistes.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
   },
 
   fr: {
-    'cowboy-duel': {
-      name: 'Cowboy Duel',
+    'habit-tracker': {
+      name: 'Habit Tracker',
       summary:
-        'Testez vos réflexes dans des duels de western rapides où le timing est essentiel – dégainez plus vite que votre adversaire.',
+        'Créez de meilleures routines avec Habit Tracker, un suivi des habitudes flexible avec rappels, séries, validations quotidiennes et statistiques claires.',
       longDescription: [
-        'Cowboy Duel est un jeu de réaction rapide dans l’univers du Far West, où votre objectif est simple : dégainer votre arme plus vite que votre adversaire et remporter le duel. Chaque partie met à l’épreuve votre timing, votre concentration et votre sang-froid.',
-        'Glissez-vous dans la peau d’un tireur d’élite et affrontez des adversaires dans des duels intenses en un contre un. Attendez le moment parfait, réagissez instantanément et tirez avant votre rival. Mais attention : si vous tirez trop tôt, vous perdez.',
-        'Le gameplay est facile à comprendre mais difficile à maîtriser, ce qui le rend parfait pour de courtes sessions tout en offrant un vrai défi à ceux qui veulent améliorer leur vitesse de réaction.',
-        'Avec ses commandes simples et ses mécaniques captivantes, Cowboy Duel vous donne envie de revenir pour battre vos meilleurs temps et affûter vos réflexes. Chaque duel est tendu et gratifiant, surtout lorsque la victoire se joue à une fraction de seconde.',
-        'Que vous cherchiez à passer le temps ou à rivaliser avec vos amis pour le tir le plus rapide, Cowboy Duel offre une expérience amusante et addictive inspirée des fusillades classiques du western.',
+        'Habit Tracker est une application simple et flexible de suivi des habitudes pour construire de meilleures routines quotidiennes, rester régulier et atteindre des objectifs personnels. Que vous souhaitiez lire davantage, faire du sport, boire plus d eau, méditer, étudier ou améliorer votre productivité, Habit Tracker vous aide à transformer vos intentions en habitudes durables.',
+        'Créez des habitudes adaptées à votre mode de vie grâce à plusieurs types de suivi et à une planification flexible. Suivez vos habitudes comme faites ou non faites, sous forme de valeurs numériques ou de routines basées sur le temps en minutes. Planifiez vos habitudes chaque jour, certains jours, tous les X jours ou un nombre cible de fois par semaine.',
+        'Restez constant grâce aux validations quotidiennes, aux rappels et à une chronologie claire qui rend votre progression facile à suivre. Habit Tracker vous aide à construire des séries, revoir les jours passés et garder une vraie régularité sans rendre le processus compliqué.',
+        'Analysez vos progrès avec des statistiques détaillées, comme la série actuelle, la meilleure série, la progression hebdomadaire, la progression mensuelle, le score de régularité, le total des validations, la tendance sur 7 jours et la carte de chaleur du calendrier. Ces données vous montrent ce qui fonctionne et les points à améliorer.',
+        'Conçu pour être rapide, clair et centré sur l essentiel, Habit Tracker vous permet d organiser facilement chaque habitude par titre, description, catégorie et couleur. Avec le mode sombre, la prise en charge de plusieurs langues et des rappels intelligents, Habit Tracker est une application Android pratique pour créer des habitudes solides et des routines durables.',
       ],
-      category: 'Arcade',
+      category: 'Productivité',
       platforms: ['Android'],
-      tags: ['Réflexes', 'Arcade', 'Temps de réaction', 'Western', 'Casual'],
+      tags: ['Habit Tracker', 'Routines', 'Séries', 'Rappels', 'Productivité'],
     },
     'water-reminder': {
       name: 'Water Reminder',
@@ -482,53 +406,23 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
       platforms: ['Android'],
       tags: ['Casual Game', 'Arcade', 'Action'],
     },
-    'kiss-the-boss': {
-      name: 'Kiss The Boss',
-      summary:
-        'Testez vos réflexes dans un jeu humoristique où il faut embrasser le patron.',
-      longDescription: [
-        'Kiss The Boss est un jeu casual arcade décalé qui transforme l’humour du monde du travail en un défi de réflexes au rythme rapide. Votre objectif est simple : embrasser votre patron aussi vite et efficacement que possible pour garder votre emploi et gravir les échelons.',
-        'Construit autour d’un concept unique et comique, le jeu pousse les joueurs à réagir vite, à bien synchroniser leurs actions et à améliorer leurs performances à chaque tentative. Plus vous êtes rapide et efficace, plus vos chances de réussite augmentent.',
-        'Inspiré de situations professionnelles volontairement exagérées, Kiss The Boss mêle satire, humour et mécaniques simples dans une expérience à la fois divertissante et facile à prendre en main.',
-        'Les commandes sont minimalistes et accessibles, ce qui le rend parfait pour de courtes sessions de jeu tout en conservant un aspect compétitif grâce à l’amélioration du score et à la rejouabilité.',
-        'Que vous cherchiez un jeu d’arcade léger ou quelque chose de différent des mécaniques traditionnelles, Kiss The Boss propose une boucle de gameplay amusante et originale conçue pour un divertissement immédiat.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
-    'santas-lost-presents': {
-      name: 'Santa’s Lost Presents',
-      summary:
-        'Aidez le Père Noël à récupérer les cadeaux perdus et sauver Noël.',
-      longDescription: [
-        'Santa’s Lost Presents est un jeu d’action arcade festif dans lequel votre mission est d’aider le Père Noël à récupérer tous les cadeaux qu’il a accidentellement perdus lors de son voyage depuis le pôle Nord. Avec Noël en jeu, chaque cadeau compte.',
-        'Au fil de son voyage à travers différents environnements, les joueurs doivent ramasser les cadeaux dispersés et surmonter les obstacles afin que chaque enfant reçoive son présent à temps. Le gameplay est simple, rapide et centré sur le mouvement, le timing et l’attention.',
-        'Inspiré des mécaniques d’arcade classiques, le jeu met les joueurs au défi d’améliorer leurs réflexes en traversant des situations de plus en plus difficiles. Chaque partie offre de nouvelles occasions de collecter davantage de cadeaux et d’améliorer son score.',
-        'Avec son ambiance de fête joyeuse et ses commandes accessibles, Santa’s Lost Presents est parfait pour de courtes sessions pendant la période de Noël ou à tout moment où vous avez envie d’une expérience légère et engageante.',
-        'Que vous aimiez les jeux sur le thème de Noël ou les défis d’action arcade classiques, Santa’s Lost Presents propose une boucle de gameplay amusante et rejouable centrée sur la collecte, l’esquive et la sauvegarde de l’esprit des fêtes.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
   },
 
   it: {
-    'cowboy-duel': {
-      name: 'Cowboy Duel',
+    'habit-tracker': {
+      name: 'Habit Tracker',
       summary:
-        'Metti alla prova i tuoi riflessi in duelli western veloci dove il tempismo è tutto.',
+        'Crea routine migliori con Habit Tracker, una app flessibile per le abitudini con promemoria, serie, check-in giornalieri e statistiche chiare sui progressi.',
       longDescription: [
-        'Cowboy Duel è un gioco di reazione frenetico ambientato nel selvaggio West, dove il tuo obiettivo è semplice: estrarre l’arma più velocemente del tuo avversario e vincere il duello. Ogni sfida mette alla prova tempismo, concentrazione e sangue freddo.',
-        'Mettiti nei panni di un pistolero e affronta avversari in intensi duelli uno contro uno. Aspetta il momento perfetto, reagisci all’istante e spara prima del tuo rivale. Ma fai attenzione: se spari troppo presto, perdi.',
-        'Il gameplay è facile da capire ma difficile da padroneggiare, quindi è perfetto per sessioni rapide ma offre comunque una vera sfida a chi vuole migliorare la propria velocità di reazione.',
-        'Con controlli semplici e meccaniche coinvolgenti, Cowboy Duel ti spinge a tornare per battere i tuoi tempi migliori e affinare i riflessi. Ogni duello è teso e appagante, soprattutto quando la vittoria dipende da una frazione di secondo.',
-        'Che tu voglia passare il tempo o sfidare gli amici per il draw più veloce, Cowboy Duel offre un’esperienza divertente e coinvolgente ispirata ai classici scontri a fuoco western.',
+        'Habit Tracker è una app semplice e flessibile per monitorare le abitudini, costruire routine quotidiane migliori, restare costanti e raggiungere obiettivi personali. Che tu voglia leggere di più, allenarti, bere più acqua, meditare, studiare o migliorare la produttività, Habit Tracker ti aiuta a trasformare le intenzioni in abitudini che puoi davvero mantenere.',
+        'Crea abitudini adatte al tuo stile di vita con più tipi di monitoraggio e programmi flessibili. Puoi seguire le abitudini come completate o non completate, come obiettivi numerici oppure come routine basate sui minuti. Imposta abitudini per ogni giorno, giorni specifici, ogni X giorni o un numero target di volte a settimana.',
+        'Rimani costante con check-in giornalieri, promemoria per le abitudini e una timeline pulita che rende facile seguire i progressi. Habit Tracker ti aiuta a costruire serie, rivedere i giorni passati e restare responsabile senza rendere tutto complicato.',
+        'Comprendi i tuoi progressi con statistiche dettagliate come serie attuale, serie più lunga, completamento settimanale, completamento mensile, punteggio di costanza, totale dei check-in, trend di 7 giorni e heatmap del calendario. Questi dati ti aiutano a capire cosa funziona e dove puoi migliorare.',
+        'Progettato per essere veloce, chiaro e focalizzato, Habit Tracker ti offre un modo semplice per organizzare le abitudini per titolo, descrizione, categoria e colore. Con modalità scura, supporto lingua e promemoria intelligenti, Habit Tracker è una pratica app Android per chi vuole costruire abitudini durature e routine più forti.',
       ],
-      category: 'Arcade',
+      category: 'Produttività',
       platforms: ['Android'],
-      tags: ['Riflessi', 'Arcade', 'Tempo di reazione', 'Western', 'Casual'],
+      tags: ['Habit Tracker', 'Routine', 'Serie', 'Promemoria', 'Produttività'],
     },
     'water-reminder': {
       name: 'Water Reminder',
@@ -620,53 +514,23 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
       platforms: ['Android'],
       tags: ['Casual Game', 'Arcade', 'Action'],
     },
-    'kiss-the-boss': {
-      name: 'Kiss The Boss',
-      summary:
-        'Metti alla prova i tuoi riflessi in un gioco divertente dove devi baciare il capo.',
-      longDescription: [
-        'Kiss The Boss è un bizzarro gioco casual arcade che trasforma l’umorismo da ufficio in una frenetica sfida di riflessi. Il tuo obiettivo è semplice — baciare il capo nel modo più rapido ed efficiente possibile per mantenere il posto di lavoro e fare carriera.',
-        'Basato su un concetto unico e comico, il gioco sfida i giocatori a reagire velocemente, sincronizzare bene le proprie azioni e migliorare la prestazione a ogni tentativo. Più sei bravo e veloce, maggiori sono le possibilità di successo.',
-        'Ispirato a scenari lavorativi volutamente esagerati, Kiss The Boss mescola satira, umorismo e meccaniche semplici in un’esperienza divertente e immediata.',
-        'I controlli sono minimi e accessibili, il che lo rende perfetto per sessioni di gioco brevi ma comunque capaci di offrire un lato competitivo grazie al miglioramento del punteggio e alla rigiocabilità.',
-        'Se cerchi un arcade leggero o qualcosa di diverso dalle meccaniche tradizionali, Kiss The Boss offre un loop di gameplay divertente e insolito pensato per l’intrattenimento veloce.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
-    'santas-lost-presents': {
-      name: 'Santa’s Lost Presents',
-      summary:
-        'Aiuta Babbo Natale a recuperare i regali e salvare il Natale.',
-      longDescription: [
-        'Santa’s Lost Presents è un gioco arcade d’azione festivo in cui la tua missione è aiutare Babbo Natale a recuperare tutti i regali che ha perso accidentalmente durante il viaggio dal Polo Nord. Con il Natale in pericolo, ogni regalo conta.',
-        'Mentre Babbo Natale attraversa ambientazioni diverse, i giocatori devono raccogliere i regali sparsi e superare gli ostacoli per fare in modo che ogni bambino riceva il proprio dono in tempo. Il gameplay è semplice, rapido e si concentra su movimento, tempismo e attenzione.',
-        'Ispirato alle classiche meccaniche arcade, il gioco mette i giocatori alla prova chiedendo loro di migliorare i riflessi mentre affrontano situazioni sempre più difficili. Ogni corsa offre nuove opportunità per raccogliere più regali e aumentare il punteggio.',
-        'Con la sua allegra atmosfera natalizia e i controlli accessibili, Santa’s Lost Presents è perfetto per sessioni veloci durante il periodo delle feste o in qualsiasi momento in cui desideri un’esperienza leggera e coinvolgente.',
-        'Che tu ami i giochi a tema natalizio o le classiche sfide arcade d’azione, Santa’s Lost Presents offre un loop di gameplay divertente e rigiocabile basato su raccolta, schivate e salvataggio dello spirito delle feste.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
   },
 
   es: {
-    'cowboy-duel': {
-      name: 'Cowboy Duel',
+    'habit-tracker': {
+      name: 'Habit Tracker',
       summary:
-        'Pon a prueba tus reflejos en duelos del oeste donde el tiempo lo es todo.',
+        'Crea mejores rutinas con Habit Tracker, un rastreador de hábitos flexible con recordatorios, rachas, check-ins diarios y estadísticas claras de progreso.',
       longDescription: [
-        'Cowboy Duel es un juego de reacción trepidante ambientado en el viejo oeste, donde tu objetivo es simple: desenfundar el arma más rápido que tu oponente y ganar el duelo. Cada partida pone a prueba tu precisión, tu concentración y tus nervios.',
-        'Ponte en la piel de un pistolero y enfréntate a rivales en intensos duelos uno contra uno. Espera el momento perfecto, reacciona al instante y dispara antes que tu contrincante. Pero cuidado: si disparas demasiado pronto, pierdes.',
-        'La jugabilidad es fácil de entender pero difícil de dominar, así que es perfecta para partidas rápidas y al mismo tiempo ofrece un verdadero reto para quienes quieren mejorar su velocidad de reacción.',
-        'Con controles simples y mecánicas atractivas, Cowboy Duel te hace volver una y otra vez para superar tus mejores tiempos y afinar tus reflejos. Cada duelo se siente tenso y gratificante, sobre todo cuando la victoria se decide en una fracción de segundo.',
-        'Tanto si quieres pasar el rato como competir con tus amigos por el desenfunde más rápido, Cowboy Duel ofrece una experiencia divertida y adictiva inspirada en los clásicos tiroteos del oeste.',
+        'Habit Tracker es una aplicación simple y flexible para seguir hábitos, crear mejores rutinas diarias, mantener la constancia y alcanzar metas personales. Ya sea que quieras leer más, hacer ejercicio, beber agua, meditar, estudiar o mejorar tu productividad, Habit Tracker te ayuda a convertir tus intenciones en hábitos que realmente puedes mantener.',
+        'Crea hábitos que se adapten a tu estilo de vida con varios tipos de seguimiento y horarios flexibles. Puedes registrar hábitos como hecho o no hecho, metas numéricas o rutinas basadas en minutos. Configura hábitos para todos los días, días específicos, cada X días o un número objetivo de veces por semana.',
+        'Mantén la constancia con check-ins diarios, recordatorios de hábitos y una línea de tiempo limpia que facilita seguir tu progreso. Habit Tracker te ayuda a crear rachas, revisar días anteriores y mantenerte responsable sin complicar el proceso.',
+        'Comprende tu progreso con estadísticas detalladas, como racha actual, racha más larga, progreso semanal, progreso mensual, puntuación de constancia, total de check-ins, tendencia de 7 días y mapa de calor del calendario. Estas métricas te ayudan a ver qué funciona y dónde puedes mejorar.',
+        'Diseñado para ser rápido, claro y enfocado, Habit Tracker te ofrece una forma sencilla de organizar hábitos por título, descripción, categoría y color. Con modo oscuro, compatibilidad con varios idiomas y recordatorios inteligentes, Habit Tracker es una app práctica para Android para quienes quieren construir hábitos duraderos y rutinas más sólidas.',
       ],
-      category: 'Arcade',
+      category: 'Productividad',
       platforms: ['Android'],
-      tags: ['Reflejos', 'Arcade', 'Tiempo de reacción', 'Western', 'Casual'],
+      tags: ['Habit Tracker', 'Rutinas', 'Rachas', 'Recordatorios', 'Productividad'],
     },
     'water-reminder': {
       name: 'Water Reminder',
@@ -757,53 +621,23 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
       platforms: ['Android'],
       tags: ['Casual Game', 'Arcade', 'Action'],
     },
-    'kiss-the-boss': {
-      name: 'Kiss The Boss',
-      summary:
-        'Pon a prueba tus reflejos en un juego divertido donde debes besar al jefe.',
-      longDescription: [
-        'Kiss The Boss es un peculiar juego casual arcade que convierte el humor de oficina en un desafío de reflejos a toda velocidad. Tu objetivo es simple — besar a tu jefe lo más rápido y eficazmente posible para conservar tu trabajo y seguir ascendiendo.',
-        'Construido alrededor de una idea única y cómica, el juego desafía a los jugadores a reaccionar rápido, calcular bien sus acciones y mejorar su rendimiento en cada intento. Cuanto mejor y más rápido lo hagas, mayores serán tus posibilidades de éxito.',
-        'Inspirado en situaciones laborales exageradas, Kiss The Boss combina sátira, humor y mecánicas sencillas en una experiencia que resulta entretenida y fácil de entender.',
-        'Los controles son mínimos y accesibles, lo que lo hace perfecto para partidas cortas, pero al mismo tiempo mantiene un punto competitivo gracias a la mejora de puntuación y a su rejugabilidad.',
-        'Si buscas un arcade desenfadado o algo distinto a las mecánicas tradicionales, Kiss The Boss ofrece un bucle de juego divertido y poco convencional pensado para el entretenimiento rápido.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
-    'santas-lost-presents': {
-      name: 'Santa’s Lost Presents',
-      summary:
-        'Ayuda a Papá Noel a recuperar los regalos y salvar la Navidad.',
-      longDescription: [
-        'Santa’s Lost Presents es un juego de acción arcade festivo en el que tu misión es ayudar a Santa a recuperar todos los regalos que perdió accidentalmente durante su viaje desde el Polo Norte. Con la Navidad en juego, cada regalo cuenta.',
-        'Mientras Santa recorre diferentes entornos, los jugadores deben recoger los regalos dispersos y superar obstáculos para asegurarse de que cada niño reciba su regalo a tiempo. La jugabilidad es simple, rápida y se centra en el movimiento, el tiempo y la atención.',
-        'Inspirado en las mecánicas arcade clásicas, el juego desafía a los jugadores a mejorar sus reflejos mientras avanzan por situaciones cada vez más difíciles. Cada partida trae nuevas oportunidades para recoger más regalos y mejorar la puntuación.',
-        'Con su alegre temática navideña y controles accesibles, Santa’s Lost Presents es perfecto para sesiones cortas durante las fiestas o en cualquier momento en el que te apetezca una experiencia ligera y entretenida.',
-        'Tanto si disfrutas de los juegos navideños como de los desafíos clásicos de acción arcade, Santa’s Lost Presents ofrece un bucle jugable divertido y rejugable centrado en recoger, esquivar y salvar el espíritu navideño.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
   },
 
   pt: {
-    'cowboy-duel': {
-      name: 'Cowboy Duel',
+    'habit-tracker': {
+      name: 'Habit Tracker',
       summary:
-        'Teste seus reflexos em duelos do velho oeste onde o tempo é essencial.',
+        'Crie rotinas melhores com Habit Tracker, uma app flexível de hábitos com lembretes, sequências, check-ins diários e estatísticas claras de progresso.',
       longDescription: [
-        'Cowboy Duel é um jogo de reação em ritmo acelerado ambientado no velho oeste, onde o seu objetivo é simples: sacar a arma mais rápido do que o seu oponente e vencer o duelo. Cada partida testa o seu tempo de reação, foco e nervos.',
-        'Entre na pele de um pistoleiro e enfrente adversários em duelos intensos um contra um. Espere o momento perfeito, reaja instantaneamente e atire antes do seu rival. Mas cuidado — se atirar cedo demais, você perde.',
-        'A jogabilidade é fácil de entender, mas difícil de dominar, tornando o jogo perfeito para sessões rápidas e ao mesmo tempo desafiador para quem quer melhorar a velocidade de reação.',
-        'Com controles simples e mecânicas envolventes, Cowboy Duel faz você voltar para bater seus melhores tempos e aprimorar seus reflexos. Cada duelo é tenso e recompensador, especialmente quando a vitória depende de decisões em frações de segundo.',
-        'Seja para passar o tempo ou competir com amigos pelo saque mais rápido, Cowboy Duel oferece uma experiência divertida e viciante inspirada nos clássicos tiroteios de faroeste.',
+        'Habit Tracker é uma aplicação simples e flexível para acompanhar hábitos, criar rotinas diárias melhores, manter consistência e alcançar objetivos pessoais. Quer você queira ler mais, treinar, beber mais água, meditar, estudar ou melhorar a produtividade, Habit Tracker ajuda a transformar intenções em hábitos que você realmente consegue manter.',
+        'Crie hábitos que combinem com o seu estilo de vida com vários tipos de acompanhamento e agendas flexíveis. Você pode acompanhar hábitos como concluído ou não concluído, como metas numéricas ou como rotinas baseadas em minutos. Configure hábitos para todos os dias, dias específicos, a cada X dias ou um número alvo de vezes por semana.',
+        'Mantenha a consistência com check-ins diários, lembretes de hábitos e uma linha do tempo limpa que torna o progresso fácil de acompanhar. Habit Tracker ajuda você a construir sequências, revisar dias anteriores e manter responsabilidade sem deixar o processo complicado.',
+        'Entenda seu progresso com estatísticas detalhadas, incluindo sequência atual, maior sequência, conclusão semanal, conclusão mensal, pontuação de consistência, total de check-ins, tendência de 7 dias e mapa de calor do calendário. Esses dados ajudam você a ver o que funciona e onde pode melhorar.',
+        'Desenvolvido para ser rápido, claro e focado, Habit Tracker oferece uma maneira simples de organizar hábitos por título, descrição, categoria e cor. Com modo escuro, suporte a idiomas e lembretes inteligentes, Habit Tracker é uma app prática para Android para qualquer pessoa que queira criar hábitos duradouros e rotinas mais fortes.',
       ],
-      category: 'Arcade',
+      category: 'Produtividade',
       platforms: ['Android'],
-      tags: ['Reflexos', 'Arcade', 'Tempo de reação', 'Western', 'Casual'],
+      tags: ['Habit Tracker', 'Rotinas', 'Sequências', 'Lembretes', 'Produtividade'],
     },
     'water-reminder': {
       name: 'Water Reminder',
@@ -895,53 +729,23 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
       platforms: ['Android'],
       tags: ['Casual Game', 'Arcade', 'Action'],
     },
-    'kiss-the-boss': {
-      name: 'Kiss The Boss',
-      summary:
-        'Teste seus reflexos em um jogo divertido onde você precisa beijar o chefe.',
-      longDescription: [
-        'Kiss The Boss é um jogo casual arcade excêntrico que transforma o humor de escritório em um desafio de reflexos em ritmo acelerado. Seu objetivo é simples — beijar o chefe o mais rápido e eficientemente possível para manter o emprego e subir na carreira.',
-        'Construído em torno de um conceito único e cômico, o jogo desafia os jogadores a reagirem rápido, cronometrar bem suas ações e melhorar o desempenho a cada tentativa. Quanto melhor e mais rápido você jogar, maiores serão as suas chances de sucesso.',
-        'Inspirado em cenários exagerados de ambiente de trabalho, Kiss The Boss mistura sátira, humor e mecânicas simples em uma experiência divertida e fácil de entender.',
-        'Os controles são mínimos e acessíveis, o que o torna perfeito para sessões curtas de jogo, ao mesmo tempo em que mantém um lado competitivo por meio da melhora de pontuação e da rejogabilidade.',
-        'Se você procura um arcade descontraído ou algo diferente das mecânicas tradicionais, Kiss The Boss oferece um loop de jogabilidade divertido e incomum, pensado para entretenimento rápido.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
-    'santas-lost-presents': {
-      name: 'Santa’s Lost Presents',
-      summary:
-        'Ajude o Papai Noel a recuperar presentes e salvar o Natal.',
-      longDescription: [
-        'Santa’s Lost Presents é um jogo arcade de ação festivo em que sua missão é ajudar o Papai Noel a recuperar todos os presentes que ele perdeu acidentalmente durante sua viagem saindo do Polo Norte. Com o Natal em jogo, cada presente conta.',
-        'Enquanto o Papai Noel atravessa diferentes ambientes, os jogadores precisam coletar os presentes espalhados e superar obstáculos para garantir que cada criança receba o seu presente a tempo. A jogabilidade é simples, rápida e focada em movimento, timing e atenção.',
-        'Inspirado em mecânicas arcade clássicas, o jogo desafia os jogadores a melhorar seus reflexos enquanto enfrentam situações cada vez mais difíceis. Cada partida traz novas oportunidades de coletar mais presentes e melhorar a pontuação.',
-        'Com seu clima alegre de fim de ano e controles acessíveis, Santa’s Lost Presents é perfeito para sessões rápidas durante a temporada de festas ou em qualquer momento em que você queira uma experiência leve e envolvente.',
-        'Se você gosta de jogos com tema natalino ou de desafios clássicos de ação arcade, Santa’s Lost Presents oferece um loop de jogabilidade divertido e rejogável centrado em coletar, desviar e salvar o espírito natalino.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
   },
 
   sr: {
-    'cowboy-duel': {
-      name: 'Cowboy Duel',
+    'habit-tracker': {
+      name: 'Habit Tracker',
       summary:
-        'Тестирај своје рефлексе у брзим каубојским двобојима где је тајминг пресудан.',
+        'Изгради боље рутине уз Habit Tracker, флексибилну апликацију за праћење навика са подсетницима, низовима, дневним пријавама и јасном статистиком напретка.',
       longDescription: [
-        'Cowboy Duel је брза игра реакције смештена на Дивљем западу, у којој је твој циљ једноставан: потегни оружје брже од противника и победи у двобоју. Сваки меч је тест тајминга, концентрације и живаца.',
-        'Ускочи у чизме револвераша и суочи се са противницима у интензивним дуелима један на један. Сачекај савршен тренутак, реагуј тренутно и пуцај пре свог ривала. Али пази — ако опалиш прерано, губиш.',
-        'Гејмплеј је лако разумети, али га је тешко савладати, што игру чини савршеном за кратке сесије, а истовремено довољно изазовном за све који желе да побољшају брзину реакције.',
-        'Са једноставним контролама и занимљивом механиком, Cowboy Duel те непрестано враћа да обориш своја најбоља времена и изоштриш рефлексе. Сваки двобој делује напето и награђујуће, посебно када победа зависи од делића секунде.',
-        'Било да желиш само да прекратиш време или да се такмичиш са пријатељима ко има најбрже потезање, Cowboy Duel доноси забавно и заразно искуство инспирисано класичним вестерн обрачунима.',
+        'Habit Tracker је једноставна и флексибилна апликација за праћење навика, изградњу бољих дневних рутина, већу доследност и остваривање личних циљева. Било да желиш да више читаш, вежбаш, пијеш више воде, медитираш, учиш или побољшаш продуктивност, Habit Tracker ти помаже да намере претвориш у навике које заиста можеш да задржиш.',
+        'Креирај навике које одговарају твом начину живота уз више типова праћења и флексибилне распореде. Навике можеш да пратиш као обављено или необављено, као нумеричке циљеве или као рутине засноване на минутима. Подеси навике за сваки дан, одређене дане, сваких X дана или задати број пута недељно.',
+        'Остани доследан уз дневне пријаве, подсетнике за навике и чисту временску линију која олакшава праћење напретка. Habit Tracker ти помаже да градиш низове, прегледаш претходне дане и останеш одговоран без непотребне сложености.',
+        'Разуми свој напредак уз детаљну статистику, укључујући тренутни низ, најдужи низ, недељно испуњење, месечно испуњење, резултат доследности, укупан број пријава, тренд за 7 дана и календарски heatmap. Ови подаци ти помажу да видиш шта функционише и где можеш да се побољшаш.',
+        'Осмишљен за брзину, прегледност и фокус, Habit Tracker ти нуди једноставан начин да организујеш навике по називу, опису, категорији и боји. Уз тамни режим, подршку за језике и паметне подсетнике, Habit Tracker је практична Android апликација за свакога ко жели да изгради трајне навике и јаче рутине.',
       ],
-      category: 'Arcade',
+      category: 'Продуктивност',
       platforms: ['Android'],
-      tags: ['Рефлекси', 'Аркада', 'Време реакције', 'Вестерн', 'Кежуал'],
+      tags: ['Habit Tracker', 'Рутине', 'Низови', 'Подсетници', 'Продуктивност'],
     },
     'water-reminder': {
       name: 'Water Reminder',
@@ -1033,53 +837,23 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
       platforms: ['Android'],
       tags: ['Лежерна игра', 'Аркадна', 'Акција'],
     },
-    'kiss-the-boss': {
-      name: 'Kiss The Boss',
-      summary:
-        'Тестирајте рефлексе у забавној игри где морате да љубите шефа.',
-      longDescription: [
-        'Kiss The Boss је необична casual аркадна игра која канцеларијски хумор претвара у брзи изазов рефлекса. Твој циљ је једноставан — пољуби шефа што брже и што ефикасније како би задржао посао и напредовао на лествици успеха.',
-        'Заснована на јединственом и комичном концепту, игра тера играче да брзо реагују, добро темпирају своје акције и побољшавају учинак из покушаја у покушај. Што боље и брже играш, то су ти веће шансе за успех.',
-        'Инспирисана преувеличаним сценаријима са радног места, Kiss The Boss комбинује сатиру, хумор и једноставне механике у искуство које је и забавно и лако за схватити.',
-        'Контроле су минималне и приступачне, што игру чини савршеном за кратке сесије, а истовремено јој даје такмичарски дух кроз побољшавање резултата и високу поновљивост.',
-        'Ако тражиш лагану аркадну игру или нешто другачије од уобичајених механика, Kiss The Boss доноси забаван и неконвенционалан loop играња осмишљен за брзу забаву.',
-      ],
-      category: 'Аркадна',
-      platforms: ['Android'],
-      tags: ['Лежерна игра', 'Аркадна', 'Акција'],
-    },
-    'santas-lost-presents': {
-      name: 'Santa’s Lost Presents',
-      summary:
-        'Помозите Деда Мразу да сакупи поклоне и спасе Нову годину.',
-      longDescription: [
-        'Santa’s Lost Presents је празнична аркадна акциона игра у којој је твоја мисија да помогнеш Деда Мразу да поврати све поклоне које је случајно изгубио на путу са Северног пола. Пошто је Божић у питању, сваки поклон је важан.',
-        'Док Деда Мраз путује кроз различита окружења, играчи морају да сакупљају разбацане поклоне и савладавају препреке како би свако дете добило свој поклон на време. Гејмплеј је једноставан, брз и усмерен на кретање, тајминг и пажњу.',
-        'Инспирисана класичним аркадним механикама, игра изазива играче да побољшају своје рефлексе док пролазе кроз све тежe ситуације. Свака партија доноси нове прилике да сакупиш више поклона и поправиш резултат.',
-        'Са веселом празничном атмосфером и приступачним контролама, Santa’s Lost Presents је савршена за кратке сесије током празничне сезоне или кад год пожелиш лагано и занимљиво искуство.',
-        'Без обзира на то да ли волиш игре са божићном темом или класичне аркадне акционе изазове, Santa’s Lost Presents нуди забаван и поновљив loop играња заснован на сакупљању, избегавању и спасавању празничног духа.',
-      ],
-      category: 'Аркадна',
-      platforms: ['Android'],
-      tags: ['Лежерна игра', 'Аркадна', 'Акција'],
-    },
   },
 
   hr: {
-    'cowboy-duel': {
-      name: 'Cowboy Duel',
+    'habit-tracker': {
+      name: 'Habit Tracker',
       summary:
-        'Testiraj svoje reflekse u brzim kaubojskim dvobojima gdje je vrijeme presudno.',
+        'Izgradi bolje rutine uz Habit Tracker, fleksibilnu aplikaciju za praćenje navika s podsjetnicima, nizovima, dnevnim prijavama i jasnom statistikom napretka.',
       longDescription: [
-        'Cowboy Duel je brza igra reakcije smještena na Divljem zapadu, u kojoj je tvoj cilj jednostavan: povuci oružje brže od protivnika i pobijedi u dvoboju. Svaki meč testira tvoj timing, fokus i živce.',
-        'Uđi u čizme revolveraša i suoči se s protivnicima u intenzivnim dvobojima jedan na jedan. Pričekaj savršen trenutak, reagiraj odmah i pucaj prije svog suparnika. Ali pazi — ako zapucaš prerano, gubiš.',
-        'Gameplay je lako razumjeti, ali teško svladati, što igru čini savršenom za kratke sesije, a istodobno dovoljno izazovnom za sve koji žele poboljšati brzinu reakcije.',
-        'Sa svojim jednostavnim kontrolama i zanimljivim mehanikama, Cowboy Duel te stalno vraća da srušiš svoja najbolja vremena i izoštriš reflekse. Svaki dvoboj djeluje napeto i nagrađujuće, posebno kada pobjeda ovisi o djeliću sekunde.',
-        'Bilo da želiš kratko ubiti vrijeme ili se natjecati s prijateljima za najbrže potezanje, Cowboy Duel donosi zabavno i zarazno iskustvo inspirirano klasičnim vestern obračunima.',
+        'Habit Tracker je jednostavna i fleksibilna aplikacija za praćenje navika koja pomaže u izgradnji boljih dnevnih rutina, većoj dosljednosti i ostvarivanju osobnih ciljeva. Bilo da želiš više čitati, vježbati, piti više vode, meditirati, učiti ili poboljšati produktivnost, Habit Tracker ti pomaže pretvoriti namjere u navike koje možeš dugoročno zadržati.',
+        'Kreiraj navike koje odgovaraju tvom načinu života uz više vrsta praćenja i fleksibilne rasporede. Navike možeš pratiti kao obavljeno ili neobavljeno, kao numeričke ciljeve ili kao rutine temeljene na minutama. Postavi navike za svaki dan, određene dane, svakih X dana ili zadani broj puta tjedno.',
+        'Ostani dosljedan uz dnevne prijave, podsjetnike za navike i čistu vremensku liniju koja olakšava praćenje napretka. Habit Tracker ti pomaže graditi nizove, pregledavati prethodne dane i ostati odgovoran bez nepotrebne složenosti.',
+        'Razumij svoj napredak uz detaljnu statistiku, uključujući trenutačni niz, najduži niz, tjedno ispunjenje, mjesečno ispunjenje, rezultat dosljednosti, ukupan broj prijava, trend za zadnjih 7 dana i kalendarski heatmap. Ti podaci pomažu ti vidjeti što funkcionira i gdje se možeš poboljšati.',
+        'Dizajniran za brzinu, preglednost i fokus, Habit Tracker ti omogućuje jednostavno organiziranje navika po nazivu, opisu, kategoriji i boji. Uz tamni način rada, podršku za jezike i pametne podsjetnike, Habit Tracker je praktična Android aplikacija za svakoga tko želi izgraditi trajne navike i jače rutine.',
       ],
-      category: 'Arcade',
+      category: 'Produktivnost',
       platforms: ['Android'],
-      tags: ['Refleksi', 'Arkada', 'Vrijeme reakcije', 'Western', 'Casual'],
+      tags: ['Habit Tracker', 'Rutine', 'Nizovi', 'Podsjetnici', 'Produktivnost'],
     },
     'water-reminder': {
       name: 'Water Reminder',
@@ -1170,53 +944,23 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
       platforms: ['Android'],
       tags: ['Casual Game', 'Arcade', 'Action'],
     },
-    'kiss-the-boss': {
-      name: 'Kiss The Boss',
-      summary:
-        'Testirajte reflekse u zabavnoj igri gdje morate ljubiti šefa.',
-      longDescription: [
-        'Kiss The Boss je neobična casual arkadna igra koja uredski humor pretvara u brzi izazov refleksa. Tvoj cilj je jednostavan — poljubi šefa što brže i učinkovitije kako bi zadržao posao i napredovao na ljestvici uspjeha.',
-        'Izgrađena oko jedinstvenog i komičnog koncepta, igra izaziva igrače da brzo reagiraju, dobro tempiraju svoje poteze i poboljšavaju izvedbu iz pokušaja u pokušaj. Što si bolji i brži, veće su ti šanse za uspjeh.',
-        'Inspirirana pretjeranim scenarijima s radnog mjesta, Kiss The Boss spaja satiru, humor i jednostavne mehanike u iskustvo koje je istovremeno zabavno i lako za razumjeti.',
-        'Kontrole su minimalne i pristupačne, što je čini savršenom za kratke sesije igranja, a istodobno zadržava natjecateljski element kroz poboljšavanje rezultata i visoku ponovno igrivost.',
-        'Ako tražiš laganu arkadnu igru ili nešto drukčije od tradicionalnih mehanika, Kiss The Boss donosi zabavnu i nekonvencionalnu gameplay petlju osmišljenu za brzu razonodu.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
-    'santas-lost-presents': {
-      name: 'Santa’s Lost Presents',
-      summary:
-        'Pomozite Djedu Božićnjaku prikupiti poklone i spasiti Božić.',
-      longDescription: [
-        'Santa’s Lost Presents je blagdanska arkadna akcijska igra u kojoj je tvoja misija pomoći Djedu Božićnjaku da vrati sve poklone koje je slučajno izgubio na putu sa Sjevernog pola. Budući da je Božić u pitanju, svaki poklon je važan.',
-        'Dok Djed Božićnjak putuje kroz različita okruženja, igrači moraju skupljati rasute poklone i savladavati prepreke kako bi svako dijete na vrijeme dobilo svoj dar. Gameplay je jednostavan, brz i usmjeren na kretanje, timing i pažnju.',
-        'Inspirirana klasičnim arkadnim mehanikama, igra izaziva igrače da poboljšaju svoje reflekse dok prolaze kroz sve teže situacije. Svaka vožnja donosi nove prilike za skupljanje više poklona i poboljšavanje rezultata.',
-        'Sa svojom veselom blagdanskom atmosferom i pristupačnim kontrolama, Santa’s Lost Presents savršena je za kratke sesije tijekom božićne sezone ili kad god poželiš lagano i zanimljivo iskustvo.',
-        'Bez obzira voliš li božićne igre ili klasične arkadne akcijske izazove, Santa’s Lost Presents nudi zabavnu i ponovno igrivu gameplay petlju usredotočenu na skupljanje, izbjegavanje i spašavanje blagdanskog duha.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
   },
 
   nl: {
-    'cowboy-duel': {
-      name: 'Cowboy Duel',
+    'habit-tracker': {
+      name: 'Habit Tracker',
       summary:
-        'Test je reflexen in snelle western-duels waar timing alles is.',
+        'Bouw betere routines met Habit Tracker, een flexibele gewoonte-app met herinneringen, streaks, dagelijkse check-ins en duidelijke voortgangsstatistieken.',
       longDescription: [
-        'Cowboy Duel is een snel reactiespel in het wilde westen, waarin je doel eenvoudig is: trek je wapen sneller dan je tegenstander en win het duel. Elke wedstrijd is een test van timing, focus en zenuwen.',
-        'Stap in de laarzen van een revolverheld en neem het op tegen tegenstanders in intense één-tegen-één-duels. Wacht op het perfecte moment, reageer direct en schiet voordat je rivaal de kans krijgt. Maar pas op — schiet je te vroeg, dan verlies je.',
-        'De gameplay is gemakkelijk te begrijpen maar lastig te beheersen, waardoor het perfect is voor korte speelsessies en tegelijk genoeg uitdaging biedt voor spelers die hun reactiesnelheid willen verbeteren.',
-        'Met eenvoudige besturing en boeiende mechanieken laat Cowboy Duel je steeds terugkomen om je beste tijden te verbeteren en je reflexen aan te scherpen. Elk duel voelt spannend en belonend, vooral wanneer de overwinning op een fractie van een seconde aankomt.',
-        'Of je nu de tijd wilt doden of met vrienden wilt strijden om de snelste draw, Cowboy Duel biedt een leuke en verslavende ervaring geïnspireerd op klassieke western shoot-outs.',
+        'Habit Tracker is een eenvoudige en flexibele app voor het bijhouden van gewoontes, het opbouwen van betere dagelijkse routines, het vasthouden van consistentie en het bereiken van persoonlijke doelen. Of je nu meer wilt lezen, sporten, water drinken, mediteren, studeren of productiever wilt worden, Habit Tracker helpt je om voornemens om te zetten in gewoontes die je echt kunt volhouden.',
+        'Maak gewoontes die passen bij jouw levensstijl met meerdere trackingtypes en flexibele schema’s. Je kunt gewoontes volgen als gedaan of niet gedaan, als numerieke doelen of als routines op basis van minuten. Stel gewoontes in voor elke dag, specifieke dagen, elke X dagen of een doel aantal keer per week.',
+        'Blijf consistent met dagelijkse check-ins, herinneringen voor gewoontes en een overzichtelijke tijdlijn die voortgang makkelijk zichtbaar maakt. Habit Tracker helpt je streaks op te bouwen, eerdere dagen te bekijken en verantwoordelijkheid te houden zonder het proces ingewikkeld te maken.',
+        'Begrijp je voortgang met gedetailleerde statistieken zoals huidige streak, langste streak, wekelijkse voltooiing, maandelijkse voltooiing, consistentiescore, totaal aantal check-ins, 7-daagse trend en kalender-heatmap. Deze inzichten laten zien wat goed werkt en waar je kunt verbeteren.',
+        'Habit Tracker is ontworpen voor snelheid, duidelijkheid en focus en geeft je een eenvoudige manier om gewoontes te organiseren op titel, beschrijving, categorie en kleur. Met donkere modus, taalondersteuning en slimme herinneringen is Habit Tracker een praktische Android-app voor iedereen die blijvende gewoontes en sterkere routines wil opbouwen.',
       ],
-      category: 'Arcade',
+      category: 'Productiviteit',
       platforms: ['Android'],
-      tags: ['Reflex', 'Arcade', 'Reactietijd', 'Western', 'Casual'],
+      tags: ['Habit Tracker', 'Routines', 'Streaks', 'Herinneringen', 'Productiviteit'],
     },
     'water-reminder': {
       name: 'Water Reminder',
@@ -1308,53 +1052,23 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
       platforms: ['Android'],
       tags: ['Casual Game', 'Arcade', 'Action'],
     },
-    'kiss-the-boss': {
-      name: 'Kiss The Boss',
-      summary:
-        'Test je reflexen in een grappige game waarin je de baas moet kussen.',
-      longDescription: [
-        'Kiss The Boss is een eigenzinnige casual arcadegame die kantoorhumor omzet in een snelle reflexuitdaging. Je doel is eenvoudig — kus je baas zo snel en efficiënt mogelijk om je baan te behouden en hogerop te komen.',
-        'Gebouwd rond een uniek en komisch concept daagt de game spelers uit om snel te reageren, hun acties goed te timen en hun prestaties bij elke poging te verbeteren. Hoe beter en sneller je speelt, hoe groter je kans op succes.',
-        'Geïnspireerd door overdreven werksituaties combineert Kiss The Boss satire, humor en eenvoudige spelmechanieken tot een ervaring die zowel vermakelijk als makkelijk op te pakken is.',
-        'De besturing is minimaal en toegankelijk, waardoor het perfect is voor korte speelsessies en tegelijk een competitief randje houdt dankzij scoreverbetering en hoge herspeelbaarheid.',
-        'Of je nu op zoek bent naar een luchtige arcadegame of iets anders dan traditionele mechanieken, Kiss The Boss biedt een leuke en ongewone gameplay-loop die is gemaakt voor snelle entertainment.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
-    'santas-lost-presents': {
-      name: 'Santa’s Lost Presents',
-      summary:
-        'Help de kerstman verloren cadeaus verzamelen en Kerstmis redden.',
-      longDescription: [
-        'Santa’s Lost Presents is een feestelijke arcade-actiegame waarin het jouw missie is om de Kerstman te helpen alle cadeaus terug te vinden die hij per ongeluk kwijtgeraakt is tijdens zijn reis vanaf de Noordpool. Omdat Kerstmis op het spel staat, telt elk cadeau.',
-        'Terwijl de Kerstman door verschillende omgevingen reist, moeten spelers verspreide cadeaus verzamelen en obstakels overwinnen zodat elk kind zijn cadeau op tijd krijgt. De gameplay is eenvoudig, snel en gericht op beweging, timing en oplettendheid.',
-        'Geïnspireerd door klassieke arcade-mechanieken daagt de game spelers uit om hun reflexen te verbeteren terwijl ze door steeds moeilijkere situaties navigeren. Elke run biedt nieuwe kansen om meer cadeaus te verzamelen en je score te verhogen.',
-        'Met zijn vrolijke kerstsfeer en toegankelijke besturing is Santa’s Lost Presents perfect voor korte speelsessies tijdens de feestdagen of op elk moment waarop je zin hebt in een lichte en boeiende ervaring.',
-        'Of je nu van kerstgames houdt of van klassieke arcade-actie-uitdagingen, Santa’s Lost Presents biedt een leuke en herspeelbare gameplay-loop die draait om verzamelen, ontwijken en het redden van de kerstsfeer.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
   },
 
   pl: {
-    'cowboy-duel': {
-      name: 'Cowboy Duel',
+    'habit-tracker': {
+      name: 'Habit Tracker',
       summary:
-        'Sprawdź swój refleks w szybkich pojedynkach na Dzikim Zachodzie.',
+        'Buduj lepsze rutyny z Habit Tracker, elastyczną aplikacją do śledzenia nawyków z przypomnieniami, seriami, codziennymi check-inami i czytelną statystyką postępów.',
       longDescription: [
-        'Cowboy Duel to szybka gra refleksowa osadzona na Dzikim Zachodzie, w której cel jest prosty: wyciągnąć broń szybciej niż przeciwnik i wygrać pojedynek. Każda rozgrywka sprawdza wyczucie czasu, koncentrację i nerwy.',
-        'Wciel się w rewolwerowca i zmierz się z przeciwnikami w intensywnych pojedynkach jeden na jednego. Poczekaj na idealny moment, zareaguj natychmiast i strzel zanim zrobi to rywal. Ale uważaj — jeśli strzelisz za wcześnie, przegrywasz.',
-        'Rozgrywka jest łatwa do zrozumienia, ale trudna do opanowania, dzięki czemu świetnie nadaje się na krótkie sesje, a jednocześnie stanowi prawdziwe wyzwanie dla graczy chcących poprawić szybkość reakcji.',
-        'Dzięki prostemu sterowaniu i wciągającym mechanikom Cowboy Duel sprawia, że chce się wracać, by pobijać własne najlepsze czasy i doskonalić refleks. Każdy pojedynek jest napięty i satysfakcjonujący, zwłaszcza gdy zwycięstwo zależy od ułamka sekundy.',
-        'Niezależnie od tego, czy chcesz tylko zabić czas, czy rywalizować ze znajomymi o najszybsze dobycie broni, Cowboy Duel oferuje zabawne i uzależniające doświadczenie inspirowane klasycznymi westernowymi strzelaninami.',
+        'Habit Tracker to prosta i elastyczna aplikacja do śledzenia nawyków, budowania lepszych codziennych rutyn, utrzymywania regularności i realizowania osobistych celów. Niezależnie od tego, czy chcesz więcej czytać, ćwiczyć, pić więcej wody, medytować, uczyć się czy zwiększyć produktywność, Habit Tracker pomaga zamienić intencje w nawyki, których naprawdę da się trzymać.',
+        'Twórz nawyki dopasowane do swojego stylu życia dzięki wielu typom śledzenia i elastycznym harmonogramom. Możesz śledzić nawyki jako wykonane lub niewykonane, jako cele liczbowe albo jako rutyny oparte na minutach. Ustaw nawyki na każdy dzień, wybrane dni, co X dni albo określoną liczbę razy w tygodniu.',
+        'Zachowaj regularność dzięki codziennym check-inom, przypomnieniom i przejrzystej osi czasu, która ułatwia śledzenie postępów. Habit Tracker pomaga budować serie, przeglądać poprzednie dni i zachować odpowiedzialność bez zbędnego komplikowania całego procesu.',
+        'Analizuj postępy dzięki szczegółowym statystykom, takim jak aktualna seria, najdłuższa seria, realizacja tygodniowa, realizacja miesięczna, wskaźnik regularności, łączna liczba check-inów, trend z 7 dni oraz kalendarzowa mapa aktywności. Te dane pomagają zobaczyć, co działa i gdzie można się poprawić.',
+        'Zaprojektowany z myślą o szybkości, przejrzystości i skupieniu, Habit Tracker daje prosty sposób organizowania nawyków według tytułu, opisu, kategorii i koloru. Dzięki trybowi ciemnemu, obsłudze języków i inteligentnym przypomnieniom Habit Tracker jest praktyczną aplikacją na Androida dla każdego, kto chce budować trwałe nawyki i mocniejsze rutyny.',
       ],
-      category: 'Arcade',
+      category: 'Produktywność',
       platforms: ['Android'],
-      tags: ['Refleks', 'Arcade', 'Czas reakcji', 'Western', 'Casual'],
+      tags: ['Habit Tracker', 'Rutyny', 'Serie', 'Przypomnienia', 'Produktywność'],
     },
     'water-reminder': {
       name: 'Water Reminder',
@@ -1446,53 +1160,23 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
       platforms: ['Android'],
       tags: ['Casual Game', 'Arcade', 'Action'],
     },
-    'kiss-the-boss': {
-      name: 'Kiss The Boss',
-      summary:
-        'Sprawdź refleks w zabawnej grze, gdzie musisz całować szefa.',
-      longDescription: [
-        'Kiss The Boss to nietypowa gra casual arcade, która zamienia biurowy humor w szybkie wyzwanie refleksu. Twój cel jest prosty — pocałować szefa tak szybko i skutecznie, jak to możliwe, aby utrzymać pracę i piąć się wyżej.',
-        'Zbudowana wokół wyjątkowego i komicznego pomysłu gra zmusza graczy do szybkiej reakcji, dobrego wyczucia momentu i poprawiania wyników z każdą kolejną próbą. Im lepiej i szybciej grasz, tym większe masz szanse na sukces.',
-        'Zainspirowana przesadzonymi sytuacjami z miejsca pracy, Kiss The Boss łączy satyrę, humor i proste mechaniki w doświadczenie, które jest zarówno zabawne, jak i łatwe do zrozumienia.',
-        'Sterowanie jest minimalne i przystępne, dzięki czemu gra świetnie sprawdza się w krótkich sesjach, a jednocześnie zachowuje rywalizacyjny charakter dzięki poprawianiu wyników i wysokiej regrywalności.',
-        'Jeśli szukasz lekkiej gry arcade albo czegoś innego niż tradycyjne mechaniki, Kiss The Boss oferuje zabawną i nietypową pętlę rozgrywki stworzoną do szybkiej rozrywki.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
-    'santas-lost-presents': {
-      name: 'Santa’s Lost Presents',
-      summary:
-        'Pomóż Świętemu Mikołajowi odzyskać prezenty i uratować święta.',
-      longDescription: [
-        'Santa’s Lost Presents to świąteczna gra akcji arcade, w której Twoją misją jest pomóc Świętemu Mikołajowi odzyskać wszystkie prezenty, które przypadkowo zgubił podczas podróży z bieguna północnego. Gdy stawką są święta, każdy prezent ma znaczenie.',
-        'Podczas podróży przez różne otoczenia gracze muszą zbierać porozrzucane prezenty i pokonywać przeszkody, aby każde dziecko otrzymało swój podarunek na czas. Rozgrywka jest prosta, szybka i skupiona na ruchu, timingu oraz uważności.',
-        'Zainspirowana klasycznymi mechanikami arcade, gra zachęca graczy do poprawiania refleksu podczas pokonywania coraz trudniejszych sytuacji. Każdy bieg przynosi nowe okazje do zebrania większej liczby prezentów i poprawienia wyniku.',
-        'Dzięki radosnemu świątecznemu klimatowi i przystępnemu sterowaniu Santa’s Lost Presents idealnie nadaje się do krótkich sesji w okresie świątecznym lub w dowolnym momencie, gdy masz ochotę na lekką i angażującą zabawę.',
-        'Niezależnie od tego, czy lubisz gry o tematyce świątecznej, czy klasyczne wyzwania arcade akcji, Santa’s Lost Presents oferuje zabawną i regrywalną pętlę rozgrywki skupioną na zbieraniu, unikaniu i ratowaniu świątecznego ducha.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
   },
 
   ro: {
-    'cowboy-duel': {
-      name: 'Cowboy Duel',
+    'habit-tracker': {
+      name: 'Habit Tracker',
       summary:
-        'Testează-ți reflexele în dueluri rapide din vestul sălbatic.',
+        'Construiește rutine mai bune cu Habit Tracker, o aplicație flexibilă pentru obiceiuri cu mementouri, serii, check-in-uri zilnice și statistici clare de progres.',
       longDescription: [
-        'Cowboy Duel este un joc de reacție rapidă plasat în vestul sălbatic, unde obiectivul tău este simplu: scoate arma mai repede decât adversarul și câștigă duelul. Fiecare confruntare îți testează sincronizarea, concentrarea și stăpânirea de sine.',
-        'Intră în pielea unui pistolar și înfruntă adversari în dueluri intense unu la unu. Așteaptă momentul perfect, reacționează instant și trage înaintea rivalului tău. Dar ai grijă — dacă tragi prea devreme, pierzi.',
-        'Gameplay-ul este ușor de înțeles, dar greu de stăpânit, ceea ce îl face perfect pentru sesiuni scurte și, în același timp, suficient de provocator pentru jucătorii care vor să își îmbunătățească viteza de reacție.',
-        'Cu controale simple și mecanici captivante, Cowboy Duel te face să revii mereu pentru a-ți bate cele mai bune timpuri și pentru a-ți ascuți reflexele. Fiecare duel este tensionat și satisfăcător, mai ales când victoria se decide într-o fracțiune de secundă.',
-        'Fie că vrei doar să treacă timpul sau să concurezi cu prietenii pentru cel mai rapid draw, Cowboy Duel oferă o experiență distractivă și captivantă inspirată de confruntările western clasice.',
+        'Habit Tracker este o aplicație simplă și flexibilă pentru urmărirea obiceiurilor, construirea unor rutine zilnice mai bune, menținerea consecvenței și atingerea obiectivelor personale. Fie că vrei să citești mai mult, să faci mișcare, să bei mai multă apă, să meditezi, să studiezi sau să îți îmbunătățești productivitatea, Habit Tracker te ajută să transformi intențiile în obiceiuri pe care le poți păstra.',
+        'Creează obiceiuri potrivite stilului tău de viață cu mai multe tipuri de urmărire și programe flexibile. Poți urmări obiceiurile ca realizat sau nerealizat, ca obiective numerice sau ca rutine bazate pe minute. Setează obiceiuri pentru fiecare zi, anumite zile, la fiecare X zile sau un număr țintă de ori pe săptămână.',
+        'Rămâi consecvent cu check-in-uri zilnice, mementouri pentru obiceiuri și o cronologie clară care face progresul ușor de urmărit. Habit Tracker te ajută să construiești serii, să revizuiești zilele anterioare și să rămâi responsabil fără să complice procesul.',
+        'Înțelege progresul tău cu statistici detaliate, inclusiv seria curentă, cea mai lungă serie, completarea săptămânală, completarea lunară, scorul de consecvență, totalul check-in-urilor, trendul pe 7 zile și calendarul heatmap. Aceste informații te ajută să vezi ce funcționează și unde poți îmbunătăți.',
+        'Creat pentru viteză, claritate și focus, Habit Tracker îți oferă o modalitate simplă de a organiza obiceiurile după titlu, descriere, categorie și culoare. Cu mod întunecat, suport pentru limbi și mementouri inteligente, Habit Tracker este o aplicație Android practică pentru oricine vrea să construiască obiceiuri durabile și rutine mai puternice.',
       ],
-      category: 'Arcade',
+      category: 'Productivitate',
       platforms: ['Android'],
-      tags: ['Reflexe', 'Arcade', 'Timp de reacție', 'Western', 'Casual'],
+      tags: ['Habit Tracker', 'Rutine', 'Serii', 'Mementouri', 'Productivitate'],
     },
     'water-reminder': {
       name: 'Water Reminder',
@@ -1579,36 +1263,6 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
         'Pe măsură ce cobori prin medii înzăpezite, va trebui să navighezi pe trasee înguste în zigzag, să eviți barierele și să colectezi obiecte pe drum pentru a-ți îmbunătăți performanța. Provocarea constă în a păstra controlul în timp ce reacționezi rapid la schimbările de teren.',
         'Conceput pentru sesiuni rapide și rejucabile, ZigZag Ski este ușor de învățat, dar greu de stăpânit. Fie că vrei să îți depășești recordul sau doar să te bucuri de acțiune arcade rapidă, fiecare rundă oferă o nouă șansă de a progresa.',
         'Cu imagini curate, controale fluide și mecanici captivante, ZigZag Ski oferă o experiență de acțiune ușoară, perfectă pentru jucătorii care iubesc provocările bazate pe reflexe și buclele de gameplay fără sfârșit.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
-    'kiss-the-boss': {
-      name: 'Kiss The Boss',
-      summary:
-        'Testează-ți reflexele într-un joc amuzant unde trebuie să săruți șeful.',
-      longDescription: [
-        'Kiss The Boss este un joc casual arcade neobișnuit care transformă umorul de birou într-o provocare rapidă de reflexe. Obiectivul tău este simplu — să îți săruți șeful cât mai repede și mai eficient pentru a-ți păstra locul de muncă și a urca în ierarhie.',
-        'Construit în jurul unui concept unic și comic, jocul îi provoacă pe jucători să reacționeze repede, să își cronometreze bine acțiunile și să își îmbunătățească performanța la fiecare încercare. Cu cât joci mai bine și mai rapid, cu atât șansele de succes sunt mai mari.',
-        'Inspirat de scenarii exagerate din mediul de lucru, Kiss The Boss combină satira, umorul și mecanici simple într-o experiență care este în același timp distractivă și ușor de înțeles.',
-        'Controalele sunt minimale și accesibile, ceea ce îl face perfect pentru sesiuni scurte de joc, păstrând în același timp o latură competitivă prin îmbunătățirea scorului și rejucabilitate.',
-        'Dacă vrei un joc arcade relaxat sau ceva diferit de mecanicile tradiționale, Kiss The Boss oferă o buclă de gameplay distractivă și neconvențională, concepută pentru divertisment rapid.',
-      ],
-      category: 'Arcade',
-      platforms: ['Android'],
-      tags: ['Casual Game', 'Arcade', 'Action'],
-    },
-    'santas-lost-presents': {
-      name: 'Santa’s Lost Presents',
-      summary:
-        'Ajută-l pe Moș Crăciun să recupereze cadourile și să salveze Crăciunul.',
-      longDescription: [
-        'Santa’s Lost Presents este un joc arcade de acțiune festiv în care misiunea ta este să-l ajuți pe Moș Crăciun să recupereze toate cadourile pe care le-a pierdut accidental în călătoria sa de la Polul Nord. Cum Crăciunul este în joc, fiecare cadou contează.',
-        'În timp ce Moș Crăciun călătorește prin medii diferite, jucătorii trebuie să colecteze cadourile împrăștiate și să depășească obstacolele pentru ca fiecare copil să își primească darul la timp. Gameplay-ul este simplu, rapid și concentrat pe mișcare, timing și atenție.',
-        'Inspirat de mecanicile arcade clasice, jocul îi provoacă pe jucători să își îmbunătățească reflexele în timp ce trec prin situații din ce în ce mai dificile. Fiecare rundă aduce noi oportunități de a strânge mai multe cadouri și de a îmbunătăți scorul.',
-        'Cu tema sa veselă de sărbătoare și controale accesibile, Santa’s Lost Presents este perfect pentru sesiuni scurte în perioada Crăciunului sau oricând îți dorești o experiență ușoară și captivantă.',
-        'Fie că îți plac jocurile cu tematică de Crăciun sau provocările clasice de acțiune arcade, Santa’s Lost Presents oferă o buclă de gameplay distractivă și rejucabilă centrată pe colectare, evitare și salvarea spiritului sărbătorilor.',
       ],
       category: 'Arcade',
       platforms: ['Android'],
