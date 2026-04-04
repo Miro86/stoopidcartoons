@@ -26,6 +26,14 @@ export interface Release extends ReleaseBase, ReleaseTranslation { }
 
 const releaseBases = [
   {
+    slug: 'intermittent-fasting',
+    kind: 'app',
+    featured: true,
+    accent: 'blue',
+    icon: 'apps/icons/IntermittentFasting.png',
+    googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.stoopidcartoons.intermittentfasting'
+  },
+  {
     slug: 'hiit-timer',
     kind: 'app',
     featured: true,
@@ -68,7 +76,7 @@ const releaseBases = [
   {
     slug: 'the-birds',
     kind: 'game',
-    featured: true,
+    featured: false,
     accent: 'orange',
     icon: 'apps/icons/TheBirds.png',
     googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.stoopidcartoons.thebirds'
@@ -95,6 +103,21 @@ type ReleaseSlug = (typeof releaseBases)[number]['slug'];
 
 const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation>> = {
   en: {
+    'intermittent-fasting': {
+      name: 'Intermittent Fasting',
+      summary:
+        'Build better fasting habits with Intermittent Fasting, a simple fasting tracker with plans, reminders, a journal, and clear progress insights.',
+      longDescription: [
+        'Intermittent Fasting is a simple and modern fasting tracker app built to help you stay consistent, follow a routine, and better understand your progress. Whether you are starting with 16:8, exploring 18:6, trying 20:4, or following OMAD, Intermittent Fasting gives you a clear and easy way to manage your fasting schedule.',
+        'Start a fast in seconds and track every active session with a clean live countdown timer. You can finish and save each fast when you are done, review your fasting history later, and keep your routine organized without unnecessary complexity. Intermittent Fasting is designed to make daily fasting feel structured, focused, and easy to maintain.',
+        'Choose from popular intermittent fasting plans or create a schedule that matches your lifestyle. The app helps you build a rhythm that works for weight management, consistency, and habit building, while keeping the experience simple and flexible for everyday use.',
+        'Stay motivated with useful fasting insights such as your current streak, longest fast, weekly fasting hours, and saved journal entries. Intermittent Fasting gives you a clear overview of your fasting journey so you can see what is working, stay accountable, and keep moving toward your goals.',
+        'With smart reminders, language support, and a clean dark design, Intermittent Fasting is a practical Android app for anyone who wants a reliable intermittent fasting timer, fasting journal, and progress tracker in one place.',
+      ],
+      category: 'Health & Fitness',
+      platforms: ['Android'],
+      tags: ['Intermittent Fasting', 'Fasting Tracker', 'Fasting Timer', 'Fasting Plans', 'Health & Fitness'],
+    },
     'hiit-timer': {
       name: 'HIIT Timer',
       summary:
@@ -217,6 +240,22 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   de: {
+    'intermittent-fasting': {
+      name: 'Intermittent Fasting',
+      summary:
+        'Baue bessere Fastengewohnheiten auf mit Intermittent Fasting, einer einfachen Fasten-App mit Plänen, Erinnerungen, Journal und klaren Fortschrittswerten.',
+      longDescription: [
+        'Intermittent Fasting ist eine einfache und moderne Fasten-App, mit der du konsequent bleiben, einer Routine folgen und deinen Fortschritt besser verstehen kannst. Egal ob du mit 16:8 beginnst, 18:6 nutzt, 20:4 ausprobierst oder OMAD verfolgst, Intermittent Fasting gibt dir eine klare und unkomplizierte Möglichkeit, deinen Fastenplan zu organisieren.',
+        'Starte dein Fasten in Sekunden und verfolge jede aktive Sitzung mit einem übersichtlichen Live-Countdown. Du kannst jedes Fasten am Ende speichern, später deinen Verlauf ansehen und deine Routine ohne unnötige Komplexität organisiert halten. Intermittent Fasting wurde dafür entwickelt, tägliches Fasten strukturiert, fokussiert und einfach umsetzbar zu machen.',
+        'Wähle aus beliebten Intervallfasten-Plänen oder erstelle einen Zeitplan, der zu deinem Alltag passt. Die App hilft dir dabei, einen Rhythmus für Gewichtsmanagement, Beständigkeit und bessere Gewohnheiten aufzubauen – einfach, flexibel und alltagstauglich.',
+        'Bleib motiviert mit nützlichen Fasten-Einblicken wie aktueller Serie, längstem Fasten, wöchentlichen Fastenstunden und gespeicherten Journal-Einträgen. Intermittent Fasting gibt dir einen klaren Überblick über deinen Weg, damit du erkennst, was funktioniert, dranbleibst und deine Ziele weiter verfolgst.',
+        'Mit smarten Erinnerungen, Sprachunterstützung und einem klaren Dark Design ist Intermittent Fasting eine praktische Android-App für alle, die einen zuverlässigen Intervallfasten-Timer, ein Fasten-Journal und eine Fortschrittsübersicht an einem Ort möchten.',
+      ],
+      category: 'Gesundheit & Fitness',
+      platforms: ['Android'],
+      tags: ['Intermittent Fasting', 'Fasten App', 'Fasten Timer', 'Intervallfasten', 'Gesundheit & Fitness'],
+    },
+
     'hiit-timer': {
       name: 'HIIT Timer',
       summary:
@@ -339,6 +378,22 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   fr: {
+    'intermittent-fasting': {
+      name: 'Intermittent Fasting',
+      summary:
+        'Développez de meilleures habitudes avec Intermittent Fasting, une app de jeûne simple avec plans, rappels, journal et suivi clair des progrès.',
+      longDescription: [
+        'Intermittent Fasting est une application de jeûne simple et moderne conçue pour vous aider à rester régulier, suivre une routine et mieux comprendre vos progrès. Que vous commenciez avec le 16:8, utilisiez le 18:6, testiez le 20:4 ou suiviez OMAD, Intermittent Fasting vous offre une manière claire et pratique d’organiser votre programme de jeûne.',
+        'Lancez un jeûne en quelques secondes et suivez chaque session active avec un compte à rebours en direct, lisible et propre. Vous pouvez terminer et enregistrer chaque jeûne une fois fini, consulter votre historique plus tard et garder votre routine organisée sans complexité inutile. Intermittent Fasting est pensé pour rendre le jeûne quotidien structuré, simple et durable.',
+        'Choisissez parmi les plans de jeûne intermittent les plus populaires ou créez un programme adapté à votre mode de vie. L’application vous aide à construire un rythme utile pour la gestion du poids, la régularité et de meilleures habitudes, tout en restant flexible et facile à utiliser au quotidien.',
+        'Restez motivé grâce à des informations utiles comme votre série actuelle, votre jeûne le plus long, vos heures de jeûne hebdomadaires et vos entrées enregistrées dans le journal. Intermittent Fasting vous donne une vue d’ensemble claire de votre parcours pour voir ce qui fonctionne et continuer à avancer vers vos objectifs.',
+        'Avec des rappels intelligents, la prise en charge des langues et un design sombre épuré, Intermittent Fasting est une application Android pratique pour toute personne recherchant un minuteur de jeûne intermittent, un journal de jeûne et un suivi des progrès dans un seul outil.',
+      ],
+      category: 'Santé et fitness',
+      platforms: ['Android'],
+      tags: ['Intermittent Fasting', 'Jeûne intermittent', 'Minuteur de jeûne', 'Suivi du jeûne', 'Santé et fitness'],
+    },
+
     'hiit-timer': {
       name: 'HIIT Timer',
       summary:
@@ -462,6 +517,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   it: {
+    'intermittent-fasting': {
+      name: 'Intermittent Fasting',
+      summary:
+        'Crea abitudini migliori con Intermittent Fasting, un’app semplice per il digiuno con piani, promemoria, diario e statistiche chiare.',
+      longDescription: [
+        'Intermittent Fasting è un’app semplice e moderna per il digiuno, pensata per aiutarti a essere costante, seguire una routine e capire meglio i tuoi progressi. Che tu stia iniziando con il 16:8, usando il 18:6, provando il 20:4 o seguendo OMAD, Intermittent Fasting ti offre un modo chiaro e pratico per gestire il tuo programma di digiuno.',
+        'Avvia un digiuno in pochi secondi e segui ogni sessione attiva con un conto alla rovescia in tempo reale, pulito e facile da leggere. Puoi terminare e salvare ogni digiuno quando hai finito, rivedere la cronologia in seguito e mantenere la tua routine organizzata senza complicazioni inutili. Intermittent Fasting è progettata per rendere il digiuno quotidiano più semplice, strutturato e sostenibile.',
+        'Scegli tra i piani di digiuno intermittente più popolari oppure crea un programma adatto al tuo stile di vita. L’app ti aiuta a costruire un ritmo utile per la gestione del peso, la costanza e la creazione di abitudini migliori, mantenendo tutto flessibile e facile da usare ogni giorno.',
+        'Resta motivato con statistiche utili come la serie attuale, il digiuno più lungo, le ore settimanali di digiuno e le voci salvate nel diario. Intermittent Fasting ti offre una panoramica chiara del tuo percorso così puoi capire cosa funziona e continuare verso i tuoi obiettivi.',
+        'Con promemoria intelligenti, supporto multilingua e un design scuro pulito, Intermittent Fasting è un’app Android pratica per chi cerca un timer per il digiuno intermittente, un diario del digiuno e un tracker dei progressi in un unico posto.',
+      ],
+      category: 'Salute e benessere',
+      platforms: ['Android'],
+      tags: ['Intermittent Fasting', 'Digiuno intermittente', 'Timer digiuno', 'Tracker digiuno', 'Salute e benessere'],
+    },
     'hiit-timer': {
       name: 'HIIT Timer',
       summary:
@@ -585,6 +655,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   es: {
+    'intermittent-fasting': {
+      name: 'Intermittent Fasting',
+      summary:
+        'Crea mejores hábitos con Intermittent Fasting, una app de ayuno simple con planes, recordatorios, diario e informes claros.',
+      longDescription: [
+        'Intermittent Fasting es una app de ayuno simple y moderna diseñada para ayudarte a ser constante, seguir una rutina y entender mejor tu progreso. Tanto si empiezas con 16:8, sigues 18:6, pruebas 20:4 o haces OMAD, Intermittent Fasting te ofrece una forma clara y práctica de gestionar tu horario de ayuno.',
+        'Empieza un ayuno en segundos y sigue cada sesión activa con una cuenta atrás en vivo, limpia y fácil de leer. Puedes terminar y guardar cada ayuno cuando acabes, revisar tu historial más tarde y mantener tu rutina organizada sin complejidad innecesaria. Intermittent Fasting está pensada para que el ayuno diario sea más estructurado, claro y fácil de mantener.',
+        'Elige entre los planes de ayuno intermitente más populares o crea un horario que se adapte a tu estilo de vida. La app te ayuda a construir un ritmo útil para el control del peso, la constancia y la creación de mejores hábitos, manteniendo una experiencia flexible y sencilla para el día a día.',
+        'Mantente motivado con datos útiles como tu racha actual, tu ayuno más largo, tus horas semanales de ayuno y tus entradas guardadas en el diario. Intermittent Fasting te da una visión clara de tu recorrido para que veas qué funciona y sigas avanzando hacia tus objetivos.',
+        'Con recordatorios inteligentes, soporte de idiomas y un diseño oscuro limpio, Intermittent Fasting es una app Android práctica para quien busca un temporizador de ayuno intermitente, un diario de ayuno y un seguimiento del progreso en un solo lugar.',
+      ],
+      category: 'Salud y bienestar',
+      platforms: ['Android'],
+      tags: ['Intermittent Fasting', 'Ayuno intermitente', 'Temporizador de ayuno', 'Seguimiento del ayuno', 'Salud y bienestar'],
+    },
     'hiit-timer': {
       name: 'HIIT Timer',
       summary:
@@ -707,6 +792,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   pt: {
+    'intermittent-fasting': {
+      name: 'Intermittent Fasting',
+      summary:
+        'Crie melhores hábitos com Intermittent Fasting, uma app simples de jejum com planos, lembretes, diário e progresso claro.',
+      longDescription: [
+        'Intermittent Fasting é uma app de jejum simples e moderna criada para o ajudar a manter a consistência, seguir uma rotina e compreender melhor o seu progresso. Quer esteja a começar com 16:8, a usar 18:6, a experimentar 20:4 ou a seguir OMAD, Intermittent Fasting oferece uma forma clara e prática de gerir o seu plano de jejum.',
+        'Inicie um jejum em segundos e acompanhe cada sessão ativa com uma contagem decrescente em tempo real, limpa e fácil de ler. Pode terminar e guardar cada jejum quando acabar, rever o seu histórico mais tarde e manter a sua rotina organizada sem complexidade desnecessária. Intermittent Fasting foi pensada para tornar o jejum diário mais estruturado, simples e sustentável.',
+        'Escolha entre os planos de jejum intermitente mais populares ou crie um horário que se adapte ao seu estilo de vida. A aplicação ajuda-o a construir um ritmo útil para gestão de peso, consistência e criação de melhores hábitos, mantendo tudo flexível e fácil de usar no dia a dia.',
+        'Mantenha-se motivado com dados úteis como a sequência atual, o jejum mais longo, as horas semanais de jejum e as entradas guardadas no diário. Intermittent Fasting dá-lhe uma visão clara do seu percurso para perceber o que está a funcionar e continuar focado nos seus objetivos.',
+        'Com lembretes inteligentes, suporte de idiomas e um design escuro limpo, Intermittent Fasting é uma app Android prática para quem procura um temporizador de jejum intermitente, um diário de jejum e um acompanhamento de progresso num só lugar.',
+      ],
+      category: 'Saúde e fitness',
+      platforms: ['Android'],
+      tags: ['Intermittent Fasting', 'Jejum intermitente', 'Temporizador de jejum', 'Rastreador de jejum', 'Saúde e fitness'],
+    },
     'hiit-timer': {
       name: 'HIIT Timer',
       summary:
@@ -830,6 +930,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   sr: {
+    'intermittent-fasting': {
+      name: 'Intermittent Fasting',
+      summary:
+        'Изградите боље навике уз Intermittent Fasting, једноставну апликацију за пост са плановима, подсетницима, дневником и јасним увидима.',
+      longDescription: [
+        'Intermittent Fasting је једноставна и модерна апликација за праћење поста направљена да вам помогне да будете доследни, пратите рутину и боље разумете свој напредак. Било да почињете са 16:8, користите 18:6, испробавате 20:4 или пратите OMAD, Intermittent Fasting вам даје јасан и практичан начин да организујете свој распоред поста.',
+        'Покрените пост за неколико секунди и пратите сваку активну сесију уз чист и прегледан тајмер са одбројавањем уживо. Можете да завршите и сачувате сваки пост када буде готов, касније прегледате историју и одржавате своју рутину организованом без непотребне сложености. Intermittent Fasting је направљен тако да свакодневни пост буде једноставан, структуриран и лак за одржавање.',
+        'Изаберите неки од популарних планова интермитентног поста или направите распоред који одговара вашем начину живота. Апликација вам помаже да изградите ритам који подржава контролу тежине, доследност и боље навике, а све то у флексибилном и једноставном искуству за свакодневну употребу.',
+        'Останите мотивисани уз корисне увиде као што су тренутни низ, најдужи пост, недељни сати поста и сачувани уноси у дневнику. Intermittent Fasting вам даје јасан преглед вашег пута како бисте видели шта функционише и наставили да се крећете ка својим циљевима.',
+        'Уз паметне подсетнике, подршку за језике и чист тамни дизајн, Intermittent Fasting је практична Android апликација за свакога ко жели поуздан тајмер за интермитентни пост, дневник поста и праћење напретка на једном месту.',
+      ],
+      category: 'Здравље и фитнес',
+      platforms: ['Android'],
+      tags: ['Intermittent Fasting', 'Интермитентни пост', 'Тајмер поста', 'Праћење поста', 'Здравље и фитнес'],
+    },
     'hiit-timer': {
       name: 'HIIT Timer',
       summary:
@@ -953,6 +1068,22 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   hr: {
+    'intermittent-fasting': {
+      name: 'Intermittent Fasting',
+      summary:
+        'Izgradite bolje navike uz Intermittent Fasting, jednostavnu aplikaciju za post s planovima, podsjetnicima, dnevnikom i jasnim uvidima.',
+      longDescription: [
+        'Intermittent Fasting je jednostavna i moderna aplikacija za praćenje posta napravljena kako bi vam pomogla da ostanete dosljedni, pratite rutinu i bolje razumijete svoj napredak. Bilo da počinjete s 16:8, koristite 18:6, isprobavate 20:4 ili pratite OMAD, Intermittent Fasting daje vam jasan i praktičan način za upravljanje rasporedom posta.',
+        'Pokrenite post za nekoliko sekundi i pratite svaku aktivnu sesiju uz čist i pregledan timer s odbrojavanjem uživo. Možete završiti i spremiti svaki post kada završite, kasnije pregledati povijest i održavati svoju rutinu organiziranom bez nepotrebne složenosti. Intermittent Fasting je osmišljen da svakodnevni post učini strukturiranim, jednostavnim i lakim za održavanje.',
+        'Birajte među popularnim planovima intermitentnog posta ili izradite raspored koji odgovara vašem načinu života. Aplikacija vam pomaže stvoriti ritam koji podržava kontrolu težine, dosljednost i izgradnju boljih navika, a pritom ostaje fleksibilna i jednostavna za svakodnevno korištenje.',
+        'Ostanite motivirani uz korisne uvide kao što su trenutni niz, najduži post, tjedni sati posta i spremljeni unosi u dnevniku. Intermittent Fasting daje vam jasan pregled vašeg puta kako biste vidjeli što funkcionira i nastavili se kretati prema svojim ciljevima.',
+        'Uz pametne podsjetnike, podršku za jezike i čist tamni dizajn, Intermittent Fasting je praktična Android aplikacija za svakoga tko želi pouzdan timer za intermitentni post, dnevnik posta i praćenje napretka na jednom mjestu.',
+      ],
+      category: 'Zdravlje i fitness',
+      platforms: ['Android'],
+      tags: ['Intermittent Fasting', 'Intermitentni post', 'Timer posta', 'Praćenje posta', 'Zdravlje i fitness'],
+    },
+
     'hiit-timer': {
       name: 'HIIT Timer',
       summary:
@@ -1075,6 +1206,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   nl: {
+    'intermittent-fasting': {
+      name: 'Intermittent Fasting',
+      summary:
+        'Bouw betere gewoontes op met Intermittent Fasting, een eenvoudige vasten-app met schema’s, herinneringen, een journaal en duidelijke inzichten.',
+      longDescription: [
+        'Intermittent Fasting is een eenvoudige en moderne vasten-app die is ontworpen om je te helpen consequent te blijven, een routine te volgen en je voortgang beter te begrijpen. Of je nu begint met 16:8, 18:6 gebruikt, 20:4 probeert of OMAD volgt, Intermittent Fasting geeft je een duidelijke en praktische manier om je vastenschema te beheren.',
+        'Start een vastenperiode in een paar seconden en volg elke actieve sessie met een heldere live afteltimer. Je kunt elke vastenperiode afronden en opslaan wanneer je klaar bent, later je geschiedenis bekijken en je routine georganiseerd houden zonder onnodige complexiteit. Intermittent Fasting is gemaakt om dagelijks vasten gestructureerd, eenvoudig en vol te houden te maken.',
+        'Kies uit populaire intermittent fasting-schema’s of maak een planning die past bij jouw levensstijl. De app helpt je een ritme op te bouwen dat werkt voor gewichtsbeheer, consistentie en betere gewoontes, terwijl alles flexibel en eenvoudig blijft voor dagelijks gebruik.',
+        'Blijf gemotiveerd met nuttige inzichten zoals je huidige reeks, langste vastenperiode, wekelijkse vastenuren en opgeslagen journaalitems. Intermittent Fasting geeft je een duidelijk overzicht van je traject zodat je kunt zien wat werkt en gericht verder kunt gaan richting je doelen.',
+        'Met slimme herinneringen, taalondersteuning en een strak donker ontwerp is Intermittent Fasting een praktische Android-app voor iedereen die een betrouwbare intermittent fasting-timer, vastenjournaal en voortgangstracker op één plek wil.',
+      ],
+      category: 'Gezondheid en fitness',
+      platforms: ['Android'],
+      tags: ['Intermittent Fasting', 'Intermittent vasten', 'Vasten timer', 'Vasten tracker', 'Gezondheid en fitness'],
+    },
     'hiit-timer': {
       name: 'HIIT Timer',
       summary:
@@ -1198,6 +1344,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   pl: {
+    'intermittent-fasting': {
+      name: 'Intermittent Fasting',
+      summary:
+        'Buduj lepsze nawyki z Intermittent Fasting, prostą aplikacją do postu z planami, przypomnieniami, dziennikiem i czytelnymi statystykami.',
+      longDescription: [
+        'Intermittent Fasting to prosta i nowoczesna aplikacja do śledzenia postu, która pomaga zachować regularność, trzymać się planu i lepiej rozumieć własne postępy. Niezależnie od tego, czy zaczynasz od 16:8, korzystasz z 18:6, próbujesz 20:4 czy stosujesz OMAD, Intermittent Fasting daje Ci jasny i wygodny sposób zarządzania harmonogramem postu.',
+        'Rozpocznij post w kilka sekund i śledź każdą aktywną sesję za pomocą przejrzystego licznika z odliczaniem na żywo. Możesz zakończyć i zapisać każdy post po jego ukończeniu, później wrócić do historii i utrzymywać swoją rutynę w porządku bez zbędnej złożoności. Intermittent Fasting została stworzona po to, aby codzienny post był prosty, uporządkowany i łatwy do utrzymania.',
+        'Wybieraj spośród popularnych planów intermittent fasting albo stwórz harmonogram dopasowany do swojego stylu życia. Aplikacja pomaga zbudować rytm wspierający kontrolę wagi, regularność i lepsze nawyki, zachowując przy tym elastyczność i prostotę na co dzień.',
+        'Pozostań zmotywowany dzięki przydatnym statystykom, takim jak aktualna seria, najdłuższy post, tygodniowe godziny postu i zapisane wpisy w dzienniku. Intermittent Fasting daje Ci czytelny obraz całej drogi, aby łatwiej zobaczyć, co działa i konsekwentnie iść w stronę swoich celów.',
+        'Dzięki inteligentnym przypomnieniom, obsłudze języków i przejrzystemu ciemnemu wyglądowi Intermittent Fasting to praktyczna aplikacja Android dla każdego, kto chce mieć niezawodny timer do intermittent fasting, dziennik postu i śledzenie postępów w jednym miejscu.',
+      ],
+      category: 'Zdrowie i fitness',
+      platforms: ['Android'],
+      tags: ['Intermittent Fasting', 'Post przerywany', 'Timer postu', 'Śledzenie postu', 'Zdrowie i fitness'],
+    },
     'hiit-timer': {
       name: 'HIIT Timer',
       summary:
@@ -1321,6 +1482,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   ro: {
+    'intermittent-fasting': {
+      name: 'Intermittent Fasting',
+      summary:
+        'Construiește obiceiuri mai bune cu Intermittent Fasting, o aplicație simplă pentru post cu planuri, mementouri, jurnal și statistici clare.',
+      longDescription: [
+        'Intermittent Fasting este o aplicație simplă și modernă pentru urmărirea postului, creată pentru a te ajuta să rămâi consecvent, să urmezi o rutină și să înțelegi mai bine progresul tău. Fie că începi cu 16:8, folosești 18:6, încerci 20:4 sau urmezi OMAD, Intermittent Fasting îți oferă o metodă clară și practică de a-ți gestiona programul de post.',
+        'Pornește un post în câteva secunde și urmărește fiecare sesiune activă cu un timer clar, cu numărătoare inversă live. Poți încheia și salva fiecare post când ai terminat, poți reveni mai târziu la istoric și îți poți păstra rutina organizată fără complexitate inutilă. Intermittent Fasting este concepută pentru a face postul zilnic mai structurat, mai simplu și mai ușor de menținut.',
+        'Alege dintre planuri populare de intermittent fasting sau creează un program care se potrivește stilului tău de viață. Aplicația te ajută să construiești un ritm util pentru controlul greutății, consecvență și obiceiuri mai bune, păstrând experiența flexibilă și ușor de folosit în fiecare zi.',
+        'Rămâi motivat cu informații utile precum seria curentă, cel mai lung post, orele săptămânale de post și notițele salvate în jurnal. Intermittent Fasting îți oferă o imagine clară asupra parcursului tău, astfel încât să vezi ce funcționează și să continui spre obiectivele tale.',
+        'Cu mementouri inteligente, suport pentru limbi și un design dark curat, Intermittent Fasting este o aplicație Android practică pentru oricine își dorește un timer de intermittent fasting, un jurnal de post și urmărirea progresului într-un singur loc.',
+      ],
+      category: 'Sănătate și fitness',
+      platforms: ['Android'],
+      tags: ['Intermittent Fasting', 'Post intermitent', 'Timer post', 'Monitorizare post', 'Sănătate și fitness'],
+    },
     'hiit-timer': {
       name: 'HIIT Timer',
       summary:
