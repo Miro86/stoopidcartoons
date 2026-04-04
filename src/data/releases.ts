@@ -26,6 +26,14 @@ export interface Release extends ReleaseBase, ReleaseTranslation { }
 
 const releaseBases = [
   {
+    slug: 'hiit-timer',
+    kind: 'app',
+    featured: true,
+    accent: 'red',
+    icon: 'apps/icons/HIITTimer.png',
+    googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.stoopidcartoons.hiittimer'
+  },
+  {
     slug: 'habit-tracker',
     kind: 'app',
     featured: true,
@@ -52,7 +60,7 @@ const releaseBases = [
   {
     slug: 'gastarbajter',
     kind: 'game',
-    featured: false,
+    featured: true,
     accent: 'red',
     icon: 'apps/icons/Gastarbajter.png',
     googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.stoopidcartoons.gastarbajter',
@@ -60,7 +68,7 @@ const releaseBases = [
   {
     slug: 'the-birds',
     kind: 'game',
-    featured: false,
+    featured: true,
     accent: 'orange',
     icon: 'apps/icons/TheBirds.png',
     googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.stoopidcartoons.thebirds'
@@ -87,6 +95,21 @@ type ReleaseSlug = (typeof releaseBases)[number]['slug'];
 
 const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation>> = {
   en: {
+    'hiit-timer': {
+      name: 'HIIT Timer',
+      summary:
+        'Train smarter with HIIT Timer, a flexible interval timer for custom workouts, quick starts, workout history, reminders, and full session control.',
+      longDescription: [
+        'HIIT Timer is a clean and flexible interval timer app built for HIIT workouts, circuit training, cardio sessions, home workouts, and custom fitness routines. Whether you want a simple workout timer for fast sessions or a more advanced interval workout builder, HIIT Timer gives you the tools to train with clarity and control.',
+        'Build your workout exactly the way you want with warmup, work, rest, and cooldown intervals. Set the number of rounds, organize the order of each interval block, save your workouts, and launch them quickly when it is time to train. HIIT Timer makes it easy to create structured training sessions for daily exercise, interval running, bodyweight workouts, and home fitness.',
+        'Stay focused during every workout with a large, easy-to-read timer and a clean training screen designed for fast use. You can quickly start saved workouts, jump back into your last session, and keep track of completed workouts with workout history that helps you stay consistent over time.',
+        'Customize the app to match your training style with sound cues, vibration feedback, countdown beeps, dark mode, language options, and keep-screen-on support during workouts. HIIT Timer is designed to reduce distractions and help you stay locked into each interval and transition.',
+        'Made for speed, simplicity, and flexibility, HIIT Timer is a practical Android workout timer for anyone who wants custom intervals, saved routines, session history, and a better way to manage HIIT training, cardio workouts, and interval exercise.',
+      ],
+      category: 'Health & Fitness',
+      platforms: ['Android'],
+      tags: ['HIIT Timer', 'Interval Timer', 'Workout Timer', 'HIIT Workouts', 'Fitness'],
+    },
     'habit-tracker': {
       name: 'Habit Tracker',
       summary:
@@ -194,6 +217,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   de: {
+    'hiit-timer': {
+      name: 'HIIT Timer',
+      summary:
+        'Trainiere smarter mit HIIT Timer, einem flexiblen Intervalltimer für eigene Workouts, Schnellstarts, Trainingsverlauf und volle Kontrolle.',
+      longDescription: [
+        'HIIT Timer ist eine klare und flexible Intervalltimer-App für HIIT-Workouts, Zirkeltraining, Cardio-Einheiten, Home-Workouts und individuelle Trainingsroutinen. Egal ob du einen einfachen Workout-Timer für schnelle Sessions oder einen vielseitigen Builder für Intervalltraining suchst – HIIT Timer hilft dir, strukturiert und fokussiert zu trainieren.',
+        'Erstelle dein Training genau so, wie du es brauchst – mit Aufwärmen, Belastung, Pause und Cooldown. Lege die Anzahl der Runden fest, ordne die Intervalle in der richtigen Reihenfolge an, speichere deine Workouts und starte sie schnell, wenn es losgeht. HIIT Timer macht es einfach, strukturierte Trainings für Alltag, Intervalllaufen, Bodyweight-Training und Home-Fitness zu planen.',
+        'Bleib bei jedem Training konzentriert – mit einem großen, gut lesbaren Timer und einem klaren Trainingsbildschirm für schnelle Bedienung. Du kannst gespeicherte Workouts direkt starten, in deine letzte Session zurückspringen und abgeschlossene Einheiten im Trainingsverlauf verfolgen, um langfristig konsequent zu bleiben.',
+        'Passe die App an deinen Trainingsstil an – mit Tonsignalen, Vibration, Countdown-Signalen, Dunkelmodus, Spracheinstellungen und der Option, den Bildschirm während des Trainings aktiv zu halten. HIIT Timer hilft dir, Ablenkungen zu reduzieren und dich auf jedes Intervall und jeden Übergang zu konzentrieren.',
+        'HIIT Timer wurde für Tempo, Einfachheit und Flexibilität entwickelt und ist eine praktische Android-App für alle, die eigene Intervalle, gespeicherte Routinen, Trainingsverlauf und eine bessere Lösung für HIIT-Training, Cardio-Workouts und Intervalltraining suchen.',
+      ],
+      category: 'Gesundheit & Fitness',
+      platforms: ['Android'],
+      tags: ['HIIT Timer', 'Intervalltimer', 'Workout Timer', 'HIIT Training', 'Fitness'],
+    },
     'habit-tracker': {
       name: 'Habit Tracker',
       summary:
@@ -301,6 +339,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   fr: {
+    'hiit-timer': {
+      name: 'HIIT Timer',
+      summary:
+        'Entraînez-vous mieux avec HIIT Timer, un minuteur d’intervalles flexible pour séances personnalisées, démarrages rapides et historique.',
+      longDescription: [
+        'HIIT Timer est une application de minuteur d’intervalles claire et flexible conçue pour les entraînements HIIT, le circuit training, les séances cardio, le sport à la maison et les routines personnalisées. Que vous cherchiez un minuteur simple pour vos séances rapides ou un outil complet pour créer vos intervalles, HIIT Timer vous aide à vous entraîner avec structure et précision.',
+        'Créez vos séances comme vous le souhaitez avec des intervalles d’échauffement, d’effort, de repos et de retour au calme. Définissez le nombre de séries, organisez l’ordre des blocs, enregistrez vos entraînements et lancez-les rapidement lorsque vous êtes prêt. HIIT Timer permet de préparer facilement des séances structurées pour le fitness à la maison, le cardio, la course par intervalles et les exercices au poids du corps.',
+        'Restez concentré pendant chaque séance grâce à un grand minuteur facile à lire et à un écran d’entraînement conçu pour être rapide à utiliser. Vous pouvez lancer rapidement des séances enregistrées, revenir à votre dernière session et suivre vos entraînements terminés dans l’historique pour garder un bon rythme.',
+        'Personnalisez l’application selon votre style d’entraînement avec des signaux sonores, des vibrations, des bips de décompte, le mode sombre, les options de langue et le maintien de l’écran allumé pendant l’entraînement. HIIT Timer réduit les distractions et vous aide à rester attentif à chaque intervalle et transition.',
+        'Pensé pour la rapidité, la simplicité et la flexibilité, HIIT Timer est une application Android pratique pour celles et ceux qui veulent des intervalles personnalisés, des routines enregistrées, un historique des séances et une meilleure manière de gérer le HIIT, le cardio et l’entraînement par intervalles.',
+      ],
+      category: 'Santé et fitness',
+      platforms: ['Android'],
+      tags: ['HIIT Timer', 'Minuteur intervalle', 'Minuteur entraînement', 'HIIT', 'Fitness'],
+    },
     'habit-tracker': {
       name: 'Habit Tracker',
       summary:
@@ -409,6 +462,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   it: {
+    'hiit-timer': {
+      name: 'HIIT Timer',
+      summary:
+        'Allenati meglio con HIIT Timer, un timer a intervalli flessibile per workout personalizzati, avvio rapido e cronologia.',
+      longDescription: [
+        'HIIT Timer è un’app timer a intervalli semplice e flessibile pensata per allenamenti HIIT, circuit training, sessioni cardio, workout a casa e routine personalizzate. Che tu voglia un workout timer essenziale per sessioni rapide o uno strumento più completo per costruire allenamenti a intervalli, HIIT Timer ti aiuta ad allenarti con chiarezza e controllo.',
+        'Crea il tuo allenamento esattamente come vuoi con intervalli di riscaldamento, lavoro, riposo e defaticamento. Imposta il numero di round, organizza l’ordine dei blocchi, salva i tuoi workout e avviali rapidamente quando è il momento di allenarti. HIIT Timer rende semplice preparare sessioni strutturate per esercizi a casa, corsa a intervalli, cardio e allenamenti a corpo libero.',
+        'Resta concentrato durante ogni sessione grazie a un timer grande e facile da leggere e a una schermata di allenamento progettata per essere veloce da usare. Puoi avviare subito gli allenamenti salvati, tornare alla tua ultima sessione e controllare la cronologia dei workout completati per mantenere costanza nel tempo.',
+        'Personalizza l’app in base al tuo stile di allenamento con segnali sonori, vibrazione, beep del conto alla rovescia, modalità scura, opzioni lingua e supporto per mantenere lo schermo acceso durante i workout. HIIT Timer è pensato per ridurre le distrazioni e aiutarti a restare focalizzato su ogni intervallo e transizione.',
+        'Progettato per velocità, semplicità e flessibilità, HIIT Timer è una pratica app Android per chi vuole intervalli personalizzati, routine salvate, cronologia delle sessioni e un modo migliore per gestire allenamenti HIIT, cardio e interval training.',
+      ],
+      category: 'Salute e benessere',
+      platforms: ['Android'],
+      tags: ['HIIT Timer', 'Timer intervalli', 'Workout timer', 'Allenamento HIIT', 'Fitness'],
+    },
     'habit-tracker': {
       name: 'Habit Tracker',
       summary:
@@ -517,6 +585,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   es: {
+    'hiit-timer': {
+      name: 'HIIT Timer',
+      summary:
+        'Entrena mejor con HIIT Timer, un temporizador de intervalos flexible para workouts personalizados, inicio rápido e historial.',
+      longDescription: [
+        'HIIT Timer es una app de temporizador de intervalos limpia y flexible creada para entrenamientos HIIT, circuitos, sesiones de cardio, workouts en casa y rutinas personalizadas. Tanto si buscas un workout timer simple para sesiones rápidas como una herramienta más completa para crear entrenamientos por intervalos, HIIT Timer te ayuda a entrenar con claridad y control.',
+        'Crea tu entrenamiento exactamente como quieras con intervalos de calentamiento, trabajo, descanso y vuelta a la calma. Define el número de rondas, organiza el orden de cada bloque, guarda tus workouts y lánzalos rápido cuando toque entrenar. HIIT Timer facilita la creación de sesiones estructuradas para cardio, ejercicios en casa, entrenamiento por intervalos y rutinas de peso corporal.',
+        'Mantén la concentración en cada sesión con un temporizador grande y fácil de leer y una pantalla de entrenamiento diseñada para usarse con rapidez. Puedes iniciar rápidamente workouts guardados, volver a tu última sesión y llevar un registro de entrenamientos completados con un historial que te ayuda a mantener la constancia.',
+        'Personaliza la app según tu estilo de entrenamiento con señales de sonido, vibración, pitidos de cuenta atrás, modo oscuro, opciones de idioma y soporte para mantener la pantalla activa durante los entrenamientos. HIIT Timer está pensada para reducir distracciones y ayudarte a seguir cada intervalo y cada transición.',
+        'Diseñada para ser rápida, simple y flexible, HIIT Timer es una práctica app Android para quienes quieren intervalos personalizados, rutinas guardadas, historial de sesiones y una mejor forma de gestionar entrenamientos HIIT, cardio y ejercicio por intervalos.',
+      ],
+      category: 'Salud y bienestar',
+      platforms: ['Android'],
+      tags: ['HIIT Timer', 'Temporizador intervalos', 'Workout timer', 'Entrenamiento HIIT', 'Fitness'],
+    },
     'habit-tracker': {
       name: 'Habit Tracker',
       summary:
@@ -624,6 +707,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   pt: {
+    'hiit-timer': {
+      name: 'HIIT Timer',
+      summary:
+        'Treine melhor com HIIT Timer, um temporizador de intervalos flexível para treinos personalizados, arranque rápido e histórico.',
+      longDescription: [
+        'HIIT Timer é uma aplicação de temporizador de intervalos simples e flexível criada para treinos HIIT, circuit training, sessões de cardio, treinos em casa e rotinas personalizadas. Quer procure um workout timer simples para sessões rápidas ou uma ferramenta mais completa para criar treinos por intervalos, HIIT Timer ajuda-o a treinar com clareza e controlo.',
+        'Crie o seu treino exatamente como quiser com intervalos de aquecimento, esforço, descanso e retorno à calma. Defina o número de séries, organize a ordem de cada bloco, guarde os seus treinos e inicie-os rapidamente quando estiver pronto para treinar. HIIT Timer facilita a criação de sessões estruturadas para cardio, corrida por intervalos, treino funcional e exercícios em casa.',
+        'Mantenha o foco durante cada sessão com um temporizador grande e fácil de ler e um ecrã de treino pensado para utilização rápida. Pode iniciar rapidamente treinos guardados, voltar à sua última sessão e acompanhar os treinos concluídos com um histórico que o ajuda a manter a consistência ao longo do tempo.',
+        'Personalize a aplicação de acordo com o seu estilo de treino com sinais sonoros, vibração, sons de contagem decrescente, modo escuro, opções de idioma e suporte para manter o ecrã ligado durante os treinos. HIIT Timer foi criado para reduzir distrações e ajudá-lo a manter a atenção em cada intervalo e transição.',
+        'Desenvolvido para velocidade, simplicidade e flexibilidade, HIIT Timer é uma prática aplicação Android para quem procura intervalos personalizados, rotinas guardadas, histórico de sessões e uma melhor forma de gerir treinos HIIT, cardio e treino intervalado.',
+      ],
+      category: 'Saúde e fitness',
+      platforms: ['Android'],
+      tags: ['HIIT Timer', 'Temporizador de intervalos', 'Workout timer', 'Treino HIIT', 'Fitness'],
+    },
     'habit-tracker': {
       name: 'Habit Tracker',
       summary:
@@ -732,6 +830,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   sr: {
+    'hiit-timer': {
+      name: 'HIIT Timer',
+      summary:
+        'Тренирајте паметније уз HIIT Timer, флексибилан интервални тајмер за прилагођене тренинге, брз старт и историју сесија.',
+      longDescription: [
+        'HIIT Timer је једноставна и флексибилна апликација са интервалним тајмером направљена за HIIT тренинге, кружне тренинге, кардио сесије, кућне тренинге и прилагођене фитнес рутине. Било да желите једноставан workout timer за брзе сесије или напреднији алат за прављење интервалних тренинга, HIIT Timer вам помаже да тренирате јасно, организовано и под контролом.',
+        'Направите тренинг баш онако како вам одговара уз интервале загревања, рада, одмора и хлађења. Подесите број кругова, организујте редослед сваког блока, сачувајте тренинге и покрените их брзо када дође време за вежбање. HIIT Timer олакшава креирање структурираних сесија за кућни фитнес, кардио, интервално трчање и вежбе са сопственом тежином.',
+        'Останите фокусирани током сваког тренинга уз велики и јасно читљив тајмер и чист екран за тренинг направљен за брзо коришћење. Можете одмах да покренете сачуване тренинге, вратите се на последњу сесију и пратите завршене тренинге у историји како бисте одржали континуитет.',
+        'Прилагодите апликацију свом стилу тренинга уз звучне сигнале, вибрацију, одбројавање пре прелаза, тамни режим, језичке опције и подршку да екран остане укључен током тренинга. HIIT Timer је направљен да смањи ометања и помогне вам да останете усмерени на сваки интервал и сваку промену.',
+        'Направљен за брзину, једноставност и флексибилност, HIIT Timer је практична Android апликација за све који желе прилагођене интервале, сачуване рутине, историју сесија и бољи начин за управљање HIIT тренинзима, кардио тренинзима и интервалним вежбањем.',
+      ],
+      category: 'Здравље и фитнес',
+      platforms: ['Android'],
+      tags: ['HIIT Timer', 'Интервални тајмер', 'Workout timer', 'HIIT тренинг', 'Фитнес'],
+    },
     'habit-tracker': {
       name: 'Habit Tracker',
       summary:
@@ -840,6 +953,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   hr: {
+    'hiit-timer': {
+      name: 'HIIT Timer',
+      summary:
+        'Trenirajte pametnije uz HIIT Timer, fleksibilan intervalni timer za prilagođene treninge, brzi start i povijest sesija.',
+      longDescription: [
+        'HIIT Timer je jednostavna i fleksibilna aplikacija s intervalnim timerom napravljena za HIIT treninge, kružne treninge, kardio sesije, kućne treninge i prilagođene fitness rutine. Bilo da želite jednostavan workout timer za brze sesije ili napredniji alat za izradu intervalnih treninga, HIIT Timer pomaže vam trenirati jasno, organizirano i pod kontrolom.',
+        'Sastavite trening točno onako kako vam odgovara uz intervale zagrijavanja, rada, odmora i hlađenja. Postavite broj krugova, organizirajte redoslijed svakog bloka, spremite treninge i pokrenite ih brzo kada dođe vrijeme za vježbanje. HIIT Timer olakšava izradu strukturiranih sesija za kućni fitness, kardio, intervalno trčanje i vježbe s vlastitom težinom.',
+        'Ostanite fokusirani tijekom svakog treninga uz veliki i lako čitljiv timer te čist ekran za trening dizajniran za brzo korištenje. Možete odmah pokrenuti spremljene treninge, vratiti se na zadnju sesiju i pratiti završene treninge u povijesti kako biste održali kontinuitet.',
+        'Prilagodite aplikaciju svom stilu treninga uz zvučne signale, vibraciju, odbrojavanje prije prijelaza, tamni način rada, jezične opcije i podršku da ekran ostane uključen tijekom treninga. HIIT Timer napravljen je kako bi smanjio distrakcije i pomogao vam da ostanete usmjereni na svaki interval i svaku promjenu.',
+        'Napravljen za brzinu, jednostavnost i fleksibilnost, HIIT Timer je praktična Android aplikacija za svakoga tko želi prilagođene intervale, spremljene rutine, povijest sesija i bolji način za upravljanje HIIT treninzima, kardio treninzima i intervalnim vježbanjem.',
+      ],
+      category: 'Zdravlje i fitness',
+      platforms: ['Android'],
+      tags: ['HIIT Timer', 'Intervalni timer', 'Workout timer', 'HIIT trening', 'Fitness'],
+    },
     'habit-tracker': {
       name: 'Habit Tracker',
       summary:
@@ -947,6 +1075,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   nl: {
+    'hiit-timer': {
+      name: 'HIIT Timer',
+      summary:
+        'Train slimmer met HIIT Timer, een flexibele intervaltimer voor aangepaste workouts, snelle starts en trainingsgeschiedenis.',
+      longDescription: [
+        'HIIT Timer is een duidelijke en flexibele intervaltimer-app voor HIIT-workouts, circuittraining, cardiotraining, thuisworkouts en aangepaste fitnessroutines. Of je nu een simpele workout timer zoekt voor snelle sessies of een uitgebreidere tool om intervaltrainingen op te bouwen, HIIT Timer helpt je om gestructureerd en met controle te trainen.',
+        'Bouw je workout precies zoals jij wilt met warming-up-, werk-, rust- en cooling-downintervallen. Stel het aantal rondes in, bepaal de volgorde van elk blok, sla je workouts op en start ze snel wanneer het tijd is om te trainen. HIIT Timer maakt het eenvoudig om gestructureerde sessies te maken voor home fitness, intervalrunning, cardio en lichaamsgewichttraining.',
+        'Blijf gefocust tijdens elke training met een grote, makkelijk leesbare timer en een strak trainingsscherm dat snel te gebruiken is. Je kunt opgeslagen workouts direct starten, teruggaan naar je laatste sessie en voltooide trainingen volgen in je geschiedenis om consistent te blijven.',
+        'Pas de app aan jouw trainingsstijl aan met geluidssignalen, trilfeedback, aftelbeeps, donkere modus, taalopties en ondersteuning om je scherm tijdens trainingen ingeschakeld te houden. HIIT Timer is ontworpen om afleiding te verminderen en je aandacht bij elk interval en elke overgang te houden.',
+        'HIIT Timer is gebouwd voor snelheid, eenvoud en flexibiliteit en is een praktische Android-app voor iedereen die aangepaste intervallen, opgeslagen routines, trainingsgeschiedenis en een betere manier wil om HIIT-training, cardio en intervaloefeningen te beheren.',
+      ],
+      category: 'Gezondheid en fitness',
+      platforms: ['Android'],
+      tags: ['HIIT Timer', 'Intervaltimer', 'Workout timer', 'HIIT workout', 'Fitness'],
+    },
     'habit-tracker': {
       name: 'Habit Tracker',
       summary:
@@ -1055,6 +1198,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   pl: {
+    'hiit-timer': {
+      name: 'HIIT Timer',
+      summary:
+        'Trenuj skuteczniej z HIIT Timer, elastycznym timerem interwałowym do własnych treningów, szybkiego startu i historii sesji.',
+      longDescription: [
+        'HIIT Timer to przejrzysta i elastyczna aplikacja z timerem interwałowym stworzona do treningów HIIT, treningu obwodowego, cardio, ćwiczeń w domu i własnych planów fitness. Niezależnie od tego, czy szukasz prostego workout timera do szybkich sesji, czy bardziej rozbudowanego narzędzia do budowania treningów interwałowych, HIIT Timer pomaga trenować w uporządkowany i wygodny sposób.',
+        'Twórz trening dokładnie tak, jak chcesz, korzystając z interwałów rozgrzewki, pracy, odpoczynku i schłodzenia. Ustaw liczbę rund, uporządkuj kolejność bloków, zapisuj swoje treningi i uruchamiaj je szybko, gdy przyjdzie czas na ćwiczenia. HIIT Timer ułatwia tworzenie uporządkowanych sesji do fitnessu w domu, biegania interwałowego, cardio i ćwiczeń z masą własnego ciała.',
+        'Zachowaj skupienie podczas każdego treningu dzięki dużemu, czytelnemu timerowi i przejrzystemu ekranowi treningowemu zaprojektowanemu do szybkiej obsługi. Możesz od razu uruchamiać zapisane treningi, wracać do ostatniej sesji i śledzić ukończone treningi w historii, aby utrzymać regularność.',
+        'Dostosuj aplikację do swojego stylu treningu dzięki sygnałom dźwiękowym, wibracjom, odliczaniu przed przejściami, trybowi ciemnemu, opcjom językowym i funkcji utrzymywania ekranu włączonego podczas ćwiczeń. HIIT Timer został zaprojektowany tak, aby ograniczać rozpraszacze i pomagać Ci skupić się na każdym interwale oraz każdej zmianie.',
+        'Stworzony z myślą o szybkości, prostocie i elastyczności, HIIT Timer to praktyczna aplikacja Android dla osób, które chcą własnych interwałów, zapisanych planów, historii sesji i lepszego sposobu na zarządzanie treningami HIIT, cardio i ćwiczeniami interwałowymi.',
+      ],
+      category: 'Zdrowie i fitness',
+      platforms: ['Android'],
+      tags: ['HIIT Timer', 'Timer interwałowy', 'Workout timer', 'Trening HIIT', 'Fitness'],
+    },
     'habit-tracker': {
       name: 'Habit Tracker',
       summary:
@@ -1163,6 +1321,21 @@ const releaseTranslations: Record<Locale, Record<ReleaseSlug, ReleaseTranslation
   },
 
   ro: {
+    'hiit-timer': {
+      name: 'HIIT Timer',
+      summary:
+        'Antrenează-te mai bine cu HIIT Timer, un timer de intervale flexibil pentru antrenamente personalizate, pornire rapidă și istoric.',
+      longDescription: [
+        'HIIT Timer este o aplicație clară și flexibilă cu timer de intervale, creată pentru antrenamente HIIT, circuit training, sesiuni cardio, antrenamente acasă și rutine fitness personalizate. Fie că ai nevoie de un workout timer simplu pentru sesiuni rapide sau de un instrument mai avansat pentru construirea antrenamentelor pe intervale, HIIT Timer te ajută să te antrenezi organizat și cu mai mult control.',
+        'Construiește-ți antrenamentul exact cum vrei, cu intervale de încălzire, efort, pauză și revenire. Setează numărul de runde, organizează ordinea fiecărui bloc, salvează antrenamentele și pornește-le rapid când este timpul să începi. HIIT Timer face ușoară crearea unor sesiuni structurate pentru fitness acasă, alergare pe intervale, cardio și exerciții cu greutatea corpului.',
+        'Rămâi concentrat în timpul fiecărui antrenament cu un timer mare, ușor de citit, și un ecran curat, gândit pentru utilizare rapidă. Poți porni imediat antrenamentele salvate, reveni la ultima sesiune și urmări antrenamentele finalizate în istoric pentru a rămâne consecvent.',
+        'Personalizează aplicația după stilul tău de antrenament cu semnale sonore, vibrații, bipuri pentru numărătoare inversă, mod întunecat, opțiuni de limbă și suport pentru a menține ecranul aprins în timpul antrenamentelor. HIIT Timer este creat pentru a reduce distragerile și pentru a te ajuta să rămâi atent la fiecare interval și fiecare tranziție.',
+        'Creat pentru viteză, simplitate și flexibilitate, HIIT Timer este o aplicație Android practică pentru oricine își dorește intervale personalizate, rutine salvate, istoric al sesiunilor și o metodă mai bună de a gestiona antrenamente HIIT, cardio și exerciții pe intervale.',
+      ],
+      category: 'Sănătate și fitness',
+      platforms: ['Android'],
+      tags: ['HIIT Timer', 'Timer intervale', 'Workout timer', 'Antrenament HIIT', 'Fitness'],
+    },
     'habit-tracker': {
       name: 'Habit Tracker',
       summary:
