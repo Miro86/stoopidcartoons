@@ -1,0 +1,807 @@
+{
+  "slug": "gastarbajter",
+  "sortOrder": 5,
+  "kind": "game",
+  "featured": true,
+  "accent": "red",
+  "icon": "apps/icons/Gastarbajter.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.gastarbajter",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "GameApplication",
+  "relatedSlugs": [],
+  "screenshotOrientation": "landscape",
+  "translations": {
+    "en": {
+      "name": "Gastarbajter",
+      "summary": "Help Djuro navigate life abroad by learning the language, collecting documents, and chasing the dream of working in Europe.",
+      "longDescription": [
+        "Gastarbajter is a story-driven casual game that follows Djuro on his journey to build a better life in Europe. Starting from humble beginnings, your goal is to help him learn a new language, gather all required documents, and successfully prepare for life abroad.",
+        "Inspired by real-life experiences of workers moving overseas, the game blends humor, cultural references, and light challenges into a unique gameplay experience. Each step of the journey reflects common obstacles faced when relocating — from paperwork and bureaucracy to communication barriers.",
+        "Players progress by completing tasks, unlocking milestones, and guiding Djuro toward his ultimate goal: becoming a successful gastarbajter. The gameplay is simple, accessible, and designed for short sessions, making it ideal for casual players.",
+        "Whether you’re familiar with the concept of working abroad or discovering it for the first time, Gastarbajter offers a relatable and entertaining perspective on migration, ambition, and everyday struggles.",
+        "With its minimalist design and humorous tone, the game provides a light yet meaningful experience that connects with players from across Europe and beyond."
+      ],
+      "bottomCtaDescription": "With its minimalist design and humorous tone, the game provides a light yet meaningful experience that connects with players from across Europe and beyond.",
+      "category": "Casual",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Casual Game",
+        "Story Game",
+        "Migration Journey",
+        "Short Sessions",
+        "Humor"
+      ],
+      "metaTitle": "Gastarbajter | story-driven casual game for Android | StoopidCartoons",
+      "metaDescription": "Help Djuro navigate life abroad by learning the language, collecting documents, and chasing the dream of working in Europe.",
+      "featureBullets": [
+        {
+          "title": "Follow a move-abroad story"
+        },
+        {
+          "title": "Play through relatable migration steps"
+        },
+        {
+          "title": "Enjoy short sessions with personality"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Fun graphics",
+          "description": "Enjoy fun graphics style and unique soundtrack.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-1.webp"
+        },
+        {
+          "title": "Levels progression",
+          "description": "Try to complete levels without dying.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-2.webp"
+        },
+        {
+          "title": "Short-session gameplay",
+          "description": "Can be challenging at times.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-3.webp"
+        },
+        {
+          "title": "Complete the journey",
+          "description": "Help Djuro complete his journey and finally move abroad.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-4.webp"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the goal of Gastarbajter?",
+          "answer": "Help Djuro navigate life abroad by learning the language, collecting documents, and chasing the dream of working in Europe."
+        },
+        {
+          "question": "What makes Gastarbajter different from a typical casual game?",
+          "answer": "Inspired by real-life experiences of workers moving overseas, the game blends humor, cultural references, and light challenges into a unique gameplay experience. Each step of the journey reflects common obstacles faced when relocating — from paperwork and bureaucracy to communication barriers. Whether you’re familiar with the concept of working abroad or discovering it for the first time, Gastarbajter offers a relatable and entertaining perspective on migration, ambition, and everyday struggles."
+        },
+        {
+          "question": "Is Gastarbajter good for short play sessions?",
+          "answer": "Players progress by completing tasks, unlocking milestones, and guiding Djuro toward his ultimate goal: becoming a successful gastarbajter. The gameplay is simple, accessible, and designed for short sessions, making it ideal for casual players."
+        }
+      ]
+    },
+    "de": {
+      "name": "Gastarbajter",
+      "summary": "Hilf Djuro, das Leben im Ausland zu meistern, indem du die Sprache lernst, Dokumente sammelst und den Traum vom Arbeiten in Europa verfolgst.",
+      "longDescription": [
+        "Gastarbajter ist ein storybasiertes Casual-Game, das Djuro auf seinem Weg zu einem besseren Leben in Europa begleitet. Aus bescheidenen Anfängen heraus ist dein Ziel, ihm dabei zu helfen, eine neue Sprache zu lernen, alle erforderlichen Dokumente zu sammeln und sich erfolgreich auf das Leben im Ausland vorzubereiten.",
+        "Inspiriert von echten Erfahrungen von Arbeitskräften, die ins Ausland ziehen, verbindet das Spiel Humor, kulturelle Bezüge und leichte Herausforderungen zu einem einzigartigen Spielerlebnis. Jeder Schritt der Reise spiegelt typische Hindernisse wider, die bei einem Umzug auftreten — von Papierkram und Bürokratie bis hin zu Sprachbarrieren.",
+        "Die Spieler machen Fortschritte, indem sie Aufgaben erledigen, Meilensteine freischalten und Djuro auf seinem Weg zu seinem großen Ziel begleiten: ein erfolgreicher Gastarbajter zu werden. Das Gameplay ist einfach, zugänglich und für kurze Sessions konzipiert, wodurch es ideal für Gelegenheitsspieler ist.",
+        "Egal, ob dir das Thema Arbeiten im Ausland vertraut ist oder du es zum ersten Mal entdeckst — Gastarbajter bietet einen nachvollziehbaren und unterhaltsamen Blick auf Migration, Ehrgeiz und alltägliche Herausforderungen.",
+        "Mit seinem minimalistischen Design und seinem humorvollen Ton bietet das Spiel eine leichte und zugleich bedeutungsvolle Erfahrung, die Spieler aus ganz Europa und darüber hinaus anspricht."
+      ],
+      "bottomCtaDescription": "Mit seinem minimalistischen Design und seinem humorvollen Ton bietet das Spiel eine leichte und zugleich bedeutungsvolle Erfahrung, die Spieler aus ganz Europa und darüber hinaus anspricht.",
+      "category": "Locker",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Casual-Spiel",
+        "Story-Spiel",
+        "Migrationsreise",
+        "Kurze Sessions",
+        "Humor"
+      ],
+      "metaTitle": "Gastarbajter | storygetriebenes Casual-Spiel fuer Android | StoopidCartoons",
+      "metaDescription": "Hilf Djuro, das Leben im Ausland zu meistern, indem du die Sprache lernst, Dokumente sammelst und den Traum vom Arbeiten in Europa verfolgst.",
+      "featureBullets": [
+        {
+          "title": "Erlebe eine Auswanderungs-Geschichte"
+        },
+        {
+          "title": "Spiele nachvollziehbare Migrationsschritte"
+        },
+        {
+          "title": "Geniesse kurze Sessions mit Persoenlichkeit"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Spaßige Grafik",
+          "description": "Genieße einen verspielten Grafikstil und einen einzigartigen Soundtrack.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-1.webp"
+        },
+        {
+          "title": "Level-Fortschritt",
+          "description": "Versuche, die Level ohne zu sterben zu schaffen.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-2.webp"
+        },
+        {
+          "title": "Kurze Spielsessions",
+          "description": "Kann manchmal herausfordernd sein.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-3.webp"
+        },
+        {
+          "title": "Beende die Reise",
+          "description": "Hilf Djuro, seine Reise zu beenden und endlich ins Ausland zu gehen.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-4.webp"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Was ist das Ziel von Gastarbajter?",
+          "answer": "Hilf Djuro, das Leben im Ausland zu meistern, indem du die Sprache lernst, Dokumente sammelst und den Traum vom Arbeiten in Europa verfolgst."
+        },
+        {
+          "question": "Was unterscheidet Gastarbajter von einem typischen Casual-Spiel?",
+          "answer": "Inspiriert von echten Erfahrungen von Arbeitskräften, die ins Ausland ziehen, verbindet das Spiel Humor, kulturelle Bezüge und leichte Herausforderungen zu einem einzigartigen Spielerlebnis. Jeder Schritt der Reise spiegelt typische Hindernisse wider, die bei einem Umzug auftreten — von Papierkram und Bürokratie bis hin zu Sprachbarrieren. Egal, ob dir das Thema Arbeiten im Ausland vertraut ist oder du es zum ersten Mal entdeckst — Gastarbajter bietet einen nachvollziehbaren und unterhaltsamen Blick auf Migration, Ehrgeiz und alltägliche Herausforderungen."
+        },
+        {
+          "question": "Eignet sich Gastarbajter fuer kurze Spielsessions?",
+          "answer": "Die Spieler machen Fortschritte, indem sie Aufgaben erledigen, Meilensteine freischalten und Djuro auf seinem Weg zu seinem großen Ziel begleiten: ein erfolgreicher Gastarbajter zu werden. Das Gameplay ist einfach, zugänglich und für kurze Sessions konzipiert, wodurch es ideal für Gelegenheitsspieler ist."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Gastarbajter",
+      "summary": "Aidez Djuro à réussir à l’étranger en apprenant la langue et en collectant des documents.",
+      "longDescription": [
+        "Gastarbajter est un jeu casual narratif qui suit Djuro dans son parcours vers une vie meilleure en Europe. En partant de peu, votre objectif est de l’aider à apprendre une nouvelle langue, à rassembler tous les documents nécessaires et à se préparer avec succès à la vie à l’étranger.",
+        "Inspiré d’expériences réelles de travailleurs qui partent à l’étranger, le jeu mêle humour, références culturelles et défis légers dans une expérience de jeu originale. Chaque étape du voyage reflète les obstacles courants liés à la relocalisation — des démarches administratives aux barrières de communication.",
+        "Les joueurs progressent en accomplissant des tâches, en débloquant des étapes clés et en guidant Djuro vers son objectif ultime : devenir un gastarbajter accompli. Le gameplay est simple, accessible et pensé pour de courtes sessions, ce qui le rend idéal pour les joueurs occasionnels.",
+        "Que vous connaissiez déjà la réalité du travail à l’étranger ou que vous la découvriez pour la première fois, Gastarbajter offre un regard à la fois attachant et divertissant sur la migration, l’ambition et les difficultés du quotidien.",
+        "Avec son design minimaliste et son ton humoristique, le jeu propose une expérience légère mais pleine de sens, capable de parler aux joueurs de toute l’Europe et au-delà."
+      ],
+      "bottomCtaDescription": "Avec son design minimaliste et son ton humoristique, le jeu propose une expérience légère mais pleine de sens, capable de parler aux joueurs de toute l’Europe et au-delà.",
+      "category": "Detente",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Jeu occasionnel",
+        "Jeu narratif",
+        "Parcours migratoire",
+        "Sessions courtes",
+        "Humour"
+      ],
+      "metaTitle": "Gastarbajter | jeu casual narratif sur Android | StoopidCartoons",
+      "metaDescription": "Aidez Djuro à réussir à l’étranger en apprenant la langue et en collectant des documents.",
+      "featureBullets": [
+        {
+          "title": "Suis une histoire de depart a l’etranger"
+        },
+        {
+          "title": "Joue a travers des etapes migratoires concretes"
+        },
+        {
+          "title": "Profite de courtes sessions pleines de caractere"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Graphismes amusants",
+          "description": "Profitez d’un style graphique fun et d’une bande-son unique.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-1.webp"
+        },
+        {
+          "title": "Progression des niveaux",
+          "description": "Essayez de terminer les niveaux sans mourir.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-2.webp"
+        },
+        {
+          "title": "Sessions courtes",
+          "description": "Peut être parfois difficile.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-3.webp"
+        },
+        {
+          "title": "Terminez le voyage",
+          "description": "Aidez Djuro à terminer son voyage et enfin partir à l’étranger.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-4.webp"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Quel est l’objectif de Gastarbajter ?",
+          "answer": "Aidez Djuro à réussir à l’étranger en apprenant la langue et en collectant des documents."
+        },
+        {
+          "question": "Qu’est-ce qui differencie Gastarbajter d’un jeu casual classique ?",
+          "answer": "Inspiré d’expériences réelles de travailleurs qui partent à l’étranger, le jeu mêle humour, références culturelles et défis légers dans une expérience de jeu originale. Chaque étape du voyage reflète les obstacles courants liés à la relocalisation — des démarches administratives aux barrières de communication. Que vous connaissiez déjà la réalité du travail à l’étranger ou que vous la découvriez pour la première fois, Gastarbajter offre un regard à la fois attachant et divertissant sur la migration, l’ambition et les difficultés du quotidien."
+        },
+        {
+          "question": "Est-ce que Gastarbajter convient aux sessions courtes ?",
+          "answer": "Les joueurs progressent en accomplissant des tâches, en débloquant des étapes clés et en guidant Djuro vers son objectif ultime : devenir un gastarbajter accompli. Le gameplay est simple, accessible et pensé pour de courtes sessions, ce qui le rend idéal pour les joueurs occasionnels."
+        }
+      ]
+    },
+    "it": {
+      "name": "Gastarbajter",
+      "summary": "Aiuta Djuro a vivere all’estero imparando la lingua e raccogliendo documenti.",
+      "longDescription": [
+        "Gastarbajter è un gioco casual narrativo che segue Djuro nel suo percorso verso una vita migliore in Europa. Partendo da condizioni modeste, il tuo obiettivo è aiutarlo a imparare una nuova lingua, raccogliere tutti i documenti necessari e prepararsi con successo alla vita all’estero.",
+        "Ispirato alle esperienze reali di chi si trasferisce per lavoro, il gioco unisce umorismo, riferimenti culturali e sfide leggere in un’esperienza unica. Ogni fase del viaggio riflette gli ostacoli più comuni del trasferimento — dalla burocrazia ai problemi di comunicazione.",
+        "I giocatori progrediscono completando compiti, sbloccando traguardi e guidando Djuro verso il suo obiettivo finale: diventare un gastarbajter di successo. Il gameplay è semplice, accessibile e pensato per sessioni brevi, rendendolo ideale per i giocatori casual.",
+        "Che tu conosca bene il tema del lavoro all’estero o lo stia scoprendo per la prima volta, Gastarbajter offre uno sguardo coinvolgente e divertente su migrazione, ambizione e difficoltà quotidiane.",
+        "Con il suo design minimalista e il tono umoristico, il gioco propone un’esperienza leggera ma significativa, capace di entrare in sintonia con giocatori di tutta Europa e non solo."
+      ],
+      "bottomCtaDescription": "Con il suo design minimalista e il tono umoristico, il gioco propone un’esperienza leggera ma significativa, capace di entrare in sintonia con giocatori di tutta Europa e non solo.",
+      "category": "Casual",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Gioco casual",
+        "Gioco narrativo",
+        "Percorso migratorio",
+        "Sessioni brevi",
+        "Umorismo"
+      ],
+      "metaTitle": "Gastarbajter | gioco casual narrativo per Android | StoopidCartoons",
+      "metaDescription": "Aiuta Djuro a vivere all’estero imparando la lingua e raccogliendo documenti.",
+      "featureBullets": [
+        {
+          "title": "Segui una storia di vita all’estero"
+        },
+        {
+          "title": "Gioca attraverso tappe migratorie riconoscibili"
+        },
+        {
+          "title": "Goditi sessioni brevi con personalita"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Grafica divertente",
+          "description": "Goditi uno stile grafico divertente e una colonna sonora unica.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-1.webp"
+        },
+        {
+          "title": "Progressione dei livelli",
+          "description": "Prova a completare i livelli senza morire.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-2.webp"
+        },
+        {
+          "title": "Gameplay a sessioni brevi",
+          "description": "Può essere a volte impegnativo.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-3.webp"
+        },
+        {
+          "title": "Completa il viaggio",
+          "description": "Aiuta Djuro a completare il suo viaggio e finalmente partire all’estero.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-4.webp"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Qual e l’obiettivo di Gastarbajter?",
+          "answer": "Aiuta Djuro a vivere all’estero imparando la lingua e raccogliendo documenti."
+        },
+        {
+          "question": "Cosa rende Gastarbajter diverso da un tipico gioco casual?",
+          "answer": "Ispirato alle esperienze reali di chi si trasferisce per lavoro, il gioco unisce umorismo, riferimenti culturali e sfide leggere in un’esperienza unica. Ogni fase del viaggio riflette gli ostacoli più comuni del trasferimento — dalla burocrazia ai problemi di comunicazione. Che tu conosca bene il tema del lavoro all’estero o lo stia scoprendo per la prima volta, Gastarbajter offre uno sguardo coinvolgente e divertente su migrazione, ambizione e difficoltà quotidiane."
+        },
+        {
+          "question": "Gastarbajter va bene per sessioni di gioco brevi?",
+          "answer": "I giocatori progrediscono completando compiti, sbloccando traguardi e guidando Djuro verso il suo obiettivo finale: diventare un gastarbajter di successo. Il gameplay è semplice, accessibile e pensato per sessioni brevi, rendendolo ideale per i giocatori casual."
+        }
+      ]
+    },
+    "es": {
+      "name": "Gastarbajter",
+      "summary": "Ayuda a Djuro a trabajar en Europa aprendiendo el idioma y reuniendo documentos.",
+      "longDescription": [
+        "Gastarbajter es un juego casual narrativo que sigue a Djuro en su camino hacia una vida mejor en Europa. Empezando desde cero, tu objetivo es ayudarle a aprender un nuevo idioma, reunir todos los documentos necesarios y prepararse con éxito para la vida en el extranjero.",
+        "Inspirado en experiencias reales de personas que emigran por trabajo, el juego combina humor, referencias culturales y retos ligeros en una experiencia única. Cada paso del viaje refleja obstáculos habituales al mudarse — desde el papeleo y la burocracia hasta las barreras de comunicación.",
+        "Los jugadores avanzan completando tareas, desbloqueando hitos y guiando a Djuro hacia su objetivo final: convertirse en un gastarbajter de éxito. La jugabilidad es simple, accesible y pensada para sesiones cortas, por lo que resulta ideal para jugadores casuales.",
+        "Tanto si conoces bien la idea de trabajar en el extranjero como si la descubres por primera vez, Gastarbajter ofrece una mirada cercana y entretenida sobre la migración, la ambición y las dificultades del día a día.",
+        "Con su diseño minimalista y su tono humorístico, el juego ofrece una experiencia ligera pero con significado, capaz de conectar con jugadores de toda Europa y de otros lugares."
+      ],
+      "bottomCtaDescription": "Con su diseño minimalista y su tono humorístico, el juego ofrece una experiencia ligera pero con significado, capaz de conectar con jugadores de toda Europa y de otros lugares.",
+      "category": "Casual",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Juego casual",
+        "Juego narrativo",
+        "Recorrido migratorio",
+        "Sesiones cortas",
+        "Humor"
+      ],
+      "metaTitle": "Gastarbajter | juego casual narrativo para Android | StoopidCartoons",
+      "metaDescription": "Ayuda a Djuro a trabajar en Europa aprendiendo el idioma y reuniendo documentos.",
+      "featureBullets": [
+        {
+          "title": "Sigue una historia de emigracion"
+        },
+        {
+          "title": "Juega a traves de pasos migratorios reconocibles"
+        },
+        {
+          "title": "Disfruta sesiones cortas con personalidad"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Gráficos divertidos",
+          "description": "Disfruta de un estilo gráfico divertido y una banda sonora única.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-1.webp"
+        },
+        {
+          "title": "Progresión de niveles",
+          "description": "Intenta completar los niveles sin morir.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-2.webp"
+        },
+        {
+          "title": "Juego de sesiones cortas",
+          "description": "Puede ser desafiante a veces.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-3.webp"
+        },
+        {
+          "title": "Completa el viaje",
+          "description": "Ayuda a Djuro a completar su viaje y finalmente emigrar.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-4.webp"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Cual es el objetivo de Gastarbajter?",
+          "answer": "Ayuda a Djuro a trabajar en Europa aprendiendo el idioma y reuniendo documentos."
+        },
+        {
+          "question": "Que hace diferente a Gastarbajter frente a un juego casual tipico?",
+          "answer": "Inspirado en experiencias reales de personas que emigran por trabajo, el juego combina humor, referencias culturales y retos ligeros en una experiencia única. Cada paso del viaje refleja obstáculos habituales al mudarse — desde el papeleo y la burocracia hasta las barreras de comunicación. Tanto si conoces bien la idea de trabajar en el extranjero como si la descubres por primera vez, Gastarbajter ofrece una mirada cercana y entretenida sobre la migración, la ambición y las dificultades del día a día."
+        },
+        {
+          "question": "Es Gastarbajter bueno para sesiones cortas?",
+          "answer": "Los jugadores avanzan completando tareas, desbloqueando hitos y guiando a Djuro hacia su objetivo final: convertirse en un gastarbajter de éxito. La jugabilidad es simple, accesible y pensada para sesiones cortas, por lo que resulta ideal para jugadores casuales."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Gastarbajter",
+      "summary": "Ajude Djuro a trabalhar na Europa aprendendo o idioma e reunindo documentos.",
+      "longDescription": [
+        "Gastarbajter é um jogo casual com narrativa que acompanha Djuro em sua jornada para construir uma vida melhor na Europa. Começando de origens humildes, o seu objetivo é ajudá-lo a aprender um novo idioma, reunir todos os documentos necessários e se preparar com sucesso para a vida no exterior.",
+        "Inspirado em experiências reais de trabalhadores que se mudam para outro país, o jogo combina humor, referências culturais e desafios leves em uma experiência única. Cada etapa da jornada reflete obstáculos comuns enfrentados na mudança — desde papelada e burocracia até barreiras de comunicação.",
+        "Os jogadores avançam completando tarefas, desbloqueando marcos e guiando Djuro em direção ao objetivo final: tornar-se um gastarbajter bem-sucedido. A jogabilidade é simples, acessível e pensada para sessões curtas, sendo ideal para jogadores casuais.",
+        "Se você já conhece a realidade de trabalhar fora ou está descobrindo esse tema pela primeira vez, Gastarbajter oferece uma visão envolvente e divertida sobre migração, ambição e lutas do dia a dia.",
+        "Com design minimalista e tom bem-humorado, o jogo entrega uma experiência leve, mas significativa, que se conecta com jogadores de toda a Europa e de outros lugares."
+      ],
+      "bottomCtaDescription": "Com design minimalista e tom bem-humorado, o jogo entrega uma experiência leve, mas significativa, que se conecta com jogadores de toda a Europa e de outros lugares.",
+      "category": "Casual",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Jogo casual",
+        "Jogo narrativo",
+        "Jornada migratoria",
+        "Sessoes curtas",
+        "Humor"
+      ],
+      "metaTitle": "Gastarbajter | jogo casual narrativo para Android | StoopidCartoons",
+      "metaDescription": "Ajude Djuro a trabalhar na Europa aprendendo o idioma e reunindo documentos.",
+      "featureBullets": [
+        {
+          "title": "Segue uma historia de emigracao"
+        },
+        {
+          "title": "Joga atraves de etapas migratorias reconheciveis"
+        },
+        {
+          "title": "Desfruta de sessoes curtas com personalidade"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Gráficos divertidos",
+          "description": "Desfrute de um estilo gráfico divertido e trilha sonora única.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-1.webp"
+        },
+        {
+          "title": "Progressão de níveis",
+          "description": "Tente completar os níveis sem morrer.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-2.webp"
+        },
+        {
+          "title": "Jogabilidade em sessões curtas",
+          "description": "Pode ser desafiador às vezes.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-3.webp"
+        },
+        {
+          "title": "Complete a jornada",
+          "description": "Ajude Djuro a completar sua jornada e finalmente ir para o exterior.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-4.webp"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Qual e o objetivo de Gastarbajter?",
+          "answer": "Ajude Djuro a trabalhar na Europa aprendendo o idioma e reunindo documentos."
+        },
+        {
+          "question": "O que torna Gastarbajter diferente de um jogo casual tipico?",
+          "answer": "Inspirado em experiências reais de trabalhadores que se mudam para outro país, o jogo combina humor, referências culturais e desafios leves em uma experiência única. Cada etapa da jornada reflete obstáculos comuns enfrentados na mudança — desde papelada e burocracia até barreiras de comunicação. Se você já conhece a realidade de trabalhar fora ou está descobrindo esse tema pela primeira vez, Gastarbajter oferece uma visão envolvente e divertida sobre migração, ambição e lutas do dia a dia."
+        },
+        {
+          "question": "O Gastarbajter resulta bem em sessoes curtas?",
+          "answer": "Os jogadores avançam completando tarefas, desbloqueando marcos e guiando Djuro em direção ao objetivo final: tornar-se um gastarbajter bem-sucedido. A jogabilidade é simples, acessível e pensada para sessões curtas, sendo ideal para jogadores casuais."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Gastarbajter",
+      "summary": "Помозите Ђури да успе у иностранству учењем језика и сакупљањем докумената.",
+      "longDescription": [
+        "Gastarbajter је наративна casual игра која прати Ђура на његовом путу ка бољем животу у Европи. Почевши од скромних околности, твој циљ је да му помогнеш да научи нови језик, сакупи све потребне документе и успешно се припреми за живот у иностранству.",
+        "Инспирисана стварним искуствима људи који одлазе у иностранство ради посла, игра спаја хумор, културне референце и лагане изазове у јединствено играчко искуство. Сваки корак на том путу одражава честе препреке приликом селидбе — од папирологије и бирократије до комуникационих баријера.",
+        "Играчи напредују тако што завршавају задатке, откључавају прекретнице и воде Ђура ка његовом коначном циљу: да постане успешан gastarbajter. Гејмплеј је једноставан, приступачан и осмишљен за кратке сесије, што га чини идеалним за casual играче.",
+        "Било да ти је идеја рада у иностранству већ добро позната или је откриваш први пут, Gastarbajter нуди блиску и забавну перспективу на миграцију, амбицију и свакодневне борбе.",
+        "Са минималистичким дизајном и хумористичним тоном, игра пружа лагано, али значајно искуство које може да се допадне играчима широм Европе и ван ње."
+      ],
+      "bottomCtaDescription": "Са минималистичким дизајном и хумористичним тоном, игра пружа лагано, али значајно искуство које може да се допадне играчима широм Европе и ван ње.",
+      "category": "Лежерно",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Лежерна игра",
+        "Наративна игра",
+        "Пут у иностранство",
+        "Кратке сесије",
+        "Хумор"
+      ],
+      "metaTitle": "Gastarbajter | наративна лежерна игра за Android | StoopidCartoons",
+      "metaDescription": "Помозите Ђури да успе у иностранству учењем језика и сакупљањем докумената.",
+      "featureBullets": [
+        {
+          "title": "Прати причу о одласку у иностранство"
+        },
+        {
+          "title": "Играј кроз препознатљиве кораке селидбе"
+        },
+        {
+          "title": "Уживај у кратким сесијама са карактером"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Забавна графика",
+          "description": "Уживај у забавном визуелном стилу и јединственој музици.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-1.webp"
+        },
+        {
+          "title": "Напредовање кроз нивое",
+          "description": "Покушај да прођеш нивое без умирања.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-2.webp"
+        },
+        {
+          "title": "Кратке сесије игре",
+          "description": "Понекад може бити изазовно.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-3.webp"
+        },
+        {
+          "title": "Заврши путовање",
+          "description": "Помози Ђури да заврши своје путовање и коначно оде у иностранство.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-4.webp"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Који је циљ игре Gastarbajter?",
+          "answer": "Помозите Ђури да успе у иностранству учењем језика и сакупљањем докумената."
+        },
+        {
+          "question": "Шта Gastarbajter разликује од типичне лежерне игре?",
+          "answer": "Инспирисана стварним искуствима људи који одлазе у иностранство ради посла, игра спаја хумор, културне референце и лагане изазове у јединствено играчко искуство. Сваки корак на том путу одражава честе препреке приликом селидбе — од папирологије и бирократије до комуникационих баријера. Било да ти је идеја рада у иностранству већ добро позната или је откриваш први пут, Gastarbajter нуди блиску и забавну перспективу на миграцију, амбицију и свакодневне борбе."
+        },
+        {
+          "question": "Да ли је Gastarbajter добар за кратке сесије играња?",
+          "answer": "Играчи напредују тако што завршавају задатке, откључавају прекретнице и воде Ђура ка његовом коначном циљу: да постане успешан gastarbajter. Гејмплеј је једноставан, приступачан и осмишљен за кратке сесије, што га чини идеалним за casual играче."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Gastarbajter",
+      "summary": "Pomozite Djuri da uspije u inozemstvu učenjem jezika i prikupljanjem dokumenata.",
+      "longDescription": [
+        "Gastarbajter je narativna casual igra koja prati Djuru na njegovu putu prema boljem životu u Europi. Počevši od skromnih početaka, tvoj je cilj pomoći mu naučiti novi jezik, prikupiti sve potrebne dokumente i uspješno se pripremiti za život u inozemstvu.",
+        "Inspirirana stvarnim iskustvima ljudi koji odlaze raditi u inozemstvo, igra spaja humor, kulturne reference i lagane izazove u jedinstveno igraće iskustvo. Svaki korak tog puta odražava česte prepreke pri preseljenju — od papirologije i birokracije do komunikacijskih barijera.",
+        "Igrači napreduju izvršavanjem zadataka, otključavanjem prekretnica i vođenjem Djure prema njegovu konačnom cilju: postati uspješan gastarbajter. Gameplay je jednostavan, pristupačan i osmišljen za kratke sesije, što ga čini idealnim za casual igrače.",
+        "Bilo da ti je ideja rada u inozemstvu već poznata ili je otkrivaš prvi put, Gastarbajter nudi blisku i zabavnu perspektivu o migraciji, ambiciji i svakodnevnim borbama.",
+        "Sa svojim minimalističkim dizajnom i humorističnim tonom, igra pruža lagano, ali smisleno iskustvo koje se može povezati s igračima diljem Europe i šire."
+      ],
+      "bottomCtaDescription": "Sa svojim minimalističkim dizajnom i humorističnim tonom, igra pruža lagano, ali smisleno iskustvo koje se može povezati s igračima diljem Europe i šire.",
+      "category": "Lezerno",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Lezerna igra",
+        "Narativna igra",
+        "Put u inozemstvo",
+        "Kratke sesije",
+        "Humor"
+      ],
+      "metaTitle": "Gastarbajter | narativna lezerna igra za Android | StoopidCartoons",
+      "metaDescription": "Pomozite Djuri da uspije u inozemstvu učenjem jezika i prikupljanjem dokumenata.",
+      "featureBullets": [
+        {
+          "title": "Prati pricu o odlasku u inozemstvo"
+        },
+        {
+          "title": "Igraj kroz prepoznatljive korake preseljenja"
+        },
+        {
+          "title": "Uzivaj u kratkim sesijama s karakterom"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Zabavna grafika",
+          "description": "Uživaj u zabavnom vizualnom stilu i jedinstvenoj glazbi.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-1.webp"
+        },
+        {
+          "title": "Napredovanje kroz razine",
+          "description": "Pokušaj završiti razine bez umiranja.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-2.webp"
+        },
+        {
+          "title": "Kratke sesije igranja",
+          "description": "Ponekad može biti izazovno.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-3.webp"
+        },
+        {
+          "title": "Završi putovanje",
+          "description": "Pomozi Đuri da završi svoje putovanje i konačno ode u inozemstvo.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-4.webp"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Koji je cilj igre Gastarbajter?",
+          "answer": "Pomozite Djuri da uspije u inozemstvu učenjem jezika i prikupljanjem dokumenata."
+        },
+        {
+          "question": "Sto Gastarbajter razlikuje od tipicne lezerne igre?",
+          "answer": "Inspirirana stvarnim iskustvima ljudi koji odlaze raditi u inozemstvo, igra spaja humor, kulturne reference i lagane izazove u jedinstveno igraće iskustvo. Svaki korak tog puta odražava česte prepreke pri preseljenju — od papirologije i birokracije do komunikacijskih barijera. Bilo da ti je ideja rada u inozemstvu već poznata ili je otkrivaš prvi put, Gastarbajter nudi blisku i zabavnu perspektivu o migraciji, ambiciji i svakodnevnim borbama."
+        },
+        {
+          "question": "Je li Gastarbajter dobar za kratke sesije igranja?",
+          "answer": "Igrači napreduju izvršavanjem zadataka, otključavanjem prekretnica i vođenjem Djure prema njegovu konačnom cilju: postati uspješan gastarbajter. Gameplay je jednostavan, pristupačan i osmišljen za kratke sesije, što ga čini idealnim za casual igrače."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Gastarbajter",
+      "summary": "Help Djuro om in het buitenland te slagen door taal te leren en documenten te verzamelen.",
+      "longDescription": [
+        "Gastarbajter is een verhalende casual game die Djuro volgt op zijn reis naar een beter leven in Europa. Vanuit een bescheiden begin is het jouw doel om hem te helpen een nieuwe taal te leren, alle benodigde documenten te verzamelen en zich succesvol voor te bereiden op het leven in het buitenland.",
+        "Geïnspireerd door echte ervaringen van mensen die voor werk naar het buitenland trekken, combineert de game humor, culturele verwijzingen en lichte uitdagingen tot een unieke spelervaring. Elke stap van de reis weerspiegelt veelvoorkomende obstakels bij verhuizen — van papierwerk en bureaucratie tot communicatiebarrières.",
+        "Spelers boeken vooruitgang door taken te voltooien, mijlpalen vrij te spelen en Djuro te begeleiden naar zijn uiteindelijke doel: een succesvolle gastarbajter worden. De gameplay is eenvoudig, toegankelijk en ontworpen voor korte sessies, waardoor hij ideaal is voor casual spelers.",
+        "Of je het idee van werken in het buitenland nu al goed kent of er voor het eerst mee kennismaakt, Gastarbajter biedt een herkenbare en onderhoudende blik op migratie, ambitie en alledaagse worstelingen.",
+        "Met zijn minimalistische ontwerp en humoristische toon biedt de game een lichte maar betekenisvolle ervaring die spelers uit heel Europa en daarbuiten kan aanspreken."
+      ],
+      "bottomCtaDescription": "Met zijn minimalistische ontwerp en humoristische toon biedt de game een lichte maar betekenisvolle ervaring die spelers uit heel Europa en daarbuiten kan aanspreken.",
+      "category": "Casual",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Ontspannen spel",
+        "Verhaalspel",
+        "Migratiereis",
+        "Korte sessies",
+        "Humor"
+      ],
+      "metaTitle": "Gastarbajter | verhaalgedreven casual game voor Android | StoopidCartoons",
+      "metaDescription": "Help Djuro om in het buitenland te slagen door taal te leren en documenten te verzamelen.",
+      "featureBullets": [
+        {
+          "title": "Volg een verhaal over verhuizen naar het buitenland"
+        },
+        {
+          "title": "Speel door herkenbare migratiestappen"
+        },
+        {
+          "title": "Geniet van korte sessies met karakter"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Leuke graphics",
+          "description": "Geniet van een leuke grafische stijl en unieke soundtrack.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-1.webp"
+        },
+        {
+          "title": "Levelprogressie",
+          "description": "Probeer levels te voltooien zonder te sterven.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-2.webp"
+        },
+        {
+          "title": "Korte speelsessies",
+          "description": "Kan soms uitdagend zijn.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-3.webp"
+        },
+        {
+          "title": "Voltooi de reis",
+          "description": "Help Djuro zijn reis te voltooien en eindelijk naar het buitenland te gaan.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-4.webp"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wat is het doel van Gastarbajter?",
+          "answer": "Help Djuro om in het buitenland te slagen door taal te leren en documenten te verzamelen."
+        },
+        {
+          "question": "Wat maakt Gastarbajter anders dan een typische casual game?",
+          "answer": "Geïnspireerd door echte ervaringen van mensen die voor werk naar het buitenland trekken, combineert de game humor, culturele verwijzingen en lichte uitdagingen tot een unieke spelervaring. Elke stap van de reis weerspiegelt veelvoorkomende obstakels bij verhuizen — van papierwerk en bureaucratie tot communicatiebarrières. Of je het idee van werken in het buitenland nu al goed kent of er voor het eerst mee kennismaakt, Gastarbajter biedt een herkenbare en onderhoudende blik op migratie, ambitie en alledaagse worstelingen."
+        },
+        {
+          "question": "Is Gastarbajter geschikt voor korte speelsessies?",
+          "answer": "Spelers boeken vooruitgang door taken te voltooien, mijlpalen vrij te spelen en Djuro te begeleiden naar zijn uiteindelijke doel: een succesvolle gastarbajter worden. De gameplay is eenvoudig, toegankelijk en ontworpen voor korte sessies, waardoor hij ideaal is voor casual spelers."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Gastarbajter",
+      "summary": "Pomóż Djuro osiągnąć sukces za granicą ucząc się języka i zbierając dokumenty.",
+      "longDescription": [
+        "Gastarbajter to narracyjna gra casualowa, która śledzi Djuro w jego drodze do lepszego życia w Europie. Zaczynając od skromnych warunków, Twoim celem jest pomóc mu nauczyć się nowego języka, zebrać wszystkie wymagane dokumenty i skutecznie przygotować się do życia za granicą.",
+        "Zainspirowana prawdziwymi doświadczeniami osób wyjeżdżających do pracy za granicę, gra łączy humor, odniesienia kulturowe i lekkie wyzwania w wyjątkowe doświadczenie. Każdy etap podróży odzwierciedla typowe przeszkody związane z przeprowadzką — od papierologii i biurokracji po bariery komunikacyjne.",
+        "Gracze robią postępy, wykonując zadania, odblokowując kolejne etapy i prowadząc Djuro do jego ostatecznego celu: zostania odnoszącym sukcesy gastarbajterem. Rozgrywka jest prosta, przystępna i zaprojektowana z myślą o krótkich sesjach, dzięki czemu idealnie pasuje do graczy casualowych.",
+        "Niezależnie od tego, czy temat pracy za granicą jest Ci dobrze znany, czy dopiero odkrywasz go po raz pierwszy, Gastarbajter oferuje bliskie i zabawne spojrzenie na migrację, ambicję i codzienne zmagania.",
+        "Dzięki minimalistycznej oprawie i humorystycznemu tonowi gra zapewnia lekkie, a jednocześnie znaczące doświadczenie, które może trafić do graczy z całej Europy i nie tylko."
+      ],
+      "bottomCtaDescription": "Dzięki minimalistycznej oprawie i humorystycznemu tonowi gra zapewnia lekkie, a jednocześnie znaczące doświadczenie, które może trafić do graczy z całej Europy i nie tylko.",
+      "category": "Casual",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Gra casualowa",
+        "Gra fabularna",
+        "Droga emigracji",
+        "Krotkie sesje",
+        "Humor"
+      ],
+      "metaTitle": "Gastarbajter | fabularna gra casualowa na Androida | StoopidCartoons",
+      "metaDescription": "Pomóż Djuro osiągnąć sukces za granicą ucząc się języka i zbierając dokumenty.",
+      "featureBullets": [
+        {
+          "title": "Sledz historie o wyjezdzie za granice"
+        },
+        {
+          "title": "Przechodz przez znajome etapy emigracji"
+        },
+        {
+          "title": "Ciesz sie krotkimi sesjami z charakterem"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Zabawna grafika",
+          "description": "Ciesz się zabawną grafiką i unikalną ścieżką dźwiękową.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-1.webp"
+        },
+        {
+          "title": "Postęp poziomów",
+          "description": "Spróbuj ukończyć poziomy bez umierania.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-2.webp"
+        },
+        {
+          "title": "Krótkie sesje gry",
+          "description": "Czasami może być wymagająca.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-3.webp"
+        },
+        {
+          "title": "Ukończ podróż",
+          "description": "Pomóż Dżuro ukończyć jego podróż i w końcu wyjechać za granicę.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-4.webp"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Jaki jest cel gry Gastarbajter?",
+          "answer": "Pomóż Djuro osiągnąć sukces za granicą ucząc się języka i zbierając dokumenty."
+        },
+        {
+          "question": "Co odroznia Gastarbajter od typowej gry casualowej?",
+          "answer": "Zainspirowana prawdziwymi doświadczeniami osób wyjeżdżających do pracy za granicę, gra łączy humor, odniesienia kulturowe i lekkie wyzwania w wyjątkowe doświadczenie. Każdy etap podróży odzwierciedla typowe przeszkody związane z przeprowadzką — od papierologii i biurokracji po bariery komunikacyjne. Niezależnie od tego, czy temat pracy za granicą jest Ci dobrze znany, czy dopiero odkrywasz go po raz pierwszy, Gastarbajter oferuje bliskie i zabawne spojrzenie na migrację, ambicję i codzienne zmagania."
+        },
+        {
+          "question": "Czy Gastarbajter nadaje sie do krotkich sesji gry?",
+          "answer": "Gracze robią postępy, wykonując zadania, odblokowując kolejne etapy i prowadząc Djuro do jego ostatecznego celu: zostania odnoszącym sukcesy gastarbajterem. Rozgrywka jest prosta, przystępna i zaprojektowana z myślą o krótkich sesjach, dzięki czemu idealnie pasuje do graczy casualowych."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Gastarbajter",
+      "summary": "Ajută-l pe Djuro să reușească în străinătate învățând limba și colectând documente.",
+      "longDescription": [
+        "Gastarbajter este un joc casual narativ care îl urmărește pe Djuro în drumul său spre o viață mai bună în Europa. Pornind din condiții modeste, obiectivul tău este să-l ajuți să învețe o limbă nouă, să strângă toate documentele necesare și să se pregătească cu succes pentru viața în străinătate.",
+        "Inspirat din experiențele reale ale celor care pleacă la muncă în alte țări, jocul combină umor, referințe culturale și provocări ușoare într-o experiență unică. Fiecare pas al călătoriei reflectă obstacole obișnuite ale relocării — de la hârtii și birocrație până la bariere de comunicare.",
+        "Jucătorii avansează completând sarcini, deblocând etape și ghidându-l pe Djuro spre obiectivul final: să devină un gastarbajter de succes. Gameplay-ul este simplu, accesibil și gândit pentru sesiuni scurte, ceea ce îl face ideal pentru jucătorii casual.",
+        "Fie că ești familiarizat cu ideea de a lucra în străinătate sau o descoperi pentru prima dată, Gastarbajter oferă o perspectivă apropiată și amuzantă asupra migrației, ambiției și dificultăților de zi cu zi.",
+        "Cu designul său minimalist și tonul său plin de umor, jocul oferă o experiență ușoară, dar cu sens, care poate rezona cu jucători din toată Europa și nu numai."
+      ],
+      "bottomCtaDescription": "Cu designul său minimalist și tonul său plin de umor, jocul oferă o experiență ușoară, dar cu sens, care poate rezona cu jucători din toată Europa și nu numai.",
+      "category": "Casual",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Joc casual",
+        "Joc narativ",
+        "Drum migrator",
+        "Sesiuni scurte",
+        "Umor"
+      ],
+      "metaTitle": "Gastarbajter | joc casual narativ pentru Android | StoopidCartoons",
+      "metaDescription": "Ajută-l pe Djuro să reușească în străinătate învățând limba și colectând documente.",
+      "featureBullets": [
+        {
+          "title": "Urmareste o poveste despre plecarea in strainatate"
+        },
+        {
+          "title": "Joaca prin etape migratorii usor de recunoscut"
+        },
+        {
+          "title": "Bucura-te de sesiuni scurte cu personalitate"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Grafică distractivă",
+          "description": "Bucură-te de un stil grafic distractiv și o coloană sonoră unică.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-1.webp"
+        },
+        {
+          "title": "Progresia nivelurilor",
+          "description": "Încearcă să finalizezi nivelurile fără să mori.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-2.webp"
+        },
+        {
+          "title": "Gameplay pe sesiuni scurte",
+          "description": "Poate fi uneori dificil.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-3.webp"
+        },
+        {
+          "title": "Finalizează călătoria",
+          "description": "Ajută-l pe Djuro să-și termine călătoria și să plece în sfârșit în străinătate.",
+          "imagePath": "apps/screenshots/gastarbajter/screenshot-4.webp"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Care este scopul jocului Gastarbajter?",
+          "answer": "Ajută-l pe Djuro să reușească în străinătate învățând limba și colectând documente."
+        },
+        {
+          "question": "Ce face Gastarbajter diferit fata de un joc casual obisnuit?",
+          "answer": "Inspirat din experiențele reale ale celor care pleacă la muncă în alte țări, jocul combină umor, referințe culturale și provocări ușoare într-o experiență unică. Fiecare pas al călătoriei reflectă obstacole obișnuite ale relocării — de la hârtii și birocrație până la bariere de comunicare. Fie că ești familiarizat cu ideea de a lucra în străinătate sau o descoperi pentru prima dată, Gastarbajter oferă o perspectivă apropiată și amuzantă asupra migrației, ambiției și dificultăților de zi cu zi."
+        },
+        {
+          "question": "Este Gastarbajter bun pentru sesiuni scurte de joc?",
+          "answer": "Jucătorii avansează completând sarcini, deblocând etape și ghidându-l pe Djuro spre obiectivul final: să devină un gastarbajter de succes. Gameplay-ul este simplu, accesibil și gândit pentru sesiuni scurte, ceea ce îl face ideal pentru jucătorii casual."
+        }
+      ]
+    }
+  }
+}

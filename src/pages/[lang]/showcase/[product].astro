@@ -1,17 +1,20 @@
 ---
-import MainLayout from "../../../layouts/MainLayout.astro";
-import { siteConfig } from "../../../config/site";
-import { getReleaseBySlug, getReleases } from "../../../data/releases";
+import ReleaseCardGrid from '../../../components/ReleaseCardGrid.astro';
+import SectionTitle from '../../../components/SectionTitle.astro';
+import MainLayout from '../../../layouts/MainLayout.astro';
+import { siteConfig } from '../../../config/site';
+import { getReleaseBySlug, getReleases } from '../../../data/releases';
 import {
   buildAbsoluteUrl,
   buildPath,
   isValidLocale,
-} from "../../../utils/i18n";
-import { locales, translations } from "../../../utils/translations";
-import { uiText } from "../../../utils/uiText";
+} from '../../../utils/i18n';
+import { locales, translations } from '../../../utils/translations';
+import { uiText } from '../../../utils/uiText';
+import { contentText } from '../../../utils/contentText';
 
 export function getStaticPaths() {
-  const releases = getReleases("en");
+  const releases = getReleases('en');
 
   return locales.flatMap((lang) =>
     releases.map((release) => ({ params: { lang, product: release.slug } })),
@@ -21,36 +24,64 @@ export function getStaticPaths() {
 const { lang, product } = Astro.params;
 
 if (!lang || !isValidLocale(lang) || !product) {
-  return Astro.redirect("/en/showcase/");
+  return Astro.redirect('/en/showcase/');
 }
 
 const release = getReleaseBySlug(lang, product);
 
 if (!release) {
-  return Astro.redirect(buildPath(lang, "showcase"));
+  return Astro.redirect(buildPath(lang, 'showcase'));
 }
 
 const t = translations[lang];
 const ui = uiText[lang];
-const pageTitle = `${release.name} — ${siteConfig.companyName}`;
-const pageDescription = release.summary;
+const content = contentText[lang];
+const pageTitle = release.metaTitle;
+const pageDescription = release.metaDescription;
 const pagePath = `showcase/${release.slug}` as const;
 const pageUrl = buildAbsoluteUrl(buildPath(lang, pagePath));
-
+const pageImagePath = `/${release.icon}`;
+const organizationId = buildAbsoluteUrl('/#organization');
 const baseUrl = import.meta.env.BASE_URL;
 const releaseIconUrl = `${baseUrl}${release.icon}`;
+const portraitPlaceholderUrl = 'https://placehold.co/1080x2400';
+const landscapePlaceholderUrl = 'https://placehold.co/1920x1080';
+const mainFeatureBullets = release.featureBullets
+  .map((item) => item.title.trim())
+  .filter(Boolean);
+const screenshotItems = release.screenshotRequirements.map((item) => {
+  const orientation = release.screenshotOrientation;
+
+  return {
+    ...item,
+    orientation,
+    imageUrl: item.imagePath
+      ? `${baseUrl}${item.imagePath}`
+      : orientation === 'landscape'
+        ? landscapePlaceholderUrl
+        : portraitPlaceholderUrl,
+  };
+});
+const faqs = release.faqs.slice(0, 6);
+
+const relatedReleases = release.relatedSlugs
+  .map((slug) => getReleaseBySlug(lang, slug))
+  .filter((item): item is NonNullable<typeof item> => Boolean(item));
 
 const softwareSchema = {
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  '@id': `${pageUrl}#software`,
   name: release.name,
-  applicationCategory:
-    release.kind === "game" ? "GameApplication" : "UtilitiesApplication",
-  operatingSystem: release.platforms.join(", "),
+  applicationCategory: release.schemaApplicationCategory,
+  operatingSystem: release.platforms.join(', '),
   description: release.summary,
-  image: buildAbsoluteUrl(releaseIconUrl),
+  keywords: release.tags.join(', '),
+  image: buildAbsoluteUrl(pageImagePath),
+  mainEntityOfPage: pageUrl,
   creator: {
-    "@type": "Organization",
+    '@id': organizationId,
+    '@type': 'Organization',
     name: siteConfig.companyName,
     url: siteConfig.siteUrl,
   },
@@ -58,22 +89,39 @@ const softwareSchema = {
   ...(release.googlePlayUrl
     ? {
         offers: {
-          "@type": "Offer",
+          '@type': 'Offer',
           url: release.googlePlayUrl,
-          price: "0",
-          priceCurrency: "USD",
-          availability: "https://schema.org/InStock",
+          price: '0',
+          priceCurrency: 'USD',
+          availability: 'https://schema.org/InStock',
         },
         installUrl: release.googlePlayUrl,
       }
     : {}),
 };
 
+const faqSchema =
+  faqs.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        '@id': `${pageUrl}#faq`,
+        mainEntity: faqs.map((item) => ({
+          '@type': 'Question',
+          name: item.question,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: item.answer,
+          },
+        })),
+      }
+    : null;
+
 const accentClassMap = {
-  red: "pill-red",
-  blue: "pill-blue",
-  green: "pill-green",
-  orange: "pill-orange",
+  red: 'pill-red',
+  blue: 'pill-blue',
+  green: 'pill-green',
+  orange: 'pill-orange',
 } as const;
 ---
 
@@ -82,12 +130,22 @@ const accentClassMap = {
   title={pageTitle}
   description={pageDescription}
   slug={pagePath}
+  imagePath={pageImagePath}
+  includeOrganizationSchema={false}
 >
   <Fragment slot="head">
     <script
       type="application/ld+json"
       set:html={JSON.stringify(softwareSchema)}
     />
+    {
+      faqSchema && (
+        <script
+          type="application/ld+json"
+          set:html={JSON.stringify(faqSchema)}
+        />
+      )
+    }
   </Fragment>
 
   <section class="section product-hero-section">
@@ -108,7 +166,7 @@ const accentClassMap = {
             <div class="product-meta-row">
               <span class:list={["pill", accentClassMap[release.accent]]}>
                 {
-                  release.kind === "game"
+                  release.kind === 'game'
                     ? t.showcase.kindGame
                     : t.showcase.kindApp
                 }
@@ -131,12 +189,12 @@ const accentClassMap = {
                 target="_blank"
                 rel="noreferrer"
               >
-                {t.showcase.playStore}
+                {content.bottomPrimaryCta}
               </a>
             )
           }
 
-          <a class="button button-secondary" href={buildPath(lang, "showcase")}>
+          <a class="button button-secondary" href={buildPath(lang, 'showcase')}>
             {t.nav.showcase}
           </a>
 
@@ -158,13 +216,13 @@ const accentClassMap = {
       <div class="product-panel" data-reveal>
         <div class="product-panel-header">
           <span class="muted-label">{release.category}</span>
-          <span class="muted-label">{release.platforms.join(" • ")}</span>
+          <span class="muted-label">{release.platforms.join(' • ')}</span>
         </div>
 
         <div class="product-panel-grid">
           <article class="mini-panel">
             <strong>{ui.product.platforms}</strong>
-            <p>{release.platforms.join(", ")}</p>
+            <p>{release.platforms.join(', ')}</p>
           </article>
 
           <article class="mini-panel">
@@ -174,14 +232,109 @@ const accentClassMap = {
 
           <article class="mini-panel">
             <strong>{ui.product.tags}</strong>
-            <p>{release.tags.join(", ")}</p>
+            <p>{release.tags.join(', ')}</p>
           </article>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section product-content-section">
+  <section class="section section-tight">
+    <div class="wrapper">
+      <div
+        class="screenshot-carousel-shell"
+        data-screenshot-carousel-root
+        data-screenshot-orientation={release.screenshotOrientation}
+      >
+        <div class="screenshot-stage" data-reveal>
+          <div class="screenshot-stage-header">
+            <h2>{content.screenshotTitle}</h2>
+          </div>
+
+          <div class="screenshot-carousel-frame">
+            <div class="screenshot-carousel-viewport">
+              <div
+                class="screenshot-carousel"
+                data-screenshot-track
+                tabindex="0"
+                aria-label={content.screenshotTitle}
+              >
+                {screenshotItems.map((item, index) => (
+                  <figure
+                    class:list={['screenshot-card', `screenshot-card-${item.orientation}`]}
+                    data-screenshot-slide
+                    data-index={index}
+                  >
+                    <div class="screenshot-media">
+                      <img
+                        src={item.imageUrl}
+                        alt={`${release.name} placeholder screenshot: ${item.title}`}
+                        loading="lazy"
+                        decoding="async"
+                      width={item.orientation === 'landscape' ? 1920 : 1080}
+                      height={item.orientation === 'landscape' ? 1080 : 2400}
+                    />
+                    </div>
+
+                    <figcaption class="screenshot-caption">
+                      <strong>{item.title}</strong>
+                      <p>{item.description}</p>
+                    </figcaption>
+                  </figure>
+                ))}
+              </div>
+            </div>
+
+            {
+              screenshotItems.length > 1 && (
+                <div class="screenshot-carousel-controls">
+                  <button
+                    type="button"
+                    class="screenshot-arrow screenshot-arrow-prev"
+                    data-screenshot-prev
+                    aria-label={content.screenshotPreviousLabel}
+                    disabled
+                  >
+                    <span aria-hidden="true">&larr;</span>
+                  </button>
+
+                  <div
+                    class="screenshot-indicators"
+                    aria-label={content.screenshotTitle}
+                  >
+                    {screenshotItems.map((item, index) => (
+                      <button
+                        type="button"
+                        class:list={[
+                          'screenshot-indicator',
+                          index === 0 && 'is-active',
+                        ]}
+                        data-screenshot-dot
+                        data-index={index}
+                        aria-label={`${content.screenshotIndicatorLabel} ${index + 1}: ${item.title}`}
+                        aria-current={index === 0 ? 'true' : 'false'}
+                      />
+                    ))}
+                  </div>
+
+                  <button
+                    type="button"
+                    class="screenshot-arrow screenshot-arrow-next"
+                    data-screenshot-next
+                    aria-label={content.screenshotNextLabel}
+                  >
+                    <span aria-hidden="true">&rarr;</span>
+                  </button>
+                </div>
+              )
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tight product-content-section">
     <div class="wrapper product-content-grid">
       <article class="content-card" data-reveal>
         <h2>{ui.product.overview}</h2>
@@ -212,7 +365,7 @@ const accentClassMap = {
             <span class="muted-label">{ui.product.productType}</span>
             <strong
               >{
-                release.kind === "game"
+                release.kind === 'game'
                   ? t.showcase.kindGame
                   : t.showcase.kindApp
               }</strong
@@ -222,4 +375,267 @@ const accentClassMap = {
       </aside>
     </div>
   </section>
+
+  <section class="section section-tight">
+    <div class="wrapper">
+      <article class="content-card" data-reveal>
+        <h2>{content.mainFeatureTitle}</h2>
+
+        <ul class="feature-bullet-list">
+          {mainFeatureBullets.map((item) => (
+            <li class="feature-bullet-item">{item}</li>
+          ))}
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section-tight">
+    <div class="wrapper">
+      <article class="content-card" data-reveal>
+        <h2>{content.faqTitle}</h2>
+        <p class="content-lead">{content.faqLead}</p>
+
+        <div class="faq-accordion">
+          {faqs.map((item, index) => (
+            <details class="faq-accordion-item" open={index === 0}>
+              <summary>{item.question}</summary>
+              <div class="faq-answer">
+                <p>{item.answer}</p>
+              </div>
+            </details>
+          ))}
+        </div>
+      </article>
+    </div>
+  </section>
+
+  {
+    relatedReleases.length > 0 && (
+      <section class="section section-tight">
+        <div class="wrapper">
+          <SectionTitle
+            eyebrow={t.showcase.eyebrow}
+            title={content.relatedAppsTitle}
+            description={content.relatedAppsLead}
+          />
+
+          <ReleaseCardGrid
+            lang={lang}
+            items={relatedReleases}
+            kindApp={t.showcase.kindApp}
+            kindGame={t.showcase.kindGame}
+            playStore={t.showcase.playStore}
+            website={t.showcase.website}
+            detailsLabel={t.showcase.detailsLabel}
+          />
+        </div>
+      </section>
+    )
+  }
+
+  <section class="section">
+    <div class="wrapper">
+      <article class="content-card product-bottom-cta" data-reveal>
+        <span class="eyebrow">{content.bottomCtaEyebrow}</span>
+        <h2>{content.bottomCtaTitle}</h2>
+        <p>{release.bottomCtaDescription}</p>
+
+        <div class="hero-actions">
+          {
+            release.googlePlayUrl && (
+              <a
+                class="button button-primary"
+                href={release.googlePlayUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {content.bottomPrimaryCta}
+              </a>
+            )
+          }
+
+          <a class="button button-secondary" href={buildPath(lang, 'showcase')}>
+            {content.bottomSecondaryCta}
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <script is:inline>
+    document
+      .querySelectorAll('[data-screenshot-carousel-root]')
+      .forEach((root) => {
+        const track = root.querySelector('[data-screenshot-track]');
+        const slides = Array.from(
+          root.querySelectorAll('[data-screenshot-slide]'),
+        );
+        const images = Array.from(root.querySelectorAll('.screenshot-media img'));
+        const dots = Array.from(root.querySelectorAll('[data-screenshot-dot]'));
+        const prevButton = root.querySelector('[data-screenshot-prev]');
+        const nextButton = root.querySelector('[data-screenshot-next]');
+        const indicators = root.querySelector('.screenshot-indicators');
+
+        if (!(track instanceof HTMLElement) || slides.length === 0) {
+          return;
+        }
+
+        let activePage = 0;
+        let frameId = 0;
+        let scrollStops = [0];
+        const resizeObserver =
+          typeof ResizeObserver !== 'undefined'
+            ? new ResizeObserver(() => {
+                scheduleUpdate();
+              })
+            : null;
+
+        const buildScrollStops = () => {
+          const maxScrollLeft = Math.max(0, track.scrollWidth - track.clientWidth);
+          const stops = [];
+
+          slides.forEach((slide) => {
+            if (!(slide instanceof HTMLElement)) {
+              return;
+            }
+
+            const targetLeft = Math.min(maxScrollLeft, slide.offsetLeft);
+
+            if (!stops.some((value) => Math.abs(value - targetLeft) < 4)) {
+              stops.push(targetLeft);
+            }
+          });
+
+          return stops.length > 0 ? stops : [0];
+        };
+
+        const updateUi = () => {
+          const hasOverflow = track.scrollWidth - track.clientWidth > 8;
+          const scrollLeft = track.scrollLeft;
+          let closestPage = 0;
+          let closestDistance = Number.POSITIVE_INFINITY;
+
+          scrollStops = hasOverflow ? buildScrollStops() : [0];
+
+          scrollStops.forEach((stop, index) => {
+            const distance = Math.abs(stop - scrollLeft);
+
+            if (distance < closestDistance) {
+              closestDistance = distance;
+              closestPage = index;
+            }
+          });
+
+          activePage = closestPage;
+
+          root.classList.toggle('is-static', !hasOverflow);
+
+          dots.forEach((dot, index) => {
+            if (!(dot instanceof HTMLButtonElement)) {
+              return;
+            }
+
+            const isVisible = hasOverflow && index < scrollStops.length;
+            const isActive = isVisible && index === activePage;
+            dot.hidden = !isVisible;
+            dot.disabled = !isVisible;
+            dot.classList.toggle('is-active', isActive);
+            dot.setAttribute('aria-current', isActive ? 'true' : 'false');
+          });
+
+          if (prevButton instanceof HTMLButtonElement) {
+            prevButton.disabled = !hasOverflow || activePage === 0;
+          }
+
+          if (nextButton instanceof HTMLButtonElement) {
+            nextButton.disabled =
+              !hasOverflow || activePage === scrollStops.length - 1;
+          }
+
+          if (indicators instanceof HTMLElement) {
+            indicators.hidden = !hasOverflow;
+          }
+        };
+
+        const scheduleUpdate = () => {
+          cancelAnimationFrame(frameId);
+          frameId = requestAnimationFrame(updateUi);
+        };
+
+        const scrollToPage = (index) => {
+          const clampedIndex = Math.max(0, Math.min(index, scrollStops.length - 1));
+          const targetLeft = scrollStops[clampedIndex];
+
+          if (typeof targetLeft !== 'number') {
+            return;
+          }
+
+          activePage = clampedIndex;
+          track.scrollTo({
+            left: targetLeft,
+            behavior: 'smooth',
+          });
+          scheduleUpdate();
+        };
+
+        if (prevButton instanceof HTMLButtonElement) {
+          prevButton.addEventListener('click', () => {
+            scrollToPage(activePage - 1);
+          });
+        }
+
+        if (nextButton instanceof HTMLButtonElement) {
+          nextButton.addEventListener('click', () => {
+            scrollToPage(activePage + 1);
+          });
+        }
+
+        dots.forEach((dot, index) => {
+          if (!(dot instanceof HTMLButtonElement)) {
+            return;
+          }
+
+          dot.addEventListener('click', () => {
+            if (!dot.hidden) {
+              scrollToPage(index);
+            }
+          });
+        });
+
+        track.addEventListener('scroll', scheduleUpdate, { passive: true });
+        track.addEventListener('keydown', (event) => {
+          if (event.key === 'ArrowLeft') {
+            event.preventDefault();
+            scrollToPage(activePage - 1);
+          }
+
+          if (event.key === 'ArrowRight') {
+            event.preventDefault();
+            scrollToPage(activePage + 1);
+          }
+        });
+
+        window.addEventListener('resize', scheduleUpdate);
+        window.addEventListener('load', scheduleUpdate);
+
+        if (resizeObserver) {
+          resizeObserver.observe(track);
+          slides.forEach((slide) => {
+            if (slide instanceof HTMLElement) {
+              resizeObserver.observe(slide);
+            }
+          });
+        }
+
+        images.forEach((image) => {
+          if (image instanceof HTMLImageElement && !image.complete) {
+            image.addEventListener('load', scheduleUpdate, { once: true });
+            image.addEventListener('error', scheduleUpdate, { once: true });
+          }
+        });
+
+        scheduleUpdate();
+      });
+  </script>
 </MainLayout>

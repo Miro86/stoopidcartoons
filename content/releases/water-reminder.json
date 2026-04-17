@@ -1,0 +1,811 @@
+{
+  "slug": "water-reminder",
+  "sortOrder": 3,
+  "kind": "app",
+  "featured": true,
+  "accent": "green",
+  "icon": "apps/icons/WaterReminder.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.waterreminder",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "HealthApplication",
+  "relatedSlugs": [
+    "habit-tracker",
+    "hiit-timer",
+    "big-ben"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Water Reminder",
+      "summary": "Track your daily water intake, build healthy hydration habits, and stay consistent with smart reminders and progress insights.",
+      "longDescription": [
+        "Water Reminder is a simple and effective hydration tracking app designed to help you build a consistent daily water drinking habit. With quick-add buttons and an intuitive interface, logging your water intake takes just a second.",
+        "Stay motivated with daily streak tracking that shows how many days in a row you have reached your hydration goal. The app encourages consistency and helps you turn healthy hydration into a long-term routine.",
+        "Get a clear overview of your progress with weekly statistics, detailed history, and insights such as your average water consumption and best-performing day. This allows you to understand your habits and improve over time.",
+        "Customizable reminders help you stay on track throughout the day. Set your own schedule and never forget to drink water, whether you are at work, at home, or on the go.",
+        "Designed for simplicity and efficiency, Water Reminder is perfect for anyone looking to improve their health, increase energy levels, and maintain proper hydration with minimal effort."
+      ],
+      "bottomCtaDescription": "Designed for simplicity and efficiency, Water Reminder is perfect for anyone looking to improve their health, increase energy levels, and maintain proper hydration with minimal effort.",
+      "category": "Health & Fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Water Reminder",
+        "Hydration",
+        "Reminders",
+        "Water Tracking",
+        "Wellness"
+      ],
+      "metaTitle": "Water Reminder | daily hydration reminders for Android | StoopidCartoons",
+      "metaDescription": "Track your daily water intake, build healthy hydration habits, and stay consistent with smart reminders and progress insights.",
+      "featureBullets": [
+        {
+          "title": "Log water in seconds"
+        },
+        {
+          "title": "Keep hydration streaks alive"
+        },
+        {
+          "title": "Use reminders that fit your day"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Stay hydrated every day",
+          "description": "Track your water in one tap. Fast & simple tracking.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-1.png"
+        },
+        {
+          "title": "7 day progress",
+          "description": "Stay consistent daily.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Understand your habits",
+          "description": "See trends and improve.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-3.png"
+        },
+        {
+          "title": "Available in 11 languages",
+          "description": "Built for users worldwide.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is Water Reminder best for?",
+          "answer": "Track your daily water intake, build healthy hydration habits, and stay consistent with smart reminders and progress insights."
+        },
+        {
+          "question": "Can I log water quickly in Water Reminder?",
+          "answer": "Water Reminder is a simple and effective hydration tracking app designed to help you build a consistent daily water drinking habit. With quick-add buttons and an intuitive interface, logging your water intake takes just a second."
+        },
+        {
+          "question": "Does Water Reminder include reminders and hydration stats?",
+          "answer": "Get a clear overview of your progress with weekly statistics, detailed history, and insights such as your average water consumption and best-performing day. This allows you to understand your habits and improve over time. Customizable reminders help you stay on track throughout the day. Set your own schedule and never forget to drink water, whether you are at work, at home, or on the go."
+        }
+      ]
+    },
+    "de": {
+      "name": "Water Reminder",
+      "summary": "Verfolge deine tägliche Wasseraufnahme, baue gesunde Gewohnheiten auf und bleibe mit intelligenten Erinnerungen konsequent hydriert.",
+      "longDescription": [
+        "Water Reminder ist eine einfache und effektive App zur Verfolgung deiner täglichen Wasseraufnahme. Mit schnellen Eingabetasten und einer intuitiven Oberfläche kannst du deine Wasserzufuhr in Sekundenschnelle protokollieren.",
+        "Bleibe motiviert mit der Verfolgung deiner täglichen Serie, die zeigt, wie viele Tage in Folge du dein Trinkziel erreicht hast. Die App hilft dir, eine gesunde Routine aufzubauen und langfristig beizubehalten.",
+        "Erhalte einen klaren Überblick über deinen Fortschritt mit wöchentlichen Statistiken, detaillierter Historie und Einblicken wie deinem durchschnittlichen Wasserverbrauch und deinem besten Tag.",
+        "Individuell anpassbare Erinnerungen helfen dir, den ganzen Tag über ausreichend zu trinken. Lege deinen eigenen Zeitplan fest und vergiss nie wieder, Wasser zu trinken.",
+        "Entwickelt für Einfachheit und Effizienz ist Water Reminder ideal für alle, die ihre Gesundheit verbessern und mit minimalem Aufwand hydriert bleiben möchten."
+      ],
+      "bottomCtaDescription": "Entwickelt für Einfachheit und Effizienz ist Water Reminder ideal für alle, die ihre Gesundheit verbessern und mit minimalem Aufwand hydriert bleiben möchten.",
+      "category": "Gesundheit & Fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Water Reminder",
+        "Hydrierung",
+        "Erinnerungen",
+        "Wassertracking",
+        "Wohlbefinden"
+      ],
+      "metaTitle": "Water Reminder | Trink-Erinnerungen fuer Android | StoopidCartoons",
+      "metaDescription": "Verfolge deine tägliche Wasseraufnahme, baue gesunde Gewohnheiten auf und bleibe mit intelligenten Erinnerungen konsequent hydriert.",
+      "featureBullets": [
+        {
+          "title": "Erfasse Wasser in Sekunden"
+        },
+        {
+          "title": "Halte deine Trink-Serie am Leben"
+        },
+        {
+          "title": "Nutze Erinnerungen, die zu deinem Tag passen"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Bleib jeden Tag hydriert",
+          "description": "Verfolge dein Wasser mit einem Tipp. Schnell & einfach.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-1.png"
+        },
+        {
+          "title": "7-Tage-Fortschritt",
+          "description": "Bleib täglich konsequent.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Verstehe deine Gewohnheiten",
+          "description": "Erkenne Trends und verbessere dich.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-3.png"
+        },
+        {
+          "title": "Verfügbar in 11 Sprachen",
+          "description": "Für Nutzer weltweit entwickelt.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wofuer eignet sich Water Reminder am besten?",
+          "answer": "Verfolge deine tägliche Wasseraufnahme, baue gesunde Gewohnheiten auf und bleibe mit intelligenten Erinnerungen konsequent hydriert."
+        },
+        {
+          "question": "Kann ich Wasser in Water Reminder schnell eintragen?",
+          "answer": "Water Reminder ist eine einfache und effektive App zur Verfolgung deiner täglichen Wasseraufnahme. Mit schnellen Eingabetasten und einer intuitiven Oberfläche kannst du deine Wasserzufuhr in Sekundenschnelle protokollieren."
+        },
+        {
+          "question": "Enthaelt Water Reminder Erinnerungen und Trink-Statistiken?",
+          "answer": "Erhalte einen klaren Überblick über deinen Fortschritt mit wöchentlichen Statistiken, detaillierter Historie und Einblicken wie deinem durchschnittlichen Wasserverbrauch und deinem besten Tag. Individuell anpassbare Erinnerungen helfen dir, den ganzen Tag über ausreichend zu trinken. Lege deinen eigenen Zeitplan fest und vergiss nie wieder, Wasser zu trinken."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Water Reminder",
+      "summary": "Suivez votre consommation d’eau quotidienne, adoptez de bonnes habitudes et restez hydraté grâce à des rappels intelligents.",
+      "longDescription": [
+        "Water Reminder est une application simple et efficace conçue pour vous aider à suivre votre consommation d’eau au quotidien. Grâce à des boutons rapides et une interface intuitive, enregistrer votre hydratation ne prend qu’une seconde.",
+        "Restez motivé grâce au suivi des séries quotidiennes qui indique combien de jours consécutifs vous avez atteint votre objectif. L’application vous aide à transformer l’hydratation en habitude durable.",
+        "Obtenez une vue claire de vos progrès avec des statistiques hebdomadaires, un historique détaillé et des informations comme votre consommation moyenne et votre meilleure journée.",
+        "Les rappels personnalisables vous permettent de rester sur la bonne voie tout au long de la journée. Définissez votre propre planning et n’oubliez plus jamais de boire de l’eau.",
+        "Conçue pour être simple et efficace, Water Reminder est idéale pour améliorer votre santé, augmenter votre énergie et maintenir une bonne hydratation sans effort."
+      ],
+      "bottomCtaDescription": "Conçue pour être simple et efficace, Water Reminder est idéale pour améliorer votre santé, augmenter votre énergie et maintenir une bonne hydratation sans effort.",
+      "category": "Sante et fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Water Reminder",
+        "Hydratation",
+        "Rappels",
+        "Suivi de l'eau",
+        "Bien-etre"
+      ],
+      "metaTitle": "Water Reminder | rappels d'hydratation sur Android | StoopidCartoons",
+      "metaDescription": "Suivez votre consommation d’eau quotidienne, adoptez de bonnes habitudes et restez hydraté grâce à des rappels intelligents.",
+      "featureBullets": [
+        {
+          "title": "Enregistre ton eau en quelques secondes"
+        },
+        {
+          "title": "Fais durer ta serie d’hydratation"
+        },
+        {
+          "title": "Utilise des rappels adaptes a ta journee"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Restez hydraté chaque jour",
+          "description": "Suivez votre eau en un geste. Rapide et simple.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Progrès sur 7 jours",
+          "description": "Restez constant chaque jour.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Comprenez vos habitudes",
+          "description": "Analysez les tendances et progressez.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-3.png"
+        },
+        {
+          "title": "Disponible en 11 langues",
+          "description": "Conçu pour les utilisateurs du monde entier.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Pour quoi Water Reminder est-il le plus utile ?",
+          "answer": "Suivez votre consommation d’eau quotidienne, adoptez de bonnes habitudes et restez hydraté grâce à des rappels intelligents."
+        },
+        {
+          "question": "Puis-je enregistrer mon eau rapidement dans Water Reminder ?",
+          "answer": "Water Reminder est une application simple et efficace conçue pour vous aider à suivre votre consommation d’eau au quotidien. Grâce à des boutons rapides et une interface intuitive, enregistrer votre hydratation ne prend qu’une seconde."
+        },
+        {
+          "question": "Est-ce que Water Reminder inclut des rappels et des statistiques ?",
+          "answer": "Obtenez une vue claire de vos progrès avec des statistiques hebdomadaires, un historique détaillé et des informations comme votre consommation moyenne et votre meilleure journée. Les rappels personnalisables vous permettent de rester sur la bonne voie tout au long de la journée. Définissez votre propre planning et n’oubliez plus jamais de boire de l’eau."
+        }
+      ]
+    },
+    "it": {
+      "name": "Water Reminder",
+      "summary": "Monitora l’assunzione quotidiana di acqua, crea abitudini sane e resta idratato con promemoria intelligenti.",
+      "longDescription": [
+        "Water Reminder è un’app semplice ed efficace progettata per aiutarti a monitorare il consumo quotidiano di acqua. Grazie a pulsanti rapidi e a un’interfaccia intuitiva, registrare l’acqua bevuta richiede solo un secondo.",
+        "Rimani motivato con il tracciamento delle serie giornaliere che mostra per quanti giorni consecutivi hai raggiunto il tuo obiettivo di idratazione.",
+        "Ottieni una panoramica chiara dei tuoi progressi con statistiche settimanali, cronologia dettagliata e dati come il consumo medio e il giorno migliore.",
+        "I promemoria personalizzabili ti aiutano a bere acqua durante tutta la giornata. Imposta il tuo programma e non dimenticare mai di idratarti.",
+        "Water Reminder è progettata per essere semplice ed efficiente, ideale per migliorare la salute e mantenere una corretta idratazione con il minimo sforzo."
+      ],
+      "bottomCtaDescription": "Water Reminder è progettata per essere semplice ed efficiente, ideale per migliorare la salute e mantenere una corretta idratazione con il minimo sforzo.",
+      "category": "Salute e benessere",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Water Reminder",
+        "Idratazione",
+        "Promemoria",
+        "Monitoraggio dell'acqua",
+        "Benessere"
+      ],
+      "metaTitle": "Water Reminder | promemoria per l’idratazione su Android | StoopidCartoons",
+      "metaDescription": "Monitora l’assunzione quotidiana di acqua, crea abitudini sane e resta idratato con promemoria intelligenti.",
+      "featureBullets": [
+        {
+          "title": "Registra l’acqua in pochi secondi"
+        },
+        {
+          "title": "Mantieni vive le serie di idratazione"
+        },
+        {
+          "title": "Usa promemoria adatti alla tua giornata"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Rimani idratato ogni giorno",
+          "description": "Tieni traccia dell'acqua con un tocco. Veloce e semplice.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Progressi di 7 giorni",
+          "description": "Mantieni la costanza ogni giorno.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Comprendi le tue abitudini",
+          "description": "Analizza le tendenze e migliora.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-3.png"
+        },
+        {
+          "title": "Disponibile in 11 lingue",
+          "description": "Progettato per utenti in tutto il mondo.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Per cosa e piu utile Water Reminder?",
+          "answer": "Monitora l’assunzione quotidiana di acqua, crea abitudini sane e resta idratato con promemoria intelligenti."
+        },
+        {
+          "question": "Posso registrare l’acqua rapidamente in Water Reminder?",
+          "answer": "Water Reminder è un’app semplice ed efficace progettata per aiutarti a monitorare il consumo quotidiano di acqua. Grazie a pulsanti rapidi e a un’interfaccia intuitiva, registrare l’acqua bevuta richiede solo un secondo."
+        },
+        {
+          "question": "Water Reminder include promemoria e statistiche sull’idratazione?",
+          "answer": "Ottieni una panoramica chiara dei tuoi progressi con statistiche settimanali, cronologia dettagliata e dati come il consumo medio e il giorno migliore. I promemoria personalizzabili ti aiutano a bere acqua durante tutta la giornata. Imposta il tuo programma e non dimenticare mai di idratarti."
+        }
+      ]
+    },
+    "es": {
+      "name": "Water Reminder",
+      "summary": "Controla tu consumo diario de agua, crea hábitos saludables y mantente constante con recordatorios inteligentes.",
+      "longDescription": [
+        "Water Reminder es una aplicación sencilla y eficaz diseñada para ayudarte a controlar tu consumo diario de agua. Con botones rápidos y una interfaz intuitiva, registrar tu ingesta es fácil y rápido.",
+        "Mantente motivado con el seguimiento de rachas que muestra cuántos días consecutivos has alcanzado tu objetivo de hidratación.",
+        "Obtén una visión clara de tu progreso con estadísticas semanales, historial detallado y datos como tu consumo promedio y tu mejor día.",
+        "Los recordatorios personalizables te ayudan a mantenerte hidratado durante todo el día. Configura tu propio horario y no olvides beber agua.",
+        "Diseñada para ser simple y eficiente, Water Reminder es perfecta para mejorar tu salud y mantenerte hidratado sin esfuerzo."
+      ],
+      "bottomCtaDescription": "Diseñada para ser simple y eficiente, Water Reminder es perfecta para mejorar tu salud y mantenerte hidratado sin esfuerzo.",
+      "category": "Salud y bienestar",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Water Reminder",
+        "Hidratacion",
+        "Recordatorios",
+        "Seguimiento de agua",
+        "Bienestar"
+      ],
+      "metaTitle": "Water Reminder | recordatorios de hidratacion para Android | StoopidCartoons",
+      "metaDescription": "Controla tu consumo diario de agua, crea hábitos saludables y mantente constante con recordatorios inteligentes.",
+      "featureBullets": [
+        {
+          "title": "Registra agua en segundos"
+        },
+        {
+          "title": "Mantiene vivas tus rachas de hidratacion"
+        },
+        {
+          "title": "Usa recordatorios que encajan en tu dia"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Mantente hidratado cada día",
+          "description": "Registra tu agua con un toque. Rápido y simple.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Progreso de 7 días",
+          "description": "Mantente constante cada día.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Entiende tus hábitos",
+          "description": "Observa tendencias y mejora.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-3.png"
+        },
+        {
+          "title": "Disponible en 11 idiomas",
+          "description": "Diseñado para usuarios de todo el mundo.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Para que sirve mejor Water Reminder?",
+          "answer": "Controla tu consumo diario de agua, crea hábitos saludables y mantente constante con recordatorios inteligentes."
+        },
+        {
+          "question": "Puedo registrar agua rapidamente en Water Reminder?",
+          "answer": "Water Reminder es una aplicación sencilla y eficaz diseñada para ayudarte a controlar tu consumo diario de agua. Con botones rápidos y una interfaz intuitiva, registrar tu ingesta es fácil y rápido."
+        },
+        {
+          "question": "Incluye Water Reminder recordatorios y estadisticas de hidratacion?",
+          "answer": "Obtén una visión clara de tu progreso con estadísticas semanales, historial detallado y datos como tu consumo promedio y tu mejor día. Los recordatorios personalizables te ayudan a mantenerte hidratado durante todo el día. Configura tu propio horario y no olvides beber agua."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Water Reminder",
+      "summary": "Acompanhe sua ingestão diária de água, crie hábitos saudáveis e mantenha-se hidratado com lembretes inteligentes.",
+      "longDescription": [
+        "Water Reminder é um aplicativo simples e eficaz de rastreamento de hidratação, criado para ajudar você a desenvolver o hábito consistente de beber água todos os dias. Com botões de adição rápida e uma interface intuitiva, registrar a sua ingestão de água leva apenas um segundo.",
+        "Mantenha-se motivado com o acompanhamento de sequências diárias que mostra por quantos dias seguidos você atingiu a sua meta de hidratação. O aplicativo incentiva a constância e ajuda a transformar a hidratação saudável em uma rotina de longo prazo.",
+        "Tenha uma visão clara do seu progresso com estatísticas semanais, histórico detalhado e informações como o seu consumo médio de água e o dia com melhor desempenho. Isso permite entender os seus hábitos e melhorar ao longo do tempo.",
+        "Lembretes personalizáveis ajudam você a manter o foco durante todo o dia. Defina o seu próprio horário e nunca mais esqueça de beber água, esteja você no trabalho, em casa ou em movimento.",
+        "Projetado para ser simples e eficiente, Water Reminder é perfeito para quem deseja melhorar a saúde, aumentar os níveis de energia e manter a hidratação adequada com o mínimo de esforço."
+      ],
+      "bottomCtaDescription": "Projetado para ser simples e eficiente, Water Reminder é perfeito para quem deseja melhorar a saúde, aumentar os níveis de energia e manter a hidratação adequada com o mínimo de esforço.",
+      "category": "Saude e fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Water Reminder",
+        "Hidratacao",
+        "Lembretes",
+        "Monitorizacao de agua",
+        "Bem-estar"
+      ],
+      "metaTitle": "Water Reminder | lembretes de hidratacao para Android | StoopidCartoons",
+      "metaDescription": "Acompanhe sua ingestão diária de água, crie hábitos saudáveis e mantenha-se hidratado com lembretes inteligentes.",
+      "featureBullets": [
+        {
+          "title": "Regista agua em segundos"
+        },
+        {
+          "title": "Mantem vivas as sequencias de hidratacao"
+        },
+        {
+          "title": "Usa lembretes que encaixam no teu dia"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Mantenha-se hidratado todos os dias",
+          "description": "Registre sua água com um toque. Rápido e simples.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Progresso de 7 dias",
+          "description": "Mantenha a consistência diariamente.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Entenda seus hábitos",
+          "description": "Veja tendências e melhore.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-3.png"
+        },
+        {
+          "title": "Disponível em 11 idiomas",
+          "description": "Criado para usuários em todo o mundo.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Para que e mais util o Water Reminder?",
+          "answer": "Acompanhe sua ingestão diária de água, crie hábitos saudáveis e mantenha-se hidratado com lembretes inteligentes."
+        },
+        {
+          "question": "Posso registar agua rapidamente no Water Reminder?",
+          "answer": "Water Reminder é um aplicativo simples e eficaz de rastreamento de hidratação, criado para ajudar você a desenvolver o hábito consistente de beber água todos os dias. Com botões de adição rápida e uma interface intuitiva, registrar a sua ingestão de água leva apenas um segundo."
+        },
+        {
+          "question": "O Water Reminder inclui lembretes e estatisticas de hidratacao?",
+          "answer": "Tenha uma visão clara do seu progresso com estatísticas semanais, histórico detalhado e informações como o seu consumo médio de água e o dia com melhor desempenho. Isso permite entender os seus hábitos e melhorar ao longo do tempo. Lembretes personalizáveis ajudam você a manter o foco durante todo o dia. Defina o seu próprio horário e nunca mais esqueça de beber água, esteja você no trabalho, em casa ou em movimento."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Water Reminder",
+      "summary": "Пратите дневни унос воде, развијте здраве навике и останите хидрирани уз паметне подсетнике.",
+      "longDescription": [
+        "Water Reminder је једноставна и ефикасна апликација за праћење хидратације, осмишљена да ти помогне да изградиш доследну дневну навику пијења воде. Захваљујући дугмадима за брзи унос и интуитивном интерфејсу, бележење уноса воде траје само секунд.",
+        "Остани мотивисан праћењем дневног низа који показује колико дана заредом си достигао свој циљ хидратације. Апликација подстиче доследност и помаже ти да здраву хидратацију претвориш у дугорочну рутину.",
+        "Добиј јасан преглед свог напретка уз недељну статистику, детаљну историју и увиде као што су просечна потрошња воде и дан са најбољим резултатом. То ти омогућава да боље разумеш своје навике и временом их унапредиш.",
+        "Прилагодљиви подсетници ти помажу да останеш на правом путу током целог дана. Подеси свој распоред и никада не заборави да попијеш воду, било да си на послу, код куће или у покрету.",
+        "Осмишљен за једноставност и ефикасност, Water Reminder је савршен за свакога ко жели да побољша здравље, повећа ниво енергије и одржи правилну хидратацију уз минималан труд."
+      ],
+      "bottomCtaDescription": "Осмишљен за једноставност и ефикасност, Water Reminder је савршен за свакога ко жели да побољша здравље, повећа ниво енергије и одржи правилну хидратацију уз минималан труд.",
+      "category": "Здравље и фитнес",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Water Reminder",
+        "Хидратација",
+        "Подсетници",
+        "Праћење воде",
+        "Добро стање"
+      ],
+      "metaTitle": "Water Reminder | подсетници за хидратацију на Андроиду | StoopidCartoons",
+      "metaDescription": "Пратите дневни унос воде, развијте здраве навике и останите хидрирани уз паметне подсетнике.",
+      "featureBullets": [
+        {
+          "title": "Упиши воду за неколико секунди"
+        },
+        {
+          "title": "Одржавај низ хидратације"
+        },
+        {
+          "title": "Користи подсетнике који прате твој дан"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Остани хидриран сваки дан",
+          "description": "Прати унос воде једним додиром. Брзо и једноставно.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Напредак за 7 дана",
+          "description": "Остани доследан сваког дана.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Разуми своје навике",
+          "description": "Прати трендове и напредуј.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-3.png"
+        },
+        {
+          "title": "Доступно на 11 језика",
+          "description": "Направљено за кориснике широм света.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "За шта је Water Reminder најбољи?",
+          "answer": "Пратите дневни унос воде, развијте здраве навике и останите хидрирани уз паметне подсетнике."
+        },
+        {
+          "question": "Могу ли брзо да упишем воду у Water Reminder?",
+          "answer": "Water Reminder је једноставна и ефикасна апликација за праћење хидратације, осмишљена да ти помогне да изградиш доследну дневну навику пијења воде. Захваљујући дугмадима за брзи унос и интуитивном интерфејсу, бележење уноса воде траје само секунд."
+        },
+        {
+          "question": "Да ли Water Reminder има подсетнике и статистику хидратације?",
+          "answer": "Добиј јасан преглед свог напретка уз недељну статистику, детаљну историју и увиде као што су просечна потрошња воде и дан са најбољим резултатом. То ти омогућава да боље разумеш своје навике и временом их унапредиш. Прилагодљиви подсетници ти помажу да останеш на правом путу током целог дана. Подеси свој распоред и никада не заборави да попијеш воду, било да си на послу, код куће или у покрету."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Water Reminder",
+      "summary": "Pratite unos vode i razvijte zdrave navike uz pametne podsjetnike.",
+      "longDescription": [
+        "Water Reminder je jednostavna i učinkovita aplikacija za praćenje hidratacije osmišljena kako bi ti pomogla izgraditi dosljednu dnevnu naviku pijenja vode. Uz gumbe za brzi unos i intuitivno sučelje, bilježenje unosa vode traje samo sekundu.",
+        "Ostani motiviran uz praćenje dnevnog niza koje pokazuje koliko si dana zaredom dosegnuo svoj cilj hidratacije. Aplikacija potiče dosljednost i pomaže ti pretvoriti zdravu hidrataciju u dugoročnu rutinu.",
+        "Dobij jasan pregled svog napretka uz tjednu statistiku, detaljnu povijest i uvide kao što su prosječna potrošnja vode i tvoj najbolji dan. To ti omogućuje da bolje razumiješ svoje navike i s vremenom ih poboljšaš.",
+        "Prilagodljivi podsjetnici pomažu ti da ostaneš na pravom putu tijekom cijelog dana. Postavi vlastiti raspored i više nikada ne zaboravi popiti vodu, bilo da si na poslu, kod kuće ili u pokretu.",
+        "Dizajniran za jednostavnost i učinkovitost, Water Reminder savršen je za svakoga tko želi poboljšati zdravlje, povećati razinu energije i održavati pravilnu hidrataciju uz minimalan trud."
+      ],
+      "bottomCtaDescription": "Dizajniran za jednostavnost i učinkovitost, Water Reminder savršen je za svakoga tko želi poboljšati zdravlje, povećati razinu energije i održavati pravilnu hidrataciju uz minimalan trud.",
+      "category": "Zdravlje i fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Water Reminder",
+        "Hidratacija",
+        "Podsjetnici",
+        "Pracenje vode",
+        "Dobrobit"
+      ],
+      "metaTitle": "Water Reminder | podsjetnici za hidrataciju na Androidu | StoopidCartoons",
+      "metaDescription": "Pratite unos vode i razvijte zdrave navike uz pametne podsjetnike.",
+      "featureBullets": [
+        {
+          "title": "Unesi vodu u nekoliko sekundi"
+        },
+        {
+          "title": "Odrzavaj niz hidratacije"
+        },
+        {
+          "title": "Koristi podsjetnike koji prate tvoj dan"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Ostani hidratiziran svaki dan",
+          "description": "Prati unos vode jednim dodirom. Brzo i jednostavno.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Napredak za 7 dana",
+          "description": "Ostani dosljedan svaki dan.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Razumi svoje navike",
+          "description": "Prati trendove i napreduj.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-3.png"
+        },
+        {
+          "title": "Dostupno na 11 jezika",
+          "description": "Napravljeno za korisnike širom svijeta.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Za sto je Water Reminder najbolji?",
+          "answer": "Pratite unos vode i razvijte zdrave navike uz pametne podsjetnike."
+        },
+        {
+          "question": "Mogu li brzo upisati vodu u Water Reminder?",
+          "answer": "Water Reminder je jednostavna i učinkovita aplikacija za praćenje hidratacije osmišljena kako bi ti pomogla izgraditi dosljednu dnevnu naviku pijenja vode. Uz gumbe za brzi unos i intuitivno sučelje, bilježenje unosa vode traje samo sekundu."
+        },
+        {
+          "question": "Ima li Water Reminder podsjetnike i statistiku hidratacije?",
+          "answer": "Dobij jasan pregled svog napretka uz tjednu statistiku, detaljnu povijest i uvide kao što su prosječna potrošnja vode i tvoj najbolji dan. To ti omogućuje da bolje razumiješ svoje navike i s vremenom ih poboljšaš. Prilagodljivi podsjetnici pomažu ti da ostaneš na pravom putu tijekom cijelog dana. Postavi vlastiti raspored i više nikada ne zaboravi popiti vodu, bilo da si na poslu, kod kuće ili u pokretu."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Water Reminder",
+      "summary": "Houd je dagelijkse waterinname bij, ontwikkel gezonde gewoonten en blijf gehydrateerd met slimme herinneringen.",
+      "longDescription": [
+        "Water Reminder is een eenvoudige en effectieve hydratatie-app die is ontworpen om je te helpen een consequente dagelijkse gewoonte van water drinken op te bouwen. Met snelle toevoegeknoppen en een intuïtieve interface kost het registreren van je waterinname maar een seconde.",
+        "Blijf gemotiveerd met dagelijkse streak-tracking die laat zien hoeveel dagen achter elkaar je je hydratatiedoel hebt bereikt. De app stimuleert consistentie en helpt je om gezonde hydratatie om te zetten in een routine voor de lange termijn.",
+        "Krijg een duidelijk overzicht van je voortgang met wekelijkse statistieken, gedetailleerde geschiedenis en inzichten zoals je gemiddelde waterverbruik en je beste dag. Daardoor kun je je gewoonten beter begrijpen en ze in de loop van de tijd verbeteren.",
+        "Aanpasbare herinneringen helpen je de hele dag op schema te blijven. Stel je eigen planning in en vergeet nooit meer water te drinken, of je nu op het werk bent, thuis of onderweg.",
+        "Water Reminder is ontworpen voor eenvoud en efficiëntie en is perfect voor iedereen die de gezondheid wil verbeteren, meer energie wil krijgen en met minimale moeite goed gehydrateerd wil blijven."
+      ],
+      "bottomCtaDescription": "Water Reminder is ontworpen voor eenvoud en efficiëntie en is perfect voor iedereen die de gezondheid wil verbeteren, meer energie wil krijgen en met minimale moeite goed gehydrateerd wil blijven.",
+      "category": "Gezondheid & fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Water Reminder",
+        "Hydratatie",
+        "Herinneringen",
+        "Watertracking",
+        "Welzijn"
+      ],
+      "metaTitle": "Water Reminder | dagelijkse hydratatie op Android | StoopidCartoons",
+      "metaDescription": "Houd je dagelijkse waterinname bij, ontwikkel gezonde gewoonten en blijf gehydrateerd met slimme herinneringen.",
+      "featureBullets": [
+        {
+          "title": "Log water in seconden"
+        },
+        {
+          "title": "Houd je hydratatiereeks levend"
+        },
+        {
+          "title": "Gebruik herinneringen die bij je dag passen"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Blijf elke dag gehydrateerd",
+          "description": "Houd je water bij met één tik. Snel en eenvoudig.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Voortgang van 7 dagen",
+          "description": "Blijf dagelijks consistent.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Begrijp je gewoonten",
+          "description": "Zie trends en verbeter.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-3.png"
+        },
+        {
+          "title": "Beschikbaar in 11 talen",
+          "description": "Gemaakt voor gebruikers wereldwijd.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Waar is Water Reminder het meest geschikt voor?",
+          "answer": "Houd je dagelijkse waterinname bij, ontwikkel gezonde gewoonten en blijf gehydrateerd met slimme herinneringen."
+        },
+        {
+          "question": "Kan ik water snel loggen in Water Reminder?",
+          "answer": "Water Reminder is een eenvoudige en effectieve hydratatie-app die is ontworpen om je te helpen een consequente dagelijkse gewoonte van water drinken op te bouwen. Met snelle toevoegeknoppen en een intuïtieve interface kost het registreren van je waterinname maar een seconde."
+        },
+        {
+          "question": "Bevat Water Reminder herinneringen en hydratatiestatistieken?",
+          "answer": "Krijg een duidelijk overzicht van je voortgang met wekelijkse statistieken, gedetailleerde geschiedenis en inzichten zoals je gemiddelde waterverbruik en je beste dag. Daardoor kun je je gewoonten beter begrijpen en ze in de loop van de tijd verbeteren. Aanpasbare herinneringen helpen je de hele dag op schema te blijven. Stel je eigen planning in en vergeet nooit meer water te drinken, of je nu op het werk bent, thuis of onderweg."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Water Reminder",
+      "summary": "Śledź dzienne spożycie wody, buduj zdrowe nawyki i utrzymuj nawodnienie dzięki przypomnieniom.",
+      "longDescription": [
+        "Water Reminder to prosta i skuteczna aplikacja do śledzenia nawodnienia, zaprojektowana tak, aby pomóc Ci zbudować regularny codzienny nawyk picia wody. Dzięki przyciskom szybkiego dodawania i intuicyjnemu interfejsowi zapisanie wypitej wody zajmuje tylko chwilę.",
+        "Pozostań zmotywowany dzięki śledzeniu codziennych serii, które pokazuje, przez ile dni z rzędu udało Ci się osiągnąć cel nawodnienia. Aplikacja wspiera regularność i pomaga zamienić zdrowe nawodnienie w długoterminową rutynę.",
+        "Zyskaj jasny obraz swoich postępów dzięki tygodniowym statystykom, szczegółowej historii i informacjom takim jak średnie spożycie wody oraz Twój najlepszy dzień. Pozwala to lepiej zrozumieć własne nawyki i poprawiać je z czasem.",
+        "Konfigurowalne przypomnienia pomagają Ci trzymać się planu przez cały dzień. Ustaw własny harmonogram i już nigdy nie zapomnij napić się wody — w pracy, w domu i w drodze.",
+        "Zaprojektowana z myślą o prostocie i skuteczności, Water Reminder jest idealna dla każdego, kto chce poprawić zdrowie, zwiększyć poziom energii i utrzymać prawidłowe nawodnienie przy minimalnym wysiłku."
+      ],
+      "bottomCtaDescription": "Zaprojektowana z myślą o prostocie i skuteczności, Water Reminder jest idealna dla każdego, kto chce poprawić zdrowie, zwiększyć poziom energii i utrzymać prawidłowe nawodnienie przy minimalnym wysiłku.",
+      "category": "Zdrowie i fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Water Reminder",
+        "Nawodnienie",
+        "Przypomnienia",
+        "Monitorowanie wody",
+        "Dobrostan"
+      ],
+      "metaTitle": "Water Reminder | przypomnienia o nawodnieniu na Androida | StoopidCartoons",
+      "metaDescription": "Śledź dzienne spożycie wody, buduj zdrowe nawyki i utrzymuj nawodnienie dzięki przypomnieniom.",
+      "featureBullets": [
+        {
+          "title": "Zapisuj wode w kilka sekund"
+        },
+        {
+          "title": "Podtrzymuj serie nawodnienia"
+        },
+        {
+          "title": "Korzystaj z przypomnien dopasowanych do dnia"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Dbaj o nawodnienie każdego dnia",
+          "description": "Śledź wodę jednym dotknięciem. Szybko i prosto.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Postęp z 7 dni",
+          "description": "Bądź konsekwentny każdego dnia.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Zrozum swoje nawyki",
+          "description": "Zobacz trendy i popraw się.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-3.png"
+        },
+        {
+          "title": "Dostępne w 11 językach",
+          "description": "Stworzone dla użytkowników na całym świecie.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do czego najlepiej nadaje sie Water Reminder?",
+          "answer": "Śledź dzienne spożycie wody, buduj zdrowe nawyki i utrzymuj nawodnienie dzięki przypomnieniom."
+        },
+        {
+          "question": "Czy moge szybko zapisywac wode w Water Reminder?",
+          "answer": "Water Reminder to prosta i skuteczna aplikacja do śledzenia nawodnienia, zaprojektowana tak, aby pomóc Ci zbudować regularny codzienny nawyk picia wody. Dzięki przyciskom szybkiego dodawania i intuicyjnemu interfejsowi zapisanie wypitej wody zajmuje tylko chwilę."
+        },
+        {
+          "question": "Czy Water Reminder zawiera przypomnienia i statystyki nawodnienia?",
+          "answer": "Zyskaj jasny obraz swoich postępów dzięki tygodniowym statystykom, szczegółowej historii i informacjom takim jak średnie spożycie wody oraz Twój najlepszy dzień. Pozwala to lepiej zrozumieć własne nawyki i poprawiać je z czasem. Konfigurowalne przypomnienia pomagają Ci trzymać się planu przez cały dzień. Ustaw własny harmonogram i już nigdy nie zapomnij napić się wody — w pracy, w domu i w drodze."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Water Reminder",
+      "summary": "Urmărește consumul zilnic de apă, creează obiceiuri sănătoase și rămâi hidratat.",
+      "longDescription": [
+        "Water Reminder este o aplicație simplă și eficientă de monitorizare a hidratării, creată pentru a te ajuta să îți formezi un obicei zilnic constant de a bea apă. Cu butoane de adăugare rapidă și o interfață intuitivă, înregistrarea consumului de apă durează doar o clipă.",
+        "Rămâi motivat cu urmărirea seriilor zilnice, care îți arată câte zile la rând ți-ai atins obiectivul de hidratare. Aplicația încurajează consecvența și te ajută să transformi hidratarea sănătoasă într-o rutină pe termen lung.",
+        "Obține o imagine clară a progresului tău prin statistici săptămânale, istoric detaliat și informații precum consumul mediu de apă și ziua în care ai avut cea mai bună performanță. Astfel, îți poți înțelege mai bine obiceiurile și le poți îmbunătăți în timp.",
+        "Mementourile personalizabile te ajută să rămâi pe drumul cel bun pe parcursul întregii zile. Setează-ți propriul program și nu mai uita să bei apă, fie că ești la muncă, acasă sau în deplasare.",
+        "Creată pentru simplitate și eficiență, Water Reminder este perfectă pentru oricine vrea să își îmbunătățească sănătatea, să își crească nivelul de energie și să mențină o hidratare corectă cu efort minim."
+      ],
+      "bottomCtaDescription": "Creată pentru simplitate și eficiență, Water Reminder este perfectă pentru oricine vrea să își îmbunătățească sănătatea, să își crească nivelul de energie și să mențină o hidratare corectă cu efort minim.",
+      "category": "Sanatate si fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Water Reminder",
+        "Hidratare",
+        "Mementouri",
+        "Monitorizarea apei",
+        "Stare de bine"
+      ],
+      "metaTitle": "Water Reminder | mementouri de hidratare pe Android | StoopidCartoons",
+      "metaDescription": "Urmărește consumul zilnic de apă, creează obiceiuri sănătoase și rămâi hidratat.",
+      "featureBullets": [
+        {
+          "title": "Inregistreaza apa in cateva secunde"
+        },
+        {
+          "title": "Pastreaza seriile de hidratare"
+        },
+        {
+          "title": "Foloseste mementouri potrivite pentru ziua ta"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Rămâi hidratat în fiecare zi",
+          "description": "Urmărește apa cu o singură atingere. Rapid și simplu.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Progres pe 7 zile",
+          "description": "Rămâi consecvent zilnic.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Înțelege-ți obiceiurile",
+          "description": "Vezi tendințe și îmbunătățește-te.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-3.png"
+        },
+        {
+          "title": "Disponibil în 11 limbi",
+          "description": "Creat pentru utilizatori din întreaga lume.",
+          "imagePath": "apps/screenshots/water-reminder/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Pentru ce este cel mai potrivit Water Reminder?",
+          "answer": "Urmărește consumul zilnic de apă, creează obiceiuri sănătoase și rămâi hidratat."
+        },
+        {
+          "question": "Pot inregistra rapid apa in Water Reminder?",
+          "answer": "Water Reminder este o aplicație simplă și eficientă de monitorizare a hidratării, creată pentru a te ajuta să îți formezi un obicei zilnic constant de a bea apă. Cu butoane de adăugare rapidă și o interfață intuitivă, înregistrarea consumului de apă durează doar o clipă."
+        },
+        {
+          "question": "Include Water Reminder mementouri si statistici despre hidratare?",
+          "answer": "Obține o imagine clară a progresului tău prin statistici săptămânale, istoric detaliat și informații precum consumul mediu de apă și ziua în care ai avut cea mai bună performanță. Astfel, îți poți înțelege mai bine obiceiurile și le poți îmbunătăți în timp. Mementourile personalizabile te ajută să rămâi pe drumul cel bun pe parcursul întregii zile. Setează-ți propriul program și nu mai uita să bei apă, fie că ești la muncă, acasă sau în deplasare."
+        }
+      ]
+    }
+  }
+}

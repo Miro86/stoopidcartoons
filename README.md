@@ -33,6 +33,3 @@ This project uses **Astro** because it outputs static HTML by default, which is 
 - Dutch (`nl`)
 - Polish (`pl`)
 - Romanian (`ro`)
-
-
-

@@ -227,6 +227,7 @@ export const baseTranslations = {
       linkedin: "LinkedIn",
       x: "X / Twitter",
       instagram: "Instagram",
+      tiktok: "TikTok",
       youtube: "YouTube",
     },
     privacy: {
@@ -321,7 +322,7 @@ export const baseTranslations = {
     tagline: "Android-Apps und Spiele mit starker Persönlichkeit.",
     nav: {
       home: "Start",
-      showcase: "Showcase",
+      showcase: "Katalog",
       privacy: "Datenschutzerklärung",
       terms: "Nutzungsbedingungen",
       contact: "Kontakt",
@@ -330,7 +331,7 @@ export const baseTranslations = {
       homeTitle: "StoopidCartoons — Android-Apps und Spiele",
       homeDescription:
         "StoopidCartoons entwickelt Android-Apps und Spiele mit starker Persönlichkeit, klarem UX und Ideen, die genutzt, gespielt und erinnert werden.",
-      showcaseTitle: "Showcase — StoopidCartoons",
+      showcaseTitle: "Katalog — StoopidCartoons",
       showcaseDescription:
         "Entdecke den wachsenden Katalog von Android-Apps und Spielen von StoopidCartoons.",
       privacyTitle: "Datenschutzerklärung — StoopidCartoons",
@@ -447,6 +448,7 @@ export const baseTranslations = {
       linkedin: "LinkedIn",
       x: "X / Twitter",
       instagram: "Instagram",
+      tiktok: "TikTok",
       youtube: "YouTube",
     },
     privacy: {
@@ -534,7 +536,7 @@ export const baseTranslations = {
     },
     common: {
       backHome: "Zur Startseite",
-      viewShowcase: "Showcase ansehen",
+      viewShowcase: "Zum Katalog",
     },
   },
 
@@ -542,7 +544,7 @@ export const baseTranslations = {
     tagline: "Des apps et jeux Android avec une vraie personnalité.",
     nav: {
       home: "Accueil",
-      showcase: "Showcase",
+      showcase: "Catalogue",
       privacy: "Politique de confidentialité",
       terms: "Conditions d’utilisation",
       contact: "Contact",
@@ -551,7 +553,7 @@ export const baseTranslations = {
       homeTitle: "StoopidCartoons — Applications et jeux Android",
       homeDescription:
         "StoopidCartoons crée des applications et des jeux Android avec une forte personnalité, une UX claire et des idées conçues pour être utilisées, jouées et retenues.",
-      showcaseTitle: "Showcase — StoopidCartoons",
+      showcaseTitle: "Catalogue — StoopidCartoons",
       showcaseDescription:
         "Découvrez le catalogue croissant d’applications et de jeux Android de StoopidCartoons.",
       privacyTitle: "Politique de confidentialité — StoopidCartoons",
@@ -668,6 +670,7 @@ export const baseTranslations = {
       linkedin: "LinkedIn",
       x: "X / Twitter",
       instagram: "Instagram",
+      tiktok: "TikTok",
       youtube: "YouTube",
     },
     privacy: {
@@ -755,7 +758,7 @@ export const baseTranslations = {
     },
     common: {
       backHome: "Retour à l’accueil",
-      viewShowcase: "Voir le showcase",
+      viewShowcase: "Voir le catalogue",
     },
   },
 
@@ -763,7 +766,7 @@ export const baseTranslations = {
     tagline: "App e giochi Android con una forte personalità.",
     nav: {
       home: "Home",
-      showcase: "Showcase",
+      showcase: "Catalogo",
       privacy: "Privacy Policy",
       terms: "Termini di servizio",
       contact: "Contatti",
@@ -772,7 +775,7 @@ export const baseTranslations = {
       homeTitle: "StoopidCartoons — App e giochi Android",
       homeDescription:
         "StoopidCartoons crea app e giochi Android con forte personalità, UX pulita e idee pensate per essere usate, giocate e ricordate.",
-      showcaseTitle: "Showcase — StoopidCartoons",
+      showcaseTitle: "Catalogo — StoopidCartoons",
       showcaseDescription:
         "Esplora il catalogo in crescita di app e giochi Android di StoopidCartoons.",
       privacyTitle: "Privacy Policy — StoopidCartoons",
@@ -889,6 +892,7 @@ export const baseTranslations = {
       linkedin: "LinkedIn",
       x: "X / Twitter",
       instagram: "Instagram",
+      tiktok: "TikTok",
       youtube: "YouTube",
     },
     privacy: {
@@ -976,7 +980,7 @@ export const baseTranslations = {
     },
     common: {
       backHome: "Torna alla home",
-      viewShowcase: "Vai allo showcase",
+      viewShowcase: "Vai al catalogo",
     },
   },
 
@@ -984,7 +988,7 @@ export const baseTranslations = {
     tagline: "Apps y juegos para Android con mucha personalidad.",
     nav: {
       home: "Inicio",
-      showcase: "Showcase",
+      showcase: "Catalogo",
       privacy: "Política de privacidad",
       terms: "Términos del servicio",
       contact: "Contacto",
@@ -993,7 +997,7 @@ export const baseTranslations = {
       homeTitle: "StoopidCartoons — Apps y juegos para Android",
       homeDescription:
         "StoopidCartoons crea apps y juegos para Android con personalidad, UX limpia e ideas pensadas para usarse, jugarse y recordarse.",
-      showcaseTitle: "Showcase — StoopidCartoons",
+      showcaseTitle: "Catalogo — StoopidCartoons",
       showcaseDescription:
         "Explora el catálogo en crecimiento de apps y juegos para Android de StoopidCartoons.",
       privacyTitle: "Política de privacidad — StoopidCartoons",
@@ -1110,6 +1114,7 @@ export const baseTranslations = {
       linkedin: "LinkedIn",
       x: "X / Twitter",
       instagram: "Instagram",
+      tiktok: "TikTok",
       youtube: "YouTube",
     },
     privacy: {
@@ -1197,7 +1202,7 @@ export const baseTranslations = {
     },
     common: {
       backHome: "Volver al inicio",
-      viewShowcase: "Ver showcase",
+      viewShowcase: "Ver catalogo",
     },
   },
 
@@ -1205,7 +1210,7 @@ export const baseTranslations = {
     tagline: "Apps e jogos Android com personalidade forte.",
     nav: {
       home: "Início",
-      showcase: "Showcase",
+      showcase: "Catalogo",
       privacy: "Política de privacidade",
       terms: "Termos de serviço",
       contact: "Contacto",
@@ -1214,7 +1219,7 @@ export const baseTranslations = {
       homeTitle: "StoopidCartoons — Apps e jogos Android",
       homeDescription:
         "A StoopidCartoons cria apps e jogos Android com personalidade forte, UX limpa e ideias feitas para serem usadas, jogadas e lembradas.",
-      showcaseTitle: "Showcase — StoopidCartoons",
+      showcaseTitle: "Catalogo — StoopidCartoons",
       showcaseDescription:
         "Explora o catálogo em crescimento de apps e jogos Android da StoopidCartoons.",
       privacyTitle: "Política de privacidade — StoopidCartoons",
@@ -1331,6 +1336,7 @@ export const baseTranslations = {
       linkedin: "LinkedIn",
       x: "X / Twitter",
       instagram: "Instagram",
+      tiktok: "TikTok",
       youtube: "YouTube",
     },
     privacy: {
@@ -1418,7 +1424,7 @@ export const baseTranslations = {
     },
     common: {
       backHome: "Voltar ao início",
-      viewShowcase: "Ver showcase",
+      viewShowcase: "Ver catalogo",
     },
   },
 
@@ -1426,7 +1432,7 @@ export const baseTranslations = {
     tagline: "Андроид апликације и игре са јаким карактером.",
     nav: {
       home: "Почетна",
-      showcase: "Showcase",
+      showcase: "Каталог",
       privacy: "Политика приватности",
       terms: "Услови коришћења",
       contact: "Контакт",
@@ -1435,7 +1441,7 @@ export const baseTranslations = {
       homeTitle: "StoopidCartoons — Андроид апликације и игре",
       homeDescription:
         "StoopidCartoons прави Андроид апликације и игре са карактером, чистим UX-ом и идејама које су направљене да се користе, играју и памте.",
-      showcaseTitle: "Showcase — StoopidCartoons",
+      showcaseTitle: "Каталог — StoopidCartoons",
       showcaseDescription:
         "Истражи растући каталог Android апликација и игара које прави StoopidCartoons.",
       privacyTitle: "Политика приватности — StoopidCartoons",
@@ -1552,6 +1558,7 @@ export const baseTranslations = {
       linkedin: "LinkedIn",
       x: "X / Twitter",
       instagram: "Instagram",
+      tiktok: "TikTok",
       youtube: "YouTube",
     },
     privacy: {
@@ -1639,7 +1646,7 @@ export const baseTranslations = {
     },
     common: {
       backHome: "Назад на почетну",
-      viewShowcase: "Погледај showcase",
+      viewShowcase: "Погледај каталог",
     },
   },
 
@@ -1647,7 +1654,7 @@ export const baseTranslations = {
     tagline: "Android aplikacije i igre sa snažnim karakterom.",
     nav: {
       home: "Početna",
-      showcase: "Showcase",
+      showcase: "Katalog",
       privacy: "Pravila privatnosti",
       terms: "Uvjeti korištenja",
       contact: "Kontakt",
@@ -1656,7 +1663,7 @@ export const baseTranslations = {
       homeTitle: "StoopidCartoons — Android aplikacije i igre",
       homeDescription:
         "StoopidCartoons izrađuje Android aplikacije i igre sa snažnim karakterom, čistim UX-om i idejama koje su stvorene da se koriste, igraju i pamte.",
-      showcaseTitle: "Showcase — StoopidCartoons",
+      showcaseTitle: "Katalog — StoopidCartoons",
       showcaseDescription:
         "Istraži rastući katalog Android aplikacija i igara koje izrađuje StoopidCartoons.",
       privacyTitle: "Pravila privatnosti — StoopidCartoons",
@@ -1773,6 +1780,7 @@ export const baseTranslations = {
       linkedin: "LinkedIn",
       x: "X / Twitter",
       instagram: "Instagram",
+      tiktok: "TikTok",
       youtube: "YouTube",
     },
     privacy: {
@@ -1860,7 +1868,7 @@ export const baseTranslations = {
     },
     common: {
       backHome: "Natrag na početnu",
-      viewShowcase: "Pogledaj showcase",
+      viewShowcase: "Pogledaj katalog",
     },
   },
 
@@ -1868,7 +1876,7 @@ export const baseTranslations = {
     tagline: "Android-apps en games met een sterke persoonlijkheid.",
     nav: {
       home: "Home",
-      showcase: "Showcase",
+      showcase: "Catalogus",
       privacy: "Privacybeleid",
       terms: "Servicevoorwaarden",
       contact: "Contact",
@@ -1877,7 +1885,7 @@ export const baseTranslations = {
       homeTitle: "StoopidCartoons — Android-apps en games",
       homeDescription:
         "StoopidCartoons maakt Android-apps en games met een sterke persoonlijkheid, een heldere UX en ideeën die gemaakt zijn om gebruikt, gespeeld en onthouden te worden.",
-      showcaseTitle: "Showcase — StoopidCartoons",
+      showcaseTitle: "Catalogus — StoopidCartoons",
       showcaseDescription:
         "Ontdek de groeiende catalogus van Android-apps en games van StoopidCartoons.",
       privacyTitle: "Privacybeleid — StoopidCartoons",
@@ -1994,6 +2002,7 @@ export const baseTranslations = {
       linkedin: "LinkedIn",
       x: "X / Twitter",
       instagram: "Instagram",
+      tiktok: "TikTok",
       youtube: "YouTube",
     },
     privacy: {
@@ -2081,7 +2090,7 @@ export const baseTranslations = {
     },
     common: {
       backHome: "Terug naar home",
-      viewShowcase: "Bekijk showcase",
+      viewShowcase: "Bekijk catalogus",
     },
   },
 
@@ -2089,7 +2098,7 @@ export const baseTranslations = {
     tagline: "Aplikacje i gry na Androida z wyrazistym charakterem.",
     nav: {
       home: "Strona główna",
-      showcase: "Showcase",
+      showcase: "Katalog",
       privacy: "Polityka prywatności",
       terms: "Warunki korzystania",
       contact: "Kontakt",
@@ -2098,7 +2107,7 @@ export const baseTranslations = {
       homeTitle: "StoopidCartoons — Aplikacje i gry na Androida",
       homeDescription:
         "StoopidCartoons tworzy aplikacje i gry na Androida z charakterem, przejrzystym UX i pomysłami stworzonymi po to, by z nich korzystać, grać i je zapamiętać.",
-      showcaseTitle: "Showcase — StoopidCartoons",
+      showcaseTitle: "Katalog — StoopidCartoons",
       showcaseDescription:
         "Poznaj rosnący katalog aplikacji i gier na Androida od StoopidCartoons.",
       privacyTitle: "Polityka prywatności — StoopidCartoons",
@@ -2215,6 +2224,7 @@ export const baseTranslations = {
       linkedin: "LinkedIn",
       x: "X / Twitter",
       instagram: "Instagram",
+      tiktok: "TikTok",
       youtube: "YouTube",
     },
     privacy: {
@@ -2302,7 +2312,7 @@ export const baseTranslations = {
     },
     common: {
       backHome: "Wróć do strony głównej",
-      viewShowcase: "Zobacz showcase",
+      viewShowcase: "Zobacz katalog",
     },
   },
 
@@ -2310,7 +2320,7 @@ export const baseTranslations = {
     tagline: "Aplicații și jocuri Android cu personalitate puternică.",
     nav: {
       home: "Acasă",
-      showcase: "Showcase",
+      showcase: "Catalog",
       privacy: "Politica de confidențialitate",
       terms: "Termeni de utilizare",
       contact: "Contact",
@@ -2319,7 +2329,7 @@ export const baseTranslations = {
       homeTitle: "StoopidCartoons — Aplicații și jocuri Android",
       homeDescription:
         "StoopidCartoons creează aplicații și jocuri Android cu personalitate puternică, UX curat și idei gândite pentru a fi folosite, jucate și ținute minte.",
-      showcaseTitle: "Showcase — StoopidCartoons",
+      showcaseTitle: "Catalog — StoopidCartoons",
       showcaseDescription:
         "Explorează catalogul în creștere de aplicații și jocuri Android al StoopidCartoons.",
       privacyTitle: "Politica de confidențialitate — StoopidCartoons",
@@ -2436,6 +2446,7 @@ export const baseTranslations = {
       linkedin: "LinkedIn",
       x: "X / Twitter",
       instagram: "Instagram",
+      tiktok: "TikTok",
       youtube: "YouTube",
     },
     privacy: {
@@ -2523,7 +2534,7 @@ export const baseTranslations = {
     },
     common: {
       backHome: "Înapoi acasă",
-      viewShowcase: "Vezi showcase-ul",
+      viewShowcase: "Vezi catalogul",
     },
   },
 } satisfies Record<Locale, TranslationShape>;

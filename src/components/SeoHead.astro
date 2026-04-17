@@ -11,6 +11,7 @@ interface Props {
   slug?: PagePath;
   imagePath?: string;
   noindex?: boolean;
+  includeOrganizationSchema?: boolean;
 }
 
 const {
@@ -20,14 +21,18 @@ const {
   slug = "",
   imagePath = siteConfig.socialImagePath,
   noindex = false,
+  includeOrganizationSchema = true,
 } = Astro.props;
 
 const canonical = buildAbsoluteUrl(buildPath(lang, slug));
 const imageUrl = buildAbsoluteUrl(imagePath);
+const organizationId = buildAbsoluteUrl('/#organization');
+const websiteId = buildAbsoluteUrl('/#website');
 
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": organizationId,
   name: siteConfig.companyName,
   url: siteConfig.siteUrl,
   email: siteConfig.email,
@@ -37,6 +42,7 @@ const organizationSchema = {
     siteConfig.facebookUrl,
     siteConfig.xUrl,
     siteConfig.instagramUrl,
+    siteConfig.tiktokUrl,
     siteConfig.youtubeUrl,
   ],
 };
@@ -44,9 +50,13 @@ const organizationSchema = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
+  "@id": websiteId,
   name: siteConfig.companyName,
   url: siteConfig.siteUrl,
   inLanguage: lang,
+  publisher: {
+    "@id": organizationId,
+  },
 };
 
 const breadcrumbSchema = {
@@ -120,10 +130,14 @@ const breadcrumbSchema = {
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={imageUrl} />
 
-<script
-  type="application/ld+json"
-  set:html={JSON.stringify(organizationSchema)}
-/>
+{
+  includeOrganizationSchema && (
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify(organizationSchema)}
+    />
+  )
+}
 <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
 <script
   type="application/ld+json"

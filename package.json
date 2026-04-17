@@ -7,7 +7,8 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "manager": "node app-details-manager/server.mjs"
   },
   "dependencies": {
     "astro": "^6.0.5",

@@ -1,0 +1,866 @@
+{
+  "slug": "habit-tracker",
+  "sortOrder": 2,
+  "kind": "app",
+  "featured": true,
+  "accent": "orange",
+  "icon": "apps/icons/HabitTracker.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.habittracker",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "ProductivityApplication",
+  "relatedSlugs": [
+    "water-reminder",
+    "hiit-timer",
+    "big-ben"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Habit Tracker",
+      "summary": "Build better routines with Habit Tracker, a flexible habit tracker with reminders, streaks, daily check-ins, and clear progress statistics.",
+      "longDescription": [
+        "Habit Tracker is a simple and flexible habit tracker app for building better daily routines, staying consistent, and reaching personal goals. Whether you want to read more, exercise, drink water, meditate, study, or improve productivity, Habit Tracker helps you turn intentions into habits you can keep.",
+        "Create habits that fit your lifestyle with multiple tracking types and flexible schedules. Track habits as done or not done, numeric goals, or minutes-based routines. Set habits for every day, specific days, every X days, or a target number of times per week.",
+        "Stay consistent with day by day check-ins, habit reminders, and a clean timeline that makes progress easy to follow. Habit Tracker helps you build streaks, review past days, and stay accountable without making the process complicated.",
+        "Understand your progress with detailed habit statistics, including current streak, longest streak, weekly completion, monthly completion, consistency score, total check-ins, a 7 day trend, and a calendar heatmap. These insights help you see what is working and where you can improve.",
+        "Designed for speed, clarity, and focus, Habit Tracker gives you an easy way to organize habits by title, description, category, and color. With dark mode, language support, and smart reminders, Habit Tracker is a practical Android app for anyone who wants to build lasting habits and stronger routines."
+      ],
+      "bottomCtaDescription": "Designed for speed, clarity, and focus, Habit Tracker gives you an easy way to organize habits by title, description, category, and color. With dark mode, language support, and smart reminders, Habit Tracker is a practical Android app for anyone who wants to build lasting habits and stronger routines.",
+      "category": "Productivity",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Habit Tracker",
+        "Routines",
+        "Streaks",
+        "Reminders",
+        "Productivity"
+      ],
+      "metaTitle": "Habit Tracker | habit tracking and streaks for Android | StoopidCartoons",
+      "metaDescription": "Build better routines with Habit Tracker, a flexible habit tracker with reminders, streaks, daily check-ins, and clear progress statistics.",
+      "featureBullets": [
+        {
+          "title": "Track habits your way"
+        },
+        {
+          "title": "Keep streaks moving every day"
+        },
+        {
+          "title": "See what is actually improving"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Build better habits",
+          "description": "Track your daily progress with ease.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Add new habit in seconds",
+          "description": "Customize every habit your way.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Stay consistent",
+          "description": "Never break your streak.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-3.png"
+        },
+        {
+          "title": "See your progress",
+          "description": "Clear stats that keep you motivated.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-4.png"
+        },
+        {
+          "title": "Made for you",
+          "description": "Support for 11 languages and dark mode.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is Habit Tracker best for?",
+          "answer": "Build better routines with Habit Tracker, a flexible habit tracker with reminders, streaks, daily check-ins, and clear progress statistics."
+        },
+        {
+          "question": "Can Habit Tracker track different habit types?",
+          "answer": "Create habits that fit your lifestyle with multiple tracking types and flexible schedules. Track habits as done or not done, numeric goals, or minutes-based routines. Set habits for every day, specific days, every X days, or a target number of times per week."
+        },
+        {
+          "question": "Does Habit Tracker show streaks and progress stats?",
+          "answer": "Stay consistent with day by day check-ins, habit reminders, and a clean timeline that makes progress easy to follow. Habit Tracker helps you build streaks, review past days, and stay accountable without making the process complicated. Understand your progress with detailed habit statistics, including current streak, longest streak, weekly completion, monthly completion, consistency score, total check-ins, a 7 day trend, and a calendar heatmap. These insights help you see what is working and where you can improve."
+        }
+      ]
+    },
+    "de": {
+      "name": "Habit Tracker",
+      "summary": "Baue bessere Routinen mit Habit Tracker auf, einem flexiblen Habit Tracker mit Erinnerungen, Streaks, täglichen Check-ins und klaren Fortschrittsstatistiken.",
+      "longDescription": [
+        "Habit Tracker ist eine einfache und flexible Habit-Tracker-App, mit der du bessere tägliche Routinen aufbauen, konsequent bleiben und persönliche Ziele erreichen kannst. Egal ob du mehr lesen, trainieren, Wasser trinken, meditieren, lernen oder produktiver sein möchtest – Habit Tracker hilft dir dabei, gute Vorsätze in Gewohnheiten zu verwandeln, die du wirklich beibehalten kannst.",
+        "Erstelle Gewohnheiten, die zu deinem Alltag passen, mit mehreren Tracking-Typen und flexiblen Zeitplänen. Verfolge Gewohnheiten als erledigt oder nicht erledigt, als numerische Ziele oder als minutenbasierte Routinen. Plane Gewohnheiten für jeden Tag, bestimmte Tage, alle X Tage oder eine Zielanzahl pro Woche.",
+        "Bleibe konsequent mit täglichen Check-ins, Habit-Erinnerungen und einer klaren Zeitleiste, die deinen Fortschritt leicht nachvollziehbar macht. Habit Tracker hilft dir dabei, Streaks aufzubauen, vergangene Tage zu überprüfen und verantwortlich dranzubleiben, ohne den Prozess unnötig kompliziert zu machen.",
+        "Verstehe deinen Fortschritt mit detaillierten Habit-Statistiken wie aktueller Streak, längster Streak, wöchentlicher Erfüllung, monatlicher Erfüllung, Beständigkeitswert, Gesamtzahl der Check-ins, 7-Tage-Trend und Kalender-Heatmap. Diese Einblicke zeigen dir, was gut funktioniert und wo du dich verbessern kannst.",
+        "Habit Tracker wurde für Schnelligkeit, Übersicht und Fokus entwickelt und bietet dir eine einfache Möglichkeit, Gewohnheiten nach Titel, Beschreibung, Kategorie und Farbe zu organisieren. Mit Dark Mode, Sprachunterstützung und smarten Erinnerungen ist Habit Tracker eine praktische Android-App für alle, die dauerhafte Gewohnheiten und stärkere Routinen aufbauen möchten."
+      ],
+      "bottomCtaDescription": "Habit Tracker wurde für Schnelligkeit, Übersicht und Fokus entwickelt und bietet dir eine einfache Möglichkeit, Gewohnheiten nach Titel, Beschreibung, Kategorie und Farbe zu organisieren. Mit Dark Mode, Sprachunterstützung und smarten Erinnerungen ist Habit Tracker eine praktische Android-App für alle, die dauerhafte Gewohnheiten und stärkere Routinen aufbauen möchten.",
+      "category": "Produktivitaet",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Habit Tracker",
+        "Routinen",
+        "Serien",
+        "Erinnerungen",
+        "Produktivitaet"
+      ],
+      "metaTitle": "Habit Tracker | Habit-Tracking und Serien fuer Android | StoopidCartoons",
+      "metaDescription": "Baue bessere Routinen mit Habit Tracker auf, einem flexiblen Habit Tracker mit Erinnerungen, Streaks, täglichen Check-ins und klaren Fortschrittsstatistiken.",
+      "featureBullets": [
+        {
+          "title": "Tracke Gewohnheiten auf deine Weise"
+        },
+        {
+          "title": "Halte Serien taeglich am Laufen"
+        },
+        {
+          "title": "Sieh, was sich wirklich verbessert"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Baue bessere Gewohnheiten auf",
+          "description": "Verfolge deinen täglichen Fortschritt ganz einfach.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Füge neue Gewohnheiten in Sekunden hinzu",
+          "description": "Passe jede Gewohnheit individuell an.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Bleib konsequent",
+          "description": "Unterbrich deine Serie nie.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Sieh deinen Fortschritt",
+          "description": "Klare Statistiken, die dich motivieren.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-4.png"
+        },
+        {
+          "title": "Für dich gemacht",
+          "description": "Unterstützung für 11 Sprachen und Dunkelmodus.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wofuer eignet sich Habit Tracker am besten?",
+          "answer": "Baue bessere Routinen mit Habit Tracker auf, einem flexiblen Habit Tracker mit Erinnerungen, Streaks, täglichen Check-ins und klaren Fortschrittsstatistiken."
+        },
+        {
+          "question": "Kann Habit Tracker verschiedene Habit-Typen verfolgen?",
+          "answer": "Erstelle Gewohnheiten, die zu deinem Alltag passen, mit mehreren Tracking-Typen und flexiblen Zeitplänen. Verfolge Gewohnheiten als erledigt oder nicht erledigt, als numerische Ziele oder als minutenbasierte Routinen. Plane Gewohnheiten für jeden Tag, bestimmte Tage, alle X Tage oder eine Zielanzahl pro Woche."
+        },
+        {
+          "question": "Zeigt Habit Tracker Serien und Fortschrittsstatistiken an?",
+          "answer": "Bleibe konsequent mit täglichen Check-ins, Habit-Erinnerungen und einer klaren Zeitleiste, die deinen Fortschritt leicht nachvollziehbar macht. Habit Tracker hilft dir dabei, Streaks aufzubauen, vergangene Tage zu überprüfen und verantwortlich dranzubleiben, ohne den Prozess unnötig kompliziert zu machen. Verstehe deinen Fortschritt mit detaillierten Habit-Statistiken wie aktueller Streak, längster Streak, wöchentlicher Erfüllung, monatlicher Erfüllung, Beständigkeitswert, Gesamtzahl der Check-ins, 7-Tage-Trend und Kalender-Heatmap. Diese Einblicke zeigen dir, was gut funktioniert und wo du dich verbessern kannst."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Habit Tracker",
+      "summary": "Créez de meilleures routines avec Habit Tracker, un suivi des habitudes flexible avec rappels, séries, validations quotidiennes et statistiques claires.",
+      "longDescription": [
+        "Habit Tracker est une application simple et flexible de suivi des habitudes pour construire de meilleures routines quotidiennes, rester régulier et atteindre des objectifs personnels. Que vous souhaitiez lire davantage, faire du sport, boire plus d eau, méditer, étudier ou améliorer votre productivité, Habit Tracker vous aide à transformer vos intentions en habitudes durables.",
+        "Créez des habitudes adaptées à votre mode de vie grâce à plusieurs types de suivi et à une planification flexible. Suivez vos habitudes comme faites ou non faites, sous forme de valeurs numériques ou de routines basées sur le temps en minutes. Planifiez vos habitudes chaque jour, certains jours, tous les X jours ou un nombre cible de fois par semaine.",
+        "Restez constant grâce aux validations quotidiennes, aux rappels et à une chronologie claire qui rend votre progression facile à suivre. Habit Tracker vous aide à construire des séries, revoir les jours passés et garder une vraie régularité sans rendre le processus compliqué.",
+        "Analysez vos progrès avec des statistiques détaillées, comme la série actuelle, la meilleure série, la progression hebdomadaire, la progression mensuelle, le score de régularité, le total des validations, la tendance sur 7 jours et la carte de chaleur du calendrier. Ces données vous montrent ce qui fonctionne et les points à améliorer.",
+        "Conçu pour être rapide, clair et centré sur l essentiel, Habit Tracker vous permet d organiser facilement chaque habitude par titre, description, catégorie et couleur. Avec le mode sombre, la prise en charge de plusieurs langues et des rappels intelligents, Habit Tracker est une application Android pratique pour créer des habitudes solides et des routines durables."
+      ],
+      "bottomCtaDescription": "Conçu pour être rapide, clair et centré sur l essentiel, Habit Tracker vous permet d organiser facilement chaque habitude par titre, description, catégorie et couleur. Avec le mode sombre, la prise en charge de plusieurs langues et des rappels intelligents, Habit Tracker est une application Android pratique pour créer des habitudes solides et des routines durables.",
+      "category": "Productivite",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Habit Tracker",
+        "Routines",
+        "Series",
+        "Rappels",
+        "Productivite"
+      ],
+      "metaTitle": "Habit Tracker | suivi d'habitudes et series sur Android | StoopidCartoons",
+      "metaDescription": "Créez de meilleures routines avec Habit Tracker, un suivi des habitudes flexible avec rappels, séries, validations quotidiennes et statistiques claires.",
+      "featureBullets": [
+        {
+          "title": "Suis tes habitudes a ta facon"
+        },
+        {
+          "title": "Fais avancer tes series chaque jour"
+        },
+        {
+          "title": "Vois ce qui s’amelioore vraiment"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Créez de meilleures habitudes",
+          "description": "Suivez facilement vos progrès quotidiens.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Ajoutez une habitude en quelques secondes",
+          "description": "Personnalisez chaque habitude à votre façon.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Restez constant",
+          "description": "Ne cassez jamais votre série.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Visualisez vos progrès",
+          "description": "Des statistiques claires pour rester motivé.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-4.png"
+        },
+        {
+          "title": "Conçu pour vous",
+          "description": "Prise en charge de 11 langues et mode sombre.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Pour quoi Habit Tracker est-il le plus utile ?",
+          "answer": "Créez de meilleures routines avec Habit Tracker, un suivi des habitudes flexible avec rappels, séries, validations quotidiennes et statistiques claires."
+        },
+        {
+          "question": "Est-ce que Habit Tracker peut suivre plusieurs types d’habitudes ?",
+          "answer": "Créez des habitudes adaptées à votre mode de vie grâce à plusieurs types de suivi et à une planification flexible. Suivez vos habitudes comme faites ou non faites, sous forme de valeurs numériques ou de routines basées sur le temps en minutes. Planifiez vos habitudes chaque jour, certains jours, tous les X jours ou un nombre cible de fois par semaine."
+        },
+        {
+          "question": "Est-ce que Habit Tracker affiche les series et les stats de progression ?",
+          "answer": "Restez constant grâce aux validations quotidiennes, aux rappels et à une chronologie claire qui rend votre progression facile à suivre. Habit Tracker vous aide à construire des séries, revoir les jours passés et garder une vraie régularité sans rendre le processus compliqué. Analysez vos progrès avec des statistiques détaillées, comme la série actuelle, la meilleure série, la progression hebdomadaire, la progression mensuelle, le score de régularité, le total des validations, la tendance sur 7 jours et la carte de chaleur du calendrier. Ces données vous montrent ce qui fonctionne et les points à améliorer."
+        }
+      ]
+    },
+    "it": {
+      "name": "Habit Tracker",
+      "summary": "Crea routine migliori con Habit Tracker, una app flessibile per le abitudini con promemoria, serie, check-in giornalieri e statistiche chiare sui progressi.",
+      "longDescription": [
+        "Habit Tracker è una app semplice e flessibile per monitorare le abitudini, costruire routine quotidiane migliori, restare costanti e raggiungere obiettivi personali. Che tu voglia leggere di più, allenarti, bere più acqua, meditare, studiare o migliorare la produttività, Habit Tracker ti aiuta a trasformare le intenzioni in abitudini che puoi davvero mantenere.",
+        "Crea abitudini adatte al tuo stile di vita con più tipi di monitoraggio e programmi flessibili. Puoi seguire le abitudini come completate o non completate, come obiettivi numerici oppure come routine basate sui minuti. Imposta abitudini per ogni giorno, giorni specifici, ogni X giorni o un numero target di volte a settimana.",
+        "Rimani costante con check-in giornalieri, promemoria per le abitudini e una timeline pulita che rende facile seguire i progressi. Habit Tracker ti aiuta a costruire serie, rivedere i giorni passati e restare responsabile senza rendere tutto complicato.",
+        "Comprendi i tuoi progressi con statistiche dettagliate come serie attuale, serie più lunga, completamento settimanale, completamento mensile, punteggio di costanza, totale dei check-in, trend di 7 giorni e heatmap del calendario. Questi dati ti aiutano a capire cosa funziona e dove puoi migliorare.",
+        "Progettato per essere veloce, chiaro e focalizzato, Habit Tracker ti offre un modo semplice per organizzare le abitudini per titolo, descrizione, categoria e colore. Con modalità scura, supporto lingua e promemoria intelligenti, Habit Tracker è una pratica app Android per chi vuole costruire abitudini durature e routine più forti."
+      ],
+      "bottomCtaDescription": "Progettato per essere veloce, chiaro e focalizzato, Habit Tracker ti offre un modo semplice per organizzare le abitudini per titolo, descrizione, categoria e colore. Con modalità scura, supporto lingua e promemoria intelligenti, Habit Tracker è una pratica app Android per chi vuole costruire abitudini durature e routine più forti.",
+      "category": "Produttivita",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Habit Tracker",
+        "Routine",
+        "Serie",
+        "Promemoria",
+        "Produttivita"
+      ],
+      "metaTitle": "Habit Tracker | tracciamento abitudini e serie su Android | StoopidCartoons",
+      "metaDescription": "Crea routine migliori con Habit Tracker, una app flessibile per le abitudini con promemoria, serie, check-in giornalieri e statistiche chiare sui progressi.",
+      "featureBullets": [
+        {
+          "title": "Traccia le abitudini a modo tuo"
+        },
+        {
+          "title": "Mantieni vive le serie ogni giorno"
+        },
+        {
+          "title": "Vedi cosa sta davvero migliorando"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Costruisci abitudini migliori",
+          "description": "Monitora facilmente i tuoi progressi quotidiani.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Aggiungi una nuova abitudine in pochi secondi",
+          "description": "Personalizza ogni abitudine a modo tuo.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Rimani costante",
+          "description": "Non interrompere mai la tua serie.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Visualizza i tuoi progressi",
+          "description": "Statistiche chiare che ti motivano.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-4.png"
+        },
+        {
+          "title": "Pensato per te",
+          "description": "Supporto per 11 lingue e modalità scura.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Per cosa e piu utile Habit Tracker?",
+          "answer": "Crea routine migliori con Habit Tracker, una app flessibile per le abitudini con promemoria, serie, check-in giornalieri e statistiche chiare sui progressi."
+        },
+        {
+          "question": "Habit Tracker puo tracciare diversi tipi di abitudini?",
+          "answer": "Crea abitudini adatte al tuo stile di vita con più tipi di monitoraggio e programmi flessibili. Puoi seguire le abitudini come completate o non completate, come obiettivi numerici oppure come routine basate sui minuti. Imposta abitudini per ogni giorno, giorni specifici, ogni X giorni o un numero target di volte a settimana."
+        },
+        {
+          "question": "Habit Tracker mostra serie e statistiche dei progressi?",
+          "answer": "Rimani costante con check-in giornalieri, promemoria per le abitudini e una timeline pulita che rende facile seguire i progressi. Habit Tracker ti aiuta a costruire serie, rivedere i giorni passati e restare responsabile senza rendere tutto complicato. Comprendi i tuoi progressi con statistiche dettagliate come serie attuale, serie più lunga, completamento settimanale, completamento mensile, punteggio di costanza, totale dei check-in, trend di 7 giorni e heatmap del calendario. Questi dati ti aiutano a capire cosa funziona e dove puoi migliorare."
+        }
+      ]
+    },
+    "es": {
+      "name": "Habit Tracker",
+      "summary": "Crea mejores rutinas con Habit Tracker, un rastreador de hábitos flexible con recordatorios, rachas, check-ins diarios y estadísticas claras de progreso.",
+      "longDescription": [
+        "Habit Tracker es una aplicación simple y flexible para seguir hábitos, crear mejores rutinas diarias, mantener la constancia y alcanzar metas personales. Ya sea que quieras leer más, hacer ejercicio, beber agua, meditar, estudiar o mejorar tu productividad, Habit Tracker te ayuda a convertir tus intenciones en hábitos que realmente puedes mantener.",
+        "Crea hábitos que se adapten a tu estilo de vida con varios tipos de seguimiento y horarios flexibles. Puedes registrar hábitos como hecho o no hecho, metas numéricas o rutinas basadas en minutos. Configura hábitos para todos los días, días específicos, cada X días o un número objetivo de veces por semana.",
+        "Mantén la constancia con check-ins diarios, recordatorios de hábitos y una línea de tiempo limpia que facilita seguir tu progreso. Habit Tracker te ayuda a crear rachas, revisar días anteriores y mantenerte responsable sin complicar el proceso.",
+        "Comprende tu progreso con estadísticas detalladas, como racha actual, racha más larga, progreso semanal, progreso mensual, puntuación de constancia, total de check-ins, tendencia de 7 días y mapa de calor del calendario. Estas métricas te ayudan a ver qué funciona y dónde puedes mejorar.",
+        "Diseñado para ser rápido, claro y enfocado, Habit Tracker te ofrece una forma sencilla de organizar hábitos por título, descripción, categoría y color. Con modo oscuro, compatibilidad con varios idiomas y recordatorios inteligentes, Habit Tracker es una app práctica para Android para quienes quieren construir hábitos duraderos y rutinas más sólidas."
+      ],
+      "bottomCtaDescription": "Diseñado para ser rápido, claro y enfocado, Habit Tracker te ofrece una forma sencilla de organizar hábitos por título, descripción, categoría y color. Con modo oscuro, compatibilidad con varios idiomas y recordatorios inteligentes, Habit Tracker es una app práctica para Android para quienes quieren construir hábitos duraderos y rutinas más sólidas.",
+      "category": "Productividad",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Habit Tracker",
+        "Rutinas",
+        "Rachas",
+        "Recordatorios",
+        "Productividad"
+      ],
+      "metaTitle": "Habit Tracker | seguimiento de habitos y rachas en Android | StoopidCartoons",
+      "metaDescription": "Crea mejores rutinas con Habit Tracker, un rastreador de hábitos flexible con recordatorios, rachas, check-ins diarios y estadísticas claras de progreso.",
+      "featureBullets": [
+        {
+          "title": "Sigue tus habitos a tu manera"
+        },
+        {
+          "title": "Mantiene tus rachas cada dia"
+        },
+        {
+          "title": "Ve que esta mejorando de verdad"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Crea mejores hábitos",
+          "description": "Sigue tu progreso diario fácilmente.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Añade un nuevo hábito en segundos",
+          "description": "Personaliza cada hábito a tu manera.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Mantente constante",
+          "description": "Nunca rompas tu racha.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Mira tu progreso",
+          "description": "Estadísticas claras que te motivan.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-4.png"
+        },
+        {
+          "title": "Hecho para ti",
+          "description": "Compatible con 11 idiomas y modo oscuro.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Para que sirve mejor Habit Tracker?",
+          "answer": "Crea mejores rutinas con Habit Tracker, un rastreador de hábitos flexible con recordatorios, rachas, check-ins diarios y estadísticas claras de progreso."
+        },
+        {
+          "question": "Puede Habit Tracker seguir distintos tipos de habitos?",
+          "answer": "Crea hábitos que se adapten a tu estilo de vida con varios tipos de seguimiento y horarios flexibles. Puedes registrar hábitos como hecho o no hecho, metas numéricas o rutinas basadas en minutos. Configura hábitos para todos los días, días específicos, cada X días o un número objetivo de veces por semana."
+        },
+        {
+          "question": "Muestra Habit Tracker rachas y estadisticas de progreso?",
+          "answer": "Mantén la constancia con check-ins diarios, recordatorios de hábitos y una línea de tiempo limpia que facilita seguir tu progreso. Habit Tracker te ayuda a crear rachas, revisar días anteriores y mantenerte responsable sin complicar el proceso. Comprende tu progreso con estadísticas detalladas, como racha actual, racha más larga, progreso semanal, progreso mensual, puntuación de constancia, total de check-ins, tendencia de 7 días y mapa de calor del calendario. Estas métricas te ayudan a ver qué funciona y dónde puedes mejorar."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Habit Tracker",
+      "summary": "Crie rotinas melhores com Habit Tracker, uma app flexível de hábitos com lembretes, sequências, check-ins diários e estatísticas claras de progresso.",
+      "longDescription": [
+        "Habit Tracker é uma aplicação simples e flexível para acompanhar hábitos, criar rotinas diárias melhores, manter consistência e alcançar objetivos pessoais. Quer você queira ler mais, treinar, beber mais água, meditar, estudar ou melhorar a produtividade, Habit Tracker ajuda a transformar intenções em hábitos que você realmente consegue manter.",
+        "Crie hábitos que combinem com o seu estilo de vida com vários tipos de acompanhamento e agendas flexíveis. Você pode acompanhar hábitos como concluído ou não concluído, como metas numéricas ou como rotinas baseadas em minutos. Configure hábitos para todos os dias, dias específicos, a cada X dias ou um número alvo de vezes por semana.",
+        "Mantenha a consistência com check-ins diários, lembretes de hábitos e uma linha do tempo limpa que torna o progresso fácil de acompanhar. Habit Tracker ajuda você a construir sequências, revisar dias anteriores e manter responsabilidade sem deixar o processo complicado.",
+        "Entenda seu progresso com estatísticas detalhadas, incluindo sequência atual, maior sequência, conclusão semanal, conclusão mensal, pontuação de consistência, total de check-ins, tendência de 7 dias e mapa de calor do calendário. Esses dados ajudam você a ver o que funciona e onde pode melhorar.",
+        "Desenvolvido para ser rápido, claro e focado, Habit Tracker oferece uma maneira simples de organizar hábitos por título, descrição, categoria e cor. Com modo escuro, suporte a idiomas e lembretes inteligentes, Habit Tracker é uma app prática para Android para qualquer pessoa que queira criar hábitos duradouros e rotinas mais fortes."
+      ],
+      "bottomCtaDescription": "Desenvolvido para ser rápido, claro e focado, Habit Tracker oferece uma maneira simples de organizar hábitos por título, descrição, categoria e cor. Com modo escuro, suporte a idiomas e lembretes inteligentes, Habit Tracker é uma app prática para Android para qualquer pessoa que queira criar hábitos duradouros e rotinas mais fortes.",
+      "category": "Produtividade",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Habit Tracker",
+        "Rotinas",
+        "Sequencias",
+        "Lembretes",
+        "Produtividade"
+      ],
+      "metaTitle": "Habit Tracker | habitos e sequencias no Android | StoopidCartoons",
+      "metaDescription": "Crie rotinas melhores com Habit Tracker, uma app flexível de hábitos com lembretes, sequências, check-ins diários e estatísticas claras de progresso.",
+      "featureBullets": [
+        {
+          "title": "Acompanha habitos a tua maneira"
+        },
+        {
+          "title": "Mantem as sequencias todos os dias"
+        },
+        {
+          "title": "Ve o que esta mesmo a melhorar"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Construa melhores hábitos",
+          "description": "Acompanhe seu progresso diário com facilidade.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Adicione um novo hábito em segundos",
+          "description": "Personalize cada hábito do seu jeito.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Mantenha a consistência",
+          "description": "Nunca quebre sua sequência.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Veja seu progresso",
+          "description": "Estatísticas claras que te mantêm motivado.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-4.png"
+        },
+        {
+          "title": "Feito para você",
+          "description": "Suporte para 11 idiomas e modo escuro.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Para que e mais util o Habit Tracker?",
+          "answer": "Crie rotinas melhores com Habit Tracker, uma app flexível de hábitos com lembretes, sequências, check-ins diários e estatísticas claras de progresso."
+        },
+        {
+          "question": "O Habit Tracker consegue acompanhar varios tipos de habitos?",
+          "answer": "Crie hábitos que combinem com o seu estilo de vida com vários tipos de acompanhamento e agendas flexíveis. Você pode acompanhar hábitos como concluído ou não concluído, como metas numéricas ou como rotinas baseadas em minutos. Configure hábitos para todos os dias, dias específicos, a cada X dias ou um número alvo de vezes por semana."
+        },
+        {
+          "question": "O Habit Tracker mostra sequencias e estatisticas de progresso?",
+          "answer": "Mantenha a consistência com check-ins diários, lembretes de hábitos e uma linha do tempo limpa que torna o progresso fácil de acompanhar. Habit Tracker ajuda você a construir sequências, revisar dias anteriores e manter responsabilidade sem deixar o processo complicado. Entenda seu progresso com estatísticas detalhadas, incluindo sequência atual, maior sequência, conclusão semanal, conclusão mensal, pontuação de consistência, total de check-ins, tendência de 7 dias e mapa de calor do calendário. Esses dados ajudam você a ver o que funciona e onde pode melhorar."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Habit Tracker",
+      "summary": "Изгради боље рутине уз Habit Tracker, флексибилну апликацију за праћење навика са подсетницима, низовима, дневним пријавама и јасном статистиком напретка.",
+      "longDescription": [
+        "Habit Tracker је једноставна и флексибилна апликација за праћење навика, изградњу бољих дневних рутина, већу доследност и остваривање личних циљева. Било да желиш да више читаш, вежбаш, пијеш више воде, медитираш, учиш или побољшаш продуктивност, Habit Tracker ти помаже да намере претвориш у навике које заиста можеш да задржиш.",
+        "Креирај навике које одговарају твом начину живота уз више типова праћења и флексибилне распореде. Навике можеш да пратиш као обављено или необављено, као нумеричке циљеве или као рутине засноване на минутима. Подеси навике за сваки дан, одређене дане, сваких X дана или задати број пута недељно.",
+        "Остани доследан уз дневне пријаве, подсетнике за навике и чисту временску линију која олакшава праћење напретка. Habit Tracker ти помаже да градиш низове, прегледаш претходне дане и останеш одговоран без непотребне сложености.",
+        "Разуми свој напредак уз детаљну статистику, укључујући тренутни низ, најдужи низ, недељно испуњење, месечно испуњење, резултат доследности, укупан број пријава, тренд за 7 дана и календарски heatmap. Ови подаци ти помажу да видиш шта функционише и где можеш да се побољшаш.",
+        "Осмишљен за брзину, прегледност и фокус, Habit Tracker ти нуди једноставан начин да организујеш навике по називу, опису, категорији и боји. Уз тамни режим, подршку за језике и паметне подсетнике, Habit Tracker је практична Android апликација за свакога ко жели да изгради трајне навике и јаче рутине."
+      ],
+      "bottomCtaDescription": "Осмишљен за брзину, прегледност и фокус, Habit Tracker ти нуди једноставан начин да организујеш навике по називу, опису, категорији и боји. Уз тамни режим, подршку за језике и паметне подсетнике, Habit Tracker је практична Android апликација за свакога ко жели да изгради трајне навике и јаче рутине.",
+      "category": "Продуктивност",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Habit Tracker",
+        "Рутине",
+        "Низови",
+        "Подсетници",
+        "Продуктивност"
+      ],
+      "metaTitle": "Habit Tracker | праћење навика и низова на Андроиду | StoopidCartoons",
+      "metaDescription": "Изгради боље рутине уз Habit Tracker, флексибилну апликацију за праћење навика са подсетницима, низовима, дневним пријавама и јасном статистиком напретка.",
+      "featureBullets": [
+        {
+          "title": "Прати навике на свој начин"
+        },
+        {
+          "title": "Одржавај низове сваког дана"
+        },
+        {
+          "title": "Види шта се заиста поправља"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Изгради боље навике",
+          "description": "Лако прати свој дневни напредак.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Додај нову навику за неколико секунди",
+          "description": "Прилагоди сваку навику по свом укусу.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Остани доследан",
+          "description": "Никад не прекидај свој низ.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Прати свој напредак",
+          "description": "Јасна статистика која те мотивише.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-4.png"
+        },
+        {
+          "title": "Направљено за тебе",
+          "description": "Подршка за 11 језика и тамни режим.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "За шта је Habit Tracker најбољи?",
+          "answer": "Изгради боље рутине уз Habit Tracker, флексибилну апликацију за праћење навика са подсетницима, низовима, дневним пријавама и јасном статистиком напретка."
+        },
+        {
+          "question": "Да ли Habit Tracker може да прати различите типове навика?",
+          "answer": "Креирај навике које одговарају твом начину живота уз више типова праћења и флексибилне распореде. Навике можеш да пратиш као обављено или необављено, као нумеричке циљеве или као рутине засноване на минутима. Подеси навике за сваки дан, одређене дане, сваких X дана или задати број пута недељно."
+        },
+        {
+          "question": "Да ли Habit Tracker приказује низове и статистику напретка?",
+          "answer": "Остани доследан уз дневне пријаве, подсетнике за навике и чисту временску линију која олакшава праћење напретка. Habit Tracker ти помаже да градиш низове, прегледаш претходне дане и останеш одговоран без непотребне сложености. Разуми свој напредак уз детаљну статистику, укључујући тренутни низ, најдужи низ, недељно испуњење, месечно испуњење, резултат доследности, укупан број пријава, тренд за 7 дана и календарски heatmap. Ови подаци ти помажу да видиш шта функционише и где можеш да се побољшаш."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Habit Tracker",
+      "summary": "Izgradi bolje rutine uz Habit Tracker, fleksibilnu aplikaciju za praćenje navika s podsjetnicima, nizovima, dnevnim prijavama i jasnom statistikom napretka.",
+      "longDescription": [
+        "Habit Tracker je jednostavna i fleksibilna aplikacija za praćenje navika koja pomaže u izgradnji boljih dnevnih rutina, većoj dosljednosti i ostvarivanju osobnih ciljeva. Bilo da želiš više čitati, vježbati, piti više vode, meditirati, učiti ili poboljšati produktivnost, Habit Tracker ti pomaže pretvoriti namjere u navike koje možeš dugoročno zadržati.",
+        "Kreiraj navike koje odgovaraju tvom načinu života uz više vrsta praćenja i fleksibilne rasporede. Navike možeš pratiti kao obavljeno ili neobavljeno, kao numeričke ciljeve ili kao rutine temeljene na minutama. Postavi navike za svaki dan, određene dane, svakih X dana ili zadani broj puta tjedno.",
+        "Ostani dosljedan uz dnevne prijave, podsjetnike za navike i čistu vremensku liniju koja olakšava praćenje napretka. Habit Tracker ti pomaže graditi nizove, pregledavati prethodne dane i ostati odgovoran bez nepotrebne složenosti.",
+        "Razumij svoj napredak uz detaljnu statistiku, uključujući trenutačni niz, najduži niz, tjedno ispunjenje, mjesečno ispunjenje, rezultat dosljednosti, ukupan broj prijava, trend za zadnjih 7 dana i kalendarski heatmap. Ti podaci pomažu ti vidjeti što funkcionira i gdje se možeš poboljšati.",
+        "Dizajniran za brzinu, preglednost i fokus, Habit Tracker ti omogućuje jednostavno organiziranje navika po nazivu, opisu, kategoriji i boji. Uz tamni način rada, podršku za jezike i pametne podsjetnike, Habit Tracker je praktična Android aplikacija za svakoga tko želi izgraditi trajne navike i jače rutine."
+      ],
+      "bottomCtaDescription": "Dizajniran za brzinu, preglednost i fokus, Habit Tracker ti omogućuje jednostavno organiziranje navika po nazivu, opisu, kategoriji i boji. Uz tamni način rada, podršku za jezike i pametne podsjetnike, Habit Tracker je praktična Android aplikacija za svakoga tko želi izgraditi trajne navike i jače rutine.",
+      "category": "Produktivnost",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Habit Tracker",
+        "Rutine",
+        "Nizovi",
+        "Podsjetnici",
+        "Produktivnost"
+      ],
+      "metaTitle": "Habit Tracker | pracenje navika i nizova na Androidu | StoopidCartoons",
+      "metaDescription": "Izgradi bolje rutine uz Habit Tracker, fleksibilnu aplikaciju za praćenje navika s podsjetnicima, nizovima, dnevnim prijavama i jasnom statistikom napretka.",
+      "featureBullets": [
+        {
+          "title": "Prati navike na svoj nacin"
+        },
+        {
+          "title": "Odrzavaj nizove svaki dan"
+        },
+        {
+          "title": "Vidi sto se stvarno poboljsava"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Izgradi bolje navike",
+          "description": "Lako prati svoj dnevni napredak.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Dodaj novu naviku u nekoliko sekundi",
+          "description": "Prilagodi svaku naviku po svom.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Ostani dosljedan",
+          "description": "Nikad ne prekidaj svoj niz.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Prati svoj napredak",
+          "description": "Jasna statistika koja te motivira.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-4.png"
+        },
+        {
+          "title": "Napravljeno za tebe",
+          "description": "Podrška za 11 jezika i tamni način.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Za sto je Habit Tracker najbolji?",
+          "answer": "Izgradi bolje rutine uz Habit Tracker, fleksibilnu aplikaciju za praćenje navika s podsjetnicima, nizovima, dnevnim prijavama i jasnom statistikom napretka."
+        },
+        {
+          "question": "Moze li Habit Tracker pratiti razlicite vrste navika?",
+          "answer": "Kreiraj navike koje odgovaraju tvom načinu života uz više vrsta praćenja i fleksibilne rasporede. Navike možeš pratiti kao obavljeno ili neobavljeno, kao numeričke ciljeve ili kao rutine temeljene na minutama. Postavi navike za svaki dan, određene dane, svakih X dana ili zadani broj puta tjedno."
+        },
+        {
+          "question": "Prikazuje li Habit Tracker nizove i statistiku napretka?",
+          "answer": "Ostani dosljedan uz dnevne prijave, podsjetnike za navike i čistu vremensku liniju koja olakšava praćenje napretka. Habit Tracker ti pomaže graditi nizove, pregledavati prethodne dane i ostati odgovoran bez nepotrebne složenosti. Razumij svoj napredak uz detaljnu statistiku, uključujući trenutačni niz, najduži niz, tjedno ispunjenje, mjesečno ispunjenje, rezultat dosljednosti, ukupan broj prijava, trend za zadnjih 7 dana i kalendarski heatmap. Ti podaci pomažu ti vidjeti što funkcionira i gdje se možeš poboljšati."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Habit Tracker",
+      "summary": "Bouw betere routines met Habit Tracker, een flexibele gewoonte-app met herinneringen, streaks, dagelijkse check-ins en duidelijke voortgangsstatistieken.",
+      "longDescription": [
+        "Habit Tracker is een eenvoudige en flexibele app voor het bijhouden van gewoontes, het opbouwen van betere dagelijkse routines, het vasthouden van consistentie en het bereiken van persoonlijke doelen. Of je nu meer wilt lezen, sporten, water drinken, mediteren, studeren of productiever wilt worden, Habit Tracker helpt je om voornemens om te zetten in gewoontes die je echt kunt volhouden.",
+        "Maak gewoontes die passen bij jouw levensstijl met meerdere trackingtypes en flexibele schema’s. Je kunt gewoontes volgen als gedaan of niet gedaan, als numerieke doelen of als routines op basis van minuten. Stel gewoontes in voor elke dag, specifieke dagen, elke X dagen of een doel aantal keer per week.",
+        "Blijf consistent met dagelijkse check-ins, herinneringen voor gewoontes en een overzichtelijke tijdlijn die voortgang makkelijk zichtbaar maakt. Habit Tracker helpt je streaks op te bouwen, eerdere dagen te bekijken en verantwoordelijkheid te houden zonder het proces ingewikkeld te maken.",
+        "Begrijp je voortgang met gedetailleerde statistieken zoals huidige streak, langste streak, wekelijkse voltooiing, maandelijkse voltooiing, consistentiescore, totaal aantal check-ins, 7-daagse trend en kalender-heatmap. Deze inzichten laten zien wat goed werkt en waar je kunt verbeteren.",
+        "Habit Tracker is ontworpen voor snelheid, duidelijkheid en focus en geeft je een eenvoudige manier om gewoontes te organiseren op titel, beschrijving, categorie en kleur. Met donkere modus, taalondersteuning en slimme herinneringen is Habit Tracker een praktische Android-app voor iedereen die blijvende gewoontes en sterkere routines wil opbouwen."
+      ],
+      "bottomCtaDescription": "Habit Tracker is ontworpen voor snelheid, duidelijkheid en focus en geeft je een eenvoudige manier om gewoontes te organiseren op titel, beschrijving, categorie en kleur. Met donkere modus, taalondersteuning en slimme herinneringen is Habit Tracker een praktische Android-app voor iedereen die blijvende gewoontes en sterkere routines wil opbouwen.",
+      "category": "Productiviteit",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Habit Tracker",
+        "Routines",
+        "Reeksen",
+        "Herinneringen",
+        "Productiviteit"
+      ],
+      "metaTitle": "Habit Tracker | gewoonten en reeksen op Android | StoopidCartoons",
+      "metaDescription": "Bouw betere routines met Habit Tracker, een flexibele gewoonte-app met herinneringen, streaks, dagelijkse check-ins en duidelijke voortgangsstatistieken.",
+      "featureBullets": [
+        {
+          "title": "Volg gewoonten op jouw manier"
+        },
+        {
+          "title": "Houd reeksen elke dag levend"
+        },
+        {
+          "title": "Zie wat echt verbetert"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Bouw betere gewoonten",
+          "description": "Volg eenvoudig je dagelijkse voortgang.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Voeg nieuwe gewoonten toe in seconden",
+          "description": "Pas elke gewoonte naar wens aan.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Blijf consistent",
+          "description": "Verbreek je reeks nooit.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Bekijk je voortgang",
+          "description": "Duidelijke statistieken die je motiveren.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-4.png"
+        },
+        {
+          "title": "Gemaakt voor jou",
+          "description": "Ondersteuning voor 11 talen en donkere modus.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Waar is Habit Tracker het meest geschikt voor?",
+          "answer": "Bouw betere routines met Habit Tracker, een flexibele gewoonte-app met herinneringen, streaks, dagelijkse check-ins en duidelijke voortgangsstatistieken."
+        },
+        {
+          "question": "Kan Habit Tracker verschillende soorten gewoonten volgen?",
+          "answer": "Maak gewoontes die passen bij jouw levensstijl met meerdere trackingtypes en flexibele schema’s. Je kunt gewoontes volgen als gedaan of niet gedaan, als numerieke doelen of als routines op basis van minuten. Stel gewoontes in voor elke dag, specifieke dagen, elke X dagen of een doel aantal keer per week."
+        },
+        {
+          "question": "Laat Habit Tracker reeksen en voortgangsstatistieken zien?",
+          "answer": "Blijf consistent met dagelijkse check-ins, herinneringen voor gewoontes en een overzichtelijke tijdlijn die voortgang makkelijk zichtbaar maakt. Habit Tracker helpt je streaks op te bouwen, eerdere dagen te bekijken en verantwoordelijkheid te houden zonder het proces ingewikkeld te maken. Begrijp je voortgang met gedetailleerde statistieken zoals huidige streak, langste streak, wekelijkse voltooiing, maandelijkse voltooiing, consistentiescore, totaal aantal check-ins, 7-daagse trend en kalender-heatmap. Deze inzichten laten zien wat goed werkt en waar je kunt verbeteren."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Habit Tracker",
+      "summary": "Buduj lepsze rutyny z Habit Tracker, elastyczną aplikacją do śledzenia nawyków z przypomnieniami, seriami, codziennymi check-inami i czytelną statystyką postępów.",
+      "longDescription": [
+        "Habit Tracker to prosta i elastyczna aplikacja do śledzenia nawyków, budowania lepszych codziennych rutyn, utrzymywania regularności i realizowania osobistych celów. Niezależnie od tego, czy chcesz więcej czytać, ćwiczyć, pić więcej wody, medytować, uczyć się czy zwiększyć produktywność, Habit Tracker pomaga zamienić intencje w nawyki, których naprawdę da się trzymać.",
+        "Twórz nawyki dopasowane do swojego stylu życia dzięki wielu typom śledzenia i elastycznym harmonogramom. Możesz śledzić nawyki jako wykonane lub niewykonane, jako cele liczbowe albo jako rutyny oparte na minutach. Ustaw nawyki na każdy dzień, wybrane dni, co X dni albo określoną liczbę razy w tygodniu.",
+        "Zachowaj regularność dzięki codziennym check-inom, przypomnieniom i przejrzystej osi czasu, która ułatwia śledzenie postępów. Habit Tracker pomaga budować serie, przeglądać poprzednie dni i zachować odpowiedzialność bez zbędnego komplikowania całego procesu.",
+        "Analizuj postępy dzięki szczegółowym statystykom, takim jak aktualna seria, najdłuższa seria, realizacja tygodniowa, realizacja miesięczna, wskaźnik regularności, łączna liczba check-inów, trend z 7 dni oraz kalendarzowa mapa aktywności. Te dane pomagają zobaczyć, co działa i gdzie można się poprawić.",
+        "Zaprojektowany z myślą o szybkości, przejrzystości i skupieniu, Habit Tracker daje prosty sposób organizowania nawyków według tytułu, opisu, kategorii i koloru. Dzięki trybowi ciemnemu, obsłudze języków i inteligentnym przypomnieniom Habit Tracker jest praktyczną aplikacją na Androida dla każdego, kto chce budować trwałe nawyki i mocniejsze rutyny."
+      ],
+      "bottomCtaDescription": "Zaprojektowany z myślą o szybkości, przejrzystości i skupieniu, Habit Tracker daje prosty sposób organizowania nawyków według tytułu, opisu, kategorii i koloru. Dzięki trybowi ciemnemu, obsłudze języków i inteligentnym przypomnieniom Habit Tracker jest praktyczną aplikacją na Androida dla każdego, kto chce budować trwałe nawyki i mocniejsze rutyny.",
+      "category": "Produktywnosc",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Habit Tracker",
+        "Rutyny",
+        "Serie",
+        "Przypomnienia",
+        "Produktywnosc"
+      ],
+      "metaTitle": "Habit Tracker | nawyki i serie na Androida | StoopidCartoons",
+      "metaDescription": "Buduj lepsze rutyny z Habit Tracker, elastyczną aplikacją do śledzenia nawyków z przypomnieniami, seriami, codziennymi check-inami i czytelną statystyką postępów.",
+      "featureBullets": [
+        {
+          "title": "Sledz nawyki po swojemu"
+        },
+        {
+          "title": "Podtrzymuj serie kazdego dnia"
+        },
+        {
+          "title": "Zobacz, co naprawde sie poprawia"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Buduj lepsze nawyki",
+          "description": "Łatwo śledź swój codzienny postęp.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Dodaj nowy nawyk w kilka sekund",
+          "description": "Dostosuj każdy nawyk po swojemu.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Bądź konsekwentny",
+          "description": "Nigdy nie przerywaj swojej serii.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Zobacz swój postęp",
+          "description": "Przejrzyste statystyki, które motywują.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-4.png"
+        },
+        {
+          "title": "Stworzone dla ciebie",
+          "description": "Obsługa 11 języków i tryb ciemny.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do czego najlepiej nadaje sie Habit Tracker?",
+          "answer": "Buduj lepsze rutyny z Habit Tracker, elastyczną aplikacją do śledzenia nawyków z przypomnieniami, seriami, codziennymi check-inami i czytelną statystyką postępów."
+        },
+        {
+          "question": "Czy Habit Tracker obsluguje rozne typy nawykow?",
+          "answer": "Twórz nawyki dopasowane do swojego stylu życia dzięki wielu typom śledzenia i elastycznym harmonogramom. Możesz śledzić nawyki jako wykonane lub niewykonane, jako cele liczbowe albo jako rutyny oparte na minutach. Ustaw nawyki na każdy dzień, wybrane dni, co X dni albo określoną liczbę razy w tygodniu."
+        },
+        {
+          "question": "Czy Habit Tracker pokazuje serie i statystyki postepu?",
+          "answer": "Zachowaj regularność dzięki codziennym check-inom, przypomnieniom i przejrzystej osi czasu, która ułatwia śledzenie postępów. Habit Tracker pomaga budować serie, przeglądać poprzednie dni i zachować odpowiedzialność bez zbędnego komplikowania całego procesu. Analizuj postępy dzięki szczegółowym statystykom, takim jak aktualna seria, najdłuższa seria, realizacja tygodniowa, realizacja miesięczna, wskaźnik regularności, łączna liczba check-inów, trend z 7 dni oraz kalendarzowa mapa aktywności. Te dane pomagają zobaczyć, co działa i gdzie można się poprawić."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Habit Tracker",
+      "summary": "Construiește rutine mai bune cu Habit Tracker, o aplicație flexibilă pentru obiceiuri cu mementouri, serii, check-in-uri zilnice și statistici clare de progres.",
+      "longDescription": [
+        "Habit Tracker este o aplicație simplă și flexibilă pentru urmărirea obiceiurilor, construirea unor rutine zilnice mai bune, menținerea consecvenței și atingerea obiectivelor personale. Fie că vrei să citești mai mult, să faci mișcare, să bei mai multă apă, să meditezi, să studiezi sau să îți îmbunătățești productivitatea, Habit Tracker te ajută să transformi intențiile în obiceiuri pe care le poți păstra.",
+        "Creează obiceiuri potrivite stilului tău de viață cu mai multe tipuri de urmărire și programe flexibile. Poți urmări obiceiurile ca realizat sau nerealizat, ca obiective numerice sau ca rutine bazate pe minute. Setează obiceiuri pentru fiecare zi, anumite zile, la fiecare X zile sau un număr țintă de ori pe săptămână.",
+        "Rămâi consecvent cu check-in-uri zilnice, mementouri pentru obiceiuri și o cronologie clară care face progresul ușor de urmărit. Habit Tracker te ajută să construiești serii, să revizuiești zilele anterioare și să rămâi responsabil fără să complice procesul.",
+        "Înțelege progresul tău cu statistici detaliate, inclusiv seria curentă, cea mai lungă serie, completarea săptămânală, completarea lunară, scorul de consecvență, totalul check-in-urilor, trendul pe 7 zile și calendarul heatmap. Aceste informații te ajută să vezi ce funcționează și unde poți îmbunătăți.",
+        "Creat pentru viteză, claritate și focus, Habit Tracker îți oferă o modalitate simplă de a organiza obiceiurile după titlu, descriere, categorie și culoare. Cu mod întunecat, suport pentru limbi și mementouri inteligente, Habit Tracker este o aplicație Android practică pentru oricine vrea să construiască obiceiuri durabile și rutine mai puternice."
+      ],
+      "bottomCtaDescription": "Creat pentru viteză, claritate și focus, Habit Tracker îți oferă o modalitate simplă de a organiza obiceiurile după titlu, descriere, categorie și culoare. Cu mod întunecat, suport pentru limbi și mementouri inteligente, Habit Tracker este o aplicație Android practică pentru oricine vrea să construiască obiceiuri durabile și rutine mai puternice.",
+      "category": "Productivitate",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Habit Tracker",
+        "Rutine",
+        "Serii",
+        "Mementouri",
+        "Productivitate"
+      ],
+      "metaTitle": "Habit Tracker | obiceiuri si serii pe Android | StoopidCartoons",
+      "metaDescription": "Construiește rutine mai bune cu Habit Tracker, o aplicație flexibilă pentru obiceiuri cu mementouri, serii, check-in-uri zilnice și statistici clare de progres.",
+      "featureBullets": [
+        {
+          "title": "Urmareste obiceiurile in felul tau"
+        },
+        {
+          "title": "Pastreaza seriile zi de zi"
+        },
+        {
+          "title": "Vezi ce se imbunatateste cu adevarat"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Construiește obiceiuri mai bune",
+          "description": "Urmărește ușor progresul zilnic.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Adaugă un obicei nou în câteva secunde",
+          "description": "Personalizează fiecare obicei în felul tău.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Rămâi consecvent",
+          "description": "Nu-ți întrerupe niciodată seria.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Vezi progresul tău",
+          "description": "Statistici clare care te motivează.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-4.png"
+        },
+        {
+          "title": "Creat pentru tine",
+          "description": "Suport pentru 11 limbi și mod întunecat.",
+          "imagePath": "apps/screenshots/habit-tracker/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Pentru ce este cel mai potrivit Habit Tracker?",
+          "answer": "Construiește rutine mai bune cu Habit Tracker, o aplicație flexibilă pentru obiceiuri cu mementouri, serii, check-in-uri zilnice și statistici clare de progres."
+        },
+        {
+          "question": "Poate Habit Tracker sa urmareasca tipuri diferite de obiceiuri?",
+          "answer": "Creează obiceiuri potrivite stilului tău de viață cu mai multe tipuri de urmărire și programe flexibile. Poți urmări obiceiurile ca realizat sau nerealizat, ca obiective numerice sau ca rutine bazate pe minute. Setează obiceiuri pentru fiecare zi, anumite zile, la fiecare X zile sau un număr țintă de ori pe săptămână."
+        },
+        {
+          "question": "Afiseaza Habit Tracker serii si statistici de progres?",
+          "answer": "Rămâi consecvent cu check-in-uri zilnice, mementouri pentru obiceiuri și o cronologie clară care face progresul ușor de urmărit. Habit Tracker te ajută să construiești serii, să revizuiești zilele anterioare și să rămâi responsabil fără să complice procesul. Înțelege progresul tău cu statistici detaliate, inclusiv seria curentă, cea mai lungă serie, completarea săptămânală, completarea lunară, scorul de consecvență, totalul check-in-urilor, trendul pe 7 zile și calendarul heatmap. Aceste informații te ajută să vezi ce funcționează și unde poți îmbunătăți."
+        }
+      ]
+    }
+  }
+}

@@ -665,6 +665,291 @@ p {
   gap: 1rem;
 }
 
+.content-lead {
+  margin-bottom: 1.1rem;
+  max-width: 62ch;
+}
+
+.product-bottom-cta {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.screenshot-carousel-shell {
+  display: grid;
+  --screenshot-viewport-max: 57rem;
+}
+
+.screenshot-carousel-shell[data-screenshot-orientation='landscape'] {
+  --screenshot-viewport-max: 76rem;
+}
+
+.screenshot-stage {
+  position: relative;
+  display: grid;
+  gap: 0.9rem;
+  border-radius: 1.9rem;
+  border: 1px solid var(--color-border);
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.08), transparent 34%),
+    linear-gradient(180deg, rgba(18, 18, 18, 0.98), rgba(10, 10, 10, 0.98));
+  box-shadow: 0 20px 44px rgba(0, 0, 0, 0.35);
+}
+
+.screenshot-stage-header {
+  padding: 1.1rem 1.1rem 0;
+}
+
+.screenshot-stage-header h2 {
+  margin: 0;
+}
+
+.screenshot-carousel-frame {
+  position: relative;
+  display: grid;
+  gap: 1.15rem;
+  padding: 0 0.95rem 1.15rem;
+}
+
+.screenshot-carousel-viewport {
+  width: min(100%, var(--screenshot-viewport-max));
+  margin: 0 auto;
+}
+
+.screenshot-arrow {
+  position: static;
+  width: 3.15rem;
+  height: 3.15rem;
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 auto;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  color: var(--color-text);
+  font-size: 1.15rem;
+  cursor: pointer;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+  transition:
+    transform var(--transition),
+    background var(--transition),
+    opacity var(--transition),
+    border-color var(--transition);
+}
+
+.screenshot-arrow:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.screenshot-carousel-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-inline: 0.25rem;
+}
+
+.screenshot-arrow:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.screenshot-arrow:focus-visible,
+.screenshot-indicator:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+.screenshot-carousel {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  align-items: start;
+  padding: 0 0 0.35rem;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 0;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.screenshot-carousel::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.screenshot-card {
+  margin: 0;
+  display: grid;
+  gap: 0.85rem;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.screenshot-card-portrait {
+  flex: 0 0 100%;
+}
+
+.screenshot-card-landscape {
+  flex: 0 0 100%;
+}
+
+.screenshot-media {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.75rem;
+  border: 1px solid var(--color-border);
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.12), transparent 42%),
+    linear-gradient(180deg, rgba(26, 26, 26, 0.96), rgba(15, 15, 15, 0.98));
+  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.28);
+}
+
+.screenshot-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.screenshot-card-portrait .screenshot-media {
+  aspect-ratio: 9 / 20;
+}
+
+.screenshot-card-landscape .screenshot-media {
+  aspect-ratio: 16 / 9;
+}
+
+.screenshot-caption {
+  padding: 0 0.15rem;
+  min-height: 4.9rem;
+}
+
+.screenshot-caption strong {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.screenshot-caption p {
+  margin: 0;
+  color: var(--color-muted);
+  line-height: 1.65;
+}
+
+.screenshot-indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.screenshot-indicator {
+  width: 0.8rem;
+  height: 0.8rem;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition:
+    width var(--transition),
+    background var(--transition),
+    transform var(--transition);
+}
+
+.screenshot-indicator:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.screenshot-indicator.is-active {
+  width: 2.2rem;
+  background: linear-gradient(135deg, var(--color-primary), #ff5a5a);
+}
+
+.screenshot-carousel-shell.is-static .screenshot-carousel {
+  justify-content: center;
+}
+
+.screenshot-carousel-shell.is-static .screenshot-caption {
+  min-height: 0;
+}
+
+.screenshot-carousel-shell.is-static .screenshot-carousel-controls {
+  display: none;
+}
+
+.feature-bullet-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 0.95rem;
+}
+
+.feature-bullet-item::marker {
+  color: var(--color-primary);
+}
+
+.feature-bullet-item {
+  color: var(--color-soft);
+  line-height: 1.7;
+}
+
+.faq-accordion {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.faq-accordion-item {
+  border: 1px solid var(--color-border);
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: var(--radius-lg);
+  overflow: clip;
+}
+
+.faq-accordion-item summary {
+  list-style: none;
+  position: relative;
+  cursor: pointer;
+  padding: 1rem 3.5rem 1rem 1rem;
+  font-weight: 800;
+}
+
+.faq-accordion-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-accordion-item summary::after {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  font-size: 1.4rem;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.faq-accordion-item[open] summary::after {
+  content: "-";
+}
+
+.faq-answer {
+  padding: 0 1rem 1rem;
+}
+
+.product-bottom-cta h2 {
+  max-width: 16ch;
+}
+
 .product-tag-row {
   margin-top: 0;
 }
@@ -864,5 +1149,42 @@ p {
 
   .hero-actions {
     flex-direction: column;
+  }
+
+  .screenshot-carousel-shell[data-screenshot-orientation='portrait'] {
+    --screenshot-viewport-max: 16rem;
+  }
+
+  .screenshot-stage-header {
+    padding: 1rem 1rem 0;
+  }
+
+  .screenshot-carousel-frame {
+    padding-inline: 0.75rem;
+    gap: 0.9rem;
+  }
+
+  .screenshot-carousel-controls {
+    gap: 0.8rem;
+  }
+
+  .screenshot-caption {
+    min-height: 0;
+  }
+}
+
+@media (min-width: 760px) {
+  .screenshot-card-portrait {
+    flex-basis: calc((100% - 1rem) / 2);
+  }
+}
+
+@media (min-width: 1120px) {
+  .screenshot-card-portrait {
+    flex-basis: calc((100% - 2rem) / 3);
+  }
+
+  .screenshot-card-landscape {
+    flex-basis: calc((100% - 1rem) / 2);
   }
 }

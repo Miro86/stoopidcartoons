@@ -76,15 +76,15 @@ const localeLinks = locales.map((lang) => ({
       const supported = [
         "en",
         "de",
-        "sr",
-        "bs",
-        "hr",
         "fr",
         "it",
         "es",
         "pt",
-        "ru",
-        "tr",
+        "sr",
+        "hr",
+        "nl",
+        "pl",
+        "ro",
       ];
 
       const normalize = (value) => {
@@ -97,8 +97,9 @@ const localeLinks = locales.map((lang) => ({
         if (input.startsWith("it")) return "it";
         if (input.startsWith("es")) return "es";
         if (input.startsWith("pt")) return "pt";
-        if (input.startsWith("ru")) return "ru";
-        if (input.startsWith("tr")) return "tr";
+        if (input.startsWith("nl")) return "nl";
+        if (input.startsWith("pl")) return "pl";
+        if (input.startsWith("ro")) return "ro";
         return "en";
       };
 
