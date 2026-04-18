@@ -8,7 +8,10 @@
   "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.gastarbajter",
   "websiteUrl": null,
   "schemaApplicationCategory": "GameApplication",
-  "relatedSlugs": [],
+  "relatedSlugs": [
+    "orbital-rhythm",
+    "big-ben"
+  ],
   "screenshotOrientation": "landscape",
   "translations": {
     "en": {

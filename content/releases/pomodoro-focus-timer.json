@@ -1,0 +1,910 @@
+{
+  "slug": "pomodoro-focus-timer",
+  "sortOrder": 7,
+  "kind": "app",
+  "featured": false,
+  "accent": "orange",
+  "icon": "apps/icons/pomodoro-focus-timer.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.pomodorofocustimer",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "ProductivityApplication",
+  "relatedSlugs": [
+    "hiit-timer",
+    "intermittent-fasting",
+    "sleep-sound-lite"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Pomodoro Focus Timer",
+      "summary": "A clean pomodoro timer for focus, study sessions, breaks, stats, and history. Stay consistent, reduce procrastination, and turn short sessions into real daily progress.",
+      "longDescription": [
+        "Pomodoro Focus Timer is a clean and powerful pomodoro timer built to help you focus now, finish deep work, and turn small sessions into real progress. Whether you are studying, working, reading, coding, or preparing for exams, this focus timer keeps your rhythm steady with work sessions, short breaks, and long breaks.",
+        "Start one session and let the timer handle the flow. Track your work timer, break timer, daily goal, sessions today, focus minutes, streak, active days, and 7-day trend in one simple productivity app. Every completed session is saved in your history, so it is easy to stay accountable and build consistency over time.",
+        "Customize your setup for the way you work. Adjust work length, short break, long break, long break frequency, and daily goal. Turn sound on or off, choose phase alerts, and use notifications or alarms to stay on track without losing momentum.",
+        "The minimal interface keeps distractions low so you can stay locked in on study sessions, deep work blocks, and focused productivity. If you want a pomodoro app that is simple to use but strong enough to support real habits, Pomodoro Focus Timer gives you the structure to keep moving forward."
+      ],
+      "bottomCtaDescription": "Install Pomodoro Focus Timer and make focused work easier to start and easier to repeat. Set your rhythm, track your progress, and turn every session into momentum.",
+      "category": "Pomodoro Timer",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "pomodoro timer",
+        "focus timer",
+        "study timer",
+        "productivity app",
+        "deep work timer",
+        "work timer",
+        "pomodoro app"
+      ],
+      "metaTitle": "Pomodoro Focus Timer - Focus Timer for Study and Work",
+      "metaDescription": "Stay focused with a clean pomodoro timer for work, study, breaks, daily goals, stats, and session history. Build momentum one session at a time.",
+      "featureBullets": [
+        {
+          "title": "Pomodoro Timer for Focus and Study"
+        },
+        {
+          "title": "Work, Short Break, and Long Break Sessions"
+        },
+        {
+          "title": "Custom Session and Break Settings"
+        },
+        {
+          "title": "Daily Goal, Focus Minutes, and Sessions Today"
+        },
+        {
+          "title": "Streak, Active Days, and 7-Day Trend"
+        },
+        {
+          "title": "Session History, Alerts, and Notifications"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Stay Focused One Session at a Time",
+          "description": "Show the active pomodoro timer with a clean countdown, clear work phase, and a distraction-free layout that immediately communicates focus and structure.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-1.png"
+        },
+        {
+          "title": "Track Real Daily Progress",
+          "description": "Show stats such as daily goal, sessions today, focus minutes, streak, active days, and 7-day trend to highlight motivation and consistency.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-2.png"
+        },
+        {
+          "title": "Customize Your Workflow",
+          "description": "Show timer settings for work length, short break, long break, frequency, alerts, and notifications to communicate flexibility for different work styles.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What can I track with Pomodoro Focus Timer?",
+          "answer": "You can track work sessions, breaks, daily goal progress, sessions today, focus minutes, streak, active days, a 7-day trend, and completed session history."
+        },
+        {
+          "question": "Can I customize pomodoro and break lengths?",
+          "answer": "Yes. You can adjust work length, short break, long break, long break frequency, and your daily goal to fit the way you study or work."
+        },
+        {
+          "question": "Does Pomodoro Focus Timer include alerts and notifications?",
+          "answer": "Yes. The app includes sound options, phase alerts, notifications, and alarms to help you stay on track without checking the timer constantly."
+        },
+        {
+          "question": "Is this app good for studying and deep work?",
+          "answer": "Yes. Pomodoro Focus Timer is designed for study sessions, reading, coding, focused work, and any task that benefits from clear structure and regular breaks."
+        }
+      ]
+    },
+    "de": {
+      "name": "Pomodoro Focus Timer",
+      "summary": "Ein klarer Pomodoro-Timer für Fokus, Lernphasen, Pausen, Statistiken und Verlauf. Arbeite konzentrierter, bleibe konsequent und verwandle kurze Sessions in echten Fortschritt.",
+      "longDescription": [
+        "Pomodoro Focus Timer ist ein klar strukturierter und leistungsstarker Pomodoro-Timer, der dir hilft, sofort in den Fokus zu kommen, konzentriert zu arbeiten und aus kleinen Sessions echten Fortschritt zu machen. Egal ob Lernen, Arbeiten, Lesen, Programmieren oder Prüfungsvorbereitung - dieser Fokus-Timer hält deinen Rhythmus mit Arbeitsphasen, kurzen Pausen und langen Pausen stabil.",
+        "Starte einfach eine Session und lass den Timer den Ablauf übernehmen. Verfolge Arbeitszeit, Pausenzeit, Tagesziel, heutige Sessions, Fokusminuten, Serie, aktive Tage und den 7-Tage-Trend in einer übersichtlichen Produktivitäts-App. Jede abgeschlossene Session wird im Verlauf gespeichert, damit du deine Entwicklung nachvollziehen und konsequent dranbleiben kannst.",
+        "Passe den Timer an deine Arbeitsweise an. Stelle Arbeitslänge, kurze Pause, lange Pause, die Häufigkeit langer Pausen und dein Tagesziel individuell ein. Aktiviere oder deaktiviere Ton, nutze Phasenhinweise sowie Benachrichtigungen oder Alarme und bleibe im Fluss, ohne den Fokus zu verlieren.",
+        "Die minimalistische Oberfläche reduziert Ablenkung und unterstützt dich bei Lernphasen, Deep Work und konzentriertem Arbeiten. Wenn du eine Pomodoro-App suchst, die einfach zu bedienen ist und gleichzeitig echte Gewohnheiten fördert, bietet dir Pomodoro Focus Timer die passende Struktur."
+      ],
+      "bottomCtaDescription": "Installiere Pomodoro Focus Timer und mache konzentriertes Arbeiten einfacher und konstanter. Finde deinen Rhythmus, verfolge deinen Fortschritt und nutze jede Session sinnvoll.",
+      "category": "Pomodoro-Timer",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Pomodoro Timer",
+        "Fokus Timer",
+        "Lerntimer",
+        "Produktivitäts App",
+        "Deep Work Timer",
+        "Arbeits Timer",
+        "Pomodoro App"
+      ],
+      "metaTitle": "Pomodoro Focus Timer - Fokus Timer für Lernen und Arbeit",
+      "metaDescription": "Bleib fokussiert mit einem klaren Pomodoro-Timer für Arbeit, Lernen, Pausen, Tagesziele, Statistiken und Verlauf. Fortschritt Session für Session.",
+      "featureBullets": [
+        {
+          "title": "Pomodoro-Timer für Fokus und Lernen"
+        },
+        {
+          "title": "Arbeitsphasen, kurze und lange Pausen"
+        },
+        {
+          "title": "Individuelle Timer- und Pauseneinstellungen"
+        },
+        {
+          "title": "Tagesziel, Fokusminuten und heutige Sessions"
+        },
+        {
+          "title": "Serie, aktive Tage und 7-Tage-Trend"
+        },
+        {
+          "title": "Verlauf, Hinweise und Benachrichtigungen"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Konzentriert arbeiten, eine Session nach der anderen",
+          "description": "Zeige den aktiven Pomodoro-Timer mit klarem Countdown, sichtbarer Arbeitsphase und einem ruhigen Layout ohne Ablenkung.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-1.png"
+        },
+        {
+          "title": "Täglichen Fortschritt im Blick",
+          "description": "Zeige Statistiken wie Tagesziel, heutige Sessions, Fokusminuten, Serie, aktive Tage und 7-Tage-Trend, um Motivation und Fortschritt sichtbar zu machen.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-2.png"
+        },
+        {
+          "title": "Den Timer an deinen Stil anpassen",
+          "description": "Zeige Einstellungen für Arbeitszeit, Pausen, Häufigkeit, Hinweise und Benachrichtigungen, damit die Flexibilität der App sofort erkennbar ist.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Was kann ich mit Pomodoro Focus Timer verfolgen?",
+          "answer": "Du kannst Arbeitsphasen, Pausen, Tagesziel, heutige Sessions, Fokusminuten, Serie, aktive Tage, den 7-Tage-Trend und deinen Session-Verlauf verfolgen."
+        },
+        {
+          "question": "Kann ich Arbeits- und Pausenlängen anpassen?",
+          "answer": "Ja. Du kannst Arbeitszeit, kurze Pause, lange Pause, die Häufigkeit langer Pausen und dein Tagesziel individuell einstellen."
+        },
+        {
+          "question": "Gibt es Hinweise und Benachrichtigungen?",
+          "answer": "Ja. Die App unterstützt Töne, Phasenhinweise, Benachrichtigungen und Alarme, damit du im Rhythmus bleibst, ohne ständig auf den Timer zu schauen."
+        },
+        {
+          "question": "Ist die App gut für Lernen und Deep Work geeignet?",
+          "answer": "Ja. Pomodoro Focus Timer eignet sich für Lernen, Lesen, Programmieren, konzentriertes Arbeiten und alle Aufgaben, die klare Zeitblöcke und regelmäßige Pausen brauchen."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Pomodoro Focus Timer",
+      "summary": "Un minuteur pomodoro clair pour la concentration, les sessions d'étude, les pauses, les statistiques et l'historique. Travaillez avec plus de régularité et transformez de petites sessions en vrai progrès.",
+      "longDescription": [
+        "Pomodoro Focus Timer est un minuteur pomodoro clair et puissant conçu pour vous aider à vous concentrer immédiatement, avancer sur un travail profond et transformer de petites sessions en vrai progrès. Que vous étudiiez, travailliez, lisiez, codiez ou prépariez un examen, ce minuteur de concentration garde votre rythme stable avec des sessions de travail, des pauses courtes et des pauses longues.",
+        "Lancez une session et laissez le minuteur gérer le déroulement. Suivez votre temps de travail, votre temps de pause, votre objectif quotidien, les sessions du jour, vos minutes de concentration, votre série, vos jours actifs et votre tendance sur 7 jours dans une seule application de productivité. Chaque session terminée est enregistrée dans l'historique pour vous aider à rester régulier.",
+        "Personnalisez l'application selon votre façon de travailler. Réglez la durée du travail, la pause courte, la pause longue, la fréquence des longues pauses et l'objectif quotidien. Activez ou désactivez le son, choisissez les alertes de phase et utilisez notifications ou alarmes pour rester dans le rythme sans casser votre élan.",
+        "L'interface minimaliste limite les distractions pour vous aider à rester concentré sur vos sessions d'étude, vos blocs de travail profond et votre productivité. Si vous cherchez une application pomodoro simple mais vraiment utile au quotidien, Pomodoro Focus Timer vous apporte la structure nécessaire."
+      ],
+      "bottomCtaDescription": "Installez Pomodoro Focus Timer et facilitez vos sessions de concentration au quotidien. Trouvez votre rythme, suivez vos progrès et avancez session après session.",
+      "category": "Minuteur Pomodoro",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "minuteur pomodoro",
+        "timer concentration",
+        "timer étude",
+        "application productivité",
+        "travail profond",
+        "timer travail",
+        "pomodoro"
+      ],
+      "metaTitle": "Pomodoro Focus Timer - Minuteur de concentration et étude",
+      "metaDescription": "Restez concentré avec un minuteur pomodoro pour travail, étude, pauses, objectifs quotidiens, statistiques et historique de sessions.",
+      "featureBullets": [
+        {
+          "title": "Minuteur pomodoro pour concentration et étude"
+        },
+        {
+          "title": "Travail, pause courte et pause longue"
+        },
+        {
+          "title": "Réglages personnalisés des sessions"
+        },
+        {
+          "title": "Objectif quotidien, minutes et sessions du jour"
+        },
+        {
+          "title": "Série, jours actifs et tendance 7 jours"
+        },
+        {
+          "title": "Historique, alertes et notifications"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Restez concentré session après session",
+          "description": "Montrer le minuteur actif avec un compte à rebours clair, une phase de travail bien visible et une interface propre axée sur la concentration.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-1.png"
+        },
+        {
+          "title": "Visualisez vos progrès quotidiens",
+          "description": "Montrer les statistiques comme l'objectif quotidien, les sessions du jour, les minutes de concentration, la série et la tendance 7 jours.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-2.png"
+        },
+        {
+          "title": "Adaptez le timer à votre rythme",
+          "description": "Montrer les réglages de durée du travail, des pauses, de fréquence et des alertes afin de mettre en avant la personnalisation.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Que puis-je suivre avec Pomodoro Focus Timer ?",
+          "answer": "Vous pouvez suivre vos sessions de travail, vos pauses, votre objectif quotidien, les sessions du jour, vos minutes de concentration, votre série, vos jours actifs, la tendance sur 7 jours et l'historique."
+        },
+        {
+          "question": "Puis-je personnaliser la durée des sessions et des pauses ?",
+          "answer": "Oui. Vous pouvez régler la durée du travail, des pauses courtes, des pauses longues, la fréquence des longues pauses et votre objectif quotidien."
+        },
+        {
+          "question": "L'application propose-t-elle des alertes et notifications ?",
+          "answer": "Oui. Pomodoro Focus Timer inclut des sons, des alertes de phase, des notifications et des alarmes pour vous aider à rester dans le rythme."
+        },
+        {
+          "question": "Est-ce une bonne application pour étudier et travailler en profondeur ?",
+          "answer": "Oui. Elle convient très bien à l'étude, à la lecture, au codage, au travail concentré et à toute tâche nécessitant des sessions structurées avec pauses."
+        }
+      ]
+    },
+    "it": {
+      "name": "Pomodoro Focus Timer",
+      "summary": "Un timer pomodoro pulito per concentrazione, studio, pause, statistiche e cronologia. Mantieni il ritmo, riduci la procrastinazione e trasforma piccole sessioni in progresso reale.",
+      "longDescription": [
+        "Pomodoro Focus Timer è un timer pomodoro pulito e potente, creato per aiutarti a concentrarti subito, completare sessioni di lavoro profondo e trasformare piccoli blocchi di tempo in progresso reale. Che tu stia studiando, lavorando, leggendo, programmando o preparando un esame, questo focus timer mantiene il tuo ritmo con sessioni di lavoro, pause brevi e pause lunghe.",
+        "Avvia una sessione e lascia che il timer gestisca il flusso. Monitora timer di lavoro, timer di pausa, obiettivo giornaliero, sessioni di oggi, minuti di concentrazione, streak, giorni attivi e andamento degli ultimi 7 giorni in un'unica app di produttività. Ogni sessione completata viene salvata nella cronologia per aiutarti a costruire costanza nel tempo.",
+        "Personalizza tutto in base al tuo modo di lavorare. Regola durata del lavoro, pausa breve, pausa lunga, frequenza delle pause lunghe e obiettivo quotidiano. Attiva o disattiva il suono, scegli gli avvisi di fase e usa notifiche o allarmi per restare sul pezzo senza perdere slancio.",
+        "L'interfaccia minimale riduce le distrazioni e ti aiuta a restare concentrato su studio, deep work e sessioni di produttività. Se cerchi un'app pomodoro semplice da usare ma davvero utile per creare abitudini solide, Pomodoro Focus Timer ti offre la struttura giusta."
+      ],
+      "bottomCtaDescription": "Scarica Pomodoro Focus Timer e rendi più semplice iniziare a concentrarti ogni giorno. Imposta il tuo ritmo, monitora i progressi e fai contare ogni sessione.",
+      "category": "Timer Pomodoro",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "timer pomodoro",
+        "timer concentrazione",
+        "timer studio",
+        "app produttività",
+        "deep work",
+        "timer lavoro",
+        "pomodoro"
+      ],
+      "metaTitle": "Pomodoro Focus Timer - Timer per concentrazione e studio",
+      "metaDescription": "Resta concentrato con un timer pomodoro per lavoro, studio, pause, obiettivi giornalieri, statistiche e cronologia delle sessioni.",
+      "featureBullets": [
+        {
+          "title": "Timer pomodoro per concentrazione e studio"
+        },
+        {
+          "title": "Lavoro, pausa breve e pausa lunga"
+        },
+        {
+          "title": "Impostazioni personalizzate di timer e pause"
+        },
+        {
+          "title": "Obiettivo giornaliero, minuti focus e sessioni"
+        },
+        {
+          "title": "Streak, giorni attivi e trend a 7 giorni"
+        },
+        {
+          "title": "Cronologia, avvisi e notifiche"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Concentrati una sessione alla volta",
+          "description": "Mostra il timer attivo con countdown chiaro, fase di lavoro evidente e interfaccia pulita pensata per mantenere alta la concentrazione.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-1.png"
+        },
+        {
+          "title": "Controlla i tuoi progressi",
+          "description": "Mostra statistiche come obiettivo giornaliero, sessioni di oggi, minuti di focus, streak, giorni attivi e trend a 7 giorni.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-2.png"
+        },
+        {
+          "title": "Adatta il timer al tuo metodo",
+          "description": "Mostra le impostazioni per durata del lavoro, pause, frequenza e avvisi per evidenziare flessibilità e personalizzazione.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Cosa posso monitorare con Pomodoro Focus Timer?",
+          "answer": "Puoi monitorare sessioni di lavoro, pause, obiettivo giornaliero, sessioni di oggi, minuti di concentrazione, streak, giorni attivi, trend a 7 giorni e cronologia completa."
+        },
+        {
+          "question": "Posso personalizzare durata delle sessioni e delle pause?",
+          "answer": "Sì. Puoi modificare durata del lavoro, pausa breve, pausa lunga, frequenza delle pause lunghe e obiettivo giornaliero."
+        },
+        {
+          "question": "L'app include notifiche e avvisi?",
+          "answer": "Sì. Pomodoro Focus Timer include suoni, avvisi di fase, notifiche e allarmi per aiutarti a restare nel flusso senza controllare continuamente il timer."
+        },
+        {
+          "question": "È adatta per studio e deep work?",
+          "answer": "Sì. È pensata per studio, lettura, programmazione, lavoro concentrato e qualsiasi attività che benefici di sessioni strutturate e pause regolari."
+        }
+      ]
+    },
+    "es": {
+      "name": "Pomodoro Focus Timer",
+      "summary": "Un temporizador pomodoro limpio para concentración, estudio, descansos, estadísticas e historial. Mantén el ritmo, evita la procrastinación y convierte sesiones cortas en progreso real.",
+      "longDescription": [
+        "Pomodoro Focus Timer es un temporizador pomodoro limpio y potente creado para ayudarte a concentrarte ahora, completar trabajo profundo y convertir sesiones cortas en progreso real. Ya sea para estudiar, trabajar, leer, programar o preparar exámenes, este focus timer mantiene tu ritmo con sesiones de trabajo, descansos cortos y descansos largos.",
+        "Empieza una sesión y deja que el temporizador gestione el flujo. Controla tu tiempo de trabajo, tiempo de descanso, objetivo diario, sesiones de hoy, minutos de concentración, racha, días activos y tendencia de 7 días en una sola app de productividad. Cada sesión completada se guarda en el historial para que puedas mantener la constancia con más claridad.",
+        "Personaliza la configuración según tu forma de trabajar. Ajusta la duración del trabajo, el descanso corto, el descanso largo, la frecuencia del descanso largo y la meta diaria. Activa o desactiva el sonido, elige alertas de fase y usa notificaciones o alarmas para no perder el ritmo.",
+        "La interfaz minimalista reduce distracciones para que puedas centrarte en sesiones de estudio, bloques de deep work y productividad real. Si buscas una app pomodoro sencilla pero útil de verdad, Pomodoro Focus Timer te da la estructura necesaria para seguir avanzando."
+      ],
+      "bottomCtaDescription": "Descarga Pomodoro Focus Timer y haz que concentrarte sea más fácil cada día. Ajusta tu ritmo, sigue tu progreso y aprovecha al máximo cada sesión.",
+      "category": "Temporizador Pomodoro",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "temporizador pomodoro",
+        "timer de enfoque",
+        "timer de estudio",
+        "app de productividad",
+        "deep work",
+        "temporizador de trabajo",
+        "pomodoro"
+      ],
+      "metaTitle": "Pomodoro Focus Timer - Temporizador de enfoque y estudio",
+      "metaDescription": "Mantén la concentración con un temporizador pomodoro para trabajo, estudio, pausas, metas diarias, estadísticas e historial de sesiones.",
+      "featureBullets": [
+        {
+          "title": "Temporizador pomodoro para enfoque y estudio"
+        },
+        {
+          "title": "Trabajo, descanso corto y descanso largo"
+        },
+        {
+          "title": "Ajustes personalizados de tiempo y pausas"
+        },
+        {
+          "title": "Meta diaria, minutos de enfoque y sesiones"
+        },
+        {
+          "title": "Racha, días activos y tendencia de 7 días"
+        },
+        {
+          "title": "Historial, alertas y notificaciones"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Concéntrate sesión a sesión",
+          "description": "Mostrar el temporizador activo con cuenta atrás clara, fase de trabajo visible y un diseño limpio que transmita concentración inmediata.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-1.png"
+        },
+        {
+          "title": "Sigue tu progreso diario",
+          "description": "Mostrar estadísticas como meta diaria, sesiones de hoy, minutos de enfoque, racha, días activos y tendencia de 7 días.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-2.png"
+        },
+        {
+          "title": "Adapta el timer a tu rutina",
+          "description": "Mostrar ajustes de duración de trabajo, descansos, frecuencia y alertas para destacar personalización y flexibilidad.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Qué puedo seguir con Pomodoro Focus Timer?",
+          "answer": "Puedes seguir sesiones de trabajo, descansos, meta diaria, sesiones de hoy, minutos de enfoque, racha, días activos, tendencia de 7 días e historial completo."
+        },
+        {
+          "question": "¿Puedo personalizar la duración de trabajo y descanso?",
+          "answer": "Sí. Puedes ajustar el trabajo, el descanso corto, el descanso largo, la frecuencia del descanso largo y la meta diaria según tu rutina."
+        },
+        {
+          "question": "¿La app incluye alertas y notificaciones?",
+          "answer": "Sí. Pomodoro Focus Timer ofrece sonido, alertas de fase, notificaciones y alarmas para ayudarte a seguir el ritmo sin mirar el temporizador todo el tiempo."
+        },
+        {
+          "question": "¿Sirve para estudiar y hacer trabajo profundo?",
+          "answer": "Sí. Está pensada para estudio, lectura, programación, trabajo concentrado y cualquier tarea que funcione mejor con sesiones estructuradas y pausas regulares."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Pomodoro Focus Timer",
+      "summary": "Um timer pomodoro limpo para foco, estudo, pausas, estatísticas e histórico. Mantenha o ritmo, reduza a procrastinação e transforme sessões curtas em progresso real.",
+      "longDescription": [
+        "Pomodoro Focus Timer é um timer pomodoro limpo e poderoso criado para ajudar você a focar agora, concluir sessões de trabalho profundo e transformar pequenos blocos de tempo em progresso real. Seja para estudar, trabalhar, ler, programar ou se preparar para provas, este focus timer mantém seu ritmo com sessões de trabalho, pausas curtas e pausas longas.",
+        "Inicie uma sessão e deixe o timer cuidar do fluxo. Acompanhe tempo de trabalho, tempo de pausa, meta diária, sessões de hoje, minutos de foco, sequência, dias ativos e tendência de 7 dias em um único app de produtividade. Cada sessão concluída é salva no histórico para ajudar você a manter consistência ao longo do tempo.",
+        "Personalize tudo do seu jeito. Ajuste duração do trabalho, pausa curta, pausa longa, frequência da pausa longa e meta diária. Ative ou desative o som, escolha alertas de fase e use notificações ou alarmes para seguir no ritmo sem perder o embalo.",
+        "A interface minimalista reduz distrações para que você fique concentrado em sessões de estudo, blocos de deep work e produtividade real. Se você procura um app pomodoro simples, claro e útil no dia a dia, Pomodoro Focus Timer oferece a estrutura certa para avançar com constância."
+      ],
+      "bottomCtaDescription": "Baixe Pomodoro Focus Timer e torne o foco mais fácil de começar e mais fácil de manter. Ajuste seu ritmo, acompanhe seu progresso e faça cada sessão valer a pena.",
+      "category": "Timer Pomodoro",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "timer pomodoro",
+        "timer de foco",
+        "timer de estudo",
+        "app de produtividade",
+        "deep work",
+        "timer de trabalho",
+        "pomodoro"
+      ],
+      "metaTitle": "Pomodoro Focus Timer - Timer de foco para estudo e trabalho",
+      "metaDescription": "Mantenha o foco com um timer pomodoro para estudo, trabalho, pausas, meta diária, estatísticas e histórico de sessões.",
+      "featureBullets": [
+        {
+          "title": "Timer pomodoro para foco e estudo"
+        },
+        {
+          "title": "Trabalho, pausa curta e pausa longa"
+        },
+        {
+          "title": "Configurações personalizadas de sessões"
+        },
+        {
+          "title": "Meta diária, minutos de foco e sessões"
+        },
+        {
+          "title": "Sequência, dias ativos e tendência de 7 dias"
+        },
+        {
+          "title": "Histórico, alertas e notificações"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Foque em uma sessão por vez",
+          "description": "Mostrar o timer ativo com contagem regressiva clara, fase de trabalho visível e uma interface limpa voltada para concentração.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-1.png"
+        },
+        {
+          "title": "Acompanhe seu progresso diário",
+          "description": "Mostrar estatísticas como meta diária, sessões de hoje, minutos de foco, sequência, dias ativos e tendência de 7 dias.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-2.png"
+        },
+        {
+          "title": "Ajuste o timer ao seu ritmo",
+          "description": "Mostrar as configurações de duração do trabalho, pausas, frequência e alertas para destacar personalização e praticidade.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "O que posso acompanhar com Pomodoro Focus Timer?",
+          "answer": "Você pode acompanhar sessões de trabalho, pausas, meta diária, sessões de hoje, minutos de foco, sequência, dias ativos, tendência de 7 dias e histórico completo."
+        },
+        {
+          "question": "Posso personalizar a duração das sessões e pausas?",
+          "answer": "Sim. Você pode ajustar tempo de trabalho, pausa curta, pausa longa, frequência da pausa longa e meta diária conforme sua rotina."
+        },
+        {
+          "question": "O app tem alertas e notificações?",
+          "answer": "Sim. Pomodoro Focus Timer inclui som, alertas de fase, notificações e alarmes para ajudar você a seguir no ritmo sem checar o timer o tempo todo."
+        },
+        {
+          "question": "É bom para estudo e trabalho profundo?",
+          "answer": "Sim. O app é ótimo para estudo, leitura, programação, foco intenso e qualquer tarefa que funcione melhor com sessões organizadas e pausas regulares."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Pomodoro Focus Timer",
+      "summary": "Čist pomodoro tajmer za fokus, učenje, pauze, statistiku i istoriju sesija. Održi ritam, smanji odugovlačenje i pretvori kratke sesije u stvaran napredak.",
+      "longDescription": [
+        "Pomodoro Focus Timer je čist i moćan pomodoro tajmer napravljen da ti pomogne da se fokusiraš odmah, završiš duboki rad i pretvoriš male sesije u stvaran napredak. Bilo da učiš, radiš, čitaš, programiraš ili se spremaš za ispite, ovaj fokus tajmer održava tvoj ritam uz radne sesije, kratke pauze i duge pauze.",
+        "Pokreni jednu sesiju i prepusti tajmeru da vodi tok rada. Prati radni tajmer, tajmer pauze, dnevni cilj, današnje sesije, minute fokusa, streak, aktivne dane i trend za 7 dana u jednoj jednostavnoj aplikaciji za produktivnost. Svaka završena sesija se čuva u istoriji, pa je lakše ostati dosljedan kroz vrijeme.",
+        "Prilagodi podešavanja svom načinu rada. Podesi trajanje rada, kratke pauze, duge pauze, učestalost duge pauze i dnevni cilj. Uključi ili isključi zvuk, izaberi fazna obavještenja i koristi notifikacije ili alarme da ostaneš na pravom putu bez gubitka ritma.",
+        "Minimalan interfejs smanjuje distrakcije kako bi ostao fokusiran na učenje, deep work blokove i produktivne sesije. Ako tražiš pomodoro aplikaciju koja je jednostavna za korišćenje, a dovoljno jaka da podrži prave navike, Pomodoro Focus Timer ti daje potrebnu strukturu."
+      ],
+      "bottomCtaDescription": "Instaliraj Pomodoro Focus Timer i učini fokus lakšim za početak i lakšim za održavanje. Podesi svoj ritam, prati napredak i izvuci maksimum iz svake sesije.",
+      "category": "Pomodoro tajmer",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "pomodoro tajmer",
+        "tajmer za fokus",
+        "tajmer za učenje",
+        "aplikacija za produktivnost",
+        "deep work",
+        "radni tajmer",
+        "pomodoro app"
+      ],
+      "metaTitle": "Pomodoro Focus Timer - Tajmer za fokus, učenje i rad",
+      "metaDescription": "Ostani fokusiran uz pomodoro tajmer za rad, učenje, pauze, dnevni cilj, statistiku i istoriju sesija. Napredak sesiju po sesiju.",
+      "featureBullets": [
+        {
+          "title": "Pomodoro tajmer za fokus i učenje"
+        },
+        {
+          "title": "Rad, kratka pauza i duga pauza"
+        },
+        {
+          "title": "Prilagođena podešavanja sesija i pauza"
+        },
+        {
+          "title": "Dnevni cilj, minute fokusa i današnje sesije"
+        },
+        {
+          "title": "Streak, aktivni dani i trend za 7 dana"
+        },
+        {
+          "title": "Istorija sesija, alarmi i obavještenja"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Fokusiraj se na jednu sesiju",
+          "description": "Prikaži aktivan pomodoro tajmer sa jasnim odbrojavanjem, vidljivom radnom fazom i čistim interfejsom bez ometanja.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-1.png"
+        },
+        {
+          "title": "Prati stvaran dnevni napredak",
+          "description": "Prikaži statistiku kao što su dnevni cilj, današnje sesije, minute fokusa, streak, aktivni dani i trend za 7 dana.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-2.png"
+        },
+        {
+          "title": "Prilagodi tajmer svom ritmu",
+          "description": "Prikaži podešavanja rada, kratkih i dugih pauza, učestalosti i obavještenja kako bi se istakla fleksibilnost aplikacije.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Šta mogu pratiti u aplikaciji Pomodoro Focus Timer?",
+          "answer": "Možeš pratiti radne sesije, pauze, dnevni cilj, današnje sesije, minute fokusa, streak, aktivne dane, trend za 7 dana i istoriju završenih sesija."
+        },
+        {
+          "question": "Mogu li prilagoditi trajanje rada i pauza?",
+          "answer": "Da. Možeš podesiti trajanje rada, kratke pauze, duge pauze, učestalost duge pauze i svoj dnevni cilj."
+        },
+        {
+          "question": "Da li aplikacija ima alarme i notifikacije?",
+          "answer": "Da. Pomodoro Focus Timer uključuje zvuk, fazna obavještenja, notifikacije i alarme kako bi ostao u ritmu bez stalnog gledanja u tajmer."
+        },
+        {
+          "question": "Da li je dobra za učenje i deep work?",
+          "answer": "Da. Aplikacija je odlična za učenje, čitanje, programiranje, fokusiran rad i sve zadatke koji traže strukturu i redovne pauze."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Pomodoro Focus Timer",
+      "summary": "Čist pomodoro timer za fokus, učenje, pauze, statistiku i povijest sesija. Održi ritam, smanji odugovlačenje i pretvori kratke sesije u stvarni napredak.",
+      "longDescription": [
+        "Pomodoro Focus Timer je čist i snažan pomodoro timer napravljen da ti pomogne da se fokusiraš odmah, dovršiš deep work i pretvoriš kratke sesije u stvarni napredak. Bilo da učiš, radiš, čitaš, programiraš ili se pripremaš za ispite, ovaj fokus timer održava tvoj ritam uz radne sesije, kratke pauze i duge pauze.",
+        "Pokreni jednu sesiju i prepusti timeru da vodi tok rada. Prati radni timer, timer pauze, dnevni cilj, današnje sesije, minute fokusa, streak, aktivne dane i 7-dnevni trend u jednoj jednostavnoj aplikaciji za produktivnost. Svaka završena sesija sprema se u povijest, pa je lakše graditi dosljednost kroz vrijeme.",
+        "Prilagodi postavke svom načinu rada. Podesi trajanje rada, kratke pauze, duge pauze, učestalost duge pauze i dnevni cilj. Uključi ili isključi zvuk, odaberi fazna upozorenja i koristi notifikacije ili alarme kako bi ostao na pravom putu bez gubitka ritma.",
+        "Minimalno sučelje smanjuje distrakcije kako bi ostao usmjeren na učenje, deep work blokove i produktivne sesije. Ako tražiš pomodoro aplikaciju koja je jednostavna za korištenje, a dovoljno snažna za stvaranje pravih navika, Pomodoro Focus Timer daje ti jasnu strukturu."
+      ],
+      "bottomCtaDescription": "Instaliraj Pomodoro Focus Timer i učini fokus lakšim za započeti i lakšim za održati. Podesi svoj ritam, prati napredak i iskoristi svaku sesiju bolje.",
+      "category": "Pomodoro timer",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "pomodoro timer",
+        "timer za fokus",
+        "timer za učenje",
+        "aplikacija za produktivnost",
+        "deep work",
+        "radni timer",
+        "pomodoro aplikacija"
+      ],
+      "metaTitle": "Pomodoro Focus Timer - Timer za fokus, učenje i rad",
+      "metaDescription": "Ostani fokusiran uz pomodoro timer za rad, učenje, pauze, dnevni cilj, statistiku i povijest sesija. Napredak sesiju po sesiju.",
+      "featureBullets": [
+        {
+          "title": "Pomodoro timer za fokus i učenje"
+        },
+        {
+          "title": "Rad, kratka pauza i duga pauza"
+        },
+        {
+          "title": "Prilagođene postavke sesija i pauza"
+        },
+        {
+          "title": "Dnevni cilj, minute fokusa i današnje sesije"
+        },
+        {
+          "title": "Streak, aktivni dani i 7-dnevni trend"
+        },
+        {
+          "title": "Povijest sesija, alarmi i notifikacije"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Fokusiraj se na jednu sesiju",
+          "description": "Prikaži aktivni pomodoro timer s jasnim odbrojavanjem, vidljivom radnom fazom i čistim sučeljem bez ometanja.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-1.png"
+        },
+        {
+          "title": "Prati stvarni dnevni napredak",
+          "description": "Prikaži statistiku kao što su dnevni cilj, današnje sesije, minute fokusa, streak, aktivni dani i 7-dnevni trend.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-2.png"
+        },
+        {
+          "title": "Prilagodi timer svojoj rutini",
+          "description": "Prikaži postavke trajanja rada, kratkih i dugih pauza, učestalosti i upozorenja kako bi se istaknula fleksibilnost.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Što mogu pratiti u aplikaciji Pomodoro Focus Timer?",
+          "answer": "Možeš pratiti radne sesije, pauze, dnevni cilj, današnje sesije, minute fokusa, streak, aktivne dane, 7-dnevni trend i povijest završenih sesija."
+        },
+        {
+          "question": "Mogu li prilagoditi trajanje rada i pauza?",
+          "answer": "Da. Možeš podesiti trajanje rada, kratke pauze, duge pauze, učestalost duge pauze i svoj dnevni cilj."
+        },
+        {
+          "question": "Ima li aplikacija alarme i notifikacije?",
+          "answer": "Da. Pomodoro Focus Timer uključuje zvuk, fazna upozorenja, notifikacije i alarme kako bi ostao u ritmu bez stalnog provjeravanja timera."
+        },
+        {
+          "question": "Je li dobra za učenje i deep work?",
+          "answer": "Da. Aplikacija je izvrsna za učenje, čitanje, programiranje, fokusiran rad i sve zadatke koji traže strukturirane sesije i redovite pauze."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Pomodoro Focus Timer",
+      "summary": "Een duidelijke pomodoro timer voor focus, studiesessies, pauzes, statistieken en geschiedenis. Werk consistenter, verminder uitstelgedrag en maak van korte sessies echte vooruitgang.",
+      "longDescription": [
+        "Pomodoro Focus Timer is een duidelijke en krachtige pomodoro timer die je helpt om nu te focussen, deep work af te ronden en van korte sessies echte vooruitgang te maken. Of je nu studeert, werkt, leest, programmeert of examens voorbereidt, deze focus timer houdt je ritme stabiel met werksessies, korte pauzes en lange pauzes.",
+        "Start één sessie en laat de timer de flow regelen. Houd je werktimer, pauzetimer, dagdoel, sessies van vandaag, focusminuten, streak, actieve dagen en 7-daagse trend bij in één overzichtelijke productiviteitsapp. Elke afgeronde sessie wordt opgeslagen in je geschiedenis, zodat je makkelijker consequent blijft.",
+        "Pas alles aan op jouw manier van werken. Stel werktijd, korte pauze, lange pauze, de frequentie van lange pauzes en je dagdoel in. Zet geluid aan of uit, kies fasewaarschuwingen en gebruik meldingen of alarmen om op koers te blijven zonder je momentum te verliezen.",
+        "De minimalistische interface houdt afleiding laag zodat je gefocust blijft op studiesessies, deep work-blokken en productieve taken. Zoek je een pomodoro app die eenvoudig aanvoelt maar sterk genoeg is om echte gewoontes op te bouwen, dan geeft Pomodoro Focus Timer je de juiste structuur."
+      ],
+      "bottomCtaDescription": "Installeer Pomodoro Focus Timer en maak gefocust werken makkelijker om te starten en makkelijker om vol te houden. Stel je ritme in, volg je voortgang en laat elke sessie tellen.",
+      "category": "Pomodoro timer",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "pomodoro timer",
+        "focus timer",
+        "studie timer",
+        "productiviteits app",
+        "deep work",
+        "werk timer",
+        "pomodoro app"
+      ],
+      "metaTitle": "Pomodoro Focus Timer - Focus timer voor studie en werk",
+      "metaDescription": "Blijf gefocust met een pomodoro timer voor werk, studie, pauzes, dagdoelen, statistieken en sessiegeschiedenis.",
+      "featureBullets": [
+        {
+          "title": "Pomodoro timer voor focus en studie"
+        },
+        {
+          "title": "Werk, korte pauze en lange pauze"
+        },
+        {
+          "title": "Aangepaste sessie- en pauze-instellingen"
+        },
+        {
+          "title": "Dagdoel, focusminuten en sessies vandaag"
+        },
+        {
+          "title": "Streak, actieve dagen en 7-daagse trend"
+        },
+        {
+          "title": "Geschiedenis, meldingen en waarschuwingen"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Focus op één sessie tegelijk",
+          "description": "Toon de actieve pomodoro timer met duidelijke aftelling, zichtbare werkfase en een rustige interface zonder afleiding.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-1.png"
+        },
+        {
+          "title": "Zie je dagelijkse voortgang",
+          "description": "Toon statistieken zoals dagdoel, sessies vandaag, focusminuten, streak, actieve dagen en de 7-daagse trend.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-2.png"
+        },
+        {
+          "title": "Pas de timer aan jouw ritme aan",
+          "description": "Toon instellingen voor werktijd, korte en lange pauzes, frequentie en waarschuwingen om flexibiliteit en personalisatie te benadrukken.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wat kan ik bijhouden met Pomodoro Focus Timer?",
+          "answer": "Je kunt werksessies, pauzes, dagdoel, sessies van vandaag, focusminuten, streak, actieve dagen, een 7-daagse trend en je sessiegeschiedenis bijhouden."
+        },
+        {
+          "question": "Kan ik de duur van werk en pauzes aanpassen?",
+          "answer": "Ja. Je kunt werktijd, korte pauze, lange pauze, de frequentie van lange pauzes en je dagdoel aanpassen aan je eigen routine."
+        },
+        {
+          "question": "Heeft de app meldingen en alarmen?",
+          "answer": "Ja. Pomodoro Focus Timer ondersteunt geluid, fasewaarschuwingen, meldingen en alarmen zodat je in je ritme blijft zonder steeds op de timer te kijken."
+        },
+        {
+          "question": "Is dit geschikt voor studie en deep work?",
+          "answer": "Ja. De app is ideaal voor studeren, lezen, programmeren, geconcentreerd werken en andere taken die profiteren van vaste sessies en regelmatige pauzes."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Pomodoro Focus Timer",
+      "summary": "Przejrzysty timer pomodoro do skupienia, nauki, przerw, statystyk i historii sesji. Ogranicz prokrastynację, utrzymaj rytm i zamień krótkie sesje w realny postęp.",
+      "longDescription": [
+        "Pomodoro Focus Timer to przejrzysty i mocny timer pomodoro stworzony po to, aby pomóc Ci skupić się od razu, kończyć głęboką pracę i zamieniać krótkie sesje w realny postęp. Niezależnie od tego, czy uczysz się, pracujesz, czytasz, programujesz czy przygotowujesz do egzaminów, ten focus timer utrzymuje Twój rytm dzięki sesjom pracy, krótkim przerwom i długim przerwom.",
+        "Uruchom jedną sesję i pozwól timerowi prowadzić cały cykl. Śledź czas pracy, czas przerwy, dzienny cel, dzisiejsze sesje, minuty skupienia, serię, aktywne dni i trend z 7 dni w jednej prostej aplikacji do produktywności. Każda ukończona sesja trafia do historii, dzięki czemu łatwiej budować systematyczność.",
+        "Dostosuj ustawienia do własnego stylu pracy. Ustaw długość pracy, krótkiej przerwy, długiej przerwy, częstotliwość długiej przerwy i dzienny cel. Włącz lub wyłącz dźwięk, wybierz alerty faz i korzystaj z powiadomień lub alarmów, aby utrzymać rytm bez utraty tempa.",
+        "Minimalistyczny interfejs ogranicza rozpraszacze i pomaga skupić się na nauce, blokach deep work i produktywnej pracy. Jeśli szukasz aplikacji pomodoro, która jest prosta, ale naprawdę wspiera dobre nawyki, Pomodoro Focus Timer daje Ci odpowiednią strukturę."
+      ],
+      "bottomCtaDescription": "Zainstaluj Pomodoro Focus Timer i spraw, by skupienie było łatwiejsze do rozpoczęcia i utrzymania. Ustaw własny rytm, śledź postępy i wykorzystuj każdą sesję lepiej.",
+      "category": "Timer Pomodoro",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "timer pomodoro",
+        "timer skupienia",
+        "timer do nauki",
+        "aplikacja produktywność",
+        "deep work",
+        "timer pracy",
+        "pomodoro app"
+      ],
+      "metaTitle": "Pomodoro Focus Timer - Timer skupienia do nauki i pracy",
+      "metaDescription": "Zachowaj skupienie dzięki timerowi pomodoro do pracy, nauki, przerw, celów dziennych, statystyk i historii sesji.",
+      "featureBullets": [
+        {
+          "title": "Timer pomodoro do skupienia i nauki"
+        },
+        {
+          "title": "Praca, krótka przerwa i długa przerwa"
+        },
+        {
+          "title": "Własne ustawienia sesji i przerw"
+        },
+        {
+          "title": "Cel dzienny, minuty skupienia i sesje"
+        },
+        {
+          "title": "Seria, aktywne dni i trend 7-dniowy"
+        },
+        {
+          "title": "Historia sesji, alerty i powiadomienia"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Skup się na jednej sesji",
+          "description": "Pokaż aktywny timer pomodoro z czytelnym odliczaniem, widoczną fazą pracy i prostym interfejsem bez rozpraszaczy.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-1.png"
+        },
+        {
+          "title": "Śledź codzienny postęp",
+          "description": "Pokaż statystyki takie jak cel dzienny, dzisiejsze sesje, minuty skupienia, seria, aktywne dni i trend z 7 dni.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-2.png"
+        },
+        {
+          "title": "Dopasuj timer do swojego rytmu",
+          "description": "Pokaż ustawienia czasu pracy, krótkiej i długiej przerwy, częstotliwości i alertów, aby podkreślić elastyczność aplikacji.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Co mogę śledzić w Pomodoro Focus Timer?",
+          "answer": "Możesz śledzić sesje pracy, przerwy, cel dzienny, dzisiejsze sesje, minuty skupienia, serię, aktywne dni, trend z 7 dni i historię ukończonych sesji."
+        },
+        {
+          "question": "Czy mogę ustawić własną długość pracy i przerw?",
+          "answer": "Tak. Możesz dostosować długość pracy, krótkiej przerwy, długiej przerwy, częstotliwość długiej przerwy i swój cel dzienny."
+        },
+        {
+          "question": "Czy aplikacja ma alerty i powiadomienia?",
+          "answer": "Tak. Pomodoro Focus Timer oferuje dźwięki, alerty faz, powiadomienia i alarmy, dzięki którym możesz pracować w rytmie bez ciągłego patrzenia na timer."
+        },
+        {
+          "question": "Czy nadaje się do nauki i deep work?",
+          "answer": "Tak. Aplikacja świetnie sprawdza się przy nauce, czytaniu, programowaniu, pracy w skupieniu i wszystkich zadaniach, które korzystają na strukturze i regularnych przerwach."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Pomodoro Focus Timer",
+      "summary": "Un timer pomodoro clar pentru concentrare, studiu, pauze, statistici și istoric. Redu procrastinarea, păstrează ritmul și transformă sesiunile scurte în progres real.",
+      "longDescription": [
+        "Pomodoro Focus Timer este un timer pomodoro clar și puternic, creat pentru a te ajuta să te concentrezi acum, să termini sesiuni de deep work și să transformi perioadele scurte în progres real. Fie că studiezi, lucrezi, citești, programezi sau te pregătești pentru examene, acest focus timer îți menține ritmul cu sesiuni de lucru, pauze scurte și pauze lungi.",
+        "Pornește o sesiune și lasă timerul să gestioneze tot fluxul. Urmărește timerul de lucru, timerul de pauză, obiectivul zilnic, sesiunile de azi, minutele de focus, streak-ul, zilele active și trendul pe 7 zile într-o singură aplicație de productivitate. Fiecare sesiune finalizată este salvată în istoric, ca să îți fie mai ușor să construiești consecvență.",
+        "Personalizează setările în funcție de stilul tău de lucru. Ajustează durata sesiunii de lucru, pauza scurtă, pauza lungă, frecvența pauzei lungi și obiectivul zilnic. Activează sau dezactivează sunetul, alege alertele de fază și folosește notificări sau alarme ca să rămâi pe traseu fără să îți pierzi ritmul.",
+        "Interfața minimalistă reduce distragerile și te ajută să rămâi concentrat pe sesiuni de studiu, blocuri de deep work și productivitate reală. Dacă vrei o aplicație pomodoro simplă, dar suficient de puternică pentru a susține obiceiuri bune, Pomodoro Focus Timer îți oferă structura potrivită."
+      ],
+      "bottomCtaDescription": "Instalează Pomodoro Focus Timer și fă focusul mai ușor de început și mai ușor de păstrat. Setează-ți ritmul, urmărește progresul și valorifică fiecare sesiune.",
+      "category": "Timer Pomodoro",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "timer pomodoro",
+        "timer focus",
+        "timer studiu",
+        "aplicație productivitate",
+        "deep work",
+        "timer lucru",
+        "pomodoro"
+      ],
+      "metaTitle": "Pomodoro Focus Timer - Timer de focus pentru studiu și muncă",
+      "metaDescription": "Rămâi concentrat cu un timer pomodoro pentru muncă, studiu, pauze, obiective zilnice, statistici și istoric al sesiunilor.",
+      "featureBullets": [
+        {
+          "title": "Timer pomodoro pentru focus și studiu"
+        },
+        {
+          "title": "Lucru, pauză scurtă și pauză lungă"
+        },
+        {
+          "title": "Setări personalizate pentru sesiuni și pauze"
+        },
+        {
+          "title": "Obiectiv zilnic, minute de focus și sesiuni"
+        },
+        {
+          "title": "Streak, zile active și trend pe 7 zile"
+        },
+        {
+          "title": "Istoric, alerte și notificări"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Concentrează-te pe o singură sesiune",
+          "description": "Arată timerul pomodoro activ cu countdown clar, fază de lucru vizibilă și o interfață simplă, fără distrageri.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-1.png"
+        },
+        {
+          "title": "Vezi progresul zilnic",
+          "description": "Arată statistici precum obiectivul zilnic, sesiunile de azi, minutele de focus, streak-ul, zilele active și trendul pe 7 zile.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-2.png"
+        },
+        {
+          "title": "Ajustează timerul după stilul tău",
+          "description": "Arată setările pentru durata lucrului, pauzelor, frecvență și alerte pentru a evidenția flexibilitatea aplicației.",
+          "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Ce pot urmări în Pomodoro Focus Timer?",
+          "answer": "Poți urmări sesiuni de lucru, pauze, obiectivul zilnic, sesiunile de azi, minutele de focus, streak-ul, zilele active, trendul pe 7 zile și istoricul complet."
+        },
+        {
+          "question": "Pot personaliza durata muncii și a pauzelor?",
+          "answer": "Da. Poți ajusta durata sesiunii de lucru, pauza scurtă, pauza lungă, frecvența pauzei lungi și obiectivul tău zilnic."
+        },
+        {
+          "question": "Aplicația include alerte și notificări?",
+          "answer": "Da. Pomodoro Focus Timer include sunet, alerte de fază, notificări și alarme pentru a te ajuta să rămâi în ritm fără să verifici constant timerul."
+        },
+        {
+          "question": "Este potrivită pentru studiu și deep work?",
+          "answer": "Da. Aplicația este excelentă pentru studiu, citit, programare, muncă concentrată și orice activitate care are nevoie de sesiuni structurate și pauze regulate."
+        }
+      ]
+    }
+  }
+}

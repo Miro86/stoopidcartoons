@@ -1,0 +1,910 @@
+{
+  "slug": "intermittent-fasting",
+  "sortOrder": 8,
+  "kind": "app",
+  "featured": false,
+  "accent": "green",
+  "icon": "apps/icons/intermittent-fasting.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.intermittentfasting",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "HealthApplication",
+  "relatedSlugs": [
+    "hiit-timer",
+    "water-reminder",
+    "habit-tracker"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Intermittent Fasting",
+      "summary": "A simple intermittent fasting tracker with timer, plans, reminders, journal, and progress insights. Stay consistent, follow your fasting schedule, and understand your results with a clean daily app.",
+      "longDescription": [
+        "Intermittent Fasting is a clean and easy fasting tracker designed to help you stay consistent, follow your plan, and understand your progress. Start a fast in seconds, watch your active session with a clear countdown timer, and save each completed fast when you are done.",
+        "Choose from popular intermittent fasting plans like 16:8, 18:6, 20:4, and OMAD, or create a custom fasting schedule that fits your routine. Whether you are new to fasting or already following a structured plan, the app gives you a simple way to stay organized every day.",
+        "Intermittent Fasting also helps you build stronger habits with practical tracking tools. Review your fasting journal, follow your streak, check your longest fast, and see your weekly fasting hours in one clear overview designed to keep you motivated.",
+        "With smart reminders, notifications, language settings, and a clean dark design built for daily use, Intermittent Fasting keeps the experience simple and focused. It gives you the structure, clarity, and consistency you need to make fasting easier to follow."
+      ],
+      "bottomCtaDescription": "Install Intermittent Fasting to keep your routine simple, clear, and consistent. Start a fast in seconds, follow your plan with confidence, and track meaningful progress every day.",
+      "category": "Fasting Tracker",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "intermittent fasting",
+        "fasting tracker",
+        "fasting timer",
+        "fasting app",
+        "16:8 fasting",
+        "OMAD tracker",
+        "fasting journal"
+      ],
+      "metaTitle": "Intermittent Fasting - Fasting Tracker, Timer & Plans",
+      "metaDescription": "Track fasting with a clean timer, popular plans, reminders, journal, and insights. Intermittent Fasting helps you stay consistent every day.",
+      "featureBullets": [
+        {
+          "title": "Live Fasting Countdown"
+        },
+        {
+          "title": "16:8, 18:6, 20:4 and OMAD Plans"
+        },
+        {
+          "title": "Custom Fasting Schedules"
+        },
+        {
+          "title": "Saved Fasting Journal"
+        },
+        {
+          "title": "Streak, Longest Fast and Weekly Insights"
+        },
+        {
+          "title": "Smart Reminders and Notifications"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Track Your Fast Clearly",
+          "description": "Show the active fasting session with a clean live countdown timer, a clear fasting state, and a minimal interface that feels calm and easy to follow.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-1.png"
+        },
+        {
+          "title": "Choose the Right Plan",
+          "description": "Show popular fasting plans such as 16:8, 18:6, 20:4, and OMAD, with a clean selection flow that communicates flexibility and simplicity.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-2.png"
+        },
+        {
+          "title": "See Your Progress",
+          "description": "Show the journal and insights view with streak, longest fast, and weekly fasting hours to highlight habit building and visible progress.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What can I track with Intermittent Fasting?",
+          "answer": "You can track active fasting sessions, saved fasts, your streak, longest fast, weekly fasting hours, and your fasting journal."
+        },
+        {
+          "question": "Does the app support popular fasting plans like 16:8 and OMAD?",
+          "answer": "Yes. Intermittent Fasting includes popular plans such as 16:8, 18:6, 20:4, and OMAD, and also lets you create a custom schedule."
+        },
+        {
+          "question": "Can I use reminders for my fasting routine?",
+          "answer": "Yes. The app includes smart reminders and notifications to help you stay on schedule and stay consistent."
+        },
+        {
+          "question": "Is Intermittent Fasting suitable for beginners?",
+          "answer": "Yes. The app is designed to be simple and clear, making it easy for beginners to start while still being useful for experienced users."
+        }
+      ]
+    },
+    "de": {
+      "name": "Intermittent Fasting",
+      "summary": "Ein übersichtlicher Intervallfasten-Tracker mit Timer, Fastenplänen, Erinnerungen, Journal und Fortschrittsübersicht. Behalte deinen Rhythmus im Blick und verfolge deine Fastenzeiten ganz einfach.",
+      "longDescription": [
+        "Intermittent Fasting ist ein übersichtlicher und einfach zu nutzender Fasten-Tracker, der dir hilft, konsequent zu bleiben, deinen Plan einzuhalten und deinen Fortschritt besser zu verstehen. Starte dein Fasten in wenigen Sekunden, verfolge deine aktive Phase mit einem klaren Countdown und speichere jede abgeschlossene Fastensitzung.",
+        "Wähle aus beliebten Intervallfasten-Plänen wie 16:8, 18:6, 20:4 und OMAD oder erstelle einen eigenen Zeitplan, der zu deinem Alltag passt. Egal ob du gerade anfängst oder bereits eine feste Routine hast, die App gibt dir Struktur ohne unnötige Komplexität.",
+        "Intermittent Fasting unterstützt dich außerdem beim Aufbau guter Gewohnheiten. Sieh dir dein Fasten-Journal an, verfolge deine Serie, prüfe dein längstes Fasten und behalte deine wöchentlichen Fastenstunden in einer klaren Übersicht im Blick.",
+        "Mit smarten Erinnerungen, Benachrichtigungen, Spracheinstellungen und einem cleanen Dark Mode für den täglichen Einsatz bleibt alles fokussiert und leicht verständlich. Intermittent Fasting gibt dir die Klarheit, die du für eine beständige Fastenroutine brauchst."
+      ],
+      "bottomCtaDescription": "Installiere Intermittent Fasting und halte deine Fastenroutine einfach, klar und zuverlässig ein. Starte deine Fastenzeit in Sekunden und verfolge deinen Fortschritt Tag für Tag.",
+      "category": "Fasten-Tracker",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Intervallfasten",
+        "Fasten Tracker",
+        "Fasten App",
+        "Fasten Timer",
+        "16:8 Fasten",
+        "OMAD App",
+        "Fasten Journal"
+      ],
+      "metaTitle": "Intermittent Fasting - Fasten Tracker, Timer & Pläne",
+      "metaDescription": "Verfolge deine Fastenzeiten mit Timer, beliebten Fastenplänen, Erinnerungen, Journal und Auswertungen. Einfach, klar und alltagstauglich.",
+      "featureBullets": [
+        {
+          "title": "Fasten-Timer mit Live-Countdown"
+        },
+        {
+          "title": "Pläne wie 16:8, 18:6, 20:4 und OMAD"
+        },
+        {
+          "title": "Eigene Fastenpläne erstellen"
+        },
+        {
+          "title": "Journal für gespeicherte Fasten"
+        },
+        {
+          "title": "Serie, längstes Fasten und Wochenübersicht"
+        },
+        {
+          "title": "Smarte Erinnerungen und Benachrichtigungen"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Fasten klar verfolgen",
+          "description": "Zeige die aktive Fastensitzung mit einem gut lesbaren Countdown, klarem Status und ruhigem, cleanem Interface.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-1.png"
+        },
+        {
+          "title": "Passenden Plan wählen",
+          "description": "Zeige beliebte Fastenpläne wie 16:8, 18:6, 20:4 und OMAD in einer klaren Auswahlansicht, die Einfachheit und Flexibilität vermittelt.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-2.png"
+        },
+        {
+          "title": "Fortschritt im Blick behalten",
+          "description": "Zeige Journal und Auswertungen mit Serie, längstem Fasten und wöchentlichen Fastenstunden, um Gewohnheiten und Fortschritt sichtbar zu machen.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Was kann ich mit Intermittent Fasting verfolgen?",
+          "answer": "Du kannst aktive Fastenphasen, gespeicherte Fasten, deine Serie, dein längstes Fasten, deine wöchentlichen Fastenstunden und dein Fasten-Journal verfolgen."
+        },
+        {
+          "question": "Unterstützt die App Fastenpläne wie 16:8 und OMAD?",
+          "answer": "Ja. Intermittent Fasting enthält beliebte Pläne wie 16:8, 18:6, 20:4 und OMAD sowie individuelle Zeitpläne."
+        },
+        {
+          "question": "Gibt es Erinnerungen für meine Fastenroutine?",
+          "answer": "Ja. Die App bietet smarte Erinnerungen und Benachrichtigungen, damit du deinen Zeitplan leichter einhalten kannst."
+        },
+        {
+          "question": "Ist die App auch für Einsteiger geeignet?",
+          "answer": "Ja. Das Design ist bewusst einfach und klar gehalten, damit auch Anfänger direkt starten können."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Intermittent Fasting",
+      "summary": "Une application de jeûne intermittent simple avec minuteur, programmes, rappels, journal et statistiques. Suivez votre routine plus facilement et visualisez vos progrès au quotidien.",
+      "longDescription": [
+        "Intermittent Fasting est une application de jeûne intermittent claire et facile à utiliser, conçue pour vous aider à rester régulier, suivre votre programme et mieux comprendre vos progrès. Démarrez un jeûne en quelques secondes, visualisez votre session active avec un compte à rebours précis et enregistrez chaque session terminée.",
+        "Choisissez parmi des plans de jeûne populaires comme 16:8, 18:6, 20:4 et OMAD, ou créez un planning personnalisé adapté à votre rythme de vie. Que vous débutiez ou que vous suiviez déjà une routine, l'application vous aide à garder une structure simple et pratique.",
+        "Intermittent Fasting vous aide aussi à construire de meilleures habitudes. Consultez votre journal de jeûne, suivez votre série, vérifiez votre jeûne le plus long et visualisez vos heures de jeûne hebdomadaires dans une vue d'ensemble motivante.",
+        "Avec des rappels intelligents, des notifications, des réglages de langue et un design sombre épuré pensé pour un usage quotidien, tout reste clair et facile à suivre. Intermittent Fasting vous apporte la structure dont vous avez besoin pour jeûner avec plus de régularité."
+      ],
+      "bottomCtaDescription": "Installez Intermittent Fasting pour garder une routine de jeûne claire, simple et régulière. Lancez un jeûne en quelques secondes et suivez vos progrès avec plus de constance.",
+      "category": "Suivi du jeûne",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "jeûne intermittent",
+        "suivi du jeûne",
+        "minuteur de jeûne",
+        "application jeûne",
+        "16:8",
+        "OMAD",
+        "journal de jeûne"
+      ],
+      "metaTitle": "Intermittent Fasting - Minuteur et suivi du jeûne",
+      "metaDescription": "Suivez votre jeûne avec un minuteur, des programmes 16:8, OMAD, des rappels, un journal et des statistiques claires au quotidien.",
+      "featureBullets": [
+        {
+          "title": "Compte à rebours du jeûne en direct"
+        },
+        {
+          "title": "Programmes 16:8, 18:6, 20:4 et OMAD"
+        },
+        {
+          "title": "Horaires personnalisés"
+        },
+        {
+          "title": "Journal des jeûnes enregistrés"
+        },
+        {
+          "title": "Série, plus long jeûne et heures hebdomadaires"
+        },
+        {
+          "title": "Rappels intelligents et notifications"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Suivez votre jeûne facilement",
+          "description": "Montrer une session de jeûne active avec un minuteur clair, un état bien visible et une interface minimaliste rassurante.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-1.png"
+        },
+        {
+          "title": "Choisissez votre programme",
+          "description": "Montrer les plans 16:8, 18:6, 20:4 et OMAD dans un écran simple qui met en avant la flexibilité et la facilité d'utilisation.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-2.png"
+        },
+        {
+          "title": "Visualisez vos progrès",
+          "description": "Montrer le journal et les statistiques avec la série, le plus long jeûne et les heures hebdomadaires pour illustrer la progression.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Que puis-je suivre avec Intermittent Fasting ?",
+          "answer": "Vous pouvez suivre vos sessions actives, vos jeûnes enregistrés, votre série, votre jeûne le plus long, vos heures hebdomadaires et votre journal."
+        },
+        {
+          "question": "L'application prend-elle en charge les plans 16:8 et OMAD ?",
+          "answer": "Oui. Intermittent Fasting propose des plans populaires comme 16:8, 18:6, 20:4 et OMAD, ainsi qu'un planning personnalisé."
+        },
+        {
+          "question": "Puis-je utiliser des rappels pour ma routine de jeûne ?",
+          "answer": "Oui. L'application inclut des rappels intelligents et des notifications pour vous aider à rester régulier."
+        },
+        {
+          "question": "Est-ce adapté aux débutants ?",
+          "answer": "Oui. L'application a été conçue pour rester simple, claire et pratique, même si vous débutez le jeûne intermittent."
+        }
+      ]
+    },
+    "it": {
+      "name": "Intermittent Fasting",
+      "summary": "Un'app semplice per il digiuno intermittente con timer, piani, promemoria, diario e statistiche. Segui la tua routine con più costanza e controlla i tuoi progressi in modo chiaro.",
+      "longDescription": [
+        "Intermittent Fasting è un tracker per il digiuno intermittente semplice e pulito, pensato per aiutarti a restare costante, seguire il tuo piano e capire meglio i tuoi progressi. Avvia un digiuno in pochi secondi, controlla la sessione attiva con un conto alla rovescia chiaro e salva ogni sessione quando hai finito.",
+        "Puoi scegliere tra piani popolari come 16:8, 18:6, 20:4 e OMAD, oppure creare un programma personalizzato adatto alla tua routine. Che tu stia iniziando ora o che segua già un ritmo preciso, l'app ti offre una struttura chiara e facile da usare.",
+        "Intermittent Fasting ti aiuta anche a costruire abitudini migliori con strumenti utili ma semplici. Consulta il diario dei digiuni salvati, segui la tua serie, controlla il digiuno più lungo e visualizza le ore di digiuno settimanali in una panoramica motivante.",
+        "Con promemoria intelligenti, notifiche, impostazioni della lingua e un design scuro pulito pensato per l'uso quotidiano, tutto resta chiaro e immediato. Intermittent Fasting ti dà la struttura giusta per seguire il digiuno con più continuità."
+      ],
+      "bottomCtaDescription": "Scarica Intermittent Fasting per rendere la tua routine di digiuno più semplice, ordinata e costante. Avvia un digiuno in pochi secondi e tieni sotto controllo i tuoi risultati ogni giorno.",
+      "category": "Tracker del digiuno",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "digiuno intermittente",
+        "tracker digiuno",
+        "timer digiuno",
+        "app digiuno",
+        "16:8",
+        "OMAD",
+        "diario digiuno"
+      ],
+      "metaTitle": "Intermittent Fasting - Timer e tracker del digiuno",
+      "metaDescription": "Segui il digiuno con timer, piani 16:8 e OMAD, promemoria, diario e statistiche. Un'app chiara per restare costante ogni giorno.",
+      "featureBullets": [
+        {
+          "title": "Timer del digiuno con conto alla rovescia"
+        },
+        {
+          "title": "Piani 16:8, 18:6, 20:4 e OMAD"
+        },
+        {
+          "title": "Programmi personalizzati"
+        },
+        {
+          "title": "Diario dei digiuni salvati"
+        },
+        {
+          "title": "Serie, digiuno più lungo e ore settimanali"
+        },
+        {
+          "title": "Promemoria intelligenti e notifiche"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Segui il digiuno con chiarezza",
+          "description": "Mostra la sessione attiva con timer ben leggibile, stato del digiuno chiaro e interfaccia pulita e rilassante.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-1.png"
+        },
+        {
+          "title": "Scegli il piano migliore",
+          "description": "Mostra i piani 16:8, 18:6, 20:4 e OMAD in una schermata semplice che comunichi flessibilità e facilità d'uso.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-2.png"
+        },
+        {
+          "title": "Controlla i tuoi progressi",
+          "description": "Mostra diario e statistiche con serie, digiuno più lungo e ore settimanali per evidenziare costanza e risultati.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Cosa posso monitorare con Intermittent Fasting?",
+          "answer": "Puoi monitorare la sessione attiva, i digiuni salvati, la tua serie, il digiuno più lungo, le ore settimanali e il diario del digiuno."
+        },
+        {
+          "question": "L'app supporta piani come 16:8 e OMAD?",
+          "answer": "Sì. Intermittent Fasting include piani popolari come 16:8, 18:6, 20:4 e OMAD, oltre alla possibilità di creare programmi personalizzati."
+        },
+        {
+          "question": "Posso usare promemoria per la mia routine?",
+          "answer": "Sì. L'app include promemoria intelligenti e notifiche per aiutarti a rispettare il tuo programma di digiuno."
+        },
+        {
+          "question": "È adatta anche a chi inizia?",
+          "answer": "Sì. L'interfaccia è semplice e chiara, quindi è adatta sia ai principianti sia a chi segue già il digiuno intermittente."
+        }
+      ]
+    },
+    "es": {
+      "name": "Intermittent Fasting",
+      "summary": "Una app clara de ayuno intermitente con temporizador, planes, recordatorios, diario y estadísticas. Sigue tu rutina con más constancia y entiende tu progreso de forma sencilla.",
+      "longDescription": [
+        "Intermittent Fasting es una aplicación de ayuno intermitente limpia y fácil de usar, creada para ayudarte a ser constante, seguir tu plan y entender mejor tu progreso. Empieza un ayuno en segundos, sigue la sesión activa con una cuenta atrás clara y guarda cada ayuno cuando termines.",
+        "Elige entre planes populares como 16:8, 18:6, 20:4 y OMAD, o crea un horario personalizado que se adapte a tu rutina. Tanto si estás empezando como si ya sigues un método definido, la app te da una estructura simple para organizar tu día.",
+        "Intermittent Fasting también te ayuda a crear mejores hábitos con herramientas útiles y fáciles de entender. Revisa tu diario de ayunos, sigue tu racha, consulta tu ayuno más largo y mira tus horas semanales de ayuno en una vista clara y motivadora.",
+        "Con recordatorios inteligentes, notificaciones, ajustes de idioma y un diseño oscuro limpio pensado para el uso diario, todo resulta más sencillo y enfocado. Intermittent Fasting te da la claridad que necesitas para mantener tu rutina."
+      ],
+      "bottomCtaDescription": "Descarga Intermittent Fasting y mantén tu rutina de ayuno simple, clara y constante. Empieza cada ayuno en segundos y sigue tu progreso con más control cada día.",
+      "category": "Seguimiento de ayuno",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "ayuno intermitente",
+        "app de ayuno",
+        "temporizador de ayuno",
+        "seguimiento de ayuno",
+        "16:8",
+        "OMAD",
+        "diario de ayuno"
+      ],
+      "metaTitle": "Intermittent Fasting - Temporizador y app de ayuno",
+      "metaDescription": "Controla tu ayuno con temporizador, planes 16:8 y OMAD, recordatorios, diario y estadísticas. Una app simple para seguir tu rutina.",
+      "featureBullets": [
+        {
+          "title": "Temporizador de ayuno en vivo"
+        },
+        {
+          "title": "Planes 16:8, 18:6, 20:4 y OMAD"
+        },
+        {
+          "title": "Horarios personalizados"
+        },
+        {
+          "title": "Diario de ayunos guardados"
+        },
+        {
+          "title": "Racha, ayuno más largo y horas semanales"
+        },
+        {
+          "title": "Recordatorios inteligentes y notificaciones"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Sigue tu ayuno con claridad",
+          "description": "Mostrar la sesión activa con una cuenta atrás clara, estado visible y una interfaz limpia y sencilla para el uso diario.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-1.png"
+        },
+        {
+          "title": "Elige tu plan ideal",
+          "description": "Mostrar planes populares como 16:8, 18:6, 20:4 y OMAD en una vista simple que transmita flexibilidad y facilidad.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-2.png"
+        },
+        {
+          "title": "Consulta tu progreso",
+          "description": "Mostrar el diario y las estadísticas con racha, ayuno más largo y horas semanales para reforzar constancia y avance.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Qué puedo registrar con Intermittent Fasting?",
+          "answer": "Puedes registrar sesiones activas, ayunos guardados, tu racha, el ayuno más largo, las horas semanales y tu diario de ayuno."
+        },
+        {
+          "question": "¿La app incluye planes como 16:8 y OMAD?",
+          "answer": "Sí. Intermittent Fasting incluye planes populares como 16:8, 18:6, 20:4 y OMAD, además de horarios personalizados."
+        },
+        {
+          "question": "¿Puedo usar recordatorios para mi rutina de ayuno?",
+          "answer": "Sí. La app incluye recordatorios inteligentes y notificaciones para ayudarte a mantener la constancia."
+        },
+        {
+          "question": "¿Sirve también para principiantes?",
+          "answer": "Sí. La aplicación está diseñada para ser clara y fácil de usar, tanto si empiezas ahora como si ya tienes experiencia."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Intermittent Fasting",
+      "summary": "Um app simples de jejum intermitente com temporizador, planos, lembretes, diário e insights. Acompanhe sua rotina com mais clareza e mantenha a consistência no dia a dia.",
+      "longDescription": [
+        "Intermittent Fasting é um app de jejum intermitente limpo e fácil de usar, criado para ajudar você a manter a consistência, seguir seu plano e entender melhor seu progresso. Inicie um jejum em segundos, acompanhe a sessão ativa com uma contagem regressiva clara e salve cada sessão ao terminar.",
+        "Escolha entre planos populares como 16:8, 18:6, 20:4 e OMAD, ou crie um horário personalizado que combine com sua rotina. Seja para quem está começando agora ou para quem já segue um método definido, o app oferece uma estrutura simples e prática.",
+        "Intermittent Fasting também ajuda a construir hábitos melhores com ferramentas úteis e diretas. Revise seu diário de jejuns, acompanhe sua sequência, veja o seu jejum mais longo e confira suas horas semanais em uma visão clara e motivadora.",
+        "Com lembretes inteligentes, notificações, configurações de idioma e um visual escuro limpo para o uso diário, tudo fica mais organizado e fácil de seguir. Intermittent Fasting oferece a clareza que você precisa para manter seu jejum com regularidade."
+      ],
+      "bottomCtaDescription": "Baixe Intermittent Fasting e torne sua rotina de jejum mais simples, organizada e constante. Inicie um jejum em segundos e acompanhe sua evolução com mais clareza todos os dias.",
+      "category": "Monitor de jejum",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "jejum intermitente",
+        "app de jejum",
+        "temporizador de jejum",
+        "monitor de jejum",
+        "16:8",
+        "OMAD",
+        "diário de jejum"
+      ],
+      "metaTitle": "Intermittent Fasting - Temporizador e app de jejum",
+      "metaDescription": "Acompanhe seu jejum com temporizador, planos 16:8 e OMAD, lembretes, diário e insights. Um app simples para manter a rotina.",
+      "featureBullets": [
+        {
+          "title": "Temporizador de jejum com contagem ao vivo"
+        },
+        {
+          "title": "Planos 16:8, 18:6, 20:4 e OMAD"
+        },
+        {
+          "title": "Horários personalizados"
+        },
+        {
+          "title": "Diário de jejuns salvos"
+        },
+        {
+          "title": "Sequência, maior jejum e horas semanais"
+        },
+        {
+          "title": "Lembretes inteligentes e notificações"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Acompanhe seu jejum com clareza",
+          "description": "Mostrar a sessão ativa com contagem regressiva clara, status visível e uma interface limpa pensada para uso diário.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-1.png"
+        },
+        {
+          "title": "Escolha o plano ideal",
+          "description": "Mostrar planos populares como 16:8, 18:6, 20:4 e OMAD em uma tela simples que destaque flexibilidade e praticidade.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-2.png"
+        },
+        {
+          "title": "Veja sua evolução",
+          "description": "Mostrar o diário e os insights com sequência, maior jejum e horas semanais para destacar progresso e consistência.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "O que posso acompanhar com Intermittent Fasting?",
+          "answer": "Você pode acompanhar sessões ativas, jejuns salvos, sua sequência, o maior jejum, as horas semanais e seu diário de jejum."
+        },
+        {
+          "question": "O app inclui planos como 16:8 e OMAD?",
+          "answer": "Sim. Intermittent Fasting inclui planos populares como 16:8, 18:6, 20:4 e OMAD, além de horários personalizados."
+        },
+        {
+          "question": "Posso usar lembretes na minha rotina de jejum?",
+          "answer": "Sim. O app inclui lembretes inteligentes e notificações para ajudar você a seguir seu plano com mais consistência."
+        },
+        {
+          "question": "É bom para iniciantes?",
+          "answer": "Sim. O aplicativo foi feito para ser simples e claro, funcionando bem tanto para quem está começando quanto para quem já tem experiência."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Intermittent Fasting",
+      "summary": "Једноставна апликација за intermittent fasting са тајмером, плановима, подсјетницима, дневником и увидима. Прати своју рутину лакше и јасније разуми свој напредак.",
+      "longDescription": [
+        "Intermittent Fasting је чиста и једноставна апликација за праћење поста, направљена да ти помогне да останеш досљедан, пратитиш свој план и боље разумијеш напредак. Покрени пост за неколико секунди, прати активну сесију уз јасан countdown тајмер и сачувај сваку завршену сесију.",
+        "Изабери популарне планове као што су 16:8, 18:6, 20:4 и OMAD или направи властити распоред који одговара твојој рутини. Било да тек почињеш или већ имаш своју навику, апликација ти даје јасну структуру без непотребне компликације.",
+        "Intermittent Fasting ти помаже и да изградиш боље навике уз корисне и једноставне алате. Прегледај дневник поста, прати свој streak, провјери најдужи пост и види седмичне сате поста у прегледу који мотивише.",
+        "Уз паметне подсјетнике, нотификације, подешавања језика и чист dark дизајн направљен за свакодневну употребу, све остаје прегледно и једноставно. Intermittent Fasting ти даје структуру и јасноћу потребну за редовну рутину поста."
+      ],
+      "bottomCtaDescription": "Инсталирај Intermittent Fasting и учини своју рутину поста једноставнијом, јаснијом и досљеднијом. Покрени пост за неколико секунди и прати свој напредак сваки дан.",
+      "category": "Праћење поста",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "intermittent fasting",
+        "апликација за пост",
+        "тајмер поста",
+        "праћење поста",
+        "16:8 пост",
+        "OMAD",
+        "дневник поста"
+      ],
+      "metaTitle": "Intermittent Fasting - Тајмер и праћење поста",
+      "metaDescription": "Прати свој пост уз тајмер, планове 16:8 и OMAD, подсјетнике, дневник и увиде. Једноставна апликација за свакодневну рутину.",
+      "featureBullets": [
+        {
+          "title": "Тајмер поста са countdown приказом"
+        },
+        {
+          "title": "Планови 16:8, 18:6, 20:4 и OMAD"
+        },
+        {
+          "title": "Прилагођени распореди поста"
+        },
+        {
+          "title": "Дневник сачуваних постова"
+        },
+        {
+          "title": "Streak, најдужи пост и седмични увиди"
+        },
+        {
+          "title": "Паметни подсјетници и нотификације"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Прати пост јасно и лако",
+          "description": "Прикажи активну сесију поста са јасним тајмером, видљивим статусом и чистим интерфејсом који дјелује смирено и лако за коришћење.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-1.png"
+        },
+        {
+          "title": "Изабери прави план",
+          "description": "Прикажи популарне планове 16:8, 18:6, 20:4 и OMAD у једноставном избору који наглашава флексибилност и лакоћу.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-2.png"
+        },
+        {
+          "title": "Види свој напредак",
+          "description": "Прикажи дневник и увиде са streak-ом, најдужим постом и седмичним сатима како би се истакли навика и напредак.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Шта могу пратити у апликацији Intermittent Fasting?",
+          "answer": "Можеш пратити активне сесије, сачуване постове, streak, најдужи пост, седмичне сате поста и свој дневник."
+        },
+        {
+          "question": "Да ли апликација подржава планове као 16:8 и OMAD?",
+          "answer": "Да. Intermittent Fasting укључује популарне планове као што су 16:8, 18:6, 20:4 и OMAD, као и прилагођене распореде."
+        },
+        {
+          "question": "Могу ли користити подсјетнике за рутину поста?",
+          "answer": "Да. Апликација има паметне подсјетнике и нотификације који ти помажу да останеш досљедан свом плану."
+        },
+        {
+          "question": "Да ли је апликација добра за почетнике?",
+          "answer": "Да. Дизајнирана је да буде једноставна и прегледна, па добро одговара и почетницима и корисницима са већ оформљеном рутином."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Intermittent Fasting",
+      "summary": "Jednostavna aplikacija za intermittent fasting s timerom, planovima, podsjetnicima, dnevnikom i uvidima. Lakše prati svoju rutinu i jasnije razumij svoj napredak.",
+      "longDescription": [
+        "Intermittent Fasting je čista i jednostavna aplikacija za praćenje posta, osmišljena da ti pomogne ostati dosljedan, pratiti svoj plan i bolje razumjeti napredak. Pokreni post u nekoliko sekundi, prati aktivnu sesiju uz jasan countdown timer i spremi svaku završenu sesiju.",
+        "Odaberi popularne planove poput 16:8, 18:6, 20:4 i OMAD ili napravi vlastiti raspored koji odgovara tvojoj rutini. Bilo da tek počinješ ili već imaš ustaljen način posta, aplikacija ti daje jasnu i jednostavnu strukturu.",
+        "Intermittent Fasting ti pomaže i u izgradnji boljih navika uz korisne alate koji ostaju jednostavni za korištenje. Pregledaj svoj dnevnik posta, prati svoj streak, provjeri najduži post i pogledaj tjedne sate posta u jasnom pregledu.",
+        "Uz pametne podsjetnike, obavijesti, postavke jezika i čist dark dizajn stvoren za svakodnevnu upotrebu, sve ostaje pregledno i fokusirano. Intermittent Fasting daje ti strukturu i jasnoću potrebnu za redovitu rutinu posta."
+      ],
+      "bottomCtaDescription": "Instaliraj Intermittent Fasting i učini svoju rutinu posta jednostavnijom, preglednijom i dosljednijom. Pokreni post u nekoliko sekundi i prati svoj napredak svaki dan.",
+      "category": "Praćenje posta",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "intermittent fasting",
+        "aplikacija za post",
+        "timer posta",
+        "praćenje posta",
+        "16:8 post",
+        "OMAD",
+        "dnevnik posta"
+      ],
+      "metaTitle": "Intermittent Fasting - Timer i praćenje posta",
+      "metaDescription": "Prati svoj post uz timer, planove 16:8 i OMAD, podsjetnike, dnevnik i uvide. Jednostavna aplikacija za svakodnevnu rutinu posta.",
+      "featureBullets": [
+        {
+          "title": "Timer posta s countdown prikazom"
+        },
+        {
+          "title": "Planovi 16:8, 18:6, 20:4 i OMAD"
+        },
+        {
+          "title": "Prilagođeni rasporedi posta"
+        },
+        {
+          "title": "Dnevnik spremljenih postova"
+        },
+        {
+          "title": "Streak, najduži post i tjedni uvidi"
+        },
+        {
+          "title": "Pametni podsjetnici i obavijesti"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Prati post jasno i jednostavno",
+          "description": "Prikaži aktivnu sesiju posta s jasnim timerom, vidljivim statusom i čistim sučeljem koje djeluje smireno i pregledno.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-1.png"
+        },
+        {
+          "title": "Odaberi pravi plan",
+          "description": "Prikaži popularne planove 16:8, 18:6, 20:4 i OMAD u jednostavnom prikazu koji naglašava fleksibilnost i lakoću korištenja.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-2.png"
+        },
+        {
+          "title": "Vidi svoj napredak",
+          "description": "Prikaži dnevnik i uvide sa streakom, najdužim postom i tjednim satima kako bi se naglasili dosljednost i rezultati.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Što mogu pratiti u aplikaciji Intermittent Fasting?",
+          "answer": "Možeš pratiti aktivne sesije, spremljene postove, streak, najduži post, tjedne sate posta i svoj dnevnik."
+        },
+        {
+          "question": "Podržava li aplikacija planove poput 16:8 i OMAD?",
+          "answer": "Da. Intermittent Fasting uključuje popularne planove poput 16:8, 18:6, 20:4 i OMAD, kao i prilagođene rasporede."
+        },
+        {
+          "question": "Mogu li koristiti podsjetnike za rutinu posta?",
+          "answer": "Da. Aplikacija uključuje pametne podsjetnike i obavijesti koji ti pomažu ostati dosljedan svom planu."
+        },
+        {
+          "question": "Je li aplikacija prikladna za početnike?",
+          "answer": "Da. Dizajnirana je da bude jednostavna i jasna, pa dobro odgovara i početnicima i korisnicima s iskustvom."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Intermittent Fasting",
+      "summary": "Een eenvoudige intermittent fasting app met timer, schema's, herinneringen, dagboek en inzichten. Houd je routine beter vol en krijg duidelijk zicht op je voortgang.",
+      "longDescription": [
+        "Intermittent Fasting is een overzichtelijke en eenvoudige vasten tracker die je helpt om consequent te blijven, je schema te volgen en je voortgang beter te begrijpen. Start een vast in enkele seconden, volg je actieve sessie met een duidelijke afteltimer en sla iedere afgeronde sessie makkelijk op.",
+        "Kies uit populaire schema's zoals 16:8, 18:6, 20:4 en OMAD, of maak een aangepast vastenschema dat bij jouw routine past. Of je nu net begint of al langer volgens een ritme vast, de app geeft je een heldere structuur zonder onnodige afleiding.",
+        "Intermittent Fasting helpt je ook bij het opbouwen van betere gewoontes. Bekijk je vastendagboek, volg je reeks, controleer je langste vast en zie je wekelijkse vastenuren in één duidelijk overzicht dat motiverend werkt.",
+        "Met slimme herinneringen, meldingen, taalinstellingen en een strak donker ontwerp voor dagelijks gebruik blijft alles rustig en duidelijk. Intermittent Fasting geeft je de helderheid en structuur die je nodig hebt om vasten beter vol te houden."
+      ],
+      "bottomCtaDescription": "Installeer Intermittent Fasting en houd je vastenroutine eenvoudig, overzichtelijk en consequent. Start een vast eenvoudig in seconden en volg je vooruitgang elke dag.",
+      "category": "Vasten tracker",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "intermittent fasting",
+        "vasten app",
+        "vasten tracker",
+        "vasten timer",
+        "16:8",
+        "OMAD",
+        "vasten dagboek"
+      ],
+      "metaTitle": "Intermittent Fasting - Vasten tracker, timer en schema's",
+      "metaDescription": "Volg je vasten met timer, 16:8 en OMAD schema's, herinneringen, dagboek en inzichten. Een duidelijke app voor je dagelijkse routine.",
+      "featureBullets": [
+        {
+          "title": "Vasten timer met live aftellen"
+        },
+        {
+          "title": "16:8, 18:6, 20:4 en OMAD schema's"
+        },
+        {
+          "title": "Aangepaste vastenschema's"
+        },
+        {
+          "title": "Dagboek met opgeslagen vasten"
+        },
+        {
+          "title": "Reeks, langste vast en wekelijkse uren"
+        },
+        {
+          "title": "Slimme herinneringen en meldingen"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Volg je vast duidelijk",
+          "description": "Toon een actieve vastensessie met een duidelijke timer, zichtbare status en een rustige, minimalistische interface.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-1.png"
+        },
+        {
+          "title": "Kies het juiste schema",
+          "description": "Toon populaire schema's zoals 16:8, 18:6, 20:4 en OMAD in een eenvoudige keuzeweergave die flexibiliteit laat zien.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-2.png"
+        },
+        {
+          "title": "Zie je vooruitgang",
+          "description": "Toon dagboek en inzichten met reeks, langste vast en wekelijkse uren om gewoontevorming en resultaat zichtbaar te maken.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wat kan ik bijhouden met Intermittent Fasting?",
+          "answer": "Je kunt actieve sessies, opgeslagen vasten, je reeks, je langste vast, je wekelijkse vastenuren en je vastendagboek bijhouden."
+        },
+        {
+          "question": "Ondersteunt de app schema's zoals 16:8 en OMAD?",
+          "answer": "Ja. Intermittent Fasting bevat populaire schema's zoals 16:8, 18:6, 20:4 en OMAD, plus aangepaste schema's."
+        },
+        {
+          "question": "Kan ik herinneringen gebruiken voor mijn vastenroutine?",
+          "answer": "Ja. De app bevat slimme herinneringen en meldingen om je te helpen consequent te blijven."
+        },
+        {
+          "question": "Is de app geschikt voor beginners?",
+          "answer": "Ja. De app is bewust eenvoudig en duidelijk ontworpen, zodat ook beginners er makkelijk mee kunnen starten."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Intermittent Fasting",
+      "summary": "Prosta aplikacja do intermittent fasting z timerem, planami, przypomnieniami, dziennikiem i statystykami. Łatwiej trzymaj się swojej rutyny i lepiej rozumiej postępy.",
+      "longDescription": [
+        "Intermittent Fasting to przejrzysta i prosta aplikacja do śledzenia postu, stworzona po to, aby pomóc Ci zachować regularność, trzymać się planu i lepiej rozumieć swoje postępy. Rozpocznij post w kilka sekund, obserwuj aktywną sesję na czytelnym liczniku odliczającym czas i zapisuj ukończone sesje.",
+        "Wybierz popularne plany, takie jak 16:8, 18:6, 20:4 i OMAD, albo stwórz własny harmonogram dopasowany do Twojej rutyny. Niezależnie od tego, czy dopiero zaczynasz, czy masz już ustalony rytm, aplikacja daje prostą strukturę bez zbędnego chaosu.",
+        "Intermittent Fasting pomaga też budować lepsze nawyki dzięki praktycznym narzędziom. Sprawdzaj dziennik postów, śledź swoją serię, zobacz najdłuższy post i tygodniowe godziny postu w jednym czytelnym podsumowaniu.",
+        "Dzięki inteligentnym przypomnieniom, powiadomieniom, ustawieniom języka i czystemu ciemnemu wyglądowi do codziennego użytku wszystko pozostaje proste i wygodne. Intermittent Fasting daje jasność i porządek potrzebne do regularnego postu."
+      ],
+      "bottomCtaDescription": "Zainstaluj Intermittent Fasting i uprość swoją rutynę postu. Uruchamiaj post w kilka sekund, trzymaj się planu i śledź postępy każdego dnia.",
+      "category": "Tracker postu",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "intermittent fasting",
+        "post przerywany",
+        "aplikacja do postu",
+        "timer postu",
+        "16:8",
+        "OMAD",
+        "dziennik postu"
+      ],
+      "metaTitle": "Intermittent Fasting - Tracker postu, timer i plany",
+      "metaDescription": "Śledź post z timerem, planami 16:8 i OMAD, przypomnieniami, dziennikiem i statystykami. Prosta aplikacja do codziennej rutyny.",
+      "featureBullets": [
+        {
+          "title": "Timer postu z odliczaniem na żywo"
+        },
+        {
+          "title": "Plany 16:8, 18:6, 20:4 i OMAD"
+        },
+        {
+          "title": "Własne harmonogramy postu"
+        },
+        {
+          "title": "Dziennik zapisanych postów"
+        },
+        {
+          "title": "Seria, najdłuższy post i tygodniowe statystyki"
+        },
+        {
+          "title": "Inteligentne przypomnienia i powiadomienia"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Śledź post przejrzyście",
+          "description": "Pokaż aktywną sesję z czytelnym licznikiem, wyraźnym stanem postu i prostym interfejsem do codziennego użycia.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-1.png"
+        },
+        {
+          "title": "Wybierz odpowiedni plan",
+          "description": "Pokaż popularne plany 16:8, 18:6, 20:4 i OMAD na prostym ekranie, który podkreśla wygodę i elastyczność.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-2.png"
+        },
+        {
+          "title": "Zobacz swoje postępy",
+          "description": "Pokaż dziennik i statystyki z serią, najdłuższym postem i tygodniowymi godzinami, aby podkreślić systematyczność i motywację.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Co mogę śledzić w Intermittent Fasting?",
+          "answer": "Możesz śledzić aktywne sesje, zapisane posty, swoją serię, najdłuższy post, tygodniowe godziny postu i dziennik postu."
+        },
+        {
+          "question": "Czy aplikacja obsługuje plany takie jak 16:8 i OMAD?",
+          "answer": "Tak. Intermittent Fasting zawiera popularne plany, takie jak 16:8, 18:6, 20:4 i OMAD, a także własne harmonogramy."
+        },
+        {
+          "question": "Czy mogę używać przypomnień do swojej rutyny postu?",
+          "answer": "Tak. Aplikacja zawiera inteligentne przypomnienia i powiadomienia, które pomagają utrzymać regularność."
+        },
+        {
+          "question": "Czy aplikacja jest dobra dla początkujących?",
+          "answer": "Tak. Została zaprojektowana tak, aby była prosta i czytelna, dlatego dobrze sprawdza się także u osób początkujących."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Intermittent Fasting",
+      "summary": "O aplicație simplă pentru intermittent fasting cu timer, planuri, remindere, jurnal și statistici. Urmărește-ți rutina mai ușor și înțelege clar progresul tău.",
+      "longDescription": [
+        "Intermittent Fasting este o aplicație curată și ușor de folosit pentru monitorizarea postului, creată ca să te ajute să rămâi consecvent, să îți urmezi planul și să îți înțelegi mai bine progresul. Începe un post în câteva secunde, urmărește sesiunea activă cu un countdown clar și salvează fiecare sesiune finalizată.",
+        "Alege dintre planuri populare precum 16:8, 18:6, 20:4 și OMAD sau creează un program personalizat care se potrivește rutinei tale. Fie că abia începi, fie că urmezi deja o rutină bine definită, aplicația îți oferă structură fără complicații.",
+        "Intermittent Fasting te ajută și să construiești obiceiuri mai bune cu instrumente simple și utile. Verifică jurnalul posturilor, urmărește streak-ul, vezi cel mai lung post și orele săptămânale de post într-o imagine de ansamblu clară și motivantă.",
+        "Cu remindere inteligente, notificări, setări de limbă și un design dark curat pentru utilizare zilnică, totul rămâne simplu și ușor de urmărit. Intermittent Fasting îți oferă claritatea și structura de care ai nevoie pentru o rutină constantă."
+      ],
+      "bottomCtaDescription": "Instalează Intermittent Fasting și păstrează-ți rutina de post simplă, clară și constantă. Pornește un post în câteva secunde și urmărește-ți progresul în fiecare zi.",
+      "category": "Monitorizare post",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "intermittent fasting",
+        "aplicație post",
+        "timer post",
+        "monitorizare post",
+        "16:8",
+        "OMAD",
+        "jurnal post"
+      ],
+      "metaTitle": "Intermittent Fasting - Timer și monitorizare post",
+      "metaDescription": "Urmărește postul cu timer, planuri 16:8 și OMAD, remindere, jurnal și statistici. O aplicație clară pentru rutina ta zilnică.",
+      "featureBullets": [
+        {
+          "title": "Timer de post cu countdown live"
+        },
+        {
+          "title": "Planuri 16:8, 18:6, 20:4 și OMAD"
+        },
+        {
+          "title": "Programe personalizate de post"
+        },
+        {
+          "title": "Jurnal pentru posturile salvate"
+        },
+        {
+          "title": "Streak, cel mai lung post și ore săptămânale"
+        },
+        {
+          "title": "Remindere inteligente și notificări"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Urmărește postul clar",
+          "description": "Arată sesiunea activă cu un timer clar, status vizibil și o interfață curată, ușor de urmărit zilnic.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-1.png"
+        },
+        {
+          "title": "Alege planul potrivit",
+          "description": "Arată planurile populare 16:8, 18:6, 20:4 și OMAD într-un ecran simplu care comunică flexibilitate și ușurință.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-2.png"
+        },
+        {
+          "title": "Vezi progresul tău",
+          "description": "Arată jurnalul și statisticile cu streak, cel mai lung post și orele săptămânale pentru a evidenția consecvența și progresul.",
+          "imagePath": "apps/screenshots/intermittent-fasting/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Ce pot urmări în Intermittent Fasting?",
+          "answer": "Poți urmări sesiunile active, posturile salvate, streak-ul, cel mai lung post, orele săptămânale de post și jurnalul tău."
+        },
+        {
+          "question": "Aplicația include planuri precum 16:8 și OMAD?",
+          "answer": "Da. Intermittent Fasting include planuri populare precum 16:8, 18:6, 20:4 și OMAD, plus programe personalizate."
+        },
+        {
+          "question": "Pot folosi remindere pentru rutina mea de post?",
+          "answer": "Da. Aplicația include remindere inteligente și notificări care te ajută să rămâi consecvent."
+        },
+        {
+          "question": "Este potrivită și pentru începători?",
+          "answer": "Da. Aplicația este gândită să fie simplă și clară, fiind potrivită atât pentru începători, cât și pentru utilizatorii cu experiență."
+        }
+      ]
+    }
+  }
+}

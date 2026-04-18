@@ -1,0 +1,920 @@
+{
+  "slug": "orbital-rhythm",
+  "sortOrder": 2,
+  "kind": "game",
+  "featured": true,
+  "accent": "red",
+  "icon": "apps/icons/orbital-rhythm.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.orbitalrhythm",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "GameApplication",
+  "relatedSlugs": [
+    "big-ben",
+    "gastarbajter"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Orbital Rhythm",
+      "summary": "A fast-paced one-tap arcade survival shooter where every move matters. Reverse direction, dodge enemies, time your shots, and chase a higher score with every run.",
+      "longDescription": [
+        "Orbital Rhythm is a fast-paced arcade survival shooter where one tap changes everything. Reverse direction, dodge incoming enemies, time your shots, and survive as long as possible in a sleek neon challenge built for reflexes, focus, and score chasing.",
+        "Easy to start and hard to master, Orbital Rhythm blends simple one-tap controls with intense survival gameplay. Every run pushes your timing, movement, and decision-making as the pressure rises and enemy patterns become harder to escape. A single tap can help you avoid danger, line up a shot, or stay alive just a little longer.",
+        "If you enjoy arcade games, survival shooters, reaction games, high-score challenges, and quick skill-based sessions, Orbital Rhythm delivers smooth action with strong replay value. It is made for players who want instant gameplay with real room for mastery.",
+        "The game also features a clean sci-fi look, progress tracking, run history, and unlockable skins that make each session feel rewarding. Whether you play for one minute or push for a new personal best, Orbital Rhythm keeps the action sharp, readable, and satisfying.",
+        "Learn the flow, react quickly, and master the rhythm of every run. The longer you survive, the harder it gets. Reverse direction, survive the swarm, and beat your record."
+      ],
+      "bottomCtaDescription": "Install Orbital Rhythm and jump into a stylish arcade challenge built for quick sessions, sharp reflexes, and endless score chasing. One tap can save your run or set up your next perfect shot.",
+      "category": "Arcade Shooter",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "arcade shooter",
+        "survival game",
+        "one tap game",
+        "high score game",
+        "reaction game",
+        "offline arcade",
+        "neon game"
+      ],
+      "metaTitle": "Orbital Rhythm - One-Tap Arcade Survival Shooter",
+      "metaDescription": "Dodge enemies, time your shots, and survive longer in Orbital Rhythm, a fast one-tap arcade survival shooter built for high-score runs.",
+      "featureBullets": [
+        {
+          "title": "One-Tap Survival Gameplay"
+        },
+        {
+          "title": "Instant Direction Reversal"
+        },
+        {
+          "title": "Precision Timing and Shooting"
+        },
+        {
+          "title": "Endless High-Score Challenge"
+        },
+        {
+          "title": "Unlockable Skins and Progress"
+        },
+        {
+          "title": "Smooth Offline Arcade Action"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "One Tap Changes Everything",
+          "description": "Show the core gameplay loop with the player reversing direction around the orbit while enemies close in. Emphasize clean controls, immediate action, and readable danger.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-1.png"
+        },
+        {
+          "title": "Dodge, Shoot, Survive",
+          "description": "Show a tense mid-run moment with multiple enemies, visible shots, and strong neon contrast. The screenshot should communicate timing, pressure, and survival shooter intensity.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-2.png"
+        },
+        {
+          "title": "Beat Your Best Run",
+          "description": "Show score tracking, run results, or progression elements such as skins or history. The image should reinforce replay value and the motivation to improve with each run.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What kind of game is Orbital Rhythm?",
+          "answer": "Orbital Rhythm is a one-tap arcade survival shooter focused on dodging enemies, timing shots, and surviving long enough to beat your high score."
+        },
+        {
+          "question": "Is Orbital Rhythm easy to learn?",
+          "answer": "Yes. The controls are simple, but the challenge grows quickly, making it easy to start and rewarding to master over time."
+        },
+        {
+          "question": "Can I play Orbital Rhythm offline?",
+          "answer": "Yes. Orbital Rhythm is designed for smooth offline arcade sessions, so you can play whenever you want."
+        },
+        {
+          "question": "Does Orbital Rhythm include unlockables?",
+          "answer": "Yes. The game includes unlockable skins and progress elements that make repeated runs feel more rewarding."
+        }
+      ]
+    },
+    "de": {
+      "name": "Orbital Rhythm",
+      "summary": "Ein schneller One-Tap-Arcade-Survival-Shooter, bei dem jede Bewegung zählt. Wechsle sofort die Richtung, weiche Gegnern aus, tim e deine Schüsse und jage deinen nächsten Highscore.",
+      "longDescription": [
+        "Orbital Rhythm ist ein schneller Arcade-Survival-Shooter, in dem ein einziger Tap alles verändern kann. Wechsle sofort die Richtung, weiche anfliegenden Gegnern aus, tim e deine Schüsse und halte in einer stilvollen Neon-Herausforderung so lange wie möglich durch.",
+        "Der Einstieg ist einfach, doch wahre Meisterschaft braucht Gefühl, Timing und Konzentration. Orbital Rhythm verbindet intuitive One-Tap-Steuerung mit intensivem Survival-Gameplay. Mit jedem Lauf steigt der Druck, Gegner kommen schneller, und jede Entscheidung zählt.",
+        "Wenn du Arcade-Spiele, Survival-Shooter, Reaktionsspiele, Highscore-Challenges und kurze, skillbasierte Sessions magst, liefert Orbital Rhythm genau das richtige Tempo. Das Spiel ist für alle gemacht, die sofort loslegen wollen, aber langfristig besser werden möchten.",
+        "Dazu kommen ein klarer Sci-Fi-Look, Fortschrittsverfolgung, Laufhistorie und freischaltbare Skins. So fühlt sich jede Runde belohnend an, egal ob du nur kurz spielst oder deinen persönlichen Rekord angreifst.",
+        "Lerne den Flow, reagiere blitzschnell und meistere den Rhythmus jedes Runs. Je länger du überlebst, desto härter wird es. Richtung wechseln, den Schwarm überleben, Rekorde brechen."
+      ],
+      "bottomCtaDescription": "Installiere Orbital Rhythm und stürze dich in eine stylische Arcade-Herausforderung für schnelle Runden, starke Reflexe und echten Highscore-Reiz. Ein Tap kann deinen Lauf retten oder den perfekten Schuss vorbereiten.",
+      "category": "Arcade-Shooter",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Arcade Shooter",
+        "Survival Spiel",
+        "One Tap Spiel",
+        "Highscore Spiel",
+        "Reaktionsspiel",
+        "Offline Arcade",
+        "Neon Spiel"
+      ],
+      "metaTitle": "Orbital Rhythm - One-Tap Arcade-Survival-Shooter",
+      "metaDescription": "Weiche Gegnern aus, tim e deine Schüsse und überlebe länger in Orbital Rhythm, dem schnellen One-Tap-Arcade-Survival-Shooter für Highscores.",
+      "featureBullets": [
+        {
+          "title": "Schnelles One-Tap-Gameplay"
+        },
+        {
+          "title": "Sofortiger Richtungswechsel"
+        },
+        {
+          "title": "Präzises Timing und Schießen"
+        },
+        {
+          "title": "Endlose Highscore-Jagd"
+        },
+        {
+          "title": "Freischaltbare Skins"
+        },
+        {
+          "title": "Offline spielbar"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Ein Tap entscheidet alles",
+          "description": "Zeige die Kernmechanik mit Richtungswechsel auf der Umlaufbahn, herannahenden Gegnern und sofort verständlicher Steuerung.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-1.png"
+        },
+        {
+          "title": "Ausweichen und überleben",
+          "description": "Zeige eine intensive Szene mit mehreren Gegnern, Projektilen und starkem Neon-Look, um Druck und Präzision zu vermitteln.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-2.png"
+        },
+        {
+          "title": "Jage deinen Highscore",
+          "description": "Zeige Ergebnisse, Punktestand oder freischaltbare Skins, damit der Wiederspielwert und Fortschritt klar werden.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Was für ein Spiel ist Orbital Rhythm?",
+          "answer": "Orbital Rhythm ist ein One-Tap-Arcade-Survival-Shooter, in dem du Gegnern ausweichst, Schüsse timst und möglichst lange überlebst."
+        },
+        {
+          "question": "Ist Orbital Rhythm leicht zu lernen?",
+          "answer": "Ja. Die Steuerung ist sehr einfach, aber die Herausforderung steigt schnell und belohnt Übung und gutes Timing."
+        },
+        {
+          "question": "Kann ich Orbital Rhythm offline spielen?",
+          "answer": "Ja. Orbital Rhythm eignet sich perfekt für schnelle Offline-Arcade-Sessions."
+        },
+        {
+          "question": "Gibt es freischaltbare Inhalte?",
+          "answer": "Ja. Du kannst Skins freischalten und deinen Fortschritt über mehrere Runs hinweg verfolgen."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Orbital Rhythm",
+      "summary": "Un shooter de survie arcade ultra nerveux en un seul geste. Inversez votre trajectoire, esquivez les ennemis, cadencez vos tirs et visez un meilleur score à chaque partie.",
+      "longDescription": [
+        "Orbital Rhythm est un shooter de survie arcade rapide où un seul tap peut tout changer. Inversez instantanément votre direction, évitez les ennemis qui approchent, cadencez vos tirs et survivez le plus longtemps possible dans un univers néon au style sci-fi affirmé.",
+        "Très simple à prendre en main mais exigeant à maîtriser, Orbital Rhythm associe des commandes en un geste à une vraie tension de survie. Chaque partie met à l'épreuve votre timing, vos déplacements et vos décisions pendant que la pression monte sans cesse.",
+        "Si vous aimez les jeux d'arcade, les shooters de survie, les jeux de réflexe, les défis de score et les sessions courtes basées sur le skill, Orbital Rhythm offre une action fluide et une forte rejouabilité. Le jeu est pensé pour les joueurs qui veulent un accès immédiat, avec une vraie marge de progression.",
+        "Le style visuel sci-fi épuré, le suivi de progression, l'historique des runs et les skins à débloquer rendent chaque session gratifiante. Que vous jouiez une minute ou que vous cherchiez votre nouveau record personnel, l'expérience reste lisible, nerveuse et satisfaisante.",
+        "Apprenez le rythme, réagissez vite et maîtrisez chaque run. Plus vous survivez, plus le défi s'intensifie. Inversez, tenez bon et battez votre meilleur score."
+      ],
+      "bottomCtaDescription": "Installez Orbital Rhythm et entrez dans un défi arcade élégant pensé pour les parties courtes, les réflexes rapides et la chasse au score. Un seul tap peut sauver votre run ou préparer votre tir parfait.",
+      "category": "Shooter d'arcade",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "shooter arcade",
+        "jeu de survie",
+        "jeu one tap",
+        "jeu de score",
+        "jeu de réflexe",
+        "arcade hors ligne",
+        "jeu néon"
+      ],
+      "metaTitle": "Orbital Rhythm - Shooter arcade de survie en un tap",
+      "metaDescription": "Esquivez, tirez au bon moment et survivez plus longtemps dans Orbital Rhythm, un shooter arcade one tap nerveux taillé pour le high score.",
+      "featureBullets": [
+        {
+          "title": "Gameplay arcade en un tap"
+        },
+        {
+          "title": "Inversion instantanée"
+        },
+        {
+          "title": "Esquive et tirs de précision"
+        },
+        {
+          "title": "Défi high score sans fin"
+        },
+        {
+          "title": "Skins à débloquer"
+        },
+        {
+          "title": "Action arcade hors ligne"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Un tap peut tout changer",
+          "description": "Montrer la mécanique centrale avec inversion de trajectoire, ennemis proches et lecture visuelle immédiate de l'action.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-1.png"
+        },
+        {
+          "title": "Esquiver et tirer au bon moment",
+          "description": "Montrer une situation de survie intense avec plusieurs ennemis, tirs visibles et ambiance néon dynamique.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-2.png"
+        },
+        {
+          "title": "Visez un meilleur score",
+          "description": "Mettre en avant le score, l'historique de run ou les skins pour illustrer la progression et la rejouabilité.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Quel type de jeu est Orbital Rhythm ?",
+          "answer": "Orbital Rhythm est un shooter de survie arcade en un tap centré sur l'esquive, le timing des tirs et la recherche du meilleur score."
+        },
+        {
+          "question": "Le jeu est-il facile à prendre en main ?",
+          "answer": "Oui. Les commandes sont simples, mais le niveau de difficulté augmente vite, ce qui rend chaque progression satisfaisante."
+        },
+        {
+          "question": "Peut-on jouer à Orbital Rhythm hors ligne ?",
+          "answer": "Oui. Le jeu est conçu pour des sessions d'arcade fluides, même sans connexion."
+        },
+        {
+          "question": "Y a-t-il du contenu à débloquer ?",
+          "answer": "Oui. Vous pouvez débloquer des skins et suivre vos performances pour rendre chaque nouvelle tentative plus motivante."
+        }
+      ]
+    },
+    "it": {
+      "name": "Orbital Rhythm",
+      "summary": "Uno sparatutto arcade survival one tap veloce e coinvolgente. Inverti la direzione, schiva i nemici, calcola i colpi e prova a superare il tuo record a ogni partita.",
+      "longDescription": [
+        "Orbital Rhythm è uno sparatutto arcade survival frenetico in cui un solo tap può cambiare tutto. Inverti subito direzione, evita i nemici in arrivo, sincronizza i tuoi colpi e resta in vita il più a lungo possibile in una sfida neon dallo stile sci-fi pulito.",
+        "Facile da capire ma difficile da padroneggiare, Orbital Rhythm unisce controlli semplici a un gameplay survival intenso. Ogni run mette alla prova tempismo, movimento e capacità di decisione mentre la pressione aumenta e gli errori costano sempre di più.",
+        "Se ti piacciono i giochi arcade, gli sparatutto survival, le sfide a punteggio, i reaction game e le sessioni brevi basate sull'abilità, Orbital Rhythm offre azione fluida e grande rigiocabilità. È pensato per chi vuole iniziare subito ma migliorare davvero nel tempo.",
+        "Il gioco include anche uno stile sci-fi minimale, tracciamento dei progressi, cronologia delle partite e skin sbloccabili che rendono ogni tentativo più appagante. Che tu giochi per un minuto o per battere il tuo record personale, ogni run mantiene ritmo e tensione.",
+        "Impara il flusso, reagisci in fretta e domina il ritmo di ogni partita. Più resisti, più la sfida cresce. Inverti, sopravvivi allo sciame e supera il tuo miglior punteggio."
+      ],
+      "bottomCtaDescription": "Scarica Orbital Rhythm e affronta una sfida arcade in stile neon pensata per partite rapide, riflessi pronti e caccia continua al punteggio. Un solo tap può salvare la tua run o preparare il colpo perfetto.",
+      "category": "Sparatutto arcade",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "sparatutto arcade",
+        "gioco survival",
+        "gioco one tap",
+        "gioco di riflessi",
+        "gioco punteggio",
+        "arcade offline",
+        "gioco neon"
+      ],
+      "metaTitle": "Orbital Rhythm - Sparatutto arcade survival one tap",
+      "metaDescription": "Schiva i nemici, spara al momento giusto e resisti più a lungo in Orbital Rhythm, lo sparatutto arcade one tap pensato per i record.",
+      "featureBullets": [
+        {
+          "title": "Gameplay survival one tap"
+        },
+        {
+          "title": "Inversione istantanea"
+        },
+        {
+          "title": "Schivate e tiri precisi"
+        },
+        {
+          "title": "Sfida infinita al punteggio"
+        },
+        {
+          "title": "Skin sbloccabili"
+        },
+        {
+          "title": "Arcade offline fluido"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Un tap cambia la partita",
+          "description": "Mostra la meccanica principale con inversione di direzione, nemici in arrivo e leggibilità immediata dell'azione.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-1.png"
+        },
+        {
+          "title": "Schiva e spara al momento giusto",
+          "description": "Mostra una fase intensa con più nemici, colpi visibili e forte atmosfera neon per comunicare tensione e precisione.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-2.png"
+        },
+        {
+          "title": "Punta a un nuovo record",
+          "description": "Mostra punteggi, cronologia run o skin per evidenziare progressione e rigiocabilità.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Che tipo di gioco è Orbital Rhythm?",
+          "answer": "Orbital Rhythm è uno sparatutto arcade survival one tap incentrato su schivate, tempismo dei colpi e caccia al punteggio più alto."
+        },
+        {
+          "question": "È facile da imparare?",
+          "answer": "Sì. I controlli sono immediati, ma la difficoltà cresce rapidamente e rende ogni miglioramento davvero soddisfacente."
+        },
+        {
+          "question": "Si può giocare offline?",
+          "answer": "Sì. Orbital Rhythm è pensato anche per sessioni arcade offline veloci e fluide."
+        },
+        {
+          "question": "Ci sono elementi sbloccabili?",
+          "answer": "Sì. Il gioco include skin sbloccabili e strumenti di progressione che rendono ogni run più gratificante."
+        }
+      ]
+    },
+    "es": {
+      "name": "Orbital Rhythm",
+      "summary": "Un shooter arcade de supervivencia one tap rápido y adictivo. Cambia de dirección al instante, esquiva enemigos, calcula tus disparos y supera tu récord en cada partida.",
+      "longDescription": [
+        "Orbital Rhythm es un shooter arcade de supervivencia en el que un solo toque puede cambiarlo todo. Invierte la dirección al instante, esquiva enemigos que no dejan de llegar, calcula tus disparos y sobrevive tanto como puedas en un desafío neon con estética sci-fi.",
+        "Es fácil de empezar y difícil de dominar. Orbital Rhythm combina controles one tap muy simples con una jugabilidad de supervivencia intensa. Cada partida pone a prueba tu timing, tu movimiento y tu capacidad de reacción a medida que aumenta la presión.",
+        "Si te gustan los juegos arcade, los survival shooters, los retos de puntuación, los juegos de reflejos y las partidas cortas basadas en habilidad, Orbital Rhythm ofrece acción fluida y mucho valor de repetición. Está diseñado para quienes buscan diversión inmediata y margen real de mejora.",
+        "Además, incluye un estilo visual limpio, seguimiento del progreso, historial de partidas y skins desbloqueables para que cada run resulte más gratificante. Tanto si juegas un minuto como si vas a por tu mejor marca, siempre hay una razón para intentarlo otra vez.",
+        "Aprende el ritmo, reacciona rápido y domina cada partida. Cuanto más sobrevives, más difícil se vuelve. Invierte, resiste la oleada y bate tu récord."
+      ],
+      "bottomCtaDescription": "Descarga Orbital Rhythm y entra en un desafío arcade con estilo neon pensado para partidas cortas, reflejos rápidos y puro vicio por el high score. Un solo toque puede salvar tu partida o preparar el disparo perfecto.",
+      "category": "Shooter arcade",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "shooter arcade",
+        "juego de supervivencia",
+        "juego one tap",
+        "juego de reflejos",
+        "juego de puntuación",
+        "arcade offline",
+        "juego neon"
+      ],
+      "metaTitle": "Orbital Rhythm - Shooter arcade de supervivencia one tap",
+      "metaDescription": "Esquiva enemigos, dispara con precisión y aguanta más tiempo en Orbital Rhythm, un shooter arcade one tap creado para perseguir récords.",
+      "featureBullets": [
+        {
+          "title": "Jugabilidad one tap"
+        },
+        {
+          "title": "Cambio instantáneo de dirección"
+        },
+        {
+          "title": "Esquiva y dispara con precisión"
+        },
+        {
+          "title": "Desafío infinito de puntuación"
+        },
+        {
+          "title": "Skins desbloqueables"
+        },
+        {
+          "title": "Arcade offline fluido"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Un toque lo cambia todo",
+          "description": "Mostrar la mecánica principal con cambio de dirección, enemigos acercándose y acción clara desde el primer vistazo.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-1.png"
+        },
+        {
+          "title": "Esquiva, dispara, sobrevive",
+          "description": "Mostrar una partida intensa con varios enemigos, disparos visibles y fuerte impacto visual neon para transmitir tensión.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-2.png"
+        },
+        {
+          "title": "Ve a por un nuevo récord",
+          "description": "Mostrar puntuación, resultados o skins para comunicar progreso, repetición y motivación por mejorar.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Qué tipo de juego es Orbital Rhythm?",
+          "answer": "Orbital Rhythm es un shooter arcade de supervivencia one tap centrado en esquivar enemigos, medir los disparos y sobrevivir el mayor tiempo posible."
+        },
+        {
+          "question": "¿Es fácil aprender a jugar?",
+          "answer": "Sí. Los controles son muy simples, pero dominar el ritmo y mejorar tus marcas requiere práctica y buenos reflejos."
+        },
+        {
+          "question": "¿Se puede jugar sin conexión?",
+          "answer": "Sí. Orbital Rhythm está pensado para partidas arcade fluidas también en modo offline."
+        },
+        {
+          "question": "¿Tiene contenido desbloqueable?",
+          "answer": "Sí. Puedes desbloquear skins y seguir tu progreso para que cada nueva partida resulte más satisfactoria."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Orbital Rhythm",
+      "summary": "Um jogo arcade de sobrevivência e tiro one tap rápido e viciante. Inverta a direção, desvie dos inimigos, acerte o timing dos tiros e tente bater seu recorde a cada partida.",
+      "longDescription": [
+        "Orbital Rhythm é um jogo arcade de sobrevivência com tiro em que um único toque muda tudo. Inverta a direção instantaneamente, desvie dos inimigos que se aproximam, acerte o momento dos disparos e sobreviva o máximo possível em um desafio neon com estilo sci-fi.",
+        "Fácil de começar e difícil de dominar, Orbital Rhythm combina controles simples com uma jogabilidade intensa de sobrevivência. Cada run testa seu timing, seu movimento e suas decisões enquanto a pressão aumenta e os inimigos ficam cada vez mais perigosos.",
+        "Se você gosta de jogos arcade, survival shooters, desafios de pontuação, jogos de reflexo e sessões rápidas baseadas em habilidade, Orbital Rhythm entrega ação fluida e alto fator de replay. É ideal para quem quer começar na hora e evoluir de verdade com a prática.",
+        "O jogo também traz visual limpo, acompanhamento de progresso, histórico de partidas e skins desbloqueáveis para deixar cada tentativa mais recompensadora. Seja em uma partida rápida ou em uma sessão focada em recorde, sempre há motivo para voltar.",
+        "Aprenda o fluxo, reaja rápido e domine o ritmo de cada run. Quanto mais você sobrevive, mais difícil fica. Inverta a direção, escape da enxurrada e bata seu melhor resultado."
+      ],
+      "bottomCtaDescription": "Baixe Orbital Rhythm e entre em um desafio arcade com visual neon feito para partidas rápidas, reflexos afiados e muita vontade de superar a própria pontuação. Um único toque pode salvar sua run ou criar o disparo perfeito.",
+      "category": "Jogo arcade de tiro",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "jogo arcade",
+        "jogo de sobrevivência",
+        "jogo one tap",
+        "jogo de reflexo",
+        "jogo de pontuação",
+        "arcade offline",
+        "jogo neon"
+      ],
+      "metaTitle": "Orbital Rhythm - Arcade de sobrevivência e tiro one tap",
+      "metaDescription": "Desvie dos inimigos, acerte seus tiros e sobreviva por mais tempo em Orbital Rhythm, um arcade one tap rápido feito para quem ama recordes.",
+      "featureBullets": [
+        {
+          "title": "Gameplay one tap viciante"
+        },
+        {
+          "title": "Inversão instantânea de direção"
+        },
+        {
+          "title": "Desvios e tiros precisos"
+        },
+        {
+          "title": "Desafio infinito de pontuação"
+        },
+        {
+          "title": "Skins desbloqueáveis"
+        },
+        {
+          "title": "Arcade offline suave"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Um toque muda tudo",
+          "description": "Mostrar a mecânica principal com inversão de direção, inimigos se aproximando e leitura imediata da ação na tela.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-1.png"
+        },
+        {
+          "title": "Desvie e atire no momento certo",
+          "description": "Mostrar uma run intensa com vários inimigos, tiros visíveis e impacto visual neon para transmitir pressão e habilidade.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-2.png"
+        },
+        {
+          "title": "Corra atrás do seu recorde",
+          "description": "Mostrar pontuação, histórico de partidas ou skins para reforçar progressão e rejogabilidade.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Que tipo de jogo é Orbital Rhythm?",
+          "answer": "Orbital Rhythm é um arcade de sobrevivência com tiro one tap focado em desviar de inimigos, acertar o timing e sobreviver o máximo possível."
+        },
+        {
+          "question": "É fácil aprender a jogar?",
+          "answer": "Sim. Os controles são simples, mas dominar o ritmo e alcançar pontuações maiores exige prática e reflexos rápidos."
+        },
+        {
+          "question": "Posso jogar Orbital Rhythm offline?",
+          "answer": "Sim. O jogo foi pensado para sessões arcade fluidas mesmo sem conexão."
+        },
+        {
+          "question": "O jogo tem itens desbloqueáveis?",
+          "answer": "Sim. Você pode desbloquear skins e acompanhar seu progresso para tornar cada nova run mais gratificante."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Orbital Rhythm",
+      "summary": "Брза one tap аркадна survival пуцачина у којој је сваки покрет важан. Промijени смјер, избјегавај непријатеље, темпирај хице и јури нови рекорд у свакој партији.",
+      "longDescription": [
+        "Orbital Rhythm је брза аркадна survival пуцачина у којој један додир мијења све. Одмах промијени смјер, избјегавај надолазеће непријатеље, темпирај своје хице и преживи што дуже у стилском неонском изазову направљеном за рефлексе, фокус и лов на резултат.",
+        "Лака је за почетак, а тешка за право савладавање. Orbital Rhythm спаја једноставне one tap контроле са интензивним survival gameplay-ом. Сваки run тестира твој тајминг, кретање и одлуке док притисак стално расте, а непријатељи долазе све брже.",
+        "Ако волиш аркадне игре, survival пуцачине, high score изазове, игре рефлекса и кратке сесије засноване на вјештини, Orbital Rhythm нуди глатку акцију и јак replay value. Направљена је за играче који желе брз улазак у игру, али и прави простор за напредак.",
+        "Игра доноси чист sci-fi визуелни стил, праћење напретка, историју run-ова и skin-ове који се откључавају, па свака партија дјелује награђујуће. Било да играш минут или покушаваш оборити лични рекорд, увијек постоји разлог за још један покушај.",
+        "Научи ритам, реагуј брзо и савладај ток сваког run-а. Што дуже преживиш, то постаје теже. Промијени смјер, преживи рој и обори свој рекорд."
+      ],
+      "bottomCtaDescription": "Инсталирај Orbital Rhythm и ускочи у стилски неонски аркадни изазов направљен за кратке партије, брзе рефлексе и сталну трку за бољим резултатом. Један додир може спасити твој run или намјестити савршен хитац.",
+      "category": "Аркадна пуцачина",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "аркадна пуцачина",
+        "survival игра",
+        "one tap игра",
+        "игра рефлекса",
+        "игра за рекорд",
+        "offline аркада",
+        "неонска игра"
+      ],
+      "metaTitle": "Orbital Rhythm - One tap survival аркадна пуцачина",
+      "metaDescription": "Избјегавај непријатеље, темпирај хице и преживи дуже у Orbital Rhythm, брзој one tap аркадној пуцачини за јурење рекорда.",
+      "featureBullets": [
+        {
+          "title": "Брз one tap gameplay"
+        },
+        {
+          "title": "Тренутна промјена смјера"
+        },
+        {
+          "title": "Прецизно избјегавање и пуцање"
+        },
+        {
+          "title": "Бескрајни high score изазов"
+        },
+        {
+          "title": "Откључавање skin-ова"
+        },
+        {
+          "title": "Глатка offline аркада"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Један додир мијења све",
+          "description": "Прикажи основну механику са промјеном смјера, непријатељима који надолазе и јасном, брзом акцијом на први поглед.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-1.png"
+        },
+        {
+          "title": "Избјегавај, пуцај, преживи",
+          "description": "Прикажи напету сцену са више непријатеља, видљивим хицима и снажним неонским стилом који истиче притисак и реакцију.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-2.png"
+        },
+        {
+          "title": "Јури нови рекорд",
+          "description": "Прикажи резултат, историју партија или откључане skin-ове како би се нагласили напредак и поновно играње.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Каква је игра Orbital Rhythm?",
+          "answer": "Orbital Rhythm је one tap аркадна survival пуцачина у којој избјегаваш непријатеље, темпираш хице и покушаваш преживјети што дуже."
+        },
+        {
+          "question": "Да ли је лако научити играти?",
+          "answer": "Да. Контроле су једноставне, али права вјештина долази с временом, бољим тајмингом и бржим реакцијама."
+        },
+        {
+          "question": "Може ли се играти offline?",
+          "answer": "Да. Orbital Rhythm је направљен за глатке аркадне сесије и без интернет везе."
+        },
+        {
+          "question": "Постоје ли откључавања у игри?",
+          "answer": "Да. Игра садржи skin-ове и елементе напретка који сваки нови покушај чине занимљивијим."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Orbital Rhythm",
+      "summary": "Brza one tap arkadna survival pucačina u kojoj svaki potez odlučuje. Promijeni smjer, izbjegavaj neprijatelje, tempiraj hice i lovi novi rekord u svakoj partiji.",
+      "longDescription": [
+        "Orbital Rhythm je brza arkadna survival pucačina u kojoj jedan dodir može promijeniti sve. Odmah promijeni smjer, izbjegavaj nadolazeće neprijatelje, tempiraj svoje hice i preživi što dulje u elegantnom neon izazovu napravljenom za reflekse, fokus i score chasing.",
+        "Lako ju je pokrenuti, ali teško stvarno savladati. Orbital Rhythm spaja jednostavne one tap kontrole s intenzivnim survival gameplayem. Svaki run testira tvoj timing, kretanje i donošenje odluka dok pritisak raste, a neprijatelji postaju sve opasniji.",
+        "Ako voliš arkadne igre, survival pucačine, high score izazove, reaction igre i kratke skill-based sesije, Orbital Rhythm donosi glatku akciju i jak replay value. Dizajnirana je za igrače koji žele odmah igrati, ali i stalno napredovati.",
+        "Igra također donosi čist sci-fi vizualni stil, praćenje napretka, povijest runova i otključive skinove, pa svaka partija djeluje nagrađujuće. Bilo da igraš minutu ili ideš po novi osobni rekord, uvijek postoji razlog za još jedan pokušaj.",
+        "Nauči ritam, reagiraj brzo i savladaj tok svake partije. Što dulje preživiš, to postaje teže. Promijeni smjer, preživi roj i sruši svoj rekord."
+      ],
+      "bottomCtaDescription": "Instaliraj Orbital Rhythm i uskoči u stylish neon arkadni izazov stvoren za kratke partije, brze reflekse i stalnu utrku za boljim rezultatom. Jedan dodir može spasiti tvoj run ili namjestiti savršen hitac.",
+      "category": "Arkadna pucačina",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "arkadna pucačina",
+        "survival igra",
+        "one tap igra",
+        "igra refleksa",
+        "igra za rekord",
+        "offline arkada",
+        "neonska igra"
+      ],
+      "metaTitle": "Orbital Rhythm - One tap survival arkadna pucačina",
+      "metaDescription": "Izbjegavaj neprijatelje, tempiraj hice i preživi duže u Orbital Rhythm, brzoj one tap arkadnoj pucačini za lov na rekorde.",
+      "featureBullets": [
+        {
+          "title": "Brz one tap gameplay"
+        },
+        {
+          "title": "Trenutna promjena smjera"
+        },
+        {
+          "title": "Precizno izbjegavanje i pucanje"
+        },
+        {
+          "title": "Beskrajni high score izazov"
+        },
+        {
+          "title": "Otključivi skinovi"
+        },
+        {
+          "title": "Glatka offline arkada"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Jedan dodir mijenja sve",
+          "description": "Prikaži glavnu mehaniku s promjenom smjera, neprijateljima u naletu i jasnom, brzom akcijom na prvi pogled.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-1.png"
+        },
+        {
+          "title": "Izbjegavaj, pucaj, preživi",
+          "description": "Prikaži napetu scenu s više neprijatelja, vidljivim hicima i snažnim neon stilom koji naglašava pritisak i reflekse.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-2.png"
+        },
+        {
+          "title": "Lovi novi rekord",
+          "description": "Prikaži rezultat, povijest partija ili skinove kako bi se istaknuli napredak i velika replay vrijednost.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Kakva je igra Orbital Rhythm?",
+          "answer": "Orbital Rhythm je one tap arkadna survival pucačina u kojoj izbjegavaš neprijatelje, tempiraš hice i pokušavaš preživjeti što dulje."
+        },
+        {
+          "question": "Je li lako naučiti igrati?",
+          "answer": "Da. Kontrole su jednostavne, ali pravo usavršavanje traži vježbu, bolji timing i brze reakcije."
+        },
+        {
+          "question": "Može li se igrati offline?",
+          "answer": "Da. Orbital Rhythm je napravljen za glatke arkadne sesije i bez internetske veze."
+        },
+        {
+          "question": "Postoje li otključavanja u igri?",
+          "answer": "Da. Možeš otključavati skinove i pratiti svoj napredak kako bi svaka nova partija bila još motivirajuća."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Orbital Rhythm",
+      "summary": "Een snelle one-tap arcade survival shooter waarin elke beweging telt. Keer direct om, ontwijk vijanden, time je schoten en ga in elke run voor een hogere score.",
+      "longDescription": [
+        "Orbital Rhythm is een snelle arcade survival shooter waarin één tik alles kan veranderen. Keer direct van richting, ontwijk inkomende vijanden, time je schoten en probeer zo lang mogelijk te overleven in een strakke neon uitdaging met een sci-fi uitstraling.",
+        "De besturing is eenvoudig, maar echt goed worden kost timing, focus en controle. Orbital Rhythm combineert simpele one-tap controls met intense survival gameplay. Elke run test je reacties, je beweging en je beslissingen terwijl de druk steeds verder oploopt.",
+        "Hou je van arcade games, survival shooters, highscore-uitdagingen, reaction games en korte skill-based sessies, dan levert Orbital Rhythm precies die snelle, vloeiende actie met sterke replaywaarde. Het is gemaakt voor spelers die meteen willen spelen, maar ook echt beter willen worden.",
+        "De game bevat daarnaast een cleane sci-fi stijl, voortgangsregistratie, rungeschiedenis en vrij te spelen skins. Daardoor voelt elke poging belonend, of je nu één minuut speelt of alles geeft voor een nieuw persoonlijk record.",
+        "Leer het ritme, reageer snel en beheers elke run. Hoe langer je overleeft, hoe moeilijker het wordt. Keer om, overleef de zwerm en verbreek je record."
+      ],
+      "bottomCtaDescription": "Installeer Orbital Rhythm en stap in een stijlvolle neon arcade-uitdaging voor korte sessies, snelle reflexen en eindeloze scorejacht. Eén tik kan je run redden of precies het perfecte schot opleveren.",
+      "category": "Arcade shooter",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "arcade shooter",
+        "survival game",
+        "one tap game",
+        "score game",
+        "reactiespel",
+        "offline arcade",
+        "neon game"
+      ],
+      "metaTitle": "Orbital Rhythm - One-tap arcade survival shooter",
+      "metaDescription": "Ontwijk vijanden, time je schoten en overleef langer in Orbital Rhythm, een snelle one-tap arcade survival shooter voor highscore-jagers.",
+      "featureBullets": [
+        {
+          "title": "Snelle one-tap gameplay"
+        },
+        {
+          "title": "Direct omkeren"
+        },
+        {
+          "title": "Precisie in ontwijken en schieten"
+        },
+        {
+          "title": "Eindeloze highscore-uitdaging"
+        },
+        {
+          "title": "Vrij te spelen skins"
+        },
+        {
+          "title": "Vloeiende offline arcade-actie"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Eén tik verandert alles",
+          "description": "Toon de kern van de gameplay met direct omkeren, vijanden die naderen en actie die meteen duidelijk leesbaar is.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-1.png"
+        },
+        {
+          "title": "Ontwijk, schiet, overleef",
+          "description": "Toon een spannend moment midden in een run met meerdere vijanden, zichtbare schoten en sterke neon-energie.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-2.png"
+        },
+        {
+          "title": "Ga voor een hogere score",
+          "description": "Toon score, runresultaten of skins om voortgang, herspeelbaarheid en motivatie om te verbeteren duidelijk te maken.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wat voor game is Orbital Rhythm?",
+          "answer": "Orbital Rhythm is een one-tap arcade survival shooter waarin je vijanden ontwijkt, je schoten timet en zo lang mogelijk probeert te overleven."
+        },
+        {
+          "question": "Is Orbital Rhythm makkelijk te leren?",
+          "answer": "Ja. De besturing is simpel, maar het spel wordt snel uitdagender, waardoor timing en oefening echt verschil maken."
+        },
+        {
+          "question": "Kan ik Orbital Rhythm offline spelen?",
+          "answer": "Ja. Orbital Rhythm is ontworpen voor soepele offline arcadesessies wanneer jij maar wilt spelen."
+        },
+        {
+          "question": "Zijn er dingen vrij te spelen?",
+          "answer": "Ja. Je kunt skins vrijspelen en je voortgang volgen, zodat elke nieuwe run extra belonend voelt."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Orbital Rhythm",
+      "summary": "Szybka strzelanka survival arcade one tap, w której każdy ruch ma znaczenie. Zmieniaj kierunek, omijaj wrogów, wyczuwaj moment strzału i bij kolejne rekordy.",
+      "longDescription": [
+        "Orbital Rhythm to szybka strzelanka survival arcade, w której jedno stuknięcie może zmienić wszystko. Natychmiast odwracaj kierunek, unikaj nadlatujących wrogów, wyczuwaj moment oddania strzału i przetrwaj jak najdłużej w efektownym neonowym wyzwaniu sci-fi.",
+        "Gra jest prosta na start, ale trudna do pełnego opanowania. Orbital Rhythm łączy intuicyjne sterowanie one tap z intensywną rozgrywką survival. Każdy run sprawdza timing, ruch i podejmowanie decyzji, a z każdą chwilą presja rośnie.",
+        "Jeśli lubisz gry arcade, strzelanki survival, wyzwania na wynik, gry refleksowe i krótkie sesje oparte na umiejętnościach, Orbital Rhythm daje płynną akcję i bardzo mocny potencjał do powtarzania. To gra dla osób, które chcą zacząć od razu, ale stopniowo grać coraz lepiej.",
+        "Do tego dochodzi czysty styl sci-fi, śledzenie postępów, historia runów i odblokowywalne skórki, dzięki którym każda próba daje satysfakcję. Niezależnie od tego, czy grasz minutę, czy walczysz o nowy rekord, zawsze jest powód do kolejnej partii.",
+        "Poznaj rytm, reaguj szybko i opanuj każdy run. Im dłużej przetrwasz, tym trudniej się robi. Zmieniaj kierunek, przetrwaj rój i pobij swój rekord."
+      ],
+      "bottomCtaDescription": "Zainstaluj Orbital Rhythm i wskocz do stylowego neonowego wyzwania arcade stworzonego z myślą o krótkich sesjach, szybkich refleksach i ciągłej pogoni za lepszym wynikiem. Jedno stuknięcie może uratować run albo ustawić idealny strzał.",
+      "category": "Strzelanka arcade",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "strzelanka arcade",
+        "gra survival",
+        "gra one tap",
+        "gra zręcznościowa",
+        "gra na rekord",
+        "arcade offline",
+        "gra neon"
+      ],
+      "metaTitle": "Orbital Rhythm - Arcade one tap i strzelanka survival",
+      "metaDescription": "Omijaj wrogów, wyczuwaj moment strzału i przetrwaj dłużej w Orbital Rhythm, szybkiej grze arcade one tap dla fanów rekordów.",
+      "featureBullets": [
+        {
+          "title": "Szybka rozgrywka one tap"
+        },
+        {
+          "title": "Natychmiastowa zmiana kierunku"
+        },
+        {
+          "title": "Precyzyjne uniki i strzały"
+        },
+        {
+          "title": "Niekończące się wyzwanie na wynik"
+        },
+        {
+          "title": "Odblokowywalne skórki"
+        },
+        {
+          "title": "Płynna gra offline"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Jedno stuknięcie zmienia wszystko",
+          "description": "Pokaż główną mechanikę z natychmiastową zmianą kierunku, nadciągającymi wrogami i czytelną akcją od pierwszego spojrzenia.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-1.png"
+        },
+        {
+          "title": "Unikaj, strzelaj, przetrwaj",
+          "description": "Pokaż napięty fragment rozgrywki z wieloma przeciwnikami, widocznymi pociskami i mocnym neonowym klimatem.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-2.png"
+        },
+        {
+          "title": "Walcz o nowy rekord",
+          "description": "Pokaż wynik, historię runów albo skórki, aby podkreślić postęp i wysoką regrywalność.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Jakim typem gry jest Orbital Rhythm?",
+          "answer": "Orbital Rhythm to strzelanka survival arcade one tap, w której unikasz wrogów, wyczuwasz moment strzału i walczysz o jak najdłuższe przetrwanie."
+        },
+        {
+          "question": "Czy łatwo nauczyć się grać?",
+          "answer": "Tak. Sterowanie jest bardzo proste, ale osiąganie coraz lepszych wyników wymaga refleksu, wyczucia i praktyki."
+        },
+        {
+          "question": "Czy można grać offline?",
+          "answer": "Tak. Orbital Rhythm świetnie sprawdza się w krótkich sesjach arcade także bez połączenia z internetem."
+        },
+        {
+          "question": "Czy gra ma odblokowywane elementy?",
+          "answer": "Tak. Możesz odblokowywać skórki i śledzić postępy, dzięki czemu każda kolejna próba daje dodatkową satysfakcję."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Orbital Rhythm",
+      "summary": "Un shooter arcade survival one tap rapid și captivant, în care fiecare mișcare contează. Schimbă instant direcția, evită inamicii, cronometrează focurile și urmărește un scor mai mare la fiecare run.",
+      "longDescription": [
+        "Orbital Rhythm este un shooter arcade survival rapid în care o singură atingere poate schimba totul. Inversează instant direcția, evită inamicii care vin spre tine, cronometrează-ți focurile și supraviețuiește cât mai mult într-o provocare neon cu stil sci-fi clar și modern.",
+        "Este ușor de început, dar greu de stăpânit cu adevărat. Orbital Rhythm combină controale simple one tap cu un gameplay survival intens. Fiecare run îți testează timingul, mișcarea și deciziile, în timp ce presiunea crește constant.",
+        "Dacă îți plac jocurile arcade, survival shooter-ele, provocările de tip high score, jocurile de reflex și sesiunile scurte bazate pe skill, Orbital Rhythm oferă acțiune fluidă și replay value puternic. Este creat pentru jucători care vor să intre imediat în joc, dar și să progreseze în timp.",
+        "Jocul include și un stil vizual sci-fi curat, urmărirea progresului, istoric pentru run-uri și skin-uri deblocate pe parcurs, astfel încât fiecare sesiune să fie satisfăcătoare. Fie că joci un minut sau urmărești un nou record personal, vei avea mereu un motiv să revii.",
+        "Învață ritmul, reacționează rapid și stăpânește fiecare run. Cu cât supraviețuiești mai mult, cu atât provocarea devine mai intensă. Schimbă direcția, rezistă roiului și bate-ți recordul."
+      ],
+      "bottomCtaDescription": "Instalează Orbital Rhythm și intră într-o provocare arcade cu stil neon, făcută pentru sesiuni scurte, reflexe rapide și dorința constantă de a-ți depăși scorul. O singură atingere îți poate salva run-ul sau îți poate pregăti focul perfect.",
+      "category": "Shooter arcade",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "shooter arcade",
+        "joc survival",
+        "joc one tap",
+        "joc reflexe",
+        "joc de scor",
+        "arcade offline",
+        "joc neon"
+      ],
+      "metaTitle": "Orbital Rhythm - Shooter arcade survival one tap",
+      "metaDescription": "Evită inamicii, trage la momentul potrivit și supraviețuiește mai mult în Orbital Rhythm, un shooter arcade one tap făcut pentru scoruri mari.",
+      "featureBullets": [
+        {
+          "title": "Gameplay one tap rapid"
+        },
+        {
+          "title": "Schimbare instantă de direcție"
+        },
+        {
+          "title": "Evitare și foc de precizie"
+        },
+        {
+          "title": "Provocare endless high score"
+        },
+        {
+          "title": "Skin-uri deblocate"
+        },
+        {
+          "title": "Arcade offline fluid"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "O atingere schimbă totul",
+          "description": "Arată mecanica principală cu schimbarea direcției, inamici care se apropie și acțiune clară încă de la primul contact vizual.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-1.png"
+        },
+        {
+          "title": "Evită, trage, supraviețuiește",
+          "description": "Arată un moment tensionat din joc, cu mai mulți inamici, focuri vizibile și impact vizual neon care transmite presiune și reflexe.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-2.png"
+        },
+        {
+          "title": "Vânează un nou record",
+          "description": "Arată scorul, istoricul run-urilor sau skin-urile pentru a evidenția progresul și rejucabilitatea.",
+          "imagePath": "apps/screenshots/orbital-rhythm/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Ce tip de joc este Orbital Rhythm?",
+          "answer": "Orbital Rhythm este un shooter arcade survival one tap în care eviți inamicii, îți cronometrezi focurile și încerci să supraviețuiești cât mai mult."
+        },
+        {
+          "question": "Este ușor de învățat?",
+          "answer": "Da. Controalele sunt simple, dar jocul devine rapid mai dificil, iar progresul vine din timing bun și reflexe rapide."
+        },
+        {
+          "question": "Pot să joc offline?",
+          "answer": "Da. Orbital Rhythm este potrivit pentru sesiuni arcade rapide și fără conexiune la internet."
+        },
+        {
+          "question": "Există conținut deblocat în joc?",
+          "answer": "Da. Poți debloca skin-uri și îți poți urmări progresul, astfel încât fiecare run să fie mai motivant."
+        }
+      ]
+    }
+  }
+}

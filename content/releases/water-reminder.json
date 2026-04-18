@@ -1,6 +1,6 @@
 {
   "slug": "water-reminder",
-  "sortOrder": 3,
+  "sortOrder": 1,
   "kind": "app",
   "featured": true,
   "accent": "green",
@@ -11,7 +11,7 @@
   "relatedSlugs": [
     "habit-tracker",
     "hiit-timer",
-    "big-ben"
+    "intermittent-fasting"
   ],
   "screenshotOrientation": "portrait",
   "translations": {

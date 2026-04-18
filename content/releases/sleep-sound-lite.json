@@ -1,0 +1,909 @@
+{
+  "slug": "sleep-sound-lite",
+  "sortOrder": 9,
+  "kind": "app",
+  "featured": false,
+  "accent": "blue",
+  "icon": "apps/icons/sleep-sound-lite.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.sleepsoundslite",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "HealthApplication",
+  "relatedSlugs": [
+    "pomodoro-focus-timer",
+    "water-reminder"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Sleep Sound Lite",
+      "summary": "A simple sleep sounds app with white noise, rain, ocean sounds, looping playback, and a sleep timer. Relax faster, block distractions, and create a calmer bedtime routine every night.",
+      "longDescription": [
+        "Sleep Sound Lite is a simple and calming sleep sounds app designed to help you relax, fall asleep faster, and enjoy more restful nights. With soothing background audio and a clean dark design, it fits naturally into your bedtime routine.",
+        "Choose from a growing sound library with favorites like heavy rain, rain on tent, storm rain, ocean waves, white noise, fan noise, deep white noise, and forest night. Whether you want to block distractions, quiet your mind, improve sleep focus, or create a peaceful atmosphere, everything is easy to access in one place.",
+        "Set the right sleep timer for your routine with quick options like 30 minutes, 45 minutes, 1 hour, and 90 minutes, or choose a custom duration. Start playback, let your sound loop smoothly, and rest without interruptions.",
+        "Sleep Sound Lite is built for simple control and everyday use. Save your favorite sounds, switch languages easily, and return to the audio that helps you relax the most. Whether you prefer rain sounds, ocean sounds, white noise, or soft ambient audio, the app helps you build a better sleep environment with less effort."
+      ],
+      "bottomCtaDescription": "Install Sleep Sound Lite and make bedtime easier with calming soundscapes, simple controls, and a sleep timer that fits your routine. Choose your favorite sound, press play, and wind down with less effort.",
+      "category": "Sleep Sounds App",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "sleep sounds",
+        "white noise",
+        "rain sounds",
+        "ocean sounds",
+        "sleep timer",
+        "relaxing sounds",
+        "bedtime app"
+      ],
+      "metaTitle": "Sleep Sound Lite - Sleep Sounds, White Noise & Timer",
+      "metaDescription": "Relax with sleep sounds, white noise, rain, ocean audio, and a sleep timer. Sleep Sound Lite helps you unwind and rest more peacefully.",
+      "featureBullets": [
+        {
+          "title": "Relaxing Sleep Sounds Library"
+        },
+        {
+          "title": "White Noise, Rain and Ocean Audio"
+        },
+        {
+          "title": "Sleep Timer with Quick Presets"
+        },
+        {
+          "title": "Smooth Looping Playback"
+        },
+        {
+          "title": "Favorite Sounds for Fast Access"
+        },
+        {
+          "title": "Clean Dark Design for Night Use"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Choose Your Sleep Sound",
+          "description": "Show the main sound library with calming options like rain, ocean, white noise, and forest night in a clean, dark, easy-to-browse layout.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-1.png"
+        },
+        {
+          "title": "Set a Sleep Timer",
+          "description": "Show the timer screen with quick options such as 30 minutes, 45 minutes, 1 hour, and 90 minutes, highlighting convenience before sleep.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-2.png"
+        },
+        {
+          "title": "Relax with One Tap",
+          "description": "Show an active playback screen with a selected sound, simple controls, smooth looping feel, and a calm bedtime atmosphere.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What sounds are included in Sleep Sound Lite?",
+          "answer": "The app includes calming audio such as heavy rain, rain on tent, storm rain, ocean waves, white noise, fan noise, deep white noise, and forest night."
+        },
+        {
+          "question": "Can I use a sleep timer with the sounds?",
+          "answer": "Yes. Sleep Sound Lite includes quick sleep timer options like 30 minutes, 45 minutes, 1 hour, and 90 minutes, plus a custom timer duration."
+        },
+        {
+          "question": "Does Sleep Sound Lite support favorite sounds?",
+          "answer": "Yes. You can save favorite sounds so the audio you use most is always easy to access."
+        },
+        {
+          "question": "Is Sleep Sound Lite good for blocking background noise?",
+          "answer": "Yes. White noise, rain sounds, fan noise, and ocean audio can help mask distractions and create a more peaceful sleep environment."
+        }
+      ]
+    },
+    "de": {
+      "name": "Sleep Sound Lite",
+      "summary": "Eine einfache App mit Schlafgeräuschen, White Noise, Regenklängen, Meeresrauschen und Sleep Timer. Entspanne schneller, blende Störungen aus und schaffe dir eine ruhigere Abendroutine.",
+      "longDescription": [
+        "Sleep Sound Lite ist eine einfache und beruhigende App für Schlafgeräusche, die dir hilft, zu entspannen, schneller einzuschlafen und nachts besser zur Ruhe zu kommen. Das klare Dark Design ist angenehm bei wenig Licht und ideal vor dem Schlafengehen.",
+        "Wähle aus einer wachsenden Klangbibliothek mit beruhigenden Sounds wie starkem Regen, Regen auf dem Zelt, Sturmregen, Meereswellen, White Noise, Ventilatorgeräuschen, tiefem White Noise und nächtlichem Wald. Ob du Ablenkungen ausblenden, den Kopf beruhigen oder eine entspannte Schlafumgebung schaffen möchtest, alles ist leicht erreichbar.",
+        "Mit dem passenden Sleep Timer passt sich die App deiner Routine an. Nutze schnelle Optionen wie 30 Minuten, 45 Minuten, 1 Stunde und 90 Minuten oder stelle eine eigene Dauer ein. Starte den Sound, lasse ihn nahtlos in Schleife laufen und ruhe ohne Unterbrechungen.",
+        "Sleep Sound Lite wurde für einfache Steuerung und den täglichen Einsatz entwickelt. Speichere Lieblingssounds, wechsle bequem die Sprache und finde schnell die Klänge wieder, die dir am meisten helfen. Egal ob Regen, Meer, White Noise oder sanfte Ambient-Sounds, die App macht Entspannung vor dem Schlafen unkompliziert."
+      ],
+      "bottomCtaDescription": "Installiere Sleep Sound Lite und mache deine Abendroutine entspannter mit beruhigenden Klängen, einfacher Bedienung und einem praktischen Sleep Timer. Klang auswählen, starten und leichter abschalten.",
+      "category": "App für Schlafgeräusche",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Schlafgeräusche",
+        "White Noise",
+        "Regengeräusche",
+        "Meeresrauschen",
+        "Sleep Timer",
+        "Entspannungsklänge",
+        "Einschlafhilfe"
+      ],
+      "metaTitle": "Sleep Sound Lite - Schlafgeräusche, White Noise & Timer",
+      "metaDescription": "Entspanne mit Schlafgeräuschen, White Noise, Regen, Meeresrauschen und Sleep Timer. Sleep Sound Lite hilft dir beim Abschalten und Einschlafen.",
+      "featureBullets": [
+        {
+          "title": "Beruhigende Schlafgeräusche"
+        },
+        {
+          "title": "White Noise, Regen und Meer"
+        },
+        {
+          "title": "Sleep Timer mit Schnellwahl"
+        },
+        {
+          "title": "Nahtlose Wiedergabe in Schleife"
+        },
+        {
+          "title": "Favoriten für schnellen Zugriff"
+        },
+        {
+          "title": "Dark Design für die Nacht"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Finde den richtigen Klang",
+          "description": "Zeige die Soundbibliothek mit Regen, Meer, White Noise und Wald in einem ruhigen, dunklen und übersichtlichen Layout.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-1.png"
+        },
+        {
+          "title": "Sleep Timer einstellen",
+          "description": "Zeige den Timer mit schnellen Optionen wie 30 Minuten, 45 Minuten, 1 Stunde und 90 Minuten, um Komfort vor dem Schlafen zu vermitteln.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-2.png"
+        },
+        {
+          "title": "Mit einem Tap entspannen",
+          "description": "Zeige den aktiven Wiedergabebildschirm mit ausgewähltem Klang, einfacher Steuerung und einer ruhigen, abendlichen Atmosphäre.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Welche Klänge bietet Sleep Sound Lite?",
+          "answer": "Die App enthält unter anderem starken Regen, Regen auf dem Zelt, Sturmregen, Meereswellen, White Noise, Ventilatorgeräusche, tiefes White Noise und nächtliche Waldgeräusche."
+        },
+        {
+          "question": "Gibt es einen Sleep Timer?",
+          "answer": "Ja. Du kannst schnelle Timer wie 30 Minuten, 45 Minuten, 1 Stunde und 90 Minuten nutzen oder eine eigene Dauer festlegen."
+        },
+        {
+          "question": "Kann ich Lieblingssounds speichern?",
+          "answer": "Ja. Sleep Sound Lite erlaubt dir, Lieblingsklänge zu speichern, damit du sie später schneller wiederfindest."
+        },
+        {
+          "question": "Hilft die App beim Ausblenden von Hintergrundgeräuschen?",
+          "answer": "Ja. White Noise, Regen, Ventilatorgeräusche und Meeresrauschen können helfen, störende Geräusche zu überdecken und eine ruhigere Schlafumgebung zu schaffen."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Sleep Sound Lite",
+      "summary": "Une application simple avec sons pour dormir, bruit blanc, pluie, vagues et minuteur de sommeil. Détendez-vous plus vite, couvrez les bruits gênants et créez une routine du soir plus apaisante.",
+      "longDescription": [
+        "Sleep Sound Lite est une application simple et apaisante conçue pour vous aider à vous détendre, à vous endormir plus rapidement et à profiter de nuits plus reposantes. Son design sombre et épuré reste agréable à utiliser juste avant le coucher.",
+        "Choisissez parmi une bibliothèque sonore en évolution avec des ambiances relaxantes comme forte pluie, pluie sur une tente, pluie d'orage, vagues de l'océan, bruit blanc, bruit de ventilateur, bruit blanc profond et nuit en forêt. Que vous cherchiez à masquer les distractions, calmer votre esprit ou créer une ambiance de sommeil plus paisible, tout reste facile d'accès.",
+        "Réglez le minuteur de sommeil selon votre routine avec des options rapides comme 30 minutes, 45 minutes, 1 heure et 90 minutes, ou choisissez une durée personnalisée. Lancez la lecture, laissez le son boucler en douceur et reposez-vous sans interruption.",
+        "Sleep Sound Lite a été pensé pour un usage simple au quotidien. Enregistrez vos sons favoris, changez facilement de langue et retrouvez rapidement les sons qui vous aident le plus à vous relaxer. Pluie, océan, bruit blanc ou sons d'ambiance doux, l'application rend votre environnement de sommeil plus agréable avec moins d'effort."
+      ],
+      "bottomCtaDescription": "Installez Sleep Sound Lite et facilitez vos soirées avec des sons apaisants, un minuteur pratique et une interface claire pensée pour la nuit. Choisissez un son, lancez-le et détendez-vous plus facilement.",
+      "category": "Application de sons pour dormir",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "sons pour dormir",
+        "bruit blanc",
+        "sons de pluie",
+        "sons de l'océan",
+        "minuteur sommeil",
+        "sons relaxants",
+        "application sommeil"
+      ],
+      "metaTitle": "Sleep Sound Lite - Sons pour dormir, bruit blanc et timer",
+      "metaDescription": "Détendez-vous avec pluie, océan, bruit blanc et minuteur de sommeil. Sleep Sound Lite aide à s'endormir plus sereinement chaque nuit.",
+      "featureBullets": [
+        {
+          "title": "Bibliothèque de sons apaisants"
+        },
+        {
+          "title": "Bruit blanc, pluie et océan"
+        },
+        {
+          "title": "Minuteur de sommeil avec raccourcis"
+        },
+        {
+          "title": "Lecture en boucle fluide"
+        },
+        {
+          "title": "Favoris pour accès rapide"
+        },
+        {
+          "title": "Design sombre pour la nuit"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Choisissez votre son apaisant",
+          "description": "Montrer la bibliothèque sonore avec pluie, océan, bruit blanc et forêt dans une interface sombre, calme et facile à parcourir.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-1.png"
+        },
+        {
+          "title": "Réglez le minuteur",
+          "description": "Montrer le minuteur avec des choix rapides comme 30 minutes, 45 minutes, 1 heure et 90 minutes pour souligner la simplicité avant le coucher.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-2.png"
+        },
+        {
+          "title": "Détendez-vous en un geste",
+          "description": "Montrer l'écran de lecture avec un son actif, des commandes simples et une ambiance visuelle calme adaptée à la nuit.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Quels sons sont inclus dans Sleep Sound Lite ?",
+          "answer": "L'application propose notamment forte pluie, pluie sur une tente, pluie d'orage, vagues de l'océan, bruit blanc, bruit de ventilateur, bruit blanc profond et nuit en forêt."
+        },
+        {
+          "question": "Y a-t-il un minuteur de sommeil ?",
+          "answer": "Oui. Sleep Sound Lite inclut des durées rapides comme 30 minutes, 45 minutes, 1 heure et 90 minutes, ainsi qu'une durée personnalisée."
+        },
+        {
+          "question": "Puis-je enregistrer mes sons préférés ?",
+          "answer": "Oui. Vous pouvez enregistrer vos favoris pour retrouver rapidement les sons que vous utilisez le plus."
+        },
+        {
+          "question": "L'application peut-elle aider à masquer les bruits de fond ?",
+          "answer": "Oui. Le bruit blanc, la pluie, le ventilateur et les sons de l'océan peuvent aider à couvrir certaines distractions sonores et à créer une ambiance plus calme."
+        }
+      ]
+    },
+    "it": {
+      "name": "Sleep Sound Lite",
+      "summary": "Un'app semplice con suoni per dormire, rumore bianco, pioggia, oceano e timer del sonno. Rilassati più facilmente, riduci le distrazioni e crea una routine serale più tranquilla.",
+      "longDescription": [
+        "Sleep Sound Lite è un'app semplice e rilassante pensata per aiutarti a distenderti, addormentarti più velocemente e dormire meglio. Il design scuro e pulito è comodo da usare di sera e si adatta bene alla routine prima del sonno.",
+        "Scegli da una libreria in crescita con audio rilassanti come pioggia intensa, pioggia sulla tenda, pioggia temporalesca, onde dell'oceano, rumore bianco, rumore del ventilatore, rumore bianco profondo e notte nella foresta. Che tu voglia bloccare le distrazioni, calmare la mente o creare un'atmosfera serena, hai tutto in un unico posto.",
+        "Imposta il timer del sonno più adatto alle tue abitudini con opzioni rapide come 30 minuti, 45 minuti, 1 ora e 90 minuti, oppure scegli una durata personalizzata. Avvia la riproduzione, lascia che il suono si ripeta in modo fluido e riposa senza interruzioni.",
+        "Sleep Sound Lite è pensata per il controllo semplice e l'uso quotidiano. Salva i tuoi suoni preferiti, cambia lingua facilmente e torna in pochi secondi all'audio che ti aiuta di più a rilassarti. Pioggia, oceano, rumore bianco o suoni ambient delicati: tutto è progettato per rendere più facile creare un ambiente migliore per dormire."
+      ],
+      "bottomCtaDescription": "Scarica Sleep Sound Lite e rendi il momento prima di dormire più semplice con suoni rilassanti, timer del sonno e controlli essenziali. Scegli il tuo suono preferito, avvia la riproduzione e lasciati andare al relax.",
+      "category": "App di suoni per dormire",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "suoni per dormire",
+        "rumore bianco",
+        "suoni della pioggia",
+        "suoni oceano",
+        "timer sonno",
+        "suoni rilassanti",
+        "app sonno"
+      ],
+      "metaTitle": "Sleep Sound Lite - Suoni per dormire, rumore bianco e timer",
+      "metaDescription": "Rilassati con pioggia, oceano, rumore bianco e timer del sonno. Sleep Sound Lite aiuta a creare un ambiente più tranquillo ogni notte.",
+      "featureBullets": [
+        {
+          "title": "Libreria di suoni rilassanti"
+        },
+        {
+          "title": "Rumore bianco, pioggia e oceano"
+        },
+        {
+          "title": "Timer del sonno con preset rapidi"
+        },
+        {
+          "title": "Riproduzione continua fluida"
+        },
+        {
+          "title": "Preferiti per accesso immediato"
+        },
+        {
+          "title": "Design scuro per la notte"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Scegli il tuo suono rilassante",
+          "description": "Mostra la libreria con pioggia, oceano, rumore bianco e foresta in un layout pulito, scuro e facile da usare prima di dormire.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-1.png"
+        },
+        {
+          "title": "Imposta il timer del sonno",
+          "description": "Mostra il timer con scelte rapide come 30 minuti, 45 minuti, 1 ora e 90 minuti per comunicare praticità e semplicità.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-2.png"
+        },
+        {
+          "title": "Rilassati con un tocco",
+          "description": "Mostra la schermata di riproduzione attiva con comandi essenziali, suono selezionato e atmosfera calma e notturna.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Quali suoni include Sleep Sound Lite?",
+          "answer": "L'app include suoni come pioggia intensa, pioggia sulla tenda, pioggia temporalesca, onde dell'oceano, rumore bianco, rumore del ventilatore, rumore bianco profondo e notte nella foresta."
+        },
+        {
+          "question": "C'è un timer del sonno?",
+          "answer": "Sì. Sleep Sound Lite include opzioni rapide come 30 minuti, 45 minuti, 1 ora e 90 minuti, oltre a una durata personalizzata."
+        },
+        {
+          "question": "Posso salvare i miei suoni preferiti?",
+          "answer": "Sì. Puoi salvare i preferiti per ritrovare più velocemente i suoni che usi di più."
+        },
+        {
+          "question": "L'app aiuta a coprire i rumori di sottofondo?",
+          "answer": "Sì. Rumore bianco, pioggia, ventilatore e oceano possono aiutare a mascherare alcune distrazioni sonore e rendere l'ambiente più tranquillo."
+        }
+      ]
+    },
+    "es": {
+      "name": "Sleep Sound Lite",
+      "summary": "Una app sencilla con sonidos para dormir, ruido blanco, lluvia, océano y temporizador de sueño. Relájate mejor, tapa distracciones y crea una rutina nocturna más tranquila.",
+      "longDescription": [
+        "Sleep Sound Lite es una aplicación simple y relajante creada para ayudarte a desconectar, dormirte más rápido y descansar mejor por la noche. Su diseño oscuro y limpio resulta cómodo antes de dormir y fácil de usar cada día.",
+        "Elige entre una biblioteca de sonidos en crecimiento con opciones como lluvia intensa, lluvia sobre tienda de campaña, lluvia de tormenta, olas del océano, ruido blanco, sonido de ventilador, ruido blanco profundo y noche de bosque. Ya sea para bloquear distracciones, calmar la mente o crear un ambiente más sereno, todo está en un solo lugar.",
+        "Ajusta el temporizador de sueño a tu rutina con opciones rápidas como 30 minutos, 45 minutos, 1 hora y 90 minutos, o elige una duración personalizada. Inicia la reproducción, deja que el sonido se repita de forma fluida y descansa sin interrupciones.",
+        "Sleep Sound Lite está pensada para el control sencillo y el uso diario. Guarda tus sonidos favoritos, cambia de idioma fácilmente y vuelve rápido al audio que más te ayuda a relajarte. Si prefieres lluvia, océano, ruido blanco o ambient suave, la app te ayuda a crear un mejor entorno para dormir con menos esfuerzo."
+      ],
+      "bottomCtaDescription": "Descarga Sleep Sound Lite y haz que tu rutina antes de dormir sea más simple con sonidos relajantes, temporizador y controles fáciles. Elige tu sonido favorito, pulsa reproducir y desconecta con menos esfuerzo.",
+      "category": "App de sonidos para dormir",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "sonidos para dormir",
+        "ruido blanco",
+        "sonidos de lluvia",
+        "sonidos del océano",
+        "temporizador de sueño",
+        "sonidos relajantes",
+        "app para dormir"
+      ],
+      "metaTitle": "Sleep Sound Lite - Sonidos para dormir, ruido blanco y timer",
+      "metaDescription": "Relájate con lluvia, océano, ruido blanco y temporizador de sueño. Sleep Sound Lite ayuda a crear un ambiente más calmado cada noche.",
+      "featureBullets": [
+        {
+          "title": "Biblioteca de sonidos relajantes"
+        },
+        {
+          "title": "Ruido blanco, lluvia y océano"
+        },
+        {
+          "title": "Temporizador de sueño con accesos rápidos"
+        },
+        {
+          "title": "Reproducción en bucle fluida"
+        },
+        {
+          "title": "Favoritos para acceso rápido"
+        },
+        {
+          "title": "Diseño oscuro para la noche"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Elige tu sonido relajante",
+          "description": "Mostrar la biblioteca con lluvia, océano, ruido blanco y bosque en una interfaz oscura, limpia y fácil de explorar.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-1.png"
+        },
+        {
+          "title": "Configura el temporizador",
+          "description": "Mostrar el temporizador con opciones rápidas como 30 minutos, 45 minutos, 1 hora y 90 minutos para transmitir comodidad antes de dormir.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-2.png"
+        },
+        {
+          "title": "Relájate con un toque",
+          "description": "Mostrar la pantalla de reproducción activa con controles simples, sonido seleccionado y una atmósfera nocturna tranquila.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Qué sonidos incluye Sleep Sound Lite?",
+          "answer": "La app incluye lluvia intensa, lluvia sobre tienda, lluvia de tormenta, olas del océano, ruido blanco, sonido de ventilador, ruido blanco profundo y noche de bosque."
+        },
+        {
+          "question": "¿Tiene temporizador de sueño?",
+          "answer": "Sí. Sleep Sound Lite incluye opciones rápidas como 30 minutos, 45 minutos, 1 hora y 90 minutos, además de una duración personalizada."
+        },
+        {
+          "question": "¿Puedo guardar sonidos favoritos?",
+          "answer": "Sí. Puedes marcar sonidos como favoritos para encontrarlos más rápido cuando los necesites."
+        },
+        {
+          "question": "¿Sirve para tapar ruidos de fondo?",
+          "answer": "Sí. El ruido blanco, la lluvia, el ventilador y los sonidos del océano pueden ayudar a reducir distracciones y hacer más tranquilo el entorno para dormir."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Sleep Sound Lite",
+      "summary": "Um app simples com sons para dormir, ruído branco, chuva, oceano e timer de sono. Relaxe melhor, reduza distrações e crie uma rotina noturna mais tranquila.",
+      "longDescription": [
+        "Sleep Sound Lite é um app simples e calmante criado para ajudar você a relaxar, pegar no sono mais rápido e ter noites mais tranquilas. O design escuro e limpo deixa a experiência mais confortável à noite e fácil de usar antes de dormir.",
+        "Escolha em uma biblioteca crescente com sons relaxantes como chuva forte, chuva na barraca, chuva de tempestade, ondas do oceano, ruído branco, som de ventilador, ruído branco profundo e noite na floresta. Seja para bloquear distrações, acalmar a mente ou criar um ambiente mais sereno, tudo fica fácil de acessar em um só lugar.",
+        "Defina o timer ideal para sua rotina com opções rápidas como 30 minutos, 45 minutos, 1 hora e 90 minutos, ou escolha uma duração personalizada. Inicie a reprodução, deixe o som tocar em loop suave e descanse sem interrupções.",
+        "Sleep Sound Lite foi feito para controle simples e uso diário. Salve seus sons favoritos, mude o idioma com facilidade e volte rapidamente ao áudio que mais ajuda você a relaxar. Chuva, oceano, ruído branco ou sons ambientes suaves: o app ajuda você a criar um ambiente melhor para dormir com menos esforço."
+      ],
+      "bottomCtaDescription": "Baixe Sleep Sound Lite e deixe sua rotina antes de dormir mais simples com sons relaxantes, timer e controles fáceis de usar. Escolha seu som favorito, aperte play e desacelere com mais conforto.",
+      "category": "App de sons para dormir",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "sons para dormir",
+        "ruído branco",
+        "sons de chuva",
+        "sons do oceano",
+        "timer de sono",
+        "sons relaxantes",
+        "app para dormir"
+      ],
+      "metaTitle": "Sleep Sound Lite - Sons para dormir, ruído branco e timer",
+      "metaDescription": "Relaxe com chuva, oceano, ruído branco e timer de sono. Sleep Sound Lite ajuda a criar um ambiente mais calmo para descansar melhor.",
+      "featureBullets": [
+        {
+          "title": "Biblioteca de sons relaxantes"
+        },
+        {
+          "title": "Ruído branco, chuva e oceano"
+        },
+        {
+          "title": "Timer de sono com opções rápidas"
+        },
+        {
+          "title": "Reprodução em loop suave"
+        },
+        {
+          "title": "Favoritos para acesso rápido"
+        },
+        {
+          "title": "Design escuro para a noite"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Escolha seu som relaxante",
+          "description": "Mostrar a biblioteca com chuva, oceano, ruído branco e floresta em um layout escuro, limpo e fácil de navegar.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-1.png"
+        },
+        {
+          "title": "Defina o timer de sono",
+          "description": "Mostrar o timer com opções rápidas como 30 minutos, 45 minutos, 1 hora e 90 minutos para destacar praticidade antes de dormir.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-2.png"
+        },
+        {
+          "title": "Relaxe com um toque",
+          "description": "Mostrar a tela de reprodução ativa com controles simples, som selecionado e uma atmosfera calma e noturna.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Quais sons estão disponíveis no Sleep Sound Lite?",
+          "answer": "O app inclui sons como chuva forte, chuva na barraca, chuva de tempestade, ondas do oceano, ruído branco, som de ventilador, ruído branco profundo e noite na floresta."
+        },
+        {
+          "question": "O app tem timer de sono?",
+          "answer": "Sim. Sleep Sound Lite oferece opções rápidas como 30 minutos, 45 minutos, 1 hora e 90 minutos, além de duração personalizada."
+        },
+        {
+          "question": "Posso salvar sons favoritos?",
+          "answer": "Sim. Você pode salvar seus sons favoritos para acessá-los mais rapidamente sempre que quiser relaxar."
+        },
+        {
+          "question": "O app ajuda a bloquear ruídos ao redor?",
+          "answer": "Sim. Ruído branco, chuva, ventilador e oceano podem ajudar a mascarar distrações e deixar o ambiente mais tranquilo para dormir."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Sleep Sound Lite",
+      "summary": "Jednostavna aplikacija sa zvucima za spavanje, white noise opcijama, kišom, okeanom i sleep timerom. Lakše se opusti, smanji ometanja i napravi mirniju večernju rutinu.",
+      "longDescription": [
+        "Sleep Sound Lite je jednostavna i umirujuća aplikacija napravljena da ti pomogne da se opustiš, brže zaspiš i imaš mirnije noći. Čist dark dizajn prijatan je za korišćenje uveče i lako se uklapa u rutinu pred spavanje.",
+        "Izaberi iz rastuće biblioteke zvukova sa opuštajućim audio zapisima kao što su jaka kiša, kiša na šatoru, olujna kiša, okeanski talasi, white noise, zvuk ventilatora, deep white noise i noćna šuma. Bilo da želiš blokirati ometanja, smiriti misli ili napraviti prijatniju atmosferu za spavanje, sve ti je dostupno na jednom mjestu.",
+        "Podesi sleep timer prema svojoj rutini uz brze opcije kao što su 30 minuta, 45 minuta, 1 sat i 90 minuta, ili izaberi prilagođeno trajanje. Pokreni reprodukciju, pusti da se zvuk glatko ponavlja i odmori bez prekida.",
+        "Sleep Sound Lite je napravljen za jednostavnu kontrolu i svakodnevnu upotrebu. Sačuvaj omiljene zvukove, lako promijeni jezik i brzo se vrati audio zapisima koji ti najviše pomažu da se opustiš. Bilo da biraš kišu, okean, white noise ili blage ambijentalne zvuke, aplikacija ti pomaže da uz manje truda napraviš bolje okruženje za san."
+      ],
+      "bottomCtaDescription": "Instaliraj Sleep Sound Lite i učini odlazak na spavanje jednostavnijim uz umirujuće zvuke, praktičan sleep timer i jednostavne kontrole. Odaberi omiljeni zvuk, pusti ga i opusti se bez komplikacija.",
+      "category": "Aplikacija za zvuke za spavanje",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "zvuci za spavanje",
+        "white noise",
+        "zvuci kiše",
+        "zvuci okeana",
+        "sleep timer",
+        "opuštajući zvuci",
+        "aplikacija za spavanje"
+      ],
+      "metaTitle": "Sleep Sound Lite - Zvuci za spavanje, white noise i timer",
+      "metaDescription": "Opusti se uz kišu, okean, white noise i sleep timer. Sleep Sound Lite pomaže da lakše zaspiš i stvoriš mirnije okruženje za odmor.",
+      "featureBullets": [
+        {
+          "title": "Biblioteka umirujućih zvukova"
+        },
+        {
+          "title": "White noise, kiša i okean"
+        },
+        {
+          "title": "Sleep timer sa brzim opcijama"
+        },
+        {
+          "title": "Glatka loop reprodukcija"
+        },
+        {
+          "title": "Omiljeni zvukovi za brz pristup"
+        },
+        {
+          "title": "Dark dizajn za noćno korišćenje"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Izaberi svoj zvuk za opuštanje",
+          "description": "Prikaži glavnu biblioteku sa kišom, okeanom, white noise opcijama i šumom u čistom tamnom interfejsu koji djeluje mirno i pregledno.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-1.png"
+        },
+        {
+          "title": "Podesi sleep timer",
+          "description": "Prikaži ekran timera sa brzim opcijama kao što su 30 minuta, 45 minuta, 1 sat i 90 minuta kako bi se istakla praktičnost pred spavanje.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-2.png"
+        },
+        {
+          "title": "Opusti se jednim dodirom",
+          "description": "Prikaži aktivan playback ekran sa odabranim zvukom, jednostavnim kontrolama i tihom večernjom atmosferom.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Koji zvukovi su dostupni u aplikaciji Sleep Sound Lite?",
+          "answer": "Aplikacija uključuje jaku kišu, kišu na šatoru, olujnu kišu, okeanske talase, white noise, zvuk ventilatora, deep white noise i noćnu šumu."
+        },
+        {
+          "question": "Da li aplikacija ima sleep timer?",
+          "answer": "Da. Sleep Sound Lite nudi brze opcije kao što su 30 minuta, 45 minuta, 1 sat i 90 minuta, kao i prilagođeno trajanje."
+        },
+        {
+          "question": "Mogu li sačuvati omiljene zvukove?",
+          "answer": "Da. Možeš sačuvati omiljene zvukove kako bi im kasnije pristupio još brže."
+        },
+        {
+          "question": "Može li pomoći da blokiram spoljne zvukove?",
+          "answer": "Da. White noise, kiša, ventilator i okeanski zvuci mogu pomoći da prikriju ometanja i stvore mirnije okruženje za odmor."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Sleep Sound Lite",
+      "summary": "Jednostavna aplikacija sa zvukovima za spavanje, white noise opcijama, kišom, oceanom i sleep timerom. Lakše se opusti, smanji ometanja i stvori mirniju večernju rutinu.",
+      "longDescription": [
+        "Sleep Sound Lite je jednostavna i umirujuća aplikacija osmišljena da ti pomogne opustiti se, brže zaspati i imati mirnije noći. Čist dark dizajn ugodan je za korištenje navečer i lako se uklapa u rutinu prije spavanja.",
+        "Odaberi iz rastuće biblioteke zvukova s opuštajućim audio zapisima kao što su jaka kiša, kiša na šatoru, olujna kiša, valovi oceana, white noise, zvuk ventilatora, deep white noise i noćna šuma. Bilo da želiš blokirati ometanja, smiriti misli ili stvoriti ugodniju atmosferu za spavanje, sve ti je dostupno na jednom mjestu.",
+        "Podesi sleep timer prema svojoj rutini uz brze opcije kao što su 30 minuta, 45 minuta, 1 sat i 90 minuta, ili odaberi prilagođeno trajanje. Pokreni reprodukciju, pusti da se zvuk glatko ponavlja i odmaraj bez prekida.",
+        "Sleep Sound Lite napravljen je za jednostavno upravljanje i svakodnevnu upotrebu. Spremi omiljene zvukove, lako promijeni jezik i brzo se vrati audio zapisima koji ti najviše pomažu da se opustiš. Bilo da biraš kišu, ocean, white noise ili blage ambijentalne zvukove, aplikacija ti pomaže uz manje truda stvoriti bolje okruženje za san."
+      ],
+      "bottomCtaDescription": "Instaliraj Sleep Sound Lite i učini odlazak na spavanje jednostavnijim uz umirujuće zvukove, praktičan sleep timer i jednostavne kontrole. Odaberi omiljeni zvuk, pusti ga i opusti se bez napora.",
+      "category": "Aplikacija za zvukove za spavanje",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "zvukovi za spavanje",
+        "white noise",
+        "zvukovi kiše",
+        "zvukovi oceana",
+        "sleep timer",
+        "opuštajući zvukovi",
+        "aplikacija za spavanje"
+      ],
+      "metaTitle": "Sleep Sound Lite - Zvukovi za spavanje, white noise i timer",
+      "metaDescription": "Opusti se uz kišu, ocean, white noise i sleep timer. Sleep Sound Lite pomaže lakšem uspavljivanju i mirnijem okruženju za odmor.",
+      "featureBullets": [
+        {
+          "title": "Biblioteka umirujućih zvukova"
+        },
+        {
+          "title": "White noise, kiša i ocean"
+        },
+        {
+          "title": "Sleep timer s brzim opcijama"
+        },
+        {
+          "title": "Glatka loop reprodukcija"
+        },
+        {
+          "title": "Omiljeni zvukovi za brzi pristup"
+        },
+        {
+          "title": "Dark dizajn za noćno korištenje"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Odaberi zvuk za opuštanje",
+          "description": "Prikaži glavnu biblioteku s kišom, oceanom, white noise opcijama i šumom u čistom tamnom sučelju koje djeluje mirno i pregledno.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-1.png"
+        },
+        {
+          "title": "Podesi sleep timer",
+          "description": "Prikaži ekran timera s brzim opcijama kao što su 30 minuta, 45 minuta, 1 sat i 90 minuta kako bi se naglasila praktičnost prije spavanja.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-2.png"
+        },
+        {
+          "title": "Opusti se jednim dodirom",
+          "description": "Prikaži aktivni playback ekran s odabranim zvukom, jednostavnim kontrolama i mirnom večernjom atmosferom.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Koji su zvukovi dostupni u aplikaciji Sleep Sound Lite?",
+          "answer": "Aplikacija uključuje jaku kišu, kišu na šatoru, olujnu kišu, valove oceana, white noise, zvuk ventilatora, deep white noise i noćnu šumu."
+        },
+        {
+          "question": "Ima li aplikacija sleep timer?",
+          "answer": "Da. Sleep Sound Lite nudi brze opcije poput 30 minuta, 45 minuta, 1 sata i 90 minuta, kao i prilagođeno trajanje."
+        },
+        {
+          "question": "Mogu li spremiti omiljene zvukove?",
+          "answer": "Da. Možeš spremiti omiljene zvukove kako bi im kasnije pristupio još brže."
+        },
+        {
+          "question": "Može li pomoći u blokiranju pozadinske buke?",
+          "answer": "Da. White noise, kiša, ventilator i zvukovi oceana mogu pomoći prikriti ometanja i stvoriti mirnije okruženje za odmor."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Sleep Sound Lite",
+      "summary": "Een eenvoudige app met slaapgeluiden, white noise, regen, oceaangeluiden en een slaaptimer. Ontspan sneller, demp storende geluiden en maak je avondrust gemakkelijker.",
+      "longDescription": [
+        "Sleep Sound Lite is een eenvoudige en rustgevende app die is ontworpen om je te helpen ontspannen, sneller in slaap te vallen en meer rust uit je nacht te halen. Het schone donkere ontwerp is prettig voor gebruik in de avond en past goed in je bedtijdroutine.",
+        "Kies uit een groeiende geluidsbibliotheek met ontspannende audio zoals zware regen, regen op een tent, stormregen, oceaangolven, white noise, ventilatorgeluid, diepe white noise en een bosnacht. Of je nu afleiding wilt blokkeren, je hoofd wilt kalmeren of een rustigere sfeer wilt creëren, alles staat overzichtelijk op één plek.",
+        "Stel de juiste slaaptimer in met snelle opties zoals 30 minuten, 45 minuten, 1 uur en 90 minuten, of kies een aangepaste duur. Start het afspelen, laat het geluid vloeiend in een lus doorgaan en rust zonder onderbrekingen.",
+        "Sleep Sound Lite is gemaakt voor eenvoudige bediening en dagelijks gebruik. Sla favoriete geluiden op, wissel makkelijk van taal en keer snel terug naar de audio die jou het meest helpt ontspannen. Of je nu kiest voor regen, oceaan, white noise of zachte ambientklanken, de app helpt je met minder moeite een betere slaapomgeving te maken."
+      ],
+      "bottomCtaDescription": "Installeer Sleep Sound Lite en maak je bedtijdroutine eenvoudiger met rustgevende geluiden, een handige timer en eenvoudige bediening. Kies je favoriete geluid, druk op afspelen en kom makkelijker tot rust.",
+      "category": "App met slaapgeluiden",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "slaapgeluiden",
+        "white noise",
+        "regengeluiden",
+        "oceaangeluiden",
+        "slaaptimer",
+        "ontspannende geluiden",
+        "slaap app"
+      ],
+      "metaTitle": "Sleep Sound Lite - Slaapgeluiden, white noise en timer",
+      "metaDescription": "Ontspan met regen, oceaan, white noise en een slaaptimer. Sleep Sound Lite helpt je makkelijker tot rust te komen en beter te slapen.",
+      "featureBullets": [
+        {
+          "title": "Bibliotheek met rustgevende geluiden"
+        },
+        {
+          "title": "White noise, regen en oceaan"
+        },
+        {
+          "title": "Slaaptimer met snelle keuzes"
+        },
+        {
+          "title": "Vloeiende lusweergave"
+        },
+        {
+          "title": "Favorieten voor snelle toegang"
+        },
+        {
+          "title": "Donker ontwerp voor de nacht"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Kies je rustgevende geluid",
+          "description": "Toon de geluidsbibliotheek met regen, oceaan, white noise en bosgeluiden in een donkere, rustige en overzichtelijke interface.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-1.png"
+        },
+        {
+          "title": "Stel de slaaptimer in",
+          "description": "Toon de timer met snelle opties zoals 30 minuten, 45 minuten, 1 uur en 90 minuten om gemak voor het slapengaan te benadrukken.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-2.png"
+        },
+        {
+          "title": "Ontspan met één tik",
+          "description": "Toon het actieve afspeelscherm met een gekozen geluid, eenvoudige bediening en een kalme avondsfeer.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Welke geluiden zitten in Sleep Sound Lite?",
+          "answer": "De app bevat onder andere zware regen, regen op een tent, stormregen, oceaangolven, white noise, ventilatorgeluid, diepe white noise en bosnacht."
+        },
+        {
+          "question": "Heeft de app een slaaptimer?",
+          "answer": "Ja. Sleep Sound Lite biedt snelle timeropties zoals 30 minuten, 45 minuten, 1 uur en 90 minuten, plus een aangepaste duur."
+        },
+        {
+          "question": "Kan ik favoriete geluiden opslaan?",
+          "answer": "Ja. Je kunt favoriete geluiden opslaan zodat je ze later sneller terugvindt."
+        },
+        {
+          "question": "Helpt de app tegen storende achtergrondgeluiden?",
+          "answer": "Ja. White noise, regen, ventilatorgeluid en oceaanklanken kunnen helpen om afleidende geluiden te maskeren en een rustiger slaapklimaat te creëren."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Sleep Sound Lite",
+      "summary": "Prosta aplikacja z dźwiękami do snu, białym szumem, deszczem, oceanem i timerem snu. Pomaga się wyciszyć, ograniczyć rozpraszające dźwięki i stworzyć spokojniejszą wieczorną rutynę.",
+      "longDescription": [
+        "Sleep Sound Lite to prosta i uspokajająca aplikacja stworzona po to, aby pomóc Ci się wyciszyć, szybciej zasnąć i lepiej odpoczywać w nocy. Ciemny, przejrzysty wygląd sprawdza się idealnie wieczorem i nie męczy przed snem.",
+        "Wybieraj z rosnącej biblioteki dźwięków, w której znajdziesz między innymi mocny deszcz, deszcz na namiocie, burzowy deszcz, fale oceanu, biały szum, dźwięk wentylatora, głęboki biały szum i nocny las. Niezależnie od tego, czy chcesz odciąć się od rozpraszaczy, uspokoić myśli czy zbudować spokojniejszą atmosferę, wszystko masz pod ręką w jednym miejscu.",
+        "Ustaw odpowiedni timer snu z szybkimi opcjami, takimi jak 30 minut, 45 minut, 1 godzina i 90 minut, albo wybierz własny czas. Uruchom odtwarzanie, pozwól dźwiękowi płynnie zapętlać się i odpoczywaj bez przerw.",
+        "Sleep Sound Lite została zaprojektowana z myślą o prostym sterowaniu i codziennym użyciu. Zapisuj ulubione dźwięki, łatwo zmieniaj język i szybko wracaj do audio, które najbardziej pomaga Ci się odprężyć. Deszcz, ocean, biały szum czy delikatne ambienty - aplikacja pomaga stworzyć lepsze warunki do snu bez zbędnego wysiłku."
+      ],
+      "bottomCtaDescription": "Zainstaluj Sleep Sound Lite i uprość swój wieczorny relaks dzięki kojącym dźwiękom, prostemu timerowi i wygodnej obsłudze. Wybierz ulubiony dźwięk, włącz go i łatwiej przygotuj się do snu.",
+      "category": "Aplikacja z dźwiękami do snu",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "dźwięki do snu",
+        "biały szum",
+        "dźwięki deszczu",
+        "dźwięki oceanu",
+        "timer snu",
+        "relaksujące dźwięki",
+        "aplikacja do snu"
+      ],
+      "metaTitle": "Sleep Sound Lite - Dźwięki do snu, biały szum i timer",
+      "metaDescription": "Relaksuj się przy deszczu, oceanie, białym szumie i timerze snu. Sleep Sound Lite pomaga szybciej się wyciszyć i lepiej odpocząć.",
+      "featureBullets": [
+        {
+          "title": "Biblioteka kojących dźwięków"
+        },
+        {
+          "title": "Biały szum, deszcz i ocean"
+        },
+        {
+          "title": "Timer snu z szybkimi opcjami"
+        },
+        {
+          "title": "Płynne odtwarzanie w pętli"
+        },
+        {
+          "title": "Ulubione dla szybkiego dostępu"
+        },
+        {
+          "title": "Ciemny motyw na noc"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Wybierz dźwięk do relaksu",
+          "description": "Pokaż bibliotekę dźwięków z deszczem, oceanem, białym szumem i nocnym lasem w ciemnym, spokojnym i czytelnym układzie.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-1.png"
+        },
+        {
+          "title": "Ustaw timer snu",
+          "description": "Pokaż ekran timera z szybkimi opcjami, takimi jak 30 minut, 45 minut, 1 godzina i 90 minut, aby podkreślić wygodę przed snem.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-2.png"
+        },
+        {
+          "title": "Odpręż się jednym dotknięciem",
+          "description": "Pokaż ekran aktywnego odtwarzania z wybranym dźwiękiem, prostymi kontrolkami i spokojnym wieczornym klimatem.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Jakie dźwięki zawiera Sleep Sound Lite?",
+          "answer": "Aplikacja zawiera między innymi mocny deszcz, deszcz na namiocie, burzowy deszcz, fale oceanu, biały szum, dźwięk wentylatora, głęboki biały szum i nocny las."
+        },
+        {
+          "question": "Czy aplikacja ma timer snu?",
+          "answer": "Tak. Sleep Sound Lite oferuje szybkie opcje, takie jak 30 minut, 45 minut, 1 godzina i 90 minut, a także własny czas trwania."
+        },
+        {
+          "question": "Czy mogę zapisać ulubione dźwięki?",
+          "answer": "Tak. Możesz zapisywać ulubione dźwięki, aby szybciej wracać do tych, których używasz najczęściej."
+        },
+        {
+          "question": "Czy aplikacja pomaga zagłuszyć odgłosy otoczenia?",
+          "answer": "Tak. Biały szum, deszcz, wentylator i ocean mogą pomóc maskować rozpraszające dźwięki i stworzyć spokojniejsze warunki do odpoczynku."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Sleep Sound Lite",
+      "summary": "O aplicație simplă cu sunete pentru somn, white noise, ploaie, ocean și timer de somn. Te ajută să te relaxezi mai ușor, să reduci distragerile și să creezi o rutină de seară mai liniștită.",
+      "longDescription": [
+        "Sleep Sound Lite este o aplicație simplă și calmantă creată pentru a te ajuta să te relaxezi, să adormi mai repede și să ai nopți mai odihnitoare. Designul dark curat este confortabil seara și ușor de folosit înainte de culcare.",
+        "Alege dintr-o bibliotecă în creștere cu sunete relaxante precum ploaie puternică, ploaie pe cort, ploaie de furtună, valuri oceanice, white noise, sunet de ventilator, white noise profund și noapte în pădure. Fie că vrei să blochezi distragerile, să îți liniștești mintea sau să creezi o atmosferă mai pașnică, totul este ușor de găsit într-un singur loc.",
+        "Setează timerul potrivit pentru rutina ta cu opțiuni rapide precum 30 de minute, 45 de minute, 1 oră și 90 de minute, sau alege o durată personalizată. Pornește redarea, lasă sunetul să ruleze în buclă fără întreruperi și odihnește-te mai liniștit.",
+        "Sleep Sound Lite este construită pentru control simplu și utilizare de zi cu zi. Salvează sunetele preferate, schimbă limba ușor și revino rapid la audio-ul care te ajută cel mai mult să te relaxezi. Fie că preferi ploaia, oceanul, white noise sau sunete ambientale line, aplicația te ajută să creezi un mediu mai bun pentru somn cu mai puțin efort."
+      ],
+      "bottomCtaDescription": "Instalează Sleep Sound Lite și fă-ți rutina de seară mai simplă cu sunete liniștitoare, un timer util și controale clare. Alege sunetul preferat, pornește redarea și relaxează-te mai ușor înainte de somn.",
+      "category": "Aplicație cu sunete pentru somn",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "sunete pentru somn",
+        "white noise",
+        "sunete de ploaie",
+        "sunete ocean",
+        "timer de somn",
+        "sunete relaxante",
+        "aplicație somn"
+      ],
+      "metaTitle": "Sleep Sound Lite - Sunete pentru somn, white noise și timer",
+      "metaDescription": "Relaxează-te cu ploaie, ocean, white noise și timer de somn. Sleep Sound Lite te ajută să adormi mai ușor și să te odihnești mai bine.",
+      "featureBullets": [
+        {
+          "title": "Bibliotecă de sunete relaxante"
+        },
+        {
+          "title": "White noise, ploaie și ocean"
+        },
+        {
+          "title": "Timer de somn cu opțiuni rapide"
+        },
+        {
+          "title": "Redare fluidă în buclă"
+        },
+        {
+          "title": "Favorite pentru acces rapid"
+        },
+        {
+          "title": "Design dark pentru noapte"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Alege sunetul potrivit",
+          "description": "Arată biblioteca de sunete cu ploaie, ocean, white noise și pădure într-un layout dark, calm și ușor de parcurs.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-1.png"
+        },
+        {
+          "title": "Setează timerul de somn",
+          "description": "Arată ecranul timerului cu opțiuni rapide precum 30 de minute, 45 de minute, 1 oră și 90 de minute pentru a evidenția simplitatea.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-2.png"
+        },
+        {
+          "title": "Relaxează-te dintr-o atingere",
+          "description": "Arată ecranul de redare activă cu sunetul selectat, controale simple și o atmosferă vizuală calmă de seară.",
+          "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Ce sunete include Sleep Sound Lite?",
+          "answer": "Aplicația include ploaie puternică, ploaie pe cort, ploaie de furtună, valuri oceanice, white noise, sunet de ventilator, white noise profund și noapte în pădure."
+        },
+        {
+          "question": "Are aplicația timer de somn?",
+          "answer": "Da. Sleep Sound Lite include opțiuni rapide precum 30 de minute, 45 de minute, 1 oră și 90 de minute, plus o durată personalizată."
+        },
+        {
+          "question": "Pot salva sunetele preferate?",
+          "answer": "Da. Poți salva sunetele preferate pentru a reveni mai repede la cele pe care le folosești cel mai des."
+        },
+        {
+          "question": "Ajută aplicația la blocarea zgomotelor de fundal?",
+          "answer": "Da. White noise, ploaia, ventilatorul și oceanul pot ajuta la mascarea unor distrageri sonore și la crearea unui spațiu mai liniștit pentru odihnă."
+        }
+      ]
+    }
+  }
+}

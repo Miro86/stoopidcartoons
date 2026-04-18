@@ -1,6 +1,6 @@
 {
   "slug": "habit-tracker",
-  "sortOrder": 2,
+  "sortOrder": 6,
   "kind": "app",
   "featured": true,
   "accent": "orange",
@@ -11,7 +11,7 @@
   "relatedSlugs": [
     "water-reminder",
     "hiit-timer",
-    "big-ben"
+    "pomodoro-focus-timer"
   ],
   "screenshotOrientation": "portrait",
   "translations": {

@@ -1,6 +1,6 @@
 {
   "slug": "hiit-timer",
-  "sortOrder": 1,
+  "sortOrder": 3,
   "kind": "app",
   "featured": true,
   "accent": "red",
@@ -9,9 +9,9 @@
   "websiteUrl": null,
   "schemaApplicationCategory": "HealthApplication",
   "relatedSlugs": [
-    "habit-tracker",
+    "pomodoro-focus-timer",
     "water-reminder",
-    "big-ben"
+    "intermittent-fasting"
   ],
   "screenshotOrientation": "portrait",
   "translations": {
