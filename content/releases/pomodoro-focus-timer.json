@@ -503,82 +503,82 @@
     },
     "sr": {
       "name": "Pomodoro Focus Timer",
-      "summary": "Čist pomodoro tajmer za fokus, učenje, pauze, statistiku i istoriju sesija. Održi ritam, smanji odugovlačenje i pretvori kratke sesije u stvaran napredak.",
+      "summary": "Чист помодоро тајмер за фокус, учење, паузе, статистику и историју сесија. Одржи ритам, смањи одуговлачење и претвори кратке сесије у стварни напредак.",
       "longDescription": [
-        "Pomodoro Focus Timer je čist i moćan pomodoro tajmer napravljen da ti pomogne da se fokusiraš odmah, završiš duboki rad i pretvoriš male sesije u stvaran napredak. Bilo da učiš, radiš, čitaš, programiraš ili se spremaš za ispite, ovaj fokus tajmer održava tvoj ritam uz radne sesije, kratke pauze i duge pauze.",
-        "Pokreni jednu sesiju i prepusti tajmeru da vodi tok rada. Prati radni tajmer, tajmer pauze, dnevni cilj, današnje sesije, minute fokusa, streak, aktivne dane i trend za 7 dana u jednoj jednostavnoj aplikaciji za produktivnost. Svaka završena sesija se čuva u istoriji, pa je lakše ostati dosljedan kroz vrijeme.",
-        "Prilagodi podešavanja svom načinu rada. Podesi trajanje rada, kratke pauze, duge pauze, učestalost duge pauze i dnevni cilj. Uključi ili isključi zvuk, izaberi fazna obavještenja i koristi notifikacije ili alarme da ostaneš na pravom putu bez gubitka ritma.",
-        "Minimalan interfejs smanjuje distrakcije kako bi ostao fokusiran na učenje, deep work blokove i produktivne sesije. Ako tražiš pomodoro aplikaciju koja je jednostavna za korišćenje, a dovoljno jaka da podrži prave navike, Pomodoro Focus Timer ti daje potrebnu strukturu."
+        "Pomodoro Focus Timer је чист и моћан помодоро тајмер направљен да ти помогне да се одмах фокусираш, завршиш дубоки рад и претвориш мале сесије у стварни напредак. Било да учиш, радиш, читаш, програмираш или се спремаш за испите, овај тајмер за фокус одржава твој ритам уз радне сесије, кратке паузе и дуге паузе.",
+        "Покрени једну сесију и препусти тајмеру да води ток рада. Прати радни тајмер, тајмер паузе, дневни циљ, данашње сесије, минуте фокуса, низ, активне дане и тренд за 7 дана у једној једноставној апликацији за продуктивност. Свака завршена сесија се чува у историји, па је лакше остати доследан током времена.",
+        "Прилагоди подешавања свом начину рада. Подеси трајање рада, кратке паузе, дуге паузе, учесталост дуге паузе и дневни циљ. Укључи или искључи звук, изабери фазна обавештења и користи нотификације или аларме да останеш на правом путу без губитка ритма.",
+        "Минималан интерфејс смањује ометања како би остао фокусиран на учење, блокове дубоког рада и продуктивне сесије. Ако тражиш помодоро апликацију која је једноставна за коришћење, а довољно снажна да подржи праве навике, Pomodoro Focus Timer ти даје потребну структуру."
       ],
-      "bottomCtaDescription": "Instaliraj Pomodoro Focus Timer i učini fokus lakšim za početak i lakšim za održavanje. Podesi svoj ritam, prati napredak i izvuci maksimum iz svake sesije.",
-      "category": "Pomodoro tajmer",
+      "bottomCtaDescription": "Инсталирај Pomodoro Focus Timer и учини фокус лакшим за почетак и лакшим за одржавање. Подеси свој ритам, прати напредак и извуци максимум из сваке сесије.",
+      "category": "Помодоро тајмер",
       "platforms": [
-        "Android"
+        "Андроид"
       ],
       "tags": [
-        "pomodoro tajmer",
-        "tajmer za fokus",
-        "tajmer za učenje",
-        "aplikacija za produktivnost",
-        "deep work",
-        "radni tajmer",
-        "pomodoro app"
+        "помодоро тајмер",
+        "тајмер за фокус",
+        "тајмер за учење",
+        "апликација за продуктивност",
+        "дубоки рад",
+        "радни тајмер",
+        "помодоро апликација"
       ],
-      "metaTitle": "Pomodoro Focus Timer - Tajmer za fokus, učenje i rad",
-      "metaDescription": "Ostani fokusiran uz pomodoro tajmer za rad, učenje, pauze, dnevni cilj, statistiku i istoriju sesija. Napredak sesiju po sesiju.",
+      "metaTitle": "Pomodoro Focus Timer - Тајмер за фокус, учење и рад",
+      "metaDescription": "Остани фокусиран уз помодоро тајмер за рад, учење, паузе, дневни циљ, статистику и историју сесија. Напредак сесију по сесију.",
       "featureBullets": [
         {
-          "title": "Pomodoro tajmer za fokus i učenje"
+          "title": "Помодоро тајмер за фокус и учење"
         },
         {
-          "title": "Rad, kratka pauza i duga pauza"
+          "title": "Рад, кратка пауза и дуга пауза"
         },
         {
-          "title": "Prilagođena podešavanja sesija i pauza"
+          "title": "Прилагођена подешавања сесија и пауза"
         },
         {
-          "title": "Dnevni cilj, minute fokusa i današnje sesije"
+          "title": "Дневни циљ, минуте фокуса и данашње сесије"
         },
         {
-          "title": "Streak, aktivni dani i trend za 7 dana"
+          "title": "Низ, активни дани и тренд за 7 дана"
         },
         {
-          "title": "Istorija sesija, alarmi i obavještenja"
+          "title": "Историја сесија, аларми и обавештења"
         }
       ],
       "screenshotRequirements": [
         {
-          "title": "Fokusiraj se na jednu sesiju",
-          "description": "Prikaži aktivan pomodoro tajmer sa jasnim odbrojavanjem, vidljivom radnom fazom i čistim interfejsom bez ometanja.",
+          "title": "Фокусирај се на једну сесију",
+          "description": "Прикажи активан помодоро тајмер са јасним одбројавањем, видљивом радном фазом и чистим интерфејсом без ометања.",
           "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-1.png"
         },
         {
-          "title": "Prati stvaran dnevni napredak",
-          "description": "Prikaži statistiku kao što su dnevni cilj, današnje sesije, minute fokusa, streak, aktivni dani i trend za 7 dana.",
+          "title": "Прати стварни дневни напредак",
+          "description": "Прикажи статистику као што су дневни циљ, данашње сесије, минуте фокуса, низ, активни дани и тренд за 7 дана.",
           "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-2.png"
         },
         {
-          "title": "Prilagodi tajmer svom ritmu",
-          "description": "Prikaži podešavanja rada, kratkih i dugih pauza, učestalosti i obavještenja kako bi se istakla fleksibilnost aplikacije.",
+          "title": "Прилагоди тајмер свом ритму",
+          "description": "Прикажи подешавања рада, кратких и дугих пауза, учесталости и обавештења како би се истакла флексибилност апликације.",
           "imagePath": "apps/screenshots/pomodoro-focus-timer/screenshot-3.png"
         }
       ],
       "faqs": [
         {
-          "question": "Šta mogu pratiti u aplikaciji Pomodoro Focus Timer?",
-          "answer": "Možeš pratiti radne sesije, pauze, dnevni cilj, današnje sesije, minute fokusa, streak, aktivne dane, trend za 7 dana i istoriju završenih sesija."
+          "question": "Шта могу пратити у апликацији Pomodoro Focus Timer?",
+          "answer": "Можеш пратити радне сесије, паузе, дневни циљ, данашње сесије, минуте фокуса, низ, активне дане, тренд за 7 дана и историју завршених сесија."
         },
         {
-          "question": "Mogu li prilagoditi trajanje rada i pauza?",
-          "answer": "Da. Možeš podesiti trajanje rada, kratke pauze, duge pauze, učestalost duge pauze i svoj dnevni cilj."
+          "question": "Могу ли прилагодити трајање рада и пауза?",
+          "answer": "Да. Можеш подесити трајање рада, кратке паузе, дуге паузе, учесталост дуге паузе и свој дневни циљ."
         },
         {
-          "question": "Da li aplikacija ima alarme i notifikacije?",
-          "answer": "Da. Pomodoro Focus Timer uključuje zvuk, fazna obavještenja, notifikacije i alarme kako bi ostao u ritmu bez stalnog gledanja u tajmer."
+          "question": "Да ли апликација има аларме и нотификације?",
+          "answer": "Да. Pomodoro Focus Timer укључује звук, фазна обавештења, нотификације и аларме како би остао у ритму без сталног гледања у тајмер."
         },
         {
-          "question": "Da li je dobra za učenje i deep work?",
-          "answer": "Da. Aplikacija je odlična za učenje, čitanje, programiranje, fokusiran rad i sve zadatke koji traže strukturu i redovne pauze."
+          "question": "Да ли је добра за учење и дубоки рад?",
+          "answer": "Да. Апликација је одлична за учење, читање, програмирање, фокусиран рад и све задатке који траже структуру и редовне паузе."
         }
       ]
     },

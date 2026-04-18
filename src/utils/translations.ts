@@ -21,7 +21,7 @@ export const localeMeta: Record<Locale, { nativeLabel: string }> = {
   it: { nativeLabel: "Italiano" },
   es: { nativeLabel: "Español" },
   pt: { nativeLabel: "Português" },
-  sr: { nativeLabel: "Srpski" },
+  sr: { nativeLabel: "Српски" },
   hr: { nativeLabel: "Hrvatski" },
   nl: { nativeLabel: "Nederlands" },
   pl: { nativeLabel: "Polski" },
@@ -1440,10 +1440,10 @@ export const baseTranslations = {
     seo: {
       homeTitle: "StoopidCartoons — Андроид апликације и игре",
       homeDescription:
-        "StoopidCartoons прави Андроид апликације и игре са карактером, чистим UX-ом и идејама које су направљене да се користе, играју и памте.",
+        "StoopidCartoons прави Андроид апликације и игре са карактером, јасним корисничким искуством и идејама које су направљене да се користе, играју и памте.",
       showcaseTitle: "Каталог — StoopidCartoons",
       showcaseDescription:
-        "Истражи растући каталог Android апликација и игара које прави StoopidCartoons.",
+        "Истражи растући каталог Андроид апликација и игара које прави StoopidCartoons.",
       privacyTitle: "Политика приватности — StoopidCartoons",
       privacyDescription:
         "Информације о приватности за StoopidCartoons сајт, апликације и игре.",
@@ -1452,7 +1452,7 @@ export const baseTranslations = {
         "Услови коришћења за StoopidCartoons производе и сајт.",
       contactTitle: "Контакт — StoopidCartoons",
       contactDescription:
-        "Контактирај StoopidCartoons путем мејла, Play Store странице и друштвених мрежа.",
+        "Контактирај StoopidCartoons путем мејла, Google Play странице и друштвених мрежа.",
     },
     hero: {
       title: "Андроид апликације и игре са јаким карактером.",
@@ -1486,7 +1486,7 @@ export const baseTranslations = {
         {
           title: "Апликације са правом сврхом",
           description:
-            "Корисне Android апликације са чистим UX-ом, глатким током и функцијама за свакодневне потребе.",
+            "Корисне Андроид апликације са јасним корисничким искуством, глатким током и функцијама за свакодневне потребе.",
         },
         {
           title: "Направљено да се издвоји",
@@ -1508,15 +1508,15 @@ export const baseTranslations = {
           badge: "Игра",
         },
         {
-          title: "Casual и puzzle игре",
+          title: "Лежерне игре и слагалице",
           description:
             "Лако се почињу, пријатне су за савладавање и прављене су да играчи пожеле да се врате.",
           badge: "Игра",
         },
         {
-          title: "Utility апликације",
+          title: "Помоћне апликације",
           description:
-            "Практични Android алати који су брзи, јасни и заиста корисни.",
+            "Практични Андроид алати који су брзи, јасни и заиста корисни.",
           badge: "Апликација",
         },
         {
@@ -1535,7 +1535,7 @@ export const baseTranslations = {
           title: "Нови експерименти",
           description:
             "Свежи концепти, прототипи и идеје које истражујемо док студио расте.",
-          badge: "Lab",
+          badge: "Лаб",
         },
       ],
       emptyLabel: "Нова издања ускоро стижу.",
@@ -1553,7 +1553,7 @@ export const baseTranslations = {
         "Нема контакт форме — само директни линкови за бизнис, правна питања, подршку и друштвене мреже.",
       email: "Општи мејл",
       legal: "Правни мејл",
-      playStore: "Google Play developer страница",
+      playStore: "Google Play страница за програмере",
       facebook: "Facebook",
       linkedin: "LinkedIn",
       x: "X / Twitter",
@@ -1569,7 +1569,7 @@ export const baseTranslations = {
         {
           title: "Шта прикупљамо",
           body:
-            "Прикупљамо само информације које су потребне за рад наших сајтова, апликација, аналитике и канала подршке. То може укључивати податке о уређају, crash логове, идентификаторе продавнице и поруке које нам шаљеш.",
+            "Прикупљамо само информације које су потребне за рад наших сајтова, апликација, аналитике и канала подршке. То може укључивати податке о уређају, логове о падовима, идентификаторе продавнице и поруке које нам шаљеш.",
         },
         {
           title: "Како користимо информације",
@@ -1579,7 +1579,7 @@ export const baseTranslations = {
         {
           title: "Треће стране и партнери",
           body:
-            "Не продајемо личне податке. Можемо користити поуздане пружаоце услуга за аналитику, crash reporting, hosting или плаћања када је то потребно за рад наших производа.",
+            "Не продајемо личне податке. Можемо користити поуздане пружаоце услуга за аналитику, извештавање о падовима, хостинг или плаћања када је то потребно за рад наших производа.",
         },
         {
           title: "Чување података",

@@ -502,82 +502,82 @@
     },
     "sr": {
       "name": "Sleep Sound Lite",
-      "summary": "Jednostavna aplikacija sa zvucima za spavanje, white noise opcijama, kišom, okeanom i sleep timerom. Lakše se opusti, smanji ometanja i napravi mirniju večernju rutinu.",
+      "summary": "Једноставна апликација са звуковима за спавање, опцијама белог шума, кишом, океаном и тајмером за спавање. Лакше се опусти, смањи ометања и направи мирнију вечерњу рутину.",
       "longDescription": [
-        "Sleep Sound Lite je jednostavna i umirujuća aplikacija napravljena da ti pomogne da se opustiš, brže zaspiš i imaš mirnije noći. Čist dark dizajn prijatan je za korišćenje uveče i lako se uklapa u rutinu pred spavanje.",
-        "Izaberi iz rastuće biblioteke zvukova sa opuštajućim audio zapisima kao što su jaka kiša, kiša na šatoru, olujna kiša, okeanski talasi, white noise, zvuk ventilatora, deep white noise i noćna šuma. Bilo da želiš blokirati ometanja, smiriti misli ili napraviti prijatniju atmosferu za spavanje, sve ti je dostupno na jednom mjestu.",
-        "Podesi sleep timer prema svojoj rutini uz brze opcije kao što su 30 minuta, 45 minuta, 1 sat i 90 minuta, ili izaberi prilagođeno trajanje. Pokreni reprodukciju, pusti da se zvuk glatko ponavlja i odmori bez prekida.",
-        "Sleep Sound Lite je napravljen za jednostavnu kontrolu i svakodnevnu upotrebu. Sačuvaj omiljene zvukove, lako promijeni jezik i brzo se vrati audio zapisima koji ti najviše pomažu da se opustiš. Bilo da biraš kišu, okean, white noise ili blage ambijentalne zvuke, aplikacija ti pomaže da uz manje truda napraviš bolje okruženje za san."
+        "Sleep Sound Lite је једноставна и умирујућа апликација направљена да ти помогне да се опустиш, брже заспиш и имаш мирније ноћи. Чист тамни дизајн пријатан је за коришћење увече и лако се уклапа у рутину пред спавање.",
+        "Изабери из растуће библиотеке звукова са опуштајућим аудио записима као што су јака киша, киша на шатору, олујна киша, океански таласи, бели шум, звук вентилатора, дубоки бели шум и ноћна шума. Било да желиш да блокираш ометања, смириш мисли или направиш пријатнију атмосферу за спавање, све ти је доступно на једном месту.",
+        "Подеси тајмер за спавање према својој рутини уз брзе опције као што су 30 минута, 45 минута, 1 сат и 90 минута, или изабери прилагођено трајање. Покрени репродукцију, пусти да се звук глатко понавља и одмарај без прекида.",
+        "Sleep Sound Lite је направљен за једноставну контролу и свакодневну употребу. Сачувај омиљене звукове, лако промени језик и брзо се врати аудио записима који ти највише помажу да се опустиш. Било да бираш кишу, океан, бели шум или благе амбијенталне звуке, апликација ти помаже да уз мање труда направиш боље окружење за сан."
       ],
-      "bottomCtaDescription": "Instaliraj Sleep Sound Lite i učini odlazak na spavanje jednostavnijim uz umirujuće zvuke, praktičan sleep timer i jednostavne kontrole. Odaberi omiljeni zvuk, pusti ga i opusti se bez komplikacija.",
-      "category": "Aplikacija za zvuke za spavanje",
+      "bottomCtaDescription": "Инсталирај Sleep Sound Lite и учини одлазак на спавање једноставнијим уз умирујуће звукове, практичан тајмер за спавање и једноставне контроле. Одабери омиљени звук, пусти га и опусти се без компликација.",
+      "category": "Апликација за звукове за спавање",
       "platforms": [
-        "Android"
+        "Андроид"
       ],
       "tags": [
-        "zvuci za spavanje",
-        "white noise",
-        "zvuci kiše",
-        "zvuci okeana",
-        "sleep timer",
-        "opuštajući zvuci",
-        "aplikacija za spavanje"
+        "звуци за спавање",
+        "бели шум",
+        "звуци кише",
+        "звуци океана",
+        "тајмер за спавање",
+        "опуштајући звуци",
+        "апликација за спавање"
       ],
-      "metaTitle": "Sleep Sound Lite - Zvuci za spavanje, white noise i timer",
-      "metaDescription": "Opusti se uz kišu, okean, white noise i sleep timer. Sleep Sound Lite pomaže da lakše zaspiš i stvoriš mirnije okruženje za odmor.",
+      "metaTitle": "Sleep Sound Lite - Звуци за спавање, бели шум и тајмер",
+      "metaDescription": "Опусти се уз кишу, океан, бели шум и тајмер за спавање. Sleep Sound Lite помаже да лакше заспиш и створиш мирније окружење за одмор.",
       "featureBullets": [
         {
-          "title": "Biblioteka umirujućih zvukova"
+          "title": "Библиотека умирујућих звукова"
         },
         {
-          "title": "White noise, kiša i okean"
+          "title": "Бели шум, киша и океан"
         },
         {
-          "title": "Sleep timer sa brzim opcijama"
+          "title": "Тајмер за спавање са брзим опцијама"
         },
         {
-          "title": "Glatka loop reprodukcija"
+          "title": "Глатка репродукција у петљи"
         },
         {
-          "title": "Omiljeni zvukovi za brz pristup"
+          "title": "Омиљени звукови за брз приступ"
         },
         {
-          "title": "Dark dizajn za noćno korišćenje"
+          "title": "Тамни дизајн за ноћно коришћење"
         }
       ],
       "screenshotRequirements": [
         {
-          "title": "Izaberi svoj zvuk za opuštanje",
-          "description": "Prikaži glavnu biblioteku sa kišom, okeanom, white noise opcijama i šumom u čistom tamnom interfejsu koji djeluje mirno i pregledno.",
+          "title": "Изабери свој звук за опуштање",
+          "description": "Прикажи главну библиотеку са кишом, океаном, опцијама белог шума и шумом у чистом тамном интерфејсу који делује мирно и прегледно.",
           "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-1.png"
         },
         {
-          "title": "Podesi sleep timer",
-          "description": "Prikaži ekran timera sa brzim opcijama kao što su 30 minuta, 45 minuta, 1 sat i 90 minuta kako bi se istakla praktičnost pred spavanje.",
+          "title": "Подеси тајмер за спавање",
+          "description": "Прикажи екран тајмера са брзим опцијама као што су 30 минута, 45 минута, 1 сат и 90 минута како би се истакла практичност пред спавање.",
           "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-2.png"
         },
         {
-          "title": "Opusti se jednim dodirom",
-          "description": "Prikaži aktivan playback ekran sa odabranim zvukom, jednostavnim kontrolama i tihom večernjom atmosferom.",
+          "title": "Опусти се једним додиром",
+          "description": "Прикажи активан екран репродукције са одабраним звуком, једноставним контролама и тихом вечерњом атмосфером.",
           "imagePath": "apps/screenshots/sleep-sound-lite/screenshot-3.png"
         }
       ],
       "faqs": [
         {
-          "question": "Koji zvukovi su dostupni u aplikaciji Sleep Sound Lite?",
-          "answer": "Aplikacija uključuje jaku kišu, kišu na šatoru, olujnu kišu, okeanske talase, white noise, zvuk ventilatora, deep white noise i noćnu šumu."
+          "question": "Који звукови су доступни у апликацији Sleep Sound Lite?",
+          "answer": "Апликација укључује јаку кишу, кишу на шатору, олујну кишу, океанске таласе, бели шум, звук вентилатора, дубоки бели шум и ноћну шуму."
         },
         {
-          "question": "Da li aplikacija ima sleep timer?",
-          "answer": "Da. Sleep Sound Lite nudi brze opcije kao što su 30 minuta, 45 minuta, 1 sat i 90 minuta, kao i prilagođeno trajanje."
+          "question": "Да ли апликација има тајмер за спавање?",
+          "answer": "Да. Sleep Sound Lite нуди брзе опције као што су 30 минута, 45 минута, 1 сат и 90 минута, као и прилагођено трајање."
         },
         {
-          "question": "Mogu li sačuvati omiljene zvukove?",
-          "answer": "Da. Možeš sačuvati omiljene zvukove kako bi im kasnije pristupio još brže."
+          "question": "Могу ли сачувати омиљене звукове?",
+          "answer": "Да. Можеш сачувати омиљене звукове како би им касније приступио још брже."
         },
         {
-          "question": "Može li pomoći da blokiram spoljne zvukove?",
-          "answer": "Da. White noise, kiša, ventilator i okeanski zvuci mogu pomoći da prikriju ometanja i stvore mirnije okruženje za odmor."
+          "question": "Може ли да помогне да блокирам спољне звукове?",
+          "answer": "Да. Бели шум, киша, вентилатор и океански звуци могу помоћи да прикрију ометања и створе мирније окружење за одмор."
         }
       ]
     },
