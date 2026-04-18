@@ -28,7 +28,7 @@ export const contentText: Record<Locale, ProductContentText> = {
     screenshotIndicatorLabel: 'Go to screenshot',
     faqTitle: 'Frequently asked questions',
     faqLead:
-      'These answers are synthesized from the current product description so the page stays aligned with the app listing.',
+      'Here are answers to some of the questions people ask most often about this app.',
     relatedAppsTitle: 'Related apps',
     relatedAppsLead:
       'Keep exploring similar products from the same portfolio to increase session depth and discovery.',
@@ -47,7 +47,7 @@ export const contentText: Record<Locale, ProductContentText> = {
     screenshotIndicatorLabel: 'Gehe zu Screenshot',
     faqTitle: 'Haeufig gestellte Fragen',
     faqLead:
-      'Diese Antworten sind aus der aktuellen Produktbeschreibung abgeleitet, damit die Seite mit dem App-Listing konsistent bleibt.',
+      'Hier findest du Antworten auf einige der Fragen, die zu dieser App am haeufigsten gestellt werden.',
     relatedAppsTitle: 'Aehnliche Apps',
     relatedAppsLead:
       'Entdecke weitere passende Produkte aus demselben Portfolio und fuehre Nutzer tiefer durch den Katalog.',
@@ -66,7 +66,7 @@ export const contentText: Record<Locale, ProductContentText> = {
     screenshotIndicatorLabel: 'Aller a la capture',
     faqTitle: 'Questions frequentes',
     faqLead:
-      "Ces reponses sont synthetisees a partir de la description actuelle du produit afin de rester coherentes avec la fiche de l'application.",
+      "Voici les reponses a quelques-unes des questions les plus souvent posees sur cette application.",
     relatedAppsTitle: 'Apps associees',
     relatedAppsLead:
       'Continuez a explorer des produits similaires du meme portfolio pour prolonger la session et la decouverte.',
@@ -85,7 +85,7 @@ export const contentText: Record<Locale, ProductContentText> = {
     screenshotIndicatorLabel: 'Vai allo screenshot',
     faqTitle: 'Domande frequenti',
     faqLead:
-      "Queste risposte sono sintetizzate dalla descrizione attuale del prodotto, cosi la pagina resta coerente con la scheda dell'app.",
+      "Ecco le risposte ad alcune delle domande piu frequenti su questa app.",
     relatedAppsTitle: 'App correlate',
     relatedAppsLead:
       'Continua a esplorare prodotti simili dello stesso portfolio per aumentare profondita di visita e scoperta.',
@@ -104,7 +104,7 @@ export const contentText: Record<Locale, ProductContentText> = {
     screenshotIndicatorLabel: 'Ir a la captura',
     faqTitle: 'Preguntas frecuentes',
     faqLead:
-      'Estas respuestas se sintetizan a partir de la descripcion actual del producto para mantener la pagina alineada con la ficha de la app.',
+      'Aqui tienes respuestas a algunas de las preguntas mas frecuentes sobre esta app.',
     relatedAppsTitle: 'Apps relacionadas',
     relatedAppsLead:
       'Sigue explorando productos similares del mismo portfolio para ampliar la sesion y el descubrimiento.',
@@ -123,7 +123,7 @@ export const contentText: Record<Locale, ProductContentText> = {
     screenshotIndicatorLabel: 'Ir para o screenshot',
     faqTitle: 'Perguntas frequentes',
     faqLead:
-      'Estas respostas sao sintetizadas a partir da descricao atual do produto para manter a pagina alinhada com a listagem da app.',
+      'Aqui encontras respostas para algumas das perguntas mais frequentes sobre esta app.',
     relatedAppsTitle: 'Apps relacionadas',
     relatedAppsLead:
       'Continua a explorar produtos semelhantes do mesmo portfolio para aumentar a descoberta e a profundidade da sessao.',
@@ -133,23 +133,23 @@ export const contentText: Record<Locale, ProductContentText> = {
     bottomSecondaryCta: 'Explorar mais apps',
   },
   sr: {
-    mainFeatureTitle: 'Glavne funkcije',
-    screenshotTitle: 'Pregled iskustva',
+    mainFeatureTitle: 'Главне функције',
+    screenshotTitle: 'Преглед искуства',
     screenshotLead:
-      'Prevuci kroz 9:16 placeholder snimke ekrana osmislene da prikazu UI trenutke koji treba najbrze da objasne vrednost proizvoda.',
-    screenshotPreviousLabel: 'Prethodni snimak ekrana',
-    screenshotNextLabel: 'Sledeci snimak ekrana',
-    screenshotIndicatorLabel: 'Idi na snimak ekrana',
-    faqTitle: 'Cesto postavljana pitanja',
+      'Превуци кроз 9:16 демонстрационе снимке екрана осмишљене да прикажу делове интерфејса који најбрже објашњавају вредност производа.',
+    screenshotPreviousLabel: 'Претходни снимак екрана',
+    screenshotNextLabel: 'Следећи снимак екрана',
+    screenshotIndicatorLabel: 'Иди на снимак екрана',
+    faqTitle: 'Често постављана питања',
     faqLead:
-      'Ovi odgovori su sintetizovani iz trenutnog opisa proizvoda kako bi stranica ostala uskladena sa listingom aplikacije.',
-    relatedAppsTitle: 'Povezane aplikacije',
+      'Овде ћеш наћи одговоре на нека од питања која се најчешће постављају о овој апликацији.',
+    relatedAppsTitle: 'Повезане апликације',
     relatedAppsLead:
-      'Nastavi da istrazujes slicne proizvode iz istog portfolija i povecaj dubinu pregledanja.',
-    bottomCtaEyebrow: 'Spreman za instalaciju?',
-    bottomCtaTitle: 'Pretvori interesovanje u akciju?',
-    bottomPrimaryCta: 'Preuzmi sa Google Play-a',
-    bottomSecondaryCta: 'Istrazi jos aplikacija',
+      'Настави да истражујеш сличне производе из истог портфолија и откријеш још тога што би могло да ти се допадне.',
+    bottomCtaEyebrow: 'Спреман за инсталацију?',
+    bottomCtaTitle: 'Претвори интересовање у акцију?',
+    bottomPrimaryCta: 'Преузми са Google Play-а',
+    bottomSecondaryCta: 'Истражи још апликација',
   },
   hr: {
     mainFeatureTitle: 'Glavne znacajke',
@@ -161,7 +161,7 @@ export const contentText: Record<Locale, ProductContentText> = {
     screenshotIndicatorLabel: 'Idi na screenshot',
     faqTitle: 'Cesta pitanja',
     faqLead:
-      'Ovi odgovori sintetizirani su iz trenutnog opisa proizvoda kako bi stranica ostala uskladena s listingom aplikacije.',
+      'Ovdje ces pronaci odgovore na neka od pitanja koja se najcesce postavljaju o ovoj aplikaciji.',
     relatedAppsTitle: 'Povezane aplikacije',
     relatedAppsLead:
       'Nastavi istrazivati slicne proizvode iz istog portfolija i produlji otkrivanje unutar kataloga.',
@@ -180,7 +180,7 @@ export const contentText: Record<Locale, ProductContentText> = {
     screenshotIndicatorLabel: 'Ga naar screenshot',
     faqTitle: 'Veelgestelde vragen',
     faqLead:
-      'Deze antwoorden zijn samengevat uit de huidige productbeschrijving zodat de pagina aansluit op de appvermelding.',
+      'Hier vind je antwoorden op een paar van de vragen die het vaakst over deze app worden gesteld.',
     relatedAppsTitle: 'Gerelateerde apps',
     relatedAppsLead:
       'Blijf vergelijkbare producten uit hetzelfde portfolio ontdekken om de sessiediepte en verdere verkenning te vergroten.',
@@ -199,7 +199,7 @@ export const contentText: Record<Locale, ProductContentText> = {
     screenshotIndicatorLabel: 'Przejdz do zrzutu ekranu',
     faqTitle: 'Najczesciej zadawane pytania',
     faqLead:
-      'Te odpowiedzi zostaly zsyntetyzowane na podstawie obecnego opisu produktu, aby strona pozostawala spojna z listingiem aplikacji.',
+      'Tutaj znajdziesz odpowiedzi na kilka pytan, ktore najczesciej pojawiaja sie w zwiazku z ta aplikacja.',
     relatedAppsTitle: 'Powiazane aplikacje',
     relatedAppsLead:
       'Odkrywaj dalej podobne produkty z tego samego portfolio, aby zwiekszyc glebie sesji i dalsze przegladanie.',
@@ -218,7 +218,7 @@ export const contentText: Record<Locale, ProductContentText> = {
     screenshotIndicatorLabel: 'Mergi la screenshot',
     faqTitle: 'Intrebari frecvente',
     faqLead:
-      'Aceste raspunsuri sunt sintetizate din descrierea actuala a produsului pentru ca pagina sa ramana aliniata cu listarea aplicatiei.',
+      'Aici gasesti raspunsuri la cateva dintre intrebarile puse cel mai des despre aceasta aplicatie.',
     relatedAppsTitle: 'Aplicatii similare',
     relatedAppsLead:
       'Continua sa explorezi produse similare din acelasi portofoliu pentru a creste profunzimea sesiunii si descoperirea.',
