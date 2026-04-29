@@ -1,0 +1,876 @@
+{
+  "slug": "neon-drift",
+  "sortOrder": 10,
+  "kind": "game",
+  "featured": false,
+  "accent": "blue",
+  "icon": "apps/icons/neon-drift.png",
+  "googlePlayUrl": "[https://play.google.com/store/apps/details?id=com.stoopidcartoons.neondrift](https://play.google.com/store/apps/details?id=com.stoopidcartoons.neondrift)",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "GameApplication",
+  "relatedSlugs": [
+    "orbital-rhythm",
+    "gastarbajter"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Neon Drift",
+      "summary": "Neon Drift is a fast portrait arcade game built around reflexes, timing and color switching. Dodge obstacles, master polarity, collect coins and chase your best run.",
+      "longDescription": [
+        "Neon Drift is a stylish arcade reflex game where quick reactions, sharp focus and perfect timing decide every run. It is easy to start, intense to master and built for players who enjoy fast mobile games with clean controls.",
+        "The goal is simple: survive as long as possible in an endless neon run. Hold to turn blue and climb, release to turn red and dive. Match colors to survive, react to incoming obstacles and keep control as the speed rises.",
+        "Every run gives you a new chance to improve. Chase high scores, track your progress, review your best runs and collect coins while you play. The more you practice, the more satisfying each near-perfect drift becomes.",
+        "Neon Drift is designed for arcade fans, endless runner players, reflex game lovers and anyone who enjoys skill-based mobile gameplay. With bold sci-fi visuals, unlockable neon themes and fast portrait play, it is made for quick sessions that keep pulling you back."
+      ],
+      "bottomCtaDescription": "Start a run, switch colors at the perfect moment and see how long you can survive. Neon Drift is made for quick sessions, score chasing and arcade players who always want one more try.",
+      "category": "Arcade Game",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Arcade game",
+        "Reflex game",
+        "Endless runner",
+        "Neon game",
+        "Color switching game",
+        "Dodging game",
+        "Skill game"
+      ],
+      "metaTitle": "Neon Drift - Fast Arcade Reflex Game for Android",
+      "metaDescription": "Play Neon Drift, a fast neon arcade game for Android. Dodge obstacles, switch colors, collect coins, unlock themes and chase your best score.",
+      "featureBullets": [
+        {
+          "title": "Fast arcade gameplay"
+        },
+        {
+          "title": "Color switching mechanic"
+        },
+        {
+          "title": "Endless dodging action"
+        },
+        {
+          "title": "Stats and best runs"
+        },
+        {
+          "title": "Coins and neon themes"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Switch and survive",
+          "description": "Show the core gameplay moment with the player switching colors while avoiding neon obstacles in portrait view.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-1.png"
+        },
+        {
+          "title": "Chase your best score",
+          "description": "Show a run result, score or stats screen that communicates progress, replay value and score chasing.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-2.png"
+        },
+        {
+          "title": "Unlock neon style",
+          "description": "Show the garage or theme selection screen with bright neon visuals and customization focus.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What kind of game is Neon Drift?",
+          "answer": "Neon Drift is a fast arcade reflex game where you dodge obstacles, switch colors and try to survive as long as possible."
+        },
+        {
+          "question": "How do the controls work?",
+          "answer": "The controls are simple: hold to climb in blue mode and release to dive in red mode. Timing your switches is the key to survival."
+        },
+        {
+          "question": "Does Neon Drift have progression?",
+          "answer": "Yes. You can track stats, review your best runs, collect coins and unlock neon themes to customize your style."
+        },
+        {
+          "question": "Is Neon Drift good for short play sessions?",
+          "answer": "Yes. Neon Drift is designed for quick portrait arcade sessions, but the rising speed and high-score chase make it rewarding to master."
+        }
+      ]
+    },
+    "de": {
+      "name": "Neon Drift",
+      "summary": "Neon Drift ist ein schnelles Arcade-Spiel im Hochformat, bei dem Reflexe, Timing und Farbwechsel zählen. Weiche Hindernissen aus, sammle Münzen und jage deinen Highscore.",
+      "longDescription": [
+        "Neon Drift ist ein stylisches Arcade-Reflexspiel, in dem schnelle Reaktionen, volle Konzentration und präzises Timing über jeden Lauf entscheiden. Der Einstieg ist leicht, doch wer lange überleben will, muss den Rhythmus wirklich beherrschen.",
+        "Das Ziel ist klar: Überlebe so lange wie möglich in einem endlosen Neon-Run. Halte gedrückt, um blau zu werden und aufzusteigen, lasse los, um rot zu werden und abzutauchen. Der richtige Farbwechsel entscheidet, ob du Hindernisse sicher meisterst.",
+        "Jeder Lauf ist eine neue Chance, besser zu werden. Verbessere deinen Highscore, verfolge deine Statistiken, sieh dir deine besten Runs an und sammle Münzen während des Spiels. Mit jeder Runde wird dein Timing sauberer und der nächste Rekord greifbarer.",
+        "Neon Drift richtet sich an Fans von Arcade-Games, Endless Runnern, Reflexspielen und skillbasiertem Mobile Gaming. Mit klarer Steuerung, leuchtendem Sci-Fi-Look und freischaltbaren Neon-Themes ist es perfekt für schnelle Sessions mit echtem Wiederspielwert."
+      ],
+      "bottomCtaDescription": "Starte deinen nächsten Lauf, wechsle im richtigen Moment die Farbe und finde heraus, wie lange du durchhältst. Neon Drift ist ideal für kurze Arcade-Runden, Highscore-Jagd und Spieler, die immer noch einen Versuch wagen möchten.",
+      "category": "Arcade-Spiel",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Arcade Spiel",
+        "Reflexspiel",
+        "Endless Runner",
+        "Neon Spiel",
+        "Farbwechsel Spiel",
+        "Ausweichspiel",
+        "Geschicklichkeitsspiel"
+      ],
+      "metaTitle": "Neon Drift - Schnelles Arcade-Reflexspiel für Android",
+      "metaDescription": "Spiele Neon Drift auf Android: Hindernisse ausweichen, Farben wechseln, Münzen sammeln, Neon-Themes freischalten und Highscores jagen.",
+      "featureBullets": [
+        {
+          "title": "Schnelles Arcade-Gameplay"
+        },
+        {
+          "title": "Einzigartiger Farbwechsel"
+        },
+        {
+          "title": "Endlose Ausweich-Action"
+        },
+        {
+          "title": "Statistiken und Bestläufe"
+        },
+        {
+          "title": "Münzen und Neon-Themes"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Wechseln und überleben",
+          "description": "Zeige den zentralen Gameplay-Moment mit Farbwechsel, Neon-Hindernissen und klar erkennbarer Hochformat-Action.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-1.png"
+        },
+        {
+          "title": "Jage deinen Highscore",
+          "description": "Zeige Ergebnis, Score oder Statistik, um Fortschritt, Rekordjagd und Wiederspielwert zu vermitteln.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-2.png"
+        },
+        {
+          "title": "Neon-Stil freischalten",
+          "description": "Zeige Garage oder Theme-Auswahl mit leuchtendem Neon-Look und Fokus auf Personalisierung.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Was für ein Spiel ist Neon Drift?",
+          "answer": "Neon Drift ist ein schnelles Arcade-Reflexspiel, in dem du Hindernissen ausweichst, Farben wechselst und möglichst lange überleben musst."
+        },
+        {
+          "question": "Wie funktioniert die Steuerung?",
+          "answer": "Die Steuerung ist einfach: Halten lässt dich blau werden und steigen, Loslassen macht dich rot und lässt dich abtauchen. Das richtige Timing ist entscheidend."
+        },
+        {
+          "question": "Gibt es Fortschritt im Spiel?",
+          "answer": "Ja. Du kannst Statistiken verfolgen, deine besten Läufe ansehen, Münzen sammeln und Neon-Themes freischalten."
+        },
+        {
+          "question": "Eignet sich Neon Drift für kurze Spielrunden?",
+          "answer": "Ja. Neon Drift ist für schnelle Arcade-Sessions im Hochformat gemacht, bietet durch steigendes Tempo und Highscore-Jagd aber auch langfristige Motivation."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Neon Drift",
+      "summary": "Neon Drift est un jeu d'arcade rapide en mode portrait, basé sur les réflexes, le timing et le changement de couleur. Évite les obstacles, collecte des pièces et vise ton meilleur score.",
+      "longDescription": [
+        "Neon Drift est un jeu d'arcade stylé où chaque partie dépend de tes réflexes, de ta concentration et de ton timing. Simple à prendre en main, il devient rapidement un vrai défi pour les joueurs qui aiment progresser à chaque essai.",
+        "Le principe est direct : survivre le plus longtemps possible dans une course néon sans fin. Maintiens l'écran pour passer en bleu et monter, relâche pour passer en rouge et plonger. Le bon changement de couleur peut sauver ta partie.",
+        "Chaque run est une occasion d'améliorer ton score. Suis tes statistiques, consulte tes meilleures parties et collecte des pièces pendant tes sessions. Plus tu joues, plus tu apprends à anticiper la vitesse et les obstacles.",
+        "Neon Drift s'adresse aux fans de jeux d'arcade, d'endless runner, de jeux de réflexes et de gameplay mobile basé sur l'adresse. Avec ses visuels sci-fi lumineux, ses thèmes néon à débloquer et son format portrait, il est parfait pour jouer vite et revenir souvent."
+      ],
+      "bottomCtaDescription": "Lance une partie, change de couleur au bon moment et découvre combien de temps tu peux tenir. Neon Drift est pensé pour les sessions rapides, les chasseurs de scores et les fans d'arcade qui veulent toujours retenter une partie.",
+      "category": "Jeu d'arcade",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Jeu d'arcade",
+        "Jeu de réflexes",
+        "Endless runner",
+        "Jeu néon",
+        "Jeu de couleurs",
+        "Jeu d'esquive",
+        "Jeu d'adresse"
+      ],
+      "metaTitle": "Neon Drift - Jeu d'arcade rapide et réflexes Android",
+      "metaDescription": "Joue à Neon Drift sur Android. Évite les obstacles, change de couleur, collecte des pièces, débloque des thèmes néon et bats ton score.",
+      "featureBullets": [
+        {
+          "title": "Gameplay arcade rapide"
+        },
+        {
+          "title": "Changement de couleur"
+        },
+        {
+          "title": "Action d'esquive sans fin"
+        },
+        {
+          "title": "Stats et meilleurs runs"
+        },
+        {
+          "title": "Pièces et thèmes néon"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Change et survis",
+          "description": "Montrer le moment clé du gameplay avec changement de couleur, obstacles néon et action claire en mode portrait.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-1.png"
+        },
+        {
+          "title": "Bats ton score",
+          "description": "Montrer un écran de score, de résultat ou de statistiques pour valoriser la progression et la rejouabilité.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-2.png"
+        },
+        {
+          "title": "Débloque ton style",
+          "description": "Montrer le garage ou l'écran des thèmes avec un rendu néon fort et une impression de personnalisation.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Quel type de jeu est Neon Drift ?",
+          "answer": "Neon Drift est un jeu d'arcade rapide où tu dois éviter les obstacles, changer de couleur et survivre le plus longtemps possible."
+        },
+        {
+          "question": "Comment fonctionnent les contrôles ?",
+          "answer": "Les contrôles sont simples : maintiens pour monter en bleu, relâche pour plonger en rouge. Le timing des changements fait toute la différence."
+        },
+        {
+          "question": "Y a-t-il une progression dans Neon Drift ?",
+          "answer": "Oui. Tu peux suivre tes statistiques, revoir tes meilleurs runs, collecter des pièces et débloquer des thèmes néon."
+        },
+        {
+          "question": "Neon Drift convient-il aux parties courtes ?",
+          "answer": "Oui. Neon Drift est idéal pour des sessions rapides en mode portrait, tout en offrant un vrai défi grâce à la vitesse qui augmente."
+        }
+      ]
+    },
+    "it": {
+      "name": "Neon Drift",
+      "summary": "Neon Drift è un gioco arcade veloce in verticale, basato su riflessi, tempismo e cambio colore. Schiva gli ostacoli, raccogli monete e supera il tuo record.",
+      "longDescription": [
+        "Neon Drift è un gioco arcade dallo stile luminoso in cui riflessi rapidi, concentrazione e tempismo decidono ogni partita. È facile da iniziare, ma diventa sempre più impegnativo per chi vuole davvero padroneggiarlo.",
+        "L'obiettivo è semplice: sopravvivere il più a lungo possibile in una corsa neon infinita. Tieni premuto per diventare blu e salire, rilascia per diventare rosso e scendere. Cambiare colore al momento giusto è la chiave per restare in gioco.",
+        "Ogni run è una nuova possibilità di migliorare. Insegui il tuo punteggio migliore, controlla le statistiche, rivedi le tue migliori partite e raccogli monete durante la corsa. Più giochi, più il ritmo diventa naturale.",
+        "Neon Drift è pensato per chi ama giochi arcade, endless runner, giochi di riflessi e gameplay mobile basato sull'abilità. Con grafica sci-fi neon, temi sbloccabili e partite in verticale, è ideale sia per sessioni veloci sia per sfide da record."
+      ],
+      "bottomCtaDescription": "Avvia una corsa, cambia colore al momento giusto e scopri quanto riesci a resistere. Neon Drift è perfetto per partite rapide, sfide al punteggio e giocatori arcade che vogliono sempre riprovare.",
+      "category": "Gioco arcade",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Gioco arcade",
+        "Gioco di riflessi",
+        "Endless runner",
+        "Gioco neon",
+        "Gioco colori",
+        "Gioco schiva ostacoli",
+        "Gioco abilità"
+      ],
+      "metaTitle": "Neon Drift - Gioco arcade di riflessi per Android",
+      "metaDescription": "Gioca a Neon Drift su Android. Schiva ostacoli, cambia colore, raccogli monete, sblocca temi neon e prova a battere il tuo record.",
+      "featureBullets": [
+        {
+          "title": "Gameplay arcade veloce"
+        },
+        {
+          "title": "Cambio colore strategico"
+        },
+        {
+          "title": "Azione infinita"
+        },
+        {
+          "title": "Statistiche e record"
+        },
+        {
+          "title": "Monete e temi neon"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Cambia e sopravvivi",
+          "description": "Mostrare il momento principale del gameplay con cambio colore, ostacoli neon e azione leggibile in verticale.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-1.png"
+        },
+        {
+          "title": "Supera il tuo record",
+          "description": "Mostrare schermata risultati, punteggio o statistiche per comunicare progressione e voglia di riprovare.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-2.png"
+        },
+        {
+          "title": "Sblocca lo stile neon",
+          "description": "Mostrare garage o selezione temi con colori neon, senso di ricompensa e personalizzazione.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Che tipo di gioco è Neon Drift?",
+          "answer": "Neon Drift è un gioco arcade di riflessi in cui schivi ostacoli, cambi colore e provi a sopravvivere il più a lungo possibile."
+        },
+        {
+          "question": "Come funzionano i controlli?",
+          "answer": "I controlli sono semplici: tieni premuto per salire in blu e rilascia per scendere in rosso. Il tempismo del cambio colore è fondamentale."
+        },
+        {
+          "question": "Neon Drift include progressi o sbloccabili?",
+          "answer": "Sì. Puoi seguire le statistiche, vedere le migliori partite, raccogliere monete e sbloccare temi neon."
+        },
+        {
+          "question": "Neon Drift è adatto a partite brevi?",
+          "answer": "Sì. È progettato per sessioni rapide in verticale, ma la velocità crescente e la caccia al record lo rendono coinvolgente nel tempo."
+        }
+      ]
+    },
+    "es": {
+      "name": "Neon Drift",
+      "summary": "Neon Drift es un juego arcade rápido en vertical, centrado en reflejos, ritmo y cambio de color. Esquiva obstáculos, recoge monedas y supera tu mejor puntuación.",
+      "longDescription": [
+        "Neon Drift es un juego arcade con estilo neón donde tus reflejos, tu concentración y tu timing deciden cada partida. Es fácil de entender desde el primer intento, pero cada segundo extra exige más precisión.",
+        "El objetivo es sobrevivir el mayor tiempo posible en una carrera neón infinita. Mantén pulsado para volverte azul y subir, suelta para volverte rojo y caer. Cambiar de color en el instante correcto marca la diferencia.",
+        "Cada partida es una oportunidad para mejorar. Persigue tu mejor puntuación, revisa tus estadísticas, consulta tus mejores runs y recoge monedas mientras juegas. Cuanto más practicas, más control tienes sobre la velocidad y los obstáculos.",
+        "Neon Drift está pensado para fans de los juegos arcade, endless runner, juegos de reflejos y desafíos móviles basados en habilidad. Con visuales de ciencia ficción, temas neón desbloqueables y juego en vertical, es perfecto para sesiones rápidas y retos de récord."
+      ],
+      "bottomCtaDescription": "Empieza una partida, cambia de color en el momento exacto y comprueba cuánto puedes aguantar. Neon Drift está hecho para partidas rápidas, perseguir récords y disfrutar de esa sensación de querer intentarlo una vez más.",
+      "category": "Juego arcade",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Juego arcade",
+        "Juego de reflejos",
+        "Endless runner",
+        "Juego neón",
+        "Juego de colores",
+        "Esquivar obstáculos",
+        "Juego de habilidad"
+      ],
+      "metaTitle": "Neon Drift - Juego arcade rápido de reflejos Android",
+      "metaDescription": "Juega a Neon Drift en Android. Esquiva obstáculos, cambia de color, recoge monedas, desbloquea temas neón y bate tu récord.",
+      "featureBullets": [
+        {
+          "title": "Arcade rápido"
+        },
+        {
+          "title": "Cambio de color"
+        },
+        {
+          "title": "Esquiva sin fin"
+        },
+        {
+          "title": "Estadísticas y récords"
+        },
+        {
+          "title": "Monedas y temas neón"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Cambia y sobrevive",
+          "description": "Mostrar el momento principal de juego con cambio de color, obstáculos neón y acción clara en formato vertical.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-1.png"
+        },
+        {
+          "title": "Supera tu récord",
+          "description": "Mostrar pantalla de resultado, puntuación o estadísticas para reforzar progreso, reto y rejugabilidad.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-2.png"
+        },
+        {
+          "title": "Desbloquea estilo neón",
+          "description": "Mostrar garaje o selección de temas con estética neón intensa y sensación de personalización.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Qué tipo de juego es Neon Drift?",
+          "answer": "Neon Drift es un juego arcade rápido de reflejos en el que esquivas obstáculos, cambias de color y tratas de sobrevivir lo máximo posible."
+        },
+        {
+          "question": "¿Cómo se juega a Neon Drift?",
+          "answer": "Mantén pulsado para subir en azul y suelta para bajar en rojo. El reto está en cambiar de color con buen timing."
+        },
+        {
+          "question": "¿Neon Drift tiene progreso?",
+          "answer": "Sí. Puedes consultar estadísticas, revisar tus mejores partidas, recoger monedas y desbloquear temas neón."
+        },
+        {
+          "question": "¿Sirve para partidas rápidas?",
+          "answer": "Sí. Neon Drift está diseñado para sesiones cortas en vertical, con dificultad creciente para quienes quieren dominarlo."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Neon Drift",
+      "summary": "Neon Drift é um jogo arcade rápido em modo retrato, focado em reflexos, timing e troca de cores. Desvia de obstáculos, coleta moedas e tenta bater o teu recorde.",
+      "longDescription": [
+        "Neon Drift é um jogo arcade com visual neon onde reflexos rápidos, foco e timing fazem toda a diferença. É simples de começar, mas cada segundo extra exige mais precisão e controlo.",
+        "O objetivo é sobreviver o máximo possível numa corrida neon sem fim. Mantém premido para ficar azul e subir, solta para ficar vermelho e mergulhar. A troca de cor certa no momento certo é o segredo para continuar.",
+        "Cada partida é uma nova oportunidade para melhorar. Persegue a tua melhor pontuação, acompanha estatísticas, revê os teus melhores runs e coleta moedas durante a corrida. Quanto mais jogas, mais sentes o ritmo do desafio.",
+        "Neon Drift foi criado para fãs de jogos arcade, endless runner, jogos de reflexos e gameplay mobile baseado em habilidade. Com estilo sci-fi neon, temas desbloqueáveis e jogabilidade vertical, é ideal para sessões rápidas e vontade constante de tentar outra vez."
+      ],
+      "bottomCtaDescription": "Começa uma corrida, troca de cor no momento certo e vê quanto tempo consegues sobreviver. Neon Drift é feito para partidas rápidas, caça ao recorde e jogadores que adoram desafios arcade de habilidade.",
+      "category": "Jogo arcade",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Jogo arcade",
+        "Jogo de reflexos",
+        "Endless runner",
+        "Jogo neon",
+        "Jogo de cores",
+        "Desviar obstáculos",
+        "Jogo de habilidade"
+      ],
+      "metaTitle": "Neon Drift - Jogo arcade rápido de reflexos Android",
+      "metaDescription": "Joga Neon Drift no Android. Desvia de obstáculos, troca de cor, coleta moedas, desbloqueia temas neon e bate o teu recorde.",
+      "featureBullets": [
+        {
+          "title": "Arcade rápido"
+        },
+        {
+          "title": "Troca de cores"
+        },
+        {
+          "title": "Desvio sem fim"
+        },
+        {
+          "title": "Estatísticas e recordes"
+        },
+        {
+          "title": "Moedas e temas neon"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Troca e sobrevive",
+          "description": "Mostrar o momento principal do gameplay com troca de cor, obstáculos neon e ação clara em formato retrato.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-1.png"
+        },
+        {
+          "title": "Bate o teu recorde",
+          "description": "Mostrar pontuação, resultado ou estatísticas para comunicar progresso, desafio e vontade de repetir.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-2.png"
+        },
+        {
+          "title": "Desbloqueia estilo neon",
+          "description": "Mostrar a garagem ou seleção de temas com visual neon forte e foco em personalização.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Que tipo de jogo é Neon Drift?",
+          "answer": "Neon Drift é um jogo arcade rápido de reflexos onde desvias de obstáculos, trocas de cor e tentas sobreviver o máximo possível."
+        },
+        {
+          "question": "Como funcionam os controlos?",
+          "answer": "Mantém premido para subir em azul e solta para descer em vermelho. O timing da troca de cor é essencial."
+        },
+        {
+          "question": "Neon Drift tem progressão?",
+          "answer": "Sim. Podes acompanhar estatísticas, ver os melhores runs, coletar moedas e desbloquear temas neon."
+        },
+        {
+          "question": "Neon Drift é bom para partidas curtas?",
+          "answer": "Sim. Foi pensado para sessões rápidas em modo retrato, mas a velocidade crescente torna o jogo cada vez mais desafiante."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Neon Drift",
+      "summary": "Neon Drift је брза аркадна игра у портрет режиму, направљена за рефлексе, тајминг и промјену боја. Избјегавај препреке, скупљај новчиће и јури најбољи резултат.",
+      "longDescription": [
+        "Neon Drift је стилска аркадна игра у којој брзи рефлекси, фокус и прецизан тајминг одлучују о свакој партији. Лако је почети, али је потребна права вјештина да би се дуго преживјело.",
+        "Циљ је једноставан: преживи што дуже у бескрајној неон вожњи. Држи екран да постанеш плав и кренеш нагоре, пусти да постанеш црвен и зарониш наниже. Прави тренутак за промјену боје је кључан.",
+        "Свака партија је нова прилика за бољи резултат. Прати статистику, прегледај најбоље вожње и скупљај новчиће током игре. Што више играш, то боље осјећаш брзину, препреке и ритам.",
+        "Neon Drift је направљен за љубитеље аркадних игара, endless runner изазова, игара рефлекса и мобилног gameplay-а заснованог на вјештини. Са sci-fi неон визуелним стилом, темама за откључавање и игром у портрет режиму, савршен је за брзе партије и лов на рекорд."
+      ],
+      "bottomCtaDescription": "Покрени нову вожњу, промијени боју у правом тренутку и провјери колико дуго можеш издржати. Neon Drift је идеалан за кратке аркадне партије, обарање рекорда и играче који увијек желе још један покушај.",
+      "category": "Аркадна игра",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Аркадна игра",
+        "Игра рефлекса",
+        "Endless runner",
+        "Неон игра",
+        "Игра промјене боја",
+        "Избјегавање препрека",
+        "Игра вјештине"
+      ],
+      "metaTitle": "Neon Drift - Брза аркадна игра рефлекса за Android",
+      "metaDescription": "Играј Neon Drift на Android-у. Избјегавај препреке, мијењај боје, скупљај новчиће, откључај неон теме и обори рекорд.",
+      "featureBullets": [
+        {
+          "title": "Брз аркадни gameplay"
+        },
+        {
+          "title": "Промјена боја"
+        },
+        {
+          "title": "Бескрајно избјегавање"
+        },
+        {
+          "title": "Статистика и рекорди"
+        },
+        {
+          "title": "Новчићи и неон теме"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Промијени боју и преживи",
+          "description": "Приказати главни gameplay тренутак са промјеном боје, неон препрекама и јасном акцијом у портрет формату.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-1.png"
+        },
+        {
+          "title": "Обарај свој рекорд",
+          "description": "Приказати резултат, скор или статистику како би се нагласили напредак, изазов и поновно играње.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-2.png"
+        },
+        {
+          "title": "Откључај неон стил",
+          "description": "Приказати гаражу или избор тема са јарким неон изгледом и фокусом на персонализацију.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Каква је игра Neon Drift?",
+          "answer": "Neon Drift је брза аркадна игра рефлекса у којој избјегаваш препреке, мијењаш боје и покушаваш преживјети што дуже."
+        },
+        {
+          "question": "Како се управља у игри?",
+          "answer": "Држи екран да се крећеш нагоре у плавој боји, а пусти да зарониш у црвеној боји. Тајминг промјене боје је најважнији."
+        },
+        {
+          "question": "Да ли Neon Drift има напредак?",
+          "answer": "Да. Можеш пратити статистику, прегледати најбоље вожње, скупљати новчиће и откључавати неон теме."
+        },
+        {
+          "question": "Да ли је Neon Drift добар за кратке партије?",
+          "answer": "Да. Игра је направљена за брзе партије у портрет режиму, али растућа брзина и лов на рекорд дају јој дугорочни изазов."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Neon Drift",
+      "summary": "Neon Drift je brza arkadna igra u portretnom prikazu, usmjerena na reflekse, tajming i promjenu boja. Izbjegavaj prepreke, skupljaj novčiće i lovi najbolji rezultat.",
+      "longDescription": [
+        "Neon Drift je elegantna arkadna igra u kojoj brzi refleksi, fokus i precizan tajming odlučuju o svakoj vožnji. Lako ju je započeti, ali za duže preživljavanje treba prava vještina.",
+        "Cilj je jednostavan: preživi što duže u beskrajnoj neon vožnji. Drži pritisnuto za plavu boju i uspon, pusti za crvenu boju i zaron. Prava promjena boje u pravom trenutku ključ je opstanka.",
+        "Svaka partija nova je prilika za bolji rezultat. Prati statistiku, pregledaj najbolje vožnje i skupljaj novčiće dok igraš. Što više vježbaš, to bolje osjećaš brzinu, prepreke i ritam igre.",
+        "Neon Drift je namijenjen fanovima arkadnih igara, endless runnera, igara refleksa i mobilnih izazova temeljenih na vještini. Uz sci-fi neon stil, teme koje se mogu otključati i portretni gameplay, idealan je za brze sesije i lov na high score."
+      ],
+      "bottomCtaDescription": "Pokreni novu vožnju, promijeni boju u pravom trenutku i vidi koliko dugo možeš izdržati. Neon Drift je stvoren za kratke arkadne sesije, lov na rekord i igrače koji uvijek žele još jedan pokušaj.",
+      "category": "Arkadna igra",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Arkadna igra",
+        "Igra refleksa",
+        "Endless runner",
+        "Neon igra",
+        "Igra promjene boja",
+        "Izbjegavanje prepreka",
+        "Igra vještine"
+      ],
+      "metaTitle": "Neon Drift - Brza arkadna igra refleksa za Android",
+      "metaDescription": "Igraj Neon Drift na Androidu. Izbjegavaj prepreke, mijenjaj boje, skupljaj novčiće, otključaj neon teme i obori rekord.",
+      "featureBullets": [
+        {
+          "title": "Brzi arkadni gameplay"
+        },
+        {
+          "title": "Promjena boja"
+        },
+        {
+          "title": "Beskrajno izbjegavanje"
+        },
+        {
+          "title": "Statistika i rekordi"
+        },
+        {
+          "title": "Novčići i neon teme"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Promijeni boju i preživi",
+          "description": "Prikazati ključni gameplay trenutak s promjenom boje, neon preprekama i jasnom akcijom u portretnom formatu.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-1.png"
+        },
+        {
+          "title": "Lov na rekord",
+          "description": "Prikazati rezultat, score ili statistiku kako bi se naglasili napredak, izazov i ponovljivost.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-2.png"
+        },
+        {
+          "title": "Otključaj neon stil",
+          "description": "Prikazati garažu ili odabir tema s jakim neon izgledom i osjećajem personalizacije.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Kakva je igra Neon Drift?",
+          "answer": "Neon Drift je brza arkadna igra refleksa u kojoj izbjegavaš prepreke, mijenjaš boje i pokušavaš preživjeti što duže."
+        },
+        {
+          "question": "Kako se igra Neon Drift?",
+          "answer": "Drži pritisnuto za uspon u plavoj boji, a pusti za spuštanje u crvenoj boji. Tajming promjene boje najvažniji je dio igre."
+        },
+        {
+          "question": "Ima li Neon Drift napredak i otključavanja?",
+          "answer": "Da. Možeš pratiti statistiku, pregledavati najbolje vožnje, skupljati novčiće i otključavati neon teme."
+        },
+        {
+          "question": "Je li Neon Drift dobar za kratke partije?",
+          "answer": "Da. Igra je napravljena za brze portretne sesije, ali rastuća brzina i lov na rekord daju joj dugoročan izazov."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Neon Drift",
+      "summary": "Neon Drift is een snelle arcadegame in portretmodus waarin reflexen, timing en kleurwissels centraal staan. Ontwijk obstakels, verzamel munten en jaag op je hoogste score.",
+      "longDescription": [
+        "Neon Drift is een stijlvolle arcadegame waarin snelle reflexen, focus en perfecte timing elke run bepalen. De besturing is eenvoudig te leren, maar lang overleven vraagt echte vaardigheid.",
+        "Het doel is simpel: blijf zo lang mogelijk in leven tijdens een eindeloze neon-run. Houd ingedrukt om blauw te worden en te stijgen, laat los om rood te worden en te duiken. De juiste kleurwissel op het juiste moment maakt het verschil.",
+        "Elke run geeft je een nieuwe kans om beter te worden. Jaag op je hoogste score, bekijk je statistieken, vergelijk je beste runs en verzamel munten tijdens het spelen. Hoe vaker je speelt, hoe beter je de snelheid en obstakels leert lezen.",
+        "Neon Drift is gemaakt voor fans van arcadegames, endless runners, reflexspellen en vaardigheidsgerichte mobiele gameplay. Met felle sci-fi neonbeelden, vrij te spelen thema's en portretgameplay is het perfect voor snelle sessies met veel replaywaarde."
+      ],
+      "bottomCtaDescription": "Start een run, wissel precies op tijd van kleur en ontdek hoe lang je het volhoudt. Neon Drift is gemaakt voor korte arcade-sessies, highscore-jagers en spelers die steeds nog één poging willen doen.",
+      "category": "Arcadegame",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Arcadegame",
+        "Reflexspel",
+        "Endless runner",
+        "Neon game",
+        "Kleurwissel spel",
+        "Obstakels ontwijken",
+        "Skill game"
+      ],
+      "metaTitle": "Neon Drift - Snelle arcade reflexgame voor Android",
+      "metaDescription": "Speel Neon Drift op Android. Ontwijk obstakels, wissel kleuren, verzamel munten, ontgrendel neon-thema's en verbeter je score.",
+      "featureBullets": [
+        {
+          "title": "Snelle arcade-actie"
+        },
+        {
+          "title": "Kleurwissel mechanic"
+        },
+        {
+          "title": "Eindeloos ontwijken"
+        },
+        {
+          "title": "Stats en beste runs"
+        },
+        {
+          "title": "Munten en neon-thema's"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Wissel en overleef",
+          "description": "Toon het belangrijkste gameplaymoment met kleurwissel, neon-obstakels en duidelijke actie in portretweergave.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-1.png"
+        },
+        {
+          "title": "Verbeter je score",
+          "description": "Toon een score-, resultaat- of statistiekenscherm dat progressie, uitdaging en replaywaarde benadrukt.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-2.png"
+        },
+        {
+          "title": "Ontgrendel neonstijl",
+          "description": "Toon de garage of themakeuze met sterke neonuitstraling en focus op personalisatie.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wat voor game is Neon Drift?",
+          "answer": "Neon Drift is een snelle arcade reflexgame waarin je obstakels ontwijkt, kleuren wisselt en zo lang mogelijk probeert te overleven."
+        },
+        {
+          "question": "Hoe werkt de besturing?",
+          "answer": "Houd ingedrukt om blauw te worden en te stijgen, laat los om rood te worden en te duiken. Goede timing is essentieel."
+        },
+        {
+          "question": "Heeft Neon Drift voortgang of unlocks?",
+          "answer": "Ja. Je kunt statistieken volgen, je beste runs bekijken, munten verzamelen en neon-thema's ontgrendelen."
+        },
+        {
+          "question": "Is Neon Drift geschikt voor korte speelsessies?",
+          "answer": "Ja. Neon Drift is ontworpen voor snelle portretsessies, maar de toenemende snelheid en highscore-jacht zorgen voor blijvende uitdaging."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Neon Drift",
+      "summary": "Neon Drift to szybka gra arcade w pionie, w której liczą się refleks, timing i zmiana kolorów. Omijaj przeszkody, zbieraj monety i pobijaj swój rekord.",
+      "longDescription": [
+        "Neon Drift to stylowa gra arcade, w której szybki refleks, skupienie i precyzyjny timing decydują o każdej rundzie. Zasady są proste, ale opanowanie gry wymaga coraz lepszej kontroli.",
+        "Cel jest jasny: przetrwać jak najdłużej w nieskończonym neonowym biegu. Przytrzymaj, aby zmienić się na niebieski i wznieść się wyżej, puść, aby zmienić się na czerwony i zanurkować. Dobry moment zmiany koloru potrafi uratować run.",
+        "Każda rozgrywka to nowa szansa na poprawę wyniku. Śledź statystyki, sprawdzaj najlepsze runy i zbieraj monety podczas gry. Im dłużej grasz, tym lepiej wyczuwasz tempo, przeszkody i rytm.",
+        "Neon Drift jest dla fanów gier arcade, endless runnerów, gier refleksowych i mobilnych wyzwań opartych na umiejętnościach. Neonowa oprawa sci-fi, odblokowywane motywy i pionowy format sprawiają, że gra pasuje zarówno do krótkich sesji, jak i dłuższej walki o rekord."
+      ],
+      "bottomCtaDescription": "Rozpocznij bieg, zmień kolor w idealnym momencie i sprawdź, jak długo przetrwasz. Neon Drift świetnie sprawdza się w krótkich sesjach, ale pogoń za rekordem sprawia, że chcesz spróbować jeszcze raz.",
+      "category": "Gra arcade",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Gra arcade",
+        "Gra refleksowa",
+        "Endless runner",
+        "Gra neonowa",
+        "Gra ze zmianą kolorów",
+        "Omijanie przeszkód",
+        "Gra zręcznościowa"
+      ],
+      "metaTitle": "Neon Drift - Szybka gra arcade na refleks Android",
+      "metaDescription": "Zagraj w Neon Drift na Androidzie. Omijaj przeszkody, zmieniaj kolory, zbieraj monety, odblokuj neonowe motywy i pobij rekord.",
+      "featureBullets": [
+        {
+          "title": "Szybka akcja arcade"
+        },
+        {
+          "title": "Mechanika zmiany kolorów"
+        },
+        {
+          "title": "Nieskończone omijanie"
+        },
+        {
+          "title": "Statystyki i rekordy"
+        },
+        {
+          "title": "Monety i neonowe motywy"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Zmień kolor i przetrwaj",
+          "description": "Pokazać kluczowy moment rozgrywki ze zmianą koloru, neonowymi przeszkodami i czytelną akcją w pionie.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-1.png"
+        },
+        {
+          "title": "Pobij swój rekord",
+          "description": "Pokazać ekran wyniku, statystyk lub najlepszego runu, aby podkreślić progres i chęć ponownej gry.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-2.png"
+        },
+        {
+          "title": "Odblokuj neonowy styl",
+          "description": "Pokazać garaż lub wybór motywów z mocnym neonowym wyglądem i naciskiem na personalizację.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Jaką grą jest Neon Drift?",
+          "answer": "Neon Drift to szybka gra arcade na refleks, w której omijasz przeszkody, zmieniasz kolory i próbujesz przetrwać jak najdłużej."
+        },
+        {
+          "question": "Jak działa sterowanie?",
+          "answer": "Przytrzymaj, aby wznieść się w trybie niebieskim, i puść, aby zanurkować w trybie czerwonym. Kluczowy jest dobry timing."
+        },
+        {
+          "question": "Czy Neon Drift ma postęp w grze?",
+          "answer": "Tak. Możesz śledzić statystyki, oglądać najlepsze runy, zbierać monety i odblokowywać neonowe motywy."
+        },
+        {
+          "question": "Czy Neon Drift nadaje się do krótkiej gry?",
+          "answer": "Tak. Gra została zaprojektowana z myślą o szybkich sesjach w pionie, ale rosnąca prędkość daje coraz większe wyzwanie."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Neon Drift",
+      "summary": "Neon Drift este un joc arcade rapid în mod portret, bazat pe reflexe, sincronizare și schimbarea culorilor. Evită obstacolele, colectează monede și urmărește cel mai bun scor.",
+      "longDescription": [
+        "Neon Drift este un joc arcade cu stil neon în care reflexele rapide, concentrarea și sincronizarea precisă decid fiecare rundă. Este ușor de început, dar devine tot mai intens pe măsură ce încerci să supraviețuiești mai mult.",
+        "Obiectivul este simplu: rezistă cât mai mult într-o cursă neon fără sfârșit. Ține apăsat pentru a deveni albastru și a urca, eliberează pentru a deveni roșu și a coborî. Schimbarea culorii la momentul potrivit este cheia.",
+        "Fiecare rundă este o nouă șansă de progres. Urmărește scorul, verifică statisticile, vezi cele mai bune run-uri și colectează monede în timpul jocului. Cu fiecare încercare, simți mai bine viteza și ritmul obstacolelor.",
+        "Neon Drift este potrivit pentru fanii jocurilor arcade, endless runner, jocurilor de reflexe și provocărilor mobile bazate pe îndemânare. Cu vizual sci-fi neon, teme de deblocat și gameplay în portret, este perfect pentru sesiuni rapide și pentru vânătoarea de recorduri."
+      ],
+      "bottomCtaDescription": "Pornește o cursă, schimbă culoarea la momentul perfect și vezi cât poți rezista. Neon Drift este creat pentru sesiuni arcade rapide, scoruri tot mai bune și acel impuls de a mai încerca o dată.",
+      "category": "Joc arcade",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Joc arcade",
+        "Joc de reflexe",
+        "Endless runner",
+        "Joc neon",
+        "Joc cu schimbare de culori",
+        "Evitare obstacole",
+        "Joc de îndemânare"
+      ],
+      "metaTitle": "Neon Drift - Joc arcade rapid de reflexe Android",
+      "metaDescription": "Joacă Neon Drift pe Android. Evită obstacole, schimbă culori, colectează monede, deblochează teme neon și bate-ți recordul.",
+      "featureBullets": [
+        {
+          "title": "Gameplay arcade rapid"
+        },
+        {
+          "title": "Schimbare de culori"
+        },
+        {
+          "title": "Evitare fără sfârșit"
+        },
+        {
+          "title": "Statistici și recorduri"
+        },
+        {
+          "title": "Monede și teme neon"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Schimbă și supraviețuiește",
+          "description": "Arată momentul principal de gameplay cu schimbarea culorii, obstacole neon și acțiune clară în mod portret.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-1.png"
+        },
+        {
+          "title": "Bate-ți recordul",
+          "description": "Arată scorul, rezultatul sau statisticile pentru a comunica progresul, provocarea și rejucabilitatea.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-2.png"
+        },
+        {
+          "title": "Deblochează stilul neon",
+          "description": "Arată garajul sau selecția de teme cu vizual neon puternic și accent pe personalizare.",
+          "imagePath": "apps/screenshots/neon-drift/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Ce fel de joc este Neon Drift?",
+          "answer": "Neon Drift este un joc arcade rapid de reflexe în care eviți obstacole, schimbi culori și încerci să supraviețuiești cât mai mult."
+        },
+        {
+          "question": "Cum funcționează comenzile?",
+          "answer": "Ține apăsat pentru a urca în modul albastru și eliberează pentru a coborî în modul roșu. Sincronizarea schimbării culorii este esențială."
+        },
+        {
+          "question": "Există progres în Neon Drift?",
+          "answer": "Da. Poți urmări statistici, verifica cele mai bune run-uri, colecta monede și debloca teme neon."
+        },
+        {
+          "question": "Neon Drift este potrivit pentru sesiuni scurte?",
+          "answer": "Da. Jocul este creat pentru sesiuni rapide în portret, dar viteza în creștere și scorurile de bătut îl fac provocator pe termen lung."
+        }
+      ]
+    }
+  }
+}

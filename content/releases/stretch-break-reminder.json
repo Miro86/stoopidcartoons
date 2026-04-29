@@ -1,0 +1,965 @@
+{
+  "slug": "stretch-break-reminder",
+  "sortOrder": 11,
+  "kind": "app",
+  "featured": false,
+  "accent": "green",
+  "icon": "apps/icons/stretch-break-reminder.png",
+  "googlePlayUrl": "[https://play.google.com/store/apps/details?id=com.stoopidcartoons.stretchbreakreminder](https://play.google.com/store/apps/details?id=com.stoopidcartoons.stretchbreakreminder)",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "LifestyleApplication",
+  "relatedSlugs": [
+    "water-reminder",
+    "habit-tracker",
+    "pomodoro-focus-timer"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Stretch Break Reminder",
+      "summary": "Stretch Break Reminder helps you take short movement breaks during long desk, study, coding or screen-time sessions. Set smart reminders, follow simple stretch cards and build a healthier daily routine.",
+      "longDescription": [
+        "Stretch Break Reminder is a simple movement reminder app built for long hours at a desk, computer, laptop or study setup. It helps you remember to stand up, stretch, breathe and reset before stiffness becomes part of your routine.",
+        "Set your break interval, choose work hours, enable reminders and pick the days that match your schedule. Whether you work in an office, study at home, code, game or spend long periods on a screen, the app gives you gentle reminders when it is time to move.",
+        "Follow quick guided stretch cards for areas like neck, shoulders, wrists, back, eyes and standing breaks. Each break is designed for fast check-ins, so you can complete a simple stretch without interrupting your day too much.",
+        "Track completed and skipped breaks, keep your streak going, review daily history and check useful dashboard stats like your next break, last stretch and today’s progress. Stretch Break Reminder turns small breaks into a routine you can actually maintain."
+      ],
+      "bottomCtaDescription": "Turn long hours at your desk into a more balanced routine. Stretch Break Reminder makes it easy to stand up, stretch, reset your posture and stay consistent without overthinking your next break.",
+      "category": "Lifestyle",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Stretch reminder",
+        "Break reminder",
+        "Posture reminder",
+        "Desk stretch",
+        "Work break timer",
+        "Screen time break",
+        "Office wellness",
+        "Movement reminder"
+      ],
+      "metaTitle": "Stretch Break Reminder - Desk Break Timer for Android",
+      "metaDescription": "Use Stretch Break Reminder to schedule desk breaks, follow guided stretch cards, track progress and build a healthier screen-time routine.",
+      "featureBullets": [
+        {
+          "title": "Smart stretch reminders"
+        },
+        {
+          "title": "Custom work hours"
+        },
+        {
+          "title": "Guided stretch cards"
+        },
+        {
+          "title": "Neck, back and wrist breaks"
+        },
+        {
+          "title": "Progress and streak tracking"
+        },
+        {
+          "title": "Pause and sound controls"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Plan your stretch breaks",
+          "description": "Show the reminder setup screen with interval, work hours, allowed days and reminder controls clearly visible.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Follow simple guided stretches",
+          "description": "Show a guided stretch card for neck, shoulders, wrists, back or eyes with short instructions and duration.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Track your daily progress",
+          "description": "Show the dashboard or history screen with completed breaks, skipped breaks, streak and today’s progress.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is Stretch Break Reminder used for?",
+          "answer": "Stretch Break Reminder helps you remember to take short movement breaks during long desk, work, study, coding, gaming or screen-time sessions."
+        },
+        {
+          "question": "Can I customize when reminders appear?",
+          "answer": "Yes. You can set your break interval, choose work hours, select allowed days and control reminder sounds."
+        },
+        {
+          "question": "Does the app include guided stretches?",
+          "answer": "Yes. The app includes simple stretch cards with short instructions and duration for areas like neck, shoulders, wrists, back, eyes and standing breaks."
+        },
+        {
+          "question": "Can I track my stretch break progress?",
+          "answer": "Yes. You can track completed and skipped breaks, review daily history, maintain a streak and check today’s progress."
+        },
+        {
+          "question": "Can I pause reminders temporarily?",
+          "answer": "Yes. You can pause reminders for 1 hour or until tomorrow when you need uninterrupted focus time."
+        }
+      ]
+    },
+    "de": {
+      "name": "Stretch Break Reminder",
+      "summary": "Stretch Break Reminder hilft dir, bei langer Arbeit am Schreibtisch, beim Lernen, Coden oder vor dem Bildschirm kurze Bewegungspausen einzulegen. Stelle Erinnerungen ein, folge einfachen Stretch-Karten und baue eine gesündere Routine auf.",
+      "longDescription": [
+        "Stretch Break Reminder ist eine einfache Bewegungs-Reminder-App für lange Stunden am Schreibtisch, Computer, Laptop oder Lernplatz. Sie hilft dir, ans Aufstehen, Dehnen, Atmen und kurze Reset-Pausen zu denken, bevor Verspannung zur Gewohnheit wird.",
+        "Lege dein Pausenintervall fest, wähle Arbeitszeiten, aktiviere Erinnerungen und bestimme die passenden Tage für deinen Ablauf. Ob im Büro, beim Lernen zu Hause, beim Coden, Gaming oder bei langer Bildschirmzeit: Die App erinnert dich sanft daran, dich zu bewegen.",
+        "Folge kurzen geführten Stretch-Karten für Nacken, Schultern, Handgelenke, Rücken, Augen und Stehpausen. Die Übungen sind für schnelle Check-ins gedacht, damit du eine einfache Pause machen kannst, ohne deinen Tag stark zu unterbrechen.",
+        "Verfolge erledigte und übersprungene Pausen, halte deine Serie aufrecht, prüfe deine Tageshistorie und sieh hilfreiche Dashboard-Werte wie nächste Pause, letzte Dehnung und heutigen Fortschritt. Stretch Break Reminder macht aus kleinen Pausen eine Routine, die alltagstauglich bleibt."
+      ],
+      "bottomCtaDescription": "Mach aus langen Stunden am Schreibtisch eine ausgewogenere Routine. Stretch Break Reminder erinnert dich daran, aufzustehen, dich zu dehnen, deine Haltung zu resetten und kleine Pausen konsequent beizubehalten.",
+      "category": "Lifestyle",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Stretch Erinnerung",
+        "Pausen Erinnerung",
+        "Haltungs Erinnerung",
+        "Schreibtisch Dehnung",
+        "Arbeitspausen Timer",
+        "Bildschirm Pause",
+        "Office Wellness",
+        "Bewegung Erinnerung"
+      ],
+      "metaTitle": "Stretch Break Reminder - Pausen-Timer für Android",
+      "metaDescription": "Plane Schreibtischpausen, nutze geführte Stretch-Karten, verfolge Fortschritt und baue mit Stretch Break Reminder eine gesündere Routine auf.",
+      "featureBullets": [
+        {
+          "title": "Smarte Stretch-Erinnerungen"
+        },
+        {
+          "title": "Flexible Arbeitszeiten"
+        },
+        {
+          "title": "Geführte Stretch-Karten"
+        },
+        {
+          "title": "Nacken-, Rücken- und Handpausen"
+        },
+        {
+          "title": "Fortschritt und Serien"
+        },
+        {
+          "title": "Pause- und Soundsteuerung"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Plane deine Stretch-Pausen",
+          "description": "Zeige den Reminder-Setup-Bildschirm mit Intervall, Arbeitszeiten, erlaubten Tagen und Erinnerungseinstellungen.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Folge einfachen Dehnübungen",
+          "description": "Zeige eine geführte Stretch-Karte für Nacken, Schultern, Handgelenke, Rücken oder Augen mit kurzer Anleitung und Dauer.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Verfolge deinen Tagesfortschritt",
+          "description": "Zeige Dashboard oder Verlauf mit erledigten Pausen, übersprungenen Pausen, Serie und Fortschritt des Tages.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wofür ist Stretch Break Reminder gedacht?",
+          "answer": "Stretch Break Reminder erinnert dich an kurze Bewegungspausen bei langer Schreibtischarbeit, beim Lernen, Coden, Gaming oder bei viel Bildschirmzeit."
+        },
+        {
+          "question": "Kann ich die Erinnerungen anpassen?",
+          "answer": "Ja. Du kannst Pausenintervall, Arbeitszeiten, erlaubte Tage und Sounds für Erinnerungen einstellen."
+        },
+        {
+          "question": "Enthält die App geführte Dehnübungen?",
+          "answer": "Ja. Die App bietet einfache Stretch-Karten mit kurzen Anweisungen und Dauer für Nacken, Schultern, Handgelenke, Rücken, Augen und Stehpausen."
+        },
+        {
+          "question": "Kann ich meinen Fortschritt verfolgen?",
+          "answer": "Ja. Du kannst erledigte und übersprungene Pausen verfolgen, den Verlauf ansehen, Serien behalten und deinen Tagesfortschritt prüfen."
+        },
+        {
+          "question": "Kann ich Erinnerungen vorübergehend pausieren?",
+          "answer": "Ja. Du kannst Erinnerungen für 1 Stunde oder bis morgen pausieren, wenn du ungestört konzentriert bleiben möchtest."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Stretch Break Reminder",
+      "summary": "Stretch Break Reminder t’aide à prendre de courtes pauses mouvement pendant les longues sessions de bureau, d’étude, de code ou d’écran. Configure tes rappels, suis des cartes d’étirement simples et crée une routine plus saine.",
+      "longDescription": [
+        "Stretch Break Reminder est une application simple de rappel de mouvement conçue pour les longues heures au bureau, sur ordinateur, devant un laptop ou pendant les sessions d’étude. Elle t’aide à penser à te lever, t’étirer, respirer et relâcher les tensions avant qu’elles ne s’installent.",
+        "Définis ton intervalle de pause, choisis tes horaires de travail, active les rappels et sélectionne les jours adaptés à ton rythme. Que tu travailles au bureau, étudies à la maison, codes, joues ou passes beaucoup de temps devant un écran, l’app te rappelle doucement de bouger.",
+        "Suis des cartes d’étirement rapides pour le cou, les épaules, les poignets, le dos, les yeux et les pauses debout. Chaque pause est pensée pour être courte, claire et facile à intégrer sans casser complètement ton flux de travail.",
+        "Suis les pauses terminées et ignorées, garde ta série active, consulte ton historique quotidien et vérifie des statistiques utiles comme la prochaine pause, le dernier étirement et la progression du jour. Stretch Break Reminder transforme les petites pauses en habitude durable."
+      ],
+      "bottomCtaDescription": "Transforme les longues heures devant l’écran en une routine plus équilibrée. Stretch Break Reminder te rappelle de te lever, de t’étirer, de relâcher ta posture et de rester régulier sans devoir y penser.",
+      "category": "Style de vie",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Rappel étirement",
+        "Rappel pause",
+        "Rappel posture",
+        "Étirements bureau",
+        "Minuteur pause travail",
+        "Pause écran",
+        "Bien-être au travail",
+        "Rappel mouvement"
+      ],
+      "metaTitle": "Stretch Break Reminder - Rappel de pause bureau Android",
+      "metaDescription": "Planifie tes pauses au bureau, suis des cartes d’étirement guidées, suis tes progrès et crée une meilleure routine avec Stretch Break Reminder.",
+      "featureBullets": [
+        {
+          "title": "Rappels d’étirement intelligents"
+        },
+        {
+          "title": "Horaires de travail personnalisés"
+        },
+        {
+          "title": "Cartes d’étirement guidées"
+        },
+        {
+          "title": "Pauses cou, dos et poignets"
+        },
+        {
+          "title": "Suivi des progrès"
+        },
+        {
+          "title": "Pause et contrôle du son"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Planifie tes pauses",
+          "description": "Montrer l’écran de configuration avec intervalle, horaires de travail, jours autorisés et contrôles de rappel.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Suis des étirements simples",
+          "description": "Montrer une carte guidée pour le cou, les épaules, les poignets, le dos ou les yeux avec instructions courtes et durée.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Suis ta progression",
+          "description": "Montrer le tableau de bord ou l’historique avec pauses terminées, pauses ignorées, série et progression du jour.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "À quoi sert Stretch Break Reminder ?",
+          "answer": "Stretch Break Reminder t’aide à penser aux courtes pauses mouvement pendant les longues sessions de bureau, de travail, d’étude, de code, de jeu ou d’écran."
+        },
+        {
+          "question": "Puis-je personnaliser les rappels ?",
+          "answer": "Oui. Tu peux régler l’intervalle des pauses, les horaires de travail, les jours autorisés et les sons de rappel."
+        },
+        {
+          "question": "L’application propose-t-elle des étirements guidés ?",
+          "answer": "Oui. Elle propose des cartes simples avec instructions courtes et durée pour le cou, les épaules, les poignets, le dos, les yeux et les pauses debout."
+        },
+        {
+          "question": "Puis-je suivre mes pauses ?",
+          "answer": "Oui. Tu peux suivre les pauses terminées et ignorées, consulter l’historique quotidien, garder une série et vérifier ta progression."
+        },
+        {
+          "question": "Puis-je mettre les rappels en pause ?",
+          "answer": "Oui. Tu peux suspendre les rappels pendant 1 heure ou jusqu’à demain quand tu as besoin de rester concentré."
+        }
+      ]
+    },
+    "it": {
+      "name": "Stretch Break Reminder",
+      "summary": "Stretch Break Reminder ti aiuta a fare brevi pause di movimento durante lunghe sessioni alla scrivania, studio, coding o schermo. Imposta promemoria, segui semplici schede di stretching e crea una routine più sana.",
+      "longDescription": [
+        "Stretch Break Reminder è un’app semplice per ricordarti di muoverti durante lunghe ore alla scrivania, al computer, al laptop o durante lo studio. Ti aiuta ad alzarti, fare stretching, respirare e fare un piccolo reset prima che la rigidità diventi abitudine.",
+        "Imposta l’intervallo delle pause, scegli gli orari di lavoro, abilita i promemoria e seleziona i giorni più adatti alla tua routine. Che tu lavori in ufficio, studi da casa, programmi, giochi o passi molto tempo davanti allo schermo, l’app ti ricorda quando è il momento di muoverti.",
+        "Segui brevi schede di stretching guidato per collo, spalle, polsi, schiena, occhi e pause in piedi. Ogni pausa è pensata per un controllo rapido, così puoi completare un semplice esercizio senza interrompere troppo la giornata.",
+        "Tieni traccia delle pause completate e saltate, mantieni la tua serie, consulta la cronologia giornaliera e controlla statistiche utili come prossima pausa, ultimo stretching e progressi di oggi. Stretch Break Reminder trasforma piccole pause in una routine sostenibile."
+      ],
+      "bottomCtaDescription": "Trasforma le ore alla scrivania in una routine più equilibrata. Stretch Break Reminder ti aiuta ad alzarti, fare stretching, rilassare la postura e mantenere la costanza senza pensarci troppo.",
+      "category": "Lifestyle",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Promemoria stretching",
+        "Promemoria pausa",
+        "Promemoria postura",
+        "Stretching scrivania",
+        "Timer pausa lavoro",
+        "Pausa schermo",
+        "Benessere ufficio",
+        "Promemoria movimento"
+      ],
+      "metaTitle": "Stretch Break Reminder - Timer pause da scrivania Android",
+      "metaDescription": "Programma pause da scrivania, segui schede di stretching guidate, controlla i progressi e crea una routine migliore con Stretch Break Reminder.",
+      "featureBullets": [
+        {
+          "title": "Promemoria stretching smart"
+        },
+        {
+          "title": "Orari di lavoro personalizzati"
+        },
+        {
+          "title": "Schede stretching guidate"
+        },
+        {
+          "title": "Pause per collo, schiena e polsi"
+        },
+        {
+          "title": "Progressi e serie"
+        },
+        {
+          "title": "Controlli pausa e suono"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Pianifica le pause",
+          "description": "Mostrare la schermata di configurazione con intervallo, orari di lavoro, giorni consentiti e controlli dei promemoria.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Segui stretching semplici",
+          "description": "Mostrare una scheda guidata per collo, spalle, polsi, schiena o occhi con istruzioni brevi e durata.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Controlla i progressi",
+          "description": "Mostrare dashboard o cronologia con pause completate, pause saltate, serie e progresso del giorno.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "A cosa serve Stretch Break Reminder?",
+          "answer": "Stretch Break Reminder ti aiuta a ricordare brevi pause di movimento durante lavoro alla scrivania, studio, coding, gaming o lunghe sessioni davanti allo schermo."
+        },
+        {
+          "question": "Posso personalizzare i promemoria?",
+          "answer": "Sì. Puoi impostare intervallo delle pause, orari di lavoro, giorni consentiti e suoni dei promemoria."
+        },
+        {
+          "question": "L’app include esercizi guidati?",
+          "answer": "Sì. Include schede semplici con istruzioni brevi e durata per collo, spalle, polsi, schiena, occhi e pause in piedi."
+        },
+        {
+          "question": "Posso monitorare le mie pause?",
+          "answer": "Sì. Puoi seguire pause completate e saltate, consultare la cronologia, mantenere una serie e vedere i progressi giornalieri."
+        },
+        {
+          "question": "Posso sospendere i promemoria temporaneamente?",
+          "answer": "Sì. Puoi mettere in pausa i promemoria per 1 ora o fino a domani quando hai bisogno di concentrarti senza interruzioni."
+        }
+      ]
+    },
+    "es": {
+      "name": "Stretch Break Reminder",
+      "summary": "Stretch Break Reminder te ayuda a hacer pequeñas pausas de movimiento durante largas sesiones de escritorio, estudio, programación o pantalla. Configura recordatorios, sigue tarjetas de estiramiento y crea una rutina más saludable.",
+      "longDescription": [
+        "Stretch Break Reminder es una app sencilla de recordatorios de movimiento pensada para largas horas en el escritorio, el ordenador, el portátil o una zona de estudio. Te ayuda a levantarte, estirar, respirar y hacer un pequeño reset antes de que la rigidez se convierta en costumbre.",
+        "Configura el intervalo de descanso, elige tus horas de trabajo, activa recordatorios y selecciona los días que encajan con tu rutina. Ya sea en la oficina, estudiando en casa, programando, jugando o pasando mucho tiempo frente a la pantalla, la app te recuerda cuándo moverte.",
+        "Sigue tarjetas rápidas de estiramientos guiados para cuello, hombros, muñecas, espalda, ojos y pausas de pie. Cada descanso está pensado para ser breve y fácil de completar sin romper demasiado tu concentración.",
+        "Registra descansos completados y omitidos, mantén tu racha, revisa el historial diario y consulta datos útiles como el próximo descanso, el último estiramiento y el progreso de hoy. Stretch Break Reminder convierte pequeñas pausas en una rutina fácil de mantener."
+      ],
+      "bottomCtaDescription": "Convierte las horas frente al escritorio en una rutina más equilibrada. Stretch Break Reminder te ayuda a levantarte, estirar, resetear la postura y mantener la constancia sin tener que pensarlo.",
+      "category": "Estilo de vida",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Recordatorio estiramiento",
+        "Recordatorio descanso",
+        "Recordatorio postura",
+        "Estiramientos escritorio",
+        "Temporizador descanso trabajo",
+        "Pausa pantalla",
+        "Bienestar oficina",
+        "Recordatorio movimiento"
+      ],
+      "metaTitle": "Stretch Break Reminder - Temporizador de pausas Android",
+      "metaDescription": "Programa pausas de escritorio, sigue tarjetas de estiramiento guiadas, revisa tu progreso y crea una rutina mejor con Stretch Break Reminder.",
+      "featureBullets": [
+        {
+          "title": "Recordatorios de estiramiento"
+        },
+        {
+          "title": "Horas de trabajo personalizadas"
+        },
+        {
+          "title": "Tarjetas guiadas"
+        },
+        {
+          "title": "Pausas para cuello, espalda y muñecas"
+        },
+        {
+          "title": "Progreso y rachas"
+        },
+        {
+          "title": "Pausa y control de sonido"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Planifica tus pausas",
+          "description": "Mostrar la pantalla de configuración con intervalo, horas de trabajo, días permitidos y controles de recordatorio.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Sigue estiramientos simples",
+          "description": "Mostrar una tarjeta guiada para cuello, hombros, muñecas, espalda u ojos con instrucciones breves y duración.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Revisa tu progreso diario",
+          "description": "Mostrar panel o historial con pausas completadas, pausas omitidas, racha y progreso de hoy.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Para qué sirve Stretch Break Reminder?",
+          "answer": "Stretch Break Reminder te ayuda a recordar pequeñas pausas de movimiento durante largas sesiones de escritorio, trabajo, estudio, programación, gaming o pantalla."
+        },
+        {
+          "question": "¿Puedo personalizar los recordatorios?",
+          "answer": "Sí. Puedes configurar el intervalo de descanso, las horas de trabajo, los días permitidos y los sonidos de recordatorio."
+        },
+        {
+          "question": "¿Incluye estiramientos guiados?",
+          "answer": "Sí. La app incluye tarjetas sencillas con instrucciones breves y duración para cuello, hombros, muñecas, espalda, ojos y pausas de pie."
+        },
+        {
+          "question": "¿Puedo ver mi progreso?",
+          "answer": "Sí. Puedes registrar pausas completadas y omitidas, revisar el historial diario, mantener una racha y consultar el progreso de hoy."
+        },
+        {
+          "question": "¿Puedo pausar los recordatorios?",
+          "answer": "Sí. Puedes pausar los recordatorios durante 1 hora o hasta mañana cuando necesites concentrarte sin interrupciones."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Stretch Break Reminder",
+      "summary": "Stretch Break Reminder ajuda-te a fazer pequenas pausas de movimento durante longas sessões à secretária, de estudo, programação ou ecrã. Define lembretes, segue cartões de alongamento e cria uma rotina mais saudável.",
+      "longDescription": [
+        "Stretch Break Reminder é uma app simples de lembretes de movimento criada para longas horas à secretária, no computador, portátil ou zona de estudo. Ajuda-te a lembrar de levantar, alongar, respirar e fazer uma pequena pausa antes que a rigidez se torne rotina.",
+        "Define o intervalo das pausas, escolhe o horário de trabalho, ativa lembretes e seleciona os dias que combinam com a tua rotina. Seja no escritório, a estudar em casa, a programar, a jogar ou durante muito tempo de ecrã, a app lembra-te quando é hora de mexer.",
+        "Segue cartões rápidos de alongamento guiado para pescoço, ombros, pulsos, costas, olhos e pausas em pé. Cada pausa foi pensada para check-ins curtos, fáceis de fazer sem interromper demasiado o teu dia.",
+        "Acompanha pausas concluídas e ignoradas, mantém a tua sequência, revê o histórico diário e consulta dados úteis como a próxima pausa, o último alongamento e o progresso de hoje. Stretch Break Reminder transforma pequenas pausas numa rotina simples de manter."
+      ],
+      "bottomCtaDescription": "Transforma longas horas à secretária numa rotina mais equilibrada. Stretch Break Reminder ajuda-te a levantar, alongar, corrigir a postura e manter consistência sem teres de pensar na próxima pausa.",
+      "category": "Estilo de vida",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Lembrete de alongamento",
+        "Lembrete de pausa",
+        "Lembrete de postura",
+        "Alongamento na secretária",
+        "Temporizador pausa trabalho",
+        "Pausa de ecrã",
+        "Bem-estar no trabalho",
+        "Lembrete de movimento"
+      ],
+      "metaTitle": "Stretch Break Reminder - Temporizador de pausas Android",
+      "metaDescription": "Agenda pausas à secretária, segue cartões de alongamento guiado, acompanha o progresso e cria uma rotina melhor com Stretch Break Reminder.",
+      "featureBullets": [
+        {
+          "title": "Lembretes de alongamento"
+        },
+        {
+          "title": "Horário de trabalho personalizado"
+        },
+        {
+          "title": "Cartões guiados"
+        },
+        {
+          "title": "Pausas para pescoço, costas e pulsos"
+        },
+        {
+          "title": "Progresso e sequência"
+        },
+        {
+          "title": "Controlos de pausa e som"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Planeia as tuas pausas",
+          "description": "Mostrar o ecrã de configuração com intervalo, horário de trabalho, dias permitidos e controlos dos lembretes.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Segue alongamentos simples",
+          "description": "Mostrar um cartão guiado para pescoço, ombros, pulsos, costas ou olhos com instruções curtas e duração.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Acompanha o progresso diário",
+          "description": "Mostrar dashboard ou histórico com pausas concluídas, pausas ignoradas, sequência e progresso do dia.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Para que serve o Stretch Break Reminder?",
+          "answer": "Stretch Break Reminder ajuda-te a lembrar de fazer pequenas pausas de movimento durante longas sessões de trabalho, estudo, programação, gaming ou tempo de ecrã."
+        },
+        {
+          "question": "Posso personalizar os lembretes?",
+          "answer": "Sim. Podes definir o intervalo das pausas, o horário de trabalho, os dias permitidos e os sons dos lembretes."
+        },
+        {
+          "question": "A app inclui alongamentos guiados?",
+          "answer": "Sim. Inclui cartões simples com instruções curtas e duração para pescoço, ombros, pulsos, costas, olhos e pausas em pé."
+        },
+        {
+          "question": "Posso acompanhar o meu progresso?",
+          "answer": "Sim. Podes acompanhar pausas concluídas e ignoradas, rever o histórico diário, manter uma sequência e ver o progresso de hoje."
+        },
+        {
+          "question": "Posso pausar os lembretes temporariamente?",
+          "answer": "Sim. Podes pausar os lembretes durante 1 hora ou até amanhã quando precisares de concentração sem interrupções."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Stretch Break Reminder",
+      "summary": "Stretch Break Reminder ти помаже да правиш кратке паузе за кретање током дугог рада за столом, учења, кодирања или времена пред екраном. Подеси подсјетнике, прати једноставне картице истезања и изгради здравију рутину.",
+      "longDescription": [
+        "Stretch Break Reminder је једноставна апликација за подсјетнике на кретање, направљена за дуге сате за столом, рачунаром, лаптопом или током учења. Помаже ти да се сјетиш да устанеш, истегнеш се, удахнеш и направиш кратак reset прије него што укоченост постане навика.",
+        "Подеси интервал пауза, изабери радно вријеме, укључи подсјетнике и одабери дане који одговарају твојој рутини. Било да радиш у канцеларији, учиш код куће, програмираш, играш игре или дуго гледаш у екран, апликација те благо подсјећа када је вријеме за покрет.",
+        "Прати кратке вођене картице истезања за врат, рамена, ручне зглобове, леђа, очи и паузе у стајању. Свака пауза је направљена за брзу провјеру, тако да можеш урадити једноставно истезање без великог прекида дана.",
+        "Прати завршене и прескочене паузе, одржавај серију, прегледај дневну историју и провјери корисне податке као што су сљедећа пауза, посљедње истезање и данашњи напредак. Stretch Break Reminder претвара мале паузе у рутину коју је лако одржати."
+      ],
+      "bottomCtaDescription": "Претвори дуге сате за столом у уравнотеженију рутину. Stretch Break Reminder те подсјећа да устанеш, истегнеш се, растеретиш држање и останеш досљедан без размишљања о сљедећој паузи.",
+      "category": "Животни стил",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Подсјетник за истезање",
+        "Подсјетник за паузу",
+        "Подсјетник за држање",
+        "Истезање за столом",
+        "Тајмер за паузу",
+        "Пауза од екрана",
+        "Велнес на послу",
+        "Подсјетник за кретање"
+      ],
+      "metaTitle": "Stretch Break Reminder - Тајмер пауза за Android",
+      "metaDescription": "Планирај паузе за столом, прати вођене картице истезања, гледај напредак и гради здравију рутину уз Stretch Break Reminder.",
+      "featureBullets": [
+        {
+          "title": "Паметни подсјетници"
+        },
+        {
+          "title": "Прилагодљиво радно вријеме"
+        },
+        {
+          "title": "Вођене картице истезања"
+        },
+        {
+          "title": "Паузе за врат, леђа и зглобове"
+        },
+        {
+          "title": "Праћење напретка и серије"
+        },
+        {
+          "title": "Контрола паузе и звука"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Планирај паузе",
+          "description": "Приказати екран подешавања са интервалом, радним временом, дозвољеним данима и контролама подсјетника.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Прати једноставна истезања",
+          "description": "Приказати вођену картицу за врат, рамена, ручне зглобове, леђа или очи са кратким упутством и трајањем.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Прати дневни напредак",
+          "description": "Приказати dashboard или историју са завршеним паузама, прескоченим паузама, серијом и данашњим напретком.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "За шта служи Stretch Break Reminder?",
+          "answer": "Stretch Break Reminder помаже да се сјетиш кратких пауза за кретање током дугог рада за столом, учења, кодирања, gaming-а или времена пред екраном."
+        },
+        {
+          "question": "Могу ли прилагодити подсјетнике?",
+          "answer": "Да. Можеш подесити интервал пауза, радно вријеме, дозвољене дане и звук подсјетника."
+        },
+        {
+          "question": "Да ли апликација има вођена истезања?",
+          "answer": "Да. Апликација има једноставне картице са кратким упутствима и трајањем за врат, рамена, ручне зглобове, леђа, очи и паузе у стајању."
+        },
+        {
+          "question": "Могу ли пратити свој напредак?",
+          "answer": "Да. Можеш пратити завршене и прескочене паузе, прегледати дневну историју, одржавати серију и гледати данашњи напредак."
+        },
+        {
+          "question": "Могу ли привремено паузирати подсјетнике?",
+          "answer": "Да. Можеш паузирати подсјетнике на 1 сат или до сутра када ти треба фокус без прекида."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Stretch Break Reminder",
+      "summary": "Stretch Break Reminder pomaže ti napraviti kratke pauze za kretanje tijekom dugog rada za stolom, učenja, programiranja ili vremena pred ekranom. Postavi podsjetnike, prati jednostavne kartice istezanja i izgradi zdraviju rutinu.",
+      "longDescription": [
+        "Stretch Break Reminder je jednostavna aplikacija za podsjetnike na kretanje, napravljena za duge sate za stolom, računalom, laptopom ili tijekom učenja. Pomaže ti da se sjetiš ustati, istegnuti se, udahnuti i napraviti kratki reset prije nego ukočenost postane navika.",
+        "Postavi interval pauza, odaberi radno vrijeme, uključi podsjetnike i izaberi dane koji odgovaraju tvojoj rutini. Bilo da radiš u uredu, učiš kod kuće, programiraš, igraš igre ili dugo gledaš u ekran, aplikacija te nježno podsjeća kada je vrijeme za pokret.",
+        "Prati kratke vođene kartice istezanja za vrat, ramena, ručne zglobove, leđa, oči i pauze u stajanju. Svaka pauza osmišljena je za brzu provjeru, tako da možeš napraviti jednostavno istezanje bez velikog prekida dana.",
+        "Prati završene i preskočene pauze, održavaj niz, pregledaj dnevnu povijest i provjeri korisne podatke poput sljedeće pauze, posljednjeg istezanja i današnjeg napretka. Stretch Break Reminder pretvara male pauze u rutinu koju je lako održati."
+      ],
+      "bottomCtaDescription": "Pretvori duge sate za stolom u uravnoteženiju rutinu. Stretch Break Reminder podsjeća te da ustaneš, istegneš se, rasteretiš držanje i ostaneš dosljedan bez razmišljanja o sljedećoj pauzi.",
+      "category": "Životni stil",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Podsjetnik za istezanje",
+        "Podsjetnik za pauzu",
+        "Podsjetnik za držanje",
+        "Istezanje za stolom",
+        "Timer za pauzu",
+        "Pauza od ekrana",
+        "Wellness na poslu",
+        "Podsjetnik za kretanje"
+      ],
+      "metaTitle": "Stretch Break Reminder - Timer pauza za Android",
+      "metaDescription": "Planiraj pauze za stolom, prati vođene kartice istezanja, provjeri napredak i izgradi bolju rutinu uz Stretch Break Reminder.",
+      "featureBullets": [
+        {
+          "title": "Pametni podsjetnici"
+        },
+        {
+          "title": "Prilagodljivo radno vrijeme"
+        },
+        {
+          "title": "Vođene kartice istezanja"
+        },
+        {
+          "title": "Pauze za vrat, leđa i zglobove"
+        },
+        {
+          "title": "Praćenje napretka i niza"
+        },
+        {
+          "title": "Kontrola pauze i zvuka"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Planiraj pauze",
+          "description": "Prikazati ekran postavki s intervalom, radnim vremenom, dopuštenim danima i kontrolama podsjetnika.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Prati jednostavna istezanja",
+          "description": "Prikazati vođenu karticu za vrat, ramena, ručne zglobove, leđa ili oči s kratkim uputama i trajanjem.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Prati dnevni napredak",
+          "description": "Prikazati nadzornu ploču ili povijest sa završenim pauzama, preskočenim pauzama, nizom i današnjim napretkom.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Čemu služi Stretch Break Reminder?",
+          "answer": "Stretch Break Reminder pomaže ti zapamtiti kratke pauze za kretanje tijekom dugog rada za stolom, učenja, programiranja, gaminga ili vremena pred ekranom."
+        },
+        {
+          "question": "Mogu li prilagoditi podsjetnike?",
+          "answer": "Da. Možeš postaviti interval pauza, radno vrijeme, dopuštene dane i zvuk podsjetnika."
+        },
+        {
+          "question": "Ima li aplikacija vođena istezanja?",
+          "answer": "Da. Aplikacija uključuje jednostavne kartice s kratkim uputama i trajanjem za vrat, ramena, ručne zglobove, leđa, oči i pauze u stajanju."
+        },
+        {
+          "question": "Mogu li pratiti svoj napredak?",
+          "answer": "Da. Možeš pratiti završene i preskočene pauze, pregledati dnevnu povijest, održavati niz i vidjeti današnji napredak."
+        },
+        {
+          "question": "Mogu li privremeno pauzirati podsjetnike?",
+          "answer": "Da. Podsjetnike možeš pauzirati na 1 sat ili do sutra kada ti treba fokus bez prekida."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Stretch Break Reminder",
+      "summary": "Stretch Break Reminder helpt je korte beweegpauzes te nemen tijdens lange uren achter je bureau, studie, codeerwerk of schermtijd. Stel slimme herinneringen in, volg simpele stretchkaarten en bouw een gezondere routine op.",
+      "longDescription": [
+        "Stretch Break Reminder is een eenvoudige beweegherinnering voor lange uren aan je bureau, computer, laptop of studieplek. De app helpt je eraan denken om op te staan, te rekken, te ademen en even te resetten voordat stijfheid een gewoonte wordt.",
+        "Stel je pauze-interval in, kies werktijden, zet herinneringen aan en selecteer de dagen die bij je schema passen. Of je nu op kantoor werkt, thuis studeert, codeert, gamet of lang naar een scherm kijkt, de app geeft je een rustige reminder om te bewegen.",
+        "Volg korte begeleide stretchkaarten voor nek, schouders, polsen, rug, ogen en staande pauzes. Elke pauze is ontworpen als snelle check-in, zodat je eenvoudig kunt bewegen zonder je dag te veel te onderbreken.",
+        "Houd voltooide en overgeslagen pauzes bij, bouw je streak op, bekijk je dagelijkse geschiedenis en check handige dashboardgegevens zoals je volgende pauze, laatste stretch en voortgang van vandaag. Stretch Break Reminder maakt van kleine pauzes een routine die je kunt volhouden."
+      ],
+      "bottomCtaDescription": "Maak lange uren achter je bureau beter vol te houden met kleine, consistente pauzes. Stretch Break Reminder helpt je opstaan, rekken, je houding resetten en bewegen zonder steeds zelf aan je volgende pauze te denken.",
+      "category": "Lifestyle",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Stretch herinnering",
+        "Pauze herinnering",
+        "Houding herinnering",
+        "Bureau stretch",
+        "Werkpauze timer",
+        "Schermpauze",
+        "Kantoor welzijn",
+        "Beweeg herinnering"
+      ],
+      "metaTitle": "Stretch Break Reminder - Bureaupauze timer Android",
+      "metaDescription": "Plan bureaupauzes, volg begeleide stretchkaarten, houd je voortgang bij en bouw een gezondere schermroutine met Stretch Break Reminder.",
+      "featureBullets": [
+        {
+          "title": "Slimme stretchherinneringen"
+        },
+        {
+          "title": "Aangepaste werktijden"
+        },
+        {
+          "title": "Begeleide stretchkaarten"
+        },
+        {
+          "title": "Nek-, rug- en polspauzes"
+        },
+        {
+          "title": "Voortgang en streaks"
+        },
+        {
+          "title": "Pauze- en geluidsopties"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Plan je stretchpauzes",
+          "description": "Toon het instellingenscherm met interval, werktijden, toegestane dagen en herinneringsopties duidelijk zichtbaar.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Volg simpele stretches",
+          "description": "Toon een begeleide stretchkaart voor nek, schouders, polsen, rug of ogen met korte instructies en duur.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Bekijk je dagvoortgang",
+          "description": "Toon dashboard of geschiedenis met voltooide pauzes, overgeslagen pauzes, streak en voortgang van vandaag.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Waarvoor gebruik je Stretch Break Reminder?",
+          "answer": "Stretch Break Reminder helpt je korte beweegpauzes te nemen tijdens lange sessies achter een bureau, bij werk, studie, coderen, gamen of schermtijd."
+        },
+        {
+          "question": "Kan ik de herinneringen aanpassen?",
+          "answer": "Ja. Je kunt je pauze-interval, werktijden, toegestane dagen en herinneringsgeluiden instellen."
+        },
+        {
+          "question": "Heeft de app begeleide stretches?",
+          "answer": "Ja. De app bevat simpele kaarten met korte instructies en duur voor nek, schouders, polsen, rug, ogen en staande pauzes."
+        },
+        {
+          "question": "Kan ik mijn voortgang bijhouden?",
+          "answer": "Ja. Je kunt voltooide en overgeslagen pauzes volgen, dagelijkse geschiedenis bekijken, een streak behouden en je voortgang van vandaag controleren."
+        },
+        {
+          "question": "Kan ik herinneringen tijdelijk pauzeren?",
+          "answer": "Ja. Je kunt herinneringen 1 uur pauzeren of tot morgen uitstellen wanneer je ongestoord wilt focussen."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Stretch Break Reminder",
+      "summary": "Stretch Break Reminder pomaga robić krótkie przerwy na ruch podczas długiej pracy przy biurku, nauki, programowania lub czasu przed ekranem. Ustaw przypomnienia, korzystaj z prostych kart rozciągania i buduj zdrowszą rutynę.",
+      "longDescription": [
+        "Stretch Break Reminder to prosta aplikacja przypominająca o ruchu podczas długich godzin przy biurku, komputerze, laptopie lub nauce. Pomaga pamiętać o wstaniu, rozciągnięciu, oddechu i krótkim resecie, zanim sztywność stanie się codziennym nawykiem.",
+        "Ustaw interwał przerw, wybierz godziny pracy, włącz przypomnienia i określ dni pasujące do Twojego planu. Niezależnie od tego, czy pracujesz w biurze, uczysz się w domu, programujesz, grasz czy długo patrzysz w ekran, aplikacja delikatnie przypomni Ci o ruchu.",
+        "Korzystaj z krótkich, prowadzonych kart rozciągania dla karku, ramion, nadgarstków, pleców, oczu i przerw na stojąco. Każda przerwa jest szybka i łatwa do wykonania, aby nie wybijać Cię z dnia bardziej niż trzeba.",
+        "Śledź wykonane i pominięte przerwy, utrzymuj serię, sprawdzaj historię dnia i przydatne statystyki, takie jak następna przerwa, ostatnie rozciąganie i dzisiejszy postęp. Stretch Break Reminder zamienia małe przerwy w rutynę, którą łatwo utrzymać."
+      ],
+      "bottomCtaDescription": "Zamień długie godziny przy biurku w bardziej zrównoważoną rutynę. Stretch Break Reminder pomaga wstać, rozciągnąć się, odciążyć postawę i zachować regularność bez ciągłego pamiętania o kolejnej przerwie.",
+      "category": "Styl życia",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Przypomnienie o rozciąganiu",
+        "Przypomnienie o przerwie",
+        "Przypomnienie o postawie",
+        "Rozciąganie przy biurku",
+        "Timer przerw w pracy",
+        "Przerwa od ekranu",
+        "Wellbeing w pracy",
+        "Przypomnienie o ruchu"
+      ],
+      "metaTitle": "Stretch Break Reminder - Timer przerw przy biurku",
+      "metaDescription": "Planuj przerwy przy biurku, korzystaj z kart rozciągania, śledź postępy i buduj zdrowszą rutynę ze Stretch Break Reminder.",
+      "featureBullets": [
+        {
+          "title": "Inteligentne przypomnienia"
+        },
+        {
+          "title": "Własne godziny pracy"
+        },
+        {
+          "title": "Prowadzone karty rozciągania"
+        },
+        {
+          "title": "Przerwy dla karku, pleców i nadgarstków"
+        },
+        {
+          "title": "Postępy i serie"
+        },
+        {
+          "title": "Pauza i dźwięk"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Zaplanuj przerwy",
+          "description": "Pokazać ekran konfiguracji z interwałem, godzinami pracy, dozwolonymi dniami i kontrolą przypomnień.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Wykonuj proste rozciąganie",
+          "description": "Pokazać prowadzoną kartę dla karku, ramion, nadgarstków, pleców lub oczu z krótką instrukcją i czasem trwania.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Śledź dzienny postęp",
+          "description": "Pokazać pulpit lub historię z wykonanymi przerwami, pominiętymi przerwami, serią i postępem dnia.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do czego służy Stretch Break Reminder?",
+          "answer": "Stretch Break Reminder pomaga pamiętać o krótkich przerwach na ruch podczas długiej pracy przy biurku, nauki, programowania, grania lub czasu przed ekranem."
+        },
+        {
+          "question": "Czy mogę dostosować przypomnienia?",
+          "answer": "Tak. Możesz ustawić interwał przerw, godziny pracy, dozwolone dni i dźwięki przypomnień."
+        },
+        {
+          "question": "Czy aplikacja zawiera prowadzone ćwiczenia rozciągające?",
+          "answer": "Tak. Aplikacja zawiera proste karty z krótkimi instrukcjami i czasem trwania dla karku, ramion, nadgarstków, pleców, oczu i przerw na stojąco."
+        },
+        {
+          "question": "Czy mogę śledzić postępy?",
+          "answer": "Tak. Możesz śledzić wykonane i pominięte przerwy, przeglądać historię, utrzymywać serię i sprawdzać dzisiejszy postęp."
+        },
+        {
+          "question": "Czy mogę tymczasowo wstrzymać przypomnienia?",
+          "answer": "Tak. Możesz wstrzymać przypomnienia na 1 godzinę lub do jutra, gdy potrzebujesz skupienia bez przerw."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Stretch Break Reminder",
+      "summary": "Stretch Break Reminder te ajută să iei pauze scurte de mișcare în timpul sesiunilor lungi la birou, de studiu, programare sau stat la ecran. Setează mementouri, urmează carduri simple de stretching și construiește o rutină mai sănătoasă.",
+      "longDescription": [
+        "Stretch Break Reminder este o aplicație simplă de mementouri pentru mișcare, creată pentru ore lungi la birou, calculator, laptop sau în timpul studiului. Te ajută să îți amintești să te ridici, să te întinzi, să respiri și să faci un mic reset înainte ca rigiditatea să devină obișnuință.",
+        "Setează intervalul pauzelor, alege orele de lucru, activează mementourile și selectează zilele potrivite programului tău. Fie că lucrezi la birou, studiezi acasă, programezi, te joci sau petreci mult timp în fața ecranului, aplicația îți amintește ușor când este timpul să te miști.",
+        "Urmează carduri rapide de stretching ghidat pentru gât, umeri, încheieturi, spate, ochi și pauze în picioare. Fiecare pauză este gândită pentru verificări scurte, astfel încât să poți face o mișcare simplă fără să îți întrerupi prea mult ziua.",
+        "Urmărește pauzele finalizate și omise, menține seria, consultă istoricul zilnic și verifică statistici utile precum următoarea pauză, ultimul stretching și progresul de azi. Stretch Break Reminder transformă pauzele mici într-o rutină ușor de păstrat."
+      ],
+      "bottomCtaDescription": "Transformă orele lungi la birou într-o rutină mai echilibrată. Stretch Break Reminder te ajută să te ridici, să te întinzi, să îți resetezi postura și să rămâi consecvent fără să te gândești mereu la următoarea pauză.",
+      "category": "Stil de viață",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Memento stretching",
+        "Memento pauză",
+        "Memento postură",
+        "Stretching la birou",
+        "Timer pauză lucru",
+        "Pauză ecran",
+        "Wellness la birou",
+        "Memento mișcare"
+      ],
+      "metaTitle": "Stretch Break Reminder - Timer pauze birou Android",
+      "metaDescription": "Planifică pauze la birou, urmează carduri de stretching ghidat, urmărește progresul și construiește o rutină mai bună.",
+      "featureBullets": [
+        {
+          "title": "Mementouri smart"
+        },
+        {
+          "title": "Ore de lucru personalizate"
+        },
+        {
+          "title": "Carduri de stretching ghidat"
+        },
+        {
+          "title": "Pauze pentru gât, spate și încheieturi"
+        },
+        {
+          "title": "Progres și serii"
+        },
+        {
+          "title": "Control pauză și sunet"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Planifică pauzele",
+          "description": "Arată ecranul de configurare cu intervalul, orele de lucru, zilele permise și controalele pentru mementouri.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Urmează stretching simplu",
+          "description": "Arată un card ghidat pentru gât, umeri, încheieturi, spate sau ochi, cu instrucțiuni scurte și durată.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Urmărește progresul zilnic",
+          "description": "Arată dashboardul sau istoricul cu pauze finalizate, pauze omise, serie și progresul de azi.",
+          "imagePath": "apps/screenshots/stretch-break-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "La ce folosește Stretch Break Reminder?",
+          "answer": "Stretch Break Reminder te ajută să îți amintești de pauze scurte de mișcare în timpul sesiunilor lungi la birou, de lucru, studiu, programare, gaming sau stat la ecran."
+        },
+        {
+          "question": "Pot personaliza mementourile?",
+          "answer": "Da. Poți seta intervalul pauzelor, orele de lucru, zilele permise și sunetele mementourilor."
+        },
+        {
+          "question": "Aplicația include stretching ghidat?",
+          "answer": "Da. Include carduri simple cu instrucțiuni scurte și durată pentru gât, umeri, încheieturi, spate, ochi și pauze în picioare."
+        },
+        {
+          "question": "Pot urmări progresul pauzelor?",
+          "answer": "Da. Poți urmări pauzele finalizate și omise, consulta istoricul zilnic, menține o serie și verifica progresul de azi."
+        },
+        {
+          "question": "Pot opri temporar mementourile?",
+          "answer": "Da. Poți pune mementourile pe pauză timp de 1 oră sau până mâine când ai nevoie de concentrare fără întreruperi."
+        }
+      ]
+    }
+  }
+}
