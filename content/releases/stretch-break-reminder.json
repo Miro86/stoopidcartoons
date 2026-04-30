@@ -5,7 +5,7 @@
   "featured": false,
   "accent": "green",
   "icon": "apps/icons/stretch-break-reminder.png",
-  "googlePlayUrl": "[https://play.google.com/store/apps/details?id=com.stoopidcartoons.stretchbreakreminder](https://play.google.com/store/apps/details?id=com.stoopidcartoons.stretchbreakreminder)",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.stretchbreakreminder",
   "websiteUrl": null,
   "schemaApplicationCategory": "LifestyleApplication",
   "relatedSlugs": [
