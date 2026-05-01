@@ -1,0 +1,921 @@
+{
+  "slug": "weight-tracker",
+  "sortOrder": 12,
+  "kind": "app",
+  "featured": false,
+  "accent": "red",
+  "icon": "apps/icons/weight-tracker.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.weighttracker",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "HealthApplication",
+  "relatedSlugs": [
+    "habit-tracker",
+    "intermittent-fasting",
+    "hiit-timer"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Weight Tracker",
+      "summary": "Weight Tracker helps you log body weight, follow weekly trends, track your goal, and build a simple routine with clear progress insights.",
+      "longDescription": [
+        "Weight Tracker is a simple Android app for recording your body weight, checking recent progress, and staying consistent with a private routine that fits real life.",
+        "Log weight entries with an optional note and date, choose kg or lb, and keep your history organized in one clear place. The app helps you review your latest check-in, 7-day average, goal line, and recent movement without unnecessary clutter.",
+        "Set a goal weight, follow weekly trends, and use reminders on the days and times that work for you. Whether you want to lose weight, gain weight, or maintain your current weight, Weight Tracker keeps the focus on steady awareness.",
+        "You can also enable an optional BMI card for informational use, add height during setup, and adjust language and display preferences. The result is a clean, practical weight log designed for everyday tracking."
+      ],
+      "bottomCtaDescription": "Start with one quick check-in and turn weight tracking into a calm daily habit. Weight Tracker gives you the essentials to monitor progress, stay consistent, and understand your journey without clutter.",
+      "category": "Health & Fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Weight Tracker",
+        "Weight Log",
+        "Weight Journal",
+        "BMI Tracker",
+        "Goal Weight",
+        "Health Tracker",
+        "Progress Chart",
+        "Daily Reminder"
+      ],
+      "metaTitle": "Weight Tracker App | Log Weight, Goals & BMI on Android",
+      "metaDescription": "Track weight, goals, weekly trends, BMI, notes and reminders with a clean Android weight tracker built for simple daily progress.",
+      "featureBullets": [
+        {
+          "title": "Fast Weight Check-Ins"
+        },
+        {
+          "title": "Goal Weight Tracking"
+        },
+        {
+          "title": "7-Day Average"
+        },
+        {
+          "title": "Weekly Trend View"
+        },
+        {
+          "title": "Optional BMI Card"
+        },
+        {
+          "title": "Custom Reminders"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Clear Daily Overview",
+          "description": "Show the home screen with latest weight, progress toward the goal, and a clean visual layout that communicates simple daily tracking.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Track Trends Over Time",
+          "description": "Show a weekly trend or progress chart that helps users understand weight movement at a glance.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Log Weight Quickly",
+          "description": "Show the add-entry flow with weight, date, and optional note to highlight fast and low-friction check-ins.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What can I track with Weight Tracker?",
+          "answer": "You can log weight entries, review history, follow weekly trends, track a goal weight, view a 7-day average, add notes, and optionally enable a BMI card."
+        },
+        {
+          "question": "Can I use Weight Tracker for weight loss and weight gain?",
+          "answer": "Yes. Weight Tracker is useful for losing, gaining, or maintaining weight because it focuses on logging entries, monitoring progress, and staying consistent."
+        },
+        {
+          "question": "Does Weight Tracker support kg and lb?",
+          "answer": "Yes. You can choose between kilograms and pounds, making the app practical for different tracking preferences."
+        },
+        {
+          "question": "Can Weight Tracker remind me to weigh myself?",
+          "answer": "Yes. You can set an optional reminder with custom time and reminder days to support a regular weigh-in routine."
+        }
+      ]
+    },
+    "de": {
+      "name": "Weight Tracker",
+      "summary": "Weight Tracker hilft dir, dein Gewicht zu protokollieren, Wochenverläufe zu verfolgen, Ziele im Blick zu behalten und eine einfache Routine aufzubauen.",
+      "longDescription": [
+        "Weight Tracker ist eine einfache Android-App, mit der du dein Körpergewicht erfassen, aktuelle Veränderungen prüfen und eine regelmäßige Routine entwickeln kannst.",
+        "Speichere Gewichtseinträge mit optionaler Notiz und Datum, wähle kg oder lb und behalte deine Historie übersichtlich an einem Ort. Die App zeigt dir den letzten Eintrag, den 7-Tage-Durchschnitt, deine Ziellinie und den aktuellen Verlauf ohne unnötige Ablenkung.",
+        "Lege ein Zielgewicht fest, verfolge wöchentliche Trends und nutze Erinnerungen an den Tagen und Uhrzeiten, die zu deinem Alltag passen. Ob Abnehmen, Zunehmen oder Gewicht halten: Weight Tracker unterstützt dich mit klarer Übersicht statt komplizierter Funktionen.",
+        "Optional kannst du eine BMI-Karte aktivieren, deine Größe hinterlegen und Sprache sowie Darstellung anpassen. So entsteht ein praktisches Gewichtstagebuch für die tägliche Nutzung."
+      ],
+      "bottomCtaDescription": "Starte mit einem schnellen Eintrag und mache Gewichtstracking zu einer ruhigen, übersichtlichen Gewohnheit. Weight Tracker konzentriert sich auf das Wesentliche: Fortschritt sehen, konsequent bleiben und den eigenen Verlauf besser verstehen.",
+      "category": "Gesundheit & Fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Gewichtstracker",
+        "Gewichtsprotokoll",
+        "Gewichtstagebuch",
+        "BMI Tracker",
+        "Zielgewicht",
+        "Gesundheitstracker",
+        "Fortschrittsdiagramm",
+        "Tägliche Erinnerung"
+      ],
+      "metaTitle": "Weight Tracker App | Gewicht, Ziele & BMI verfolgen",
+      "metaDescription": "Gewicht, Ziele, Wochenverlauf, BMI, Notizen und Erinnerungen einfach auf Android verfolgen – klar, privat und alltagstauglich.",
+      "featureBullets": [
+        {
+          "title": "Schnelle Gewichtseinträge"
+        },
+        {
+          "title": "Zielgewicht Verfolgen"
+        },
+        {
+          "title": "7-Tage-Durchschnitt"
+        },
+        {
+          "title": "Wöchentliche Trends"
+        },
+        {
+          "title": "Optionale BMI-Karte"
+        },
+        {
+          "title": "Flexible Erinnerungen"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Übersichtlicher Tagesblick",
+          "description": "Home-Screen mit aktuellem Gewicht, Zielverlauf und sauberem Layout zeigen, damit der tägliche Nutzen sofort verständlich wird.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Fortschritt Im Verlauf",
+          "description": "Trend- oder Wochenansicht zeigen, die Gewichtsveränderungen schnell und visuell nachvollziehbar macht.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Gewicht Schnell Eintragen",
+          "description": "Eingabemaske mit Gewicht, Datum und optionaler Notiz zeigen, um den schnellen Check-in hervorzuheben.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Was kann ich mit Weight Tracker verfolgen?",
+          "answer": "Du kannst Gewichtseinträge speichern, deine Historie ansehen, Wochenverläufe prüfen, ein Zielgewicht verfolgen, den 7-Tage-Durchschnitt sehen, Notizen hinzufügen und optional eine BMI-Karte aktivieren."
+        },
+        {
+          "question": "Eignet sich Weight Tracker zum Abnehmen und Zunehmen?",
+          "answer": "Ja. Die App eignet sich für Abnehmen, Zunehmen und Gewicht halten, weil sie sich auf regelmäßige Einträge und klare Fortschrittsübersicht konzentriert."
+        },
+        {
+          "question": "Unterstützt Weight Tracker Kilogramm und Pfund?",
+          "answer": "Ja. Du kannst zwischen kg und lb wählen und die App an deine bevorzugte Einheit anpassen."
+        },
+        {
+          "question": "Kann mich Weight Tracker ans Wiegen erinnern?",
+          "answer": "Ja. Du kannst eine optionale Erinnerung mit eigener Uhrzeit und ausgewählten Erinnerungstagen einstellen."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Weight Tracker",
+      "summary": "Weight Tracker vous aide à enregistrer votre poids, suivre les tendances hebdomadaires, garder votre objectif en vue et créer une routine simple.",
+      "longDescription": [
+        "Weight Tracker est une application Android simple pour enregistrer votre poids, consulter vos progrès récents et garder une routine de suivi adaptée au quotidien.",
+        "Ajoutez des mesures avec une note optionnelle et une date, choisissez kg ou lb, puis retrouvez tout votre historique dans une interface lisible. L’application met en avant votre dernier enregistrement, votre moyenne sur 7 jours, votre ligne d’objectif et vos tendances récentes.",
+        "Définissez un poids objectif, suivez l’évolution semaine après semaine et activez des rappels aux jours et horaires qui vous conviennent. Que vous souhaitiez perdre du poids, en prendre ou stabiliser votre poids, Weight Tracker garde l’expérience simple et motivante.",
+        "Vous pouvez aussi activer une carte IMC à titre informatif, renseigner votre taille et ajuster vos préférences de langue et d’affichage. C’est un carnet de poids pratique, pensé pour un suivi régulier sans surcharge."
+      ],
+      "bottomCtaDescription": "Commencez par une saisie rapide et transformez le suivi du poids en une habitude claire et sereine. Weight Tracker vous aide à rester régulier, à visualiser vos progrès et à mieux comprendre votre évolution.",
+      "category": "Santé et fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Suivi Du Poids",
+        "Journal De Poids",
+        "Carnet De Poids",
+        "Suivi IMC",
+        "Poids Objectif",
+        "Suivi Santé",
+        "Graphique De Progression",
+        "Rappel Quotidien"
+      ],
+      "metaTitle": "Weight Tracker | Suivi du poids, objectifs et IMC",
+      "metaDescription": "Suivez votre poids, vos objectifs, vos tendances, votre IMC, vos notes et vos rappels avec une app Android simple et claire.",
+      "featureBullets": [
+        {
+          "title": "Saisie Rapide Du Poids"
+        },
+        {
+          "title": "Suivi Du Poids Objectif"
+        },
+        {
+          "title": "Moyenne Sur 7 Jours"
+        },
+        {
+          "title": "Tendances Hebdomadaires"
+        },
+        {
+          "title": "Carte IMC Optionnelle"
+        },
+        {
+          "title": "Rappels Personnalisés"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Vue Quotidienne Claire",
+          "description": "Montrer l’écran d’accueil avec le dernier poids, la progression vers l’objectif et une présentation simple à comprendre.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Tendances Visuelles",
+          "description": "Montrer une vue de tendance hebdomadaire ou un graphique pour communiquer l’évolution du poids en un coup d’œil.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Ajout Rapide",
+          "description": "Montrer l’écran de saisie avec poids, date et note optionnelle pour souligner la rapidité du suivi.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Que puis-je suivre avec Weight Tracker ?",
+          "answer": "Vous pouvez enregistrer votre poids, consulter l’historique, suivre les tendances hebdomadaires, définir un poids objectif, voir la moyenne sur 7 jours, ajouter des notes et activer une carte IMC optionnelle."
+        },
+        {
+          "question": "Weight Tracker convient-il pour perdre ou prendre du poids ?",
+          "answer": "Oui. L’application convient pour perdre du poids, en prendre ou le maintenir, car elle aide à suivre les mesures et l’évolution dans le temps."
+        },
+        {
+          "question": "Weight Tracker prend-il en charge les kg et les lb ?",
+          "answer": "Oui. Vous pouvez choisir entre kilogrammes et livres selon votre préférence."
+        },
+        {
+          "question": "Puis-je recevoir un rappel pour me peser ?",
+          "answer": "Oui. Vous pouvez configurer un rappel optionnel avec une heure et des jours personnalisés."
+        }
+      ]
+    },
+    "it": {
+      "name": "Weight Tracker",
+      "summary": "Weight Tracker ti aiuta a registrare il peso, seguire i trend settimanali, monitorare l’obiettivo e costruire una routine semplice.",
+      "longDescription": [
+        "Weight Tracker è un’app Android semplice per registrare il peso corporeo, controllare i progressi recenti e mantenere una routine privata e adatta alla vita di tutti i giorni.",
+        "Salva le misurazioni con nota e data opzionali, scegli kg o lb e tieni lo storico ordinato in un’unica schermata chiara. L’app mostra l’ultimo peso, la media a 7 giorni, la linea dell’obiettivo e i movimenti recenti senza confusione.",
+        "Imposta un peso obiettivo, osserva i trend settimanali e usa i promemoria nei giorni e negli orari più comodi per te. Che tu voglia dimagrire, aumentare di peso o mantenere il peso attuale, Weight Tracker rende il percorso più leggibile.",
+        "Puoi anche attivare una scheda BMI opzionale a scopo informativo, impostare l’altezza e personalizzare lingua e visualizzazione. È un diario del peso pulito, pratico e pensato per l’uso quotidiano."
+      ],
+      "bottomCtaDescription": "Inizia con un controllo rapido e trasforma il monitoraggio del peso in un’abitudine chiara e sostenibile. Weight Tracker ti offre gli strumenti essenziali per restare costante e capire meglio i tuoi progressi.",
+      "category": "Salute e fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Monitoraggio Peso",
+        "Diario Peso",
+        "Registro Peso",
+        "Tracker BMI",
+        "Peso Obiettivo",
+        "Tracker Salute",
+        "Grafico Progressi",
+        "Promemoria Giornaliero"
+      ],
+      "metaTitle": "Weight Tracker | Peso, obiettivi e BMI su Android",
+      "metaDescription": "Registra peso, obiettivi, trend settimanali, BMI, note e promemoria con un’app Android semplice per monitorare i progressi.",
+      "featureBullets": [
+        {
+          "title": "Check-In Rapidi"
+        },
+        {
+          "title": "Obiettivo Peso"
+        },
+        {
+          "title": "Media A 7 Giorni"
+        },
+        {
+          "title": "Trend Settimanali"
+        },
+        {
+          "title": "Scheda BMI Opzionale"
+        },
+        {
+          "title": "Promemoria Personalizzati"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Panoramica Quotidiana",
+          "description": "Mostrare la schermata principale con peso recente, progresso verso l’obiettivo e layout pulito per il monitoraggio quotidiano.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Trend Del Peso",
+          "description": "Mostrare un grafico o una vista settimanale che renda immediata la lettura dei cambiamenti nel tempo.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Registra In Secondi",
+          "description": "Mostrare il flusso di inserimento con peso, data e nota opzionale per evidenziare la semplicità del check-in.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Cosa posso monitorare con Weight Tracker?",
+          "answer": "Puoi registrare il peso, consultare lo storico, seguire i trend settimanali, impostare un peso obiettivo, vedere la media a 7 giorni, aggiungere note e attivare una scheda BMI opzionale."
+        },
+        {
+          "question": "Weight Tracker va bene per dimagrire o aumentare di peso?",
+          "answer": "Sì. L’app è utile per dimagrire, aumentare di peso o mantenere il peso perché aiuta a registrare i dati e osservare i progressi con continuità."
+        },
+        {
+          "question": "Weight Tracker supporta kg e lb?",
+          "answer": "Sì. Puoi scegliere tra chilogrammi e libbre in base alle tue preferenze."
+        },
+        {
+          "question": "Posso impostare un promemoria per pesarmi?",
+          "answer": "Sì. Puoi attivare un promemoria opzionale con orario e giorni personalizzati."
+        }
+      ]
+    },
+    "es": {
+      "name": "Weight Tracker",
+      "summary": "Weight Tracker te ayuda a registrar tu peso, seguir tendencias semanales, controlar tu objetivo y crear una rutina sencilla.",
+      "longDescription": [
+        "Weight Tracker es una app sencilla para Android que te permite registrar tu peso corporal, revisar cambios recientes y mantener una rutina de seguimiento cómoda para el día a día.",
+        "Añade entradas con nota y fecha opcionales, elige kg o lb y conserva tu historial en una vista clara. La app te muestra el último registro, la media de 7 días, la línea de objetivo y el movimiento reciente sin complicaciones.",
+        "Define un peso objetivo, revisa tendencias semanales y activa recordatorios en los días y horarios que mejor encajen contigo. Tanto si quieres perder peso, ganar peso o mantenerte, Weight Tracker se centra en la constancia y la claridad.",
+        "También puedes activar una tarjeta de IMC con fines informativos, guardar tu altura y ajustar idioma y preferencias de visualización. Es un registro de peso práctico, limpio y pensado para usarlo con regularidad."
+      ],
+      "bottomCtaDescription": "Empieza con un registro rápido y convierte el seguimiento del peso en un hábito claro y fácil de mantener. Weight Tracker te ayuda a ver tu progreso, mantener la constancia y entender mejor tu evolución.",
+      "category": "Salud y fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Control De Peso",
+        "Registro De Peso",
+        "Diario De Peso",
+        "Seguimiento IMC",
+        "Peso Objetivo",
+        "Seguimiento Salud",
+        "Gráfico De Progreso",
+        "Recordatorio Diario"
+      ],
+      "metaTitle": "Weight Tracker | Control de peso, objetivos e IMC",
+      "metaDescription": "Registra peso, objetivos, tendencias semanales, IMC, notas y recordatorios con una app Android clara para seguir tu progreso.",
+      "featureBullets": [
+        {
+          "title": "Registros Rápidos"
+        },
+        {
+          "title": "Seguimiento De Objetivo"
+        },
+        {
+          "title": "Media De 7 Días"
+        },
+        {
+          "title": "Tendencias Semanales"
+        },
+        {
+          "title": "Tarjeta IMC Opcional"
+        },
+        {
+          "title": "Recordatorios Personalizados"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Resumen Diario Claro",
+          "description": "Mostrar la pantalla principal con peso reciente, avance hacia el objetivo y diseño limpio para el seguimiento diario.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Tendencias De Progreso",
+          "description": "Mostrar una vista semanal o gráfico que comunique la evolución del peso de forma rápida y visual.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Añade Tu Peso Fácilmente",
+          "description": "Mostrar el flujo de registro con peso, fecha y nota opcional para destacar lo rápido que es guardar una entrada.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Qué puedo seguir con Weight Tracker?",
+          "answer": "Puedes registrar tu peso, consultar el historial, revisar tendencias semanales, definir un peso objetivo, ver la media de 7 días, añadir notas y activar una tarjeta de IMC opcional."
+        },
+        {
+          "question": "¿Weight Tracker sirve para perder o ganar peso?",
+          "answer": "Sí. La app sirve para perder peso, ganar peso o mantenerlo porque se centra en registrar datos y observar el progreso con claridad."
+        },
+        {
+          "question": "¿Weight Tracker permite usar kg y lb?",
+          "answer": "Sí. Puedes elegir entre kilogramos y libras según tu preferencia."
+        },
+        {
+          "question": "¿Puedo recibir recordatorios para pesarme?",
+          "answer": "Sí. Puedes configurar un recordatorio opcional con hora y días personalizados."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Weight Tracker",
+      "summary": "Weight Tracker ajuda você a registrar o peso, acompanhar tendências semanais, monitorar metas e criar uma rotina simples.",
+      "longDescription": [
+        "Weight Tracker é um app Android simples para registrar o peso corporal, acompanhar mudanças recentes e manter uma rotina de monitoramento prática para o dia a dia.",
+        "Salve entradas com nota e data opcionais, escolha kg ou lb e mantenha seu histórico organizado em uma tela limpa. O app mostra o último registro, a média de 7 dias, a linha da meta e os movimentos recentes sem excesso de informação.",
+        "Defina um peso meta, acompanhe tendências semanais e use lembretes nos dias e horários que combinam com sua rotina. Seja para perder peso, ganhar peso ou manter o peso atual, Weight Tracker mantém o foco em constância e clareza.",
+        "Você também pode ativar um cartão de IMC opcional para uso informativo, configurar sua altura e ajustar idioma e preferências de exibição. É um diário de peso direto, privado e feito para uso regular."
+      ],
+      "bottomCtaDescription": "Comece com um registro rápido e transforme o acompanhamento do peso em um hábito simples e claro. Weight Tracker ajuda você a manter consistência, visualizar progresso e entender melhor sua evolução.",
+      "category": "Saúde e fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Controle De Peso",
+        "Registro De Peso",
+        "Diário De Peso",
+        "Monitoramento IMC",
+        "Peso Meta",
+        "Rastreador De Saúde",
+        "Gráfico De Progresso",
+        "Lembrete Diário"
+      ],
+      "metaTitle": "Weight Tracker | Peso, metas e IMC no Android",
+      "metaDescription": "Registre peso, metas, tendências semanais, IMC, notas e lembretes com um app Android simples para acompanhar seu progresso.",
+      "featureBullets": [
+        {
+          "title": "Registros Rápidos"
+        },
+        {
+          "title": "Acompanhamento De Meta"
+        },
+        {
+          "title": "Média De 7 Dias"
+        },
+        {
+          "title": "Tendências Semanais"
+        },
+        {
+          "title": "Cartão IMC Opcional"
+        },
+        {
+          "title": "Lembretes Personalizados"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Resumo Diário Claro",
+          "description": "Mostrar a tela inicial com peso mais recente, progresso até a meta e layout limpo para acompanhamento diário.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Tendências De Peso",
+          "description": "Mostrar uma visão semanal ou gráfico que comunique a evolução do peso de forma simples e visual.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Registrar Em Segundos",
+          "description": "Mostrar o fluxo de entrada com peso, data e nota opcional para destacar a rapidez do check-in.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "O que posso acompanhar com Weight Tracker?",
+          "answer": "Você pode registrar peso, ver o histórico, acompanhar tendências semanais, definir uma meta, consultar a média de 7 dias, adicionar notas e ativar um cartão de IMC opcional."
+        },
+        {
+          "question": "Weight Tracker serve para perder ou ganhar peso?",
+          "answer": "Sim. O app é útil para perder peso, ganhar peso ou manter o peso, pois ajuda a registrar entradas e visualizar a evolução ao longo do tempo."
+        },
+        {
+          "question": "Weight Tracker aceita kg e lb?",
+          "answer": "Sim. Você pode escolher entre quilogramas e libras conforme sua preferência."
+        },
+        {
+          "question": "Posso configurar lembretes para me pesar?",
+          "answer": "Sim. Você pode ativar um lembrete opcional com horário e dias personalizados."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Weight Tracker",
+      "summary": "Weight Tracker вам помаже да бележите тежину, пратите недељне трендове, држите циљ под контролом и изградите једноставну рутину.",
+      "longDescription": [
+        "Weight Tracker је једноставна Android апликација за бележење телесне тежине, преглед недавног напретка и одржавање приватне рутине која се лако уклапа у свакодневицу.",
+        "Унесите тежину уз опциону напомену и датум, изаберите kg или lb и чувајте историју на једном прегледном месту. Апликација приказује последњи унос, просек за 7 дана, линију циља и недавна кретања без непотребних детаља.",
+        "Поставите циљну тежину, пратите недељне трендове и користите подсетнике у дане и време који вам одговарају. Било да желите да смршате, добијете на тежини или одржите тренутну тежину, Weight Tracker ставља фокус на јасан и доследан напредак.",
+        "Можете активирати и опциону БМИ картицу у информативне сврхе, унети висину и прилагодити језик и приказ. То је чист и практичан дневник тежине направљен за редовну употребу."
+      ],
+      "bottomCtaDescription": "Почните једним брзим уносом и претворите праћење тежине у јасну свакодневну навику. Weight Tracker вам помаже да останете доследни, видите напредак и боље разумете свој пут без непотребне гужве.",
+      "category": "Здравље и фитнес",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Праћење Тежине",
+        "Дневник Тежине",
+        "Евиденција Тежине",
+        "БМИ Праћење",
+        "Циљна Тежина",
+        "Праћење Здравља",
+        "Графикон Напретка",
+        "Дневни Подсетник"
+      ],
+      "metaTitle": "Weight Tracker | Праћење тежине, циља и БМИ",
+      "metaDescription": "Бележите тежину, циљеве, недељне трендове, БМИ, напомене и подсетнике у једноставној Android апликацији.",
+      "featureBullets": [
+        {
+          "title": "Брзи Уноси Тежине"
+        },
+        {
+          "title": "Праћење Циљне Тежине"
+        },
+        {
+          "title": "Просек За 7 Дана"
+        },
+        {
+          "title": "Недељни Трендови"
+        },
+        {
+          "title": "Опциона БМИ Картица"
+        },
+        {
+          "title": "Прилагодљиви Подсетници"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Јасан Дневни Преглед",
+          "description": "Приказати почетни екран са последњом тежином, напретком ка циљу и чистим распоредом за свакодневно праћење.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Трендови Напретка",
+          "description": "Приказати недељни тренд или графикон који брзо показује кретање тежине кроз време.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Брз Унос Тежине",
+          "description": "Приказати екран за унос тежине са датумом и опционом напоменом како би се истакла једноставност бележења.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Шта могу да пратим у апликацији Weight Tracker?",
+          "answer": "Можете бележити тежину, прегледати историју, пратити недељне трендове, поставити циљну тежину, видети просек за 7 дана, додати напомене и активирати опциону БМИ картицу."
+        },
+        {
+          "question": "Да ли је Weight Tracker погодан за мршављење и добијање тежине?",
+          "answer": "Да. Апликација је корисна за мршављење, добијање тежине или одржавање тежине јер помаже да редовно бележите податке и јасно видите напредак."
+        },
+        {
+          "question": "Да ли Weight Tracker подржава kg и lb?",
+          "answer": "Да. Можете изабрати килограме или фунте у складу са својим навикама."
+        },
+        {
+          "question": "Могу ли да подесим подсетник за мерење тежине?",
+          "answer": "Да. Можете укључити опциони подсетник са прилагођеним временом и данима."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Weight Tracker",
+      "summary": "Weight Tracker pomaže vam bilježiti težinu, pratiti tjedne trendove, držati cilj pod kontrolom i izgraditi jednostavnu rutinu.",
+      "longDescription": [
+        "Weight Tracker je jednostavna Android aplikacija za bilježenje tjelesne težine, pregled nedavnog napretka i održavanje rutine koja se lako uklapa u svakodnevicu.",
+        "Spremite unose težine s opcionalnom bilješkom i datumom, odaberite kg ili lb i čuvajte povijest na jednom preglednom mjestu. Aplikacija prikazuje zadnji unos, prosjek za 7 dana, liniju cilja i nedavne promjene bez nepotrebnog nereda.",
+        "Postavite ciljnu težinu, pratite tjedne trendove i koristite podsjetnike u dane i vrijeme koji vam odgovaraju. Bilo da želite smršavjeti, dobiti na težini ili održavati trenutnu težinu, Weight Tracker zadržava fokus na jasnoći i dosljednosti.",
+        "Možete uključiti i opcionalnu BMI karticu u informativne svrhe, unijeti visinu te prilagoditi jezik i prikaz. To je čist i praktičan dnevnik težine za redovitu upotrebu."
+      ],
+      "bottomCtaDescription": "Počnite jednim brzim unosom i pretvorite praćenje težine u jasnu svakodnevnu naviku. Weight Tracker pomaže vam ostati dosljedni, vidjeti napredak i bolje razumjeti vlastiti tijek promjena.",
+      "category": "Zdravlje i fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Praćenje Težine",
+        "Dnevnik Težine",
+        "Evidencija Težine",
+        "BMI Praćenje",
+        "Ciljna Težina",
+        "Praćenje Zdravlja",
+        "Grafikon Napretka",
+        "Dnevni Podsjetnik"
+      ],
+      "metaTitle": "Weight Tracker | Praćenje težine, cilja i BMI-ja",
+      "metaDescription": "Bilježite težinu, ciljeve, tjedne trendove, BMI, bilješke i podsjetnike uz jednostavnu Android aplikaciju.",
+      "featureBullets": [
+        {
+          "title": "Brzi Unosi Težine"
+        },
+        {
+          "title": "Praćenje Ciljne Težine"
+        },
+        {
+          "title": "Prosjek Za 7 Dana"
+        },
+        {
+          "title": "Tjedni Trendovi"
+        },
+        {
+          "title": "Opcionalna BMI Kartica"
+        },
+        {
+          "title": "Prilagodljivi Podsjetnici"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Jasan Dnevni Pregled",
+          "description": "Prikazati početni zaslon s najnovijom težinom, napretkom prema cilju i čistim rasporedom za svakodnevno praćenje.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Trendovi Napretka",
+          "description": "Prikazati tjedni trend ili grafikon koji brzo pokazuje kretanje težine kroz vrijeme.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Brz Unos Težine",
+          "description": "Prikazati unos težine s datumom i opcionalnom bilješkom kako bi se naglasila jednostavnost korištenja.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Što mogu pratiti u aplikaciji Weight Tracker?",
+          "answer": "Možete bilježiti težinu, pregledavati povijest, pratiti tjedne trendove, postaviti ciljnu težinu, vidjeti prosjek za 7 dana, dodavati bilješke i uključiti opcionalnu BMI karticu."
+        },
+        {
+          "question": "Je li Weight Tracker dobar za mršavljenje i dobivanje na težini?",
+          "answer": "Da. Aplikacija je korisna za mršavljenje, dobivanje na težini ili održavanje težine jer pomaže u redovitom bilježenju i jasnom praćenju napretka."
+        },
+        {
+          "question": "Podržava li Weight Tracker kg i lb?",
+          "answer": "Da. Možete odabrati kilograme ili funte prema vlastitim navikama."
+        },
+        {
+          "question": "Mogu li postaviti podsjetnik za vaganje?",
+          "answer": "Da. Možete uključiti opcionalni podsjetnik s prilagođenim vremenom i danima."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Weight Tracker",
+      "summary": "Weight Tracker helpt je gewicht vastleggen, wekelijkse trends volgen, je doel in beeld houden en een eenvoudige routine opbouwen.",
+      "longDescription": [
+        "Weight Tracker is een eenvoudige Android-app om je lichaamsgewicht vast te leggen, recente voortgang te bekijken en een vaste routine op te bouwen die past bij het dagelijks leven.",
+        "Sla gewichtsinvoer op met optionele notitie en datum, kies kg of lb en houd je geschiedenis overzichtelijk op één plek. De app toont je laatste meting, 7-daags gemiddelde, doellijn en recente bewegingen zonder overbodige afleiding.",
+        "Stel een streefgewicht in, volg wekelijkse trends en gebruik herinneringen op de dagen en tijden die voor jou werken. Of je nu wilt afvallen, aankomen of je gewicht wilt behouden, Weight Tracker houdt het proces helder en haalbaar.",
+        "Je kunt ook een optionele BMI-kaart inschakelen voor informatief gebruik, je lengte invoeren en taal- en weergavevoorkeuren aanpassen. Het is een praktisch gewichtsdagboek voor regelmatig gebruik."
+      ],
+      "bottomCtaDescription": "Begin met één snelle check-in en maak gewicht bijhouden een duidelijke, rustige gewoonte. Weight Tracker geeft je de basis om consistent te blijven, voortgang te zien en je ontwikkeling beter te begrijpen.",
+      "category": "Gezondheid en fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Gewicht Tracker",
+        "Gewicht Logboek",
+        "Gewicht Dagboek",
+        "BMI Tracker",
+        "Streefgewicht",
+        "Gezondheid Tracker",
+        "Voortgangsgrafiek",
+        "Dagelijkse Herinnering"
+      ],
+      "metaTitle": "Weight Tracker | Gewicht, doelen en BMI bijhouden",
+      "metaDescription": "Houd gewicht, doelen, weektrends, BMI, notities en herinneringen bij met een eenvoudige Android-app voor dagelijkse voortgang.",
+      "featureBullets": [
+        {
+          "title": "Snelle Gewichtsinvoer"
+        },
+        {
+          "title": "Streefgewicht Volgen"
+        },
+        {
+          "title": "7-Daags Gemiddelde"
+        },
+        {
+          "title": "Wekelijkse Trends"
+        },
+        {
+          "title": "Optionele BMI-Kaart"
+        },
+        {
+          "title": "Aangepaste Herinneringen"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Duidelijk Dagoverzicht",
+          "description": "Toon het startscherm met laatste gewicht, voortgang richting doel en een rustige lay-out voor dagelijks gebruik.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Trends In Beeld",
+          "description": "Toon een weektrend of grafiek waarmee gebruikers hun gewichtsverandering snel kunnen begrijpen.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Snel Gewicht Toevoegen",
+          "description": "Toon de invoerflow met gewicht, datum en optionele notitie om de snelle check-in te benadrukken.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wat kan ik bijhouden met Weight Tracker?",
+          "answer": "Je kunt gewicht invoeren, geschiedenis bekijken, wekelijkse trends volgen, een streefgewicht instellen, het 7-daags gemiddelde zien, notities toevoegen en een optionele BMI-kaart inschakelen."
+        },
+        {
+          "question": "Is Weight Tracker geschikt voor afvallen en aankomen?",
+          "answer": "Ja. De app is geschikt voor afvallen, aankomen en gewicht behouden omdat hij focust op regelmatig registreren en duidelijke voortgang."
+        },
+        {
+          "question": "Ondersteunt Weight Tracker kg en lb?",
+          "answer": "Ja. Je kunt kiezen tussen kilogrammen en ponden."
+        },
+        {
+          "question": "Kan Weight Tracker mij herinneren om te wegen?",
+          "answer": "Ja. Je kunt een optionele herinnering instellen met eigen tijd en gekozen dagen."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Weight Tracker",
+      "summary": "Weight Tracker pomaga zapisywać masę ciała, śledzić tygodniowe trendy, kontrolować cel i budować prostą rutynę.",
+      "longDescription": [
+        "Weight Tracker to prosta aplikacja na Androida do zapisywania masy ciała, sprawdzania ostatnich postępów i utrzymywania regularnej rutyny dopasowanej do codziennego życia.",
+        "Dodawaj wpisy z opcjonalną notatką i datą, wybierz kg lub lb i przechowuj historię w przejrzystym miejscu. Aplikacja pokazuje ostatni pomiar, średnią z 7 dni, linię celu i ostatnie zmiany bez zbędnego chaosu.",
+        "Ustaw wagę docelową, obserwuj tygodniowe trendy i korzystaj z przypomnień w wybrane dni oraz o wybranej godzinie. Niezależnie od tego, czy chcesz schudnąć, przybrać na wadze czy utrzymać wagę, Weight Tracker pomaga skupić się na konsekwencji.",
+        "Możesz też włączyć opcjonalną kartę BMI do celów informacyjnych, podać wzrost oraz dostosować język i wygląd. To praktyczny dziennik wagi stworzony do regularnego używania."
+      ],
+      "bottomCtaDescription": "Zacznij od jednego szybkiego wpisu i zmień kontrolę wagi w prosty, czytelny nawyk. Weight Tracker pomaga zachować regularność, widzieć postępy i lepiej rozumieć zmiany w czasie.",
+      "category": "Zdrowie i fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Monitor Wagi",
+        "Dziennik Wagi",
+        "Rejestr Wagi",
+        "Monitor BMI",
+        "Waga Docelowa",
+        "Monitor Zdrowia",
+        "Wykres Postępów",
+        "Codzienne Przypomnienie"
+      ],
+      "metaTitle": "Weight Tracker | Waga, cele i BMI na Androidzie",
+      "metaDescription": "Zapisuj wagę, cele, tygodniowe trendy, BMI, notatki i przypomnienia w prostej aplikacji Android do śledzenia postępów.",
+      "featureBullets": [
+        {
+          "title": "Szybkie Wpisy Wagi"
+        },
+        {
+          "title": "Śledzenie Celu"
+        },
+        {
+          "title": "Średnia Z 7 Dni"
+        },
+        {
+          "title": "Tygodniowe Trendy"
+        },
+        {
+          "title": "Opcjonalna Karta BMI"
+        },
+        {
+          "title": "Własne Przypomnienia"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Czytelny Widok Dnia",
+          "description": "Pokazać ekran główny z ostatnią wagą, postępem do celu i przejrzystym układem do codziennego śledzenia.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Trendy Postępów",
+          "description": "Pokazać tygodniowy trend lub wykres, który jasno komunikuje zmiany masy ciała w czasie.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Dodaj Wagę Szybko",
+          "description": "Pokazać ekran dodawania wpisu z wagą, datą i opcjonalną notatką, aby podkreślić prostotę użycia.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Co mogę śledzić w Weight Tracker?",
+          "answer": "Możesz zapisywać wagę, przeglądać historię, śledzić tygodniowe trendy, ustawić wagę docelową, sprawdzać średnią z 7 dni, dodawać notatki i włączyć opcjonalną kartę BMI."
+        },
+        {
+          "question": "Czy Weight Tracker nadaje się do odchudzania i przybierania na wadze?",
+          "answer": "Tak. Aplikacja sprawdza się przy odchudzaniu, przybieraniu na wadze i utrzymaniu wagi, bo pomaga regularnie zapisywać dane i obserwować postępy."
+        },
+        {
+          "question": "Czy Weight Tracker obsługuje kg i lb?",
+          "answer": "Tak. Możesz wybrać kilogramy lub funty."
+        },
+        {
+          "question": "Czy mogę ustawić przypomnienie o ważeniu?",
+          "answer": "Tak. Możesz włączyć opcjonalne przypomnienie z własną godziną i wybranymi dniami."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Weight Tracker",
+      "summary": "Weight Tracker te ajută să înregistrezi greutatea, să urmărești tendințele săptămânale, obiectivul și o rutină simplă.",
+      "longDescription": [
+        "Weight Tracker este o aplicație Android simplă pentru înregistrarea greutății corporale, verificarea progresului recent și menținerea unei rutine potrivite pentru viața de zi cu zi.",
+        "Salvează intrări cu notiță și dată opționale, alege kg sau lb și păstrează istoricul organizat într-un singur loc clar. Aplicația îți arată cea mai recentă măsurare, media pe 7 zile, linia obiectivului și evoluția recentă fără aglomerare.",
+        "Setează o greutate țintă, urmărește tendințele săptămânale și folosește mementouri în zilele și la orele potrivite pentru tine. Indiferent dacă vrei să slăbești, să iei în greutate sau să îți menții greutatea, Weight Tracker pune accent pe claritate și consecvență.",
+        "Poți activa și un card IMC opțional pentru informare, introduce înălțimea și ajusta limba și preferințele de afișare. Este un jurnal de greutate curat și practic, creat pentru utilizare regulată."
+      ],
+      "bottomCtaDescription": "Începe cu o înregistrare rapidă și transformă monitorizarea greutății într-un obicei clar și ușor de păstrat. Weight Tracker te ajută să rămâi consecvent, să vezi progresul și să înțelegi mai bine evoluția ta.",
+      "category": "Sănătate și fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Monitorizare Greutate",
+        "Jurnal Greutate",
+        "Registru Greutate",
+        "Monitorizare IMC",
+        "Greutate Țintă",
+        "Monitorizare Sănătate",
+        "Grafic Progres",
+        "Memento Zilnic"
+      ],
+      "metaTitle": "Weight Tracker | Greutate, obiective și IMC Android",
+      "metaDescription": "Înregistrează greutatea, obiectivele, tendințele, IMC-ul, notițele și mementourile într-o aplicație Android simplă.",
+      "featureBullets": [
+        {
+          "title": "Înregistrări Rapide"
+        },
+        {
+          "title": "Urmărire Greutate Țintă"
+        },
+        {
+          "title": "Medie Pe 7 Zile"
+        },
+        {
+          "title": "Tendințe Săptămânale"
+        },
+        {
+          "title": "Card IMC Opțional"
+        },
+        {
+          "title": "Mementouri Personalizate"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Privire Zilnică Clară",
+          "description": "Arată ecranul principal cu greutatea recentă, progresul către obiectiv și un design curat pentru monitorizare zilnică.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Tendințe De Progres",
+          "description": "Arată o vedere săptămânală sau un grafic care comunică rapid evoluția greutății în timp.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Adaugă Greutatea Rapid",
+          "description": "Arată fluxul de introducere cu greutate, dată și notiță opțională pentru a evidenția simplitatea utilizării.",
+          "imagePath": "apps/screenshots/weight-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Ce pot urmări cu Weight Tracker?",
+          "answer": "Poți înregistra greutatea, consulta istoricul, urmări tendințele săptămânale, seta o greutate țintă, vedea media pe 7 zile, adăuga notițe și activa un card IMC opțional."
+        },
+        {
+          "question": "Weight Tracker este util pentru slăbit sau creștere în greutate?",
+          "answer": "Da. Aplicația este utilă pentru slăbit, creștere în greutate sau menținere, deoarece te ajută să înregistrezi datele și să urmărești progresul clar."
+        },
+        {
+          "question": "Weight Tracker acceptă kg și lb?",
+          "answer": "Da. Poți alege între kilograme și livre, în funcție de preferință."
+        },
+        {
+          "question": "Pot seta un memento pentru cântărire?",
+          "answer": "Da. Poți activa un memento opțional cu oră și zile personalizate."
+        }
+      ]
+    }
+  }
+}
