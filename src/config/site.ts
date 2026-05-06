@@ -5,7 +5,7 @@ export const siteConfig = {
   email: 'stoopidcartoons@gmail.com',
   googlePlayDeveloperUrl: 'https://play.google.com/store/apps/dev?id=9103063599459576814',
   xUrl: 'https://x.com/St00pidCart00ns',
-  instagramUrl: 'https://www.instagram.com/st00pid_cart00ns/',
+  instagramUrl: 'https://www.instagram.com/stoopidcartoonsapps/',
   tiktokUrl: 'https://www.tiktok.com/@stoopidcartoons',
   youtubeUrl: 'https://www.youtube.com/@St00pidCart00ns',
   facebookUrl: 'https://www.facebook.com/StoopidCartoons/',
