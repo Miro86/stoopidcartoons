@@ -1,0 +1,973 @@
+{
+  "slug": "mood-tracker",
+  "sortOrder": 13,
+  "kind": "app",
+  "featured": false,
+  "accent": "blue",
+  "icon": "apps/icons/mood-tracker.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.moodtracker",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "HealthApplication",
+  "relatedSlugs": [
+    "habit-tracker",
+    "weight-tracker",
+    "water-reminder"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Mood Tracker",
+      "summary": "Track your mood in seconds, review emotional patterns, and build a calmer daily self-care habit with simple mood logs, tags, history, reminders, and weekly insights.",
+      "longDescription": [
+        "Mood Tracker is a simple Android mood tracking app designed for low-pressure daily check-ins. Whether your day feels rough, low, okay, good, or great, you can log your mood quickly and keep a clearer record of how you feel over time.",
+        "Add optional notes and helpful tags such as work, sleep, exercise, social, family, or stress to give more context to each mood entry. One tap is enough when you want speed, while notes and tags are available when you want deeper reflection.",
+        "A clean history view helps you review past mood entries by date, while weekly insights show entries this week, average mood, streaks, and top tags. These simple patterns can make it easier to understand emotional ups and downs and build more mindful routines.",
+        "Personalize your experience with daily reminders, reminder time settings, streak visibility, and custom mood labels. Mood Tracker is a calm mood journal, emotion tracker, and self-care companion built for everyday use."
+      ],
+      "bottomCtaDescription": "Start using Mood Tracker today to turn quick daily check-ins into meaningful emotional awareness. Log how you feel, spot patterns over time, and create a simple routine that supports your wellbeing.",
+      "category": "Mood & Wellness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Mood tracker",
+        "Emotion tracker",
+        "Mood journal",
+        "Mental wellness",
+        "Self-care",
+        "Daily mood log",
+        "Mood history",
+        "Weekly insights"
+      ],
+      "metaTitle": "Mood Tracker App for Daily Mood Logs & Wellness",
+      "metaDescription": "Track moods, add notes and tags, view mood history, get weekly insights, and build a simple self-care habit with Mood Tracker for Android.",
+      "featureBullets": [
+        {
+          "title": "Optional Notes & Tags"
+        },
+        {
+          "title": "Calendar Mood History"
+        },
+        {
+          "title": "Weekly Mood Insights"
+        },
+        {
+          "title": "Streak Tracking"
+        },
+        {
+          "title": "Custom Mood Labels"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Track Your Mood Daily",
+          "description": "Show the home screen with mood buttons, optional note field, tags, and the save mood action to communicate fast daily logging.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-1.png"
+        },
+        {
+          "title": "View Your History",
+          "description": "Show the calendar-based history screen with selected dates and saved mood entries to highlight pattern review over time.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Get Weekly Insights",
+          "description": "Show weekly statistics, average mood, streak, chart, and top tags to communicate progress and trend discovery.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Personalize Your Experience",
+          "description": "Show settings with reminders, reminder time, streak visibility, and editable mood labels to highlight customization.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is Mood Tracker used for?",
+          "answer": "Mood Tracker helps you log daily moods, add optional notes and tags, review your history, and notice emotional patterns over time."
+        },
+        {
+          "question": "Can I track my mood without writing a note?",
+          "answer": "Yes. Notes and tags are optional, so you can save a mood entry with just a quick tap when you want a simple check-in."
+        },
+        {
+          "question": "Does Mood Tracker show mood trends?",
+          "answer": "Yes. The app includes weekly insights such as entries this week, average mood, streaks, and top tags to help you understand patterns."
+        },
+        {
+          "question": "Can I customize the mood labels?",
+          "answer": "Yes. You can personalize mood labels so the app matches the words you naturally use to describe how you feel."
+        }
+      ]
+    },
+    "de": {
+      "name": "Mood Tracker",
+      "summary": "Halte deine Stimmung in Sekunden fest, erkenne Muster und baue mit einfachen Einträgen, Tags, Verlauf, Erinnerungen und Wochenübersichten eine achtsame Routine auf.",
+      "longDescription": [
+        "Mood Tracker ist eine einfache Android-App zum täglichen Erfassen deiner Stimmung. Ob dein Tag schwer, niedrig, okay, gut oder großartig war: Du kannst schnell einchecken und mit der Zeit besser nachvollziehen, wie du dich fühlst.",
+        "Füge optional Notizen und passende Tags wie Arbeit, Schlaf, Sport, Soziales, Familie oder Stress hinzu. Wenn es schnell gehen soll, reicht ein Tap. Wenn du mehr reflektieren möchtest, geben dir Notizen und Tags zusätzlichen Kontext.",
+        "Der übersichtliche Verlauf zeigt deine Stimmungseinträge nach Datum. Wöchentliche Insights machen Einträge der Woche, Durchschnittsstimmung, Streaks und Top-Tags sichtbar, damit du Muster und wiederkehrende Einflüsse leichter erkennst.",
+        "Passe Mood Tracker an deine Bedürfnisse an: tägliche Erinnerungen, Erinnerungszeit, Streak-Anzeige und eigene Stimmungsl labels machen die App zu einem ruhigen Stimmungstagebuch, Emotionstracker und Selfcare-Begleiter für jeden Tag."
+      ],
+      "bottomCtaDescription": "Starte mit Mood Tracker und mache aus kurzen täglichen Check-ins eine hilfreiche Gewohnheit. Protokolliere deine Stimmung, erkenne Entwicklungen und bleibe bewusster mit deinem Wohlbefinden verbunden.",
+      "category": "Stimmung & Wohlbefinden",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Stimmungstracker",
+        "Mood Tracker",
+        "Gefühlstagebuch",
+        "Stimmungsverlauf",
+        "Selfcare App",
+        "Wohlbefinden",
+        "Tagebuch App",
+        "Wochenübersicht"
+      ],
+      "metaTitle": "Mood Tracker App für Stimmung, Tagebuch & Selfcare",
+      "metaDescription": "Stimmung erfassen, Notizen und Tags hinzufügen, Verlauf ansehen und wöchentliche Trends entdecken. Mood Tracker für Android.",
+      "featureBullets": [
+        {
+          "title": "Schnelle Stimmungs-Check-ins"
+        },
+        {
+          "title": "Optionale Notizen & Tags"
+        },
+        {
+          "title": "Kalenderbasierter Verlauf"
+        },
+        {
+          "title": "Wöchentliche Insights"
+        },
+        {
+          "title": "Streak-Tracking"
+        },
+        {
+          "title": "Eigene Stimmungsl labels"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Stimmung täglich erfassen",
+          "description": "Zeige den Home-Screen mit Stimmungsauswahl, optionalem Notizfeld, Tags und Speichern-Button für schnelles tägliches Logging.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Verlauf ansehen",
+          "description": "Zeige die Kalenderansicht mit ausgewähltem Datum und gespeicherten Stimmungseinträgen, um Muster über Zeit zu vermitteln.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Wochenübersicht entdecken",
+          "description": "Zeige Wochenstatistiken, Durchschnittsstimmung, Streak, Diagramm und Top-Tags für Trends und Entwicklung.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Erlebnis personalisieren",
+          "description": "Zeige Einstellungen mit Erinnerungen, Erinnerungszeit, Streak-Anzeige und bearbeitbaren Stimmungsl labels.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wofür ist Mood Tracker gedacht?",
+          "answer": "Mood Tracker hilft dir, deine tägliche Stimmung festzuhalten, optionale Notizen und Tags zu ergänzen und emotionale Muster im Verlauf zu erkennen."
+        },
+        {
+          "question": "Kann ich meine Stimmung ohne Notiz speichern?",
+          "answer": "Ja. Notizen und Tags sind optional. Du kannst deine Stimmung auch mit nur einem Tap speichern."
+        },
+        {
+          "question": "Zeigt die App Stimmungstrends?",
+          "answer": "Ja. Die Wochenübersicht zeigt Einträge, Durchschnittsstimmung, Streaks und Top-Tags, damit du Entwicklungen leichter verstehst."
+        },
+        {
+          "question": "Kann ich die Stimmungsl labels anpassen?",
+          "answer": "Ja. Du kannst die Labels so bearbeiten, dass sie besser zu deinen eigenen Worten und Gefühlen passen."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Mood Tracker",
+      "summary": "Suivez votre humeur en quelques secondes, visualisez vos habitudes émotionnelles et créez une routine de bien-être avec notes, tags, historique, rappels et bilans hebdomadaires.",
+      "longDescription": [
+        "Mood Tracker est une application Android simple pour suivre votre humeur au quotidien sans pression. Que votre journée soit difficile, basse, correcte, bonne ou excellente, vous pouvez enregistrer votre ressenti rapidement.",
+        "Ajoutez une note facultative et des tags utiles comme travail, sommeil, exercice, social, famille ou stress pour mieux comprendre le contexte de chaque entrée. Un seul tap suffit pour un suivi rapide, avec plus de détails quand vous souhaitez réfléchir davantage.",
+        "L’historique clair avec calendrier vous aide à revoir vos entrées par date. Les bilans hebdomadaires affichent le nombre d’entrées, l’humeur moyenne, les séries et les tags les plus fréquents pour repérer vos tendances émotionnelles.",
+        "Personnalisez l’application avec des rappels quotidiens, une heure de rappel, l’affichage des séries et des libellés d’humeur personnalisés. Mood Tracker devient ainsi un journal d’humeur calme, pratique et motivant pour votre routine bien-être."
+      ],
+      "bottomCtaDescription": "Installez Mood Tracker pour transformer de simples check-ins quotidiens en une meilleure connaissance de vous-même. Notez votre humeur, repérez vos tendances et avancez avec plus de clarté.",
+      "category": "Humeur et bien-être",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Suivi humeur",
+        "Journal d’humeur",
+        "Mood tracker",
+        "Bien-être mental",
+        "Émotions",
+        "Self-care",
+        "Historique humeur",
+        "Tendances hebdomadaires"
+      ],
+      "metaTitle": "Mood Tracker : journal d’humeur et bien-être",
+      "metaDescription": "Suivez votre humeur, ajoutez notes et tags, consultez l’historique et découvrez vos tendances avec Mood Tracker pour Android.",
+      "featureBullets": [
+        {
+          "title": "Check-ins d’humeur rapides"
+        },
+        {
+          "title": "Notes et tags facultatifs"
+        },
+        {
+          "title": "Historique par calendrier"
+        },
+        {
+          "title": "Bilans hebdomadaires"
+        },
+        {
+          "title": "Suivi des séries"
+        },
+        {
+          "title": "Libellés personnalisables"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Suivez votre humeur chaque jour",
+          "description": "Montrer l’écran d’accueil avec boutons d’humeur, note facultative, tags et bouton d’enregistrement pour souligner la simplicité.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Consultez votre historique",
+          "description": "Montrer la vue calendrier avec date sélectionnée et entrées enregistrées pour illustrer le suivi dans le temps.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Découvrez vos tendances",
+          "description": "Montrer les statistiques hebdomadaires, l’humeur moyenne, la série, le graphique et les tags principaux.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Personnalisez l’expérience",
+          "description": "Montrer les paramètres avec rappels, heure de rappel, affichage des séries et libellés d’humeur modifiables.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "À quoi sert Mood Tracker ?",
+          "answer": "Mood Tracker vous aide à enregistrer votre humeur, ajouter des notes ou des tags si besoin, consulter l’historique et repérer des tendances."
+        },
+        {
+          "question": "Puis-je enregistrer mon humeur sans écrire de note ?",
+          "answer": "Oui. Les notes et les tags sont facultatifs, vous pouvez donc faire un check-in rapide en un seul tap."
+        },
+        {
+          "question": "L’application affiche-t-elle des tendances d’humeur ?",
+          "answer": "Oui. Les bilans hebdomadaires montrent les entrées, l’humeur moyenne, les séries et les tags les plus fréquents."
+        },
+        {
+          "question": "Puis-je modifier les noms des humeurs ?",
+          "answer": "Oui. Vous pouvez personnaliser les libellés d’humeur pour utiliser des mots qui vous correspondent mieux."
+        }
+      ]
+    },
+    "it": {
+      "name": "Mood Tracker",
+      "summary": "Registra il tuo umore in pochi secondi, osserva i tuoi schemi emotivi e crea una routine di benessere con note, tag, cronologia, promemoria e insight settimanali.",
+      "longDescription": [
+        "Mood Tracker è un’app Android semplice per registrare il tuo umore ogni giorno senza pressione. Che la giornata sia difficile, giù, ok, buona o fantastica, puoi salvare rapidamente come ti senti.",
+        "Aggiungi note facoltative e tag utili come lavoro, sonno, esercizio, socialità, famiglia o stress per dare più contesto a ogni voce. Un tap basta per un check-in veloce, mentre note e tag sono disponibili quando vuoi riflettere di più.",
+        "La cronologia con calendario ti aiuta a rivedere gli stati d’animo per data. Gli insight settimanali mostrano voci della settimana, umore medio, serie e tag principali, rendendo più facile notare abitudini e cambiamenti emotivi.",
+        "Personalizza l’esperienza con promemoria giornalieri, orario del promemoria, visibilità della serie e nomi degli umori modificabili. Mood Tracker è un diario dell’umore calmo, pratico e adatto all’uso quotidiano."
+      ],
+      "bottomCtaDescription": "Inizia con Mood Tracker e trasforma piccoli check-in quotidiani in una maggiore consapevolezza emotiva. Salva come ti senti, guarda i cambiamenti nel tempo e costruisci un’abitudine semplice per il tuo benessere.",
+      "category": "Umore e benessere",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Umore",
+        "Mood tracker",
+        "Diario dell’umore",
+        "Benessere mentale",
+        "Emozioni",
+        "Self care",
+        "Cronologia umore",
+        "Insight settimanali"
+      ],
+      "metaTitle": "Mood Tracker: diario umore e benessere Android",
+      "metaDescription": "Tieni traccia dell’umore, aggiungi note e tag, consulta la cronologia e scopri trend settimanali con Mood Tracker per Android.",
+      "featureBullets": [
+        {
+          "title": "Check-in rapidi dell’umore"
+        },
+        {
+          "title": "Note e tag facoltativi"
+        },
+        {
+          "title": "Cronologia calendario"
+        },
+        {
+          "title": "Insight settimanali"
+        },
+        {
+          "title": "Monitoraggio serie"
+        },
+        {
+          "title": "Etichette personalizzate"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Registra l’umore ogni giorno",
+          "description": "Mostrare la schermata principale con pulsanti umore, campo note facoltativo, tag e azione di salvataggio.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Guarda la cronologia",
+          "description": "Mostrare il calendario con una data selezionata e le voci salvate per comunicare il monitoraggio nel tempo.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Scopri gli insight",
+          "description": "Mostrare statistiche settimanali, umore medio, serie, grafico e tag principali per evidenziare i trend.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Personalizza l’app",
+          "description": "Mostrare le impostazioni con promemoria, orario, visibilità della serie ed etichette umore modificabili.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "A cosa serve Mood Tracker?",
+          "answer": "Mood Tracker serve a registrare l’umore quotidiano, aggiungere note o tag opzionali e osservare i cambiamenti nel tempo."
+        },
+        {
+          "question": "Posso salvare l’umore senza scrivere una nota?",
+          "answer": "Sì. Note e tag sono facoltativi, quindi puoi salvare un check-in anche con un solo tap."
+        },
+        {
+          "question": "Mood Tracker mostra le tendenze dell’umore?",
+          "answer": "Sì. Gli insight settimanali includono voci, umore medio, serie e tag più usati."
+        },
+        {
+          "question": "Posso cambiare i nomi degli umori?",
+          "answer": "Sì. Puoi personalizzare le etichette per usare parole più naturali per te."
+        }
+      ]
+    },
+    "es": {
+      "name": "Mood Tracker",
+      "summary": "Registra tu estado de ánimo en segundos, revisa patrones emocionales y crea una rutina de autocuidado con notas, etiquetas, historial, recordatorios e insights semanales.",
+      "longDescription": [
+        "Mood Tracker es una app Android sencilla para registrar tu estado de ánimo cada día sin presión. Si tu día fue difícil, bajo, normal, bueno o genial, puedes guardar cómo te sientes en pocos segundos.",
+        "Añade notas opcionales y etiquetas útiles como trabajo, sueño, ejercicio, social, familia o estrés para dar contexto a cada registro. Un toque basta para un check-in rápido, y los detalles están ahí cuando quieres reflexionar más.",
+        "El historial con calendario te permite revisar entradas por fecha. Los insights semanales muestran registros de la semana, estado de ánimo promedio, rachas y etiquetas principales para ayudarte a reconocer patrones emocionales.",
+        "Personaliza la experiencia con recordatorios diarios, hora de recordatorio, visibilidad de racha y nombres de estados de ánimo editables. Mood Tracker funciona como diario de ánimo, rastreador de emociones y compañero de autocuidado para el día a día."
+      ],
+      "bottomCtaDescription": "Empieza con Mood Tracker y convierte pequeños registros diarios en una forma clara de entender cómo te sientes. Guarda tu ánimo, descubre patrones y construye un hábito sencillo de bienestar.",
+      "category": "Ánimo y bienestar",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Seguimiento de ánimo",
+        "Mood tracker",
+        "Diario de ánimo",
+        "Bienestar mental",
+        "Emociones",
+        "Autocuidado",
+        "Historial de ánimo",
+        "Insights semanales"
+      ],
+      "metaTitle": "Mood Tracker: diario de ánimo y bienestar",
+      "metaDescription": "Registra tu ánimo, añade notas y etiquetas, consulta el historial y descubre tendencias semanales con Mood Tracker para Android.",
+      "featureBullets": [
+        {
+          "title": "Registros rápidos de ánimo"
+        },
+        {
+          "title": "Notas y etiquetas opcionales"
+        },
+        {
+          "title": "Historial con calendario"
+        },
+        {
+          "title": "Insights semanales"
+        },
+        {
+          "title": "Seguimiento de rachas"
+        },
+        {
+          "title": "Etiquetas personalizables"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Registra tu ánimo a diario",
+          "description": "Mostrar la pantalla principal con botones de ánimo, nota opcional, etiquetas y botón de guardar para comunicar rapidez.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Consulta tu historial",
+          "description": "Mostrar el calendario con una fecha seleccionada y registros guardados para destacar el seguimiento en el tiempo.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Descubre tendencias",
+          "description": "Mostrar estadísticas semanales, promedio de ánimo, racha, gráfico y etiquetas principales.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Personaliza tu experiencia",
+          "description": "Mostrar ajustes con recordatorios, hora de aviso, racha visible y etiquetas de ánimo editables.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Para qué sirve Mood Tracker?",
+          "answer": "Mood Tracker te ayuda a registrar tu ánimo diario, añadir notas o etiquetas opcionales, revisar el historial y detectar patrones."
+        },
+        {
+          "question": "¿Puedo registrar mi ánimo sin escribir una nota?",
+          "answer": "Sí. Las notas y etiquetas son opcionales, así que puedes guardar un registro rápido con un solo toque."
+        },
+        {
+          "question": "¿La app muestra tendencias de ánimo?",
+          "answer": "Sí. Los insights semanales muestran registros, ánimo promedio, rachas y etiquetas principales."
+        },
+        {
+          "question": "¿Puedo personalizar las etiquetas de ánimo?",
+          "answer": "Sí. Puedes cambiar los nombres para que se adapten mejor a la forma en que describes cómo te sientes."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Mood Tracker",
+      "summary": "Registe o seu humor em segundos, acompanhe padrões emocionais e crie uma rotina de autocuidado com notas, etiquetas, histórico, lembretes e insights semanais.",
+      "longDescription": [
+        "Mood Tracker é uma aplicação Android simples para registar o seu humor diariamente sem pressão. Quer o dia tenha sido difícil, em baixo, normal, bom ou ótimo, pode guardar rapidamente como se sente.",
+        "Adicione notas opcionais e etiquetas úteis como trabalho, sono, exercício, social, família ou stress para dar mais contexto a cada entrada. Um toque é suficiente para um check-in rápido, com detalhes disponíveis quando quiser refletir melhor.",
+        "O histórico com calendário ajuda a rever registos por data. Os insights semanais mostram entradas da semana, humor médio, sequência e principais etiquetas, facilitando a identificação de padrões emocionais.",
+        "Personalize a experiência com lembretes diários, hora do lembrete, visibilidade da sequência e etiquetas de humor personalizadas. Mood Tracker é um diário de humor calmo e prático para apoiar a sua rotina de autocuidado."
+      ],
+      "bottomCtaDescription": "Comece com Mood Tracker e transforme pequenos registos diários numa forma simples de compreender melhor como se sente. Acompanhe o humor, descubra tendências e mantenha uma rotina leve de bem-estar.",
+      "category": "Humor e bem-estar",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Rastreador de humor",
+        "Mood tracker",
+        "Diário de humor",
+        "Bem-estar mental",
+        "Emoções",
+        "Autocuidado",
+        "Histórico de humor",
+        "Insights semanais"
+      ],
+      "metaTitle": "Mood Tracker: diário de humor e bem-estar",
+      "metaDescription": "Registe o humor, adicione notas e etiquetas, veja o histórico e descubra tendências semanais com Mood Tracker para Android.",
+      "featureBullets": [
+        {
+          "title": "Check-ins rápidos de humor"
+        },
+        {
+          "title": "Notas e etiquetas opcionais"
+        },
+        {
+          "title": "Histórico em calendário"
+        },
+        {
+          "title": "Insights semanais"
+        },
+        {
+          "title": "Acompanhamento de sequência"
+        },
+        {
+          "title": "Etiquetas personalizadas"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Registe o humor diariamente",
+          "description": "Mostrar o ecrã inicial com botões de humor, campo de nota opcional, etiquetas e ação de guardar.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Veja o seu histórico",
+          "description": "Mostrar a vista de calendário com data selecionada e entradas guardadas para comunicar acompanhamento ao longo do tempo.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Descubra insights semanais",
+          "description": "Mostrar estatísticas da semana, humor médio, sequência, gráfico e principais etiquetas.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Personalize a experiência",
+          "description": "Mostrar definições com lembretes, hora do lembrete, sequência visível e etiquetas editáveis.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Para que serve o Mood Tracker?",
+          "answer": "Mood Tracker ajuda a registar o humor diário, adicionar notas ou etiquetas opcionais, rever o histórico e perceber padrões."
+        },
+        {
+          "question": "Posso guardar o humor sem escrever uma nota?",
+          "answer": "Sim. Notas e etiquetas são opcionais, por isso pode guardar um check-in rápido com apenas um toque."
+        },
+        {
+          "question": "A aplicação mostra tendências de humor?",
+          "answer": "Sim. Os insights semanais incluem entradas, humor médio, sequência e principais etiquetas."
+        },
+        {
+          "question": "Posso personalizar os nomes dos humores?",
+          "answer": "Sim. Pode editar as etiquetas de humor para usar palavras que façam mais sentido para si."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Mood Tracker",
+      "summary": "Пратите расположење за неколико секунди, препознајте обрасце током времена и изградите једноставну навику самопажње уз белешке, ознаке, историју, подсетнике и недељне увиде.",
+      "longDescription": [
+        "Mood Tracker је једноставна Android апликација за свакодневно праћење расположења без притиска. Било да је дан био тежак, слаб, у реду, добар или одличан, можете брзо забележити како се осећате.",
+        "Додајте опционалну белешку и корисне ознаке као што су посао, сан, вежбање, друштво, породица или стрес. Један додир је довољан за брзу проверу, а додатни детаљи су ту када желите више размишљања.",
+        "Јасан приказ историје са календаром помаже вам да прегледате уносе по датуму. Недељни увиди приказују број уноса, просечно расположење, низ и најчешће ознаке, па је лакше уочити емоционалне обрасце.",
+        "Персонализујте апликацију помоћу дневних подсетника, времена подсетника, приказа низа и прилагођених назива расположења. Mood Tracker је миран дневник расположења и пратилац за свакодневну самопажњу."
+      ],
+      "bottomCtaDescription": "Почните са Mood Tracker апликацијом и претворите кратке дневне провере у јасније разумевање својих емоција. Забележите како се осећате, пратите промене и изградите мирну рутину за свакодневно благостање.",
+      "category": "Расположење и благостање",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Праћење расположења",
+        "Дневник расположења",
+        "Mood tracker",
+        "Емоције",
+        "Ментално благостање",
+        "Самопажња",
+        "Историја расположења",
+        "Недељни увиди"
+      ],
+      "metaTitle": "Mood Tracker: дневник расположења за Android",
+      "metaDescription": "Пратите расположење, додајте белешке и ознаке, прегледајте историју и откријте недељне трендове уз Mood Tracker.",
+      "featureBullets": [
+        {
+          "title": "Брзе провере расположења"
+        },
+        {
+          "title": "Опционалне белешке и ознаке"
+        },
+        {
+          "title": "Историја у календару"
+        },
+        {
+          "title": "Недељни увиди"
+        },
+        {
+          "title": "Праћење низа"
+        },
+        {
+          "title": "Прилагођени називи"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Пратите расположење сваког дана",
+          "description": "Приказати почетни екран са избором расположења, опционалном белешком, ознакама и дугметом за чување.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Погледајте историју",
+          "description": "Приказати календар са изабраним датумом и сачуваним уносима како би се истакло праћење кроз време.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Откријте недељне увиде",
+          "description": "Приказати недељну статистику, просечно расположење, низ, графикон и најчешће ознаке.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Прилагодите искуство",
+          "description": "Приказати подешавања са подсетницима, временом подсетника, приказом низа и изменом назива расположења.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Чему служи Mood Tracker?",
+          "answer": "Mood Tracker помаже да свакодневно забележите расположење, додате опционалне белешке и ознаке, прегледате историју и уочите обрасце."
+        },
+        {
+          "question": "Да ли могу да сачувам расположење без белешке?",
+          "answer": "Да. Белешке и ознаке су опционалне, па можете сачувати унос једним додиром."
+        },
+        {
+          "question": "Да ли апликација приказује трендове расположења?",
+          "answer": "Да. Недељни увиди приказују уносе, просечно расположење, низ и најчешће ознаке."
+        },
+        {
+          "question": "Да ли могу да променим називе расположења?",
+          "answer": "Да. Називе можете прилагодити речима које природније описују како се осећате."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Mood Tracker",
+      "summary": "Prati raspoloženje u nekoliko sekundi, prepoznaj obrasce kroz vrijeme i izgradi jednostavnu rutinu brige o sebi uz bilješke, oznake, povijest, podsjetnike i tjedne uvide.",
+      "longDescription": [
+        "Mood Tracker je jednostavna Android aplikacija za svakodnevno praćenje raspoloženja bez pritiska. Ako je dan bio težak, nizak, u redu, dobar ili odličan, možeš brzo zabilježiti kako se osjećaš.",
+        "Dodaj opcionalne bilješke i korisne oznake poput posao, san, vježbanje, društvo, obitelj ili stres kako bi svaki unos imao više konteksta. Jedan dodir dovoljan je za brzu provjeru, a detalji su dostupni kada želiš više razmisliti.",
+        "Čista povijest s kalendarom pomaže ti pregledati unose po datumu. Tjedni uvidi prikazuju broj unosa, prosječno raspoloženje, niz i najčešće oznake, što olakšava prepoznavanje emocionalnih obrazaca.",
+        "Prilagodi iskustvo dnevnim podsjetnicima, vremenom podsjetnika, prikazom niza i vlastitim nazivima raspoloženja. Mood Tracker je smiren dnevnik raspoloženja, alat za emocije i svakodnevni pratitelj za brigu o sebi."
+      ],
+      "bottomCtaDescription": "Započni s aplikacijom Mood Tracker i pretvori kratke dnevne provjere u jasnije razumijevanje svojih emocija. Zabilježi kako se osjećaš, prati promjene i stvori mirnu naviku za svakodnevnu dobrobit.",
+      "category": "Raspoloženje i dobrobit",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Praćenje raspoloženja",
+        "Dnevnik raspoloženja",
+        "Mood tracker",
+        "Emocije",
+        "Mentalna dobrobit",
+        "Briga o sebi",
+        "Povijest raspoloženja",
+        "Tjedni uvidi"
+      ],
+      "metaTitle": "Mood Tracker: dnevnik raspoloženja za Android",
+      "metaDescription": "Prati raspoloženje, dodaj bilješke i oznake, pregledaj povijest i otkrij tjedne trendove uz Mood Tracker za Android.",
+      "featureBullets": [
+        {
+          "title": "Brze provjere raspoloženja"
+        },
+        {
+          "title": "Opcionalne bilješke i oznake"
+        },
+        {
+          "title": "Povijest u kalendaru"
+        },
+        {
+          "title": "Tjedni uvidi"
+        },
+        {
+          "title": "Praćenje niza"
+        },
+        {
+          "title": "Prilagođeni nazivi"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Prati raspoloženje svaki dan",
+          "description": "Prikazati početni ekran s odabirom raspoloženja, opcionalnom bilješkom, oznakama i gumbom za spremanje.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Pregledaj povijest",
+          "description": "Prikazati kalendarski prikaz s odabranim datumom i spremljenim unosima za naglašavanje praćenja kroz vrijeme.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Otkrij tjedne uvide",
+          "description": "Prikazati tjednu statistiku, prosječno raspoloženje, niz, grafikon i najčešće oznake.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Prilagodi iskustvo",
+          "description": "Prikazati postavke s podsjetnicima, vremenom podsjetnika, prikazom niza i izmjenjivim nazivima raspoloženja.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Čemu služi Mood Tracker?",
+          "answer": "Mood Tracker pomaže ti svakodnevno zabilježiti raspoloženje, dodati opcionalne bilješke i oznake, pregledati povijest i uočiti obrasce."
+        },
+        {
+          "question": "Mogu li spremiti raspoloženje bez bilješke?",
+          "answer": "Da. Bilješke i oznake su opcionalne, pa unos možeš spremiti jednim dodirom."
+        },
+        {
+          "question": "Prikazuje li aplikacija trendove raspoloženja?",
+          "answer": "Da. Tjedni uvidi prikazuju unose, prosječno raspoloženje, niz i najčešće oznake."
+        },
+        {
+          "question": "Mogu li prilagoditi nazive raspoloženja?",
+          "answer": "Da. Nazive možeš promijeniti tako da bolje odgovaraju načinu na koji opisuješ svoje osjećaje."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Mood Tracker",
+      "summary": "Houd je stemming in seconden bij, ontdek emotionele patronen en bouw een rustige zelfzorgroutine op met notities, tags, geschiedenis, herinneringen en wekelijkse inzichten.",
+      "longDescription": [
+        "Mood Tracker is een eenvoudige Android-app om je stemming dagelijks bij te houden zonder druk. Of je dag ruw, laag, oké, goed of geweldig voelt, je kunt snel vastleggen hoe je je voelt.",
+        "Voeg optionele notities en handige tags toe, zoals werk, slaap, beweging, sociaal, familie of stress. Eén tik is genoeg voor een snelle check-in, terwijl extra details beschikbaar zijn wanneer je meer wilt reflecteren.",
+        "De overzichtelijke geschiedenis met kalender helpt je eerdere stemmingen per datum terug te kijken. Wekelijkse inzichten tonen invoeren deze week, gemiddelde stemming, reeks en top-tags, zodat patronen makkelijker zichtbaar worden.",
+        "Personaliseer je ervaring met dagelijkse herinneringen, herinneringstijd, zichtbaarheid van je reeks en aangepaste stemmingslabels. Mood Tracker is een rustig stemmingsdagboek en een praktische zelfzorg-app voor dagelijks gebruik."
+      ],
+      "bottomCtaDescription": "Begin met Mood Tracker en maak van korte dagelijkse check-ins een waardevolle gewoonte. Leg vast hoe je je voelt, herken patronen en krijg meer grip op je dagelijkse welzijn.",
+      "category": "Stemming en welzijn",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Stemming bijhouden",
+        "Mood tracker",
+        "Stemmingsdagboek",
+        "Emoties",
+        "Mentaal welzijn",
+        "Zelfzorg",
+        "Stemmingsgeschiedenis",
+        "Wekelijkse inzichten"
+      ],
+      "metaTitle": "Mood Tracker: stemmingsdagboek voor Android",
+      "metaDescription": "Houd je stemming bij, voeg notities en tags toe, bekijk je geschiedenis en ontdek wekelijkse trends met Mood Tracker voor Android.",
+      "featureBullets": [
+        {
+          "title": "Snelle stemmingscheck-ins"
+        },
+        {
+          "title": "Optionele notities en tags"
+        },
+        {
+          "title": "Kalendergeschiedenis"
+        },
+        {
+          "title": "Wekelijkse inzichten"
+        },
+        {
+          "title": "Reeks bijhouden"
+        },
+        {
+          "title": "Aangepaste labels"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Houd je stemming dagelijks bij",
+          "description": "Toon het startscherm met stemmingsknoppen, optioneel notitieveld, tags en opslaan-knop voor snel gebruik.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Bekijk je geschiedenis",
+          "description": "Toon de kalenderweergave met geselecteerde datum en opgeslagen stemmingen om voortgang door de tijd te laten zien.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Ontdek wekelijkse inzichten",
+          "description": "Toon weekstatistieken, gemiddelde stemming, reeks, grafiek en top-tags om trends te benadrukken.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Personaliseer je ervaring",
+          "description": "Toon instellingen met herinneringen, herinneringstijd, reeksweergave en bewerkbare stemmingslabels.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Waarvoor gebruik ik Mood Tracker?",
+          "answer": "Mood Tracker helpt je dagelijks je stemming vast te leggen, optioneel notities en tags toe te voegen en patronen in je geschiedenis te herkennen."
+        },
+        {
+          "question": "Kan ik mijn stemming opslaan zonder notitie?",
+          "answer": "Ja. Notities en tags zijn optioneel, dus je kunt ook met één tik een snelle check-in opslaan."
+        },
+        {
+          "question": "Laat de app stemmingstrends zien?",
+          "answer": "Ja. Wekelijkse inzichten tonen je invoeren, gemiddelde stemming, reeks en meest gebruikte tags."
+        },
+        {
+          "question": "Kan ik de stemmingslabels aanpassen?",
+          "answer": "Ja. Je kunt de labels wijzigen zodat ze beter passen bij de woorden die jij gebruikt."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Mood Tracker",
+      "summary": "Zapisuj nastrój w kilka sekund, zauważaj emocjonalne wzorce i buduj spokojny nawyk dbania o siebie dzięki notatkom, tagom, historii, przypomnieniom i tygodniowym wglądom.",
+      "longDescription": [
+        "Mood Tracker to prosta aplikacja na Androida do codziennego zapisywania nastroju bez presji. Niezależnie od tego, czy dzień był trudny, słaby, w porządku, dobry czy świetny, możesz szybko zanotować, jak się czujesz.",
+        "Dodawaj opcjonalne notatki i przydatne tagi, takie jak praca, sen, ćwiczenia, życie społeczne, rodzina lub stres. Jeden dotyk wystarczy do szybkiego zapisu, a dodatkowe szczegóły pomagają, gdy chcesz lepiej się zastanowić.",
+        "Czytelna historia z kalendarzem pozwala wracać do wpisów według dat. Tygodniowe wglądy pokazują liczbę wpisów, średni nastrój, serię i najczęstsze tagi, dzięki czemu łatwiej zauważyć emocjonalne wzorce.",
+        "Dostosuj aplikację za pomocą codziennych przypomnień, godziny przypomnienia, widoczności serii i własnych nazw nastrojów. Mood Tracker to spokojny dziennik nastroju i praktyczny towarzysz codziennej troski o siebie."
+      ],
+      "bottomCtaDescription": "Zacznij korzystać z Mood Tracker i zamień krótkie codzienne check-iny w lepsze rozumienie swoich emocji. Zapisuj nastrój, obserwuj zmiany i twórz prostą rutynę wspierającą dobrostan.",
+      "category": "Nastrój i dobrostan",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Monitor nastroju",
+        "Mood tracker",
+        "Dziennik nastroju",
+        "Emocje",
+        "Dobrostan psychiczny",
+        "Self care",
+        "Historia nastroju",
+        "Tygodniowe statystyki"
+      ],
+      "metaTitle": "Mood Tracker: dziennik nastroju na Androida",
+      "metaDescription": "Zapisuj nastrój, dodawaj notatki i tagi, przeglądaj historię i odkrywaj tygodniowe trendy z Mood Tracker na Androida.",
+      "featureBullets": [
+        {
+          "title": "Szybkie zapisy nastroju"
+        },
+        {
+          "title": "Opcjonalne notatki i tagi"
+        },
+        {
+          "title": "Historia w kalendarzu"
+        },
+        {
+          "title": "Tygodniowe wglądy"
+        },
+        {
+          "title": "Śledzenie serii"
+        },
+        {
+          "title": "Własne etykiety nastroju"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Zapisuj nastrój codziennie",
+          "description": "Pokazać ekran główny z przyciskami nastroju, opcjonalną notatką, tagami i przyciskiem zapisu.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Przeglądaj historię",
+          "description": "Pokazać widok kalendarza z wybraną datą i zapisanymi wpisami, aby podkreślić obserwację zmian w czasie.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Odkrywaj tygodniowe wglądy",
+          "description": "Pokazać statystyki tygodnia, średni nastrój, serię, wykres i najczęstsze tagi.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Dostosuj aplikację",
+          "description": "Pokazać ustawienia z przypomnieniami, godziną przypomnienia, widocznością serii i edycją nazw nastrojów.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do czego służy Mood Tracker?",
+          "answer": "Mood Tracker pomaga codziennie zapisywać nastrój, dodawać opcjonalne notatki i tagi, przeglądać historię oraz zauważać wzorce."
+        },
+        {
+          "question": "Czy mogę zapisać nastrój bez notatki?",
+          "answer": "Tak. Notatki i tagi są opcjonalne, więc szybki wpis możesz zapisać jednym dotknięciem."
+        },
+        {
+          "question": "Czy aplikacja pokazuje trendy nastroju?",
+          "answer": "Tak. Tygodniowe wglądy pokazują wpisy, średni nastrój, serię i najczęściej używane tagi."
+        },
+        {
+          "question": "Czy mogę zmienić nazwy nastrojów?",
+          "answer": "Tak. Możesz dostosować etykiety do słów, którymi naturalnie opisujesz swoje samopoczucie."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Mood Tracker",
+      "summary": "Urmărește-ți starea de spirit în câteva secunde, observă tipare emoționale și construiește o rutină simplă de grijă de sine cu notițe, etichete, istoric, mementouri și statistici săptămânale.",
+      "longDescription": [
+        "Mood Tracker este o aplicație Android simplă pentru monitorizarea zilnică a stării de spirit, fără presiune. Fie că ziua a fost grea, joasă, ok, bună sau excelentă, poți salva rapid cum te simți.",
+        "Adaugă notițe opționale și etichete utile precum muncă, somn, exerciții, social, familie sau stres pentru mai mult context. Un singur tap este suficient pentru o verificare rapidă, iar detaliile sunt disponibile când vrei mai multă reflecție.",
+        "Istoricul clar cu calendar te ajută să revizuiești intrările după dată. Statisticile săptămânale afișează intrările din săptămână, dispoziția medie, seria și etichetele principale, astfel încât tiparele devin mai ușor de observat.",
+        "Personalizează experiența cu mementouri zilnice, ora mementoului, afișarea seriei și etichete de dispoziție personalizate. Mood Tracker este un jurnal calm al dispoziției și un companion practic pentru grija de sine de zi cu zi."
+      ],
+      "bottomCtaDescription": "Începe cu Mood Tracker și transformă verificările zilnice rapide într-un mod mai clar de a-ți înțelege emoțiile. Notează cum te simți, observă tendințele și creează un obicei calm pentru bunăstarea ta.",
+      "category": "Stare de spirit și bunăstare",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Monitorizare dispoziție",
+        "Mood tracker",
+        "Jurnal de dispoziție",
+        "Emoții",
+        "Bunăstare mentală",
+        "Grijă de sine",
+        "Istoric dispoziție",
+        "Statistici săptămânale"
+      ],
+      "metaTitle": "Mood Tracker: jurnal de dispoziție pe Android",
+      "metaDescription": "Urmărește dispoziția, adaugă notițe și etichete, vezi istoricul și descoperă tendințe săptămânale cu Mood Tracker.",
+      "featureBullets": [
+        {
+          "title": "Verificări rapide ale dispoziției"
+        },
+        {
+          "title": "Notițe și etichete opționale"
+        },
+        {
+          "title": "Istoric în calendar"
+        },
+        {
+          "title": "Statistici săptămânale"
+        },
+        {
+          "title": "Urmărirea seriei"
+        },
+        {
+          "title": "Etichete personalizate"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Urmărește dispoziția zilnic",
+          "description": "Arată ecranul principal cu butoane de dispoziție, câmp de notiță opțional, etichete și acțiunea de salvare.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Vezi istoricul",
+          "description": "Arată calendarul cu o dată selectată și intrări salvate pentru a evidenția urmărirea în timp.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Descoperă statistici săptămânale",
+          "description": "Arată statisticile săptămânii, dispoziția medie, seria, graficul și etichetele principale.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-3.png"
+        },
+        {
+          "title": "Personalizează experiența",
+          "description": "Arată setările cu mementouri, ora mementoului, afișarea seriei și etichete de dispoziție editabile.",
+          "imagePath": "apps/screenshots/mood-tracker/screenshot-4.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "La ce folosește Mood Tracker?",
+          "answer": "Mood Tracker te ajută să îți notezi dispoziția zilnică, să adaugi notițe și etichete opționale, să vezi istoricul și să observi tipare."
+        },
+        {
+          "question": "Pot salva dispoziția fără să scriu o notiță?",
+          "answer": "Da. Notițele și etichetele sunt opționale, așa că poți salva rapid o intrare cu un singur tap."
+        },
+        {
+          "question": "Aplicația arată tendințe ale dispoziției?",
+          "answer": "Da. Statisticile săptămânale includ intrări, dispoziție medie, serie și cele mai folosite etichete."
+        },
+        {
+          "question": "Pot personaliza etichetele de dispoziție?",
+          "answer": "Da. Poți modifica etichetele astfel încât să se potrivească felului în care descrii cum te simți."
+        }
+      ]
+    }
+  }
+}
