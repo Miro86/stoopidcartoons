@@ -1,0 +1,1062 @@
+{
+  "slug": "gratitude-journal",
+  "sortOrder": 14,
+  "kind": "app",
+  "featured": false,
+  "accent": "green",
+  "icon": "apps/icons/gratitude-journal.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.gratitudejournal",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "LifestyleApplication",
+  "relatedSlugs": [
+    "mood-tracker"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Gratitude Journal",
+      "summary": "Gratitude Journal helps you slow down, write three good things each day, and build a calm gratitude habit that feels easy to keep. Use gentle prompts, reminders, history, and a weekly recap to reflect on what went well.",
+      "longDescription": [
+        "Gratitude Journal is a simple daily gratitude app designed for people who want a calmer way to reflect. Instead of long journaling sessions or overwhelming prompts, it helps you write down three good things today and keep the habit light, positive, and realistic.",
+        "The app guides you through small daily entries that are easy to complete even on busy days. You can focus on simple wins, kind moments, people who helped you, or anything that made the day feel a little brighter. This makes Gratitude Journal a great fit for gratitude journaling, positive reflection, emotional self-care, and mindful daily routines.",
+        "Your past entries stay easy to revisit in a clear history view, so you can look back when you need perspective or encouragement. The weekly recap turns your writing into a gentle progress overview with completed days, entries written, daily progress, common bright words, mood summary, current streak, and longest streak.",
+        "Gratitude Journal also includes a gentle daily reminder and app language settings, so the experience stays consistent and personal. If you want a gratitude journal app that feels calm, private, and easy to use, this is a simple place to start and a comfortable habit to grow over time."
+      ],
+      "bottomCtaDescription": "Start with one small positive moment today and build a simple routine you can actually keep. Gratitude Journal gives you a calm, low-pressure space to reflect, stay consistent, and return to the good parts of your day.",
+      "category": "Lifestyle",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Gratitude journal",
+        "Daily gratitude app",
+        "Gratitude diary",
+        "Daily reflection",
+        "Mindfulness journal",
+        "Positive habit tracker",
+        "Self care journal"
+      ],
+      "metaTitle": "Gratitude Journal - Daily Reflection App for Android",
+      "metaDescription": "Write three good things each day, set gentle reminders, revisit past entries, and build a simple gratitude habit with Gratitude Journal.",
+      "featureBullets": [
+        {
+          "title": "Write three good things each day"
+        },
+        {
+          "title": "Gentle guided gratitude prompts"
+        },
+        {
+          "title": "History and weekly recap"
+        },
+        {
+          "title": "Current streak and longest streak"
+        },
+        {
+          "title": "Mood summary and bright words"
+        },
+        {
+          "title": "Soft daily reminder"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Write simple moments",
+          "description": "Show the main daily entry screen with three gratitude entries, mood choices, and streak cards. The caption should communicate that daily gratitude can feel light, personal, and easy to continue.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-1.png"
+        },
+        {
+          "title": "Look back anytime",
+          "description": "Show the history screen with a completed day and saved gratitude entries. The screenshot should communicate that past positive moments stay easy to revisit.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-2.png"
+        },
+        {
+          "title": "See your progress",
+          "description": "Show the weekly recap with completed days, entries written, daily progress, bright words, and mood summary. The goal is to highlight reflection, consistency, and visible progress.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-3.png"
+        },
+        {
+          "title": "Set gentle reminders",
+          "description": "Show the settings screen with the daily reminder enabled and language selection visible. The screenshot should communicate a calm, low-pressure routine that fits everyday life.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-4.png"
+        },
+        {
+          "title": "Start softly",
+          "description": "Show the onboarding or intro modal over the journal screen with a friendly first-step message. The visual should communicate that the app is supportive, simple, and not overwhelming.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How does Gratitude Journal work?",
+          "answer": "Gratitude Journal helps you write three good things each day, one gentle entry at a time. You can reflect with simple prompts, revisit past entries in history, and see your weekly recap and streak progress."
+        },
+        {
+          "question": "Is Gratitude Journal good for beginners?",
+          "answer": "Yes. The app is designed to feel light and approachable, so you can build a gratitude habit without long writing sessions or complicated setup."
+        },
+        {
+          "question": "Can I look back at previous entries?",
+          "answer": "Yes. Your saved entries are available in the history view, so you can revisit positive days and reflect on past moments whenever you want."
+        },
+        {
+          "question": "Does the app include reminders?",
+          "answer": "Yes. You can enable a gentle daily reminder and choose a reminder time that fits your routine."
+        },
+        {
+          "question": "What makes this gratitude journal different?",
+          "answer": "It focuses on calm daily use, simple prompts, and useful reflection tools like weekly recap, bright words, mood summary, and streak tracking without making journaling feel heavy."
+        }
+      ]
+    },
+    "de": {
+      "name": "Gratitude Journal",
+      "summary": "Gratitude Journal hilft dir, drei gute Dinge pro Tag festzuhalten und daraus eine ruhige, realistische Dankbarkeitsroutine zu machen. Mit sanften Impulsen, Erinnerungen, Verlauf und Wochenrückblick bleibt Reflexion einfach und angenehm.",
+      "longDescription": [
+        "Gratitude Journal ist eine einfache App für tägliche Dankbarkeit und ruhige Selbstreflexion. Statt langer Journaling-Sitzungen oder überladener Funktionen hilft sie dir dabei, drei gute Dinge am Tag festzuhalten und daraus eine kleine, positive Routine zu machen.",
+        "Die täglichen Einträge sind bewusst leicht gehalten, damit du auch an vollen Tagen dranbleiben kannst. Du kannst kleine Lichtblicke, freundliche Begegnungen, Erfolge oder Momente notieren, die sich gut angefühlt haben. So eignet sich die App ideal für Dankbarkeit, Achtsamkeit, positive Tagesreflexion und emotionale Selbstfürsorge.",
+        "Im Verlauf kannst du frühere Einträge jederzeit wieder ansehen. Der Wochenrückblick macht deine Notizen zusätzlich sichtbar mit abgeschlossenen Tagen, geschriebenen Einträgen, Tagesfortschritt, häufigen positiven Wörtern, Stimmungsübersicht, aktueller Serie und längster Serie.",
+        "Mit einer sanften täglichen Erinnerung und Spracheinstellungen bleibt die Nutzung persönlich und alltagstauglich. Wenn du ein Dankbarkeitstagebuch suchst, das ruhig, klar und motivierend wirkt, ist Gratitude Journal ein starker Einstieg in eine positive Gewohnheit."
+      ],
+      "bottomCtaDescription": "Beginne heute mit einem kleinen positiven Moment und baue daraus eine Gewohnheit, die sich wirklich gut anfühlt. Gratitude Journal gibt dir einen ruhigen Ort für Dankbarkeit, Rückblick und mehr Beständigkeit im Alltag.",
+      "category": "Lifestyle",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Dankbarkeitstagebuch",
+        "Dankbarkeit App",
+        "Tagesreflexion",
+        "Achtsamkeit Journal",
+        "Positive Gewohnheiten",
+        "Selbstfürsorge App",
+        "Dankbarkeit üben"
+      ],
+      "metaTitle": "Gratitude Journal - Dankbarkeitstagebuch für Android",
+      "metaDescription": "Halte täglich drei gute Dinge fest, aktiviere sanfte Erinnerungen und sieh deine Fortschritte im Verlauf und Wochenrückblick.",
+      "featureBullets": [
+        {
+          "title": "Drei gute Dinge pro Tag festhalten"
+        },
+        {
+          "title": "Sanfte Impulse fürs tägliche Schreiben"
+        },
+        {
+          "title": "Verlauf und Wochenrückblick"
+        },
+        {
+          "title": "Aktuelle und längste Serie"
+        },
+        {
+          "title": "Stimmungsübersicht und positive Wörter"
+        },
+        {
+          "title": "Tägliche sanfte Erinnerung"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Einfache gute Momente festhalten",
+          "description": "Zeige den Haupteinstiegsbildschirm mit drei Einträgen, Stimmungsauswahl und Serienkarten. Die Grafik soll vermitteln, dass tägliche Dankbarkeit leicht, persönlich und machbar ist.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-1.png"
+        },
+        {
+          "title": "Jederzeit zurückblicken",
+          "description": "Zeige den Verlaufsbildschirm mit einem abgeschlossenen Tag und gespeicherten Dankbarkeitseinträgen. Die Aufnahme soll zeigen, dass positive Momente leicht wiedergefunden werden können.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-2.png"
+        },
+        {
+          "title": "Fortschritte sichtbar machen",
+          "description": "Zeige den Wochenrückblick mit abgeschlossenen Tagen, geschriebenen Einträgen, Tagesfortschritt, positiven Wörtern und Stimmungsübersicht. Der Fokus liegt auf Beständigkeit und sanfter Motivation.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-3.png"
+        },
+        {
+          "title": "Sanfte Erinnerungen einstellen",
+          "description": "Zeige die Einstellungen mit aktivierter täglicher Erinnerung und sichtbarer Sprachauswahl. Die Szene soll eine ruhige, alltagstaugliche Routine vermitteln.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-4.png"
+        },
+        {
+          "title": "Sanft beginnen",
+          "description": "Zeige das Intro oder Onboarding-Popup über dem Journaling-Bildschirm mit einer freundlichen Einstiegsbotschaft. Die Darstellung soll unterstützend und nicht überfordernd wirken.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wie funktioniert Gratitude Journal?",
+          "answer": "Die App hilft dir dabei, jeden Tag drei gute Dinge festzuhalten. Mit sanften Fragen, Verlauf, Wochenrückblick und Serienübersicht bleibt die tägliche Reflexion einfach und übersichtlich."
+        },
+        {
+          "question": "Ist die App auch für Anfänger geeignet?",
+          "answer": "Ja. Gratitude Journal ist bewusst einfach aufgebaut, damit du ohne großen Aufwand mit Dankbarkeit und täglicher Reflexion starten kannst."
+        },
+        {
+          "question": "Kann ich frühere Einträge wieder ansehen?",
+          "answer": "Ja. Im Verlauf findest du deine bisherigen Einträge und kannst positive Tage jederzeit noch einmal durchlesen."
+        },
+        {
+          "question": "Gibt es tägliche Erinnerungen?",
+          "answer": "Ja. Du kannst eine sanfte tägliche Erinnerung aktivieren und die Uhrzeit selbst festlegen."
+        },
+        {
+          "question": "Was macht diese Dankbarkeits-App besonders?",
+          "answer": "Sie kombiniert einfache tägliche Einträge mit hilfreichen Rückblicken wie Wochenstatistik, positiven Wörtern, Stimmungsauswertung und Serienfortschritt, ohne zu komplex zu werden."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Gratitude Journal",
+      "summary": "Gratitude Journal vous aide à noter trois bonnes choses chaque jour et à créer une routine de gratitude simple, douce et régulière. Grâce aux rappels, à l’historique et au récapitulatif hebdomadaire, la réflexion quotidienne reste facile à tenir.",
+      "longDescription": [
+        "Gratitude Journal est une application de gratitude pensée pour les personnes qui veulent ralentir et mieux remarquer ce qui leur fait du bien. Au lieu d’un journal lourd ou compliqué, elle vous propose une pratique quotidienne simple autour de trois bonnes choses à écrire chaque jour.",
+        "Les entrées sont courtes, guidées et faciles à compléter, même quand la journée a été chargée. Vous pouvez noter un petit soulagement, une attention reçue, une réussite discrète ou un moment qui vous a apporté de la lumière. L’application convient ainsi très bien à la gratitude, à la réflexion quotidienne, à la pleine conscience et au soin émotionnel.",
+        "Vos textes restent faciles à retrouver dans un historique clair. Le récapitulatif hebdomadaire transforme vos notes en aperçu utile avec les jours complétés, le nombre d’entrées, la progression quotidienne, les mots positifs fréquents, le résumé d’humeur, la série actuelle et la meilleure série.",
+        "Avec un rappel quotidien doux et un réglage de langue simple, l’expérience reste apaisée et facile à conserver dans le temps. Si vous cherchez une application de gratitude discrète, encourageante et agréable à utiliser, Gratitude Journal est une très bonne base pour une routine plus positive."
+      ],
+      "bottomCtaDescription": "Commencez aujourd’hui avec un petit moment positif et transformez-le en habitude durable. Gratitude Journal vous offre un espace calme pour écrire, réfléchir et revenir plus souvent vers ce qui vous a fait du bien.",
+      "category": "Style de vie",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Journal de gratitude",
+        "Application gratitude",
+        "Réflexion quotidienne",
+        "Journal bien-être",
+        "Routine positive",
+        "Journal mindfulness",
+        "Habitude gratitude"
+      ],
+      "metaTitle": "Gratitude Journal - Journal de gratitude sur Android",
+      "metaDescription": "Notez trois bonnes choses par jour, activez un rappel doux et retrouvez vos progrès grâce à l’historique et au récapitulatif hebdomadaire.",
+      "featureBullets": [
+        {
+          "title": "Écrire trois bonnes choses par jour"
+        },
+        {
+          "title": "Invites douces pour écrire facilement"
+        },
+        {
+          "title": "Historique et récapitulatif hebdomadaire"
+        },
+        {
+          "title": "Série actuelle et meilleure série"
+        },
+        {
+          "title": "Résumé d’humeur et mots positifs"
+        },
+        {
+          "title": "Rappel quotidien discret"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Écrire des moments simples",
+          "description": "Montrer l’écran principal avec les trois entrées du jour, les choix d’humeur et les cartes de série. Le message visuel doit montrer une gratitude simple, douce et accessible.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-1.png"
+        },
+        {
+          "title": "Relire quand vous voulez",
+          "description": "Montrer l’écran d’historique avec une journée enregistrée et des entrées déjà sauvegardées. Le visuel doit montrer qu’il est facile de revenir à ses bons souvenirs.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-2.png"
+        },
+        {
+          "title": "Voir votre progression",
+          "description": "Montrer le récapitulatif hebdomadaire avec jours complétés, entrées écrites, progression, mots lumineux et humeur. Le but est de souligner la régularité et la progression visible.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-3.png"
+        },
+        {
+          "title": "Choisir un rappel doux",
+          "description": "Montrer l’écran des réglages avec le rappel quotidien activé et la langue visible. Le visuel doit évoquer une routine calme et facile à suivre.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-4.png"
+        },
+        {
+          "title": "Commencer sans pression",
+          "description": "Montrer la fenêtre d’introduction ou le premier message d’accueil au-dessus de l’écran de journal. L’ensemble doit sembler rassurant, simple et non intimidant.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "À quoi sert Gratitude Journal ?",
+          "answer": "L’application vous aide à écrire trois bonnes choses chaque jour, à garder une habitude de gratitude et à revenir facilement sur vos anciens moments positifs."
+        },
+        {
+          "question": "Est-ce une bonne application pour commencer un journal de gratitude ?",
+          "answer": "Oui. Elle a été conçue pour être simple, douce et facile à utiliser, même si vous n’avez jamais tenu de journal auparavant."
+        },
+        {
+          "question": "Puis-je relire mes anciennes entrées ?",
+          "answer": "Oui. Toutes vos entrées enregistrées restent disponibles dans l’historique pour être relues quand vous en avez besoin."
+        },
+        {
+          "question": "Y a-t-il un rappel quotidien ?",
+          "answer": "Oui. Vous pouvez activer un rappel doux et choisir l’heure qui vous convient le mieux."
+        },
+        {
+          "question": "Qu’est-ce qui distingue cette appli de gratitude ?",
+          "answer": "Elle combine une écriture très simple avec un historique clair, un récapitulatif hebdomadaire, des mots positifs fréquents, un résumé d’humeur et un suivi de série sans compliquer l’expérience."
+        }
+      ]
+    },
+    "it": {
+      "name": "Gratitude Journal",
+      "summary": "Gratitude Journal ti aiuta a scrivere tre cose positive ogni giorno e a creare un’abitudine di gratitudine semplice e serena. Con promemoria, cronologia e riepilogo settimanale, la riflessione quotidiana resta leggera e costante.",
+      "longDescription": [
+        "Gratitude Journal è un’app di gratitudine pensata per chi vuole rallentare e dare più spazio alle cose belle della giornata. Invece di un diario complicato o pieno di pressione, ti aiuta a scrivere tre cose positive al giorno in modo semplice e naturale.",
+        "Le voci quotidiane sono leggere, guidate e facili da completare anche quando hai poco tempo. Puoi annotare piccoli successi, gesti gentili, momenti sereni o qualsiasi cosa abbia reso la giornata un po’ più luminosa. Per questo l’app è adatta alla gratitudine quotidiana, alla riflessione personale, alla mindfulness e alla cura di sé.",
+        "Le tue note restano facili da consultare nella cronologia, mentre il riepilogo settimanale trasforma quello che scrivi in una panoramica utile. Puoi vedere giorni completati, voci scritte, progresso giornaliero, parole positive ricorrenti, riepilogo dell’umore, serie attuale e serie più lunga.",
+        "Con un promemoria quotidiano delicato e le impostazioni della lingua, l’esperienza resta calma, privata e sostenibile. Se cerchi un diario della gratitudine semplice, incoraggiante e piacevole da usare ogni giorno, Gratitude Journal è un ottimo punto di partenza."
+      ],
+      "bottomCtaDescription": "Inizia oggi con un piccolo momento positivo e trasformalo in una routine che ti fa stare bene. Gratitude Journal ti offre uno spazio calmo per riflettere, ritrovare i tuoi giorni migliori e coltivare la gratitudine con continuità.",
+      "category": "Stile di vita",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Diario della gratitudine",
+        "App gratitudine",
+        "Riflessione quotidiana",
+        "Journal mindfulness",
+        "Abitudini positive",
+        "Benessere emotivo",
+        "Diario personale"
+      ],
+      "metaTitle": "Gratitude Journal - Diario della gratitudine Android",
+      "metaDescription": "Scrivi tre cose positive al giorno, imposta un promemoria delicato e rivedi i tuoi progressi con cronologia e riepilogo settimanale.",
+      "featureBullets": [
+        {
+          "title": "Scrivi tre cose positive al giorno"
+        },
+        {
+          "title": "Prompt delicati per scrivere con facilità"
+        },
+        {
+          "title": "Cronologia e riepilogo settimanale"
+        },
+        {
+          "title": "Serie attuale e serie più lunga"
+        },
+        {
+          "title": "Riepilogo dell’umore e parole luminose"
+        },
+        {
+          "title": "Promemoria quotidiano delicato"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Scrivi momenti semplici",
+          "description": "Mostra la schermata principale con tre voci giornaliere, scelta dell’umore e schede delle serie. Il messaggio deve trasmettere una pratica di gratitudine semplice e personale.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-1.png"
+        },
+        {
+          "title": "Rileggi quando vuoi",
+          "description": "Mostra la schermata della cronologia con un giorno salvato e le voci già scritte. Il visual deve comunicare che i momenti positivi restano facili da ritrovare.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-2.png"
+        },
+        {
+          "title": "Vedi i tuoi progressi",
+          "description": "Mostra il riepilogo settimanale con giorni completati, voci scritte, progresso, parole positive e umore. L’obiettivo è far emergere costanza e crescita personale.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-3.png"
+        },
+        {
+          "title": "Imposta promemoria delicati",
+          "description": "Mostra la schermata impostazioni con il promemoria giornaliero attivo e la lingua visibile. La scena deve far percepire una routine leggera e sostenibile.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-4.png"
+        },
+        {
+          "title": "Inizia con calma",
+          "description": "Mostra il popup introduttivo o il primo messaggio di benvenuto sopra la schermata del diario. Il tono visivo deve essere rassicurante, morbido e accessibile.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Come funziona Gratitude Journal?",
+          "answer": "L’app ti guida a scrivere tre cose positive al giorno, usando prompt semplici e una struttura leggera. Puoi poi rivedere ciò che hai scritto nella cronologia e nel riepilogo settimanale."
+        },
+        {
+          "question": "È adatta anche a chi non ha mai scritto un diario?",
+          "answer": "Sì. È pensata proprio per essere facile da iniziare e da mantenere, anche se non hai mai usato un diario della gratitudine."
+        },
+        {
+          "question": "Posso rileggere le voci dei giorni precedenti?",
+          "answer": "Sì. La cronologia conserva le tue voci, così puoi tornare ai momenti positivi quando vuoi."
+        },
+        {
+          "question": "Ci sono promemoria giornalieri?",
+          "answer": "Sì. Puoi attivare un promemoria delicato e scegliere l’orario più adatto alla tua routine."
+        },
+        {
+          "question": "Cosa rende speciale questa app di gratitudine?",
+          "answer": "Unisce semplicità quotidiana e strumenti utili come riepilogo settimanale, parole positive ricorrenti, umore e serie, senza rendere l’esperienza pesante o complicata."
+        }
+      ]
+    },
+    "es": {
+      "name": "Gratitude Journal",
+      "summary": "Gratitude Journal te ayuda a escribir tres cosas buenas cada día y a crear un hábito de gratitud sencillo y constante. Con recordatorios suaves, historial y resumen semanal, reflexionar se vuelve más fácil de mantener.",
+      "longDescription": [
+        "Gratitude Journal es una app de gratitud pensada para ayudarte a bajar el ritmo y prestar más atención a lo bueno de cada día. En lugar de un diario complicado o exigente, te propone una práctica simple: escribir tres cosas buenas hoy.",
+        "Las entradas diarias son breves, guiadas y fáciles de completar incluso cuando tienes poco tiempo. Puedes anotar pequeños logros, momentos amables, personas que te ayudaron o cualquier detalle que haya hecho el día un poco mejor. Por eso encaja muy bien con la gratitud diaria, la reflexión personal, la atención plena y el autocuidado emocional.",
+        "Tus entradas quedan guardadas en un historial claro para volver a leerlas cuando quieras. Además, el resumen semanal convierte tu escritura en una vista útil con días completados, entradas escritas, progreso diario, palabras positivas frecuentes, resumen de ánimo, racha actual y racha más larga.",
+        "Con un recordatorio diario suave y ajustes de idioma, la experiencia se mantiene tranquila, personal y fácil de continuar. Si buscas una app de gratitud simple, bonita y sin presión, Gratitude Journal es una excelente forma de empezar y seguir."
+      ],
+      "bottomCtaDescription": "Empieza hoy con un momento positivo y conviértelo en una rutina que sí puedas sostener. Gratitude Journal te da un espacio tranquilo para escribir, volver a tus buenos días y cultivar una mentalidad más agradecida.",
+      "category": "Estilo de vida",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Diario de gratitud",
+        "App de gratitud",
+        "Reflexión diaria",
+        "Mindfulness diario",
+        "Hábitos positivos",
+        "Bienestar emocional",
+        "Autocuidado diario"
+      ],
+      "metaTitle": "Gratitude Journal - Diario de gratitud para Android",
+      "metaDescription": "Escribe tres cosas buenas al día, activa recordatorios suaves y revisa tu progreso con historial y resumen semanal en Gratitude Journal.",
+      "featureBullets": [
+        {
+          "title": "Escribe tres cosas buenas cada día"
+        },
+        {
+          "title": "Prompts suaves para escribir con facilidad"
+        },
+        {
+          "title": "Historial y resumen semanal"
+        },
+        {
+          "title": "Racha actual y racha más larga"
+        },
+        {
+          "title": "Resumen de ánimo y palabras positivas"
+        },
+        {
+          "title": "Recordatorio diario suave"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Escribe momentos sencillos",
+          "description": "Mostrar la pantalla principal con tres entradas diarias, selección de ánimo y tarjetas de racha. El mensaje debe transmitir una práctica de gratitud sencilla, cercana y fácil de seguir.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-1.png"
+        },
+        {
+          "title": "Vuelve cuando quieras",
+          "description": "Mostrar la pantalla de historial con un día completado y entradas ya guardadas. La captura debe dejar claro que es fácil volver a leer momentos positivos.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-2.png"
+        },
+        {
+          "title": "Mira tu progreso",
+          "description": "Mostrar el resumen semanal con días completados, entradas, progreso diario, palabras positivas y resumen de ánimo. El objetivo es comunicar constancia y avance visible.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-3.png"
+        },
+        {
+          "title": "Activa recordatorios suaves",
+          "description": "Mostrar la pantalla de ajustes con el recordatorio diario activado y el idioma visible. La escena debe transmitir una rutina amable y fácil de mantener.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-4.png"
+        },
+        {
+          "title": "Empieza sin presión",
+          "description": "Mostrar la ventana de bienvenida o el mensaje inicial sobre la pantalla principal. El tono visual debe sentirse cálido, simple y nada abrumador.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Cómo funciona Gratitude Journal?",
+          "answer": "La app te ayuda a escribir tres cosas buenas cada día con una estructura suave y fácil de seguir. También puedes revisar tus entradas en el historial y ver tu progreso en el resumen semanal."
+        },
+        {
+          "question": "¿Sirve para empezar un diario de gratitud desde cero?",
+          "answer": "Sí. Está pensada para que empezar sea fácil, incluso si nunca has llevado un diario o una práctica de gratitud."
+        },
+        {
+          "question": "¿Puedo leer mis entradas anteriores?",
+          "answer": "Sí. Todas tus entradas guardadas aparecen en el historial para que puedas volver a ellas cuando quieras."
+        },
+        {
+          "question": "¿La app tiene recordatorios diarios?",
+          "answer": "Sí. Puedes activar un recordatorio suave y elegir la hora que mejor encaje con tu rutina."
+        },
+        {
+          "question": "¿Qué hace diferente a esta app de gratitud?",
+          "answer": "Combina escritura sencilla con herramientas útiles como historial, resumen semanal, palabras positivas, ánimo y rachas, sin convertir el diario en algo pesado."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Gratitude Journal",
+      "summary": "Gratitude Journal ajuda a escrever três coisas boas por dia e a criar um hábito de gratidão simples, leve e consistente. Com lembretes suaves, histórico e resumo semanal, refletir todos os dias torna-se mais natural.",
+      "longDescription": [
+        "Gratitude Journal é uma aplicação de gratidão pensada para quem quer abrandar e reparar mais nas coisas boas do dia. Em vez de um diário pesado ou complicado, oferece uma prática simples: escrever três coisas boas hoje.",
+        "As entradas diárias são curtas, guiadas e fáceis de completar, mesmo em dias ocupados. Pode registar pequenas vitórias, gestos gentis, momentos mais leves ou qualquer detalhe que tenha tornado o dia melhor. Por isso, adapta-se muito bem à gratidão diária, à reflexão pessoal, à atenção plena e ao autocuidado emocional.",
+        "As suas notas ficam organizadas num histórico claro, para poder voltar a elas sempre que quiser. O resumo semanal transforma a escrita numa visão útil com dias concluídos, entradas escritas, progresso diário, palavras positivas frequentes, resumo de humor, sequência atual e sequência mais longa.",
+        "Com um lembrete diário suave e definições de idioma, a experiência mantém-se calma, pessoal e fácil de continuar. Se procura uma app de gratidão simples, acolhedora e sem pressão, Gratitude Journal é uma excelente forma de começar e manter o hábito."
+      ],
+      "bottomCtaDescription": "Comece hoje com um pequeno momento positivo e transforme-o numa rotina que sabe bem manter. Gratitude Journal dá-lhe um espaço calmo para escrever, rever os dias bons e fortalecer uma prática diária de gratidão.",
+      "category": "Estilo de vida",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Diário de gratidão",
+        "App de gratidão",
+        "Reflexão diária",
+        "Mindfulness diário",
+        "Hábitos positivos",
+        "Bem-estar emocional",
+        "Autocuidado"
+      ],
+      "metaTitle": "Gratitude Journal - Diário de gratidão para Android",
+      "metaDescription": "Escreva três coisas boas por dia, ative lembretes suaves e acompanhe o seu progresso com histórico e resumo semanal.",
+      "featureBullets": [
+        {
+          "title": "Escreva três coisas boas por dia"
+        },
+        {
+          "title": "Sugestões suaves para escrever com facilidade"
+        },
+        {
+          "title": "Histórico e resumo semanal"
+        },
+        {
+          "title": "Sequência atual e sequência mais longa"
+        },
+        {
+          "title": "Resumo de humor e palavras positivas"
+        },
+        {
+          "title": "Lembrete diário suave"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Escreva momentos simples",
+          "description": "Mostrar o ecrã principal com três entradas diárias, escolha de humor e cartões de sequência. A imagem deve transmitir gratidão diária de forma simples e acessível.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-1.png"
+        },
+        {
+          "title": "Volte atrás quando quiser",
+          "description": "Mostrar o ecrã de histórico com um dia concluído e entradas guardadas. A captura deve mostrar que é fácil revisitar momentos positivos.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-2.png"
+        },
+        {
+          "title": "Veja o seu progresso",
+          "description": "Mostrar o resumo semanal com dias concluídos, entradas, progresso, palavras positivas e humor. O objetivo é transmitir consistência e evolução visível.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-3.png"
+        },
+        {
+          "title": "Defina lembretes suaves",
+          "description": "Mostrar o ecrã de definições com o lembrete diário ativo e o idioma visível. A cena deve comunicar uma rotina leve e fácil de manter.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-4.png"
+        },
+        {
+          "title": "Comece sem pressão",
+          "description": "Mostrar a mensagem inicial ou o pequeno modal de introdução por cima do ecrã principal. O tom visual deve ser calmo, amigável e nada intimidante.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Como funciona o Gratitude Journal?",
+          "answer": "A aplicação ajuda-o a escrever três coisas boas por dia com uma estrutura simples e leve. Depois pode rever as suas entradas no histórico e acompanhar o progresso no resumo semanal."
+        },
+        {
+          "question": "É uma boa app para começar a praticar gratidão?",
+          "answer": "Sim. Foi criada para ser fácil de usar desde o primeiro dia, mesmo para quem nunca teve um diário de gratidão."
+        },
+        {
+          "question": "Posso reler entradas antigas?",
+          "answer": "Sim. As entradas guardadas ficam disponíveis no histórico para que possa voltar a momentos positivos sempre que quiser."
+        },
+        {
+          "question": "A app tem lembretes diários?",
+          "answer": "Sim. Pode ativar um lembrete diário suave e escolher a hora mais adequada para si."
+        },
+        {
+          "question": "O que torna esta app de gratidão diferente?",
+          "answer": "Ela combina escrita simples com histórico, resumo semanal, palavras positivas, humor e sequências, mantendo a experiência leve e tranquila."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Gratitude Journal",
+      "summary": "Gratitude Journal вам помаже да сваког дана запишете три добре ствари и изградите тиху, једноставну навику захвалности. Уз благе подсетнике, историју и недељни преглед, свакодневна рефлексија постаје лакша и природнија.",
+      "longDescription": [
+        "Gratitude Journal је једноставна апликација за захвалност намењена свима који желе да успоре и примете више добрих ствари у свом дану. Уместо дугог или напорног вођења дневника, апликација вам нуди лаган приступ: да сваког дана запишете три добре ствари.",
+        "Дневни уноси су кратки, вођени и лаки за попуњавање чак и када немате много времена. Можете записати мали успех, љубазан гест, нешто што вам је олакшало дан или тренутак који је донео више мира. Зато је апликација одлична за захвалност, свакодневну рефлексију, пажљивост и емоционалну бригу о себи.",
+        "Ваши уноси остају лако доступни у историји, тако да позитивне дане можете поново да прочитате кад год пожелите. Недељни преглед претвара ваше белешке у користан увид кроз завршене дане, број уноса, дневни напредак, честе светле речи, преглед расположења, тренутни низ и најдужи низ.",
+        "Уз благи дневни подсетник и избор језика, цело искуство остаје мирно, приватно и лако за одржавање. Ако тражите апликацију за захвалност која не оптерећује, већ нежно подстиче доследност, Gratitude Journal је одлично место за почетак."
+      ],
+      "bottomCtaDescription": "Почните данас једним малим светлим тренутком и претворите га у навику коју можете да задржите. Gratitude Journal вам даје миран простор за писање, осврт и свакодневно неговање захвалности.",
+      "category": "Стил живота",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Дневник захвалности",
+        "Апликација захвалности",
+        "Свакодневна рефлексија",
+        "Дневник добрих ствари",
+        "Позитивне навике",
+        "Брига о себи",
+        "Mindfulness дневник"
+      ],
+      "metaTitle": "Gratitude Journal - дневник захвалности за Android",
+      "metaDescription": "Запишите три добре ствари дневно, укључите благе подсетнике и пратите напредак кроз историју и недељни преглед.",
+      "featureBullets": [
+        {
+          "title": "Запишите три добре ствари сваког дана"
+        },
+        {
+          "title": "Благи вођени подстицаји за писање"
+        },
+        {
+          "title": "Историја и недељни преглед"
+        },
+        {
+          "title": "Тренутни и најдужи низ"
+        },
+        {
+          "title": "Преглед расположења и светле речи"
+        },
+        {
+          "title": "Благи дневни подсетник"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Запишите једноставне тренутке",
+          "description": "Прикажите главни екран са три дневна уноса, избором расположења и картицама низа. Визуел треба да покаже да је свакодневна захвалност лака, лична и ненаметљива.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-1.png"
+        },
+        {
+          "title": "Вратите се кад год пожелите",
+          "description": "Прикажите екран историје са једним сачуваним даном и претходним уносима. Снимак треба да покаже да је лако поново пронаћи добре тренутке.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-2.png"
+        },
+        {
+          "title": "Пратите свој напредак",
+          "description": "Прикажите недељни преглед са завршеним данима, бројем уноса, дневним напретком, светлим речима и расположењем. Циљ је да се истакну доследност и видљив напредак.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-3.png"
+        },
+        {
+          "title": "Подесите благе подсетнике",
+          "description": "Прикажите екран подешавања са укљученим дневним подсетником и видљивим избором језика. Визуел треба да делује мирно и лако за свакодневну употребу.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-4.png"
+        },
+        {
+          "title": "Почните без притиска",
+          "description": "Прикажите уводни прозор или почетну поруку изнад главног екрана. Тон треба да буде топао, подржавајући и без осећаја притиска.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Како функционише Gratitude Journal?",
+          "answer": "Апликација вам помаже да сваког дана запишете три добре ствари кроз једноставан и благ процес. Касније можете да се вратите у историју и видите напредак у недељном прегледу."
+        },
+        {
+          "question": "Да ли је добра и за почетнике?",
+          "answer": "Да. Направљена је тако да буде лака за почетак и за коришћење, чак и ако никада раније нисте водили дневник захвалности."
+        },
+        {
+          "question": "Могу ли да читам старе уносе?",
+          "answer": "Да. Сви сачувани уноси су доступни у историји, па можете да се вратите позитивним данима кад год пожелите."
+        },
+        {
+          "question": "Да ли апликација има дневне подсетнике?",
+          "answer": "Да. Можете да укључите благи дневни подсетник и да изаберете време које вам највише одговара."
+        },
+        {
+          "question": "По чему се ова апликација издваја?",
+          "answer": "Комбинује једноставно свакодневно писање са корисним увидима као што су историја, недељни преглед, светле речи, расположење и низови, без непотребне сложености."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Gratitude Journal",
+      "summary": "Gratitude Journal pomaže ti da svaki dan zapišeš tri dobre stvari i izgradiš mirnu, jednostavnu naviku zahvalnosti. Uz blage podsjetnike, povijest i tjedni pregled, svakodnevna refleksija postaje lakša za održavanje.",
+      "longDescription": [
+        "Gratitude Journal je jednostavna aplikacija za zahvalnost namijenjena svima koji žele usporiti i primijetiti više dobrih stvari u svom danu. Umjesto dugog ili napornog vođenja dnevnika, aplikacija ti nudi lagan pristup: da svaki dan zapišeš tri dobre stvari.",
+        "Dnevni unosi su kratki, vođeni i laki za ispunjavanje čak i kada nemaš puno vremena. Možeš zapisati mali uspjeh, ljubaznu gestu, trenutak koji je olakšao dan ili nešto što ti je donijelo više mira. Zato je aplikacija odlična za zahvalnost, dnevnu refleksiju, pažljivost i emocionalnu brigu o sebi.",
+        "Tvoji unosi ostaju lako dostupni u povijesti, pa se pozitivnim danima možeš vratiti kad god poželiš. Tjedni pregled pretvara tvoje bilješke u koristan uvid kroz završene dane, broj unosa, dnevni napredak, česte svijetle riječi, pregled raspoloženja, trenutačni niz i najduži niz.",
+        "Uz blagi dnevni podsjetnik i izbor jezika, cijelo iskustvo ostaje mirno, privatno i lako za održavanje. Ako tražiš aplikaciju za zahvalnost koja ne opterećuje, nego nježno potiče dosljednost, Gratitude Journal je odlično mjesto za početak."
+      ],
+      "bottomCtaDescription": "Počni danas s jednim malim pozitivnim trenutkom i pretvori ga u rutinu koju je ugodno zadržati. Gratitude Journal daje ti miran prostor za pisanje, osvrt i svakodnevno njegovanje zahvalnosti.",
+      "category": "Stil života",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Dnevnik zahvalnosti",
+        "Aplikacija zahvalnosti",
+        "Dnevna refleksija",
+        "Pozitivne navike",
+        "Mindfulness dnevnik",
+        "Briga o sebi",
+        "Dnevnik dobrih stvari"
+      ],
+      "metaTitle": "Gratitude Journal - dnevnik zahvalnosti za Android",
+      "metaDescription": "Zapiši tri dobre stvari dnevno, uključi blage podsjetnike i prati napredak kroz povijest i tjedni pregled.",
+      "featureBullets": [
+        {
+          "title": "Zapiši tri dobre stvari svaki dan"
+        },
+        {
+          "title": "Blagi vođeni poticaji za pisanje"
+        },
+        {
+          "title": "Povijest i tjedni pregled"
+        },
+        {
+          "title": "Trenutačni i najduži niz"
+        },
+        {
+          "title": "Pregled raspoloženja i svijetle riječi"
+        },
+        {
+          "title": "Blagi dnevni podsjetnik"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Zapiši jednostavne trenutke",
+          "description": "Prikaži glavni ekran s tri dnevna unosa, odabirom raspoloženja i karticama niza. Vizual treba pokazati da je svakodnevna zahvalnost lagana i prirodna.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-1.png"
+        },
+        {
+          "title": "Vrati se kad god želiš",
+          "description": "Prikaži ekran povijesti s jednim spremljenim danom i prethodnim unosima. Snimka treba jasno pokazati da je lako ponovno pronaći lijepe trenutke.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-2.png"
+        },
+        {
+          "title": "Prati svoj napredak",
+          "description": "Prikaži tjedni pregled sa završenim danima, brojem unosa, dnevnim napretkom, svijetlim riječima i raspoloženjem. Fokus je na dosljednosti i vidljivom napretku.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-3.png"
+        },
+        {
+          "title": "Postavi blage podsjetnike",
+          "description": "Prikaži ekran postavki s uključenim dnevnim podsjetnikom i vidljivim izborom jezika. Vizual treba djelovati mirno i lako za svakodnevnu rutinu.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-4.png"
+        },
+        {
+          "title": "Počni bez pritiska",
+          "description": "Prikaži uvodni prozor ili početnu poruku iznad glavnog ekrana. Ton treba biti topao, podržavajući i nenametljiv.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Kako funkcionira Gratitude Journal?",
+          "answer": "Aplikacija ti pomaže da svaki dan zapišeš tri dobre stvari kroz jednostavan i blag proces. Kasnije se možeš vratiti u povijest i vidjeti napredak u tjednom pregledu."
+        },
+        {
+          "question": "Je li aplikacija dobra i za početnike?",
+          "answer": "Da. Napravljena je tako da bude laka za početak i ugodna za korištenje, čak i ako nikada prije nisi vodio dnevnik zahvalnosti."
+        },
+        {
+          "question": "Mogu li ponovno čitati stare unose?",
+          "answer": "Da. Svi spremljeni unosi dostupni su u povijesti, pa se možeš vratiti pozitivnim danima kad god poželiš."
+        },
+        {
+          "question": "Postoje li dnevni podsjetnici?",
+          "answer": "Da. Možeš uključiti blagi dnevni podsjetnik i odabrati vrijeme koje ti najviše odgovara."
+        },
+        {
+          "question": "Po čemu se ova aplikacija razlikuje?",
+          "answer": "Spaja jednostavno svakodnevno pisanje s korisnim pregledima poput povijesti, tjednog sažetka, svijetlih riječi, raspoloženja i nizova, bez nepotrebne složenosti."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Gratitude Journal",
+      "summary": "Gratitude Journal helpt je elke dag drie goede dingen op te schrijven en daar een rustige, haalbare dankbaarheidsroutine van te maken. Met zachte herinneringen, geschiedenis en een weekoverzicht wordt dagelijks reflecteren makkelijker vol te houden.",
+      "longDescription": [
+        "Gratitude Journal is een eenvoudige dankbaarheidsapp voor mensen die wat vaker stil willen staan bij wat goed ging op een dag. In plaats van een zwaar of ingewikkeld dagboek helpt de app je om dagelijks drie goede dingen vast te leggen op een rustige en toegankelijke manier.",
+        "De dagelijkse invoer is kort, begeleid en makkelijk vol te houden, ook op drukke dagen. Je kunt kleine successen, fijne ontmoetingen, lieve gebaren of lichte momenten opschrijven die je dag net wat beter maakten. Daardoor past de app goed bij dagelijkse dankbaarheid, persoonlijke reflectie, mindfulness en emotionele zelfzorg.",
+        "Je eerdere notities blijven makkelijk terug te vinden in een duidelijke geschiedenis. Het weekoverzicht zet je invoer om in bruikbare inzichten met voltooide dagen, geschreven notities, dagelijkse voortgang, veelgebruikte positieve woorden, een stemmingsoverzicht, je huidige reeks en je langste reeks.",
+        "Met een zachte dagelijkse herinnering en taalinstellingen blijft de ervaring rustig, persoonlijk en eenvoudig vol te houden. Zoek je een dankbaarheidsapp die vriendelijk, overzichtelijk en motiverend aanvoelt, dan is Gratitude Journal een sterke keuze om mee te beginnen."
+      ],
+      "bottomCtaDescription": "Begin vandaag met één klein positief moment en bouw daar een gewoonte van die goed voelt om vol te houden. Gratitude Journal geeft je een rustige plek om te schrijven, terug te kijken en meer dankbaarheid in je dag te brengen.",
+      "category": "Lifestyle",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Dankbaarheidsdagboek",
+        "Gratitude app",
+        "Dagelijkse reflectie",
+        "Positieve gewoonten",
+        "Mindfulness dagboek",
+        "Zelfzorg app",
+        "Dagboek app"
+      ],
+      "metaTitle": "Gratitude Journal - dankbaarheidsdagboek voor Android",
+      "metaDescription": "Schrijf elke dag drie goede dingen op, zet zachte herinneringen aan en bekijk je voortgang met geschiedenis en weekoverzicht.",
+      "featureBullets": [
+        {
+          "title": "Schrijf elke dag drie goede dingen op"
+        },
+        {
+          "title": "Zachte schrijfprompts voor dagelijks gebruik"
+        },
+        {
+          "title": "Geschiedenis en weekoverzicht"
+        },
+        {
+          "title": "Huidige reeks en langste reeks"
+        },
+        {
+          "title": "Stemmingsoverzicht en positieve woorden"
+        },
+        {
+          "title": "Zachte dagelijkse herinnering"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Schrijf simpele momenten op",
+          "description": "Toon het hoofdscherm met drie dagelijkse invoeren, stemmingskeuzes en reekskaarten. Het beeld moet laten zien dat dankbaarheid eenvoudig en persoonlijk kan zijn.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-1.png"
+        },
+        {
+          "title": "Kijk altijd terug",
+          "description": "Toon het geschiedenisscherm met een opgeslagen dag en eerdere notities. De screenshot moet duidelijk maken dat positieve momenten makkelijk terug te lezen zijn.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-2.png"
+        },
+        {
+          "title": "Zie je voortgang",
+          "description": "Toon het weekoverzicht met voltooide dagen, geschreven notities, voortgang, positieve woorden en stemming. De nadruk ligt op regelmaat en zichtbare groei.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-3.png"
+        },
+        {
+          "title": "Stel zachte herinneringen in",
+          "description": "Toon het instellingenscherm met de dagelijkse herinnering ingeschakeld en de taaloptie zichtbaar. Het geheel moet rustig en makkelijk vol te houden aanvoelen.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-4.png"
+        },
+        {
+          "title": "Begin zonder druk",
+          "description": "Toon de eerste welkomstmelding of intro-popup boven het hoofdscherm. De sfeer moet vriendelijk, licht en niet overweldigend zijn.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Hoe werkt Gratitude Journal?",
+          "answer": "De app helpt je om elke dag drie goede dingen op te schrijven met een eenvoudige, zachte structuur. Daarna kun je je notities terugvinden in de geschiedenis en je voortgang bekijken in het weekoverzicht."
+        },
+        {
+          "question": "Is deze app geschikt voor beginners?",
+          "answer": "Ja. Gratitude Journal is gemaakt om laagdrempelig te zijn, zodat je makkelijk kunt beginnen, ook als je nog nooit een dankbaarheidsdagboek hebt gebruikt."
+        },
+        {
+          "question": "Kan ik oude notities teruglezen?",
+          "answer": "Ja. Je opgeslagen notities blijven beschikbaar in de geschiedenis, zodat je positieve dagen later opnieuw kunt bekijken."
+        },
+        {
+          "question": "Heeft de app dagelijkse herinneringen?",
+          "answer": "Ja. Je kunt een zachte dagelijkse herinnering aanzetten en zelf het tijdstip kiezen."
+        },
+        {
+          "question": "Wat maakt deze dankbaarheidsapp anders?",
+          "answer": "De app combineert eenvoudig dagelijks schrijven met handige terugblikfuncties zoals geschiedenis, weekoverzicht, positieve woorden, stemming en reeksen, zonder onnodige druk of complexiteit."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Gratitude Journal",
+      "summary": "Gratitude Journal pomaga codziennie zapisać trzy dobre rzeczy i zamienić to w spokojny, prosty nawyk wdzięczności. Dzięki delikatnym przypomnieniom, historii i tygodniowemu podsumowaniu łatwiej wracać do tego, co było dobre.",
+      "longDescription": [
+        "Gratitude Journal to prosta aplikacja do wdzięczności dla osób, które chcą częściej zauważać dobre momenty w swoim dniu. Zamiast rozbudowanego lub przytłaczającego dziennika dostajesz lekki rytuał: zapisanie trzech dobrych rzeczy każdego dnia.",
+        "Codzienne wpisy są krótkie, prowadzone i łatwe do uzupełnienia nawet wtedy, gdy masz mało czasu. Możesz zapisać mały sukces, życzliwy gest, coś co poprawiło Ci humor albo moment, który przyniósł więcej spokoju. Dzięki temu aplikacja dobrze sprawdza się w praktyce wdzięczności, codziennej refleksji, uważności i dbaniu o dobrostan.",
+        "Twoje wcześniejsze wpisy są łatwo dostępne w przejrzystej historii. Tygodniowe podsumowanie pokazuje postęp w przyjazny sposób: ukończone dni, liczbę wpisów, codzienny postęp, najczęstsze pozytywne słowa, podsumowanie nastroju, aktualną serię i najdłuższą serię.",
+        "Dzięki delikatnemu codziennemu przypomnieniu i ustawieniom języka korzystanie z aplikacji pozostaje spokojne, osobiste i łatwe do utrzymania. Jeśli szukasz dziennika wdzięczności, który nie przytłacza, lecz wspiera regularność, Gratitude Journal będzie bardzo dobrym wyborem."
+      ],
+      "bottomCtaDescription": "Zacznij dziś od jednego małego pozytywnego momentu i zbuduj z niego nawyk, który naprawdę da się utrzymać. Gratitude Journal daje Ci spokojną przestrzeń do pisania, wracania do dobrych dni i codziennego ćwiczenia wdzięczności.",
+      "category": "Styl życia",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Dziennik wdzięczności",
+        "Aplikacja wdzięczności",
+        "Codzienna refleksja",
+        "Pozytywne nawyki",
+        "Mindfulness dziennik",
+        "Dbanie o siebie",
+        "Dziennik dobrych rzeczy"
+      ],
+      "metaTitle": "Gratitude Journal - dziennik wdzięczności na Android",
+      "metaDescription": "Zapisuj trzy dobre rzeczy dziennie, ustaw delikatne przypomnienia i śledź postępy w historii oraz tygodniowym podsumowaniu.",
+      "featureBullets": [
+        {
+          "title": "Zapisuj trzy dobre rzeczy każdego dnia"
+        },
+        {
+          "title": "Delikatne podpowiedzi do codziennego pisania"
+        },
+        {
+          "title": "Historia i tygodniowe podsumowanie"
+        },
+        {
+          "title": "Aktualna i najdłuższa seria"
+        },
+        {
+          "title": "Podsumowanie nastroju i pozytywne słowa"
+        },
+        {
+          "title": "Delikatne codzienne przypomnienie"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Zapisuj proste dobre chwile",
+          "description": "Pokaż ekran główny z trzema codziennymi wpisami, wyborem nastroju i kartami serii. Obraz powinien pokazywać, że praktyka wdzięczności może być prosta i lekka.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-1.png"
+        },
+        {
+          "title": "Wracaj kiedy chcesz",
+          "description": "Pokaż ekran historii z zapisanym dniem i wcześniejszymi wpisami. Zrzut powinien wyraźnie pokazywać, że łatwo wrócić do pozytywnych momentów.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-2.png"
+        },
+        {
+          "title": "Zobacz swój postęp",
+          "description": "Pokaż tygodniowe podsumowanie z ukończonymi dniami, liczbą wpisów, postępem, pozytywnymi słowami i nastrojem. Celem jest pokazanie regularności i widocznego rozwoju.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-3.png"
+        },
+        {
+          "title": "Ustaw delikatne przypomnienia",
+          "description": "Pokaż ekran ustawień z włączonym codziennym przypomnieniem i widocznym wyborem języka. Całość powinna wyglądać spokojnie i przyjaźnie.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-4.png"
+        },
+        {
+          "title": "Zacznij bez presji",
+          "description": "Pokaż komunikat powitalny lub okno startowe nad ekranem głównym. Ton wizualny powinien być ciepły, prosty i nieprzytłaczający.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Jak działa Gratitude Journal?",
+          "answer": "Aplikacja pomaga codziennie zapisywać trzy dobre rzeczy w lekkiej i prostej formie. Później możesz wracać do wpisów w historii i śledzić postęp w tygodniowym podsumowaniu."
+        },
+        {
+          "question": "Czy ta aplikacja nadaje się dla początkujących?",
+          "answer": "Tak. Została zaprojektowana tak, aby łatwo było zacząć, nawet jeśli nigdy wcześniej nie prowadziłeś dziennika wdzięczności."
+        },
+        {
+          "question": "Czy mogę czytać starsze wpisy?",
+          "answer": "Tak. Wszystkie zapisane wpisy są dostępne w historii, więc możesz wracać do pozytywnych dni, kiedy tylko chcesz."
+        },
+        {
+          "question": "Czy aplikacja ma codzienne przypomnienia?",
+          "answer": "Tak. Możesz włączyć delikatne codzienne przypomnienie i samodzielnie wybrać odpowiednią godzinę."
+        },
+        {
+          "question": "Co wyróżnia tę aplikację do wdzięczności?",
+          "answer": "Łączy bardzo prosty codzienny rytuał z użytecznymi narzędziami, takimi jak historia, tygodniowe podsumowanie, pozytywne słowa, nastrój i serie, bez zbędnej komplikacji."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Gratitude Journal",
+      "summary": "Gratitude Journal te ajută să notezi trei lucruri bune în fiecare zi și să construiești un obicei simplu și liniștit de recunoștință. Cu mementouri blânde, istoric și rezumat săptămânal, reflecția zilnică devine mai ușor de păstrat.",
+      "longDescription": [
+        "Gratitude Journal este o aplicație simplă de recunoștință pentru cei care vor să observe mai des lucrurile bune din ziua lor. În locul unui jurnal complicat sau apăsător, aplicația îți propune o practică ușoară: să scrii trei lucruri bune în fiecare zi.",
+        "Intrările zilnice sunt scurte, ghidate și ușor de completat chiar și în zilele aglomerate. Poți nota mici reușite, gesturi frumoase, momente liniștite sau orice lucru care ți-a făcut ziua mai luminoasă. Din acest motiv, aplicația se potrivește foarte bine cu practica recunoștinței, reflecția zilnică, mindfulness și îngrijirea emoțională de sine.",
+        "Notițele tale rămân ușor de găsit într-un istoric clar. Rezumatul săptămânal transformă ceea ce ai scris într-o imagine utilă a progresului, cu zile completate, intrări scrise, progres zilnic, cuvinte pozitive frecvente, rezumat de stare, seria curentă și seria cea mai lungă.",
+        "Cu un memento zilnic blând și setări de limbă, experiența rămâne calmă, personală și ușor de păstrat în rutină. Dacă vrei o aplicație de recunoștință simplă, caldă și fără presiune, Gratitude Journal este un punct excelent de plecare."
+      ],
+      "bottomCtaDescription": "Începe azi cu un moment mic, dar pozitiv, și transformă-l într-un obicei pe care îl poți păstra. Gratitude Journal îți oferă un spațiu calm pentru a scrie, a privi înapoi și a cultiva recunoștința zi de zi.",
+      "category": "Stil de viață",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Jurnal de recunoștință",
+        "Aplicație recunoștință",
+        "Reflecție zilnică",
+        "Obiceiuri pozitive",
+        "Jurnal mindfulness",
+        "Îngrijire personală",
+        "Jurnal zilnic"
+      ],
+      "metaTitle": "Gratitude Journal - jurnal de recunoștință pe Android",
+      "metaDescription": "Scrie trei lucruri bune pe zi, activează mementouri blânde și urmărește progresul cu istoric și rezumat săptămânal.",
+      "featureBullets": [
+        {
+          "title": "Scrie trei lucruri bune în fiecare zi"
+        },
+        {
+          "title": "Întrebări blânde pentru scriere ușoară"
+        },
+        {
+          "title": "Istoric și rezumat săptămânal"
+        },
+        {
+          "title": "Serie curentă și serie maximă"
+        },
+        {
+          "title": "Rezumat de stare și cuvinte pozitive"
+        },
+        {
+          "title": "Memento zilnic blând"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Scrie momente simple",
+          "description": "Arată ecranul principal cu trei intrări zilnice, alegeri de stare și carduri de serie. Imaginea trebuie să transmită o practică de recunoștință simplă și accesibilă.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-1.png"
+        },
+        {
+          "title": "Revino oricând",
+          "description": "Arată ecranul de istoric cu o zi salvată și intrări anterioare. Captura trebuie să arate clar cât de ușor este să revii la momentele pozitive.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-2.png"
+        },
+        {
+          "title": "Vezi progresul tău",
+          "description": "Arată rezumatul săptămânal cu zile completate, intrări, progres, cuvinte pozitive și stare. Accentul trebuie pus pe consecvență și progres vizibil.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-3.png"
+        },
+        {
+          "title": "Setează mementouri blânde",
+          "description": "Arată ecranul de setări cu mementoul zilnic activ și limba vizibilă. Vizualul trebuie să sugereze o rutină calmă și ușor de menținut.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-4.png"
+        },
+        {
+          "title": "Începe fără presiune",
+          "description": "Arată mesajul de bun venit sau fereastra introductivă peste ecranul principal. Tonul vizual trebuie să fie cald, simplu și deloc intimidant.",
+          "imagePath": "apps/screenshots/gratitude-journal/screenshot-5.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Cum funcționează Gratitude Journal?",
+          "answer": "Aplicația te ajută să scrii trei lucruri bune în fiecare zi într-un mod simplu și blând. Apoi poți reveni la notițe în istoric și îți poți vedea progresul în rezumatul săptămânal."
+        },
+        {
+          "question": "Este potrivită și pentru începători?",
+          "answer": "Da. Este creată să fie ușor de început și confortabil de folosit, chiar dacă nu ai mai ținut niciodată un jurnal de recunoștință."
+        },
+        {
+          "question": "Pot să recitesc intrările mai vechi?",
+          "answer": "Da. Toate intrările salvate rămân disponibile în istoric, astfel încât să poți reveni oricând la zilele pozitive."
+        },
+        {
+          "question": "Aplicația include mementouri zilnice?",
+          "answer": "Da. Poți activa un memento zilnic blând și îți poți alege ora potrivită."
+        },
+        {
+          "question": "Ce face această aplicație diferită?",
+          "answer": "Combină un ritual zilnic foarte simplu cu instrumente utile precum istoric, rezumat săptămânal, cuvinte pozitive, stare și serii, fără să complice experiența."
+        }
+      ]
+    }
+  }
+}
