@@ -1,0 +1,910 @@
+{
+  "slug": "medication-reminder-lite",
+  "sortOrder": 15,
+  "kind": "app",
+  "featured": false,
+  "accent": "orange",
+  "icon": "apps/icons/medication-reminder-lite.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.medicationreminderlite",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "HealthApplication",
+  "relatedSlugs": [
+    "stretch-break-reminder",
+    "mood-tracker",
+    "weight-tracker"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Medication Reminder Lite",
+      "summary": "Medication Reminder Lite helps you remember doses, track what you have taken, and manage simple medication routines with clear daily reminders.",
+      "longDescription": [
+        "Medication Reminder Lite is a simple Android medication reminder app designed to help you stay on track with daily doses, vitamins, supplements, and personal medicine schedules. It keeps your routine clear without adding unnecessary complexity.",
+        "Use the daily checklist to see what is coming up, what is overdue, and what is already logged. Fast actions such as Taken, Snooze, Skipped, and Missed help you handle each dose quickly, even on busy days.",
+        "Manage active medications in one place with key details like name, dosage, time, notes, and remaining supply. Low supply reminders help you notice when stock is getting low, while history tracking lets you review what you have taken over time.",
+        "Medication Reminder Lite is a personal reminder tool only. It does not provide medical advice, verify treatment plans, or replace guidance from a qualified healthcare professional."
+      ],
+      "bottomCtaDescription": "Make your daily routine easier with a simple medication reminder app built for clarity, consistency, and peace of mind. Add your medications, follow today’s checklist, snooze when needed, and keep track of your history in one clean Android app.",
+      "category": "Health & Reminders",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Medication reminder",
+        "Pill reminder",
+        "Medicine tracker",
+        "Dose reminder",
+        "Health reminder",
+        "Daily checklist",
+        "Snooze reminder"
+      ],
+      "metaTitle": "Medication Reminder Lite - Pill & Dose Reminder App",
+      "metaDescription": "Track medications, doses, reminders, supply alerts and history with Medication Reminder Lite, a simple Android pill reminder app.",
+      "featureBullets": [
+        {
+          "title": "Daily dose checklist"
+        },
+        {
+          "title": "Medication reminders"
+        },
+        {
+          "title": "Taken and snooze actions"
+        },
+        {
+          "title": "Medication history"
+        },
+        {
+          "title": "Low supply alerts"
+        },
+        {
+          "title": "Simple active medication list"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Never miss a dose",
+          "description": "Show the Today checklist with upcoming medication, overdue count, remaining doses, and quick actions such as Taken and Snooze.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-1.png"
+        },
+        {
+          "title": "Manage your medications",
+          "description": "Show the active medications screen with a medication card, dosage, time, remaining supply, enable switch, and add medication button.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-2.png"
+        },
+        {
+          "title": "Track your history",
+          "description": "Show the history screen with a logged medication entry and status badge to communicate simple dose tracking.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is Medication Reminder Lite used for?",
+          "answer": "Medication Reminder Lite helps you set personal reminders, follow a daily dose checklist, and track medication history on Android."
+        },
+        {
+          "question": "Can I track whether I took or skipped a dose?",
+          "answer": "Yes. The app includes quick actions for marking a dose as taken, skipped, missed, or snoozed, so your daily checklist stays clear."
+        },
+        {
+          "question": "Does the app support low supply reminders?",
+          "answer": "Yes. You can track remaining supply and use low supply reminders to notice when a medication or supplement is running low."
+        },
+        {
+          "question": "Is Medication Reminder Lite medical advice?",
+          "answer": "No. The app is a personal reminder tool and does not provide medical advice or verify treatment plans."
+        }
+      ]
+    },
+    "de": {
+      "name": "Medication Reminder Lite",
+      "summary": "Medication Reminder Lite hilft dir, Einnahmen nicht zu vergessen, deine Dosen zu verfolgen und einfache Medikamentenroutinen übersichtlich zu organisieren.",
+      "longDescription": [
+        "Medication Reminder Lite ist eine einfache Android App für Medikamentenerinnerungen, tägliche Einnahmen, Vitamine, Nahrungsergänzungen und persönliche Routinen. Die App konzentriert sich auf das Wesentliche: klare Erinnerungen, schnelle Aktionen und eine übersichtliche Tagesansicht.",
+        "In der täglichen Checkliste siehst du, welche Dosen anstehen, welche überfällig sind und was bereits erledigt wurde. Mit Aktionen wie Genommen, Snooze, Übersprungen und Verpasst kannst du jede Einnahme schnell erfassen.",
+        "Verwalte aktive Medikamente mit Name, Dosierung, Uhrzeit, Notizen und verbleibendem Vorrat. Erinnerungen bei niedrigem Vorrat helfen dir, rechtzeitig zu bemerken, wenn etwas knapp wird.",
+        "Medication Reminder Lite ist ein persönliches Erinnerungstool. Die App ersetzt keine medizinische Beratung und prüft keine Behandlungspläne."
+      ],
+      "bottomCtaDescription": "Bringe mehr Ruhe in deine tägliche Routine: Mit Medication Reminder Lite verwaltest du Medikamente, Vitamine oder Nahrungsergänzungen, erhältst klare Erinnerungen und siehst im Verlauf, was du bereits eingetragen hast.",
+      "category": "Gesundheit & Erinnerungen",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Medikamentenerinnerung",
+        "Tablettenerinnerung",
+        "Medikamenten Tracker",
+        "Einnahmeerinnerung",
+        "Gesundheits Erinnerung",
+        "Tagescheckliste",
+        "Snooze Erinnerung"
+      ],
+      "metaTitle": "Medication Reminder Lite - Medikamenten Erinnerung",
+      "metaDescription": "Einfache Android App für Medikamentenerinnerungen, Einnahmen, Snooze, Verlauf und Hinweise bei niedrigem Vorrat.",
+      "featureBullets": [
+        {
+          "title": "Tägliche Einnahme-Checkliste"
+        },
+        {
+          "title": "Medikamentenerinnerungen"
+        },
+        {
+          "title": "Genommen und Snooze"
+        },
+        {
+          "title": "Einnahmeverlauf"
+        },
+        {
+          "title": "Hinweise bei niedrigem Vorrat"
+        },
+        {
+          "title": "Aktive Medikamente"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Keine Einnahme vergessen",
+          "description": "Zeige die Heute-Checkliste mit anstehenden Dosen, überfälligen Einträgen und schnellen Aktionen wie Genommen und Snooze.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-1.png"
+        },
+        {
+          "title": "Medikamente verwalten",
+          "description": "Zeige die Liste aktiver Medikamente mit Dosierung, Uhrzeit, Vorrat, Schalter und Button zum Hinzufügen.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-2.png"
+        },
+        {
+          "title": "Verlauf im Blick",
+          "description": "Zeige den Verlauf mit einer erfassten Einnahme und Status-Badge für einfache Nachverfolgung.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wofür ist Medication Reminder Lite gedacht?",
+          "answer": "Die App hilft dir, persönliche Medikamentenerinnerungen einzurichten, eine tägliche Checkliste zu nutzen und Einnahmen auf Android zu verfolgen."
+        },
+        {
+          "question": "Kann ich Dosen als genommen oder übersprungen markieren?",
+          "answer": "Ja. Du kannst Dosen als genommen, übersprungen, verpasst oder verschoben markieren."
+        },
+        {
+          "question": "Gibt es Erinnerungen bei niedrigem Vorrat?",
+          "answer": "Ja. Du kannst den verbleibenden Vorrat verfolgen und dich daran erinnern lassen, wenn er niedrig wird."
+        },
+        {
+          "question": "Ersetzt die App medizinische Beratung?",
+          "answer": "Nein. Medication Reminder Lite ist nur ein Erinnerungstool und ersetzt keine Beratung durch medizinisches Fachpersonal."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Medication Reminder Lite",
+      "summary": "Medication Reminder Lite vous aide à ne pas oublier vos prises, à suivre vos doses et à garder une routine de médicaments simple et organisée.",
+      "longDescription": [
+        "Medication Reminder Lite est une application Android de rappel de médicaments conçue pour les prises quotidiennes, les vitamines, les compléments et les routines personnelles. Elle vous aide à rester organisé sans interface compliquée.",
+        "La checklist du jour affiche les doses à venir, les prises en retard et les éléments déjà enregistrés. Les actions rapides comme Pris, Snooze, Ignoré et Manqué rendent le suivi plus simple au quotidien.",
+        "Gérez vos médicaments actifs avec le nom, le dosage, l’heure, les notes et la quantité restante. Les alertes de stock faible vous aident à repérer quand il faut prévoir un renouvellement.",
+        "Medication Reminder Lite est uniquement un outil personnel de rappel. L’application ne fournit pas de conseil médical et ne vérifie pas les traitements."
+      ],
+      "bottomCtaDescription": "Gardez vos prises quotidiennes sous contrôle avec une application Android claire et facile à utiliser. Ajoutez vos médicaments, consultez la liste du jour, reportez une dose si nécessaire et suivez votre historique en toute simplicité.",
+      "category": "Santé et rappels",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Rappel médicament",
+        "Rappel pilule",
+        "Suivi médicaments",
+        "Rappel dose",
+        "Rappel santé",
+        "Checklist quotidienne",
+        "Historique prises"
+      ],
+      "metaTitle": "Medication Reminder Lite - Rappel de médicaments",
+      "metaDescription": "Application Android simple pour rappels de médicaments, suivi des doses, snooze, historique et alertes de stock faible.",
+      "featureBullets": [
+        {
+          "title": "Checklist quotidienne"
+        },
+        {
+          "title": "Rappels de prise"
+        },
+        {
+          "title": "Actions Pris et Snooze"
+        },
+        {
+          "title": "Historique des prises"
+        },
+        {
+          "title": "Alertes de stock faible"
+        },
+        {
+          "title": "Liste des médicaments actifs"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Ne manquez plus une dose",
+          "description": "Montrer la checklist du jour avec doses à venir, retards, doses restantes et boutons d’action rapides.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-1.png"
+        },
+        {
+          "title": "Gérez vos médicaments",
+          "description": "Montrer l’écran des médicaments actifs avec dosage, heure, quantité restante, interrupteur et bouton d’ajout.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-2.png"
+        },
+        {
+          "title": "Suivez votre historique",
+          "description": "Montrer l’historique avec une prise enregistrée et un badge de statut clair.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "À quoi sert Medication Reminder Lite ?",
+          "answer": "L’application sert à programmer des rappels personnels, suivre les prises du jour et consulter l’historique sur Android."
+        },
+        {
+          "question": "Puis-je marquer une dose comme prise ou ignorée ?",
+          "answer": "Oui. Vous pouvez indiquer qu’une dose est prise, ignorée, manquée ou reportée avec Snooze."
+        },
+        {
+          "question": "L’application peut-elle signaler un stock faible ?",
+          "answer": "Oui. Vous pouvez suivre la quantité restante et recevoir un rappel lorsque le stock devient faible."
+        },
+        {
+          "question": "Medication Reminder Lite donne-t-elle des conseils médicaux ?",
+          "answer": "Non. C’est un outil de rappel personnel, pas une source de conseil médical."
+        }
+      ]
+    },
+    "it": {
+      "name": "Medication Reminder Lite",
+      "summary": "Medication Reminder Lite ti aiuta a ricordare le dosi, registrare ciò che hai preso e gestire routine semplici per farmaci, vitamine e integratori.",
+      "longDescription": [
+        "Medication Reminder Lite è un’app Android per promemoria farmaci pensata per dosi quotidiane, vitamine, integratori e routine personali. È ideale se vuoi una gestione semplice, chiara e senza funzioni superflue.",
+        "La checklist giornaliera mostra cosa è in arrivo, cosa è in ritardo e cosa è già stato registrato. Con azioni rapide come Preso, Snooze, Saltato e Mancato puoi aggiornare ogni dose in pochi secondi.",
+        "Gestisci i medicinali attivi con nome, dosaggio, orario, note e quantità rimanente. Gli avvisi per scorta bassa ti aiutano a capire quando un prodotto sta per finire.",
+        "Medication Reminder Lite è solo uno strumento personale di promemoria. Non fornisce consigli medici e non verifica piani terapeutici."
+      ],
+      "bottomCtaDescription": "Rendi più ordinata la tua routine quotidiana con un promemoria farmaci semplice e chiaro. Aggiungi i tuoi medicinali, controlla la lista di oggi, usa lo snooze quando serve e consulta lo storico delle assunzioni.",
+      "category": "Salute e promemoria",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Promemoria farmaci",
+        "Promemoria pillole",
+        "Tracker medicinali",
+        "Promemoria dose",
+        "Salute quotidiana",
+        "Checklist giornaliera",
+        "Storico assunzioni"
+      ],
+      "metaTitle": "Medication Reminder Lite - Promemoria farmaci",
+      "metaDescription": "App Android semplice per promemoria farmaci, dosi, snooze, storico assunzioni e avvisi per scorta bassa.",
+      "featureBullets": [
+        {
+          "title": "Checklist dosi giornaliera"
+        },
+        {
+          "title": "Promemoria farmaci"
+        },
+        {
+          "title": "Azioni Preso e Snooze"
+        },
+        {
+          "title": "Storico assunzioni"
+        },
+        {
+          "title": "Avvisi scorta bassa"
+        },
+        {
+          "title": "Lista medicinali attivi"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Non dimenticare una dose",
+          "description": "Mostrare la schermata Oggi con dosi in arrivo, dosi in ritardo, rimanenti e azioni rapide.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-1.png"
+        },
+        {
+          "title": "Gestisci i medicinali",
+          "description": "Mostrare la lista dei medicinali attivi con dosaggio, orario, scorta, interruttore e pulsante di aggiunta.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-2.png"
+        },
+        {
+          "title": "Controlla lo storico",
+          "description": "Mostrare una voce nello storico con nome del farmaco, data e stato della dose.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "A cosa serve Medication Reminder Lite?",
+          "answer": "Serve a creare promemoria personali per farmaci, seguire la checklist giornaliera e registrare le assunzioni su Android."
+        },
+        {
+          "question": "Posso segnare una dose come presa o saltata?",
+          "answer": "Sì. Puoi segnare le dosi come prese, saltate, mancate o posticipate con Snooze."
+        },
+        {
+          "question": "Sono disponibili avvisi per scorta bassa?",
+          "answer": "Sì. Puoi monitorare la quantità rimanente e ricevere un promemoria quando la scorta è bassa."
+        },
+        {
+          "question": "L’app fornisce consigli medici?",
+          "answer": "No. Medication Reminder Lite è uno strumento di promemoria personale e non sostituisce il parere di un medico."
+        }
+      ]
+    },
+    "es": {
+      "name": "Medication Reminder Lite",
+      "summary": "Medication Reminder Lite te ayuda a recordar tus dosis, registrar lo que has tomado y mantener una rutina sencilla de medicamentos.",
+      "longDescription": [
+        "Medication Reminder Lite es una app Android de recordatorio de medicamentos pensada para dosis diarias, vitaminas, suplementos y rutinas personales. Te ayuda a mantener todo organizado de forma simple.",
+        "La lista diaria muestra las dosis próximas, las atrasadas y las que ya has registrado. Con acciones rápidas como Tomado, Posponer, Omitido y Perdido puedes actualizar cada toma sin complicaciones.",
+        "Gestiona tus medicamentos activos con nombre, dosis, hora, notas y cantidad restante. Las alertas de suministro bajo te ayudan a saber cuándo queda poco.",
+        "Medication Reminder Lite es una herramienta personal de recordatorio. No ofrece consejos médicos ni verifica planes de tratamiento."
+      ],
+      "bottomCtaDescription": "Organiza tu rutina diaria con una app de recordatorio de medicamentos clara y fácil de usar. Añade tus medicamentos, revisa la lista de hoy, pospón una dosis cuando lo necesites y consulta tu historial en Android.",
+      "category": "Salud y recordatorios",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Recordatorio medicamentos",
+        "Recordatorio pastillas",
+        "Control medicamentos",
+        "Recordatorio dosis",
+        "Salud diaria",
+        "Lista diaria",
+        "Historial de tomas"
+      ],
+      "metaTitle": "Medication Reminder Lite - Recordatorio de medicamentos",
+      "metaDescription": "App Android sencilla para recordatorios de medicamentos, dosis, snooze, historial y alertas de suministro bajo.",
+      "featureBullets": [
+        {
+          "title": "Lista diaria de dosis"
+        },
+        {
+          "title": "Recordatorios de medicamentos"
+        },
+        {
+          "title": "Acciones Tomado y Posponer"
+        },
+        {
+          "title": "Historial de tomas"
+        },
+        {
+          "title": "Alertas de suministro bajo"
+        },
+        {
+          "title": "Medicamentos activos"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "No olvides ninguna dosis",
+          "description": "Mostrar la lista de Hoy con dosis próximas, atrasadas, restantes y botones rápidos como Tomado y Posponer.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-1.png"
+        },
+        {
+          "title": "Gestiona tus medicamentos",
+          "description": "Mostrar la pantalla de medicamentos activos con dosis, hora, cantidad restante, interruptor y botón para añadir.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-2.png"
+        },
+        {
+          "title": "Consulta tu historial",
+          "description": "Mostrar el historial con una toma registrada y una etiqueta de estado clara.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Para qué sirve Medication Reminder Lite?",
+          "answer": "Sirve para crear recordatorios personales, seguir las dosis del día y consultar el historial de medicamentos en Android."
+        },
+        {
+          "question": "¿Puedo marcar una dosis como tomada u omitida?",
+          "answer": "Sí. Puedes marcar una dosis como tomada, omitida, perdida o pospuesta."
+        },
+        {
+          "question": "¿La app avisa cuando queda poco suministro?",
+          "answer": "Sí. Puedes controlar la cantidad restante y recibir un aviso cuando el suministro esté bajo."
+        },
+        {
+          "question": "¿Medication Reminder Lite da consejos médicos?",
+          "answer": "No. Es una herramienta de recordatorio personal y no sustituye la orientación de un profesional sanitario."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Medication Reminder Lite",
+      "summary": "Medication Reminder Lite ajuda a lembrar doses, acompanhar o que foi tomado e organizar rotinas simples de medicamentos no Android.",
+      "longDescription": [
+        "Medication Reminder Lite é um app Android de lembrete de medicamentos criado para doses diárias, vitaminas, suplementos e rotinas pessoais. Ele mantém tudo organizado com uma experiência simples e clara.",
+        "A checklist diária mostra o que está por vir, o que está atrasado e o que já foi registrado. Ações rápidas como Tomado, Adiar, Pulado e Perdido facilitam o acompanhamento de cada dose.",
+        "Gerencie medicamentos ativos com nome, dosagem, horário, notas e quantidade restante. Os alertas de estoque baixo ajudam você a perceber quando algo está acabando.",
+        "Medication Reminder Lite é apenas uma ferramenta pessoal de lembrete. O app não fornece orientação médica nem verifica tratamentos."
+      ],
+      "bottomCtaDescription": "Deixe sua rotina diária mais fácil com um lembrete de medicamentos simples e direto. Cadastre medicamentos, acompanhe a lista do dia, adie uma dose quando necessário e veja seu histórico em poucos toques.",
+      "category": "Saúde e lembretes",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Lembrete de medicamentos",
+        "Lembrete de remédio",
+        "Controle de medicamentos",
+        "Lembrete de dose",
+        "Saúde diária",
+        "Checklist diária",
+        "Histórico de doses"
+      ],
+      "metaTitle": "Medication Reminder Lite - Lembrete de medicamentos",
+      "metaDescription": "App Android simples para lembretes de medicamentos, doses, soneca, histórico e alertas de estoque baixo.",
+      "featureBullets": [
+        {
+          "title": "Checklist diária de doses"
+        },
+        {
+          "title": "Lembretes de medicamentos"
+        },
+        {
+          "title": "Ações Tomado e Adiar"
+        },
+        {
+          "title": "Histórico de doses"
+        },
+        {
+          "title": "Alertas de estoque baixo"
+        },
+        {
+          "title": "Lista de medicamentos ativos"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Não esqueça uma dose",
+          "description": "Mostrar a checklist de Hoje com doses futuras, atrasadas, restantes e ações rápidas como Tomado e Adiar.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-1.png"
+        },
+        {
+          "title": "Gerencie medicamentos",
+          "description": "Mostrar a tela de medicamentos ativos com dosagem, horário, quantidade restante, alternância e botão de adicionar.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-2.png"
+        },
+        {
+          "title": "Acompanhe o histórico",
+          "description": "Mostrar o histórico com uma dose registrada e um selo de status claro.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Para que serve o Medication Reminder Lite?",
+          "answer": "O app ajuda a criar lembretes pessoais, acompanhar a checklist do dia e registrar o histórico de medicamentos no Android."
+        },
+        {
+          "question": "Posso marcar uma dose como tomada ou pulada?",
+          "answer": "Sim. Você pode marcar uma dose como tomada, pulada, perdida ou adiada."
+        },
+        {
+          "question": "O app avisa quando o estoque está baixo?",
+          "answer": "Sim. Você pode acompanhar a quantidade restante e receber lembretes quando o estoque estiver baixo."
+        },
+        {
+          "question": "O app oferece orientação médica?",
+          "answer": "Não. Medication Reminder Lite é uma ferramenta de lembrete pessoal e não substitui orientação profissional."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Medication Reminder Lite",
+      "summary": "Medication Reminder Lite помаже да не заборавиш дозе, пратиш шта је узето и једноставно организујеш дневну рутину лекова.",
+      "longDescription": [
+        "Medication Reminder Lite је једноставна Android апликација за подсетнике за лекове, витамине, суплементе и личне распореде. Направљена је да дневну рутину учини јаснијом и лакшом за праћење.",
+        "Дневна листа приказује шта долази, шта је закаснило и шта је већ евидентирано. Брзе радње као што су Узето, Одложи, Прескочено и Пропуштено помажу да сваку дозу обележиш без компликација.",
+        "Активне лекове можеш да пратиш на једном месту, уз назив, дозу, време, белешке и преосталу количину. Подсетници за малу залиху помажу да на време приметиш када нешто понестаје.",
+        "Medication Reminder Lite је лични алат за подсетнике. Апликација не даје медицинске савете и не проверава терапије."
+      ],
+      "bottomCtaDescription": "Олакшај свакодневну рутину помоћу једноставне Android апликације за подсетнике за лекове. Додај лекове, прати данашњу листу, одложи подсетник када је потребно и прегледај историју уноса.",
+      "category": "Здравље и подсетници",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Подсетник за лекове",
+        "Подсетник за таблете",
+        "Праћење лекова",
+        "Подсетник за дозу",
+        "Дневна рутина",
+        "Здравље",
+        "Историја узимања"
+      ],
+      "metaTitle": "Medication Reminder Lite - Подсетник за лекове",
+      "metaDescription": "Једноставна Android апликација за подсетнике за лекове, дозе, одлагање, историју и упозорења за малу залиху.",
+      "featureBullets": [
+        {
+          "title": "Дневна листа доза"
+        },
+        {
+          "title": "Подсетници за лекове"
+        },
+        {
+          "title": "Узето и Одложи"
+        },
+        {
+          "title": "Историја узимања"
+        },
+        {
+          "title": "Упозорења за малу залиху"
+        },
+        {
+          "title": "Активни лекови"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Не заборави дозу",
+          "description": "Приказати данашњу листу са предстојећим, закаснелим и преосталим дозама, уз брзе радње као што су Узето и Одложи.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-1.png"
+        },
+        {
+          "title": "Управљај лековима",
+          "description": "Приказати екран активних лекова са дозом, временом, преосталом количином, прекидачем и дугметом за додавање.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-2.png"
+        },
+        {
+          "title": "Прати историју",
+          "description": "Приказати историју са евидентираном дозом и јасном ознаком статуса.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Чему служи Medication Reminder Lite?",
+          "answer": "Апликација служи за личне подсетнике за лекове, праћење дневних доза и преглед историје на Android уређају."
+        },
+        {
+          "question": "Могу ли да означим дозу као узету или прескочену?",
+          "answer": "Да. Дозу можеш означити као узету, прескочену, пропуштену или одложену."
+        },
+        {
+          "question": "Да ли апликација има подсетник за малу залиху?",
+          "answer": "Да. Можеш пратити преосталу количину и добити подсетник када залиха постане мала."
+        },
+        {
+          "question": "Да ли апликација даје медицинске савете?",
+          "answer": "Не. Medication Reminder Lite је алат за личне подсетнике и не замењује савет лекара или фармацеута."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Medication Reminder Lite",
+      "summary": "Medication Reminder Lite pomaže ti da ne zaboraviš doze, pratiš što je uzeto i jednostavno organiziraš rutinu lijekova.",
+      "longDescription": [
+        "Medication Reminder Lite je jednostavna Android aplikacija za podsjetnike za lijekove, vitamine, dodatke prehrani i osobne rasporede. Osmišljena je za svakodnevnu rutinu bez nepotrebne složenosti.",
+        "Dnevna lista prikazuje što dolazi, što kasni i što je već zabilježeno. Brze radnje kao što su Uzeto, Odgodi, Preskočeno i Propušteno olakšavaju praćenje svake doze.",
+        "Aktivne lijekove možeš držati na jednom mjestu, uz naziv, dozu, vrijeme, bilješke i preostalu količinu. Podsjetnici za nisku zalihu pomažu ti primijetiti kada nešto uskoro ponestaje.",
+        "Medication Reminder Lite je osobni alat za podsjetnike. Aplikacija ne pruža medicinske savjete i ne provjerava terapijske planove."
+      ],
+      "bottomCtaDescription": "Učini dnevnu rutinu preglednijom uz jednostavnu Android aplikaciju za podsjetnike za lijekove. Dodaj lijekove, prati današnju listu, odgodi podsjetnik kada treba i provjeri povijest uzimanja.",
+      "category": "Zdravlje i podsjetnici",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Podsjetnik za lijekove",
+        "Podsjetnik za tablete",
+        "Praćenje lijekova",
+        "Podsjetnik za dozu",
+        "Zdravstveni podsjetnik",
+        "Dnevna lista",
+        "Povijest uzimanja"
+      ],
+      "metaTitle": "Medication Reminder Lite - Podsjetnik za lijekove",
+      "metaDescription": "Jednostavna Android aplikacija za podsjetnike za lijekove, doze, odgodu, povijest i upozorenja za nisku zalihu.",
+      "featureBullets": [
+        {
+          "title": "Dnevna lista doza"
+        },
+        {
+          "title": "Podsjetnici za lijekove"
+        },
+        {
+          "title": "Uzeto i Odgodi"
+        },
+        {
+          "title": "Povijest uzimanja"
+        },
+        {
+          "title": "Upozorenja za nisku zalihu"
+        },
+        {
+          "title": "Aktivni lijekovi"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Ne zaboravi dozu",
+          "description": "Prikazati današnju listu s nadolazećim, zakašnjelim i preostalim dozama te brzim radnjama.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-1.png"
+        },
+        {
+          "title": "Upravljaj lijekovima",
+          "description": "Prikazati zaslon aktivnih lijekova s dozom, vremenom, preostalom količinom, prekidačem i gumbom za dodavanje.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-2.png"
+        },
+        {
+          "title": "Prati povijest",
+          "description": "Prikazati povijest s evidentiranom dozom i jasnom oznakom statusa.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Čemu služi Medication Reminder Lite?",
+          "answer": "Aplikacija služi za osobne podsjetnike za lijekove, praćenje dnevnih doza i pregled povijesti na Androidu."
+        },
+        {
+          "question": "Mogu li označiti dozu kao uzetu ili preskočenu?",
+          "answer": "Da. Dozu možeš označiti kao uzetu, preskočenu, propuštenu ili odgođenu."
+        },
+        {
+          "question": "Ima li aplikacija upozorenja za nisku zalihu?",
+          "answer": "Da. Možeš pratiti preostalu količinu i dobiti podsjetnik kada zaliha postane niska."
+        },
+        {
+          "question": "Pruža li aplikacija medicinske savjete?",
+          "answer": "Ne. Medication Reminder Lite je alat za osobne podsjetnike i ne zamjenjuje savjet liječnika ili ljekarnika."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Medication Reminder Lite",
+      "summary": "Medication Reminder Lite helpt je doses te onthouden, inname bij te houden en eenvoudige medicatieroutines overzichtelijk te beheren.",
+      "longDescription": [
+        "Medication Reminder Lite is een eenvoudige Android app voor medicatieherinneringen, dagelijkse doses, vitamines, supplementen en persoonlijke routines. De app houdt je planning duidelijk zonder onnodige afleiding.",
+        "De dagelijkse checklist laat zien wat eraan komt, wat te laat is en wat al is vastgelegd. Met snelle acties zoals Ingenomen, Snooze, Overgeslagen en Gemist werk je elke dosis makkelijk bij.",
+        "Beheer actieve medicijnen met naam, dosering, tijd, notities en resterende voorraad. Meldingen bij lage voorraad helpen je op tijd te zien wanneer iets bijna op is.",
+        "Medication Reminder Lite is alleen een persoonlijk herinneringshulpmiddel. De app geeft geen medisch advies en controleert geen behandelplannen."
+      ],
+      "bottomCtaDescription": "Maak je dagelijkse routine eenvoudiger met een duidelijke Android app voor medicatieherinneringen. Voeg medicijnen toe, bekijk de checklist van vandaag, snooze wanneer nodig en volg je innamegeschiedenis.",
+      "category": "Gezondheid en herinneringen",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Medicatie herinnering",
+        "Pil herinnering",
+        "Medicijn tracker",
+        "Dosis herinnering",
+        "Gezondheid reminder",
+        "Dagelijkse checklist",
+        "Innamegeschiedenis"
+      ],
+      "metaTitle": "Medication Reminder Lite - Medicatie herinnering",
+      "metaDescription": "Eenvoudige Android app voor medicatieherinneringen, doses, snooze, geschiedenis en meldingen bij lage voorraad.",
+      "featureBullets": [
+        {
+          "title": "Dagelijkse dosischecklist"
+        },
+        {
+          "title": "Medicatieherinneringen"
+        },
+        {
+          "title": "Ingenomen en Snooze"
+        },
+        {
+          "title": "Innamegeschiedenis"
+        },
+        {
+          "title": "Meldingen bij lage voorraad"
+        },
+        {
+          "title": "Actieve medicatielijst"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Geen dosis vergeten",
+          "description": "Toon de Vandaag-checklist met komende doses, te late doses, resterende doses en snelle acties.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-1.png"
+        },
+        {
+          "title": "Medicatie beheren",
+          "description": "Toon het scherm met actieve medicijnen, dosering, tijd, resterende voorraad, schakelaar en toevoegknop.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-2.png"
+        },
+        {
+          "title": "Geschiedenis volgen",
+          "description": "Toon de geschiedenis met een vastgelegde inname en duidelijke statusbadge.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Waarvoor gebruik ik Medication Reminder Lite?",
+          "answer": "Je gebruikt de app om persoonlijke medicatieherinneringen in te stellen, de dagelijkse checklist te volgen en je geschiedenis op Android te bekijken."
+        },
+        {
+          "question": "Kan ik een dosis markeren als ingenomen of overgeslagen?",
+          "answer": "Ja. Je kunt een dosis markeren als ingenomen, overgeslagen, gemist of gesnoozed."
+        },
+        {
+          "question": "Heeft de app meldingen voor lage voorraad?",
+          "answer": "Ja. Je kunt resterende voorraad bijhouden en een herinnering krijgen wanneer de voorraad laag is."
+        },
+        {
+          "question": "Geeft Medication Reminder Lite medisch advies?",
+          "answer": "Nee. De app is een persoonlijk herinneringshulpmiddel en vervangt geen advies van een zorgprofessional."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Medication Reminder Lite",
+      "summary": "Medication Reminder Lite pomaga pamiętać o dawkach, śledzić przyjęte leki i prosto organizować codzienną rutynę.",
+      "longDescription": [
+        "Medication Reminder Lite to prosta aplikacja Android do przypominania o lekach, witaminach, suplementach i osobistych harmonogramach. Pomaga utrzymać porządek bez zbędnych komplikacji.",
+        "Codzienna lista pokazuje nadchodzące dawki, zaległe przypomnienia i wpisy już zapisane. Szybkie akcje, takie jak Przyjęto, Drzemka, Pominięto i Nie przyjęto, ułatwiają bieżące śledzenie.",
+        "Zarządzaj aktywnymi lekami z nazwą, dawką, godziną, notatkami i pozostałą ilością. Alerty niskiego zapasu pomagają zauważyć, kiedy lek lub suplement zaczyna się kończyć.",
+        "Medication Reminder Lite jest wyłącznie osobistym narzędziem do przypomnień. Aplikacja nie udziela porad medycznych i nie weryfikuje planów leczenia."
+      ],
+      "bottomCtaDescription": "Ułatw sobie codzienne przyjmowanie leków dzięki przejrzystej aplikacji na Androida. Dodaj leki, sprawdzaj listę na dziś, odkładaj przypomnienia i przeglądaj historię w jednym miejscu.",
+      "category": "Zdrowie i przypomnienia",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Przypomnienie o lekach",
+        "Przypomnienie o tabletkach",
+        "Tracker leków",
+        "Przypomnienie dawki",
+        "Zdrowie",
+        "Lista dzienna",
+        "Historia przyjmowania"
+      ],
+      "metaTitle": "Medication Reminder Lite - Przypomnienia o lekach",
+      "metaDescription": "Prosta aplikacja Android do przypomnień o lekach, dawkach, drzemce, historii i alertach niskiego zapasu.",
+      "featureBullets": [
+        {
+          "title": "Codzienna lista dawek"
+        },
+        {
+          "title": "Przypomnienia o lekach"
+        },
+        {
+          "title": "Przyjęto i Drzemka"
+        },
+        {
+          "title": "Historia przyjmowania"
+        },
+        {
+          "title": "Alerty niskiego zapasu"
+        },
+        {
+          "title": "Lista aktywnych leków"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Nie zapomnij dawki",
+          "description": "Pokazać ekran Dzisiaj z nadchodzącymi dawkami, zaległościami, liczbą pozostałych dawek i szybkimi akcjami.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-1.png"
+        },
+        {
+          "title": "Zarządzaj lekami",
+          "description": "Pokazać listę aktywnych leków z dawką, godziną, pozostałą ilością, przełącznikiem i przyciskiem dodawania.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-2.png"
+        },
+        {
+          "title": "Śledź historię",
+          "description": "Pokazać historię z zapisanym wpisem i czytelną etykietą statusu.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do czego służy Medication Reminder Lite?",
+          "answer": "Aplikacja pomaga ustawiać osobiste przypomnienia o lekach, śledzić listę dnia i przeglądać historię na Androidzie."
+        },
+        {
+          "question": "Czy mogę oznaczyć dawkę jako przyjętą lub pominiętą?",
+          "answer": "Tak. Dawki można oznaczać jako przyjęte, pominięte, nieprzyjęte lub odłożone."
+        },
+        {
+          "question": "Czy aplikacja przypomina o niskim zapasie?",
+          "answer": "Tak. Możesz śledzić pozostałą ilość i otrzymać przypomnienie, gdy zapas jest niski."
+        },
+        {
+          "question": "Czy aplikacja udziela porad medycznych?",
+          "answer": "Nie. Medication Reminder Lite to narzędzie do osobistych przypomnień i nie zastępuje konsultacji medycznej."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Medication Reminder Lite",
+      "summary": "Medication Reminder Lite te ajută să îți amintești dozele, să urmărești ce ai luat și să organizezi simplu rutina de medicamente.",
+      "longDescription": [
+        "Medication Reminder Lite este o aplicație Android simplă pentru mementouri de medicamente, vitamine, suplimente și programe personale. Este construită pentru o rutină clară, fără setări complicate.",
+        "Lista zilnică arată dozele care urmează, cele întârziate și cele deja înregistrate. Acțiunile rapide precum Luat, Amână, Omis și Ratat te ajută să actualizezi fiecare doză rapid.",
+        "Gestionează medicamentele active cu nume, dozaj, oră, notițe și cantitate rămasă. Alertele pentru stoc redus te ajută să observi când un medicament sau supliment este aproape terminat.",
+        "Medication Reminder Lite este doar un instrument personal de mementouri. Aplicația nu oferă sfaturi medicale și nu verifică planuri de tratament."
+      ],
+      "bottomCtaDescription": "Fă rutina zilnică mai ușoară cu o aplicație Android clară pentru mementouri de medicamente. Adaugă medicamentele, verifică lista de azi, amână o doză când ai nevoie și urmărește istoricul.",
+      "category": "Sănătate și mementouri",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Memento medicamente",
+        "Memento pastile",
+        "Tracker medicamente",
+        "Memento doză",
+        "Sănătate zilnică",
+        "Listă zilnică",
+        "Istoric doze"
+      ],
+      "metaTitle": "Medication Reminder Lite - Memento medicamente",
+      "metaDescription": "Aplicație Android simplă pentru mementouri de medicamente, doze, amânare, istoric și alerte pentru stoc redus.",
+      "featureBullets": [
+        {
+          "title": "Listă zilnică de doze"
+        },
+        {
+          "title": "Mementouri medicamente"
+        },
+        {
+          "title": "Acțiuni Luat și Amână"
+        },
+        {
+          "title": "Istoric doze"
+        },
+        {
+          "title": "Alerte pentru stoc redus"
+        },
+        {
+          "title": "Listă de medicamente active"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Nu rata nicio doză",
+          "description": "Arată lista de azi cu doze viitoare, doze întârziate, doze rămase și acțiuni rapide.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-1.png"
+        },
+        {
+          "title": "Gestionează medicamentele",
+          "description": "Arată ecranul cu medicamente active, dozaj, oră, cantitate rămasă, comutator și buton de adăugare.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-2.png"
+        },
+        {
+          "title": "Urmărește istoricul",
+          "description": "Arată istoricul cu o doză înregistrată și o etichetă clară de status.",
+          "imagePath": "apps/screenshots/medication-reminder-lite/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Pentru ce este Medication Reminder Lite?",
+          "answer": "Aplicația ajută la setarea mementourilor personale pentru medicamente, urmărirea listei zilnice și consultarea istoricului pe Android."
+        },
+        {
+          "question": "Pot marca o doză ca luată sau omisă?",
+          "answer": "Da. Poți marca o doză ca luată, omisă, ratată sau amânată."
+        },
+        {
+          "question": "Există alerte pentru stoc redus?",
+          "answer": "Da. Poți urmări cantitatea rămasă și primi un memento când stocul devine redus."
+        },
+        {
+          "question": "Aplicația oferă sfaturi medicale?",
+          "answer": "Nu. Medication Reminder Lite este un instrument personal de mementouri și nu înlocuiește sfatul unui specialist."
+        }
+      ]
+    }
+  }
+}
