@@ -1,0 +1,910 @@
+{
+  "slug": "plant-watering-reminder",
+  "sortOrder": 16,
+  "kind": "app",
+  "featured": false,
+  "accent": "red",
+  "icon": "apps/icons/plant-watering-reminder.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.plantwateringreminder",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "LifestyleApplication",
+  "relatedSlugs": [
+    "stretch-break-reminder",
+    "water-reminder",
+    "medication-reminder-lite"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Plant Watering Reminder",
+      "summary": "Plant Watering Reminder helps you remember when to water each plant, track what is due, and keep indoor plant care simple with clean daily reminders.",
+      "longDescription": [
+        "Plant Watering Reminder is a simple Android plant care app built for people who want healthier plants without complicated tracking. Add your houseplants, set a watering schedule, and see what needs attention at a glance.",
+        "The dashboard shows plants due today, overdue plants, and recently handled care tasks, so you always know what to water next. Quick actions like Watered, Snooze, and Skip make it easy to keep your routine accurate.",
+        "Create a care setup that fits your home. Add plant names, species, room tags, placeholder styles, notes, reminder windows, and schedules such as every few days or selected weekdays.",
+        "Plant Watering Reminder focuses on practical daily plant care. Core tracking works offline, while system notifications help you stay consistent with your watering routine."
+      ],
+      "bottomCtaDescription": "Keep your plants healthy without overthinking your schedule. Add each plant once, choose a watering rhythm, organize by room, and use simple reminders to know what needs water today, what can wait, and what you already handled.",
+      "category": "Plant Care",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Plant watering reminder",
+        "Plant care app",
+        "Watering schedule",
+        "Houseplant care",
+        "Plant tracker",
+        "Indoor plants",
+        "Garden reminder"
+      ],
+      "metaTitle": "Plant Watering Reminder - Plant Care Schedule App",
+      "metaDescription": "Simple Android plant care app for watering reminders, room tags, schedules, snooze, skip actions and plant watering history.",
+      "featureBullets": [
+        {
+          "title": "Watering reminders"
+        },
+        {
+          "title": "Due and overdue dashboard"
+        },
+        {
+          "title": "Room tags"
+        },
+        {
+          "title": "Watered, snooze and skip"
+        },
+        {
+          "title": "Custom watering schedules"
+        },
+        {
+          "title": "Offline plant care tracking"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Plant care at a glance",
+          "description": "Show the dashboard with due today, overdue count, empty-state guidance, and the Add plant action.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Add each plant once",
+          "description": "Show the add plant form with plant name, species, room tags, placeholder style, watering interval, reminder window, and notes.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Water, snooze or skip",
+          "description": "Show a plant card with room, schedule, next due date, last watered date, and quick actions for Watered, Snooze, and Skip.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is Plant Watering Reminder used for?",
+          "answer": "It helps you track houseplants, create watering schedules, and see which plants are due or overdue on Android."
+        },
+        {
+          "question": "Can I set different watering schedules for different plants?",
+          "answer": "Yes. Each plant can have its own schedule, including watering every X days or using weekday-based reminders."
+        },
+        {
+          "question": "Can I organize plants by room?",
+          "answer": "Yes. You can use room tags such as living room, bedroom, kitchen, office, balcony, bathroom, plant corner, or other."
+        },
+        {
+          "question": "Does the app work offline?",
+          "answer": "Yes. Core plant care tracking works offline. Reminder notifications use the Android system notification sound."
+        }
+      ]
+    },
+    "de": {
+      "name": "Plant Watering Reminder",
+      "summary": "Plant Watering Reminder hilft dir, das Gießen deiner Pflanzen nicht zu vergessen, fällige Aufgaben zu sehen und Zimmerpflanzen einfacher zu pflegen.",
+      "longDescription": [
+        "Plant Watering Reminder ist eine einfache Android App für Pflanzenpflege und Gieß-Erinnerungen. Sie hilft dir, Zimmerpflanzen, Balkonpflanzen und persönliche Pflegeroutinen übersichtlich zu verwalten.",
+        "Das Dashboard zeigt dir, welche Pflanzen heute fällig sind, welche überfällig sind und welche Aufgaben du bereits erledigt hast. Mit schnellen Aktionen wie Gegossen, Snooze und Überspringen bleibt deine Liste immer aktuell.",
+        "Passe die App an dein Zuhause an. Du kannst Pflanzennamen, Arten, Raum-Tags, Platzhalter-Stile, Notizen, Erinnerungsfenster und Gießrhythmen wie alle X Tage oder bestimmte Wochentage festlegen.",
+        "Plant Watering Reminder konzentriert sich auf praktische, tägliche Pflanzenpflege. Die wichtigsten Funktionen funktionieren offline, während Systembenachrichtigungen dich zuverlässig an das Gießen erinnern."
+      ],
+      "bottomCtaDescription": "Behalte deine Pflanzenroutine entspannt im Griff. Lege jede Pflanze einmal an, wähle den passenden Gießrhythmus, organisiere sie nach Räumen und erkenne sofort, was heute Wasser braucht und was noch warten kann.",
+      "category": "Pflanzenpflege",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Pflanzen gießen Erinnerung",
+        "Pflanzenpflege App",
+        "Gießplan",
+        "Zimmerpflanzen Pflege",
+        "Pflanzen Tracker",
+        "Gieß Erinnerung",
+        "Pflanzen Kalender"
+      ],
+      "metaTitle": "Plant Watering Reminder - App für Pflanzenpflege",
+      "metaDescription": "Android App für Gieß-Erinnerungen, Pflanzenpflege, Raum-Tags, Gießplan, Snooze, Überspringen und einfache Pflanzenübersicht.",
+      "featureBullets": [
+        {
+          "title": "Gieß-Erinnerungen"
+        },
+        {
+          "title": "Fällig- und Überfällig-Übersicht"
+        },
+        {
+          "title": "Raum-Tags"
+        },
+        {
+          "title": "Gegossen, Snooze und Überspringen"
+        },
+        {
+          "title": "Eigene Gießpläne"
+        },
+        {
+          "title": "Offline-Pflanzenpflege"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Pflanzenpflege auf einen Blick",
+          "description": "Zeige das Dashboard mit heute fälligen Pflanzen, überfälligen Aufgaben, Hinweiskarte und Schaltfläche zum Hinzufügen.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Pflanzen einfach hinzufügen",
+          "description": "Zeige das Formular mit Pflanzenname, Art, Raum-Tags, Platzhalter-Stil, Gießintervall, Erinnerungsfenster und Notiz.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Gießen, snoozen oder überspringen",
+          "description": "Zeige eine Pflanzenkarte mit Raum, Rhythmus, nächstem Gießtermin, letztem Gießen und Schnellaktionen.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wofür ist Plant Watering Reminder gedacht?",
+          "answer": "Die App hilft dir, Pflanzen zu verwalten, Gießpläne zu erstellen und auf Android zu sehen, welche Pflanzen fällig oder überfällig sind."
+        },
+        {
+          "question": "Kann jede Pflanze einen eigenen Gießplan haben?",
+          "answer": "Ja. Du kannst für jede Pflanze einen eigenen Rhythmus festlegen, zum Beispiel alle X Tage oder nach bestimmten Wochentagen."
+        },
+        {
+          "question": "Kann ich Pflanzen nach Räumen organisieren?",
+          "answer": "Ja. Du kannst Tags wie Wohnzimmer, Schlafzimmer, Küche, Büro, Balkon, Bad, Pflanzenecke oder Sonstiges verwenden."
+        },
+        {
+          "question": "Funktioniert die App offline?",
+          "answer": "Ja. Die Grundfunktionen für Pflanzenpflege funktionieren offline. Erinnerungen nutzen die Systembenachrichtigungen von Android."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Plant Watering Reminder",
+      "summary": "Plant Watering Reminder vous aide à ne pas oublier l’arrosage, à suivre les plantes à arroser et à garder une routine simple pour vos plantes d’intérieur.",
+      "longDescription": [
+        "Plant Watering Reminder est une application Android simple pour suivre l’arrosage des plantes et organiser l’entretien de vos plantes d’intérieur. Elle vous aide à garder une routine claire sans fonctions inutiles.",
+        "Le tableau de bord affiche les plantes à arroser aujourd’hui, les plantes en retard et les tâches déjà faites. Les actions rapides comme Arrosé, Snooze et Ignorer permettent de mettre à jour votre suivi en quelques secondes.",
+        "Personnalisez chaque plante avec son nom, son espèce, une pièce, un style d’icône, des notes, une fenêtre de rappel et un rythme d’arrosage, par exemple tous les X jours ou certains jours de la semaine.",
+        "Plant Watering Reminder se concentre sur l’entretien quotidien des plantes. Le suivi principal fonctionne hors ligne et les notifications Android vous aident à rester régulier."
+      ],
+      "bottomCtaDescription": "Prenez soin de vos plantes sans vous perdre dans un planning compliqué. Ajoutez chaque plante, choisissez son rythme d’arrosage, classez-la par pièce et voyez rapidement ce qui doit être arrosé aujourd’hui.",
+      "category": "Entretien des plantes",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Rappel arrosage plantes",
+        "Application plantes",
+        "Planning arrosage",
+        "Entretien plantes",
+        "Plantes d’intérieur",
+        "Suivi plantes",
+        "Rappel jardinage"
+      ],
+      "metaTitle": "Plant Watering Reminder - Rappel d’arrosage plantes",
+      "metaDescription": "Application Android simple pour rappels d’arrosage, planning plantes, pièces, snooze, actions rapides et suivi des plantes.",
+      "featureBullets": [
+        {
+          "title": "Rappels d’arrosage"
+        },
+        {
+          "title": "Vue des plantes dues"
+        },
+        {
+          "title": "Tags par pièce"
+        },
+        {
+          "title": "Arrosé, snooze et ignorer"
+        },
+        {
+          "title": "Plannings personnalisés"
+        },
+        {
+          "title": "Suivi hors ligne"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Vos plantes en un coup d’œil",
+          "description": "Montrer le tableau de bord avec les plantes dues aujourd’hui, les retards, un message d’aide et le bouton Ajouter une plante.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Ajoutez chaque plante",
+          "description": "Montrer le formulaire avec nom, espèce, pièce, style, intervalle d’arrosage, fenêtre de rappel et note.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Arroser, reporter ou ignorer",
+          "description": "Montrer une carte de plante avec pièce, fréquence, prochaine date, dernier arrosage et actions rapides.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "À quoi sert Plant Watering Reminder ?",
+          "answer": "L’application sert à gérer vos plantes, créer des rappels d’arrosage et voir les plantes dues ou en retard sur Android."
+        },
+        {
+          "question": "Puis-je créer un planning différent pour chaque plante ?",
+          "answer": "Oui. Chaque plante peut avoir son propre rythme, par exemple tous les X jours ou selon certains jours de la semaine."
+        },
+        {
+          "question": "Puis-je organiser mes plantes par pièce ?",
+          "answer": "Oui. Vous pouvez utiliser des tags comme salon, chambre, cuisine, bureau, balcon, salle de bain, coin plantes ou autre."
+        },
+        {
+          "question": "L’application fonctionne-t-elle hors ligne ?",
+          "answer": "Oui. Le suivi principal fonctionne hors ligne. Les rappels utilisent les notifications du système Android."
+        }
+      ]
+    },
+    "it": {
+      "name": "Plant Watering Reminder",
+      "summary": "Plant Watering Reminder ti aiuta a ricordare quando annaffiare ogni pianta, vedere cosa è in scadenza e gestire la cura delle piante con semplicità.",
+      "longDescription": [
+        "Plant Watering Reminder è un’app Android semplice per ricordare quando annaffiare le piante e organizzare la cura delle piante da interno. È pensata per chi vuole una routine chiara e veloce.",
+        "La dashboard mostra le piante da annaffiare oggi, quelle in ritardo e le attività già gestite. Con azioni rapide come Annaffiata, Snooze e Salta puoi aggiornare lo stato di ogni pianta in pochi tocchi.",
+        "Personalizza ogni pianta con nome, specie, stanza, stile del segnaposto, note, finestra di promemoria e ritmo di annaffiatura, ad esempio ogni X giorni o in giorni specifici della settimana.",
+        "Plant Watering Reminder punta sulla cura pratica delle piante. Il tracciamento principale funziona offline e le notifiche di sistema ti aiutano a mantenere costante la routine."
+      ],
+      "bottomCtaDescription": "Mantieni le tue piante in salute senza complicare la routine. Aggiungi ogni pianta, scegli il ritmo di annaffiatura, organizza tutto per stanza e scopri subito cosa richiede acqua oggi.",
+      "category": "Cura delle piante",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Promemoria annaffiatura",
+        "App cura piante",
+        "Programma annaffiatura",
+        "Piante da interno",
+        "Tracker piante",
+        "Promemoria piante",
+        "Cura casa"
+      ],
+      "metaTitle": "Plant Watering Reminder - Promemoria per piante",
+      "metaDescription": "App Android per promemoria di annaffiatura, cura piante, stanze, programmi, snooze, salto e tracciamento semplice.",
+      "featureBullets": [
+        {
+          "title": "Promemoria annaffiatura"
+        },
+        {
+          "title": "Dashboard scadenze"
+        },
+        {
+          "title": "Tag per stanza"
+        },
+        {
+          "title": "Annaffiata, snooze e salta"
+        },
+        {
+          "title": "Programmi personalizzati"
+        },
+        {
+          "title": "Tracciamento offline"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Cura piante a colpo d’occhio",
+          "description": "Mostrare la dashboard con piante in scadenza oggi, piante in ritardo, suggerimento iniziale e pulsante Aggiungi pianta.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Aggiungi le tue piante",
+          "description": "Mostrare il modulo con nome, specie, stanza, stile, intervallo di annaffiatura, finestra promemoria e note.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Annaffia, rimanda o salta",
+          "description": "Mostrare una scheda pianta con stanza, frequenza, prossima scadenza, ultima annaffiatura e azioni rapide.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "A cosa serve Plant Watering Reminder?",
+          "answer": "Serve a gestire le piante, creare promemoria di annaffiatura e vedere su Android quali piante sono in scadenza o in ritardo."
+        },
+        {
+          "question": "Posso impostare un programma diverso per ogni pianta?",
+          "answer": "Sì. Ogni pianta può avere il proprio ritmo, come ogni X giorni o in determinati giorni della settimana."
+        },
+        {
+          "question": "Posso organizzare le piante per stanza?",
+          "answer": "Sì. Puoi usare tag come soggiorno, camera, cucina, ufficio, balcone, bagno, angolo piante o altro."
+        },
+        {
+          "question": "L’app funziona offline?",
+          "answer": "Sì. Le funzioni principali di tracciamento funzionano offline. I promemoria usano le notifiche di sistema Android."
+        }
+      ]
+    },
+    "es": {
+      "name": "Plant Watering Reminder",
+      "summary": "Plant Watering Reminder te ayuda a recordar cuándo regar cada planta, ver qué está pendiente y mantener una rutina sencilla de cuidado.",
+      "longDescription": [
+        "Plant Watering Reminder es una app Android sencilla para recordar el riego de tus plantas y organizar el cuidado de plantas de interior. Está pensada para mantener tu rutina clara y fácil de seguir.",
+        "El panel principal muestra las plantas que necesitan agua hoy, las que están atrasadas y las tareas ya realizadas. Con acciones rápidas como Regada, Posponer y Omitir puedes actualizar cada planta en segundos.",
+        "Configura cada planta con nombre, especie, habitación, estilo de marcador, notas, ventana de recordatorio y frecuencia de riego, como cada X días o determinados días de la semana.",
+        "Plant Watering Reminder se centra en el cuidado práctico del día a día. El seguimiento principal funciona sin conexión y las notificaciones del sistema Android te ayudan a ser constante."
+      ],
+      "bottomCtaDescription": "Cuida tus plantas sin complicarte con calendarios difíciles. Añade cada planta, elige su frecuencia de riego, organízala por habitación y consulta al instante qué necesita agua hoy.",
+      "category": "Cuidado de plantas",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Recordatorio riego plantas",
+        "App cuidado plantas",
+        "Calendario de riego",
+        "Plantas de interior",
+        "Control de plantas",
+        "Riego de plantas",
+        "Recordatorio jardín"
+      ],
+      "metaTitle": "Plant Watering Reminder - Recordatorio de riego",
+      "metaDescription": "App Android para recordatorios de riego, cuidado de plantas, etiquetas por habitación, snooze, omitir y horarios personalizados.",
+      "featureBullets": [
+        {
+          "title": "Recordatorios de riego"
+        },
+        {
+          "title": "Panel de pendientes"
+        },
+        {
+          "title": "Etiquetas por habitación"
+        },
+        {
+          "title": "Regada, posponer y omitir"
+        },
+        {
+          "title": "Horarios personalizados"
+        },
+        {
+          "title": "Seguimiento sin conexión"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Cuidado de plantas de un vistazo",
+          "description": "Mostrar el panel con plantas pendientes hoy, plantas atrasadas, mensaje de ayuda y botón Añadir planta.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Añade cada planta",
+          "description": "Mostrar el formulario con nombre, especie, habitación, estilo, intervalo de riego, ventana de recordatorio y nota.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Riega, pospón u omite",
+          "description": "Mostrar una tarjeta de planta con habitación, frecuencia, próxima fecha, último riego y acciones rápidas.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Para qué sirve Plant Watering Reminder?",
+          "answer": "Sirve para gestionar plantas, crear recordatorios de riego y ver en Android qué plantas están pendientes o atrasadas."
+        },
+        {
+          "question": "¿Puedo crear horarios distintos para cada planta?",
+          "answer": "Sí. Cada planta puede tener su propia frecuencia, por ejemplo cada X días o en ciertos días de la semana."
+        },
+        {
+          "question": "¿Puedo organizar las plantas por habitación?",
+          "answer": "Sí. Puedes usar etiquetas como salón, dormitorio, cocina, oficina, balcón, baño, rincón de plantas u otras."
+        },
+        {
+          "question": "¿La app funciona sin conexión?",
+          "answer": "Sí. El seguimiento básico funciona sin conexión. Los recordatorios utilizan las notificaciones del sistema Android."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Plant Watering Reminder",
+      "summary": "Plant Watering Reminder ajuda você a lembrar quando regar cada planta, acompanhar o que está pendente e simplificar o cuidado diário.",
+      "longDescription": [
+        "Plant Watering Reminder é um app Android simples para lembrar quando regar suas plantas e organizar cuidados com plantas de interior. Ele deixa sua rotina clara, prática e fácil de manter.",
+        "O painel mostra as plantas que precisam de água hoje, as que estão atrasadas e as tarefas já concluídas. Com ações rápidas como Regada, Adiar e Pular, você atualiza cada planta em poucos toques.",
+        "Personalize cada planta com nome, espécie, cômodo, estilo de marcador, notas, janela de lembrete e frequência de rega, como a cada X dias ou em dias específicos da semana.",
+        "Plant Watering Reminder foca no cuidado diário de plantas. O acompanhamento principal funciona offline, e as notificações do sistema Android ajudam você a manter a regularidade."
+      ],
+      "bottomCtaDescription": "Cuide melhor das suas plantas sem depender de memória ou planilhas. Cadastre cada planta, defina a frequência de rega, organize por cômodo e veja rapidamente o que precisa de água hoje.",
+      "category": "Cuidados com plantas",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Lembrete para regar plantas",
+        "App de plantas",
+        "Cuidados com plantas",
+        "Agenda de rega",
+        "Plantas de interior",
+        "Controle de plantas",
+        "Lembrete jardim"
+      ],
+      "metaTitle": "Plant Watering Reminder - Lembrete de rega",
+      "metaDescription": "App Android para lembretes de rega, cuidados com plantas, etiquetas por cômodo, adiar, pular e horários personalizados.",
+      "featureBullets": [
+        {
+          "title": "Lembretes de rega"
+        },
+        {
+          "title": "Painel de pendências"
+        },
+        {
+          "title": "Etiquetas por cômodo"
+        },
+        {
+          "title": "Regada, adiar e pular"
+        },
+        {
+          "title": "Horários personalizados"
+        },
+        {
+          "title": "Acompanhamento offline"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Cuidados em um olhar",
+          "description": "Mostrar o painel com plantas pendentes hoje, plantas atrasadas, orientação inicial e botão Adicionar planta.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Cadastre suas plantas",
+          "description": "Mostrar o formulário com nome, espécie, cômodo, estilo, intervalo de rega, janela de lembrete e nota.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Regue, adie ou pule",
+          "description": "Mostrar um cartão de planta com cômodo, frequência, próxima data, última rega e ações rápidas.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Para que serve o Plant Watering Reminder?",
+          "answer": "O app ajuda a gerenciar plantas, criar lembretes de rega e ver no Android quais plantas estão pendentes ou atrasadas."
+        },
+        {
+          "question": "Posso definir uma frequência diferente para cada planta?",
+          "answer": "Sim. Cada planta pode ter sua própria rotina, como a cada X dias ou em determinados dias da semana."
+        },
+        {
+          "question": "Posso organizar plantas por cômodo?",
+          "answer": "Sim. Você pode usar etiquetas como sala, quarto, cozinha, escritório, varanda, banheiro, cantinho das plantas ou outro."
+        },
+        {
+          "question": "O app funciona offline?",
+          "answer": "Sim. O acompanhamento principal funciona offline. Os lembretes usam as notificações do sistema Android."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Plant Watering Reminder",
+      "summary": "Plant Watering Reminder ти помаже да не заборавиш заливање, пратиш које биљке су на реду и једноставно организујеш негу собних биљака.",
+      "longDescription": [
+        "Plant Watering Reminder је једноставна Android апликација за подсетнике за заливање и негу собних биљака. Помаже ти да рутина буде јасна, без компликованих табела и белешки.",
+        "Контролна табла приказује биљке које треба залити данас, оне које касне и задатке које си већ завршио. Брзе радње као што су Заливено, Одложи и Прескочи олакшавају свакодневно праћење.",
+        "За сваку биљку можеш додати назив, врсту, просторију, стил иконе, белешку, временски прозор за подсетник и распоред заливања, на пример сваких X дана или одређеним данима у недељи.",
+        "Plant Watering Reminder је фокусиран на практичну негу биљака. Основно праћење ради офлајн, а Android системска обавештења те подсећају када је време за заливање."
+      ],
+      "bottomCtaDescription": "Нека нега биљака буде једноставна и прегледна. Додај сваку биљку, подеси ритам заливања, организуј их по просторијама и одмах види шта треба залити данас.",
+      "category": "Нега биљака",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Подсетник за заливање",
+        "Апликација за биљке",
+        "Нега биљака",
+        "Распоред заливања",
+        "Собне биљке",
+        "Праћење биљака",
+        "Подсетник за башту"
+      ],
+      "metaTitle": "Plant Watering Reminder - Подсетник за заливање",
+      "metaDescription": "Android апликација за подсетнике за заливање, негу биљака, ознаке просторија, одлагање, прескакање и распоред.",
+      "featureBullets": [
+        {
+          "title": "Подсетници за заливање"
+        },
+        {
+          "title": "Преглед доспелих биљака"
+        },
+        {
+          "title": "Ознаке просторија"
+        },
+        {
+          "title": "Заливено, одложи и прескочи"
+        },
+        {
+          "title": "Прилагођени распореди"
+        },
+        {
+          "title": "Офлајн праћење"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Нега биљака на први поглед",
+          "description": "Приказати контролну таблу са биљкама које су на реду данас, закашњелим задацима, саветом и дугметом за додавање.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Додај сваку биљку",
+          "description": "Приказати форму са називом, врстом, просторијом, стилом, интервалом заливања, прозором подсетника и белешком.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Залиј, одложи или прескочи",
+          "description": "Приказати картицу биљке са просторијом, ритмом, наредним термином, последњим заливањем и брзим радњама.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Чему служи Plant Watering Reminder?",
+          "answer": "Апликација помаже да управљаш биљкама, креираш подсетнике за заливање и видиш које биљке су на реду или касне."
+        },
+        {
+          "question": "Може ли свака биљка имати свој распоред заливања?",
+          "answer": "Да. За сваку биљку можеш подесити посебан ритам, на пример сваких X дана или одређеним данима у недељи."
+        },
+        {
+          "question": "Могу ли да организујем биљке по просторијама?",
+          "answer": "Да. Можеш користити ознаке као што су дневна соба, спаваћа соба, кухиња, канцеларија, балкон, купатило, кутак за биљке или друго."
+        },
+        {
+          "question": "Да ли апликација ради офлајн?",
+          "answer": "Да. Основно праћење неге биљака ради офлајн. Подсетници користе Android системска обавештења."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Plant Watering Reminder",
+      "summary": "Plant Watering Reminder pomaže ti da ne zaboraviš zalijevanje, pratiš koje su biljke na redu i jednostavno organiziraš njegu sobnih biljaka.",
+      "longDescription": [
+        "Plant Watering Reminder je jednostavna Android aplikacija za podsjetnike za zalijevanje i njegu sobnih biljaka. Pomaže ti održati jasnu rutinu bez nepotrebnih bilješki i kompliciranih tablica.",
+        "Nadzorna ploča prikazuje biljke koje treba zaliti danas, one koje kasne i zadatke koje si već obavio. Brze radnje poput Zaliveno, Odgodi i Preskoči olakšavaju svakodnevno praćenje.",
+        "Za svaku biljku možeš dodati naziv, vrstu, prostoriju, stil ikone, bilješku, vremenski prozor podsjetnika i raspored zalijevanja, primjerice svakih X dana ili određenim danima u tjednu.",
+        "Plant Watering Reminder fokusira se na praktičnu njegu biljaka. Osnovno praćenje radi offline, a Android sistemske obavijesti podsjećaju te kada je vrijeme za zalijevanje."
+      ],
+      "bottomCtaDescription": "Olakšaj svakodnevnu njegu biljaka bez kompliciranog rasporeda. Dodaj svaku biljku, odredi ritam zalijevanja, organiziraj ih po prostorijama i odmah vidi što treba zaliti danas.",
+      "category": "Njega biljaka",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Podsjetnik za zalijevanje",
+        "Aplikacija za biljke",
+        "Njega biljaka",
+        "Raspored zalijevanja",
+        "Sobne biljke",
+        "Praćenje biljaka",
+        "Vrtni podsjetnik"
+      ],
+      "metaTitle": "Plant Watering Reminder - Podsjetnik za zalijevanje",
+      "metaDescription": "Android aplikacija za podsjetnike za zalijevanje, njegu biljaka, oznake prostorija, odgodu, preskakanje i raspored.",
+      "featureBullets": [
+        {
+          "title": "Podsjetnici za zalijevanje"
+        },
+        {
+          "title": "Pregled dospjelih biljaka"
+        },
+        {
+          "title": "Oznake prostorija"
+        },
+        {
+          "title": "Zaliveno, odgodi i preskoči"
+        },
+        {
+          "title": "Prilagođeni rasporedi"
+        },
+        {
+          "title": "Offline praćenje"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Njega biljaka na prvi pogled",
+          "description": "Prikazati nadzornu ploču s biljkama koje su danas na redu, zakašnjelim zadacima, savjetom i gumbom za dodavanje.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Dodaj svaku biljku",
+          "description": "Prikazati obrazac s nazivom, vrstom, prostorijom, stilom, intervalom zalijevanja, prozorom podsjetnika i bilješkom.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Zalij, odgodi ili preskoči",
+          "description": "Prikazati karticu biljke s prostorijom, ritmom, sljedećim terminom, zadnjim zalijevanjem i brzim radnjama.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Čemu služi Plant Watering Reminder?",
+          "answer": "Aplikacija pomaže upravljati biljkama, stvarati podsjetnike za zalijevanje i vidjeti koje biljke su na redu ili kasne."
+        },
+        {
+          "question": "Može li svaka biljka imati svoj raspored zalijevanja?",
+          "answer": "Da. Za svaku biljku možeš postaviti poseban ritam, poput svakih X dana ili određenih dana u tjednu."
+        },
+        {
+          "question": "Mogu li biljke organizirati po prostorijama?",
+          "answer": "Da. Možeš koristiti oznake kao što su dnevni boravak, spavaća soba, kuhinja, ured, balkon, kupaonica, kutak za biljke ili drugo."
+        },
+        {
+          "question": "Radi li aplikacija offline?",
+          "answer": "Da. Osnovno praćenje njege biljaka radi offline. Podsjetnici koriste Android sistemske obavijesti."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Plant Watering Reminder",
+      "summary": "Plant Watering Reminder helpt je onthouden wanneer elke plant water nodig heeft en maakt verzorging van kamerplanten overzichtelijk.",
+      "longDescription": [
+        "Plant Watering Reminder is een eenvoudige Android app voor plantenverzorging en watergeefherinneringen. De app helpt je kamerplanten bijhouden zonder ingewikkelde instellingen.",
+        "Het dashboard laat zien welke planten vandaag water nodig hebben, welke te laat zijn en wat je al hebt gedaan. Met snelle acties zoals Water gegeven, Snooze en Overslaan werk je je plantenlijst snel bij.",
+        "Pas elke plant aan met naam, soort, kamerlabel, pictogramstijl, notities, herinneringsvenster en schema, zoals elke X dagen of op bepaalde weekdagen.",
+        "Plant Watering Reminder richt zich op praktische dagelijkse plantenverzorging. De belangrijkste tracking werkt offline en Android systeemmeldingen helpen je consequent water te geven."
+      ],
+      "bottomCtaDescription": "Houd je plantenroutine simpel en duidelijk. Voeg elke plant toe, kies een watergeefschema, orden planten per kamer en zie meteen wat vandaag water nodig heeft.",
+      "category": "Plantenverzorging",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Planten water geven herinnering",
+        "Planten app",
+        "Plantenverzorging",
+        "Watergeefschema",
+        "Kamerplanten",
+        "Plant tracker",
+        "Tuin herinnering"
+      ],
+      "metaTitle": "Plant Watering Reminder - Watergeefschema app",
+      "metaDescription": "Android app voor planten water geven, herinneringen, kamerlabels, schema’s, snooze, overslaan en eenvoudige plantverzorging.",
+      "featureBullets": [
+        {
+          "title": "Watergeefherinneringen"
+        },
+        {
+          "title": "Dashboard voor taken"
+        },
+        {
+          "title": "Kamerlabels"
+        },
+        {
+          "title": "Water gegeven, snooze en overslaan"
+        },
+        {
+          "title": "Aangepaste schema’s"
+        },
+        {
+          "title": "Offline tracking"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Planten in één oogopslag",
+          "description": "Toon het dashboard met planten die vandaag water nodig hebben, achterstallige taken, uitlegkaart en knop Plant toevoegen.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Voeg je planten toe",
+          "description": "Toon het formulier met plantnaam, soort, kamer, stijl, waterinterval, herinneringsvenster en notitie.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Water geven, snoozen of overslaan",
+          "description": "Toon een plantkaart met kamer, schema, volgende datum, laatst water gegeven en snelle acties.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Waarvoor gebruik ik Plant Watering Reminder?",
+          "answer": "Je gebruikt de app om planten te beheren, watergeefherinneringen te maken en op Android te zien welke planten aan de beurt of te laat zijn."
+        },
+        {
+          "question": "Kan elke plant een eigen watergeefschema hebben?",
+          "answer": "Ja. Elke plant kan een eigen schema hebben, bijvoorbeeld elke X dagen of op gekozen weekdagen."
+        },
+        {
+          "question": "Kan ik planten per kamer organiseren?",
+          "answer": "Ja. Je kunt labels gebruiken zoals woonkamer, slaapkamer, keuken, kantoor, balkon, badkamer, plantenhoek of anders."
+        },
+        {
+          "question": "Werkt de app offline?",
+          "answer": "Ja. De belangrijkste plantentracking werkt offline. Herinneringen gebruiken Android systeemmeldingen."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Plant Watering Reminder",
+      "summary": "Plant Watering Reminder pomaga pamiętać o podlewaniu, śledzić rośliny wymagające uwagi i prosto organizować pielęgnację domowych roślin.",
+      "longDescription": [
+        "Plant Watering Reminder to prosta aplikacja Android do przypomnień o podlewaniu i pielęgnacji roślin domowych. Pomaga utrzymać jasną rutynę bez skomplikowanych arkuszy i list.",
+        "Panel pokazuje rośliny do podlania dzisiaj, zaległe zadania oraz czynności już wykonane. Szybkie akcje, takie jak Podlano, Drzemka i Pomiń, pozwalają aktualizować status w kilka sekund.",
+        "Dla każdej rośliny możesz dodać nazwę, gatunek, pomieszczenie, styl ikony, notatkę, okno przypomnienia i harmonogram podlewania, na przykład co X dni lub w wybrane dni tygodnia.",
+        "Plant Watering Reminder skupia się na praktycznej codziennej pielęgnacji. Podstawowe śledzenie działa offline, a powiadomienia systemu Android pomagają zachować regularność."
+      ],
+      "bottomCtaDescription": "Zadbaj o rośliny bez zgadywania i notatek w różnych miejscach. Dodaj każdą roślinę, ustaw rytm podlewania, przypisz pomieszczenie i szybko sprawdzaj, co trzeba podlać dzisiaj.",
+      "category": "Pielęgnacja roślin",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Przypomnienie o podlewaniu",
+        "Aplikacja do roślin",
+        "Pielęgnacja roślin",
+        "Harmonogram podlewania",
+        "Rośliny domowe",
+        "Tracker roślin",
+        "Przypomnienia ogrodowe"
+      ],
+      "metaTitle": "Plant Watering Reminder - Przypomnienie podlewania",
+      "metaDescription": "Aplikacja Android do podlewania roślin, przypomnień, tagów pomieszczeń, harmonogramów, drzemki i śledzenia pielęgnacji.",
+      "featureBullets": [
+        {
+          "title": "Przypomnienia o podlewaniu"
+        },
+        {
+          "title": "Panel zaległych roślin"
+        },
+        {
+          "title": "Tagi pomieszczeń"
+        },
+        {
+          "title": "Podlano, drzemka i pomiń"
+        },
+        {
+          "title": "Własne harmonogramy"
+        },
+        {
+          "title": "Śledzenie offline"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Pielęgnacja w jednym widoku",
+          "description": "Pokazać panel z roślinami do podlania dzisiaj, zaległymi zadaniami, wskazówką i przyciskiem Dodaj roślinę.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Dodaj każdą roślinę",
+          "description": "Pokazać formularz z nazwą, gatunkiem, pomieszczeniem, stylem, interwałem podlewania, oknem przypomnienia i notatką.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Podlej, odłóż lub pomiń",
+          "description": "Pokazać kartę rośliny z pomieszczeniem, częstotliwością, kolejną datą, ostatnim podlewaniem i szybkimi akcjami.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do czego służy Plant Watering Reminder?",
+          "answer": "Aplikacja pomaga zarządzać roślinami, tworzyć przypomnienia o podlewaniu i sprawdzać na Androidzie, które rośliny są do podlania lub zaległe."
+        },
+        {
+          "question": "Czy każda roślina może mieć własny harmonogram?",
+          "answer": "Tak. Każda roślina może mieć osobny rytm, na przykład co X dni albo w wybrane dni tygodnia."
+        },
+        {
+          "question": "Czy mogę organizować rośliny według pomieszczeń?",
+          "answer": "Tak. Możesz używać tagów takich jak salon, sypialnia, kuchnia, biuro, balkon, łazienka, kącik roślin lub inne."
+        },
+        {
+          "question": "Czy aplikacja działa offline?",
+          "answer": "Tak. Podstawowe śledzenie pielęgnacji roślin działa offline. Przypomnienia korzystają z powiadomień systemu Android."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Plant Watering Reminder",
+      "summary": "Plant Watering Reminder te ajută să îți amintești când să uzi plantele, să vezi ce este scadent și să organizezi simplu îngrijirea lor.",
+      "longDescription": [
+        "Plant Watering Reminder este o aplicație Android simplă pentru mementouri de udare și îngrijirea plantelor de interior. Te ajută să păstrezi o rutină clară, fără liste complicate.",
+        "Panoul principal arată plantele care trebuie udate astăzi, cele întârziate și ce ai rezolvat deja. Acțiunile rapide precum Udat, Amână și Sari peste fac actualizarea fiecărei plante foarte ușoară.",
+        "Pentru fiecare plantă poți adăuga nume, specie, cameră, stil de pictogramă, notițe, fereastră de memento și program de udare, cum ar fi la fiecare X zile sau în anumite zile ale săptămânii.",
+        "Plant Watering Reminder se concentrează pe îngrijirea practică de zi cu zi. Urmărirea principală funcționează offline, iar notificările Android te ajută să menții rutina."
+      ],
+      "bottomCtaDescription": "Ai grijă de plante fără să ții minte fiecare dată de udare. Adaugă fiecare plantă, setează ritmul potrivit, organizează-le pe camere și vezi rapid ce trebuie udat astăzi.",
+      "category": "Îngrijirea plantelor",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Memento udare plante",
+        "Aplicație plante",
+        "Îngrijire plante",
+        "Program udare",
+        "Plante de interior",
+        "Tracker plante",
+        "Memento grădină"
+      ],
+      "metaTitle": "Plant Watering Reminder - Memento udare plante",
+      "metaDescription": "Aplicație Android pentru mementouri de udare, îngrijire plante, etichete pe camere, program, amânare și urmărire simplă.",
+      "featureBullets": [
+        {
+          "title": "Mementouri de udare"
+        },
+        {
+          "title": "Panou cu plante scadente"
+        },
+        {
+          "title": "Etichete pe camere"
+        },
+        {
+          "title": "Udat, amână și sari peste"
+        },
+        {
+          "title": "Programe personalizate"
+        },
+        {
+          "title": "Urmărire offline"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Îngrijire dintr-o privire",
+          "description": "Arată panoul cu plantele scadente astăzi, plantele întârziate, cardul de ajutor și butonul Adaugă plantă.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Adaugă fiecare plantă",
+          "description": "Arată formularul cu nume, specie, cameră, stil, interval de udare, fereastră de memento și notiță.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Udă, amână sau sari peste",
+          "description": "Arată un card de plantă cu cameră, frecvență, următoarea dată, ultima udare și acțiuni rapide.",
+          "imagePath": "apps/screenshots/plant-watering-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Pentru ce este Plant Watering Reminder?",
+          "answer": "Aplicația te ajută să gestionezi plante, să creezi mementouri de udare și să vezi pe Android ce plante sunt scadente sau întârziate."
+        },
+        {
+          "question": "Pot seta programe diferite pentru plante diferite?",
+          "answer": "Da. Fiecare plantă poate avea propriul ritm, de exemplu la fiecare X zile sau în anumite zile ale săptămânii."
+        },
+        {
+          "question": "Pot organiza plantele pe camere?",
+          "answer": "Da. Poți folosi etichete precum living, dormitor, bucătărie, birou, balcon, baie, colț de plante sau altceva."
+        },
+        {
+          "question": "Aplicația funcționează offline?",
+          "answer": "Da. Urmărirea principală a îngrijirii plantelor funcționează offline. Mementourile folosesc notificările sistemului Android."
+        }
+      ]
+    }
+  }
+}
