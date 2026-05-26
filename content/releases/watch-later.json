@@ -1,0 +1,965 @@
+{
+  "slug": "watch-later",
+  "sortOrder": 17,
+  "kind": "app",
+  "featured": false,
+  "accent": "blue",
+  "icon": "apps/icons/watch-later.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.watchlater",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "ProductivityApplication",
+  "relatedSlugs": [
+    "water-reminder",
+    "intermittent-fasting",
+    "hiit-timer"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Watch Later",
+      "summary": "Save movies, shows, videos, courses, and articles in one simple watchlist. Add reminders, sort by priority, and keep your next watch easy to find.",
+      "longDescription": [
+        "Watch Later is a simple Android app for keeping track of the movies, shows, videos, courses, and articles you want to remember. Instead of saving ideas across notes, messages, and open tabs, you can keep everything in one organized queue.",
+        "Add a title, type, platform or source, optional URL, status, priority, runtime, tags, notes, and release date. This makes it easy to plan what to watch next, remember where to find it, and keep important releases in sight.",
+        "The home screen highlights planned items, upcoming releases, overdue reminders, recently completed items, and favorites. You can mark items watched, snooze reminders, edit details, and use the library page to search, filter, and tidy up your full list.",
+        "Whether you are tracking Netflix movies, YouTube videos, online courses, documentaries, or articles, Watch Later helps you turn scattered recommendations into a practical, easy-to-manage watchlist."
+      ],
+      "bottomCtaDescription": "Stop losing great things to watch in random notes, chats, and browser tabs. Watch Later gives you a clean Android queue with reminders, priorities, favorites, and quick actions so your next movie, show, video, course, or article is always ready when you are.",
+      "category": "Watchlist & Reminders",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Watch Later",
+        "Watchlist",
+        "Movie reminder",
+        "Show tracker",
+        "Video queue",
+        "Content planner",
+        "Favorites",
+        "Android reminder app"
+      ],
+      "metaTitle": "Watch Later App for Movies, Shows, Videos & Reminders",
+      "metaDescription": "Create a simple watchlist for movies, shows, videos, courses and articles. Add reminders, priorities, favorites and completion history.",
+      "featureBullets": [
+        {
+          "title": "Organized watchlist"
+        },
+        {
+          "title": "Reminders and snooze"
+        },
+        {
+          "title": "Priority and status labels"
+        },
+        {
+          "title": "Search and filters"
+        },
+        {
+          "title": "Favorites and history"
+        },
+        {
+          "title": "Light and dark mode"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Keep your next watch in sight",
+          "description": "Show the home dashboard with the main Add item button, quick stats, upcoming releases, and a saved watchlist card.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-1.png"
+        },
+        {
+          "title": "Add every important detail",
+          "description": "Show the add item form with title, type, platform, status, priority, runtime, tags, notes, and release date fields.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-2.png"
+        },
+        {
+          "title": "Search, filter, and tidy up",
+          "description": "Show the library page with search, type filters, status filters, favorites-only filtering, reminder ordering, and an item card.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What can I save in Watch Later?",
+          "answer": "You can save movies, TV shows, videos, online courses, articles, and other content you want to watch or read later."
+        },
+        {
+          "question": "Can I add reminders for items?",
+          "answer": "Yes. Watch Later supports saved reminder times, and you can snooze reminders when you need more time."
+        },
+        {
+          "question": "Can I organize items by priority or status?",
+          "answer": "Yes. Items can include a status such as planned and a priority such as high, making it easier to decide what to watch next."
+        },
+        {
+          "question": "Does Watch Later have search and filters?",
+          "answer": "Yes. The library screen lets you search by title, source, or tag and filter the list by type, status, and favorites."
+        },
+        {
+          "question": "Is Watch Later only for movies?",
+          "answer": "No. It works for movies, shows, videos, courses, articles, and other content you want to keep in a personal queue."
+        }
+      ]
+    },
+    "de": {
+      "name": "Watch Later",
+      "summary": "Speichere Filme, Serien, Videos, Kurse und Artikel in einer übersichtlichen Watchlist. Mit Erinnerungen, Prioritäten und Favoriten findest du schnell, was als Nächstes dran ist.",
+      "longDescription": [
+        "Watch Later ist eine einfache Android-App für alles, was du später ansehen oder lesen möchtest. Filme, Serien, Videos, Online-Kurse und Artikel landen in einer klaren Liste statt verstreut in Notizen, Chats oder Browser-Tabs.",
+        "Beim Hinzufügen kannst du Titel, Typ, Plattform oder Quelle, optionale URL, Status, Priorität, Laufzeit, Tags, Notizen und Veröffentlichungsdatum speichern. So weißt du nicht nur, was du dir merken wolltest, sondern auch wo du es findest und wie wichtig es ist.",
+        "Die Startseite zeigt geplante Einträge, kommende Veröffentlichungen, überfällige Erinnerungen, zuletzt abgeschlossene Inhalte und Favoriten. Du kannst Einträge als gesehen markieren, Erinnerungen verschieben, Details bearbeiten und deine Bibliothek durchsuchen oder filtern.",
+        "Ob Netflix-Film, YouTube-Video, Kurs, Doku oder Artikel: Watch Later macht aus spontanen Empfehlungen eine strukturierte persönliche Watchlist."
+      ],
+      "bottomCtaDescription": "Behalte Empfehlungen, Releases und interessante Inhalte an einem Ort statt in Notizen, Chats oder offenen Tabs. Watch Later hilft dir, deine persönliche Liste auf Android zu organisieren, Erinnerungen zu setzen und erledigte Inhalte sauber abzuhaken.",
+      "category": "Watchlist & Erinnerungen",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Watch Later",
+        "Watchlist",
+        "Filme merken",
+        "Serien Tracker",
+        "Video Liste",
+        "Erinnerungen",
+        "Favoriten",
+        "Android App"
+      ],
+      "metaTitle": "Watch Later App für Filme, Serien, Videos & Erinnerungen",
+      "metaDescription": "Erstelle eine Watchlist für Filme, Serien, Videos, Kurse und Artikel. Mit Erinnerungen, Prioritäten, Favoriten und Verlauf.",
+      "featureBullets": [
+        {
+          "title": "Übersichtliche Watchlist"
+        },
+        {
+          "title": "Erinnerungen und Snooze"
+        },
+        {
+          "title": "Prioritäten und Status"
+        },
+        {
+          "title": "Suche und Filter"
+        },
+        {
+          "title": "Favoriten und Verlauf"
+        },
+        {
+          "title": "Hell- und Dunkelmodus"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Deine nächste Empfehlung im Blick",
+          "description": "Zeige das Home-Dashboard mit Add-Button, Statistiken, kommenden Veröffentlichungen und einer gespeicherten Karte.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-1.png"
+        },
+        {
+          "title": "Alle Details speichern",
+          "description": "Zeige das Formular mit Titel, Typ, Plattform, Status, Priorität, Laufzeit, Tags, Notizen und Veröffentlichungsdatum.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-2.png"
+        },
+        {
+          "title": "Suchen, filtern, aufräumen",
+          "description": "Zeige die Bibliothek mit Suchfeld, Typ- und Statusfiltern, Favoritenfilter, Erinnerungsreihenfolge und Eintragskarte.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Was kann ich in Watch Later speichern?",
+          "answer": "Du kannst Filme, Serien, Videos, Online-Kurse, Artikel und andere Inhalte speichern, die du später ansehen oder lesen möchtest."
+        },
+        {
+          "question": "Kann ich Erinnerungen für Einträge setzen?",
+          "answer": "Ja. Watch Later unterstützt gespeicherte Erinnerungszeiten und bietet eine Snooze-Funktion, wenn du einen Eintrag später ansehen möchtest."
+        },
+        {
+          "question": "Kann ich Einträge nach Priorität und Status sortieren?",
+          "answer": "Ja. Du kannst Status und Priorität festlegen, damit wichtige Inhalte schneller sichtbar bleiben."
+        },
+        {
+          "question": "Gibt es Suche und Filter?",
+          "answer": "Ja. In der Bibliothek kannst du nach Titel, Quelle oder Tag suchen und die Liste nach Typ, Status und Favoriten filtern."
+        },
+        {
+          "question": "Ist Watch Later nur für Filme gedacht?",
+          "answer": "Nein. Die App eignet sich auch für Serien, Videos, Kurse, Artikel und andere Inhalte, die du in einer persönlichen Liste behalten möchtest."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Watch Later",
+      "summary": "Gardez vos films, séries, vidéos, cours et articles à regarder plus tard dans une seule liste claire. Ajoutez des rappels, des priorités et des favoris pour retrouver vite le bon contenu.",
+      "longDescription": [
+        "Watch Later est une application Android simple pour garder en mémoire les films, séries, vidéos, cours et articles que vous voulez consulter plus tard. Au lieu d’éparpiller vos idées dans des notes, des conversations ou des onglets, tout reste dans une liste organisée.",
+        "Ajoutez un titre, un type, une plateforme ou source, une URL optionnelle, un statut, une priorité, une durée, des tags, des notes et une date de sortie. Vous savez ainsi quoi regarder, où le retrouver et ce qui mérite votre attention en premier.",
+        "L’écran d’accueil met en avant les éléments planifiés, les sorties à venir, les rappels en retard, les contenus récemment terminés et les favoris. Vous pouvez marquer un élément comme vu, reporter un rappel, modifier les détails et nettoyer votre bibliothèque avec la recherche et les filtres.",
+        "Pour un film Netflix, une vidéo YouTube, une formation, un documentaire ou un article, Watch Later transforme les recommandations dispersées en une liste pratique et facile à gérer."
+      ],
+      "bottomCtaDescription": "Ne laissez plus vos recommandations disparaître dans des notes, des messages ou des onglets oubliés. Watch Later organise votre file d’attente sur Android avec rappels, priorités, favoris et historique pour savoir exactement quoi regarder ensuite.",
+      "category": "Liste à regarder & rappels",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Watch Later",
+        "Liste à regarder",
+        "Rappel film",
+        "Suivi séries",
+        "Liste vidéos",
+        "Contenu à voir",
+        "Favoris",
+        "Application Android"
+      ],
+      "metaTitle": "Watch Later pour films, séries, vidéos et rappels",
+      "metaDescription": "Créez une liste pour films, séries, vidéos, cours et articles. Ajoutez rappels, priorités, favoris et historique de visionnage.",
+      "featureBullets": [
+        {
+          "title": "Liste organisée"
+        },
+        {
+          "title": "Rappels et report"
+        },
+        {
+          "title": "Priorités et statuts"
+        },
+        {
+          "title": "Recherche et filtres"
+        },
+        {
+          "title": "Favoris et historique"
+        },
+        {
+          "title": "Mode clair et sombre"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Gardez le prochain contenu en vue",
+          "description": "Montrer le tableau de bord avec le bouton d’ajout, les statistiques, les sorties à venir et une carte enregistrée.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-1.png"
+        },
+        {
+          "title": "Ajoutez tous les détails utiles",
+          "description": "Montrer le formulaire avec titre, type, plateforme, statut, priorité, durée, tags, notes et date de sortie.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-2.png"
+        },
+        {
+          "title": "Cherchez, filtrez, organisez",
+          "description": "Montrer la bibliothèque avec recherche, filtres par type et statut, favoris uniquement, tri par rappel et carte de contenu.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Que puis-je enregistrer dans Watch Later ?",
+          "answer": "Vous pouvez enregistrer des films, séries, vidéos, cours en ligne, articles et autres contenus à regarder ou lire plus tard."
+        },
+        {
+          "question": "Puis-je ajouter des rappels ?",
+          "answer": "Oui. Watch Later permet d’enregistrer des heures de rappel et de reporter un rappel si vous n’êtes pas prêt."
+        },
+        {
+          "question": "Puis-je organiser ma liste par priorité ?",
+          "answer": "Oui. Les statuts et priorités vous aident à repérer rapidement les contenus les plus importants."
+        },
+        {
+          "question": "L’application propose-t-elle une recherche ?",
+          "answer": "Oui. Vous pouvez rechercher par titre, source ou tag, puis filtrer par type, statut ou favoris."
+        },
+        {
+          "question": "Watch Later sert-elle uniquement aux films ?",
+          "answer": "Non. Elle fonctionne aussi pour les séries, vidéos, cours, articles et autres contenus à garder dans une file personnelle."
+        }
+      ]
+    },
+    "it": {
+      "name": "Watch Later",
+      "summary": "Salva film, serie, video, corsi e articoli in una watchlist semplice da gestire. Aggiungi promemoria, priorità e preferiti per scegliere subito cosa guardare dopo.",
+      "longDescription": [
+        "Watch Later è un’app Android semplice per ricordare film, serie, video, corsi e articoli che vuoi guardare o leggere più avanti. Invece di salvare tutto tra note, messaggi e schede del browser, puoi tenere ogni idea in una lista ordinata.",
+        "Aggiungi titolo, tipo, piattaforma o fonte, URL opzionale, stato, priorità, durata, tag, note e data di uscita. In questo modo sai cosa hai salvato, dove trovarlo e quanto è importante rispetto al resto della tua coda.",
+        "La schermata principale mostra elementi pianificati, uscite in arrivo, promemoria scaduti, contenuti completati di recente e preferiti. Puoi segnare un elemento come visto, posticipare un promemoria, modificare i dettagli e usare ricerca e filtri nella libreria.",
+        "Che si tratti di un film su Netflix, una serie, un video YouTube, un corso online o un articolo, Watch Later trasforma consigli e link sparsi in una watchlist pratica e personale."
+      ],
+      "bottomCtaDescription": "Dimentica liste sparse, note confuse e link persi nelle chat. Watch Later ti offre una coda ordinata su Android con promemoria, priorità, preferiti e cronologia, così ogni contenuto da vedere resta sempre a portata di mano.",
+      "category": "Watchlist e promemoria",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Watch Later",
+        "Watchlist",
+        "Promemoria film",
+        "Tracker serie",
+        "Lista video",
+        "Contenuti da vedere",
+        "Preferiti",
+        "App Android"
+      ],
+      "metaTitle": "Watch Later per film, serie, video e promemoria",
+      "metaDescription": "Crea una watchlist per film, serie, video, corsi e articoli. Usa promemoria, priorità, preferiti e cronologia completati.",
+      "featureBullets": [
+        {
+          "title": "Watchlist ordinata"
+        },
+        {
+          "title": "Promemoria e snooze"
+        },
+        {
+          "title": "Priorità e stati"
+        },
+        {
+          "title": "Ricerca e filtri"
+        },
+        {
+          "title": "Preferiti e cronologia"
+        },
+        {
+          "title": "Tema chiaro e scuro"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Tieni d’occhio cosa guardare",
+          "description": "Mostrare la home con pulsante di aggiunta, statistiche, uscite in arrivo e una scheda salvata.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-1.png"
+        },
+        {
+          "title": "Salva ogni dettaglio",
+          "description": "Mostrare il modulo con titolo, tipo, piattaforma, stato, priorità, durata, tag, note e data di uscita.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-2.png"
+        },
+        {
+          "title": "Cerca e filtra la libreria",
+          "description": "Mostrare la libreria con ricerca, filtri per tipo e stato, solo preferiti, ordine promemoria e scheda contenuto.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Cosa posso salvare in Watch Later?",
+          "answer": "Puoi salvare film, serie, video, corsi online, articoli e altri contenuti da guardare o leggere più tardi."
+        },
+        {
+          "question": "Posso impostare promemoria?",
+          "answer": "Sì. Watch Later supporta promemoria salvati e ti permette di posticiparli quando vuoi rimandare."
+        },
+        {
+          "question": "Posso usare priorità e stati?",
+          "answer": "Sì. Puoi assegnare stati e priorità per capire più facilmente cosa guardare prima."
+        },
+        {
+          "question": "La libreria ha ricerca e filtri?",
+          "answer": "Sì. Puoi cercare per titolo, fonte o tag e filtrare per tipo, stato e preferiti."
+        },
+        {
+          "question": "Watch Later è solo per film?",
+          "answer": "No. È utile anche per serie, video, corsi, articoli e qualsiasi contenuto che vuoi tenere in lista."
+        }
+      ]
+    },
+    "es": {
+      "name": "Watch Later",
+      "summary": "Guarda películas, series, vídeos, cursos y artículos en una lista clara para ver más tarde. Añade recordatorios, prioridades y favoritos para tener siempre a mano tu próxima opción.",
+      "longDescription": [
+        "Watch Later es una app sencilla para Android pensada para recordar películas, series, vídeos, cursos y artículos que quieres ver o leer más tarde. En lugar de guardar ideas en notas, mensajes o pestañas del navegador, puedes mantenerlo todo en una lista ordenada.",
+        "Añade título, tipo, plataforma o fuente, URL opcional, estado, prioridad, duración, etiquetas, notas y fecha de estreno. Así sabes qué guardaste, dónde encontrarlo y qué merece más atención.",
+        "La pantalla principal muestra elementos planificados, próximos estrenos, recordatorios vencidos, contenido completado recientemente y favoritos. Puedes marcar como visto, posponer recordatorios, editar detalles y organizar la biblioteca con búsqueda y filtros.",
+        "Para películas de Netflix, vídeos de YouTube, cursos online, documentales o artículos, Watch Later transforma recomendaciones sueltas en una cola personal fácil de gestionar."
+      ],
+      "bottomCtaDescription": "Deja de perder recomendaciones entre notas, chats y pestañas abiertas. Watch Later convierte tus ideas en una lista organizada para Android con recordatorios, prioridades, favoritos e historial para decidir rápido qué ver después.",
+      "category": "Lista para ver y recordatorios",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Watch Later",
+        "Lista para ver",
+        "Recordatorio películas",
+        "Seguimiento series",
+        "Lista vídeos",
+        "Contenido pendiente",
+        "Favoritos",
+        "App Android"
+      ],
+      "metaTitle": "Watch Later para películas, series, vídeos y recordatorios",
+      "metaDescription": "Crea una lista para películas, series, vídeos, cursos y artículos. Usa recordatorios, prioridades, favoritos e historial completado.",
+      "featureBullets": [
+        {
+          "title": "Lista organizada"
+        },
+        {
+          "title": "Recordatorios y posponer"
+        },
+        {
+          "title": "Prioridad y estado"
+        },
+        {
+          "title": "Búsqueda y filtros"
+        },
+        {
+          "title": "Favoritos e historial"
+        },
+        {
+          "title": "Modo claro y oscuro"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Ten tu próxima opción a la vista",
+          "description": "Mostrar el panel de inicio con botón para añadir, estadísticas, próximos estrenos y una tarjeta guardada.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-1.png"
+        },
+        {
+          "title": "Guarda todos los detalles",
+          "description": "Mostrar el formulario con título, tipo, plataforma, estado, prioridad, duración, etiquetas, notas y fecha de estreno.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-2.png"
+        },
+        {
+          "title": "Busca, filtra y ordena",
+          "description": "Mostrar la biblioteca con búsqueda, filtros de tipo y estado, favoritos, orden por recordatorio y tarjeta de contenido.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Qué puedo guardar en Watch Later?",
+          "answer": "Puedes guardar películas, series, vídeos, cursos online, artículos y otros contenidos que quieras ver o leer más tarde."
+        },
+        {
+          "question": "¿Puedo añadir recordatorios?",
+          "answer": "Sí. Watch Later permite guardar horas de recordatorio y posponerlas cuando necesites más tiempo."
+        },
+        {
+          "question": "¿Puedo organizar por prioridad o estado?",
+          "answer": "Sí. Puedes asignar estado y prioridad para encontrar más rápido lo importante."
+        },
+        {
+          "question": "¿La app tiene búsqueda y filtros?",
+          "answer": "Sí. Puedes buscar por título, fuente o etiqueta y filtrar por tipo, estado y favoritos."
+        },
+        {
+          "question": "¿Watch Later sirve solo para películas?",
+          "answer": "No. También sirve para series, vídeos, cursos, artículos y cualquier contenido que quieras mantener en una cola personal."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Watch Later",
+      "summary": "Guarde filmes, séries, vídeos, cursos e artigos numa lista simples para ver mais tarde. Use lembretes, prioridades e favoritos para encontrar rapidamente o próximo conteúdo.",
+      "longDescription": [
+        "Watch Later é uma aplicação Android simples para guardar filmes, séries, vídeos, cursos e artigos que quer ver ou ler mais tarde. Em vez de espalhar ideias por notas, mensagens e separadores do browser, pode manter tudo numa lista organizada.",
+        "Adicione título, tipo, plataforma ou fonte, URL opcional, estado, prioridade, duração, etiquetas, notas e data de lançamento. Assim fica claro o que guardou, onde encontrar e o que merece atenção primeiro.",
+        "O ecrã inicial destaca itens planeados, lançamentos futuros, lembretes em atraso, conteúdos concluídos recentemente e favoritos. Pode marcar como visto, adiar lembretes, editar detalhes e organizar a biblioteca com pesquisa e filtros.",
+        "Seja um filme da Netflix, um vídeo do YouTube, um curso online, um documentário ou um artigo, o Watch Later transforma recomendações soltas numa fila pessoal prática e fácil de gerir."
+      ],
+      "bottomCtaDescription": "Pare de perder recomendações em notas, conversas e separadores abertos. O Watch Later organiza a sua fila no Android com lembretes, prioridades, favoritos e histórico para saber sempre o que ver a seguir.",
+      "category": "Lista para ver e lembretes",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Watch Later",
+        "Lista para ver",
+        "Lembrete de filmes",
+        "Séries",
+        "Lista de vídeos",
+        "Conteúdo para ver",
+        "Favoritos",
+        "App Android"
+      ],
+      "metaTitle": "Watch Later para filmes, séries, vídeos e lembretes",
+      "metaDescription": "Crie uma lista para filmes, séries, vídeos, cursos e artigos. Adicione lembretes, prioridades, favoritos e histórico.",
+      "featureBullets": [
+        {
+          "title": "Lista organizada"
+        },
+        {
+          "title": "Lembretes e adiar"
+        },
+        {
+          "title": "Prioridades e estados"
+        },
+        {
+          "title": "Pesquisa e filtros"
+        },
+        {
+          "title": "Favoritos e histórico"
+        },
+        {
+          "title": "Modo claro e escuro"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Tenha o próximo conteúdo à vista",
+          "description": "Mostrar o painel inicial com botão de adicionar, estatísticas, lançamentos futuros e um cartão guardado.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-1.png"
+        },
+        {
+          "title": "Guarde todos os detalhes",
+          "description": "Mostrar o formulário com título, tipo, plataforma, estado, prioridade, duração, etiquetas, notas e data de lançamento.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-2.png"
+        },
+        {
+          "title": "Pesquise, filtre e organize",
+          "description": "Mostrar a biblioteca com pesquisa, filtros por tipo e estado, favoritos, ordenação por lembrete e cartão de item.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "O que posso guardar no Watch Later?",
+          "answer": "Pode guardar filmes, séries, vídeos, cursos online, artigos e outros conteúdos que queira ver ou ler mais tarde."
+        },
+        {
+          "question": "Posso adicionar lembretes?",
+          "answer": "Sim. O Watch Later permite guardar horários de lembrete e adiá-los quando precisar de mais tempo."
+        },
+        {
+          "question": "Posso organizar por prioridade ou estado?",
+          "answer": "Sim. Pode definir estados e prioridades para encontrar rapidamente o que é mais importante."
+        },
+        {
+          "question": "A aplicação tem pesquisa e filtros?",
+          "answer": "Sim. Pode pesquisar por título, fonte ou etiqueta e filtrar por tipo, estado e favoritos."
+        },
+        {
+          "question": "O Watch Later é só para filmes?",
+          "answer": "Não. Também funciona para séries, vídeos, cursos, artigos e outros conteúdos que queira manter numa lista pessoal."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Watch Later",
+      "summary": "Сачувај филмове, серије, видео-снимке, курсеве и чланке у једној прегледној листи. Додај подсетнике, приоритете и омиљене ставке да увек знаш шта је следеће.",
+      "longDescription": [
+        "Watch Later је једноставна Android апликација за све филмове, серије, видео-снимке, курсеве и чланке које желиш да погледаш или прочиташ касније. Уместо да идеје буду разбацане по белешкама, порукама и картицама у прегледачу, све можеш држати на једном месту.",
+        "За сваку ставку можеш додати наслов, тип, платформу или извор, опциону URL адресу, статус, приоритет, трајање, ознаке, белешке и датум објаве. Тако лако памтиш шта си сачувао, где се налази и шта је најважније.",
+        "Почетни екран приказује планиране ставке, предстојеће објаве, закаснеле подсетнике, недавно завршене садржаје и омиљене ставке. Можеш означити да је нешто погледано, одложити подсетник, изменити детаље и уредити библиотеку претрагом и филтерима.",
+        "Било да пратиш Netflix филм, YouTube видео, онлајн курс, документарац или чланак, Watch Later претвара насумичне препоруке у јасну личну листу."
+      ],
+      "bottomCtaDescription": "Не губи више добре препоруке у белешкама, порукама и отвореним картицама. Watch Later ти помаже да на Android уређају организујеш личну листу за гледање уз подсетнике, приоритете, омиљене ставке и историју завршених садржаја.",
+      "category": "Листа за гледање и подсетници",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Watch Later",
+        "Листа за гледање",
+        "Подсетник за филм",
+        "Праћење серија",
+        "Листа видео снимака",
+        "Садржај за касније",
+        "Омиљено",
+        "Android апликација"
+      ],
+      "metaTitle": "Watch Later за филмове, серије, видео и подсетнике",
+      "metaDescription": "Направи листу за филмове, серије, видео-снимке, курсеве и чланке. Додај подсетнике, приоритете и омиљене ставке.",
+      "featureBullets": [
+        {
+          "title": "Организована листа"
+        },
+        {
+          "title": "Подсетници и одлагање"
+        },
+        {
+          "title": "Приоритети и статуси"
+        },
+        {
+          "title": "Претрага и филтери"
+        },
+        {
+          "title": "Омиљено и историја"
+        },
+        {
+          "title": "Светли и тамни режим"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Следећи садржај увек на видику",
+          "description": "Прикажи почетни екран са дугметом за додавање, статистиком, предстојећим објавама и картицом сачуване ставке.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-1.png"
+        },
+        {
+          "title": "Сачувај све важне детаље",
+          "description": "Прикажи форму са насловом, типом, платформом, статусом, приоритетом, трајањем, ознакама, белешкама и датумом објаве.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-2.png"
+        },
+        {
+          "title": "Претражи, филтрирај и среди",
+          "description": "Прикажи библиотеку са претрагом, филтерима за тип и статус, омиљеним ставкама, редоследом подсетника и картицом ставке.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Шта могу да сачувам у Watch Later?",
+          "answer": "Можеш сачувати филмове, серије, видео-снимке, онлајн курсеве, чланке и други садржај који желиш касније да гледаш или читаш."
+        },
+        {
+          "question": "Да ли могу да додам подсетнике?",
+          "answer": "Да. Watch Later подржава сачувана времена подсетника и одлагање подсетника када ти треба више времена."
+        },
+        {
+          "question": "Могу ли да организујем ставке по приоритету?",
+          "answer": "Да. Можеш користити статусе и приоритете да лакше видиш шта је најважније."
+        },
+        {
+          "question": "Да ли постоје претрага и филтери?",
+          "answer": "Да. Библиотека омогућава претрагу по наслову, извору или ознаци, као и филтрирање по типу, статусу и омиљеним ставкама."
+        },
+        {
+          "question": "Да ли је Watch Later само за филмове?",
+          "answer": "Не. Апликација је корисна и за серије, видео-снимке, курсеве, чланке и други садржај који желиш да сачуваш."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Watch Later",
+      "summary": "Spremi filmove, serije, videozapise, tečajeve i članke u jedan pregledan popis. Dodaj podsjetnike, prioritete i favorite kako bi uvijek znao što je sljedeće.",
+      "longDescription": [
+        "Watch Later je jednostavna Android aplikacija za filmove, serije, videozapise, tečajeve i članke koje želiš pogledati ili pročitati kasnije. Umjesto da preporuke završe u bilješkama, chatovima i karticama preglednika, sve možeš držati u jednom organiziranom popisu.",
+        "Dodaj naslov, vrstu, platformu ili izvor, opcionalni URL, status, prioritet, trajanje, oznake, bilješke i datum izlaska. Tako lakše pamtiš što si spremio, gdje se nalazi i što je najvažnije.",
+        "Početni zaslon prikazuje planirane stavke, nadolazeća izdanja, zakašnjele podsjetnike, nedavno dovršene sadržaje i favorite. Stavke možeš označiti kao pogledane, odgoditi podsjetnik, urediti detalje i srediti biblioteku pomoću pretraživanja i filtara.",
+        "Bilo da spremaš Netflix film, YouTube video, online tečaj, dokumentarac ili članak, Watch Later pretvara raspršene preporuke u praktičan osobni popis."
+      ],
+      "bottomCtaDescription": "Ne gubi više dobre preporuke u bilješkama, porukama i otvorenim karticama. Watch Later na Androidu organizira tvoj osobni popis za gledanje uz podsjetnike, prioritete, favorite i povijest dovršenih sadržaja.",
+      "category": "Popis za gledanje i podsjetnici",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Watch Later",
+        "Popis za gledanje",
+        "Podsjetnik za film",
+        "Praćenje serija",
+        "Lista videozapisa",
+        "Sadržaj za kasnije",
+        "Favoriti",
+        "Android aplikacija"
+      ],
+      "metaTitle": "Watch Later za filmove, serije, video i podsjetnike",
+      "metaDescription": "Izradi popis za filmove, serije, videozapise, tečajeve i članke. Dodaj podsjetnike, prioritete, favorite i povijest.",
+      "featureBullets": [
+        {
+          "title": "Organiziran popis"
+        },
+        {
+          "title": "Podsjetnici i odgoda"
+        },
+        {
+          "title": "Prioriteti i statusi"
+        },
+        {
+          "title": "Pretraživanje i filtri"
+        },
+        {
+          "title": "Favoriti i povijest"
+        },
+        {
+          "title": "Svijetli i tamni način"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Sljedeći sadržaj uvijek na oku",
+          "description": "Prikaži početni zaslon s gumbom za dodavanje, statistikama, nadolazećim izdanjima i karticom spremljene stavke.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-1.png"
+        },
+        {
+          "title": "Spremi sve važne detalje",
+          "description": "Prikaži obrazac s naslovom, vrstom, platformom, statusom, prioritetom, trajanjem, oznakama, bilješkama i datumom izlaska.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-2.png"
+        },
+        {
+          "title": "Pretraži, filtriraj i posloži",
+          "description": "Prikaži biblioteku s pretraživanjem, filtrima za vrstu i status, favoritima, redoslijedom podsjetnika i karticom stavke.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Što mogu spremiti u Watch Later?",
+          "answer": "Možeš spremiti filmove, serije, videozapise, online tečajeve, članke i drugi sadržaj koji želiš pogledati ili pročitati kasnije."
+        },
+        {
+          "question": "Mogu li dodati podsjetnike?",
+          "answer": "Da. Watch Later podržava spremljena vremena podsjetnika i odgodu kada želiš nešto pogledati kasnije."
+        },
+        {
+          "question": "Mogu li organizirati stavke po prioritetu?",
+          "answer": "Da. Statusi i prioriteti pomažu ti da brže pronađeš najvažnije sadržaje."
+        },
+        {
+          "question": "Ima li aplikacija pretraživanje i filtre?",
+          "answer": "Da. U biblioteci možeš pretraživati po naslovu, izvoru ili oznaci te filtrirati po vrsti, statusu i favoritima."
+        },
+        {
+          "question": "Je li Watch Later samo za filmove?",
+          "answer": "Ne. Koristan je i za serije, videozapise, tečajeve, članke i sve druge sadržaje koje želiš zadržati na osobnom popisu."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Watch Later",
+      "summary": "Bewaar films, series, video’s, cursussen en artikelen in één overzichtelijke kijklijst. Voeg herinneringen, prioriteiten en favorieten toe zodat je altijd weet wat je hierna wilt bekijken.",
+      "longDescription": [
+        "Watch Later is een eenvoudige Android-app voor films, series, video’s, cursussen en artikelen die je later wilt bekijken of lezen. In plaats van ideeën te bewaren in losse notities, berichten en browsertabs, houd je alles bij in één georganiseerde lijst.",
+        "Voeg een titel, type, platform of bron, optionele URL, status, prioriteit, duur, tags, notities en releasedatum toe. Zo weet je wat je hebt opgeslagen, waar je het kunt vinden en wat het belangrijkst is.",
+        "Het startscherm toont geplande items, aankomende releases, verlopen herinneringen, recent voltooide items en favorieten. Je kunt items markeren als bekeken, herinneringen snoozen, details bewerken en je bibliotheek doorzoeken of filteren.",
+        "Van Netflix-films en YouTube-video’s tot online cursussen, documentaires en artikelen: Watch Later maakt van losse aanbevelingen een praktische persoonlijke kijklijst."
+      ],
+      "bottomCtaDescription": "Laat goede tips niet verdwijnen in notities, chats of open tabbladen. Watch Later geeft je op Android een nette wachtrij met herinneringen, prioriteiten, favorieten en geschiedenis voor alles wat je later wilt bekijken of lezen.",
+      "category": "Kijklijst & herinneringen",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Watch Later",
+        "Kijklijst",
+        "Film herinnering",
+        "Serie tracker",
+        "Videolijst",
+        "Later bekijken",
+        "Favorieten",
+        "Android app"
+      ],
+      "metaTitle": "Watch Later app voor films, series, video’s en reminders",
+      "metaDescription": "Maak een kijklijst voor films, series, video’s, cursussen en artikelen. Gebruik herinneringen, prioriteiten, favorieten en historie.",
+      "featureBullets": [
+        {
+          "title": "Georganiseerde kijklijst"
+        },
+        {
+          "title": "Herinneringen en snooze"
+        },
+        {
+          "title": "Prioriteiten en statussen"
+        },
+        {
+          "title": "Zoeken en filteren"
+        },
+        {
+          "title": "Favorieten en historie"
+        },
+        {
+          "title": "Lichte en donkere modus"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Houd je volgende keuze in beeld",
+          "description": "Toon het startdashboard met knop om toe te voegen, statistieken, aankomende releases en een opgeslagen itemkaart.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-1.png"
+        },
+        {
+          "title": "Bewaar alle details",
+          "description": "Toon het formulier met titel, type, platform, status, prioriteit, duur, tags, notities en releasedatum.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-2.png"
+        },
+        {
+          "title": "Zoek, filter en ruim op",
+          "description": "Toon de bibliotheek met zoekfunctie, type- en statusfilters, favorietenfilter, herinneringsvolgorde en itemkaart.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wat kan ik opslaan in Watch Later?",
+          "answer": "Je kunt films, series, video’s, online cursussen, artikelen en andere content opslaan die je later wilt bekijken of lezen."
+        },
+        {
+          "question": "Kan ik herinneringen instellen?",
+          "answer": "Ja. Watch Later ondersteunt opgeslagen herinneringstijden en je kunt herinneringen snoozen als je meer tijd nodig hebt."
+        },
+        {
+          "question": "Kan ik items ordenen op prioriteit?",
+          "answer": "Ja. Met status en prioriteit zie je sneller wat belangrijk is en wat je als volgende wilt bekijken."
+        },
+        {
+          "question": "Heeft de app zoekfilters?",
+          "answer": "Ja. In de bibliotheek kun je zoeken op titel, bron of tag en filteren op type, status en favorieten."
+        },
+        {
+          "question": "Is Watch Later alleen voor films?",
+          "answer": "Nee. De app werkt ook voor series, video’s, cursussen, artikelen en andere content die je wilt bewaren."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Watch Later",
+      "summary": "Zapisuj filmy, seriale, wideo, kursy i artykuły na jednej przejrzystej liście. Dodawaj przypomnienia, priorytety i ulubione, aby szybko wybrać, co obejrzeć później.",
+      "longDescription": [
+        "Watch Later to prosta aplikacja na Androida do zapisywania filmów, seriali, wideo, kursów i artykułów, które chcesz obejrzeć lub przeczytać później. Zamiast trzymać rekomendacje w notatkach, czatach i otwartych kartach, możesz mieć wszystko w jednej uporządkowanej liście.",
+        "Dodaj tytuł, typ, platformę lub źródło, opcjonalny URL, status, priorytet, czas trwania, tagi, notatki i datę premiery. Dzięki temu łatwo sprawdzisz, co zostało zapisane, gdzie to znaleźć i co jest najważniejsze.",
+        "Ekran główny pokazuje zaplanowane pozycje, nadchodzące premiery, zaległe przypomnienia, ostatnio ukończone treści i ulubione. Możesz oznaczać pozycje jako obejrzane, odkładać przypomnienia, edytować szczegóły oraz porządkować bibliotekę przez wyszukiwanie i filtry.",
+        "Niezależnie od tego, czy zapisujesz film z Netflixa, wideo z YouTube, kurs online, dokument czy artykuł, Watch Later zamienia luźne rekomendacje w praktyczną osobistą kolejkę."
+      ],
+      "bottomCtaDescription": "Nie gub już dobrych rekomendacji w notatkach, wiadomościach i kartach przeglądarki. Watch Later porządkuje Twoją listę na Androidzie dzięki przypomnieniom, priorytetom, ulubionym i historii ukończonych treści.",
+      "category": "Lista do obejrzenia i przypomnienia",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Watch Later",
+        "Lista do obejrzenia",
+        "Przypomnienie o filmie",
+        "Tracker seriali",
+        "Lista wideo",
+        "Treści na później",
+        "Ulubione",
+        "Aplikacja Android"
+      ],
+      "metaTitle": "Watch Later do filmów, seriali, wideo i przypomnień",
+      "metaDescription": "Twórz listę filmów, seriali, wideo, kursów i artykułów. Dodawaj przypomnienia, priorytety, ulubione i historię.",
+      "featureBullets": [
+        {
+          "title": "Uporządkowana lista"
+        },
+        {
+          "title": "Przypomnienia i drzemka"
+        },
+        {
+          "title": "Priorytety i statusy"
+        },
+        {
+          "title": "Wyszukiwanie i filtry"
+        },
+        {
+          "title": "Ulubione i historia"
+        },
+        {
+          "title": "Tryb jasny i ciemny"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Miej kolejny wybór pod ręką",
+          "description": "Pokaż ekran główny z przyciskiem dodawania, statystykami, nadchodzącymi premierami i kartą zapisanej pozycji.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-1.png"
+        },
+        {
+          "title": "Zapisz wszystkie szczegóły",
+          "description": "Pokaż formularz z tytułem, typem, platformą, statusem, priorytetem, czasem trwania, tagami, notatkami i datą premiery.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-2.png"
+        },
+        {
+          "title": "Szukaj, filtruj i porządkuj",
+          "description": "Pokaż bibliotekę z wyszukiwarką, filtrami typu i statusu, ulubionymi, kolejnością przypomnień i kartą treści.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Co mogę zapisać w Watch Later?",
+          "answer": "Możesz zapisywać filmy, seriale, wideo, kursy online, artykuły i inne treści, które chcesz obejrzeć lub przeczytać później."
+        },
+        {
+          "question": "Czy mogę ustawić przypomnienia?",
+          "answer": "Tak. Watch Later obsługuje zapisane godziny przypomnień i pozwala je odłożyć, gdy potrzebujesz więcej czasu."
+        },
+        {
+          "question": "Czy mogę organizować pozycje według priorytetu?",
+          "answer": "Tak. Statusy i priorytety pomagają szybciej odnaleźć najważniejsze treści."
+        },
+        {
+          "question": "Czy aplikacja ma wyszukiwanie i filtry?",
+          "answer": "Tak. W bibliotece możesz wyszukiwać po tytule, źródle lub tagu oraz filtrować według typu, statusu i ulubionych."
+        },
+        {
+          "question": "Czy Watch Later jest tylko do filmów?",
+          "answer": "Nie. Aplikacja sprawdza się także przy serialach, wideo, kursach, artykułach i innych treściach do zapisania."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Watch Later",
+      "summary": "Salvează filme, seriale, videoclipuri, cursuri și articole într-o listă clară pentru mai târziu. Adaugă mementouri, priorități și favorite ca să știi mereu ce urmează.",
+      "longDescription": [
+        "Watch Later este o aplicație Android simplă pentru filme, seriale, videoclipuri, cursuri și articole pe care vrei să le urmărești sau să le citești mai târziu. În loc să împrăștii recomandările prin notițe, conversații și file de browser, le poți păstra într-o listă organizată.",
+        "Adaugă titlu, tip, platformă sau sursă, URL opțional, status, prioritate, durată, etichete, notițe și dată de lansare. Astfel știi ce ai salvat, unde îl găsești și ce merită atenția ta mai întâi.",
+        "Ecranul principal evidențiază elementele planificate, lansările viitoare, mementourile depășite, conținutul finalizat recent și favoritele. Poți marca un element ca vizionat, amâna un memento, edita detaliile și organiza biblioteca prin căutare și filtre.",
+        "Fie că urmărești un film pe Netflix, un video pe YouTube, un curs online, un documentar sau un articol, Watch Later transformă recomandările răzlețe într-o coadă personală ușor de gestionat."
+      ],
+      "bottomCtaDescription": "Nu mai pierde recomandări bune prin notițe, mesaje sau file uitate în browser. Watch Later îți organizează lista pe Android cu mementouri, priorități, favorite și istoric, pentru ca următorul film, video sau articol să fie ușor de găsit.",
+      "category": "Listă de urmărit și mementouri",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Watch Later",
+        "Listă de urmărit",
+        "Memento filme",
+        "Tracker seriale",
+        "Listă video",
+        "Conținut pentru mai târziu",
+        "Favorite",
+        "Aplicație Android"
+      ],
+      "metaTitle": "Watch Later pentru filme, seriale, video și mementouri",
+      "metaDescription": "Creează o listă pentru filme, seriale, videoclipuri, cursuri și articole. Adaugă mementouri, priorități și favorite.",
+      "featureBullets": [
+        {
+          "title": "Listă organizată"
+        },
+        {
+          "title": "Mementouri și amânare"
+        },
+        {
+          "title": "Priorități și statusuri"
+        },
+        {
+          "title": "Căutare și filtre"
+        },
+        {
+          "title": "Favorite și istoric"
+        },
+        {
+          "title": "Mod luminos și întunecat"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Ține următorul conținut la vedere",
+          "description": "Arată ecranul principal cu buton de adăugare, statistici, lansări viitoare și un card salvat.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-1.png"
+        },
+        {
+          "title": "Salvează toate detaliile",
+          "description": "Arată formularul cu titlu, tip, platformă, status, prioritate, durată, etichete, notițe și dată de lansare.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-2.png"
+        },
+        {
+          "title": "Caută, filtrează și organizează",
+          "description": "Arată biblioteca cu căutare, filtre pentru tip și status, favorite, ordine după memento și card de conținut.",
+          "imagePath": "apps/screenshots/watch-later/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Ce pot salva în Watch Later?",
+          "answer": "Poți salva filme, seriale, videoclipuri, cursuri online, articole și alte conținuturi pe care vrei să le urmărești sau să le citești mai târziu."
+        },
+        {
+          "question": "Pot adăuga mementouri?",
+          "answer": "Da. Watch Later permite salvarea orelor de memento și amânarea lor atunci când ai nevoie de mai mult timp."
+        },
+        {
+          "question": "Pot organiza elementele după prioritate?",
+          "answer": "Da. Statusurile și prioritățile te ajută să găsești mai repede conținutul important."
+        },
+        {
+          "question": "Aplicația are căutare și filtre?",
+          "answer": "Da. În bibliotecă poți căuta după titlu, sursă sau etichetă și poți filtra după tip, status și favorite."
+        },
+        {
+          "question": "Watch Later este doar pentru filme?",
+          "answer": "Nu. Funcționează și pentru seriale, videoclipuri, cursuri, articole și alte conținuturi pe care vrei să le păstrezi."
+        }
+      ]
+    }
+  }
+}
