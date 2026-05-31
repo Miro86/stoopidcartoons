@@ -1,0 +1,910 @@
+{
+  "slug": "goal-tracker",
+  "sortOrder": 18,
+  "kind": "app",
+  "featured": false,
+  "accent": "green",
+  "icon": "apps/icons/goal-tracker.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.goaltracker",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "ProductivityApplication",
+  "relatedSlugs": [
+    "water-reminder",
+    "habit-tracker",
+    "mood-tracker"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Goal Tracker",
+      "summary": "Goal Tracker helps you turn personal targets into clear daily progress. Create goals, check in regularly, follow your timeline, and stay focused with reminders.",
+      "longDescription": [
+        "Goal Tracker is built for people who want a simple, visual way to follow their goals without turning productivity into another task. Add a goal, set a target, choose a category, and keep your next action visible on the mission board.",
+        "Each goal can include current progress, a target value, a unit, status, deadline, reminder, and notes. This makes the app useful for learning goals, personal projects, routines, challenges, and any measurable target you want to move forward.",
+        "Check-ins help you record progress over time. The activity timeline keeps a clear history of what changed, while the progress cockpit shows average progress, completed goals, milestones, check-ins, and category performance.",
+        "Goal Tracker also includes practical settings such as reminders, appearance options, language selection, archived goals, and local data statistics. It is focused, lightweight, and easy to use every day."
+      ],
+      "bottomCtaDescription": "Start with one goal, track every small win, and keep your progress visible. Goal Tracker is a simple Android app for building momentum without complicated planning tools.",
+      "category": "Productivity",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Goal Tracker",
+        "Habit Tracker",
+        "Productivity App",
+        "Progress Tracker",
+        "Daily Goals",
+        "Personal Goals",
+        "Reminders"
+      ],
+      "metaTitle": "Goal Tracker App for Daily Goals and Progress",
+      "metaDescription": "Track personal goals, check in on progress, view your timeline, and use reminders to stay focused with Goal Tracker for Android.",
+      "featureBullets": [
+        {
+          "title": "Mission Board"
+        },
+        {
+          "title": "Custom Goals"
+        },
+        {
+          "title": "Progress Check-ins"
+        },
+        {
+          "title": "Activity Timeline"
+        },
+        {
+          "title": "Goal Reminders"
+        },
+        {
+          "title": "Category Progress"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Mission Board",
+          "description": "Show the main dashboard with active goals, completed goals, due soon count, streak, progress ring, and a focused goal card.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Create a Goal",
+          "description": "Show the goal creation sheet with title, category, current value, target, unit, status, deadline, reminder, notes, and create button.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Track Progress",
+          "description": "Show progress insights and the activity timeline so users understand how check-ins and category progress are recorded.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What can I track with Goal Tracker?",
+          "answer": "You can track personal goals, learning targets, routines, challenges, projects, or any progress that can be measured with a number and unit."
+        },
+        {
+          "question": "Does Goal Tracker support reminders?",
+          "answer": "Yes. You can add reminders to goals so you do not forget important check-ins or planned progress updates."
+        },
+        {
+          "question": "Can I see my goal history?",
+          "answer": "Yes. The activity timeline shows check-ins and progress updates, making it easier to review what you completed over time."
+        },
+        {
+          "question": "Is Goal Tracker only for habits?",
+          "answer": "No. It works for habits, but it is also suitable for broader goals like learning, fitness targets, personal projects, and productivity milestones."
+        }
+      ]
+    },
+    "de": {
+      "name": "Ziel-Tracker",
+      "summary": "Ziel-Tracker hilft dir, persönliche Ziele in sichtbare Fortschritte zu verwandeln. Erstelle Ziele, trage Check-ins ein, verfolge deine Timeline und bleib mit Erinnerungen fokussiert.",
+      "longDescription": [
+        "Ziel-Tracker ist für alle gedacht, die ihre Ziele klar und ohne unnötige Komplexität verfolgen möchten. Du legst ein Ziel an, definierst einen Zielwert, wählst eine Kategorie und siehst auf dem Mission Board, worauf du dich als Nächstes konzentrieren solltest.",
+        "Jedes Ziel kann einen aktuellen Wert, einen Zielwert, eine Einheit, einen Status, eine Deadline, eine Erinnerung und Notizen enthalten. So eignet sich die App für Lernziele, persönliche Projekte, Routinen, Challenges und messbare Fortschritte.",
+        "Mit Check-ins hältst du fest, was du erreicht hast. Die Aktivitäts-Timeline zeigt deine Updates chronologisch, während das Fortschritts-Cockpit Durchschnittswerte, abgeschlossene Ziele, Meilensteine, Check-ins und Kategorien übersichtlich darstellt.",
+        "Zusätzlich bietet Ziel-Tracker praktische Einstellungen für Erinnerungen, Darstellung, Sprache, archivierte Ziele und lokale Daten. Die App bleibt bewusst schlank, damit du dich auf das Wesentliche konzentrieren kannst."
+      ],
+      "bottomCtaDescription": "Starte mit einem Ziel und mach jeden kleinen Fortschritt sichtbar. Ziel-Tracker ist eine einfache Android-App für mehr Fokus, Motivation und Übersicht im Alltag.",
+      "category": "Produktivität",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Ziel Tracker",
+        "Gewohnheiten Tracker",
+        "Produktivität App",
+        "Fortschritt Tracker",
+        "Tagesziele",
+        "Persönliche Ziele",
+        "Erinnerungen"
+      ],
+      "metaTitle": "Ziel-Tracker App für Ziele, Check-ins und Fortschritt",
+      "metaDescription": "Plane persönliche Ziele, dokumentiere Fortschritte, nutze Erinnerungen und behalte deine Entwicklung mit dem Ziel-Tracker für Android im Blick.",
+      "featureBullets": [
+        {
+          "title": "Mission Board"
+        },
+        {
+          "title": "Eigene Ziele"
+        },
+        {
+          "title": "Fortschritt-Check-ins"
+        },
+        {
+          "title": "Aktivitäts-Timeline"
+        },
+        {
+          "title": "Ziel-Erinnerungen"
+        },
+        {
+          "title": "Kategorien-Fortschritt"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Mission Board",
+          "description": "Zeige das Dashboard mit aktiven Zielen, abgeschlossenen Zielen, bald fälligen Zielen, Serie, Fortschrittsring und Fokuskarte.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Ziel erstellen",
+          "description": "Zeige das Formular mit Titel, Kategorie, aktuellem Wert, Zielwert, Einheit, Status, Deadline, Erinnerung, Notizen und Erstellen-Button.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Fortschritt verfolgen",
+          "description": "Zeige Fortschrittsübersicht und Aktivitäts-Timeline, damit Nutzer sehen, wie Check-ins und Kategorien dokumentiert werden.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Was kann ich mit Ziel-Tracker verfolgen?",
+          "answer": "Du kannst persönliche Ziele, Lernfortschritte, Routinen, Projekte, Challenges oder andere messbare Vorhaben verfolgen."
+        },
+        {
+          "question": "Kann ich Erinnerungen für Ziele einstellen?",
+          "answer": "Ja. Du kannst Erinnerungen hinzufügen, damit du wichtige Check-ins oder geplante Fortschritte nicht vergisst."
+        },
+        {
+          "question": "Gibt es eine Übersicht über meine bisherigen Fortschritte?",
+          "answer": "Ja. Die Aktivitäts-Timeline zeigt deine Check-ins und Fortschrittsupdates chronologisch."
+        },
+        {
+          "question": "Ist die App nur für Gewohnheiten gedacht?",
+          "answer": "Nein. Sie funktioniert für Gewohnheiten, aber auch für Lernziele, persönliche Projekte, Fitnessziele und Produktivitätsziele."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Suivi d’objectifs",
+      "summary": "Suivi d’objectifs vous aide à transformer vos ambitions en progrès visibles. Créez vos objectifs, ajoutez des check-ins, suivez votre historique et gardez le cap avec des rappels.",
+      "longDescription": [
+        "Suivi d’objectifs s’adresse à celles et ceux qui veulent avancer clairement, sans transformer l’organisation personnelle en contrainte. Ajoutez un objectif, définissez une cible, choisissez une catégorie et gardez votre prochaine action visible sur le tableau de mission.",
+        "Chaque objectif peut inclure une valeur actuelle, une valeur cible, une unité, un statut, une date limite, un rappel et des notes. L’application convient aux objectifs d’apprentissage, projets personnels, routines, défis et progrès mesurables.",
+        "Les check-ins permettent d’enregistrer vos avancées au fil du temps. La timeline d’activité conserve l’historique des changements, tandis que le cockpit de progression affiche la moyenne, les objectifs terminés, les jalons, les check-ins et la progression par catégorie.",
+        "Suivi d’objectifs propose aussi des réglages utiles pour les rappels, l’apparence, la langue, les objectifs archivés et les données locales. Tout est pensé pour rester simple, lisible et motivant."
+      ],
+      "bottomCtaDescription": "Commencez avec un seul objectif, notez chaque avancée et gardez votre progression sous les yeux. Suivi d’objectifs est une application Android simple pour rester motivé sans outil compliqué.",
+      "category": "Productivité",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Suivi D’objectifs",
+        "Suivi D’habitudes",
+        "Application Productivité",
+        "Suivi De Progression",
+        "Objectifs Quotidiens",
+        "Objectifs Personnels",
+        "Rappels"
+      ],
+      "metaTitle": "Application de suivi d’objectifs et de progrès",
+      "metaDescription": "Créez des objectifs, suivez vos progrès, ajoutez des check-ins et utilisez des rappels avec Suivi d’objectifs pour Android.",
+      "featureBullets": [
+        {
+          "title": "Tableau De Mission"
+        },
+        {
+          "title": "Objectifs Personnalisés"
+        },
+        {
+          "title": "Check-ins De Progression"
+        },
+        {
+          "title": "Timeline D’activité"
+        },
+        {
+          "title": "Rappels D’objectifs"
+        },
+        {
+          "title": "Progression Par Catégorie"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Tableau de mission",
+          "description": "Montrer l’écran principal avec objectifs actifs, objectifs terminés, échéances proches, série, anneau de progression et carte d’objectif prioritaire.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Créer un objectif",
+          "description": "Montrer la fiche de création avec titre, catégorie, valeur actuelle, cible, unité, statut, date limite, rappel, notes et bouton de création.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Suivre les progrès",
+          "description": "Montrer les statistiques et la timeline pour expliquer comment les check-ins et la progression par catégorie sont enregistrés.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Quels types d’objectifs puis-je suivre ?",
+          "answer": "Vous pouvez suivre des objectifs personnels, des apprentissages, des routines, des projets, des défis ou tout progrès mesurable."
+        },
+        {
+          "question": "L’application propose-t-elle des rappels ?",
+          "answer": "Oui. Vous pouvez ajouter des rappels à vos objectifs pour ne pas oublier vos check-ins ou vos échéances importantes."
+        },
+        {
+          "question": "Puis-je consulter l’historique de mes progrès ?",
+          "answer": "Oui. La timeline d’activité affiche vos check-ins et mises à jour de progression dans l’ordre chronologique."
+        },
+        {
+          "question": "Est-ce seulement une application de suivi d’habitudes ?",
+          "answer": "Non. Elle convient aussi aux objectifs d’apprentissage, aux projets personnels, aux objectifs de productivité et aux progrès chiffrés."
+        }
+      ]
+    },
+    "it": {
+      "name": "Goal Tracker",
+      "summary": "Goal Tracker ti aiuta a trasformare i tuoi obiettivi personali in progressi chiari e visibili. Crea obiettivi, registra check-in, segui la timeline e resta concentrato con i promemoria.",
+      "longDescription": [
+        "Goal Tracker è pensato per chi vuole seguire i propri obiettivi in modo semplice, visivo e senza distrazioni. Aggiungi un obiettivo, imposta un valore target, scegli una categoria e tieni sempre in vista la prossima azione sulla mission board.",
+        "Ogni obiettivo può includere valore attuale, target, unità, stato, scadenza, promemoria e note. È utile per studio, progetti personali, routine, sfide, crescita personale e qualsiasi progresso misurabile.",
+        "I check-in ti permettono di registrare i miglioramenti nel tempo. La timeline mostra lo storico delle attività, mentre il pannello dei progressi evidenzia media, obiettivi completati, milestone, check-in e andamento per categoria.",
+        "Goal Tracker include anche impostazioni pratiche per promemoria, tema, lingua, obiettivi archiviati e dati locali. L’esperienza resta leggera e immediata, così puoi concentrarti sul risultato."
+      ],
+      "bottomCtaDescription": "Inizia da un obiettivo, registra ogni passo avanti e mantieni alta la motivazione. Goal Tracker è un’app Android semplice per seguire i progressi senza strumenti complicati.",
+      "category": "Produttività",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Goal Tracker",
+        "Tracker Abitudini",
+        "App Produttività",
+        "Tracker Progressi",
+        "Obiettivi Giornalieri",
+        "Obiettivi Personali",
+        "Promemoria"
+      ],
+      "metaTitle": "Goal Tracker per obiettivi, check-in e progressi",
+      "metaDescription": "Crea obiettivi personali, registra progressi, consulta la timeline e usa promemoria con Goal Tracker per Android.",
+      "featureBullets": [
+        {
+          "title": "Mission Board"
+        },
+        {
+          "title": "Obiettivi Personalizzati"
+        },
+        {
+          "title": "Check-in Dei Progressi"
+        },
+        {
+          "title": "Timeline Attività"
+        },
+        {
+          "title": "Promemoria Obiettivi"
+        },
+        {
+          "title": "Progressi Per Categoria"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Mission board",
+          "description": "Mostrare la dashboard con obiettivi attivi, completati, in scadenza, serie, anello di progresso e scheda del focus principale.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Crea obiettivo",
+          "description": "Mostrare il foglio di creazione con titolo, categoria, valore attuale, target, unità, stato, scadenza, promemoria, note e pulsante finale.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Monitora i progressi",
+          "description": "Mostrare statistiche e timeline per comunicare come vengono registrati check-in e avanzamento per categoria.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Cosa posso monitorare con Goal Tracker?",
+          "answer": "Puoi monitorare obiettivi personali, abitudini, studio, progetti, sfide e qualsiasi traguardo misurabile con valore e unità."
+        },
+        {
+          "question": "Posso impostare promemoria per gli obiettivi?",
+          "answer": "Sì. Puoi aggiungere promemoria ai tuoi obiettivi per ricordarti check-in, scadenze o aggiornamenti importanti."
+        },
+        {
+          "question": "L’app mostra lo storico dei progressi?",
+          "answer": "Sì. La timeline attività mostra i check-in e gli aggiornamenti di progresso in ordine cronologico."
+        },
+        {
+          "question": "Goal Tracker è solo per le abitudini?",
+          "answer": "No. È adatto anche a obiettivi di apprendimento, produttività, progetti personali e progressi numerici."
+        }
+      ]
+    },
+    "es": {
+      "name": "Goal Tracker",
+      "summary": "Goal Tracker te ayuda a convertir tus metas personales en progreso visible. Crea objetivos, registra avances, consulta tu historial y mantén el enfoque con recordatorios.",
+      "longDescription": [
+        "Goal Tracker está diseñado para quienes quieren avanzar con claridad sin usar herramientas de productividad complicadas. Crea una meta, define un objetivo, elige una categoría y mantén tu próximo paso visible en el panel principal.",
+        "Cada objetivo puede incluir progreso actual, valor objetivo, unidad, estado, fecha límite, recordatorio y notas. Es útil para aprendizaje, proyectos personales, rutinas, retos y cualquier meta que puedas medir.",
+        "Los check-ins te permiten registrar avances con el tiempo. La línea de actividad guarda el historial de cambios, mientras que el panel de progreso muestra promedio, metas completadas, hitos, check-ins y rendimiento por categoría.",
+        "Goal Tracker también incluye ajustes para recordatorios, apariencia, idioma, metas archivadas y datos locales. La experiencia es simple, visual y pensada para ayudarte a mantener el impulso."
+      ],
+      "bottomCtaDescription": "Empieza con una meta, registra cada avance y mantén la motivación día a día. Goal Tracker es una app Android sencilla para seguir objetivos sin complicaciones.",
+      "category": "Productividad",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Goal Tracker",
+        "Seguimiento De Hábitos",
+        "App De Productividad",
+        "Seguimiento De Progreso",
+        "Metas Diarias",
+        "Objetivos Personales",
+        "Recordatorios"
+      ],
+      "metaTitle": "Goal Tracker para metas, hábitos y progreso diario",
+      "metaDescription": "Crea metas personales, registra check-ins, revisa tu timeline y usa recordatorios con Goal Tracker para Android.",
+      "featureBullets": [
+        {
+          "title": "Panel De Misión"
+        },
+        {
+          "title": "Metas Personalizadas"
+        },
+        {
+          "title": "Check-ins De Progreso"
+        },
+        {
+          "title": "Timeline De Actividad"
+        },
+        {
+          "title": "Recordatorios De Metas"
+        },
+        {
+          "title": "Progreso Por Categoría"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Panel de misión",
+          "description": "Mostrar la pantalla principal con metas activas, completadas, próximas a vencer, racha, anillo de progreso y tarjeta de enfoque.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Crear una meta",
+          "description": "Mostrar el formulario con título, categoría, valor actual, objetivo, unidad, estado, fecha límite, recordatorio, notas y botón de crear.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Ver el progreso",
+          "description": "Mostrar estadísticas y timeline para explicar cómo se registran los check-ins y el progreso por categoría.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Qué puedo seguir con Goal Tracker?",
+          "answer": "Puedes seguir metas personales, hábitos, aprendizaje, proyectos, retos o cualquier objetivo medible con un valor y una unidad."
+        },
+        {
+          "question": "¿Puedo añadir recordatorios a mis metas?",
+          "answer": "Sí. Puedes configurar recordatorios para no olvidar check-ins, fechas importantes o avances planificados."
+        },
+        {
+          "question": "¿La app muestra un historial de progreso?",
+          "answer": "Sí. La timeline de actividad muestra tus check-ins y actualizaciones de progreso en orden cronológico."
+        },
+        {
+          "question": "¿Goal Tracker sirve solo para hábitos?",
+          "answer": "No. También funciona para metas de estudio, productividad, proyectos personales, fitness y cualquier progreso cuantificable."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Goal Tracker",
+      "summary": "Goal Tracker ajuda a transformar objetivos pessoais em progresso visível. Crie metas, registre check-ins, acompanhe a linha do tempo e mantenha o foco com lembretes.",
+      "longDescription": [
+        "Goal Tracker foi criado para quem quer acompanhar objetivos de forma simples, visual e prática. Adicione uma meta, defina um alvo, escolha uma categoria e mantenha o próximo passo sempre visível no painel principal.",
+        "Cada objetivo pode incluir progresso atual, valor alvo, unidade, status, prazo, lembrete e notas. O app funciona bem para estudos, projetos pessoais, rotinas, desafios e qualquer meta que possa ser medida.",
+        "Os check-ins ajudam você a registrar avanços ao longo do tempo. A linha do tempo mostra o histórico de atividades, enquanto o painel de progresso exibe média, metas concluídas, marcos, check-ins e desempenho por categoria.",
+        "Goal Tracker também oferece configurações úteis para lembretes, aparência, idioma, metas arquivadas e dados locais. É uma experiência leve para manter o foco no que realmente importa."
+      ],
+      "bottomCtaDescription": "Comece com uma meta, registre cada pequeno avanço e mantenha sua motivação em dia. Goal Tracker é um app Android simples para acompanhar objetivos sem complicar sua rotina.",
+      "category": "Produtividade",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Goal Tracker",
+        "Rastreador De Hábitos",
+        "App De Produtividade",
+        "Acompanhamento De Progresso",
+        "Metas Diárias",
+        "Objetivos Pessoais",
+        "Lembretes"
+      ],
+      "metaTitle": "Goal Tracker para metas, hábitos e progresso",
+      "metaDescription": "Crie metas pessoais, registre avanços, veja sua linha do tempo e use lembretes com o Goal Tracker para Android.",
+      "featureBullets": [
+        {
+          "title": "Painel De Missão"
+        },
+        {
+          "title": "Metas Personalizadas"
+        },
+        {
+          "title": "Check-ins De Progresso"
+        },
+        {
+          "title": "Linha Do Tempo"
+        },
+        {
+          "title": "Lembretes De Metas"
+        },
+        {
+          "title": "Progresso Por Categoria"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Painel de missão",
+          "description": "Mostrar a tela principal com metas ativas, concluídas, próximas do prazo, sequência, anel de progresso e cartão de foco.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Criar meta",
+          "description": "Mostrar o formulário com título, categoria, valor atual, alvo, unidade, status, prazo, lembrete, notas e botão de criação.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Acompanhar progresso",
+          "description": "Mostrar estatísticas e linha do tempo para comunicar como check-ins e progresso por categoria são registrados.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "O que posso acompanhar com o Goal Tracker?",
+          "answer": "Você pode acompanhar metas pessoais, hábitos, estudos, projetos, desafios ou qualquer progresso mensurável com valor e unidade."
+        },
+        {
+          "question": "O app tem lembretes?",
+          "answer": "Sim. Você pode adicionar lembretes às metas para não esquecer check-ins, prazos ou atualizações importantes."
+        },
+        {
+          "question": "Posso ver meu histórico de progresso?",
+          "answer": "Sim. A linha do tempo mostra seus check-ins e atualizações de progresso em ordem cronológica."
+        },
+        {
+          "question": "Goal Tracker é apenas para hábitos?",
+          "answer": "Não. Ele também serve para estudos, produtividade, projetos pessoais, metas de fitness e progresso numérico."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Праћење Циљева",
+      "summary": "Праћење Циљева помаже да личне циљеве претвориш у јасан и видљив напредак. Креирај циљеве, бележи check-in уносе, прати временску линију и остани фокусиран уз подсетнике.",
+      "longDescription": [
+        "Праћење Циљева је направљено за кориснике који желе једноставан и прегледан начин да прате своје циљеве. Додај циљ, постави циљну вредност, изабери категорију и задржи следећи корак видљив на главној табли.",
+        "Сваки циљ може имати тренутни напредак, циљну вредност, јединицу, статус, рок, подсетник и белешке. Апликација је корисна за учење, личне пројекте, рутине, изазове и сваки мерљив напредак.",
+        "Check-in уноси ти помажу да бележиш напредак кроз време. Временска линија приказује историју активности, док преглед напретка приказује просек, завршене циљеве, прекретнице, check-in уносе и напредак по категоријама.",
+        "Апликација укључује и подешавања за подсетнике, изглед, језик, архивиране циљеве и локалне податке. Фокус је на једноставности, прегледности и свакодневној употреби."
+      ],
+      "bottomCtaDescription": "Почни са једним циљем, забележи сваки мали помак и држи напредак пред очима. Праћење Циљева је једноставна Android апликација за више фокуса без компликованог планирања.",
+      "category": "Продуктивност",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Праћење Циљева",
+        "Праћење Навика",
+        "Апликација За Продуктивност",
+        "Праћење Напретка",
+        "Дневни Циљеви",
+        "Лични Циљеви",
+        "Подсетници"
+      ],
+      "metaTitle": "Праћење Циљева за дневне циљеве и напредак",
+      "metaDescription": "Креирај личне циљеве, бележи напредак, прати временску линију и користи подсетнике уз Android апликацију Праћење Циљева.",
+      "featureBullets": [
+        {
+          "title": "Табла Мисије"
+        },
+        {
+          "title": "Прилагођени Циљеви"
+        },
+        {
+          "title": "Check-in Напредак"
+        },
+        {
+          "title": "Временска Линија"
+        },
+        {
+          "title": "Подсетници За Циљеве"
+        },
+        {
+          "title": "Напредак По Категоријама"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Табла мисије",
+          "description": "Прикажи главни екран са активним циљевима, завршеним циљевима, циљевима који ускоро доспевају, низом, кругом напретка и картицом фокуса.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Креирање циља",
+          "description": "Прикажи форму са насловом, категоријом, тренутном вредношћу, циљем, јединицом, статусом, роком, подсетником, белешкама и дугметом за креирање.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Праћење напретка",
+          "description": "Прикажи статистику и временску линију како би било јасно како се бележе check-in уноси и напредак по категоријама.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Шта могу да пратим у апликацији Праћење Циљева?",
+          "answer": "Можеш пратити личне циљеве, навике, учење, пројекте, изазове или било који напредак који се може мерити бројем и јединицом."
+        },
+        {
+          "question": "Да ли апликација подржава подсетнике?",
+          "answer": "Да. Можеш додати подсетнике циљевима како не би заборавио check-in, рок или планирани напредак."
+        },
+        {
+          "question": "Могу ли да видим историју напретка?",
+          "answer": "Да. Временска линија приказује check-in уносе и ажурирања напретка хронолошким редом."
+        },
+        {
+          "question": "Да ли је апликација само за навике?",
+          "answer": "Не. Погодна је и за учење, личне пројекте, продуктивност, фитнес циљеве и друге мерљиве циљеве."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Goal Tracker",
+      "summary": "Goal Tracker pomaže ti pretvoriti osobne ciljeve u jasan i vidljiv napredak. Kreiraj ciljeve, bilježi check-in unose, prati vremensku crtu i ostani usredotočen uz podsjetnike.",
+      "longDescription": [
+        "Goal Tracker je namijenjen svima koji žele jednostavno i pregledno pratiti svoje ciljeve. Dodaj cilj, postavi ciljnu vrijednost, odaberi kategoriju i drži sljedeći korak vidljiv na glavnoj ploči.",
+        "Svaki cilj može sadržavati trenutačni napredak, ciljnu vrijednost, jedinicu, status, rok, podsjetnik i bilješke. Aplikacija je korisna za učenje, osobne projekte, rutine, izazove i bilo koji mjerljiv napredak.",
+        "Check-in unosi pomažu ti bilježiti napredak kroz vrijeme. Vremenska crta prikazuje povijest aktivnosti, dok pregled napretka pokazuje prosjek, dovršene ciljeve, prekretnice, check-in unose i rezultate po kategorijama.",
+        "Goal Tracker uključuje i postavke za podsjetnike, izgled, jezik, arhivirane ciljeve i lokalne podatke. Sve je osmišljeno da ostane jednostavno, jasno i korisno svaki dan."
+      ],
+      "bottomCtaDescription": "Kreni s jednim ciljem, zabilježi svaki mali pomak i zadrži pregled nad napretkom. Goal Tracker je jednostavna Android aplikacija za fokus, motivaciju i svakodnevni napredak.",
+      "category": "Produktivnost",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Goal Tracker",
+        "Praćenje Navika",
+        "Aplikacija Za Produktivnost",
+        "Praćenje Napretka",
+        "Dnevni Ciljevi",
+        "Osobni Ciljevi",
+        "Podsjetnici"
+      ],
+      "metaTitle": "Goal Tracker za ciljeve, navike i napredak",
+      "metaDescription": "Kreiraj osobne ciljeve, prati napredak, bilježi check-in unose i koristi podsjetnike uz Goal Tracker za Android.",
+      "featureBullets": [
+        {
+          "title": "Ploča Misije"
+        },
+        {
+          "title": "Prilagođeni Ciljevi"
+        },
+        {
+          "title": "Check-in Napredak"
+        },
+        {
+          "title": "Vremenska Crta"
+        },
+        {
+          "title": "Podsjetnici Za Ciljeve"
+        },
+        {
+          "title": "Napredak Po Kategorijama"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Ploča misije",
+          "description": "Prikazati glavni ekran s aktivnim ciljevima, dovršenim ciljevima, ciljevima koji uskoro dospijevaju, nizom, krugom napretka i fokus karticom.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Kreiranje cilja",
+          "description": "Prikazati obrazac s naslovom, kategorijom, trenutačnom vrijednošću, ciljem, jedinicom, statusom, rokom, podsjetnikom, bilješkama i gumbom za kreiranje.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Praćenje napretka",
+          "description": "Prikazati statistiku i vremensku crtu kako bi korisnik vidio kako se bilježe check-in unosi i napredak po kategorijama.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Što mogu pratiti u aplikaciji Goal Tracker?",
+          "answer": "Možeš pratiti osobne ciljeve, navike, učenje, projekte, izazove ili bilo koji cilj koji se može mjeriti vrijednošću i jedinicom."
+        },
+        {
+          "question": "Mogu li postaviti podsjetnike za ciljeve?",
+          "answer": "Da. Ciljevima možeš dodati podsjetnike kako ne bi zaboravio check-in, rok ili važan napredak."
+        },
+        {
+          "question": "Mogu li vidjeti povijest napretka?",
+          "answer": "Da. Vremenska crta prikazuje check-in unose i ažuriranja napretka kronološkim redom."
+        },
+        {
+          "question": "Je li Goal Tracker samo za navike?",
+          "answer": "Ne. Može se koristiti i za učenje, produktivnost, osobne projekte, fitness ciljeve i druge mjerljive ciljeve."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Goal Tracker",
+      "summary": "Goal Tracker helpt je persoonlijke doelen om te zetten in zichtbare voortgang. Maak doelen aan, registreer check-ins, bekijk je tijdlijn en blijf gefocust met herinneringen.",
+      "longDescription": [
+        "Goal Tracker is gemaakt voor iedereen die doelen helder en overzichtelijk wil volgen. Voeg een doel toe, stel een streefwaarde in, kies een categorie en houd je volgende stap zichtbaar op het mission board.",
+        "Elk doel kan een huidige waarde, streefwaarde, eenheid, status, deadline, herinnering en notities bevatten. Dat maakt de app handig voor leren, persoonlijke projecten, routines, challenges en meetbare voortgang.",
+        "Met check-ins registreer je wat je hebt bereikt. De activiteitentijdlijn toont je updates chronologisch, terwijl het voortgangsoverzicht gemiddelde voortgang, voltooide doelen, mijlpalen, check-ins en categorieprestaties laat zien.",
+        "Goal Tracker bevat daarnaast praktische instellingen voor herinneringen, weergave, taal, gearchiveerde doelen en lokale gegevens. De app blijft bewust eenvoudig, zodat je aandacht bij je doelen blijft."
+      ],
+      "bottomCtaDescription": "Begin met één doel, leg elke stap vooruit vast en houd je motivatie vast. Goal Tracker is een eenvoudige Android-app om doelen te volgen zonder ingewikkelde planning.",
+      "category": "Productiviteit",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Goal Tracker",
+        "Gewoontes Tracker",
+        "Productiviteit App",
+        "Voortgang Tracker",
+        "Dagelijkse Doelen",
+        "Persoonlijke Doelen",
+        "Herinneringen"
+      ],
+      "metaTitle": "Goal Tracker app voor doelen en voortgang",
+      "metaDescription": "Maak persoonlijke doelen, registreer check-ins, bekijk je tijdlijn en gebruik herinneringen met Goal Tracker voor Android.",
+      "featureBullets": [
+        {
+          "title": "Mission Board"
+        },
+        {
+          "title": "Aangepaste Doelen"
+        },
+        {
+          "title": "Voortgang Check-ins"
+        },
+        {
+          "title": "Activiteitentijdlijn"
+        },
+        {
+          "title": "Doelherinneringen"
+        },
+        {
+          "title": "Categorievoortgang"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Mission board",
+          "description": "Toon het dashboard met actieve doelen, voltooide doelen, doelen die bijna verlopen, streak, voortgangsring en focuskaart.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Doel aanmaken",
+          "description": "Toon het formulier met titel, categorie, huidige waarde, streefwaarde, eenheid, status, deadline, herinnering, notities en aanmaakknop.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Voortgang volgen",
+          "description": "Toon statistieken en de tijdlijn om duidelijk te maken hoe check-ins en categorievoortgang worden bijgehouden.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wat kan ik volgen met Goal Tracker?",
+          "answer": "Je kunt persoonlijke doelen, gewoontes, leerdoelen, projecten, challenges en andere meetbare voortgang volgen."
+        },
+        {
+          "question": "Kan ik herinneringen instellen?",
+          "answer": "Ja. Je kunt herinneringen toevoegen aan doelen, zodat je check-ins, deadlines of geplande updates niet vergeet."
+        },
+        {
+          "question": "Kan ik mijn voortgangsgeschiedenis bekijken?",
+          "answer": "Ja. De activiteitentijdlijn toont check-ins en voortgangsupdates in chronologische volgorde."
+        },
+        {
+          "question": "Is Goal Tracker alleen bedoeld voor gewoontes?",
+          "answer": "Nee. De app werkt ook goed voor leerdoelen, productiviteit, persoonlijke projecten, fitnessdoelen en meetbare resultaten."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Goal Tracker",
+      "summary": "Goal Tracker pomaga zamieniać osobiste cele w widoczny postęp. Twórz cele, zapisuj check-iny, śledź oś aktywności i utrzymuj skupienie dzięki przypomnieniom.",
+      "longDescription": [
+        "Goal Tracker jest dla osób, które chcą śledzić cele w prosty i przejrzysty sposób. Dodaj cel, ustaw wartość docelową, wybierz kategorię i trzymaj najważniejszy kolejny krok na tablicy misji.",
+        "Każdy cel może zawierać aktualny postęp, wartość docelową, jednostkę, status, termin, przypomnienie i notatki. Aplikacja sprawdzi się przy nauce, projektach osobistych, rutynach, wyzwaniach i każdym mierzalnym celu.",
+        "Check-iny pomagają zapisywać postępy w czasie. Oś aktywności pokazuje historię zmian, a kokpit postępów prezentuje średni wynik, ukończone cele, kamienie milowe, check-iny i wyniki według kategorii.",
+        "Goal Tracker zawiera także ustawienia przypomnień, wyglądu, języka, zarchiwizowanych celów i danych lokalnych. To lekkie narzędzie zaprojektowane tak, aby pomagać w działaniu, a nie rozpraszać."
+      ],
+      "bottomCtaDescription": "Zacznij od jednego celu, zapisuj każdy mały krok i miej postęp zawsze pod kontrolą. Goal Tracker to prosta aplikacja na Androida do konsekwentnej pracy nad celami.",
+      "category": "Produktywność",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Goal Tracker",
+        "Monitor Nawyków",
+        "Aplikacja Produktywności",
+        "Śledzenie Postępów",
+        "Codzienne Cele",
+        "Cele Osobiste",
+        "Przypomnienia"
+      ],
+      "metaTitle": "Goal Tracker do celów, nawyków i postępów",
+      "metaDescription": "Twórz cele osobiste, zapisuj postępy, sprawdzaj oś aktywności i korzystaj z przypomnień w aplikacji Goal Tracker na Androida.",
+      "featureBullets": [
+        {
+          "title": "Tablica Misji"
+        },
+        {
+          "title": "Własne Cele"
+        },
+        {
+          "title": "Check-iny Postępu"
+        },
+        {
+          "title": "Oś Aktywności"
+        },
+        {
+          "title": "Przypomnienia O Celach"
+        },
+        {
+          "title": "Postęp Według Kategorii"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Tablica misji",
+          "description": "Pokazać główny ekran z aktywnymi celami, ukończonymi celami, celami z bliskim terminem, serią, pierścieniem postępu i kartą fokusową.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Tworzenie celu",
+          "description": "Pokazać formularz z tytułem, kategorią, aktualną wartością, celem, jednostką, statusem, terminem, przypomnieniem, notatkami i przyciskiem tworzenia.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Śledzenie postępów",
+          "description": "Pokazać statystyki i oś aktywności, aby wyjaśnić, jak zapisywane są check-iny oraz postęp według kategorii.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Co mogę śledzić w Goal Tracker?",
+          "answer": "Możesz śledzić cele osobiste, nawyki, naukę, projekty, wyzwania oraz każdy postęp, który da się opisać wartością i jednostką."
+        },
+        {
+          "question": "Czy aplikacja ma przypomnienia?",
+          "answer": "Tak. Możesz dodać przypomnienia do celów, aby nie zapomnieć o check-inach, terminach lub ważnych aktualizacjach."
+        },
+        {
+          "question": "Czy zobaczę historię swoich postępów?",
+          "answer": "Tak. Oś aktywności pokazuje check-iny i aktualizacje postępów w kolejności chronologicznej."
+        },
+        {
+          "question": "Czy Goal Tracker służy tylko do nawyków?",
+          "answer": "Nie. Nadaje się również do nauki, produktywności, projektów osobistych, celów fitness i innych mierzalnych planów."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Goal Tracker",
+      "summary": "Goal Tracker te ajută să transformi obiectivele personale în progres vizibil. Creează obiective, notează check-in-uri, urmărește cronologia și rămâi concentrat cu mementouri.",
+      "longDescription": [
+        "Goal Tracker este creat pentru cei care vor să urmărească obiectivele într-un mod simplu și vizual. Adaugă un obiectiv, setează o valoare țintă, alege o categorie și păstrează următorul pas vizibil pe panoul principal.",
+        "Fiecare obiectiv poate include progres curent, valoare țintă, unitate, status, termen limită, memento și notițe. Aplicația este potrivită pentru învățare, proiecte personale, rutine, provocări și orice progres măsurabil.",
+        "Check-in-urile te ajută să înregistrezi evoluția în timp. Cronologia activității arată istoricul actualizărilor, iar panoul de progres afișează media, obiectivele finalizate, reperele, check-in-urile și progresul pe categorii.",
+        "Goal Tracker include și setări utile pentru mementouri, aspect, limbă, obiective arhivate și date locale. Totul este gândit să rămână clar, rapid și ușor de folosit zilnic."
+      ],
+      "bottomCtaDescription": "Începe cu un singur obiectiv, înregistrează fiecare pas înainte și păstrează progresul la vedere. Goal Tracker este o aplicație Android simplă pentru obiective clare și motivație constantă.",
+      "category": "Productivitate",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Goal Tracker",
+        "Tracker Obiceiuri",
+        "Aplicație Productivitate",
+        "Urmărire Progres",
+        "Obiective Zilnice",
+        "Obiective Personale",
+        "Mementouri"
+      ],
+      "metaTitle": "Goal Tracker pentru obiective și progres zilnic",
+      "metaDescription": "Creează obiective personale, înregistrează progresul, vezi cronologia și folosește mementouri cu Goal Tracker pentru Android.",
+      "featureBullets": [
+        {
+          "title": "Panou De Misiune"
+        },
+        {
+          "title": "Obiective Personalizate"
+        },
+        {
+          "title": "Check-in-uri De Progres"
+        },
+        {
+          "title": "Cronologie Activitate"
+        },
+        {
+          "title": "Mementouri Pentru Obiective"
+        },
+        {
+          "title": "Progres Pe Categorii"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Panou de misiune",
+          "description": "Arată ecranul principal cu obiective active, obiective finalizate, termene apropiate, serie, inel de progres și card de focus.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Creează obiectiv",
+          "description": "Arată formularul cu titlu, categorie, valoare curentă, țintă, unitate, status, termen limită, memento, notițe și buton de creare.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Urmărește progresul",
+          "description": "Arată statisticile și cronologia pentru a explica modul în care sunt înregistrate check-in-urile și progresul pe categorii.",
+          "imagePath": "apps/screenshots/goal-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Ce pot urmări cu Goal Tracker?",
+          "answer": "Poți urmări obiective personale, obiceiuri, învățare, proiecte, provocări sau orice progres care poate fi măsurat cu o valoare și o unitate."
+        },
+        {
+          "question": "Pot seta mementouri pentru obiective?",
+          "answer": "Da. Poți adăuga mementouri pentru a nu uita check-in-uri, termene limită sau actualizări importante."
+        },
+        {
+          "question": "Pot vedea istoricul progresului?",
+          "answer": "Da. Cronologia activității afișează check-in-urile și actualizările de progres în ordine cronologică."
+        },
+        {
+          "question": "Goal Tracker este doar pentru obiceiuri?",
+          "answer": "Nu. Este potrivit și pentru învățare, productivitate, proiecte personale, obiective de fitness și alte ținte măsurabile."
+        }
+      ]
+    }
+  }
+}
