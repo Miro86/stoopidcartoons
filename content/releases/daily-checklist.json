@@ -1,0 +1,975 @@
+{
+  "slug": "daily-checklist",
+  "sortOrder": 19,
+  "kind": "app",
+  "featured": false,
+  "accent": "red",
+  "icon": "apps/icons/daily-checklist.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.dailychecklist",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "ProductivityApplication",
+  "relatedSlugs": [
+    "water-reminder",
+    "goal-tracker"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Daily Checklist",
+      "summary": "Daily Checklist helps you organize recurring tasks, reuse templates, set reminders, and track what gets done each day on Android.",
+      "longDescription": [
+        "Daily Checklist is a simple Android app for organizing everyday routines, repeated tasks, and personal to-do lists. It is built for people who want to see what needs to be done today without a cluttered planning system.",
+        "Create reusable templates for routines such as cleaning, study, work prep, errands, or household tasks. Add a template name, optional notes, recurrence, reminder time, and checklist items so your routine is ready whenever you need it.",
+        "The Today screen shows what is due, what has been completed, and the checklist items waiting for your attention. You can check off tasks instantly, reset a checklist, or move between days to review planned routines.",
+        "Daily Checklist also includes completion history, making it easier to understand your consistency across recent days. Settings let you adjust theme mode, language, reminders, archived templates, and template sorting.",
+        "Clean, lightweight, and distraction-free, Daily Checklist is ideal for users who want a practical daily task manager without unnecessary complexity."
+      ],
+      "bottomCtaDescription": "Turn repeated routines into reusable checklists and keep your day moving. Daily Checklist gives you a clean, practical way to plan tasks, complete them fast, and review your consistency over time.",
+      "category": "Productivity",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Daily Checklist",
+        "To-Do List",
+        "Task Planner",
+        "Routine Tracker",
+        "Recurring Tasks",
+        "Productivity",
+        "Reminders",
+        "Completion History"
+      ],
+      "metaTitle": "Daily Checklist App for Android | Tasks & Routines",
+      "metaDescription": "Create reusable daily checklists, add reminders, complete tasks quickly, and track your consistency with Daily Checklist for Android.",
+      "featureBullets": [
+        {
+          "title": "Reusable Checklist Templates"
+        },
+        {
+          "title": "Daily Task View"
+        },
+        {
+          "title": "Task Reminders"
+        },
+        {
+          "title": "Completion History"
+        },
+        {
+          "title": "Fast Check-Offs"
+        },
+        {
+          "title": "Custom Routine Settings"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Today’s Checklist",
+          "description": "Show the main Today screen with due tasks, completed count, checklist items, and the Add template action.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-1.png"
+        },
+        {
+          "title": "Create Templates",
+          "description": "Show the Add template sheet with template name, notes, recurrence, reminder time, and multiple checklist items.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-2.png"
+        },
+        {
+          "title": "Completion History",
+          "description": "Show the history screen with the last seven days and daily completion counts to communicate consistency tracking.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is Daily Checklist used for?",
+          "answer": "Daily Checklist is used to create reusable task lists for daily routines, recurring chores, personal planning, and simple productivity tracking."
+        },
+        {
+          "question": "Can I create recurring checklist templates?",
+          "answer": "Yes. You can create templates with recurrence, reminders, notes, and multiple checklist items, then reuse them for your daily tasks."
+        },
+        {
+          "question": "Does Daily Checklist show what is due today?",
+          "answer": "Yes. The Today view shows due checklists, completed progress, and task items that still need attention."
+        },
+        {
+          "question": "Can I track my task completion history?",
+          "answer": "Yes. The history screen shows recent completion activity so you can review consistency over time."
+        },
+        {
+          "question": "Is Daily Checklist available for Android?",
+          "answer": "Yes. Daily Checklist is available for Android through Google Play."
+        }
+      ]
+    },
+    "de": {
+      "name": "Daily Checklist",
+      "summary": "Daily Checklist hilft dir, wiederkehrende Aufgaben zu organisieren, Vorlagen zu nutzen, Erinnerungen zu setzen und tägliche Fortschritte auf Android zu verfolgen.",
+      "longDescription": [
+        "Daily Checklist ist eine einfache Android-App für tägliche Routinen, wiederkehrende Aufgaben und übersichtliche To-do-Listen. Sie richtet sich an alle, die schnell sehen möchten, was heute erledigt werden muss.",
+        "Erstelle Vorlagen für Putzen, Lernen, Arbeit, Erledigungen oder Haushaltsaufgaben. Jede Vorlage kann Name, Notizen, Wiederholung, Erinnerungszeit und mehrere Aufgaben enthalten.",
+        "Die Heute-Ansicht zeigt fällige Checklisten, erledigte Aufgaben und offene Punkte auf einen Blick. Aufgaben lassen sich sofort abhaken, Checklisten zurücksetzen oder über andere Tage hinweg prüfen.",
+        "Im Verlauf siehst du deine Abschlüsse der letzten Tage und erkennst besser, wie konsequent du deine Routinen erledigst. In den Einstellungen kannst du Designmodus, Sprache, Erinnerungen, archivierte Vorlagen und Sortierung anpassen.",
+        "Daily Checklist bleibt bewusst klar und ablenkungsfrei. Ideal, wenn du einen praktischen Aufgabenmanager für den Alltag suchst, ohne ein überladenes Planungstool zu verwenden."
+      ],
+      "bottomCtaDescription": "Mach aus wiederkehrenden Routinen praktische Checklisten und behalte deinen Tag im Griff. Daily Checklist hilft dir, Aufgaben schnell zu planen, abzuhaken und deine Regelmäßigkeit im Blick zu behalten.",
+      "category": "Produktivität",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Tägliche Checkliste",
+        "To-Do-Liste",
+        "Aufgabenplaner",
+        "Routinen",
+        "Wiederkehrende Aufgaben",
+        "Produktivität",
+        "Erinnerungen",
+        "Verlauf"
+      ],
+      "metaTitle": "Daily Checklist für Android | Aufgaben & Routinen",
+      "metaDescription": "Erstelle wiederverwendbare Checklisten, nutze Erinnerungen, hake Aufgaben schnell ab und verfolge deine Routine mit Daily Checklist.",
+      "featureBullets": [
+        {
+          "title": "Wiederverwendbare Vorlagen"
+        },
+        {
+          "title": "Heute-Ansicht"
+        },
+        {
+          "title": "Aufgabenerinnerungen"
+        },
+        {
+          "title": "Erledigungsverlauf"
+        },
+        {
+          "title": "Schnelles Abhaken"
+        },
+        {
+          "title": "Flexible Routinen"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Heutige Checkliste",
+          "description": "Die Heute-Ansicht mit fälligen Aufgaben, erledigten Punkten, Checkliste und Schaltfläche zum Hinzufügen einer Vorlage zeigen.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-1.png"
+        },
+        {
+          "title": "Vorlage erstellen",
+          "description": "Das Formular mit Vorlagenname, Notizen, Wiederholung, Erinnerungszeit und mehreren Aufgaben zeigen.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-2.png"
+        },
+        {
+          "title": "Erledigungsverlauf",
+          "description": "Den Verlauf der letzten sieben Tage mit täglichen Abschlusszahlen zur Darstellung der Regelmäßigkeit zeigen.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wofür kann ich Daily Checklist nutzen?",
+          "answer": "Daily Checklist eignet sich für tägliche Routinen, wiederkehrende Aufgaben, Haushaltslisten, Lernpläne und einfache To-do-Listen."
+        },
+        {
+          "question": "Kann ich wiederkehrende Checklisten erstellen?",
+          "answer": "Ja. Du kannst Vorlagen mit Wiederholung, Erinnerung, Notizen und mehreren Aufgaben anlegen und täglich wiederverwenden."
+        },
+        {
+          "question": "Zeigt Daily Checklist, was heute fällig ist?",
+          "answer": "Ja. Die Heute-Ansicht zeigt dir fällige Checklisten, den erledigten Anteil und offene Aufgaben."
+        },
+        {
+          "question": "Kann ich meinen Aufgabenverlauf sehen?",
+          "answer": "Ja. Der Verlauf zeigt deine Abschlüsse der letzten Tage, damit du deine Regelmäßigkeit besser einschätzen kannst."
+        },
+        {
+          "question": "Gibt es Daily Checklist für Android?",
+          "answer": "Ja. Daily Checklist ist für Android bei Google Play verfügbar."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Daily Checklist",
+      "summary": "Daily Checklist vous aide à organiser vos tâches récurrentes, créer des modèles, recevoir des rappels et suivre ce qui est terminé chaque jour sur Android.",
+      "longDescription": [
+        "Daily Checklist est une application Android simple pour organiser les routines du quotidien, les tâches récurrentes et les listes personnelles. Elle s’adresse aux utilisateurs qui veulent savoir rapidement quoi faire aujourd’hui.",
+        "Créez des modèles pour le ménage, les études, le travail, les courses ou les routines personnelles. Chaque modèle peut inclure un nom, des notes, une fréquence, une heure de rappel et plusieurs éléments de checklist.",
+        "L’écran Aujourd’hui affiche les tâches prévues, le nombre d’éléments terminés et les actions restantes. Vous pouvez cocher une tâche instantanément, réinitialiser une liste ou naviguer entre les jours.",
+        "L’historique de complétion vous aide à suivre votre régularité sur les derniers jours. Les réglages permettent d’ajuster le thème, la langue, les rappels, les modèles archivés et l’ordre d’affichage.",
+        "Claire, légère et sans distraction, Daily Checklist convient parfaitement à celles et ceux qui veulent un gestionnaire de tâches quotidien pratique et facile à utiliser."
+      ],
+      "bottomCtaDescription": "Transformez vos routines en checklists réutilisables et gardez une journée claire. Daily Checklist vous aide à planifier, cocher vos tâches rapidement et suivre votre régularité sans complexité.",
+      "category": "Productivité",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Checklist Quotidienne",
+        "Liste De Tâches",
+        "Planificateur",
+        "Routine",
+        "Tâches Récurrentes",
+        "Productivité",
+        "Rappels",
+        "Historique"
+      ],
+      "metaTitle": "Daily Checklist Android | Tâches et routines",
+      "metaDescription": "Créez des checklists réutilisables, ajoutez des rappels, cochez vos tâches et suivez votre régularité avec Daily Checklist.",
+      "featureBullets": [
+        {
+          "title": "Modèles réutilisables"
+        },
+        {
+          "title": "Vue du jour"
+        },
+        {
+          "title": "Rappels de tâches"
+        },
+        {
+          "title": "Historique de complétion"
+        },
+        {
+          "title": "Cochage rapide"
+        },
+        {
+          "title": "Routines personnalisées"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Checklist du jour",
+          "description": "Montrer l’écran Aujourd’hui avec tâches dues, compteur de complétion, éléments à cocher et bouton d’ajout de modèle.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-1.png"
+        },
+        {
+          "title": "Créer un modèle",
+          "description": "Afficher le formulaire avec nom du modèle, notes, récurrence, heure de rappel et plusieurs tâches.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-2.png"
+        },
+        {
+          "title": "Historique",
+          "description": "Afficher les sept derniers jours avec les compteurs de tâches terminées pour illustrer le suivi de régularité.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "À quoi sert Daily Checklist ?",
+          "answer": "Daily Checklist sert à créer des listes réutilisables pour les routines quotidiennes, les tâches récurrentes et l’organisation personnelle."
+        },
+        {
+          "question": "Puis-je créer des modèles de checklist récurrents ?",
+          "answer": "Oui. Vous pouvez créer des modèles avec fréquence, rappels, notes et plusieurs tâches à réutiliser au quotidien."
+        },
+        {
+          "question": "Daily Checklist affiche-t-il les tâches du jour ?",
+          "answer": "Oui. La vue Aujourd’hui montre les checklists dues, la progression et les tâches restantes."
+        },
+        {
+          "question": "Puis-je suivre l’historique de mes tâches ?",
+          "answer": "Oui. L’écran Historique affiche les complétions récentes pour mieux visualiser votre régularité."
+        },
+        {
+          "question": "Daily Checklist est-il disponible sur Android ?",
+          "answer": "Oui. Daily Checklist est disponible sur Android via Google Play."
+        }
+      ]
+    },
+    "it": {
+      "name": "Daily Checklist",
+      "summary": "Daily Checklist ti aiuta a organizzare attività ricorrenti, riutilizzare modelli, impostare promemoria e controllare cosa completi ogni giorno su Android.",
+      "longDescription": [
+        "Daily Checklist è un’app Android semplice per organizzare routine quotidiane, attività ricorrenti e liste personali. È pensata per chi vuole vedere subito cosa deve essere fatto oggi.",
+        "Crea modelli per pulizie, studio, lavoro, commissioni o attività domestiche. Ogni modello può includere nome, note, ricorrenza, orario del promemoria e più elementi da completare.",
+        "La schermata Oggi mostra le attività in scadenza, il conteggio di quelle completate e gli elementi ancora aperti. Puoi spuntare le attività all’istante, resettare una checklist o passare da un giorno all’altro.",
+        "La cronologia di completamento ti aiuta a capire quanto sei costante negli ultimi giorni. Dalle impostazioni puoi gestire tema, lingua, promemoria, modelli archiviati e ordinamento.",
+        "Pulita, leggera e senza distrazioni, Daily Checklist è ideale per chi cerca un gestore di attività quotidiane pratico e facile da usare."
+      ],
+      "bottomCtaDescription": "Trasforma le routine ripetitive in checklist riutilizzabili e gestisci la giornata con più chiarezza. Daily Checklist rende semplice pianificare, spuntare attività e seguire la tua costanza.",
+      "category": "Produttività",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Checklist Giornaliera",
+        "Lista Attività",
+        "To-Do List",
+        "Routine",
+        "Attività Ricorrenti",
+        "Produttività",
+        "Promemoria",
+        "Cronologia"
+      ],
+      "metaTitle": "Daily Checklist Android | Attività e routine",
+      "metaDescription": "Crea checklist riutilizzabili, imposta promemoria, completa attività velocemente e monitora la tua costanza con Daily Checklist.",
+      "featureBullets": [
+        {
+          "title": "Modelli riutilizzabili"
+        },
+        {
+          "title": "Vista giornaliera"
+        },
+        {
+          "title": "Promemoria attività"
+        },
+        {
+          "title": "Cronologia completamenti"
+        },
+        {
+          "title": "Spunta rapida"
+        },
+        {
+          "title": "Routine personalizzate"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Checklist di oggi",
+          "description": "Mostrare la schermata Oggi con attività in scadenza, conteggio completate, elementi della checklist e pulsante per aggiungere un modello.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-1.png"
+        },
+        {
+          "title": "Crea modello",
+          "description": "Mostrare il form con nome modello, note, ricorrenza, orario promemoria e più attività.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-2.png"
+        },
+        {
+          "title": "Cronologia",
+          "description": "Mostrare gli ultimi sette giorni con i conteggi di completamento per comunicare il monitoraggio della costanza.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "A cosa serve Daily Checklist?",
+          "answer": "Daily Checklist serve a creare liste riutilizzabili per routine quotidiane, attività ricorrenti, faccende e pianificazione personale."
+        },
+        {
+          "question": "Posso creare checklist ricorrenti?",
+          "answer": "Sì. Puoi creare modelli con ricorrenza, promemoria, note e più attività da riutilizzare ogni giorno."
+        },
+        {
+          "question": "Daily Checklist mostra cosa devo fare oggi?",
+          "answer": "Sì. La vista Oggi mostra checklist in scadenza, attività completate e attività ancora da fare."
+        },
+        {
+          "question": "Posso vedere la cronologia delle attività completate?",
+          "answer": "Sì. La sezione Cronologia mostra i completamenti recenti per aiutarti a seguire la tua costanza."
+        },
+        {
+          "question": "Daily Checklist è disponibile per Android?",
+          "answer": "Sì. Daily Checklist è disponibile per Android su Google Play."
+        }
+      ]
+    },
+    "es": {
+      "name": "Daily Checklist",
+      "summary": "Daily Checklist te ayuda a organizar tareas recurrentes, reutilizar plantillas, configurar recordatorios y ver qué completas cada día en Android.",
+      "longDescription": [
+        "Daily Checklist es una app Android sencilla para organizar rutinas diarias, tareas recurrentes y listas personales. Está pensada para quienes quieren ver claramente qué hay que hacer hoy.",
+        "Crea plantillas para limpieza, estudio, trabajo, recados o tareas del hogar. Cada plantilla puede incluir nombre, notas, recurrencia, hora de recordatorio y varios elementos de checklist.",
+        "La pantalla Hoy muestra las tareas pendientes, el recuento de completadas y los elementos que aún faltan. Puedes marcar tareas al instante, reiniciar una lista o moverte entre días.",
+        "El historial de completado te ayuda a revisar tu constancia durante los últimos días. En los ajustes puedes cambiar tema, idioma, recordatorios, plantillas archivadas y orden de plantillas.",
+        "Limpia, ligera y sin distracciones, Daily Checklist es ideal para quienes quieren un gestor de tareas diarias práctico sin complicaciones innecesarias."
+      ],
+      "bottomCtaDescription": "Convierte tus rutinas repetidas en listas reutilizables y mantén tu día bajo control. Daily Checklist te ayuda a planificar, marcar tareas y revisar tu constancia de forma sencilla.",
+      "category": "Productividad",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Checklist Diario",
+        "Lista De Tareas",
+        "To-Do List",
+        "Rutinas",
+        "Tareas Recurrentes",
+        "Productividad",
+        "Recordatorios",
+        "Historial"
+      ],
+      "metaTitle": "Daily Checklist Android | Tareas y rutinas",
+      "metaDescription": "Crea checklists reutilizables, añade recordatorios, marca tareas al instante y sigue tu constancia con Daily Checklist.",
+      "featureBullets": [
+        {
+          "title": "Plantillas reutilizables"
+        },
+        {
+          "title": "Vista diaria"
+        },
+        {
+          "title": "Recordatorios de tareas"
+        },
+        {
+          "title": "Historial de completado"
+        },
+        {
+          "title": "Marcado rápido"
+        },
+        {
+          "title": "Rutinas personalizadas"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Checklist de hoy",
+          "description": "Mostrar la pantalla Hoy con tareas pendientes, contador de completadas, elementos de checklist y botón para añadir plantilla.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-1.png"
+        },
+        {
+          "title": "Crear plantilla",
+          "description": "Mostrar el formulario con nombre de plantilla, notas, recurrencia, hora de recordatorio y varias tareas.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-2.png"
+        },
+        {
+          "title": "Historial",
+          "description": "Mostrar los últimos siete días con recuentos diarios de completado para comunicar seguimiento de constancia.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Para qué sirve Daily Checklist?",
+          "answer": "Daily Checklist sirve para crear listas reutilizables para rutinas diarias, tareas recurrentes, recados y planificación personal."
+        },
+        {
+          "question": "¿Puedo crear plantillas de checklist recurrentes?",
+          "answer": "Sí. Puedes crear plantillas con recurrencia, recordatorios, notas y varias tareas para reutilizarlas cada día."
+        },
+        {
+          "question": "¿Daily Checklist muestra lo que tengo pendiente hoy?",
+          "answer": "Sí. La vista Hoy muestra checklists pendientes, progreso completado y tareas que aún requieren atención."
+        },
+        {
+          "question": "¿Puedo consultar el historial de tareas completadas?",
+          "answer": "Sí. La pantalla de historial muestra actividad reciente para ayudarte a revisar tu constancia."
+        },
+        {
+          "question": "¿Daily Checklist está disponible para Android?",
+          "answer": "Sí. Daily Checklist está disponible para Android en Google Play."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Daily Checklist",
+      "summary": "Daily Checklist ajuda você a organizar tarefas recorrentes, reutilizar modelos, definir lembretes e acompanhar o que conclui todos os dias no Android.",
+      "longDescription": [
+        "Daily Checklist é um aplicativo Android simples para organizar rotinas diárias, tarefas recorrentes e listas pessoais. Ele foi feito para quem quer ver rapidamente o que precisa ser feito hoje.",
+        "Crie modelos para limpeza, estudos, trabalho, compras, tarefas domésticas ou qualquer rotina repetida. Cada modelo pode ter nome, notas, recorrência, horário de lembrete e vários itens de checklist.",
+        "A tela Hoje mostra o que está pendente, quantas tarefas foram concluídas e quais itens ainda precisam de atenção. Você pode marcar tarefas na hora, redefinir uma checklist ou navegar entre os dias.",
+        "O histórico de conclusão ajuda você a acompanhar sua consistência nos últimos dias. Nas configurações, é possível ajustar tema, idioma, lembretes, modelos arquivados e ordenação.",
+        "Limpo, leve e sem distrações, Daily Checklist é ideal para quem quer um organizador diário prático sem transformar a rotina em algo complicado."
+      ],
+      "bottomCtaDescription": "Transforme rotinas repetidas em checklists reutilizáveis e mantenha o dia sob controle. Daily Checklist ajuda você a planejar, marcar tarefas e acompanhar sua consistência com facilidade.",
+      "category": "Produtividade",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Checklist Diário",
+        "Lista De Tarefas",
+        "To-Do List",
+        "Rotinas",
+        "Tarefas Recorrentes",
+        "Produtividade",
+        "Lembretes",
+        "Histórico"
+      ],
+      "metaTitle": "Daily Checklist Android | Tarefas e rotinas",
+      "metaDescription": "Crie checklists reutilizáveis, configure lembretes, conclua tarefas rapidamente e acompanhe sua consistência no Android.",
+      "featureBullets": [
+        {
+          "title": "Modelos reutilizáveis"
+        },
+        {
+          "title": "Tela do dia"
+        },
+        {
+          "title": "Lembretes de tarefas"
+        },
+        {
+          "title": "Histórico de conclusão"
+        },
+        {
+          "title": "Marcação rápida"
+        },
+        {
+          "title": "Rotinas personalizadas"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Checklist de hoje",
+          "description": "Mostrar a tela Hoje com tarefas pendentes, contador de concluídas, itens da checklist e botão para adicionar modelo.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-1.png"
+        },
+        {
+          "title": "Criar modelo",
+          "description": "Mostrar o formulário com nome do modelo, notas, recorrência, horário do lembrete e vários itens.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-2.png"
+        },
+        {
+          "title": "Histórico",
+          "description": "Mostrar os últimos sete dias com contagens diárias de conclusão para comunicar acompanhamento de consistência.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Para que serve o Daily Checklist?",
+          "answer": "Daily Checklist serve para criar listas reutilizáveis para rotinas diárias, tarefas recorrentes, afazeres e planejamento pessoal."
+        },
+        {
+          "question": "Posso criar modelos de checklist recorrentes?",
+          "answer": "Sim. Você pode criar modelos com recorrência, lembretes, notas e vários itens para reutilizar no dia a dia."
+        },
+        {
+          "question": "Daily Checklist mostra o que preciso fazer hoje?",
+          "answer": "Sim. A tela Hoje mostra checklists pendentes, progresso concluído e tarefas que ainda precisam de atenção."
+        },
+        {
+          "question": "Posso acompanhar meu histórico de tarefas?",
+          "answer": "Sim. A tela de histórico mostra conclusões recentes para ajudar você a visualizar sua consistência."
+        },
+        {
+          "question": "Daily Checklist está disponível para Android?",
+          "answer": "Sim. Daily Checklist está disponível para Android no Google Play."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Daily Checklist",
+      "summary": "Daily Checklist вам помаже да организујете свакодневне задатке, користите шаблоне, поставите подсетнике и пратите шта сте завршили на Android уређају.",
+      "longDescription": [
+        "Daily Checklist је једноставна Android апликација за организацију дневних рутина, понављајућих задатака и личних листа обавеза. Намењена је корисницима који желе јасан преглед онога што треба урадити данас.",
+        "Креирајте шаблоне за чишћење, учење, посао, куповину, кућне обавезе или било коју другу рутину. Шаблон може да садржи назив, белешке, понављање, време подсетника и више ставки.",
+        "Екран Данас приказује шта је на реду, колико је ставки завршено и које обавезе још чекају. Задатке можете одмах означити као завршене, ресетовати чек-листу или прегледати друге дане.",
+        "Историја завршетака помаже вам да пратите доследност током претходних дана. У подешавањима можете променити тему, језик, подсетнике, архивиране шаблоне и начин сортирања.",
+        "Јасна, лагана и без одвлачења пажње, Daily Checklist је практичан избор за свакодневно праћење задатака и рутина."
+      ],
+      "bottomCtaDescription": "Претворите рутине у поновно употребљиве чек-листе и лакше управљајте даном. Daily Checklist вам помаже да планирате, брзо означите задатке као завршене и пратите доследност.",
+      "category": "Продуктивност",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Дневна Чек-Листа",
+        "Листа Задатака",
+        "Планер Задатака",
+        "Рутине",
+        "Понављајући Задаци",
+        "Продуктивност",
+        "Подсетници",
+        "Историја"
+      ],
+      "metaTitle": "Daily Checklist за Android | Задаци и рутине",
+      "metaDescription": "Креирајте дневне чек-листе, користите шаблоне, подсетнике и историју завршених задатака уз Daily Checklist за Android.",
+      "featureBullets": [
+        {
+          "title": "Поновно употребљиви шаблони"
+        },
+        {
+          "title": "Дневни преглед"
+        },
+        {
+          "title": "Подсетници за задатке"
+        },
+        {
+          "title": "Историја завршетака"
+        },
+        {
+          "title": "Брзо означавање"
+        },
+        {
+          "title": "Прилагодљиве рутине"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Данашња чек-листа",
+          "description": "Приказати екран Данас са задацима, бројем завршених ставки, чек-листом и дугметом за додавање шаблона.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-1.png"
+        },
+        {
+          "title": "Креирање шаблона",
+          "description": "Приказати форму са називом шаблона, белешкама, понављањем, временом подсетника и више ставки.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-2.png"
+        },
+        {
+          "title": "Историја завршетака",
+          "description": "Приказати последњих седам дана са дневним бројем завршених задатака ради истицања доследности.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "За шта служи Daily Checklist?",
+          "answer": "Daily Checklist служи за креирање поновно употребљивих листа за дневне рутине, понављајуће задатке и личну организацију."
+        },
+        {
+          "question": "Да ли могу да направим понављајуће чек-листе?",
+          "answer": "Да. Можете креирати шаблоне са понављањем, подсетницима, белешкама и више ставки за свакодневну употребу."
+        },
+        {
+          "question": "Да ли Daily Checklist приказује шта је данас на реду?",
+          "answer": "Да. Екран Данас приказује чек-листе које су на реду, завршене ставке и задатке који још чекају."
+        },
+        {
+          "question": "Могу ли да видим историју завршених задатака?",
+          "answer": "Да. Екран Историја приказује недавне завршетке и помаже вам да пратите доследност."
+        },
+        {
+          "question": "Да ли је Daily Checklist доступан за Android?",
+          "answer": "Да. Daily Checklist је доступан за Android преко Google Play продавнице."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Daily Checklist",
+      "summary": "Daily Checklist pomaže vam organizirati svakodnevne zadatke, koristiti predloške, postaviti podsjetnike i pratiti što je završeno na Androidu.",
+      "longDescription": [
+        "Daily Checklist je jednostavna Android aplikacija za organizaciju dnevnih rutina, ponavljajućih zadataka i osobnih lista obaveza. Namijenjena je korisnicima koji žele brzo vidjeti što treba napraviti danas.",
+        "Kreirajte predloške za čišćenje, učenje, posao, kupovinu, kućanske obaveze ili bilo koju drugu rutinu. Predložak može sadržavati naziv, bilješke, ponavljanje, vrijeme podsjetnika i više stavki.",
+        "Zaslon Danas prikazuje što je na redu, koliko je zadataka završeno i koje stavke još čekaju. Zadatke možete odmah označiti, resetirati checklistu ili pregledati druge dane.",
+        "Povijest dovršavanja pomaže vam pratiti dosljednost tijekom prethodnih dana. U postavkama možete prilagoditi temu, jezik, podsjetnike, arhivirane predloške i sortiranje.",
+        "Čista, lagana i bez ometanja, Daily Checklist je praktičan alat za svakodnevno upravljanje zadacima i rutinama."
+      ],
+      "bottomCtaDescription": "Pretvorite ponavljajuće rutine u praktične checkliste i lakše vodite dan. Daily Checklist pomaže vam planirati, brzo označiti zadatke i pratiti dosljednost.",
+      "category": "Produktivnost",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Dnevna Checklist",
+        "Lista Zadataka",
+        "Planer Zadataka",
+        "Rutine",
+        "Ponavljajući Zadaci",
+        "Produktivnost",
+        "Podsjetnici",
+        "Povijest"
+      ],
+      "metaTitle": "Daily Checklist za Android | Zadaci i rutine",
+      "metaDescription": "Kreirajte dnevne checkliste, koristite predloške, podsjetnike i povijest dovršenih zadataka uz Daily Checklist za Android.",
+      "featureBullets": [
+        {
+          "title": "Ponovno upotrebljivi predlošci"
+        },
+        {
+          "title": "Dnevni pregled"
+        },
+        {
+          "title": "Podsjetnici za zadatke"
+        },
+        {
+          "title": "Povijest dovršavanja"
+        },
+        {
+          "title": "Brzo označavanje"
+        },
+        {
+          "title": "Prilagodljive rutine"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Današnja checklist",
+          "description": "Prikazati zaslon Danas sa zadacima, brojem dovršenih stavki, checklistom i gumbom za dodavanje predloška.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-1.png"
+        },
+        {
+          "title": "Kreiranje predloška",
+          "description": "Prikazati obrazac s nazivom predloška, bilješkama, ponavljanjem, vremenom podsjetnika i više stavki.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-2.png"
+        },
+        {
+          "title": "Povijest dovršavanja",
+          "description": "Prikazati zadnjih sedam dana s dnevnim brojem dovršenih zadataka za naglašavanje dosljednosti.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Čemu služi Daily Checklist?",
+          "answer": "Daily Checklist služi za izradu ponovnih lista za dnevne rutine, ponavljajuće zadatke i osobnu organizaciju."
+        },
+        {
+          "question": "Mogu li kreirati ponavljajuće checkliste?",
+          "answer": "Da. Možete kreirati predloške s ponavljanjem, podsjetnicima, bilješkama i više zadataka za svakodnevnu upotrebu."
+        },
+        {
+          "question": "Prikazuje li Daily Checklist što je danas na redu?",
+          "answer": "Da. Zaslon Danas prikazuje checkliste koje su na redu, dovršene stavke i preostale zadatke."
+        },
+        {
+          "question": "Mogu li vidjeti povijest završenih zadataka?",
+          "answer": "Da. Povijest prikazuje nedavna dovršavanja i pomaže vam pratiti dosljednost."
+        },
+        {
+          "question": "Je li Daily Checklist dostupan za Android?",
+          "answer": "Da. Daily Checklist je dostupan za Android putem Google Playa."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Daily Checklist",
+      "summary": "Daily Checklist helpt je terugkerende taken organiseren, sjablonen hergebruiken, herinneringen instellen en dagelijks bijhouden wat klaar is op Android.",
+      "longDescription": [
+        "Daily Checklist is een eenvoudige Android-app voor dagelijkse routines, terugkerende taken en persoonlijke to-do lijsten. De app is gemaakt voor gebruikers die direct willen zien wat vandaag moet gebeuren.",
+        "Maak sjablonen voor schoonmaken, studie, werk, boodschappen, huishoudelijke taken of andere routines. Een sjabloon kan een naam, notities, herhaling, herinneringstijd en meerdere checklist-items bevatten.",
+        "Het Vandaag-scherm toont wat er gepland staat, hoeveel taken klaar zijn en welke items nog openstaan. Je kunt taken direct afvinken, een checklist resetten of naar andere dagen navigeren.",
+        "De voltooiingsgeschiedenis helpt je je regelmaat over de afgelopen dagen te volgen. In de instellingen pas je thema, taal, herinneringen, gearchiveerde sjablonen en sortering aan.",
+        "Schoon, licht en zonder afleiding: Daily Checklist is ideaal voor wie een praktische dagelijkse takenplanner zoekt zonder onnodige complexiteit."
+      ],
+      "bottomCtaDescription": "Maak van terugkerende routines herbruikbare checklists en houd je dag overzichtelijk. Daily Checklist helpt je taken plannen, snel afvinken en je regelmaat volgen.",
+      "category": "Productiviteit",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Dagelijkse Checklist",
+        "Takenlijst",
+        "To-Do Lijst",
+        "Routines",
+        "Terugkerende Taken",
+        "Productiviteit",
+        "Herinneringen",
+        "Geschiedenis"
+      ],
+      "metaTitle": "Daily Checklist Android | Taken en routines",
+      "metaDescription": "Maak herbruikbare checklists, stel herinneringen in, vink taken snel af en volg je regelmaat met Daily Checklist voor Android.",
+      "featureBullets": [
+        {
+          "title": "Herbruikbare sjablonen"
+        },
+        {
+          "title": "Dagelijkse weergave"
+        },
+        {
+          "title": "Taakherinneringen"
+        },
+        {
+          "title": "Voltooiingsgeschiedenis"
+        },
+        {
+          "title": "Snel afvinken"
+        },
+        {
+          "title": "Aangepaste routines"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Checklist van vandaag",
+          "description": "Toon het Vandaag-scherm met geplande taken, voltooid teller, checklist-items en knop om een sjabloon toe te voegen.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-1.png"
+        },
+        {
+          "title": "Sjabloon maken",
+          "description": "Toon het formulier met sjabloonnaam, notities, herhaling, herinneringstijd en meerdere taken.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-2.png"
+        },
+        {
+          "title": "Geschiedenis",
+          "description": "Toon de laatste zeven dagen met dagelijkse voltooiingsaantallen om regelmaat te laten zien.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Waarvoor gebruik ik Daily Checklist?",
+          "answer": "Daily Checklist is bedoeld voor herbruikbare lijsten voor dagelijkse routines, terugkerende taken en eenvoudige persoonlijke planning."
+        },
+        {
+          "question": "Kan ik terugkerende checklist-sjablonen maken?",
+          "answer": "Ja. Je kunt sjablonen maken met herhaling, herinneringen, notities en meerdere taken."
+        },
+        {
+          "question": "Laat Daily Checklist zien wat vandaag moet gebeuren?",
+          "answer": "Ja. De Vandaag-weergave toont geplande checklists, voltooiingsstatus en taken die nog openstaan."
+        },
+        {
+          "question": "Kan ik mijn taakgeschiedenis bekijken?",
+          "answer": "Ja. De geschiedenis toont recente voltooiingen zodat je je regelmaat beter kunt volgen."
+        },
+        {
+          "question": "Is Daily Checklist beschikbaar voor Android?",
+          "answer": "Ja. Daily Checklist is beschikbaar voor Android via Google Play."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Daily Checklist",
+      "summary": "Daily Checklist pomaga organizować codzienne zadania, tworzyć szablony, ustawiać przypomnienia i śledzić wykonanie obowiązków na Androidzie.",
+      "longDescription": [
+        "Daily Checklist to prosta aplikacja na Androida do organizowania codziennych rutyn, zadań cyklicznych i osobistych list obowiązków. Jest przeznaczona dla osób, które chcą szybko sprawdzić, co trzeba zrobić dziś.",
+        "Twórz szablony dla sprzątania, nauki, pracy, zakupów, domowych obowiązków lub innych rutyn. Szablon może zawierać nazwę, notatki, powtarzanie, godzinę przypomnienia i wiele pozycji checklisty.",
+        "Ekran Dzisiaj pokazuje zaplanowane zadania, liczbę ukończonych pozycji i elementy, które nadal czekają. Możesz szybko odhaczać zadania, resetować checklistę lub przechodzić między dniami.",
+        "Historia ukończeń pomaga sprawdzić regularność z ostatnich dni. W ustawieniach możesz dostosować motyw, język, przypomnienia, zarchiwizowane szablony i sposób sortowania.",
+        "Przejrzysta, lekka i bez rozpraszaczy, Daily Checklist sprawdzi się u osób, które chcą praktycznego menedżera codziennych zadań bez zbędnej złożoności."
+      ],
+      "bottomCtaDescription": "Zamień powtarzalne rutyny w wygodne checklisty i łatwiej zarządzaj dniem. Daily Checklist pomaga planować zadania, szybko je odhaczać i sprawdzać regularność.",
+      "category": "Produktywność",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Codzienna Checklista",
+        "Lista Zadań",
+        "To-Do List",
+        "Rutyny",
+        "Zadania Cykliczne",
+        "Produktywność",
+        "Przypomnienia",
+        "Historia"
+      ],
+      "metaTitle": "Daily Checklist Android | Zadania i rutyny",
+      "metaDescription": "Twórz checklisty, używaj szablonów, ustawiaj przypomnienia, odhaczaj zadania i śledź regularność w Daily Checklist.",
+      "featureBullets": [
+        {
+          "title": "Szablony wielokrotnego użytku"
+        },
+        {
+          "title": "Widok dnia"
+        },
+        {
+          "title": "Przypomnienia o zadaniach"
+        },
+        {
+          "title": "Historia ukończeń"
+        },
+        {
+          "title": "Szybkie odhaczanie"
+        },
+        {
+          "title": "Własne rutyny"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Dzisiejsza checklista",
+          "description": "Pokazać ekran Dzisiaj z zaplanowanymi zadaniami, licznikiem ukończonych pozycji, checklistą i przyciskiem dodawania szablonu.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-1.png"
+        },
+        {
+          "title": "Tworzenie szablonu",
+          "description": "Pokazać formularz z nazwą szablonu, notatkami, powtarzaniem, godziną przypomnienia i wieloma zadaniami.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-2.png"
+        },
+        {
+          "title": "Historia ukończeń",
+          "description": "Pokazać ostatnie siedem dni z dziennymi licznikami ukończeń, aby podkreślić śledzenie regularności.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do czego służy Daily Checklist?",
+          "answer": "Daily Checklist służy do tworzenia list wielokrotnego użytku dla codziennych rutyn, zadań cyklicznych i osobistej organizacji."
+        },
+        {
+          "question": "Czy mogę tworzyć cykliczne checklisty?",
+          "answer": "Tak. Możesz tworzyć szablony z powtarzaniem, przypomnieniami, notatkami i wieloma zadaniami."
+        },
+        {
+          "question": "Czy Daily Checklist pokazuje zadania na dziś?",
+          "answer": "Tak. Widok Dzisiaj pokazuje zaplanowane checklisty, postęp wykonania i zadania, które nadal wymagają uwagi."
+        },
+        {
+          "question": "Czy mogę sprawdzić historię wykonanych zadań?",
+          "answer": "Tak. Ekran historii pokazuje ostatnie ukończenia, aby pomóc Ci obserwować regularność."
+        },
+        {
+          "question": "Czy Daily Checklist jest dostępny na Androida?",
+          "answer": "Tak. Daily Checklist jest dostępny na Androida w Google Play."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Daily Checklist",
+      "summary": "Daily Checklist te ajută să organizezi sarcini recurente, să refolosești șabloane, să setezi mementouri și să urmărești ce finalizezi zilnic pe Android.",
+      "longDescription": [
+        "Daily Checklist este o aplicație Android simplă pentru organizarea rutinelor zilnice, sarcinilor recurente și listelor personale. Este creată pentru utilizatorii care vor să vadă rapid ce trebuie făcut azi.",
+        "Creează șabloane pentru curățenie, studiu, muncă, cumpărături, sarcini casnice sau alte rutine. Un șablon poate include nume, notițe, recurență, oră de memento și mai multe elemente de checklist.",
+        "Ecranul Today arată ce este de făcut, câte sarcini au fost finalizate și ce elemente mai așteaptă. Poți bifa sarcini instant, reseta o checklistă sau naviga între zile.",
+        "Istoricul de finalizare te ajută să urmărești consecvența din ultimele zile. Din setări poți ajusta tema, limba, mementourile, șabloanele arhivate și sortarea.",
+        "Curată, ușoară și fără distrageri, Daily Checklist este ideală pentru cei care vor un manager de sarcini zilnice practic și simplu."
+      ],
+      "bottomCtaDescription": "Transformă rutinele repetitive în checklist-uri reutilizabile și păstrează ziua mai clară. Daily Checklist te ajută să planifici, să bifezi rapid sarcini și să îți urmărești consecvența.",
+      "category": "Productivitate",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Checklist Zilnic",
+        "Listă De Sarcini",
+        "To-Do List",
+        "Rutine",
+        "Sarcini Recurente",
+        "Productivitate",
+        "Mementouri",
+        "Istoric"
+      ],
+      "metaTitle": "Daily Checklist Android | Sarcini și rutine",
+      "metaDescription": "Creează checklist-uri reutilizabile, setează mementouri, bifează sarcini rapid și urmărește consecvența pe Android.",
+      "featureBullets": [
+        {
+          "title": "Șabloane reutilizabile"
+        },
+        {
+          "title": "Vizualizare zilnică"
+        },
+        {
+          "title": "Mementouri pentru sarcini"
+        },
+        {
+          "title": "Istoric de finalizare"
+        },
+        {
+          "title": "Bifare rapidă"
+        },
+        {
+          "title": "Rutine personalizate"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Checklist-ul zilei",
+          "description": "Arată ecranul Today cu sarcini de făcut, contor de finalizare, elemente de checklist și acțiunea Add template.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-1.png"
+        },
+        {
+          "title": "Creare șablon",
+          "description": "Arată formularul cu nume șablon, notițe, recurență, oră de memento și mai multe sarcini.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-2.png"
+        },
+        {
+          "title": "Istoric",
+          "description": "Arată ultimele șapte zile cu numărul zilnic de finalizări pentru a comunica urmărirea consecvenței.",
+          "imagePath": "apps/screenshots/daily-checklist/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "La ce folosește Daily Checklist?",
+          "answer": "Daily Checklist este folosită pentru liste reutilizabile dedicate rutinelor zilnice, sarcinilor recurente și organizării personale."
+        },
+        {
+          "question": "Pot crea checklist-uri recurente?",
+          "answer": "Da. Poți crea șabloane cu recurență, mementouri, notițe și mai multe sarcini de refolosit zilnic."
+        },
+        {
+          "question": "Daily Checklist arată ce am de făcut azi?",
+          "answer": "Da. Vizualizarea Today afișează checklist-urile datorate, progresul finalizat și sarcinile rămase."
+        },
+        {
+          "question": "Pot vedea istoricul sarcinilor finalizate?",
+          "answer": "Da. Ecranul de istoric arată finalizările recente, ca să îți urmărești mai ușor consecvența."
+        },
+        {
+          "question": "Daily Checklist este disponibilă pentru Android?",
+          "answer": "Da. Daily Checklist este disponibilă pentru Android prin Google Play."
+        }
+      ]
+    }
+  }
+}

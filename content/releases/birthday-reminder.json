@@ -1,0 +1,976 @@
+{
+  "slug": "birthday-reminder",
+  "sortOrder": 20,
+  "kind": "app",
+  "featured": false,
+  "accent": "orange",
+  "icon": "apps/icons/birthday-reminder.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.birthdayreminder",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "LifestyleApplication",
+  "relatedSlugs": [
+    "daily-checklist",
+    "goal-tracker",
+    "medication-reminder-lite"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Birthday Reminder",
+      "summary": "Birthday Reminder helps you save important birthdays, pin favorite people, set reminder lead times, and see upcoming celebrations at a glance on Android.",
+      "longDescription": [
+        "Birthday Reminder is a clean Android app for keeping track of birthdays for friends, family, and important people in your life. It helps you see what is coming up soon, so you can plan ahead instead of remembering at the last minute.",
+        "Add a person in seconds with their name, birthday, optional birth year, relationship, favorite status, reminder lead time, gift ideas, and notes. Everything is designed to keep useful birthday details in one simple place.",
+        "The dashboard highlights upcoming celebrations in the next 30 days and keeps favorite people easy to find. The people list includes search and sorting, making it simple to locate birthdays, notes, or pinned contacts.",
+        "Use the month view to plan ahead with a calendar-style overview of upcoming birthdays. Reminder settings let you choose lead time, while appearance and language settings help the app fit your everyday use.",
+        "Whether you want to remember family birthdays, prepare gifts earlier, or keep close friends pinned, Birthday Reminder is a lightweight way to stay thoughtful and organized."
+      ],
+      "bottomCtaDescription": "Keep every important birthday close without relying on memory. Birthday Reminder gives you a simple place to save people, plan ahead, note gift ideas, and get ready before each celebration arrives.",
+      "category": "Lifestyle",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Birthday Reminder",
+        "Birthday Calendar",
+        "Birthday Alerts",
+        "Gift Ideas",
+        "Friends And Family",
+        "Important Dates",
+        "Reminders",
+        "Month View"
+      ],
+      "metaTitle": "Birthday Reminder App for Android | Never Miss Dates",
+      "metaDescription": "Save birthdays, add gift ideas, pin favorite people, view upcoming celebrations, and set reminder lead times with Birthday Reminder.",
+      "featureBullets": [
+        {
+          "title": "Upcoming Birthday Dashboard"
+        },
+        {
+          "title": "Favorite People"
+        },
+        {
+          "title": "Month View"
+        },
+        {
+          "title": "Reminder Lead Times"
+        },
+        {
+          "title": "Gift Ideas And Notes"
+        },
+        {
+          "title": "Search And Sorting"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Upcoming Celebrations",
+          "description": "Show the dashboard with next 30 days, favorites, coming soon cards, and the Add person action.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Add Person",
+          "description": "Show the add person form with birthday, optional birth year, relationship, favorite toggle, lead time, gift ideas, and notes.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Month View",
+          "description": "Show the monthly birthday view with a person listed on a date, relationship label, and age information.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is Birthday Reminder used for?",
+          "answer": "Birthday Reminder helps you save birthdays, view upcoming celebrations, mark favorite people, add notes, and plan ahead with reminder lead times."
+        },
+        {
+          "question": "Can I add gift ideas for a birthday?",
+          "answer": "Yes. Each person can include gift ideas and notes, so you can remember thoughtful details before the birthday arrives."
+        },
+        {
+          "question": "Can I see birthdays by month?",
+          "answer": "Yes. The month view gives you a calendar-style overview so you can plan ahead and see upcoming birthdays more clearly."
+        },
+        {
+          "question": "Can I choose when to be reminded?",
+          "answer": "Yes. You can set a reminder lead time, such as several days before the birthday, from the person details or reminder settings."
+        },
+        {
+          "question": "Is Birthday Reminder available for Android?",
+          "answer": "Yes. Birthday Reminder is available for Android on Google Play."
+        }
+      ]
+    },
+    "de": {
+      "name": "Birthday Reminder",
+      "summary": "Birthday Reminder hilft dir, wichtige Geburtstage zu speichern, Lieblingspersonen zu markieren, Vorlaufzeiten für Erinnerungen festzulegen und kommende Feiern auf Android im Blick zu behalten.",
+      "longDescription": [
+        "Birthday Reminder ist eine übersichtliche Android-App, mit der du Geburtstage von Familie, Freunden und wichtigen Kontakten im Blick behältst. Du siehst frühzeitig, was ansteht, und musst dich nicht erst im letzten Moment erinnern.",
+        "Füge Personen mit Name, Geburtstag, optionalem Geburtsjahr, Beziehung, Favoritenstatus, Erinnerungsvorlauf, Geschenkideen und Notizen hinzu. So bleiben alle wichtigen Geburtstagsdetails an einem Ort.",
+        "Das Dashboard zeigt kommende Feiern in den nächsten 30 Tagen und hält Favoriten schnell erreichbar. In der Personenliste kannst du suchen und sortieren, um Namen, Notizen oder markierte Personen schneller zu finden.",
+        "Die Monatsansicht hilft dir, Geburtstage vorauszuplanen. In den Einstellungen kannst du Erinnerungen aktivieren, die Vorlaufzeit wählen sowie Darstellung und Sprache anpassen.",
+        "Ob Familiengeburtstage, enge Freunde oder Geschenkplanung: Birthday Reminder ist eine leichte, praktische App für alle, die persönliche Termine nicht vergessen möchten."
+      ],
+      "bottomCtaDescription": "Vergiss keine wichtigen Geburtstage mehr und plane rechtzeitig. Birthday Reminder gibt dir einen einfachen Ort für Personen, Geschenkideen, Notizen und Erinnerungen vor jedem besonderen Tag.",
+      "category": "Lifestyle",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Geburtstagserinnerung",
+        "Geburtstagskalender",
+        "Geburtstagsalarm",
+        "Geschenkideen",
+        "Freunde Und Familie",
+        "Wichtige Termine",
+        "Erinnerungen",
+        "Monatsansicht"
+      ],
+      "metaTitle": "Birthday Reminder für Android | Geburtstage merken",
+      "metaDescription": "Speichere Geburtstage, notiere Geschenkideen, markiere Favoriten, sieh kommende Feiern und nutze Erinnerungen mit Vorlaufzeit.",
+      "featureBullets": [
+        {
+          "title": "Dashboard für Geburtstage"
+        },
+        {
+          "title": "Favoriten markieren"
+        },
+        {
+          "title": "Monatsansicht"
+        },
+        {
+          "title": "Erinnerungen mit Vorlauf"
+        },
+        {
+          "title": "Geschenkideen und Notizen"
+        },
+        {
+          "title": "Suche und Sortierung"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Kommende Geburtstage",
+          "description": "Das Dashboard mit den nächsten 30 Tagen, Favoriten, kommenden Feiern und Add-person-Aktion zeigen.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Person hinzufügen",
+          "description": "Das Formular mit Geburtstag, optionalem Geburtsjahr, Beziehung, Favoriten-Schalter, Vorlaufzeit, Geschenkideen und Notizen zeigen.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Monatsansicht",
+          "description": "Die monatliche Übersicht mit Geburtstagseintrag, Beziehung und Altersangabe zeigen.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wofür ist Birthday Reminder gedacht?",
+          "answer": "Birthday Reminder hilft dir, Geburtstage zu speichern, kommende Feiern zu sehen, Favoriten zu markieren, Notizen hinzuzufügen und rechtzeitig erinnert zu werden."
+        },
+        {
+          "question": "Kann ich Geschenkideen speichern?",
+          "answer": "Ja. Zu jeder Person kannst du Geschenkideen und Notizen hinzufügen, damit du wichtige Details rechtzeitig parat hast."
+        },
+        {
+          "question": "Kann ich Geburtstage nach Monat ansehen?",
+          "answer": "Ja. Die Monatsansicht zeigt Geburtstage in einer kalenderähnlichen Übersicht, damit du besser vorausplanen kannst."
+        },
+        {
+          "question": "Kann ich einstellen, wann ich erinnert werde?",
+          "answer": "Ja. Du kannst eine Vorlaufzeit für Erinnerungen festlegen, zum Beispiel mehrere Tage vor dem Geburtstag."
+        },
+        {
+          "question": "Gibt es Birthday Reminder für Android?",
+          "answer": "Ja. Birthday Reminder ist für Android bei Google Play verfügbar."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Birthday Reminder",
+      "summary": "Birthday Reminder vous aide à enregistrer les anniversaires importants, épingler vos proches, définir des rappels à l’avance et voir les célébrations à venir sur Android.",
+      "longDescription": [
+        "Birthday Reminder est une application Android claire pour suivre les anniversaires de votre famille, de vos amis et des personnes importantes. Elle vous aide à voir ce qui arrive bientôt et à vous organiser avant le dernier moment.",
+        "Ajoutez une personne avec son nom, sa date d’anniversaire, son année de naissance optionnelle, sa relation, son statut favori, un délai de rappel, des idées cadeaux et des notes.",
+        "Le tableau de bord met en avant les anniversaires des 30 prochains jours et les personnes favorites. La liste des personnes propose la recherche et le tri pour retrouver rapidement un nom, une note ou un contact épinglé.",
+        "La vue mensuelle offre un aperçu de type calendrier pour mieux planifier les anniversaires à venir. Les réglages permettent de gérer les rappels, le délai d’alerte, l’apparence et la langue.",
+        "Pour ne plus oublier les anniversaires de vos proches ou préparer les cadeaux plus tôt, Birthday Reminder propose une solution simple, légère et facile à utiliser."
+      ],
+      "bottomCtaDescription": "Gardez les anniversaires importants en tête sans compter sur votre mémoire. Birthday Reminder vous aide à enregistrer les personnes, préparer des idées cadeaux et anticiper chaque date spéciale.",
+      "category": "Style de vie",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Rappel Anniversaire",
+        "Calendrier Anniversaire",
+        "Alertes Anniversaire",
+        "Idées Cadeaux",
+        "Amis Et Famille",
+        "Dates Importantes",
+        "Rappels",
+        "Vue Mensuelle"
+      ],
+      "metaTitle": "Birthday Reminder Android | Rappels d’anniversaire",
+      "metaDescription": "Enregistrez les anniversaires, ajoutez des idées cadeaux, épinglez vos proches, voyez les dates à venir et définissez vos rappels.",
+      "featureBullets": [
+        {
+          "title": "Tableau de bord anniversaire"
+        },
+        {
+          "title": "Personnes favorites"
+        },
+        {
+          "title": "Vue mensuelle"
+        },
+        {
+          "title": "Délai de rappel"
+        },
+        {
+          "title": "Idées cadeaux et notes"
+        },
+        {
+          "title": "Recherche et tri"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Anniversaires à venir",
+          "description": "Montrer le tableau de bord avec les 30 prochains jours, les favoris, les cartes de célébrations et l’action Add person.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Ajouter une personne",
+          "description": "Afficher le formulaire avec anniversaire, année de naissance optionnelle, relation, favori, délai de rappel, idées cadeaux et notes.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Vue mensuelle",
+          "description": "Montrer la vue mensuelle avec une personne listée à une date, la relation et l’âge.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "À quoi sert Birthday Reminder ?",
+          "answer": "Birthday Reminder sert à enregistrer les anniversaires, voir les célébrations à venir, épingler les proches, ajouter des notes et définir des rappels."
+        },
+        {
+          "question": "Puis-je ajouter des idées cadeaux ?",
+          "answer": "Oui. Vous pouvez ajouter des idées cadeaux et des notes pour chaque personne afin de préparer l’anniversaire plus facilement."
+        },
+        {
+          "question": "Puis-je consulter les anniversaires par mois ?",
+          "answer": "Oui. La vue mensuelle affiche les anniversaires dans un aperçu pratique pour planifier à l’avance."
+        },
+        {
+          "question": "Puis-je choisir quand recevoir un rappel ?",
+          "answer": "Oui. Vous pouvez définir un délai de rappel, par exemple plusieurs jours avant la date."
+        },
+        {
+          "question": "Birthday Reminder est-il disponible sur Android ?",
+          "answer": "Oui. Birthday Reminder est disponible sur Android via Google Play."
+        }
+      ]
+    },
+    "it": {
+      "name": "Birthday Reminder",
+      "summary": "Birthday Reminder ti aiuta a salvare compleanni importanti, fissare le persone preferite, impostare promemoria anticipati e vedere le ricorrenze in arrivo su Android.",
+      "longDescription": [
+        "Birthday Reminder è un’app Android pulita e semplice per tenere traccia dei compleanni di amici, familiari e persone importanti. Ti aiuta a vedere cosa sta arrivando e a prepararti in tempo.",
+        "Aggiungi una persona con nome, data di compleanno, anno di nascita opzionale, relazione, preferito, anticipo del promemoria, idee regalo e note. Tutte le informazioni utili restano raccolte in un unico posto.",
+        "La dashboard evidenzia le ricorrenze dei prossimi 30 giorni e mantiene i preferiti facilmente accessibili. L’elenco persone include ricerca e ordinamento per trovare rapidamente nomi, note o contatti salvati.",
+        "La vista mensile offre una panoramica in stile calendario per pianificare con più anticipo. Dalle impostazioni puoi gestire promemoria, anticipo degli avvisi, aspetto e lingua.",
+        "Che tu voglia ricordare compleanni di famiglia, preparare regali o tenere in evidenza gli amici più stretti, Birthday Reminder è un modo leggero e pratico per restare organizzato."
+      ],
+      "bottomCtaDescription": "Tieni vicini i compleanni importanti senza affidarti alla memoria. Birthday Reminder ti offre uno spazio semplice per salvare persone, idee regalo, note e promemoria prima di ogni ricorrenza.",
+      "category": "Lifestyle",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Promemoria Compleanni",
+        "Calendario Compleanni",
+        "Avvisi Compleanno",
+        "Idee Regalo",
+        "Amici E Famiglia",
+        "Date Importanti",
+        "Promemoria",
+        "Vista Mensile"
+      ],
+      "metaTitle": "Birthday Reminder Android | Compleanni e promemoria",
+      "metaDescription": "Salva compleanni, aggiungi idee regalo, fissa preferiti, guarda le ricorrenze in arrivo e imposta promemoria anticipati.",
+      "featureBullets": [
+        {
+          "title": "Dashboard compleanni"
+        },
+        {
+          "title": "Persone preferite"
+        },
+        {
+          "title": "Vista mensile"
+        },
+        {
+          "title": "Promemoria anticipati"
+        },
+        {
+          "title": "Idee regalo e note"
+        },
+        {
+          "title": "Ricerca e ordinamento"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Ricorrenze in arrivo",
+          "description": "Mostrare la dashboard con prossimi 30 giorni, preferiti, schede delle ricorrenze e azione Add person.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Aggiungi persona",
+          "description": "Mostrare il form con compleanno, anno di nascita opzionale, relazione, preferito, anticipo promemoria, idee regalo e note.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Vista mensile",
+          "description": "Mostrare la vista mensile con una persona associata a una data, relazione e informazione sull’età.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "A cosa serve Birthday Reminder?",
+          "answer": "Birthday Reminder serve a salvare compleanni, vedere le ricorrenze in arrivo, segnare persone preferite, aggiungere note e impostare promemoria."
+        },
+        {
+          "question": "Posso aggiungere idee regalo?",
+          "answer": "Sì. Per ogni persona puoi salvare idee regalo e note, così hai tutto pronto prima del compleanno."
+        },
+        {
+          "question": "Posso vedere i compleanni per mese?",
+          "answer": "Sì. La vista mensile mostra i compleanni in una panoramica utile per pianificare in anticipo."
+        },
+        {
+          "question": "Posso scegliere quando ricevere il promemoria?",
+          "answer": "Sì. Puoi impostare un anticipo, ad esempio alcuni giorni prima del compleanno."
+        },
+        {
+          "question": "Birthday Reminder è disponibile per Android?",
+          "answer": "Sì. Birthday Reminder è disponibile per Android su Google Play."
+        }
+      ]
+    },
+    "es": {
+      "name": "Birthday Reminder",
+      "summary": "Birthday Reminder te ayuda a guardar cumpleaños importantes, fijar personas favoritas, configurar avisos con antelación y ver próximas celebraciones en Android.",
+      "longDescription": [
+        "Birthday Reminder es una app Android clara para recordar cumpleaños de familiares, amigos y personas importantes. Te ayuda a ver qué fechas se acercan y a prepararte con tiempo.",
+        "Añade una persona con nombre, cumpleaños, año de nacimiento opcional, relación, favorito, tiempo de aviso, ideas de regalo y notas. Así puedes mantener los detalles importantes en un solo lugar.",
+        "El panel muestra celebraciones de los próximos 30 días y mantiene a tus personas favoritas siempre visibles. La lista de personas incluye búsqueda y ordenación para encontrar nombres, notas o contactos fijados rápidamente.",
+        "La vista mensual te permite planificar con una panorámica tipo calendario. En ajustes puedes activar recordatorios, elegir el tiempo de aviso y configurar apariencia e idioma.",
+        "Para recordar cumpleaños familiares, preparar regalos o mantener cerca a tus amigos favoritos, Birthday Reminder es una forma ligera y práctica de organizar fechas especiales."
+      ],
+      "bottomCtaDescription": "Mantén cerca los cumpleaños importantes sin depender de la memoria. Birthday Reminder te ofrece un lugar sencillo para guardar personas, ideas de regalo, notas y recordatorios antes de cada fecha.",
+      "category": "Estilo de vida",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Recordatorio De Cumpleaños",
+        "Calendario De Cumpleaños",
+        "Alertas De Cumpleaños",
+        "Ideas De Regalo",
+        "Amigos Y Familia",
+        "Fechas Importantes",
+        "Recordatorios",
+        "Vista Mensual"
+      ],
+      "metaTitle": "Birthday Reminder Android | Cumpleaños y avisos",
+      "metaDescription": "Guarda cumpleaños, añade ideas de regalo, fija favoritos, consulta próximas celebraciones y configura recordatorios con antelación.",
+      "featureBullets": [
+        {
+          "title": "Panel de cumpleaños"
+        },
+        {
+          "title": "Personas favoritas"
+        },
+        {
+          "title": "Vista mensual"
+        },
+        {
+          "title": "Avisos con antelación"
+        },
+        {
+          "title": "Ideas de regalo y notas"
+        },
+        {
+          "title": "Búsqueda y ordenación"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Próximas celebraciones",
+          "description": "Mostrar el panel con próximos 30 días, favoritos, tarjetas de celebraciones y acción Add person.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Añadir persona",
+          "description": "Mostrar el formulario con cumpleaños, año de nacimiento opcional, relación, favorito, tiempo de aviso, ideas de regalo y notas.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Vista mensual",
+          "description": "Mostrar la vista mensual con una persona en una fecha, relación y edad.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Para qué sirve Birthday Reminder?",
+          "answer": "Birthday Reminder sirve para guardar cumpleaños, ver celebraciones próximas, marcar favoritos, añadir notas y configurar avisos con antelación."
+        },
+        {
+          "question": "¿Puedo añadir ideas de regalo?",
+          "answer": "Sí. Puedes guardar ideas de regalo y notas para cada persona, de modo que tengas detalles preparados antes del cumpleaños."
+        },
+        {
+          "question": "¿Puedo ver cumpleaños por mes?",
+          "answer": "Sí. La vista mensual ofrece una panorámica útil para planificar cumpleaños con antelación."
+        },
+        {
+          "question": "¿Puedo elegir cuándo recibir el recordatorio?",
+          "answer": "Sí. Puedes configurar un tiempo de aviso, por ejemplo varios días antes del cumpleaños."
+        },
+        {
+          "question": "¿Birthday Reminder está disponible para Android?",
+          "answer": "Sí. Birthday Reminder está disponible para Android en Google Play."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Birthday Reminder",
+      "summary": "Birthday Reminder ajuda você a salvar aniversários importantes, marcar pessoas favoritas, definir lembretes antecipados e ver próximas comemorações no Android.",
+      "longDescription": [
+        "Birthday Reminder é um aplicativo Android simples para acompanhar aniversários de familiares, amigos e pessoas importantes. Ele ajuda você a ver o que está chegando e se preparar com antecedência.",
+        "Adicione uma pessoa com nome, data de aniversário, ano de nascimento opcional, relacionamento, favorito, prazo do lembrete, ideias de presentes e notas. Os detalhes úteis ficam reunidos em um só lugar.",
+        "O painel destaca comemorações dos próximos 30 dias e mantém favoritos fáceis de acessar. A lista de pessoas inclui busca e ordenação para encontrar nomes, notas ou contatos marcados rapidamente.",
+        "A visualização mensal ajuda você a planejar com uma visão em estilo calendário. Nas configurações, é possível ajustar lembretes, prazo de aviso, aparência e idioma.",
+        "Para lembrar aniversários da família, preparar presentes mais cedo ou manter amigos próximos em destaque, Birthday Reminder é uma solução leve e prática para organizar datas especiais."
+      ],
+      "bottomCtaDescription": "Mantenha aniversários importantes sempre por perto sem depender da memória. Birthday Reminder oferece um lugar simples para salvar pessoas, ideias de presentes, notas e lembretes antes de cada data especial.",
+      "category": "Estilo de vida",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Lembrete De Aniversário",
+        "Calendário De Aniversários",
+        "Alertas De Aniversário",
+        "Ideias De Presentes",
+        "Amigos E Família",
+        "Datas Importantes",
+        "Lembretes",
+        "Visualização Mensal"
+      ],
+      "metaTitle": "Birthday Reminder Android | Aniversários e lembretes",
+      "metaDescription": "Salve aniversários, adicione ideias de presentes, marque favoritos, veja próximas comemorações e defina lembretes antecipados.",
+      "featureBullets": [
+        {
+          "title": "Painel de aniversários"
+        },
+        {
+          "title": "Pessoas favoritas"
+        },
+        {
+          "title": "Visualização mensal"
+        },
+        {
+          "title": "Lembretes antecipados"
+        },
+        {
+          "title": "Ideias de presentes e notas"
+        },
+        {
+          "title": "Busca e ordenação"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Próximas comemorações",
+          "description": "Mostrar o painel com próximos 30 dias, favoritos, cartões de comemorações e ação Add person.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Adicionar pessoa",
+          "description": "Mostrar o formulário com aniversário, ano de nascimento opcional, relacionamento, favorito, prazo do lembrete, ideias de presentes e notas.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Visualização mensal",
+          "description": "Mostrar a visão mensal com uma pessoa listada em uma data, relacionamento e idade.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Para que serve o Birthday Reminder?",
+          "answer": "Birthday Reminder serve para salvar aniversários, ver próximas comemorações, marcar favoritos, adicionar notas e configurar lembretes antecipados."
+        },
+        {
+          "question": "Posso adicionar ideias de presentes?",
+          "answer": "Sim. Você pode salvar ideias de presentes e notas para cada pessoa, facilitando a preparação antes do aniversário."
+        },
+        {
+          "question": "Posso ver aniversários por mês?",
+          "answer": "Sim. A visualização mensal mostra aniversários em uma visão prática para planejar com antecedência."
+        },
+        {
+          "question": "Posso escolher quando receber o lembrete?",
+          "answer": "Sim. Você pode definir um prazo de aviso, como alguns dias antes do aniversário."
+        },
+        {
+          "question": "Birthday Reminder está disponível para Android?",
+          "answer": "Sim. Birthday Reminder está disponível para Android no Google Play."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Birthday Reminder",
+      "summary": "Birthday Reminder вам помаже да сачувате важне рођендане, означите омиљене људе, подесите подсетнике унапред и видите прославе које долазе на Android уређају.",
+      "longDescription": [
+        "Birthday Reminder је прегледна Android апликација за праћење рођендана породице, пријатеља и важних људи. Помаже вам да видите шта ускоро долази и да се припремите на време.",
+        "Додајте особу са именом, датумом рођендана, опционом годином рођења, односом, статусом фаворита, временом подсетника, идејама за поклоне и белешкама.",
+        "Контролна табла приказује прославе у наредних 30 дана и држи омиљене људе лако доступним. Листа особа има претрагу и сортирање, па брже налазите имена, белешке или означене контакте.",
+        "Месечни преглед омогућава планирање уз календарски приказ рођендана. У подешавањима можете управљати подсетницима, временом обавештења, изгледом и језиком.",
+        "Било да желите да запамтите породичне рођендане, раније припремите поклон или означите блиске пријатеље, Birthday Reminder је лаган и практичан начин да останете организовани."
+      ],
+      "bottomCtaDescription": "Не ослањајте се само на памћење када су важни рођендани у питању. Birthday Reminder вам даје једноставно место за особе, идеје за поклоне, белешке и подсетнике пре сваке прославе.",
+      "category": "Животни стил",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Подсетник За Рођендане",
+        "Календар Рођендана",
+        "Обавештења За Рођендан",
+        "Идеје За Поклон",
+        "Пријатељи И Породица",
+        "Важни Датуми",
+        "Подсетници",
+        "Месечни Преглед"
+      ],
+      "metaTitle": "Birthday Reminder за Android | Рођендани и подсетници",
+      "metaDescription": "Сачувајте рођендане, додајте идеје за поклоне, означите фаворите, пратите прославе и подесите подсетнике.",
+      "featureBullets": [
+        {
+          "title": "Преглед предстојећих рођендана"
+        },
+        {
+          "title": "Омиљене особе"
+        },
+        {
+          "title": "Месечни преглед"
+        },
+        {
+          "title": "Подсетници унапред"
+        },
+        {
+          "title": "Идеје за поклоне и белешке"
+        },
+        {
+          "title": "Претрага и сортирање"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Предстојеће прославе",
+          "description": "Приказати контролну таблу са наредних 30 дана, фаворитима, картицама прослава и Add person акцијом.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Додавање особе",
+          "description": "Приказати форму са рођенданом, опционом годином рођења, односом, фаворитом, временом подсетника, идејама за поклон и белешкама.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Месечни преглед",
+          "description": "Приказати месечни приказ са особом на одређени датум, односом и информацијом о годинама.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "За шта служи Birthday Reminder?",
+          "answer": "Birthday Reminder служи за чување рођендана, преглед предстојећих прослава, означавање фаворита, белешке и подсетнике унапред."
+        },
+        {
+          "question": "Да ли могу да додам идеје за поклоне?",
+          "answer": "Да. За сваку особу можете сачувати идеје за поклоне и белешке како бисте се лакше припремили."
+        },
+        {
+          "question": "Могу ли да видим рођендане по месецима?",
+          "answer": "Да. Месечни преглед приказује рођендане у прегледном календарском стилу."
+        },
+        {
+          "question": "Могу ли да изаберем када добијам подсетник?",
+          "answer": "Да. Можете подесити време подсетника, на пример неколико дана пре рођендана."
+        },
+        {
+          "question": "Да ли је Birthday Reminder доступан за Android?",
+          "answer": "Да. Birthday Reminder је доступан за Android преко Google Play продавнице."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Birthday Reminder",
+      "summary": "Birthday Reminder pomaže vam spremiti važne rođendane, označiti omiljene osobe, postaviti podsjetnike unaprijed i vidjeti nadolazeće proslave na Androidu.",
+      "longDescription": [
+        "Birthday Reminder je pregledna Android aplikacija za praćenje rođendana obitelji, prijatelja i važnih osoba. Pomaže vam vidjeti što uskoro dolazi i pripremiti se na vrijeme.",
+        "Dodajte osobu s imenom, datumom rođendana, opcionalnom godinom rođenja, odnosom, statusom favorita, vremenom podsjetnika, idejama za poklone i bilješkama.",
+        "Nadzorna ploča prikazuje proslave u sljedećih 30 dana i drži omiljene osobe lako dostupnima. Popis osoba uključuje pretraživanje i sortiranje za brzo pronalaženje imena, bilješki ili označenih kontakata.",
+        "Mjesečni pregled omogućuje planiranje uz prikaz u stilu kalendara. U postavkama možete upravljati podsjetnicima, vremenom obavijesti, izgledom i jezikom.",
+        "Bilo da želite zapamtiti obiteljske rođendane, ranije pripremiti poklon ili označiti bliske prijatelje, Birthday Reminder je lagan i praktičan način da ostanete organizirani."
+      ],
+      "bottomCtaDescription": "Ne oslanjajte se samo na pamćenje važnih rođendana. Birthday Reminder daje vam jednostavno mjesto za osobe, ideje za poklone, bilješke i podsjetnike prije svake proslave.",
+      "category": "Životni stil",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Podsjetnik Za Rođendane",
+        "Kalendar Rođendana",
+        "Obavijesti Za Rođendan",
+        "Ideje Za Poklon",
+        "Prijatelji I Obitelj",
+        "Važni Datumi",
+        "Podsjetnici",
+        "Mjesečni Pregled"
+      ],
+      "metaTitle": "Birthday Reminder za Android | Rođendani i podsjetnici",
+      "metaDescription": "Spremite rođendane, dodajte ideje za poklone, označite favorite, pratite proslave i postavite podsjetnike.",
+      "featureBullets": [
+        {
+          "title": "Pregled nadolazećih rođendana"
+        },
+        {
+          "title": "Omiljene osobe"
+        },
+        {
+          "title": "Mjesečni pregled"
+        },
+        {
+          "title": "Podsjetnici unaprijed"
+        },
+        {
+          "title": "Ideje za poklone i bilješke"
+        },
+        {
+          "title": "Pretraživanje i sortiranje"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Nadolazeće proslave",
+          "description": "Prikazati nadzornu ploču s idućih 30 dana, favoritima, karticama proslava i Add person akcijom.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Dodavanje osobe",
+          "description": "Prikazati obrazac s rođendanom, opcionalnom godinom rođenja, odnosom, favoritom, vremenom podsjetnika, idejama za poklon i bilješkama.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Mjesečni pregled",
+          "description": "Prikazati mjesečni pregled s osobom na određen datum, odnosom i informacijom o dobi.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Čemu služi Birthday Reminder?",
+          "answer": "Birthday Reminder služi za spremanje rođendana, pregled nadolazećih proslava, označavanje favorita, bilješke i podsjetnike unaprijed."
+        },
+        {
+          "question": "Mogu li dodati ideje za poklone?",
+          "answer": "Da. Za svaku osobu možete spremiti ideje za poklone i bilješke kako biste se lakše pripremili."
+        },
+        {
+          "question": "Mogu li vidjeti rođendane po mjesecima?",
+          "answer": "Da. Mjesečni pregled prikazuje rođendane u preglednom kalendarskom stilu."
+        },
+        {
+          "question": "Mogu li odabrati kada dobivam podsjetnik?",
+          "answer": "Da. Možete postaviti vrijeme podsjetnika, primjerice nekoliko dana prije rođendana."
+        },
+        {
+          "question": "Je li Birthday Reminder dostupan za Android?",
+          "answer": "Da. Birthday Reminder je dostupan za Android putem Google Playa."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Birthday Reminder",
+      "summary": "Birthday Reminder helpt je belangrijke verjaardagen opslaan, favoriete personen vastzetten, herinneringen vooruit plannen en komende vieringen op Android bekijken.",
+      "longDescription": [
+        "Birthday Reminder is een overzichtelijke Android-app om verjaardagen van familie, vrienden en belangrijke personen bij te houden. Je ziet snel wat eraan komt en kunt op tijd plannen.",
+        "Voeg een persoon toe met naam, verjaardag, optioneel geboortejaar, relatie, favorietstatus, herinneringstermijn, cadeau-ideeën en notities. Zo blijven alle nuttige details op één plek.",
+        "Het dashboard toont vieringen in de komende 30 dagen en maakt favoriete personen makkelijk bereikbaar. De personenlijst bevat zoeken en sorteren, zodat je namen, notities of gepinde personen snel vindt.",
+        "Met de maandweergave plan je vooruit in een kalenderachtige indeling. In de instellingen kun je herinneringen, termijn, weergave en taal aanpassen.",
+        "Of je nu familieverjaardagen wilt onthouden, cadeaus eerder wilt voorbereiden of goede vrienden wilt vastzetten: Birthday Reminder is een lichte en praktische manier om georganiseerd te blijven."
+      ],
+      "bottomCtaDescription": "Houd belangrijke verjaardagen dichtbij zonder op je geheugen te vertrouwen. Birthday Reminder geeft je één eenvoudige plek voor personen, cadeau-ideeën, notities en tijdige herinneringen.",
+      "category": "Lifestyle",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Verjaardagsherinnering",
+        "Verjaardagskalender",
+        "Verjaardagsmeldingen",
+        "Cadeau-Ideeën",
+        "Vrienden En Familie",
+        "Belangrijke Datums",
+        "Herinneringen",
+        "Maandweergave"
+      ],
+      "metaTitle": "Birthday Reminder Android | Verjaardagen onthouden",
+      "metaDescription": "Sla verjaardagen op, voeg cadeau-ideeën toe, pin favorieten, bekijk komende vieringen en stel herinneringen vooraf in.",
+      "featureBullets": [
+        {
+          "title": "Dashboard voor verjaardagen"
+        },
+        {
+          "title": "Favoriete personen"
+        },
+        {
+          "title": "Maandweergave"
+        },
+        {
+          "title": "Herinneringen vooraf"
+        },
+        {
+          "title": "Cadeau-ideeën en notities"
+        },
+        {
+          "title": "Zoeken en sorteren"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Komende vieringen",
+          "description": "Toon het dashboard met komende 30 dagen, favorieten, vieringskaarten en de Add person actie.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Persoon toevoegen",
+          "description": "Toon het formulier met verjaardag, optioneel geboortejaar, relatie, favoriet, herinneringstermijn, cadeau-ideeën en notities.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Maandweergave",
+          "description": "Toon de maandweergave met een persoon op een datum, relatielabel en leeftijdsinformatie.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Waarvoor gebruik ik Birthday Reminder?",
+          "answer": "Birthday Reminder helpt je verjaardagen op te slaan, komende vieringen te zien, favorieten te markeren, notities toe te voegen en herinneringen in te stellen."
+        },
+        {
+          "question": "Kan ik cadeau-ideeën toevoegen?",
+          "answer": "Ja. Je kunt per persoon cadeau-ideeën en notities opslaan, zodat je op tijd voorbereid bent."
+        },
+        {
+          "question": "Kan ik verjaardagen per maand bekijken?",
+          "answer": "Ja. De maandweergave toont verjaardagen in een handige kalenderachtige lijst."
+        },
+        {
+          "question": "Kan ik kiezen wanneer ik herinnerd word?",
+          "answer": "Ja. Je kunt een herinneringstermijn instellen, bijvoorbeeld enkele dagen voor de verjaardag."
+        },
+        {
+          "question": "Is Birthday Reminder beschikbaar voor Android?",
+          "answer": "Ja. Birthday Reminder is beschikbaar voor Android via Google Play."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Birthday Reminder",
+      "summary": "Birthday Reminder pomaga zapisywać ważne urodziny, oznaczać ulubione osoby, ustawiać przypomnienia z wyprzedzeniem i widzieć nadchodzące okazje na Androidzie.",
+      "longDescription": [
+        "Birthday Reminder to przejrzysta aplikacja na Androida do śledzenia urodzin rodziny, znajomych i ważnych osób. Pomaga zobaczyć, co zbliża się w najbliższym czasie, i przygotować się wcześniej.",
+        "Dodaj osobę z imieniem, datą urodzin, opcjonalnym rokiem urodzenia, relacją, statusem ulubionej osoby, wyprzedzeniem przypomnienia, pomysłami na prezent i notatkami.",
+        "Panel główny pokazuje okazje z następnych 30 dni i ułatwia dostęp do ulubionych osób. Lista osób ma wyszukiwanie i sortowanie, więc szybko znajdziesz imiona, notatki lub przypięte kontakty.",
+        "Widok miesiąca pomaga planować w układzie przypominającym kalendarz. W ustawieniach możesz zarządzać przypomnieniami, wyprzedzeniem, wyglądem i językiem.",
+        "Jeśli chcesz pamiętać o urodzinach rodziny, wcześniej przygotowywać prezenty albo mieć bliskich zawsze pod ręką, Birthday Reminder to lekki i praktyczny sposób na organizację dat."
+      ],
+      "bottomCtaDescription": "Nie polegaj wyłącznie na pamięci przy ważnych urodzinach. Birthday Reminder daje proste miejsce na osoby, pomysły na prezenty, notatki i przypomnienia przed każdą okazją.",
+      "category": "Styl życia",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Przypomnienie O Urodzinach",
+        "Kalendarz Urodzin",
+        "Alerty Urodzinowe",
+        "Pomysły Na Prezent",
+        "Znajomi I Rodzina",
+        "Ważne Daty",
+        "Przypomnienia",
+        "Widok Miesiąca"
+      ],
+      "metaTitle": "Birthday Reminder Android | Urodziny i przypomnienia",
+      "metaDescription": "Zapisuj urodziny, dodawaj pomysły na prezenty, oznaczaj ulubione osoby, przeglądaj daty i ustawiaj przypomnienia.",
+      "featureBullets": [
+        {
+          "title": "Panel nadchodzących urodzin"
+        },
+        {
+          "title": "Ulubione osoby"
+        },
+        {
+          "title": "Widok miesiąca"
+        },
+        {
+          "title": "Przypomnienia z wyprzedzeniem"
+        },
+        {
+          "title": "Pomysły na prezent i notatki"
+        },
+        {
+          "title": "Wyszukiwanie i sortowanie"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Nadchodzące okazje",
+          "description": "Pokazać panel z następnymi 30 dniami, ulubionymi osobami, kartami okazji i akcją Add person.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Dodawanie osoby",
+          "description": "Pokazać formularz z urodzinami, opcjonalnym rokiem urodzenia, relacją, ulubioną osobą, wyprzedzeniem przypomnienia, prezentami i notatkami.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Widok miesiąca",
+          "description": "Pokazać widok miesięczny z osobą przypisaną do daty, relacją i informacją o wieku.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do czego służy Birthday Reminder?",
+          "answer": "Birthday Reminder pomaga zapisywać urodziny, przeglądać nadchodzące okazje, oznaczać ulubione osoby, dodawać notatki i ustawiać przypomnienia."
+        },
+        {
+          "question": "Czy mogę dodać pomysły na prezenty?",
+          "answer": "Tak. Do każdej osoby możesz dodać pomysły na prezenty i notatki, aby łatwiej przygotować się przed urodzinami."
+        },
+        {
+          "question": "Czy mogę oglądać urodziny według miesięcy?",
+          "answer": "Tak. Widok miesiąca pokazuje urodziny w praktycznej, kalendarzowej formie."
+        },
+        {
+          "question": "Czy mogę wybrać czas przypomnienia?",
+          "answer": "Tak. Możesz ustawić wyprzedzenie przypomnienia, na przykład kilka dni przed urodzinami."
+        },
+        {
+          "question": "Czy Birthday Reminder jest dostępny na Androida?",
+          "answer": "Tak. Birthday Reminder jest dostępny na Androida w Google Play."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Birthday Reminder",
+      "summary": "Birthday Reminder te ajută să salvezi zile de naștere importante, să fixezi persoane favorite, să setezi mementouri din timp și să vezi aniversările viitoare pe Android.",
+      "longDescription": [
+        "Birthday Reminder este o aplicație Android clară pentru urmărirea zilelor de naștere ale familiei, prietenilor și persoanelor importante. Te ajută să vezi ce urmează și să te pregătești din timp.",
+        "Adaugă o persoană cu nume, zi de naștere, an de naștere opțional, relație, status favorit, timp de avertizare, idei de cadouri și notițe. Detaliile utile rămân într-un singur loc.",
+        "Dashboard-ul evidențiază aniversările din următoarele 30 de zile și păstrează persoanele favorite ușor de găsit. Lista de persoane include căutare și sortare pentru nume, notițe sau contacte fixate.",
+        "Vizualizarea lunară te ajută să planifici cu o perspectivă de tip calendar. Din setări poți gestiona mementourile, timpul de avertizare, aspectul și limba.",
+        "Fie că vrei să îți amintești aniversările familiei, să pregătești cadouri mai devreme sau să ții aproape prietenii importanți, Birthday Reminder este o soluție simplă și practică."
+      ],
+      "bottomCtaDescription": "Nu te baza doar pe memorie pentru zilele de naștere importante. Birthday Reminder îți oferă un loc simplu pentru persoane, idei de cadouri, notițe și mementouri înainte de fiecare aniversare.",
+      "category": "Stil de viață",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Memento Zile De Naștere",
+        "Calendar Aniversări",
+        "Alerte Aniversare",
+        "Idei De Cadouri",
+        "Prieteni Și Familie",
+        "Date Importante",
+        "Mementouri",
+        "Vizualizare Lunară"
+      ],
+      "metaTitle": "Birthday Reminder Android | Aniversări și mementouri",
+      "metaDescription": "Salvează zile de naștere, adaugă idei de cadouri, fixează favoriți, vezi aniversări viitoare și setează mementouri.",
+      "featureBullets": [
+        {
+          "title": "Dashboard cu aniversări"
+        },
+        {
+          "title": "Persoane favorite"
+        },
+        {
+          "title": "Vizualizare lunară"
+        },
+        {
+          "title": "Mementouri din timp"
+        },
+        {
+          "title": "Idei de cadouri și notițe"
+        },
+        {
+          "title": "Căutare și sortare"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Aniversări viitoare",
+          "description": "Arată dashboard-ul cu următoarele 30 de zile, favoriți, carduri de aniversări și acțiunea Add person.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Adăugare persoană",
+          "description": "Arată formularul cu zi de naștere, an opțional, relație, favorit, timp de avertizare, idei de cadouri și notițe.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Vizualizare lunară",
+          "description": "Arată vizualizarea lunară cu o persoană listată la o dată, relația și informația despre vârstă.",
+          "imagePath": "apps/screenshots/birthday-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "La ce folosește Birthday Reminder?",
+          "answer": "Birthday Reminder te ajută să salvezi zile de naștere, să vezi aniversări viitoare, să marchezi favoriți, să adaugi notițe și să setezi mementouri."
+        },
+        {
+          "question": "Pot adăuga idei de cadouri?",
+          "answer": "Da. Pentru fiecare persoană poți salva idei de cadouri și notițe, ca să te pregătești mai ușor."
+        },
+        {
+          "question": "Pot vedea aniversările pe luni?",
+          "answer": "Da. Vizualizarea lunară arată zilele de naștere într-o formă practică, asemănătoare unui calendar."
+        },
+        {
+          "question": "Pot alege când primesc memento?",
+          "answer": "Da. Poți seta un timp de avertizare, de exemplu cu câteva zile înainte de ziua de naștere."
+        },
+        {
+          "question": "Birthday Reminder este disponibilă pentru Android?",
+          "answer": "Da. Birthday Reminder este disponibilă pentru Android prin Google Play."
+        }
+      ]
+    }
+  }
+}
