@@ -1,0 +1,921 @@
+{
+  "slug": "quit-smoking-counter",
+  "sortOrder": 21,
+  "kind": "app",
+  "featured": false,
+  "accent": "green",
+  "icon": "apps/icons/quit-smoking-counter.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.quitsmokingcounter",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "HealthApplication",
+  "relatedSlugs": [
+    "goal-tracker",
+    "mood-tracker",
+    "daily-checklist"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Quit Smoking Counter",
+      "summary": "Quit Smoking Counter helps you stay motivated with a clear smoke-free streak, money saved, cigarettes avoided, cravings log, milestones, and personal savings goals.",
+      "longDescription": [
+        "Quit Smoking Counter is a focused Android app for people who want a clear, motivating way to track life after cigarettes. Set your quit date, old smoking pace, pack price, and personal reason, then watch your smoke-free progress grow over time.",
+        "The dashboard turns your quit journey into visible progress. See your smoke-free streak, next milestone, money saved, cigarettes avoided, savings goal, and motivational reason in one simple view.",
+        "When cravings happen, log them with intensity, trigger tags, and optional notes. Over time, your craving history can help you notice patterns such as stress, coffee, social situations, driving, boredom, or after meals.",
+        "Quit Smoking Counter also supports setbacks without making the app complicated. Record a setback, keep your notes, and continue tracking your progress with a practical, low-friction experience.",
+        "With dark and light appearance options, language settings, and optional daily reminders, the app is built to be easy to use every day."
+      ],
+      "bottomCtaDescription": "Start your quit journey with a simple Android tracker that keeps your progress visible every day, from your first smoke-free hour to bigger personal milestones.",
+      "category": "Health & Fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Quit Smoking",
+        "Stop Smoking",
+        "Smoke Free Tracker",
+        "Cigarette Counter",
+        "Craving Log",
+        "Money Saved",
+        "Health Tracker"
+      ],
+      "metaTitle": "Quit Smoking Counter: Smoke-Free Tracker for Android",
+      "metaDescription": "Track smoke-free time, cigarettes avoided, cravings, milestones, and money saved with Quit Smoking Counter for Android.",
+      "featureBullets": [
+        {
+          "title": "Smoke-Free Streak"
+        },
+        {
+          "title": "Money Saved Counter"
+        },
+        {
+          "title": "Cravings Log"
+        },
+        {
+          "title": "Savings Goal Tracker"
+        },
+        {
+          "title": "Milestone Progress"
+        },
+        {
+          "title": "Daily Reminder"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Progress Dashboard",
+          "description": "Show the main dashboard with the smoke-free streak, progress loop, next milestone, money saved, cigarettes avoided, and saved-toward reward card.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-1.png"
+        },
+        {
+          "title": "Log a Craving",
+          "description": "Show the craving form with intensity slider, trigger tags such as Stress and Coffee, a note field, and the save button.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-2.png"
+        },
+        {
+          "title": "Settings and Reminders",
+          "description": "Show appearance controls, language selection, daily reminder toggle, reminder time, and notification request button.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What does Quit Smoking Counter track?",
+          "answer": "It tracks your smoke-free streak, money saved, cigarettes avoided, milestones, cravings, setbacks, and personal savings goal."
+        },
+        {
+          "question": "Can I log cravings in the app?",
+          "answer": "Yes. You can record craving intensity, choose trigger tags, and add a note so you can review patterns later."
+        },
+        {
+          "question": "Does the app show how much money I saved?",
+          "answer": "Yes. Based on your previous smoking pace, pack price, and cigarettes per pack, the app estimates your saved money."
+        },
+        {
+          "question": "Can I set a personal reward goal?",
+          "answer": "Yes. You can add a savings goal amount and reward label, such as a gadget, trip, or personal treat."
+        }
+      ]
+    },
+    "de": {
+      "name": "Quit Smoking Counter",
+      "summary": "Quit Smoking Counter macht deinen Rauchstopp sichtbar: rauchfreie Zeit, gespartes Geld, vermiedene Zigaretten, Verlangen, Meilensteine und persönliche Sparziele an einem Ort.",
+      "longDescription": [
+        "Quit Smoking Counter ist eine übersichtliche Android-App für alle, die mit dem Rauchen aufhören und ihren Fortschritt motivierend verfolgen möchten. Lege dein Rauchstopp-Datum, deinen früheren Konsum, den Packungspreis und deinen persönlichen Grund fest.",
+        "Das Dashboard zeigt dir sofort, was sich seit dem Rauchstopp verändert hat: rauchfreie Zeit, nächster Meilenstein, gespartes Geld, vermiedene Zigaretten und dein Sparziel.",
+        "Bei Verlangen kannst du Intensität, Auslöser und Notizen festhalten. So erkennst du mit der Zeit, ob bestimmte Situationen wie Stress, Kaffee, Autofahren, Langeweile oder Essen besonders häufig vorkommen.",
+        "Auch Rückfälle lassen sich unkompliziert dokumentieren. Die App bleibt praktisch und motivierend, ohne deine Fortschritte unnötig kompliziert zu machen.",
+        "Mit Hell- und Dunkelmodus, Spracheinstellungen und optionalen täglichen Erinnerungen passt Quit Smoking Counter gut in den Alltag."
+      ],
+      "bottomCtaDescription": "Behalte deinen Fortschritt jeden Tag im Blick und verwandle deinen Rauchstopp in klare, motivierende Zahlen – einfach, übersichtlich und auf Android immer griffbereit.",
+      "category": "Gesundheit & Fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Rauchfrei Werden",
+        "Rauchen Aufhören",
+        "Nichtraucher Tracker",
+        "Zigaretten Zähler",
+        "Craving Tagebuch",
+        "Geld Sparen",
+        "Gesundheit Tracker"
+      ],
+      "metaTitle": "Quit Smoking Counter: Rauchfrei-Tracker für Android",
+      "metaDescription": "Tracke rauchfreie Zeit, gespartes Geld, vermiedene Zigaretten, Verlangen und Meilensteine mit Quit Smoking Counter.",
+      "featureBullets": [
+        {
+          "title": "Rauchfreie Zeit"
+        },
+        {
+          "title": "Gespartes Geld"
+        },
+        {
+          "title": "Verlangen Protokollieren"
+        },
+        {
+          "title": "Sparziel Verfolgen"
+        },
+        {
+          "title": "Meilensteine"
+        },
+        {
+          "title": "Tägliche Erinnerung"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Fortschritt Auf Einen Blick",
+          "description": "Zeige das Dashboard mit rauchfreier Zeit, Fortschrittsring, nächstem Meilenstein, gespartem Geld und vermiedenen Zigaretten.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-1.png"
+        },
+        {
+          "title": "Verlangen Eintragen",
+          "description": "Zeige den Dialog zum Eintragen eines Verlangens mit Intensitätsregler, Auslöser-Tags, Notizfeld und Speichern-Button.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-2.png"
+        },
+        {
+          "title": "Einstellungen Und Erinnerungen",
+          "description": "Zeige Design-Auswahl, Sprache, tägliche Erinnerung, Erinnerungszeit und Benachrichtigungsbutton.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Was kann ich mit Quit Smoking Counter verfolgen?",
+          "answer": "Du kannst rauchfreie Zeit, gespartes Geld, vermiedene Zigaretten, Meilensteine, Verlangen, Rückfälle und dein Sparziel verfolgen."
+        },
+        {
+          "question": "Kann ich Verlangen nach Zigaretten eintragen?",
+          "answer": "Ja. Du kannst Intensität, Auslöser und Notizen speichern, um wiederkehrende Muster besser zu erkennen."
+        },
+        {
+          "question": "Berechnet die App meine Ersparnis?",
+          "answer": "Ja. Die App nutzt deinen früheren Konsum, den Packungspreis und die Zigaretten pro Packung, um deine Ersparnis zu schätzen."
+        },
+        {
+          "question": "Gibt es Erinnerungen?",
+          "answer": "Ja. Du kannst eine optionale tägliche Erinnerung aktivieren und eine Erinnerungszeit festlegen."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Quit Smoking Counter",
+      "summary": "Quit Smoking Counter vous aide à rester motivé avec un suivi clair du temps sans cigarette, de l’argent économisé, des cigarettes évitées, des envies et des objectifs.",
+      "longDescription": [
+        "Quit Smoking Counter est une application Android pensée pour celles et ceux qui veulent suivre leur arrêt du tabac de façon simple et motivante. Renseignez votre date d’arrêt, votre ancien rythme, le prix du paquet et votre raison personnelle.",
+        "Le tableau de bord met en avant les informations qui comptent : durée sans cigarette, prochain palier, argent économisé, cigarettes évitées et progression vers votre récompense.",
+        "Lorsque l’envie de fumer apparaît, vous pouvez l’enregistrer avec une intensité, des déclencheurs et une note. Cela permet de repérer plus facilement les situations récurrentes comme le stress, le café, les repas, la conduite ou l’ennui.",
+        "L’application permet aussi de noter un écart de manière simple. Vous gardez une trace de ce qui s’est passé et pouvez continuer votre suivi sans repartir dans une interface compliquée.",
+        "Avec le mode clair ou sombre, le choix de la langue et les rappels quotidiens optionnels, Quit Smoking Counter s’intègre naturellement à votre routine."
+      ],
+      "bottomCtaDescription": "Gardez votre arrêt du tabac sous les yeux, jour après jour, avec un compteur simple qui transforme chaque progrès en repère concret et encourageant.",
+      "category": "Santé et forme",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Arrêter De Fumer",
+        "Sevrage Tabac",
+        "Compteur Sans Cigarette",
+        "Suivi Cigarettes",
+        "Journal Des Envies",
+        "Argent Économisé",
+        "Santé"
+      ],
+      "metaTitle": "Quit Smoking Counter : compteur pour arrêter de fumer",
+      "metaDescription": "Suivez votre temps sans cigarette, l’argent économisé, les cigarettes évitées, les envies et les objectifs avec Quit Smoking Counter.",
+      "featureBullets": [
+        {
+          "title": "Temps Sans Cigarette"
+        },
+        {
+          "title": "Argent Économisé"
+        },
+        {
+          "title": "Journal Des Envies"
+        },
+        {
+          "title": "Objectif D’Épargne"
+        },
+        {
+          "title": "Paliers De Progression"
+        },
+        {
+          "title": "Rappel Quotidien"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Tableau De Bord",
+          "description": "Montrer le tableau de bord avec la durée sans cigarette, le cercle de progression, le prochain palier, l’argent économisé et les cigarettes évitées.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-1.png"
+        },
+        {
+          "title": "Ajouter Une Envie",
+          "description": "Montrer le formulaire d’envie avec curseur d’intensité, tags de déclencheurs, champ de note et bouton d’enregistrement.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-2.png"
+        },
+        {
+          "title": "Rappels Et Apparence",
+          "description": "Montrer les réglages de thème, la langue, le rappel quotidien, l’heure de rappel et le bouton de notification.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "À quoi sert Quit Smoking Counter ?",
+          "answer": "L’application permet de suivre votre temps sans cigarette, l’argent économisé, les cigarettes évitées, les envies, les écarts et vos objectifs."
+        },
+        {
+          "question": "Puis-je enregistrer mes envies de fumer ?",
+          "answer": "Oui. Vous pouvez noter l’intensité, les déclencheurs et une remarque afin de mieux comprendre vos habitudes."
+        },
+        {
+          "question": "L’application calcule-t-elle l’argent économisé ?",
+          "answer": "Oui. Elle estime vos économies à partir de votre ancien rythme, du prix du paquet et du nombre de cigarettes par paquet."
+        },
+        {
+          "question": "Puis-je définir une récompense personnelle ?",
+          "answer": "Oui. Vous pouvez créer un objectif d’épargne et lui donner un nom, par exemple un achat ou une récompense qui vous motive."
+        }
+      ]
+    },
+    "it": {
+      "name": "Quit Smoking Counter",
+      "summary": "Quit Smoking Counter ti aiuta a restare motivato con giorni senza fumo, denaro risparmiato, sigarette evitate, diario delle voglie e obiettivi personali.",
+      "longDescription": [
+        "Quit Smoking Counter è un’app Android pensata per chi vuole smettere di fumare e seguire i propri progressi in modo chiaro. Imposta la data di stop, il ritmo precedente, il prezzo del pacchetto e la tua motivazione personale.",
+        "La dashboard mostra subito i dati più utili: striscia senza fumo, prossimo traguardo, denaro risparmiato, sigarette evitate e avanzamento verso il tuo obiettivo di risparmio.",
+        "Quando arriva una voglia, puoi registrarla con intensità, tag dei fattori scatenanti e una nota. Nel tempo diventa più facile riconoscere situazioni come stress, caffè, guida, noia, socialità o dopo i pasti.",
+        "L’app ti permette anche di annotare una ricaduta in modo semplice, senza rendere il percorso più pesante. Salvi l’evento, aggiungi una nota e continui a monitorare il tuo percorso.",
+        "Con tema chiaro e scuro, impostazioni lingua e promemoria giornalieri opzionali, Quit Smoking Counter è facile da usare ogni giorno."
+      ],
+      "bottomCtaDescription": "Rendi visibili i tuoi progressi giorno dopo giorno con un contatore semplice, pensato per accompagnarti dal primo traguardo senza fumo ai risultati più importanti.",
+      "category": "Salute e fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Smettere Di Fumare",
+        "Contatore Senza Fumo",
+        "Stop Fumo",
+        "Sigarette Evitate",
+        "Diario Voglie",
+        "Denaro Risparmiato",
+        "Salute"
+      ],
+      "metaTitle": "Quit Smoking Counter: app per smettere di fumare",
+      "metaDescription": "Tieni traccia di tempo senza fumo, soldi risparmiati, sigarette evitate, voglie e traguardi con Quit Smoking Counter per Android.",
+      "featureBullets": [
+        {
+          "title": "Giorni Senza Fumo"
+        },
+        {
+          "title": "Denaro Risparmiato"
+        },
+        {
+          "title": "Diario Delle Voglie"
+        },
+        {
+          "title": "Obiettivo Risparmio"
+        },
+        {
+          "title": "Traguardi"
+        },
+        {
+          "title": "Promemoria Giornaliero"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Dashboard Progressi",
+          "description": "Mostrare la dashboard con striscia senza fumo, cerchio di avanzamento, prossimo traguardo, soldi risparmiati e sigarette evitate.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-1.png"
+        },
+        {
+          "title": "Registra Una Voglia",
+          "description": "Mostrare il modulo con slider dell’intensità, tag come Stress e Caffè, campo note e pulsante di salvataggio.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-2.png"
+        },
+        {
+          "title": "Impostazioni E Promemoria",
+          "description": "Mostrare scelta tema, lingua, promemoria giornaliero, orario del promemoria e richiesta notifiche.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Cosa posso monitorare con Quit Smoking Counter?",
+          "answer": "Puoi seguire tempo senza fumo, soldi risparmiati, sigarette evitate, voglie, ricadute, traguardi e obiettivi di risparmio."
+        },
+        {
+          "question": "Posso registrare le voglie di fumare?",
+          "answer": "Sì. Puoi indicare intensità, fattori scatenanti e note per capire meglio quando si presentano."
+        },
+        {
+          "question": "L’app calcola il denaro risparmiato?",
+          "answer": "Sì. Usa il tuo consumo precedente, il prezzo del pacchetto e le sigarette per pacchetto per stimare il risparmio."
+        },
+        {
+          "question": "Posso usare l’app in modalità scura?",
+          "answer": "Sì. Nelle impostazioni puoi scegliere tra sistema, tema chiaro e tema scuro."
+        }
+      ]
+    },
+    "es": {
+      "name": "Quit Smoking Counter",
+      "summary": "Quit Smoking Counter te ayuda a mantener la motivación con tiempo sin fumar, dinero ahorrado, cigarrillos evitados, registro de ansiedad y metas personales.",
+      "longDescription": [
+        "Quit Smoking Counter es una app Android para quienes quieren dejar de fumar y ver su progreso de forma clara. Configura tu fecha de abandono, tu ritmo anterior, el precio del paquete y tu motivo personal.",
+        "El panel principal muestra lo importante de un vistazo: racha sin fumar, próximo hito, dinero ahorrado, cigarrillos evitados y avance hacia tu recompensa.",
+        "Cuando aparezca una ansiedad o ganas de fumar, puedes registrarla con intensidad, etiquetas de detonantes y una nota. Así puedes identificar patrones relacionados con estrés, café, comidas, conducción, aburrimiento o situaciones sociales.",
+        "La app también permite anotar recaídas de forma práctica. Guardas el número de cigarrillos y una nota, sin complicar el seguimiento de tu proceso.",
+        "Con modo claro y oscuro, selección de idioma y recordatorios diarios opcionales, Quit Smoking Counter está pensada para acompañarte día a día."
+      ],
+      "bottomCtaDescription": "Convierte tu avance para dejar de fumar en datos claros y motivadores, con un seguimiento diario sencillo desde tu móvil Android.",
+      "category": "Salud y bienestar",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Dejar De Fumar",
+        "Contador Sin Fumar",
+        "No Fumar",
+        "Cigarrillos Evitados",
+        "Registro De Ansiedad",
+        "Dinero Ahorrado",
+        "Salud"
+      ],
+      "metaTitle": "Quit Smoking Counter: contador para dejar de fumar",
+      "metaDescription": "Controla tiempo sin fumar, dinero ahorrado, cigarrillos evitados, ansiedad y metas con Quit Smoking Counter para Android.",
+      "featureBullets": [
+        {
+          "title": "Racha Sin Fumar"
+        },
+        {
+          "title": "Dinero Ahorrado"
+        },
+        {
+          "title": "Registro De Ansiedad"
+        },
+        {
+          "title": "Meta De Ahorro"
+        },
+        {
+          "title": "Hitos De Progreso"
+        },
+        {
+          "title": "Recordatorio Diario"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Panel De Progreso",
+          "description": "Mostrar el panel con racha sin fumar, círculo de progreso, próximo hito, dinero ahorrado y cigarrillos evitados.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-1.png"
+        },
+        {
+          "title": "Registrar Ansiedad",
+          "description": "Mostrar el formulario con control de intensidad, etiquetas de detonantes, campo de nota y botón para guardar.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-2.png"
+        },
+        {
+          "title": "Ajustes Y Recordatorios",
+          "description": "Mostrar opciones de apariencia, idioma, recordatorio diario, hora del recordatorio y solicitud de notificaciones.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Qué mide Quit Smoking Counter?",
+          "answer": "Mide tiempo sin fumar, dinero ahorrado, cigarrillos evitados, hitos, ansiedad, recaídas y objetivos de ahorro."
+        },
+        {
+          "question": "¿Puedo registrar las ganas de fumar?",
+          "answer": "Sí. Puedes guardar intensidad, detonantes y notas para reconocer mejor tus patrones."
+        },
+        {
+          "question": "¿La app calcula cuánto dinero he ahorrado?",
+          "answer": "Sí. Calcula una estimación usando tu consumo anterior, el precio del paquete y los cigarrillos por paquete."
+        },
+        {
+          "question": "¿Puedo configurar un objetivo de recompensa?",
+          "answer": "Sí. Puedes añadir una cantidad objetivo y una etiqueta de recompensa para mantener la motivación."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Quit Smoking Counter",
+      "summary": "Quit Smoking Counter ajuda a manter a motivação com tempo sem fumar, dinheiro poupado, cigarros evitados, registo de desejos e metas pessoais.",
+      "longDescription": [
+        "Quit Smoking Counter é uma aplicação Android para quem quer deixar de fumar e acompanhar o progresso de forma clara. Defina a data em que deixou de fumar, o consumo anterior, o preço do maço e a sua motivação pessoal.",
+        "O painel principal mostra o essencial: sequência sem fumar, próximo marco, dinheiro poupado, cigarros evitados e progresso rumo ao seu objetivo de poupança.",
+        "Quando surgir vontade de fumar, pode registar a intensidade, os gatilhos e uma nota. Ao longo do tempo, isso ajuda a reconhecer situações como stress, café, refeições, condução, tédio ou momentos sociais.",
+        "A aplicação também permite registar recaídas de forma simples. Guarde a quantidade, adicione uma nota e continue a acompanhar o seu percurso sem complicações.",
+        "Com tema claro e escuro, seleção de idioma e lembrete diário opcional, Quit Smoking Counter foi criado para ser usado facilmente todos os dias."
+      ],
+      "bottomCtaDescription": "Acompanhe o seu progresso para deixar de fumar com números simples, metas visíveis e lembretes opcionais que tornam cada dia mais fácil de seguir.",
+      "category": "Saúde e fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Deixar De Fumar",
+        "Parar De Fumar",
+        "Contador Sem Cigarros",
+        "Cigarros Evitados",
+        "Registo De Desejos",
+        "Dinheiro Poupado",
+        "Saúde"
+      ],
+      "metaTitle": "Quit Smoking Counter: contador para deixar de fumar",
+      "metaDescription": "Acompanhe tempo sem fumar, dinheiro poupado, cigarros evitados, desejos e metas com Quit Smoking Counter para Android.",
+      "featureBullets": [
+        {
+          "title": "Tempo Sem Fumar"
+        },
+        {
+          "title": "Dinheiro Poupado"
+        },
+        {
+          "title": "Registo De Desejos"
+        },
+        {
+          "title": "Meta De Poupança"
+        },
+        {
+          "title": "Marcos De Progresso"
+        },
+        {
+          "title": "Lembrete Diário"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Painel De Progresso",
+          "description": "Mostrar o painel com tempo sem fumar, círculo de progresso, próximo marco, dinheiro poupado e cigarros evitados.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-1.png"
+        },
+        {
+          "title": "Registar Desejo",
+          "description": "Mostrar o formulário com controlo de intensidade, tags de gatilhos, campo de nota e botão para guardar.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-2.png"
+        },
+        {
+          "title": "Definições E Lembretes",
+          "description": "Mostrar opções de aparência, idioma, lembrete diário, hora do lembrete e pedido de notificações.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "O que posso acompanhar no Quit Smoking Counter?",
+          "answer": "Pode acompanhar tempo sem fumar, dinheiro poupado, cigarros evitados, desejos, recaídas, marcos e metas de poupança."
+        },
+        {
+          "question": "Posso registar vontades de fumar?",
+          "answer": "Sim. Pode guardar a intensidade, os gatilhos e uma nota para perceber melhor os seus padrões."
+        },
+        {
+          "question": "A aplicação calcula o dinheiro poupado?",
+          "answer": "Sim. A estimativa usa o consumo anterior, o preço do maço e o número de cigarros por maço."
+        },
+        {
+          "question": "Há lembretes diários?",
+          "answer": "Sim. Pode ativar um lembrete diário opcional e escolher a hora."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Quit Smoking Counter",
+      "summary": "Quit Smoking Counter вам помаже да останете мотивисани уз јасан преглед времена без цигарета, уштеђеног новца, избегнутих цигарета, жудњи и личних циљева.",
+      "longDescription": [
+        "Quit Smoking Counter је Android апликација за све који желе да престану да пуше и да јасно прате свој напредак. Унесите датум престанка, претходни број цигарета, цену паклице и лични разлог.",
+        "Главни екран приказује оно што је најважније: низ дана без цигарета, следећи циљ, уштеђен новац, избегнуте цигарете и напредак ка награди.",
+        "Када се јави жудња за цигаретом, можете уписати интензитет, окидаче и белешку. Тако временом лакше препознајете ситуације као што су стрес, кафа, вожња, досада, друштво или период после оброка.",
+        "Апликација омогућава и једноставно бележење посртања. Унесете број цигарета, додате белешку и настављате да пратите свој пут без непотребних компликација.",
+        "Са светлим и тамним изгледом, избором језика и опционим дневним подсетником, Quit Smoking Counter је направљен да буде практичан за свакодневну употребу."
+      ],
+      "bottomCtaDescription": "Пратите сваки дан без цигарета кроз једноставне бројеве, видљив напредак и лични циљ који вас подсећа зашто сте почели.",
+      "category": "Здравље и фитнес",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Остављање Пушења",
+        "Престанак Пушења",
+        "Бројач Без Цигарета",
+        "Избегнуте Цигарете",
+        "Дневник Жудњи",
+        "Уштеђен Новац",
+        "Здравље"
+      ],
+      "metaTitle": "Quit Smoking Counter: бројач за престанак пушења",
+      "metaDescription": "Пратите време без цигарета, уштеђен новац, избегнуте цигарете, жудње и циљеве уз Quit Smoking Counter за Android.",
+      "featureBullets": [
+        {
+          "title": "Време Без Цигарета"
+        },
+        {
+          "title": "Уштеђен Новац"
+        },
+        {
+          "title": "Дневник Жудњи"
+        },
+        {
+          "title": "Циљ Уштеде"
+        },
+        {
+          "title": "Прекретнице"
+        },
+        {
+          "title": "Дневни Подсетник"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Преглед Напретка",
+          "description": "Приказати главни екран са временом без цигарета, кругом напретка, следећим циљем, уштеђеним новцем и избегнутим цигаретама.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-1.png"
+        },
+        {
+          "title": "Унос Жудње",
+          "description": "Приказати форму са клизачем интензитета, ознакама окидача, пољем за белешку и дугметом за чување.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-2.png"
+        },
+        {
+          "title": "Подешавања И Подсетници",
+          "description": "Приказати избор изгледа, језик, дневни подсетник, време подсетника и дугме за обавештења.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Шта могу да пратим у апликацији Quit Smoking Counter?",
+          "answer": "Можете пратити време без цигарета, уштеђен новац, избегнуте цигарете, жудње, посртања, прекретнице и циљ уштеде."
+        },
+        {
+          "question": "Да ли могу да бележим жудњу за цигаретом?",
+          "answer": "Да. Можете уписати интензитет, окидаче и белешку како бисте лакше препознали обрасце."
+        },
+        {
+          "question": "Да ли апликација рачуна колико новца сам уштедео?",
+          "answer": "Да. Процена се заснива на вашем ранијем темпу пушења, цени паклице и броју цигарета у паклици."
+        },
+        {
+          "question": "Могу ли да поставим лични циљ или награду?",
+          "answer": "Да. Можете додати износ циља и назив награде који ће вас додатно мотивисати."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Quit Smoking Counter",
+      "summary": "Quit Smoking Counter pomaže vam ostati motivirani uz pregled vremena bez cigareta, ušteđenog novca, izbjegnutih cigareta, žudnji i osobnih ciljeva.",
+      "longDescription": [
+        "Quit Smoking Counter je Android aplikacija za sve koji žele prestati pušiti i jasno pratiti svoj napredak. Unesite datum prestanka, prijašnji ritam pušenja, cijenu kutije i osobni razlog.",
+        "Nadzorna ploča prikazuje ono najvažnije: niz bez cigareta, sljedeću prekretnicu, ušteđeni novac, izbjegnute cigarete i napredak prema cilju štednje.",
+        "Kada se pojavi žudnja, možete zabilježiti intenzitet, okidače i napomenu. S vremenom ćete lakše prepoznati situacije poput stresa, kave, vožnje, dosade, društva ili razdoblja nakon obroka.",
+        "Aplikacija omogućuje i jednostavno bilježenje posrtaja. Unesite broj cigareta, dodajte napomenu i nastavite pratiti svoj put bez nepotrebnog kompliciranja.",
+        "Uz svijetli i tamni način prikaza, izbor jezika i opcionalni dnevni podsjetnik, Quit Smoking Counter lako se uklapa u svakodnevicu."
+      ],
+      "bottomCtaDescription": "Pratite svaki dan bez cigareta kroz jasne brojke, vidljiv napredak i cilj koji vas podsjeća zašto ste odlučili prestati.",
+      "category": "Zdravlje i fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Prestanak Pušenja",
+        "Prestati Pušiti",
+        "Brojač Bez Cigareta",
+        "Izbjegnute Cigarete",
+        "Dnevnik Žudnji",
+        "Ušteđeni Novac",
+        "Zdravlje"
+      ],
+      "metaTitle": "Quit Smoking Counter: brojač za prestanak pušenja",
+      "metaDescription": "Pratite vrijeme bez cigareta, ušteđeni novac, izbjegnute cigarete, žudnje i ciljeve uz Quit Smoking Counter za Android.",
+      "featureBullets": [
+        {
+          "title": "Vrijeme Bez Cigareta"
+        },
+        {
+          "title": "Ušteđeni Novac"
+        },
+        {
+          "title": "Dnevnik Žudnji"
+        },
+        {
+          "title": "Cilj Štednje"
+        },
+        {
+          "title": "Prekretnice"
+        },
+        {
+          "title": "Dnevni Podsjetnik"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Pregled Napretka",
+          "description": "Prikazati nadzornu ploču s vremenom bez cigareta, krugom napretka, sljedećom prekretnicom, ušteđenim novcem i izbjegnutim cigaretama.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-1.png"
+        },
+        {
+          "title": "Unos Žudnje",
+          "description": "Prikazati obrazac s klizačem intenziteta, oznakama okidača, poljem za napomenu i gumbom za spremanje.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-2.png"
+        },
+        {
+          "title": "Postavke I Podsjetnici",
+          "description": "Prikazati odabir izgleda, jezik, dnevni podsjetnik, vrijeme podsjetnika i gumb za obavijesti.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Što mogu pratiti u aplikaciji Quit Smoking Counter?",
+          "answer": "Možete pratiti vrijeme bez cigareta, ušteđeni novac, izbjegnute cigarete, žudnje, posrtaje, prekretnice i ciljeve štednje."
+        },
+        {
+          "question": "Mogu li zabilježiti žudnju za cigaretom?",
+          "answer": "Da. Možete spremiti intenzitet, okidače i napomenu kako biste lakše prepoznali obrasce."
+        },
+        {
+          "question": "Računa li aplikacija koliko novca štedim?",
+          "answer": "Da. Procjena se temelji na vašem ranijem ritmu pušenja, cijeni kutije i broju cigareta u kutiji."
+        },
+        {
+          "question": "Mogu li postaviti osobni cilj štednje?",
+          "answer": "Da. Možete dodati iznos cilja i naziv nagrade koja vas motivira."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Quit Smoking Counter",
+      "summary": "Quit Smoking Counter helpt je gemotiveerd te blijven met rookvrije tijd, bespaard geld, vermeden sigaretten, craving-logboek, mijlpalen en persoonlijke spaardoelen.",
+      "longDescription": [
+        "Quit Smoking Counter is een Android-app voor iedereen die wil stoppen met roken en de voortgang helder wil bijhouden. Stel je stopdatum, oude rooktempo, pakjesprijs en persoonlijke reden in.",
+        "Het dashboard toont direct wat telt: je rookvrije reeks, de volgende mijlpaal, bespaard geld, vermeden sigaretten en voortgang richting je spaardoel.",
+        "Wanneer je trek krijgt in een sigaret, kun je de intensiteit, triggers en een notitie vastleggen. Zo herken je na verloop van tijd patronen rond stress, koffie, autorijden, verveling, sociale momenten of na het eten.",
+        "Ook een terugval kun je eenvoudig noteren. Registreer het aantal sigaretten, voeg een notitie toe en ga verder met je voortgang zonder gedoe.",
+        "Met lichte en donkere weergave, taalinstellingen en optionele dagelijkse herinneringen is Quit Smoking Counter gemaakt voor dagelijks gebruik."
+      ],
+      "bottomCtaDescription": "Maak je stoptraject zichtbaar met duidelijke cijfers, dagelijkse voortgang en een persoonlijke beloning om naartoe te werken.",
+      "category": "Gezondheid en fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Stoppen Met Roken",
+        "Rookvrij Tracker",
+        "Sigaretten Teller",
+        "Vermeden Sigaretten",
+        "Craving Logboek",
+        "Geld Besparen",
+        "Gezondheid"
+      ],
+      "metaTitle": "Quit Smoking Counter: rookvrij tracker voor Android",
+      "metaDescription": "Volg rookvrije tijd, bespaard geld, vermeden sigaretten, cravings en spaardoelen met Quit Smoking Counter voor Android.",
+      "featureBullets": [
+        {
+          "title": "Rookvrije Tijd"
+        },
+        {
+          "title": "Bespaard Geld"
+        },
+        {
+          "title": "Craving Logboek"
+        },
+        {
+          "title": "Spaardoel Tracker"
+        },
+        {
+          "title": "Mijlpalen"
+        },
+        {
+          "title": "Dagelijkse Herinnering"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Voortgang Dashboard",
+          "description": "Toon het dashboard met rookvrije tijd, voortgangscirkel, volgende mijlpaal, bespaard geld en vermeden sigaretten.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-1.png"
+        },
+        {
+          "title": "Craving Vastleggen",
+          "description": "Toon het formulier met intensiteitsschuif, trigger-tags, notitieveld en opslaan-knop.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-2.png"
+        },
+        {
+          "title": "Instellingen En Herinneringen",
+          "description": "Toon uiterlijkkeuze, taal, dagelijkse herinnering, herinneringstijd en notificatieknop.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wat houdt Quit Smoking Counter bij?",
+          "answer": "De app houdt rookvrije tijd, bespaard geld, vermeden sigaretten, cravings, terugvallen, mijlpalen en spaardoelen bij."
+        },
+        {
+          "question": "Kan ik trek in een sigaret registreren?",
+          "answer": "Ja. Je kunt intensiteit, triggers en notities opslaan om je patronen beter te begrijpen."
+        },
+        {
+          "question": "Bereken de app hoeveel geld ik bespaar?",
+          "answer": "Ja. De app schat je besparing op basis van je vroegere rooktempo, de prijs per pakje en het aantal sigaretten per pakje."
+        },
+        {
+          "question": "Heeft de app een donkere modus?",
+          "answer": "Ja. Je kunt kiezen tussen systeeminstelling, lichte modus en donkere modus."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Quit Smoking Counter",
+      "summary": "Quit Smoking Counter pomaga utrzymać motywację dzięki licznikowi czasu bez papierosa, oszczędnościom, unikniętym papierosom, dziennikowi głodu nikotynowego i celom.",
+      "longDescription": [
+        "Quit Smoking Counter to aplikacja na Androida dla osób, które chcą rzucić palenie i jasno widzieć swoje postępy. Ustaw datę rzucenia, wcześniejsze tempo palenia, cenę paczki i osobisty powód.",
+        "Panel główny pokazuje najważniejsze informacje: czas bez papierosa, kolejny kamień milowy, zaoszczędzone pieniądze, uniknięte papierosy i postęp w kierunku celu oszczędnościowego.",
+        "Gdy pojawi się chęć zapalenia, możesz zapisać jej intensywność, wyzwalacze i notatkę. Z czasem łatwiej zauważysz sytuacje powiązane ze stresem, kawą, jazdą samochodem, nudą, spotkaniami towarzyskimi lub posiłkami.",
+        "Aplikacja pozwala też prosto zapisać potknięcie. Wpisz liczbę papierosów, dodaj notatkę i kontynuuj śledzenie bez zbędnych komplikacji.",
+        "Tryb jasny i ciemny, ustawienia języka oraz opcjonalne codzienne przypomnienie sprawiają, że Quit Smoking Counter dobrze sprawdza się na co dzień."
+      ],
+      "bottomCtaDescription": "Śledź każdy dzień bez papierosa w prosty sposób: widoczny postęp, konkretne liczby i osobisty cel pomagają utrzymać motywację.",
+      "category": "Zdrowie i fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Rzucanie Palenia",
+        "Przestać Palić",
+        "Licznik Bez Papierosa",
+        "Uniknięte Papierosy",
+        "Dziennik Zachcianek",
+        "Zaoszczędzone Pieniądze",
+        "Zdrowie"
+      ],
+      "metaTitle": "Quit Smoking Counter: licznik rzucania palenia",
+      "metaDescription": "Śledź czas bez papierosa, oszczędności, uniknięte papierosy, zachcianki i cele z Quit Smoking Counter na Androida.",
+      "featureBullets": [
+        {
+          "title": "Czas Bez Papierosa"
+        },
+        {
+          "title": "Zaoszczędzone Pieniądze"
+        },
+        {
+          "title": "Dziennik Zachcianek"
+        },
+        {
+          "title": "Cel Oszczędnościowy"
+        },
+        {
+          "title": "Kamienie Milowe"
+        },
+        {
+          "title": "Codzienne Przypomnienie"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Panel Postępów",
+          "description": "Pokazać ekran główny z czasem bez papierosa, okręgiem postępu, kolejnym kamieniem milowym, oszczędnościami i unikniętymi papierosami.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-1.png"
+        },
+        {
+          "title": "Zapisz Zachciankę",
+          "description": "Pokazać formularz z suwakiem intensywności, tagami wyzwalaczy, polem notatki i przyciskiem zapisu.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-2.png"
+        },
+        {
+          "title": "Ustawienia I Przypomnienia",
+          "description": "Pokazać wybór wyglądu, język, codzienne przypomnienie, godzinę przypomnienia i przycisk powiadomień.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Co śledzi Quit Smoking Counter?",
+          "answer": "Aplikacja śledzi czas bez papierosa, oszczędności, uniknięte papierosy, zachcianki, potknięcia, kamienie milowe i cele oszczędnościowe."
+        },
+        {
+          "question": "Czy mogę zapisywać chęć zapalenia?",
+          "answer": "Tak. Możesz zapisać intensywność, wyzwalacze i notatkę, aby lepiej rozumieć swoje schematy."
+        },
+        {
+          "question": "Czy aplikacja liczy zaoszczędzone pieniądze?",
+          "answer": "Tak. Szacunek opiera się na wcześniejszym tempie palenia, cenie paczki i liczbie papierosów w paczce."
+        },
+        {
+          "question": "Czy można ustawić cel nagrody?",
+          "answer": "Tak. Możesz dodać kwotę celu i nazwę nagrody, która będzie przypominać, na co oszczędzasz."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Quit Smoking Counter",
+      "summary": "Quit Smoking Counter te ajută să rămâi motivat cu timp fără țigări, bani economisiți, țigări evitate, jurnal de pofte și obiective personale.",
+      "longDescription": [
+        "Quit Smoking Counter este o aplicație Android pentru cei care vor să renunțe la fumat și să își vadă progresul clar. Setează data renunțării, ritmul anterior, prețul pachetului și motivul personal.",
+        "Dashboardul afișează rapid informațiile importante: perioada fără țigări, următorul reper, banii economisiți, țigările evitate și progresul către obiectivul de economisire.",
+        "Când apare pofta de a fuma, poți nota intensitatea, factorii declanșatori și o observație. În timp, poți observa mai ușor situații precum stresul, cafeaua, condusul, plictiseala, mesele sau socializarea.",
+        "Aplicația permite și înregistrarea simplă a unei abateri. Notezi numărul de țigări, adaugi o observație și continui să îți urmărești parcursul fără pași inutili.",
+        "Cu mod luminos și întunecat, setări de limbă și memento zilnic opțional, Quit Smoking Counter este ușor de folosit zi de zi."
+      ],
+      "bottomCtaDescription": "Urmărește-ți progresul fără țigări prin cifre clare, repere vizibile și un obiectiv personal care te ajută să continui.",
+      "category": "Sănătate și fitness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Renunțare La Fumat",
+        "Lasă-te De Fumat",
+        "Contor Fără Țigări",
+        "Țigări Evitate",
+        "Jurnal Pofte",
+        "Bani Economisiți",
+        "Sănătate"
+      ],
+      "metaTitle": "Quit Smoking Counter: contor pentru renunțat la fumat",
+      "metaDescription": "Urmărește timpul fără țigări, banii economisiți, țigările evitate, poftele și obiectivele cu Quit Smoking Counter.",
+      "featureBullets": [
+        {
+          "title": "Timp Fără Țigări"
+        },
+        {
+          "title": "Bani Economisiți"
+        },
+        {
+          "title": "Jurnal De Pofte"
+        },
+        {
+          "title": "Obiectiv De Economisire"
+        },
+        {
+          "title": "Repere De Progres"
+        },
+        {
+          "title": "Memento Zilnic"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Dashboard De Progres",
+          "description": "Arată ecranul principal cu timpul fără țigări, cercul de progres, următorul reper, banii economisiți și țigările evitate.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-1.png"
+        },
+        {
+          "title": "Înregistrează O Poftă",
+          "description": "Arată formularul cu slider de intensitate, etichete pentru declanșatori, câmp de notițe și buton de salvare.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-2.png"
+        },
+        {
+          "title": "Setări Și Memento",
+          "description": "Arată opțiunile de aspect, limba, mementoul zilnic, ora mementoului și butonul pentru notificări.",
+          "imagePath": "apps/screenshots/quit-smoking-counter/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Ce urmărește Quit Smoking Counter?",
+          "answer": "Aplicația urmărește timpul fără țigări, banii economisiți, țigările evitate, poftele, abaterile, reperele și obiectivele de economisire."
+        },
+        {
+          "question": "Pot să înregistrez poftele de a fuma?",
+          "answer": "Da. Poți salva intensitatea, factorii declanșatori și o notă pentru a înțelege mai bine tiparele."
+        },
+        {
+          "question": "Aplicația calculează banii economisiți?",
+          "answer": "Da. Estimarea folosește ritmul anterior de fumat, prețul pachetului și numărul de țigări din pachet."
+        },
+        {
+          "question": "Pot activa un memento zilnic?",
+          "answer": "Da. Poți activa un memento zilnic opțional și poți alege ora la care să apară."
+        }
+      ]
+    }
+  }
+}

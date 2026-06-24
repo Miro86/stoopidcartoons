@@ -1,0 +1,910 @@
+{
+  "slug": "color-memory-rush",
+  "sortOrder": 22,
+  "kind": "game",
+  "featured": false,
+  "accent": "blue",
+  "icon": "apps/icons/color-memory-rush.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.colormemoryrush",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "GameApplication",
+  "relatedSlugs": [
+    "orbital-rhythm",
+    "gastarbajter",
+    "neon-drift"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Color Memory Rush",
+      "summary": "Color Memory Rush is a fast, colorful memory game where you watch the pattern, repeat it, build combos, and push your best score higher.",
+      "longDescription": [
+        "Color Memory Rush is a bright and focused memory game built around one simple challenge: watch the color pattern, remember it, and repeat it before the pressure gets to you.",
+        "Each round tests your attention, short-term memory, and timing. As the patterns grow, every tap matters, and your score, round, combo, and timer keep the game feeling sharp and competitive.",
+        "Choose Classic mode for a clean memory challenge or Timed mode when you want faster pressure. The game also tracks your best score and best round, giving you a clear reason to try one more run.",
+        "With bold color tiles, quick sessions, pause control, and optional sound feedback, Color Memory Rush is easy to start but satisfying to improve at."
+      ],
+      "bottomCtaDescription": "Jump into a quick brain challenge whenever you have a spare minute. Color Memory Rush keeps the rules simple, the colors bold, and the pressure just high enough to make every round feel rewarding.",
+      "category": "Puzzle Game",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Memory Game",
+        "Color Puzzle",
+        "Brain Training",
+        "Pattern Game",
+        "Reflex Game",
+        "Casual Game",
+        "Timed Challenge"
+      ],
+      "metaTitle": "Color Memory Rush: Fast Color Memory Game",
+      "metaDescription": "Repeat color patterns, build combos, chase high scores, and test your memory in Classic or Timed mode with Color Memory Rush.",
+      "featureBullets": [
+        {
+          "title": "Repeat Color Patterns"
+        },
+        {
+          "title": "Classic Mode"
+        },
+        {
+          "title": "Timed Mode"
+        },
+        {
+          "title": "Combo Scoring"
+        },
+        {
+          "title": "Best Score Tracking"
+        },
+        {
+          "title": "Sound Feedback"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Repeat The Pattern",
+          "description": "Show an active game screen with colorful tiles, round, score, combo, and the instruction to repeat the pattern.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-1.png"
+        },
+        {
+          "title": "Choose Your Mode",
+          "description": "Show the home screen with the Color Memory Rush title, best score, best round, Classic mode, Timed mode, and sound feedback toggle.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-2.png"
+        },
+        {
+          "title": "Timed Challenge",
+          "description": "Show gameplay in Timed mode with the timer visible, large color tiles, and a clear sense of speed and focus.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How do you play Color Memory Rush?",
+          "answer": "Watch the color sequence, remember the pattern, and tap the tiles in the same order to keep progressing through rounds."
+        },
+        {
+          "question": "Does Color Memory Rush have different modes?",
+          "answer": "Yes. You can play Classic mode for a straightforward memory challenge or Timed mode when you want extra pressure."
+        },
+        {
+          "question": "Is Color Memory Rush good for quick play sessions?",
+          "answer": "Yes. The game is designed for short, focused sessions where you can test memory, build combos, and chase a better score."
+        },
+        {
+          "question": "Can I turn sound feedback on or off?",
+          "answer": "Yes. The main screen includes a sound feedback toggle so you can choose how you want to play."
+        }
+      ]
+    },
+    "de": {
+      "name": "Color Memory Rush",
+      "summary": "Color Memory Rush ist ein schnelles Farb-Memory-Spiel: Merke dir das Muster, wiederhole die Reihenfolge, sammle Combos und verbessere deinen Highscore.",
+      "longDescription": [
+        "Color Memory Rush ist ein farbenfrohes Memory-Spiel mit einer klaren Aufgabe: Schau dir das Farbmuster an, merke dir die Reihenfolge und tippe die Felder korrekt nach.",
+        "Jede Runde fordert Aufmerksamkeit, Kurzzeitgedächtnis und Timing. Mit wachsender Musterlänge werden deine Entscheidungen wichtiger, während Score, Runde, Combo und Timer den Druck erhöhen.",
+        "Im Classic-Modus spielst du eine direkte Gedächtnis-Challenge. Im Timed-Modus kommt zusätzlicher Zeitdruck dazu, ideal für schnelle, intensive Runden.",
+        "Das Spiel speichert deinen besten Score und deine beste Runde. Große Farbfelder, Pause-Funktion und optionales Soundfeedback machen Color Memory Rush leicht zugänglich und motivierend."
+      ],
+      "bottomCtaDescription": "Starte jederzeit eine kurze Gehirn-Challenge mit klaren Regeln, kräftigen Farben und genug Tempo, damit jede Runde spannend bleibt.",
+      "category": "Puzzle-Spiel",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Memory Spiel",
+        "Farb Puzzle",
+        "Gehirntraining",
+        "Muster Spiel",
+        "Reaktionsspiel",
+        "Casual Game",
+        "Zeit Challenge"
+      ],
+      "metaTitle": "Color Memory Rush: Schnelles Farb-Memory-Spiel",
+      "metaDescription": "Wiederhole Farbmuster, sammle Combos, jage Highscores und teste dein Gedächtnis in Classic- oder Timed-Modus.",
+      "featureBullets": [
+        {
+          "title": "Farbmuster Wiederholen"
+        },
+        {
+          "title": "Classic-Modus"
+        },
+        {
+          "title": "Timed-Modus"
+        },
+        {
+          "title": "Combo-Wertung"
+        },
+        {
+          "title": "Highscore-Tracking"
+        },
+        {
+          "title": "Soundfeedback"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Muster Wiederholen",
+          "description": "Zeige einen aktiven Spielbildschirm mit bunten Feldern, Runde, Score, Combo und der Aufforderung, das Muster zu wiederholen.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-1.png"
+        },
+        {
+          "title": "Spielmodus Wählen",
+          "description": "Zeige den Startbildschirm mit Titel, bestem Score, bester Runde, Classic-Modus, Timed-Modus und Soundfeedback-Schalter.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-2.png"
+        },
+        {
+          "title": "Challenge Auf Zeit",
+          "description": "Zeige Gameplay im Timed-Modus mit sichtbarem Timer, großen Farbfeldern und klarem Fokus auf Tempo.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wie spielt man Color Memory Rush?",
+          "answer": "Du merkst dir die gezeigte Farbsequenz und tippst die Felder anschließend in derselben Reihenfolge an."
+        },
+        {
+          "question": "Welche Spielmodi gibt es?",
+          "answer": "Es gibt Classic-Modus für ein klares Gedächtnisspiel und Timed-Modus für Runden mit zusätzlichem Zeitdruck."
+        },
+        {
+          "question": "Ist Color Memory Rush für kurze Pausen geeignet?",
+          "answer": "Ja. Die Runden sind schnell gestartet und eignen sich gut für kurze Konzentrations- und Gedächtnisübungen."
+        },
+        {
+          "question": "Kann ich den Sound ausschalten?",
+          "answer": "Ja. Auf dem Startbildschirm kannst du das Soundfeedback ein- oder ausschalten."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Color Memory Rush",
+      "summary": "Color Memory Rush est un jeu de mémoire rapide et coloré : observez la séquence, répétez le motif, enchaînez les combos et battez votre meilleur score.",
+      "longDescription": [
+        "Color Memory Rush est un jeu de mémoire coloré centré sur un défi simple : regarder la séquence, retenir l’ordre des couleurs et la reproduire sans se tromper.",
+        "Chaque round sollicite l’attention, la mémoire immédiate et la précision. Plus les motifs deviennent longs, plus chaque choix compte, avec le score, le combo et le timer pour garder le rythme.",
+        "Le mode Classic propose une expérience claire et directe. Le mode Timed ajoute une pression supplémentaire pour celles et ceux qui aiment les défis plus rapides.",
+        "Avec de grands boutons colorés, le suivi du meilleur score, la meilleure manche, la pause et le retour sonore optionnel, Color Memory Rush est facile à prendre en main et motivant à rejouer."
+      ],
+      "bottomCtaDescription": "Lancez une partie en quelques secondes et mettez votre mémoire à l’épreuve avec des couleurs vives, des règles simples et une pression qui monte à chaque round.",
+      "category": "Jeu de réflexion",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Jeu De Mémoire",
+        "Puzzle Couleur",
+        "Entraînement Cérébral",
+        "Jeu De Motifs",
+        "Jeu De Réflexes",
+        "Jeu Casual",
+        "Défi Chronométré"
+      ],
+      "metaTitle": "Color Memory Rush : jeu de mémoire coloré",
+      "metaDescription": "Répétez des motifs de couleurs, créez des combos, battez vos scores et testez votre mémoire en mode Classic ou Timed.",
+      "featureBullets": [
+        {
+          "title": "Motifs À Répéter"
+        },
+        {
+          "title": "Mode Classic"
+        },
+        {
+          "title": "Mode Timed"
+        },
+        {
+          "title": "Score Combo"
+        },
+        {
+          "title": "Meilleur Score"
+        },
+        {
+          "title": "Retour Sonore"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Répétez Le Motif",
+          "description": "Montrer un écran de jeu avec tuiles colorées, round, score, combo et instruction de répétition du motif.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-1.png"
+        },
+        {
+          "title": "Choix Du Mode",
+          "description": "Montrer l’écran d’accueil avec le titre, le meilleur score, la meilleure manche, les modes Classic et Timed, et le bouton de son.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-2.png"
+        },
+        {
+          "title": "Défi Chronométré",
+          "description": "Montrer une partie en mode Timed avec le timer visible, de grandes tuiles colorées et une sensation de vitesse.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Comment jouer à Color Memory Rush ?",
+          "answer": "Observez la séquence de couleurs, mémorisez l’ordre, puis touchez les tuiles dans le même ordre pour continuer."
+        },
+        {
+          "question": "Color Memory Rush propose-t-il plusieurs modes ?",
+          "answer": "Oui. Le mode Classic offre un défi de mémoire simple, tandis que le mode Timed ajoute une contrainte de temps."
+        },
+        {
+          "question": "Le jeu convient-il aux parties courtes ?",
+          "answer": "Oui. Les parties démarrent vite et sont idéales pour un court moment de concentration."
+        },
+        {
+          "question": "Peut-on désactiver le son ?",
+          "answer": "Oui. Un réglage de retour sonore est disponible sur l’écran principal."
+        }
+      ]
+    },
+    "it": {
+      "name": "Color Memory Rush",
+      "summary": "Color Memory Rush è un gioco di memoria veloce e colorato: osserva la sequenza, ripeti il pattern, crea combo e prova a superare il tuo record.",
+      "longDescription": [
+        "Color Memory Rush è un gioco di memoria colorato basato su una sfida semplice: guarda la sequenza, ricordala e tocca i colori nello stesso ordine.",
+        "Ogni round mette alla prova attenzione, memoria a breve termine e precisione. Quando i pattern si allungano, il punteggio, la combo e il timer rendono la partita sempre più coinvolgente.",
+        "La modalità Classic offre una sfida pulita e diretta. La modalità Timed aggiunge pressione e ritmo per chi vuole partite più rapide e intense.",
+        "Con grandi tessere colorate, pausa, tracciamento del miglior punteggio, miglior round e feedback sonoro opzionale, Color Memory Rush è semplice da giocare e stimolante da migliorare."
+      ],
+      "bottomCtaDescription": "Allenati con una sfida rapida e immediata: colori vivaci, regole semplici e round sempre più intensi rendono ogni partita facile da iniziare e difficile da lasciare.",
+      "category": "Gioco rompicapo",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Gioco Di Memoria",
+        "Puzzle Colori",
+        "Allenamento Mentale",
+        "Gioco Pattern",
+        "Gioco Riflessi",
+        "Gioco Casual",
+        "Sfida A Tempo"
+      ],
+      "metaTitle": "Color Memory Rush: gioco di memoria a colori",
+      "metaDescription": "Ripeti sequenze di colori, crea combo, supera i record e metti alla prova la memoria in modalità Classic o Timed.",
+      "featureBullets": [
+        {
+          "title": "Sequenze Di Colori"
+        },
+        {
+          "title": "Modalità Classic"
+        },
+        {
+          "title": "Modalità Timed"
+        },
+        {
+          "title": "Punteggio Combo"
+        },
+        {
+          "title": "Record Personali"
+        },
+        {
+          "title": "Feedback Sonoro"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Ripeti Il Pattern",
+          "description": "Mostrare una schermata di gioco con tessere colorate, round, punteggio, combo e istruzione per ripetere il pattern.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-1.png"
+        },
+        {
+          "title": "Scegli La Modalità",
+          "description": "Mostrare la schermata iniziale con titolo, miglior punteggio, miglior round, modalità Classic, modalità Timed e interruttore audio.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-2.png"
+        },
+        {
+          "title": "Sfida A Tempo",
+          "description": "Mostrare gameplay in modalità Timed con timer visibile, grandi tessere colorate e sensazione di ritmo veloce.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Come si gioca a Color Memory Rush?",
+          "answer": "Guardi la sequenza di colori, la memorizzi e poi tocchi le tessere nello stesso ordine."
+        },
+        {
+          "question": "Ci sono più modalità di gioco?",
+          "answer": "Sì. Puoi scegliere la modalità Classic per una sfida di memoria diretta oppure Timed per giocare con il tempo."
+        },
+        {
+          "question": "Color Memory Rush è adatto a partite brevi?",
+          "answer": "Sì. Le partite sono rapide e perfette per mettere alla prova memoria e concentrazione in pochi minuti."
+        },
+        {
+          "question": "Posso attivare o disattivare i suoni?",
+          "answer": "Sì. La schermata principale include un interruttore per il feedback sonoro."
+        }
+      ]
+    },
+    "es": {
+      "name": "Color Memory Rush",
+      "summary": "Color Memory Rush es un juego de memoria rápido y colorido: mira la secuencia, repite el patrón, acumula combos y supera tu mejor puntuación.",
+      "longDescription": [
+        "Color Memory Rush es un juego de memoria con colores basado en un reto claro: observar la secuencia, recordar el orden y tocar las casillas correctas.",
+        "Cada ronda pone a prueba tu atención, memoria a corto plazo y precisión. A medida que el patrón crece, el marcador, el combo y el temporizador añaden más emoción.",
+        "El modo Classic ofrece una experiencia directa para practicar memoria. El modo Timed añade presión de tiempo para quienes buscan partidas más rápidas e intensas.",
+        "Con botones grandes de colores, pausa, seguimiento de mejor puntuación, mejor ronda y sonido opcional, Color Memory Rush es fácil de jugar y muy rejugable."
+      ],
+      "bottomCtaDescription": "Pon a prueba tu memoria en partidas rápidas con colores vivos, reglas sencillas y una tensión que crece a medida que avanzan las rondas.",
+      "category": "Juego de puzzle",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Juego De Memoria",
+        "Puzzle De Colores",
+        "Entrenamiento Mental",
+        "Juego De Patrones",
+        "Juego De Reflejos",
+        "Juego Casual",
+        "Desafío Cronometrado"
+      ],
+      "metaTitle": "Color Memory Rush: juego de memoria con colores",
+      "metaDescription": "Repite patrones de colores, crea combos, bate récords y entrena tu memoria en modo Classic o Timed con Color Memory Rush.",
+      "featureBullets": [
+        {
+          "title": "Patrones De Colores"
+        },
+        {
+          "title": "Modo Classic"
+        },
+        {
+          "title": "Modo Timed"
+        },
+        {
+          "title": "Puntuación Combo"
+        },
+        {
+          "title": "Récord Personal"
+        },
+        {
+          "title": "Sonido Opcional"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Repite El Patrón",
+          "description": "Mostrar una partida activa con casillas de colores, ronda, puntuación, combo e instrucción para repetir el patrón.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-1.png"
+        },
+        {
+          "title": "Elige Modo",
+          "description": "Mostrar la pantalla principal con título, mejor puntuación, mejor ronda, modo Classic, modo Timed y control de sonido.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-2.png"
+        },
+        {
+          "title": "Reto Con Temporizador",
+          "description": "Mostrar el modo Timed con temporizador visible, casillas grandes de colores y sensación de concentración rápida.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Cómo se juega a Color Memory Rush?",
+          "answer": "Observas la secuencia de colores, memorizas el orden y tocas las casillas en la misma secuencia."
+        },
+        {
+          "question": "¿Color Memory Rush tiene modo con tiempo?",
+          "answer": "Sí. El modo Timed añade temporizador para que el desafío sea más rápido y exigente."
+        },
+        {
+          "question": "¿Es un juego para partidas cortas?",
+          "answer": "Sí. Está pensado para sesiones rápidas en las que puedes entrenar memoria, atención y reflejos."
+        },
+        {
+          "question": "¿Puedo pausar la partida?",
+          "answer": "Sí. La pantalla de juego incluye un botón de pausa."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Color Memory Rush",
+      "summary": "Color Memory Rush é um jogo de memória rápido e colorido: observe a sequência, repita o padrão, faça combos e tente bater o seu recorde.",
+      "longDescription": [
+        "Color Memory Rush é um jogo de memória com cores criado em torno de um desafio simples: ver a sequência, memorizar a ordem e tocar nos blocos certos.",
+        "Cada ronda testa atenção, memória de curto prazo e precisão. À medida que os padrões aumentam, a pontuação, o combo e o temporizador tornam o jogo mais intenso.",
+        "O modo Classic oferece uma experiência direta de memória. O modo Timed adiciona pressão de tempo para partidas mais rápidas e competitivas.",
+        "Com blocos grandes e coloridos, pausa, melhor pontuação, melhor ronda e feedback sonoro opcional, Color Memory Rush é fácil de começar e divertido de repetir."
+      ],
+      "bottomCtaDescription": "Teste a sua memória em partidas rápidas com cores vibrantes, regras simples e desafios que ficam mais intensos a cada ronda.",
+      "category": "Jogo de quebra-cabeças",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Jogo De Memória",
+        "Puzzle De Cores",
+        "Treino Mental",
+        "Jogo De Padrões",
+        "Jogo De Reflexos",
+        "Jogo Casual",
+        "Desafio Cronometrado"
+      ],
+      "metaTitle": "Color Memory Rush: jogo de memória com cores",
+      "metaDescription": "Repita padrões de cores, faça combos, bata recordes e teste a sua memória nos modos Classic e Timed.",
+      "featureBullets": [
+        {
+          "title": "Padrões De Cores"
+        },
+        {
+          "title": "Modo Classic"
+        },
+        {
+          "title": "Modo Timed"
+        },
+        {
+          "title": "Pontuação Combo"
+        },
+        {
+          "title": "Recordes Pessoais"
+        },
+        {
+          "title": "Feedback Sonoro"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Repita O Padrão",
+          "description": "Mostrar uma partida ativa com blocos coloridos, ronda, pontuação, combo e instrução para repetir o padrão.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-1.png"
+        },
+        {
+          "title": "Escolha O Modo",
+          "description": "Mostrar o ecrã inicial com título, melhor pontuação, melhor ronda, modo Classic, modo Timed e botão de som.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-2.png"
+        },
+        {
+          "title": "Desafio Com Tempo",
+          "description": "Mostrar gameplay no modo Timed com temporizador visível, blocos grandes e foco em rapidez.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Como se joga Color Memory Rush?",
+          "answer": "Veja a sequência de cores, memorize a ordem e toque nos blocos na mesma sequência para avançar."
+        },
+        {
+          "question": "O jogo tem modos diferentes?",
+          "answer": "Sim. Pode jogar no modo Classic ou escolher o modo Timed para um desafio com limite de tempo."
+        },
+        {
+          "question": "Color Memory Rush é bom para jogar rapidamente?",
+          "answer": "Sim. As partidas são curtas e ideais para testar memória e concentração em poucos minutos."
+        },
+        {
+          "question": "Posso controlar o som do jogo?",
+          "answer": "Sim. O ecrã principal inclui uma opção para ativar ou desativar o feedback sonoro."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Color Memory Rush",
+      "summary": "Color Memory Rush је брза и шарена игра памћења у којој посматрате секвенцу, понављате образац, градите combo и јурите бољи резултат.",
+      "longDescription": [
+        "Color Memory Rush је игра памћења са јарким бојама и једноставним циљем: погледајте секвенцу, запамтите редослед и додирните поља истим редом.",
+        "Свака рунда тестира пажњу, краткорочно памћење и прецизност. Како обрасци постају дужи, резултат, combo и тајмер уносе све више напетости.",
+        "Classic режим доноси чист изазов памћења. Timed режим додаје временски притисак за брже и динамичније партије.",
+        "Уз велика поља у боји, паузу, праћење најбољег резултата, најбоље рунде и опциони звук, Color Memory Rush је лак за почетак и занимљив за поновно играње."
+      ],
+      "bottomCtaDescription": "Покрените кратак изазов за памћење кад год имате минут слободног времена, уз јасна правила, јарке боје и све напетије рунде.",
+      "category": "Игра слагалица",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Игра Памћења",
+        "Слагалица У Боји",
+        "Тренинг Мозга",
+        "Игра Образаца",
+        "Игра Рефлекса",
+        "Casual Игра",
+        "Изазов На Време"
+      ],
+      "metaTitle": "Color Memory Rush: игра памћења са бојама",
+      "metaDescription": "Понављајте обрасце боја, правите combo, обарајте рекорде и тестирајте памћење у Classic или Timed режиму.",
+      "featureBullets": [
+        {
+          "title": "Обрасци Боја"
+        },
+        {
+          "title": "Classic Режим"
+        },
+        {
+          "title": "Timed Режим"
+        },
+        {
+          "title": "Combo Резултат"
+        },
+        {
+          "title": "Лични Рекорди"
+        },
+        {
+          "title": "Звучни Фидбек"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Понови Образац",
+          "description": "Приказати активну игру са шареним пољима, рундом, резултатом, combo бројачем и инструкцијом за понављање обрасца.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-1.png"
+        },
+        {
+          "title": "Избор Режима",
+          "description": "Приказати почетни екран са називом игре, најбољим резултатом, најбољом рундом, Classic режимом, Timed режимом и прекидачем за звук.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-2.png"
+        },
+        {
+          "title": "Изазов На Време",
+          "description": "Приказати игру у Timed режиму са видљивим тајмером, великим пољима у боји и осећајем брзине.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Како се игра Color Memory Rush?",
+          "answer": "Посматрате секвенцу боја, памтите редослед и затим додирујете поља истим редом."
+        },
+        {
+          "question": "Да ли игра има више режима?",
+          "answer": "Да. Classic режим је директан изазов памћења, док Timed режим додаје временски притисак."
+        },
+        {
+          "question": "Да ли је игра погодна за кратке партије?",
+          "answer": "Да. Партије се брзо покрећу и добре су за кратак тест памћења и концентрације."
+        },
+        {
+          "question": "Могу ли да искључим звук?",
+          "answer": "Да. На почетном екрану постоји прекидач за укључивање или искључивање звучног фидбека."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Color Memory Rush",
+      "summary": "Color Memory Rush je brza i šarena igra pamćenja u kojoj promatrate slijed, ponavljate uzorak, gradite combo i pokušavate nadmašiti rekord.",
+      "longDescription": [
+        "Color Memory Rush je igra pamćenja s bojama i jasnim ciljem: pogledajte slijed, zapamtite redoslijed i dodirnite polja istim redom.",
+        "Svaka runda testira pažnju, kratkoročno pamćenje i preciznost. Kako uzorci postaju duži, rezultat, combo i timer dodaju sve više izazova.",
+        "Classic način nudi čistu igru pamćenja. Timed način uvodi pritisak vremena za brže i intenzivnije partije.",
+        "Velika polja u boji, pauza, praćenje najboljeg rezultata, najbolje runde i opcionalni zvučni feedback čine Color Memory Rush jednostavnim za početak i zabavnim za ponavljanje."
+      ],
+      "bottomCtaDescription": "Pokrenite kratki izazov pamćenja kad god imate nekoliko minuta, uz jednostavna pravila, izražajne boje i runde koje postaju sve napetije.",
+      "category": "Puzzle igra",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Igra Pamćenja",
+        "Puzzle Boja",
+        "Trening Mozga",
+        "Igra Uzoraka",
+        "Igra Refleksa",
+        "Casual Igra",
+        "Vremenski Izazov"
+      ],
+      "metaTitle": "Color Memory Rush: igra pamćenja s bojama",
+      "metaDescription": "Ponavljajte uzorke boja, skupljajte combo, rušite rekorde i testirajte pamćenje u Classic ili Timed načinu.",
+      "featureBullets": [
+        {
+          "title": "Uzorci Boja"
+        },
+        {
+          "title": "Classic Način"
+        },
+        {
+          "title": "Timed Način"
+        },
+        {
+          "title": "Combo Bodovanje"
+        },
+        {
+          "title": "Osobni Rekordi"
+        },
+        {
+          "title": "Zvučni Feedback"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Ponovi Uzorak",
+          "description": "Prikazati aktivnu igru sa šarenim poljima, rundom, rezultatom, combo brojačem i uputom za ponavljanje uzorka.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-1.png"
+        },
+        {
+          "title": "Odaberi Način",
+          "description": "Prikazati početni zaslon s naslovom, najboljim rezultatom, najboljom rundom, Classic načinom, Timed načinom i prekidačem za zvuk.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-2.png"
+        },
+        {
+          "title": "Vremenski Izazov",
+          "description": "Prikazati gameplay u Timed načinu s vidljivim timerom, velikim poljima u boji i dojmom brzine.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Kako se igra Color Memory Rush?",
+          "answer": "Promatrate slijed boja, pamtite redoslijed i dodirujete polja u istom redoslijedu."
+        },
+        {
+          "question": "Postoje li različiti načini igre?",
+          "answer": "Da. Classic način nudi klasični izazov pamćenja, a Timed način dodaje vremenski pritisak."
+        },
+        {
+          "question": "Je li Color Memory Rush dobar za kratke partije?",
+          "answer": "Da. Igra je osmišljena za brze partije u kojima možete testirati pamćenje i koncentraciju."
+        },
+        {
+          "question": "Mogu li isključiti zvuk?",
+          "answer": "Da. Na početnom zaslonu možete uključiti ili isključiti zvučni feedback."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Color Memory Rush",
+      "summary": "Color Memory Rush is een snel en kleurrijk geheugenspel: onthoud het patroon, tik de kleuren na, bouw combo’s op en verbeter je topscore.",
+      "longDescription": [
+        "Color Memory Rush is een kleurrijk geheugenspel met een simpele uitdaging: kijk naar de reeks, onthoud de volgorde en tik de kleuren correct na.",
+        "Elke ronde test je aandacht, kortetermijngeheugen en timing. Naarmate patronen langer worden, maken score, combo en timer het spel steeds spannender.",
+        "Classic mode biedt een duidelijke geheugenuitdaging. Timed mode voegt tijdsdruk toe voor spelers die sneller en scherper willen reageren.",
+        "Met grote kleurvlakken, pauzeknop, beste score, beste ronde en optionele geluidsfeedback is Color Memory Rush makkelijk te starten en leuk om opnieuw te proberen."
+      ],
+      "bottomCtaDescription": "Speel een snelle breinuitdaging wanneer je maar wilt, met heldere kleuren, eenvoudige regels en steeds spannendere rondes.",
+      "category": "Puzzelspel",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Geheugenspel",
+        "Kleurenpuzzel",
+        "Brain Training",
+        "Patroonspel",
+        "Reactiespel",
+        "Casual Game",
+        "Tijduitdaging"
+      ],
+      "metaTitle": "Color Memory Rush: kleurrijk geheugenspel",
+      "metaDescription": "Herhaal kleurpatronen, bouw combo’s, verbeter je score en test je geheugen in Classic of Timed mode.",
+      "featureBullets": [
+        {
+          "title": "Kleurpatronen Herhalen"
+        },
+        {
+          "title": "Classic Mode"
+        },
+        {
+          "title": "Timed Mode"
+        },
+        {
+          "title": "Combo Score"
+        },
+        {
+          "title": "Persoonlijke Records"
+        },
+        {
+          "title": "Geluidsfeedback"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Herhaal Het Patroon",
+          "description": "Toon een actieve game met gekleurde tegels, ronde, score, combo en de opdracht om het patroon te herhalen.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-1.png"
+        },
+        {
+          "title": "Kies Je Modus",
+          "description": "Toon het startscherm met titel, beste score, beste ronde, Classic mode, Timed mode en geluidsknop.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-2.png"
+        },
+        {
+          "title": "Spelen Op Tijd",
+          "description": "Toon gameplay in Timed mode met zichtbare timer, grote kleurtegels en focus op snelheid.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Hoe speel je Color Memory Rush?",
+          "answer": "Je bekijkt de kleurvolgorde, onthoudt het patroon en tikt daarna de tegels in dezelfde volgorde aan."
+        },
+        {
+          "question": "Heeft Color Memory Rush meerdere spelmodi?",
+          "answer": "Ja. Je kunt Classic mode spelen of Timed mode kiezen voor extra tijdsdruk."
+        },
+        {
+          "question": "Is het geschikt voor korte speelsessies?",
+          "answer": "Ja. De game is gemaakt voor snelle rondes waarin je geheugen en concentratie kunt testen."
+        },
+        {
+          "question": "Kan ik de geluidsfeedback uitschakelen?",
+          "answer": "Ja. Op het startscherm kun je geluidsfeedback aan- of uitzetten."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Color Memory Rush",
+      "summary": "Color Memory Rush to szybka gra pamięciowa z kolorami: zapamiętaj sekwencję, powtórz wzór, buduj combo i poprawiaj swój najlepszy wynik.",
+      "longDescription": [
+        "Color Memory Rush to kolorowa gra pamięciowa oparta na prostym zadaniu: zobacz sekwencję, zapamiętaj kolejność i dotknij pól w tym samym układzie.",
+        "Każda runda sprawdza uwagę, pamięć krótkotrwałą i precyzję. Gdy wzory stają się dłuższe, wynik, combo i timer dodają grze większego napięcia.",
+        "Tryb Classic daje czyste wyzwanie pamięciowe. Tryb Timed dodaje presję czasu dla osób, które lubią szybszą rozgrywkę.",
+        "Duże kolorowe kafelki, pauza, najlepszy wynik, najlepsza runda i opcjonalne dźwięki sprawiają, że Color Memory Rush jest łatwe do rozpoczęcia i satysfakcjonujące do poprawiania."
+      ],
+      "bottomCtaDescription": "Włącz krótkie wyzwanie dla pamięci, gdy masz chwilę wolnego czasu. Proste zasady, mocne kolory i rosnące tempo sprawiają, że łatwo zagrać jeszcze raz.",
+      "category": "Gra logiczna",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Gra Pamięciowa",
+        "Kolorowa Łamigłówka",
+        "Trening Mózgu",
+        "Gra We Wzory",
+        "Gra Na Refleks",
+        "Gra Casual",
+        "Wyzwanie Na Czas"
+      ],
+      "metaTitle": "Color Memory Rush: gra pamięciowa z kolorami",
+      "metaDescription": "Powtarzaj wzory kolorów, zdobywaj combo, bij rekordy i ćwicz pamięć w trybie Classic lub Timed.",
+      "featureBullets": [
+        {
+          "title": "Wzory Kolorów"
+        },
+        {
+          "title": "Tryb Classic"
+        },
+        {
+          "title": "Tryb Timed"
+        },
+        {
+          "title": "Wynik Combo"
+        },
+        {
+          "title": "Rekordy Osobiste"
+        },
+        {
+          "title": "Dźwięk Opcjonalny"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Powtórz Wzór",
+          "description": "Pokazać aktywną rozgrywkę z kolorowymi kafelkami, rundą, wynikiem, combo i poleceniem powtórzenia wzoru.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-1.png"
+        },
+        {
+          "title": "Wybierz Tryb",
+          "description": "Pokazać ekran startowy z tytułem, najlepszym wynikiem, najlepszą rundą, trybem Classic, trybem Timed i przełącznikiem dźwięku.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-2.png"
+        },
+        {
+          "title": "Wyzwanie Na Czas",
+          "description": "Pokazać rozgrywkę w trybie Timed z widocznym timerem, dużymi kafelkami kolorów i wrażeniem tempa.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Jak grać w Color Memory Rush?",
+          "answer": "Oglądasz sekwencję kolorów, zapamiętujesz kolejność i dotykasz kafelków w tym samym porządku."
+        },
+        {
+          "question": "Czy gra ma różne tryby?",
+          "answer": "Tak. Tryb Classic to klasyczne ćwiczenie pamięci, a Timed dodaje presję czasu."
+        },
+        {
+          "question": "Czy Color Memory Rush nadaje się na krótkie partie?",
+          "answer": "Tak. Gra jest przygotowana do szybkich rund, w których można sprawdzić pamięć i koncentrację."
+        },
+        {
+          "question": "Czy można wyłączyć dźwięk?",
+          "answer": "Tak. Na ekranie głównym dostępny jest przełącznik informacji dźwiękowej."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Color Memory Rush",
+      "summary": "Color Memory Rush este un joc rapid de memorie cu culori: urmărește secvența, repetă modelul, construiește combo-uri și îmbunătățește scorul.",
+      "longDescription": [
+        "Color Memory Rush este un joc de memorie colorat construit în jurul unei provocări simple: vezi secvența, ține minte ordinea și atinge culorile corecte.",
+        "Fiecare rundă îți testează atenția, memoria pe termen scurt și precizia. Pe măsură ce modelele se lungesc, scorul, combo-ul și cronometrul cresc tensiunea.",
+        "Modul Classic oferă o provocare clară de memorie. Modul Timed adaugă presiune de timp pentru sesiuni mai rapide și mai intense.",
+        "Cu plăci mari colorate, pauză, urmărirea celui mai bun scor, cea mai bună rundă și feedback sonor opțional, Color Memory Rush este ușor de început și plăcut de rejucat."
+      ],
+      "bottomCtaDescription": "Pornește o provocare rapidă pentru memorie oricând ai câteva minute, cu reguli simple, culori puternice și runde care devin tot mai intense.",
+      "category": "Joc de puzzle",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Joc De Memorie",
+        "Puzzle Cu Culori",
+        "Antrenament Mental",
+        "Joc De Modele",
+        "Joc De Reflexe",
+        "Joc Casual",
+        "Provocare Contra Cronometru"
+      ],
+      "metaTitle": "Color Memory Rush: joc de memorie cu culori",
+      "metaDescription": "Repetă modele de culori, construiește combo-uri, bate recorduri și testează-ți memoria în modurile Classic sau Timed.",
+      "featureBullets": [
+        {
+          "title": "Modele De Culori"
+        },
+        {
+          "title": "Mod Classic"
+        },
+        {
+          "title": "Mod Timed"
+        },
+        {
+          "title": "Scor Combo"
+        },
+        {
+          "title": "Recorduri Personale"
+        },
+        {
+          "title": "Feedback Sonor"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Repetă Modelul",
+          "description": "Arată un ecran de joc activ cu plăci colorate, rundă, scor, combo și instrucțiunea de repetare a modelului.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-1.png"
+        },
+        {
+          "title": "Alege Modul",
+          "description": "Arată ecranul principal cu titlul jocului, cel mai bun scor, cea mai bună rundă, modul Classic, modul Timed și comutatorul de sunet.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-2.png"
+        },
+        {
+          "title": "Provocare Pe Timp",
+          "description": "Arată gameplay în modul Timed cu cronometru vizibil, plăci mari colorate și senzație de ritm rapid.",
+          "imagePath": "apps/screenshots/color-memory-rush/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Cum se joacă Color Memory Rush?",
+          "answer": "Urmărești secvența de culori, reții ordinea și apoi atingi plăcile în aceeași ordine."
+        },
+        {
+          "question": "Există mai multe moduri de joc?",
+          "answer": "Da. Poți juca în modul Classic sau în modul Timed, care adaugă presiune de timp."
+        },
+        {
+          "question": "Este Color Memory Rush potrivit pentru sesiuni scurte?",
+          "answer": "Da. Jocul este conceput pentru runde rapide în care îți poți testa memoria și concentrarea."
+        },
+        {
+          "question": "Pot dezactiva sunetul?",
+          "answer": "Da. Ecranul principal include un comutator pentru feedbackul sonor."
+        }
+      ]
+    }
+  }
+}
