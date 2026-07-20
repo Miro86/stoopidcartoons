@@ -1,0 +1,936 @@
+{
+  "slug": "pet-feeding-reminder",
+  "sortOrder": 26,
+  "kind": "app",
+  "featured": false,
+  "accent": "blue",
+  "icon": "apps/icons/pet-feeding-reminder.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.petfeedingreminder",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "LifestyleApplication",
+  "relatedSlugs": [
+    "plant-watering-reminder",
+    "bill-reminder",
+    "subscription-tracker"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Pet Feeding Reminder",
+      "summary": "Pet Feeding Reminder helps you manage feeding schedules, medicine reminders, daily logs, and care routines for multiple pets in one simple Android app.",
+      "longDescription": [
+        "Pet Feeding Reminder is an Android app for pet owners who want a clearer way to manage daily feeding and care routines. Add every pet, set meal frequency, choose feeding times, and keep each profile easy to review.",
+        "The app supports multi-pet care, making it useful for households with dogs, cats, turtles, or other pets. You can see which pets are due now, mark a feeding as done, and quickly check how many care logs were completed today.",
+        "For pets that also need medicine, you can create medicine reminders with dose count, frequency, notes, and a scheduled time. This keeps feeding and care routines organized in the same place.",
+        "Daily logs help you see what was already done and when. The logs screen gives you a simple record of completed feedings, so everyone can stay aligned on pet care.",
+        "With reminder notifications, language settings, and dark mode support, Pet Feeding Reminder is designed to make daily pet care easier, calmer, and more consistent."
+      ],
+      "bottomCtaDescription": "Keep every pet on schedule with clear meal plans, medicine routines, reminder notifications, and daily logs that show what has already been done.",
+      "category": "Pet Care",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Pet Feeding Reminder",
+        "Pet Care",
+        "Dog Feeding",
+        "Cat Feeding",
+        "Pet Medicine Reminder",
+        "Feeding Schedule",
+        "Pet Logs",
+        "Multi Pet Tracker"
+      ],
+      "metaTitle": "Pet Feeding Reminder: Meals, Medicine and Pet Logs",
+      "metaDescription": "Track pet feeding schedules, medicine reminders, daily care logs, and multi-pet routines with Pet Feeding Reminder for Android.",
+      "featureBullets": [
+        {
+          "title": "Multi-Pet Profiles"
+        },
+        {
+          "title": "Feeding Schedules"
+        },
+        {
+          "title": "Medicine Reminders"
+        },
+        {
+          "title": "Mark Fed Button"
+        },
+        {
+          "title": "Daily Care Logs"
+        },
+        {
+          "title": "Reminder Notifications"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Never Miss Feeding Time",
+          "description": "Show the main Pets screen with due now, all pets, feeding plan details, Mark fed button, done today count, and Add pet button.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Add Pets Easily",
+          "description": "Show the Add pet form with pet name, pet type, feedings, frequency, feeding time, and Save button.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Set Medicine Reminders",
+          "description": "Show the medicine reminder form with medicine name, medicine note, doses, frequency, medicine time, and Save button.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What can I track with Pet Feeding Reminder?",
+          "answer": "You can track pet profiles, feeding frequency, feeding times, medicine reminders, doses, daily logs, and completed feedings."
+        },
+        {
+          "question": "Can I use Pet Feeding Reminder for multiple pets?",
+          "answer": "Yes. The app supports multiple pet profiles, so you can manage feeding plans and care routines for more than one pet."
+        },
+        {
+          "question": "Can I mark a pet as fed?",
+          "answer": "Yes. When a feeding is due, you can tap Mark fed to log that the meal was completed."
+        },
+        {
+          "question": "Does the app support medicine reminders?",
+          "answer": "Yes. You can add medicine details, dose count, frequency, notes, and medicine time for a pet."
+        },
+        {
+          "question": "Can I review what was already done today?",
+          "answer": "Yes. The Logs screen shows completed feeding entries with pet name, status, date, and time."
+        }
+      ]
+    },
+    "de": {
+      "name": "Pet Feeding Reminder",
+      "summary": "Pet Feeding Reminder hilft dir, Fütterungspläne, Medikamenten-Erinnerungen, Tagesprotokolle und Routinen für mehrere Haustiere übersichtlich zu verwalten.",
+      "longDescription": [
+        "Pet Feeding Reminder ist eine Android-App für Tierhalter, die Fütterung und Pflege besser organisieren möchten. Lege Haustiere an, wähle Fütterungshäufigkeit, Uhrzeiten und behalte jede Routine im Blick.",
+        "Die App eignet sich für Haushalte mit mehreren Haustieren, etwa Hunden, Katzen, Schildkröten oder anderen Tieren. Du siehst, welches Haustier jetzt dran ist, und kannst eine Fütterung schnell als erledigt markieren.",
+        "Wenn ein Haustier Medikamente benötigt, kannst du Erinnerungen mit Medikamentenname, Notiz, Dosisanzahl, Häufigkeit und Uhrzeit einrichten. So bleiben Fütterung und Pflege an einem Ort organisiert.",
+        "Tagesprotokolle zeigen, was bereits erledigt wurde und wann. Das hilft besonders, wenn mehrere Personen sich um die Haustiere kümmern.",
+        "Mit Benachrichtigungen, Spracheinstellungen und Dunkelmodus unterstützt Pet Feeding Reminder eine ruhige und verlässliche Haustierpflege im Alltag."
+      ],
+      "bottomCtaDescription": "Halte jedes Haustier zuverlässig im Rhythmus: mit klaren Fütterungszeiten, Pflegeplänen, Medikamenten-Erinnerungen und Protokollen für erledigte Aufgaben.",
+      "category": "Haustierpflege",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Haustier Fütterung",
+        "Fütterung Erinnerung",
+        "Hund Füttern",
+        "Katze Füttern",
+        "Medikamenten Erinnerung",
+        "Fütterungsplan",
+        "Haustier Protokoll",
+        "Mehrere Haustiere"
+      ],
+      "metaTitle": "Pet Feeding Reminder: Fütterung und Medikamente",
+      "metaDescription": "Verwalte Fütterungszeiten, Medikamenten-Erinnerungen, Tagesprotokolle und Routinen für mehrere Haustiere auf Android.",
+      "featureBullets": [
+        {
+          "title": "Mehrere Haustierprofile"
+        },
+        {
+          "title": "Fütterungspläne"
+        },
+        {
+          "title": "Medikamenten-Erinnerungen"
+        },
+        {
+          "title": "Gefüttert Markieren"
+        },
+        {
+          "title": "Tagesprotokolle"
+        },
+        {
+          "title": "Benachrichtigungen"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Fütterungszeit Im Blick",
+          "description": "Zeige den Haustierbereich mit fälligen Fütterungen, allen Haustieren, Fütterungsplan, Button Gefüttert, Tageszähler und Hinzufügen-Button.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Haustier Hinzufügen",
+          "description": "Zeige das Formular mit Haustiername, Tierart, Anzahl Fütterungen, Häufigkeit, Uhrzeit und Speichern-Button.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Medikamente Erinnern",
+          "description": "Zeige das Medikamentenformular mit Name, Notiz, Dosen, Häufigkeit, Uhrzeit und Speichern-Button.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Was kann ich mit Pet Feeding Reminder verfolgen?",
+          "answer": "Du kannst Haustierprofile, Fütterungshäufigkeit, Fütterungszeiten, Medikamente, Dosierungen und tägliche Protokolle verfolgen."
+        },
+        {
+          "question": "Kann ich mehrere Haustiere verwalten?",
+          "answer": "Ja. Du kannst mehrere Haustierprofile anlegen und für jedes Tier eigene Fütterungs- und Pflegeroutinen speichern."
+        },
+        {
+          "question": "Kann ich eine Fütterung als erledigt markieren?",
+          "answer": "Ja. Wenn eine Fütterung fällig ist, kannst du sie mit dem Button als erledigt markieren."
+        },
+        {
+          "question": "Gibt es Erinnerungen für Medikamente?",
+          "answer": "Ja. Du kannst Medikamentenname, Notiz, Dosen, Häufigkeit und Uhrzeit hinterlegen."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Pet Feeding Reminder",
+      "summary": "Pet Feeding Reminder vous aide à gérer les repas, rappels de médicaments, journaux quotidiens et routines de soin pour plusieurs animaux.",
+      "longDescription": [
+        "Pet Feeding Reminder est une application Android pour les propriétaires d’animaux qui veulent mieux organiser les repas et les soins quotidiens. Ajoutez chaque animal, définissez la fréquence des repas et choisissez les horaires.",
+        "L’application convient aux foyers avec plusieurs animaux, comme chiens, chats, tortues ou autres compagnons. Vous voyez ce qui est dû maintenant, puis vous marquez rapidement un animal comme nourri.",
+        "Pour les animaux qui ont besoin de médicaments, vous pouvez créer un rappel avec nom du médicament, note, nombre de doses, fréquence et heure prévue.",
+        "Les journaux quotidiens indiquent ce qui a déjà été fait et à quel moment. C’est pratique pour garder une trace claire des repas réalisés dans la journée.",
+        "Avec notifications de rappel, choix de langue et mode sombre, Pet Feeding Reminder rend les routines de soin plus simples et plus régulières."
+      ],
+      "bottomCtaDescription": "Gardez chaque animal sur le bon rythme grâce à des horaires de repas clairs, des rappels de soins, des suivis de médicaments et des journaux faciles à consulter.",
+      "category": "Soins des animaux",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Rappel Repas Animal",
+        "Soins Animaux",
+        "Nourrir Chien",
+        "Nourrir Chat",
+        "Rappel Médicament Animal",
+        "Planning Repas",
+        "Journal Animal",
+        "Suivi Multi Animaux"
+      ],
+      "metaTitle": "Pet Feeding Reminder : repas, médicaments et journal",
+      "metaDescription": "Suivez les repas, rappels de médicaments, journaux quotidiens et routines de soin de plusieurs animaux sur Android.",
+      "featureBullets": [
+        {
+          "title": "Profils Multi-Animaux"
+        },
+        {
+          "title": "Horaires De Repas"
+        },
+        {
+          "title": "Rappels Médicaments"
+        },
+        {
+          "title": "Marquer Comme Nourri"
+        },
+        {
+          "title": "Journaux Quotidiens"
+        },
+        {
+          "title": "Notifications De Rappel"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Ne Manquez Aucun Repas",
+          "description": "Montrer l’écran Animaux avec les repas dus maintenant, la liste des animaux, le plan de repas, le bouton Nourri, le compteur du jour et le bouton d’ajout.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Ajouter Un Animal",
+          "description": "Montrer le formulaire avec nom, type d’animal, nombre de repas, fréquence, heure du repas et bouton Enregistrer.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Rappels De Médicaments",
+          "description": "Montrer le formulaire de médicament avec nom, note, doses, fréquence, heure et bouton Enregistrer.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "À quoi sert Pet Feeding Reminder ?",
+          "answer": "L’application permet de suivre les animaux, repas, fréquences, horaires, médicaments, doses et journaux de soins."
+        },
+        {
+          "question": "Puis-je gérer plusieurs animaux ?",
+          "answer": "Oui. Vous pouvez créer plusieurs profils et suivre les repas ou soins de chaque animal séparément."
+        },
+        {
+          "question": "Puis-je indiquer qu’un animal a été nourri ?",
+          "answer": "Oui. Le bouton de validation permet de marquer un repas comme effectué."
+        },
+        {
+          "question": "L’application propose-t-elle des rappels de médicaments ?",
+          "answer": "Oui. Vous pouvez renseigner un médicament, une note, une fréquence, un nombre de doses et une heure."
+        }
+      ]
+    },
+    "it": {
+      "name": "Pet Feeding Reminder",
+      "summary": "Pet Feeding Reminder ti aiuta a gestire pasti, promemoria medicine, registri giornalieri e routine di cura per più animali in un’unica app Android.",
+      "longDescription": [
+        "Pet Feeding Reminder è un’app Android per chi vuole organizzare meglio pasti e cure quotidiane degli animali. Aggiungi ogni animale, imposta frequenza dei pasti, orari e informazioni principali.",
+        "L’app supporta più profili, utile per case con cani, gatti, tartarughe o altri animali. Puoi vedere quali pasti sono dovuti, segnare un animale come nutrito e controllare i progressi del giorno.",
+        "Se un animale ha bisogno di medicine, puoi creare promemoria con nome del farmaco, nota, numero di dosi, frequenza e orario.",
+        "I registri giornalieri mostrano cosa è già stato fatto e quando. Così è più facile coordinare la cura degli animali anche quando più persone se ne occupano.",
+        "Con notifiche promemoria, lingua, modalità scura e impostazioni semplici, Pet Feeding Reminder rende la cura quotidiana più ordinata."
+      ],
+      "bottomCtaDescription": "Mantieni ogni animale sulla sua routine con piani pasto chiari, promemoria per le medicine, notifiche e registri quotidiani di ciò che è già stato fatto.",
+      "category": "Cura degli animali",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Promemoria Pasti Animali",
+        "Cura Animali",
+        "Alimentazione Cane",
+        "Alimentazione Gatto",
+        "Promemoria Medicine Animali",
+        "Programma Pasti",
+        "Diario Animali",
+        "Tracker Multi Animale"
+      ],
+      "metaTitle": "Pet Feeding Reminder: pasti, medicine e registri",
+      "metaDescription": "Gestisci orari dei pasti, promemoria medicine, registri giornalieri e routine per più animali con Pet Feeding Reminder.",
+      "featureBullets": [
+        {
+          "title": "Profili Multi Animale"
+        },
+        {
+          "title": "Programmi Dei Pasti"
+        },
+        {
+          "title": "Promemoria Medicine"
+        },
+        {
+          "title": "Segna Come Nutrito"
+        },
+        {
+          "title": "Registri Giornalieri"
+        },
+        {
+          "title": "Notifiche Promemoria"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Mai Più Pasti Dimenticati",
+          "description": "Mostrare la schermata Animali con pasti dovuti, elenco animali, piano alimentare, pulsante Nutrito, conteggio giornaliero e pulsante Aggiungi.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Aggiungi Animali",
+          "description": "Mostrare il modulo con nome animale, tipo, numero di pasti, frequenza, orario del pasto e pulsante Salva.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Promemoria Medicine",
+          "description": "Mostrare il modulo medicina con nome, nota, dosi, frequenza, orario e pulsante Salva.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Cosa posso gestire con Pet Feeding Reminder?",
+          "answer": "Puoi gestire profili animali, frequenza dei pasti, orari, medicine, dosi, notifiche e registri giornalieri."
+        },
+        {
+          "question": "Posso usare l’app per più animali?",
+          "answer": "Sì. Puoi aggiungere più animali e gestire un piano separato per ciascuno."
+        },
+        {
+          "question": "Posso segnare quando un animale ha mangiato?",
+          "answer": "Sì. Quando un pasto è previsto, puoi usare il pulsante per marcarlo come completato."
+        },
+        {
+          "question": "Sono disponibili promemoria per le medicine?",
+          "answer": "Sì. Puoi inserire nome, note, dosi, frequenza e orario della medicina."
+        }
+      ]
+    },
+    "es": {
+      "name": "Pet Feeding Reminder",
+      "summary": "Pet Feeding Reminder te ayuda a gestionar comidas, recordatorios de medicina, registros diarios y rutinas de cuidado para varias mascotas.",
+      "longDescription": [
+        "Pet Feeding Reminder es una app Android para dueños de mascotas que quieren organizar mejor las comidas y cuidados diarios. Añade cada mascota, define la frecuencia de alimentación y configura los horarios.",
+        "La app funciona bien para hogares con varias mascotas, como perros, gatos, tortugas u otros animales. Puedes ver qué toca ahora, marcar una comida como hecha y revisar cuántos registros se completaron hoy.",
+        "Si una mascota necesita medicina, puedes crear recordatorios con nombre, nota, dosis, frecuencia y hora programada.",
+        "Los registros diarios muestran qué se hizo y cuándo. Esto facilita saber si una mascota ya comió y mantener la rutina clara.",
+        "Con notificaciones, idioma, modo oscuro y ajustes sencillos, Pet Feeding Reminder ayuda a cuidar mejor las rutinas de cada mascota."
+      ],
+      "bottomCtaDescription": "Mantén a cada mascota en su horario con planes de alimentación claros, recordatorios de medicina, notificaciones y registros diarios de lo que ya se hizo.",
+      "category": "Cuidado de mascotas",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Recordatorio Comida Mascotas",
+        "Cuidado De Mascotas",
+        "Alimentación Perros",
+        "Alimentación Gatos",
+        "Recordatorio Medicina Mascotas",
+        "Horario De Comidas",
+        "Registro De Mascotas",
+        "Control Multi Mascota"
+      ],
+      "metaTitle": "Pet Feeding Reminder: comidas, medicina y registros",
+      "metaDescription": "Organiza horarios de comida, recordatorios de medicina, registros diarios y rutinas para varias mascotas en Android.",
+      "featureBullets": [
+        {
+          "title": "Perfiles De Mascotas"
+        },
+        {
+          "title": "Horarios De Comida"
+        },
+        {
+          "title": "Recordatorios De Medicina"
+        },
+        {
+          "title": "Marcar Como Alimentada"
+        },
+        {
+          "title": "Registros Diarios"
+        },
+        {
+          "title": "Notificaciones"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "No Olvides La Comida",
+          "description": "Mostrar la pantalla Mascotas con pendiente ahora, lista de mascotas, plan de alimentación, botón Alimentada, contador del día y botón Añadir mascota.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Añade Mascotas Fácilmente",
+          "description": "Mostrar el formulario con nombre, tipo de mascota, comidas, frecuencia, hora y botón Guardar.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Recordatorios De Medicina",
+          "description": "Mostrar el formulario de medicina con nombre, nota, dosis, frecuencia, hora de medicina y botón Guardar.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Qué puedo controlar con Pet Feeding Reminder?",
+          "answer": "Puedes controlar mascotas, frecuencia de comidas, horarios, medicinas, dosis, notificaciones y registros diarios."
+        },
+        {
+          "question": "¿Puedo gestionar varias mascotas?",
+          "answer": "Sí. Puedes crear varios perfiles y mantener planes separados para cada mascota."
+        },
+        {
+          "question": "¿Puedo marcar que una mascota ya comió?",
+          "answer": "Sí. Cuando una comida está pendiente, puedes tocar el botón para marcarla como realizada."
+        },
+        {
+          "question": "¿La app tiene recordatorios de medicina?",
+          "answer": "Sí. Puedes añadir el nombre de la medicina, notas, dosis, frecuencia y hora."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Pet Feeding Reminder",
+      "summary": "Pet Feeding Reminder ajuda a gerir refeições, lembretes de medicação, registos diários e rotinas de cuidado para vários animais.",
+      "longDescription": [
+        "Pet Feeding Reminder é uma aplicação Android para donos de animais que querem organizar melhor refeições e cuidados diários. Adicione cada animal, defina a frequência de alimentação e escolha os horários.",
+        "A aplicação é útil para casas com vários animais, como cães, gatos, tartarugas ou outros companheiros. Veja o que está previsto agora, marque uma refeição como concluída e acompanhe os registos do dia.",
+        "Quando um animal precisa de medicação, pode criar lembretes com nome, nota, número de doses, frequência e hora.",
+        "Os registos diários mostram o que já foi feito e quando. Assim, fica mais simples confirmar se cada animal já foi alimentado.",
+        "Com notificações, idioma, modo escuro e definições simples, Pet Feeding Reminder ajuda a manter as rotinas de cuidado organizadas todos os dias."
+      ],
+      "bottomCtaDescription": "Mantenha cada animal no horário certo com planos de alimentação claros, lembretes de medicação, notificações e registos diários do que já foi feito.",
+      "category": "Cuidados de animais",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Lembrete De Alimentação",
+        "Cuidados De Animais",
+        "Alimentação De Cão",
+        "Alimentação De Gato",
+        "Lembrete De Medicação",
+        "Horário De Refeições",
+        "Registos De Animais",
+        "Gestor Multi Animal"
+      ],
+      "metaTitle": "Pet Feeding Reminder: refeições, medicação e registos",
+      "metaDescription": "Organize horários de alimentação, lembretes de medicação, registos diários e rotinas para vários animais no Android.",
+      "featureBullets": [
+        {
+          "title": "Perfis Multi Animal"
+        },
+        {
+          "title": "Horários De Alimentação"
+        },
+        {
+          "title": "Lembretes De Medicação"
+        },
+        {
+          "title": "Marcar Como Alimentado"
+        },
+        {
+          "title": "Registos Diários"
+        },
+        {
+          "title": "Notificações"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Nunca Falhe A Refeição",
+          "description": "Mostrar o ecrã Animais com tarefas para agora, lista de animais, plano de alimentação, botão Alimentado, contador diário e botão Adicionar animal.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Adicionar Animais",
+          "description": "Mostrar o formulário com nome do animal, tipo, refeições, frequência, hora e botão Guardar.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Lembretes De Medicação",
+          "description": "Mostrar o formulário de medicação com nome, nota, doses, frequência, hora e botão Guardar.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "O que posso acompanhar no Pet Feeding Reminder?",
+          "answer": "Pode acompanhar animais, frequência de refeições, horários, medicação, doses, notificações e registos diários."
+        },
+        {
+          "question": "Posso usar a aplicação para vários animais?",
+          "answer": "Sim. Pode adicionar vários perfis e gerir planos separados para cada animal."
+        },
+        {
+          "question": "Posso marcar uma refeição como feita?",
+          "answer": "Sim. Quando uma refeição está prevista, pode tocar no botão para a marcar como concluída."
+        },
+        {
+          "question": "A aplicação inclui lembretes de medicação?",
+          "answer": "Sim. Pode guardar nome da medicação, notas, doses, frequência e hora."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Pet Feeding Reminder",
+      "summary": "Pet Feeding Reminder вам помаже да пратите храњење, подсетнике за лекове, дневне записе и рутине неге за више кућних љубимаца.",
+      "longDescription": [
+        "Pet Feeding Reminder је Android апликација за власнике љубимаца који желе јасније да организују храњење и дневну негу. Додајте сваког љубимца, подесите учесталост храњења и изаберите време.",
+        "Апликација је корисна за домаћинства са више љубимаца, као што су пси, мачке, корњаче или друге животиње. Видите шта је тренутно на реду и брзо означите да је љубимац нахрањен.",
+        "Ако љубимац има терапију, можете додати подсетник за лек са називом, белешком, бројем доза, учесталошћу и временом.",
+        "Дневни записи показују шта је већ урађено и када. Тако је лакше пратити да ли је сваки љубимац нахрањен и да ли је рутина испоштована.",
+        "Уз обавештења, избор језика и тамни режим, Pet Feeding Reminder помаже да брига о љубимцима буде једноставнија и уреднија."
+      ],
+      "bottomCtaDescription": "Држите сваког љубимца у правом ритму уз јасне планове храњења, подсетнике за лекове, обавештења и дневне записе о томе шта је већ урађено.",
+      "category": "Брига о љубимцима",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Подсетник За Храњење",
+        "Брига О Љубимцима",
+        "Храњење Паса",
+        "Храњење Мачака",
+        "Подсетник За Лекове",
+        "Распоред Храњења",
+        "Дневник Љубимаца",
+        "Праћење Више Љубимаца"
+      ],
+      "metaTitle": "Pet Feeding Reminder: храњење, лекови и дневник",
+      "metaDescription": "Пратите распореде храњења, подсетнике за лекове, дневне записе и рутине неге за више љубимаца на Android-у.",
+      "featureBullets": [
+        {
+          "title": "Профили Више Љубимаца"
+        },
+        {
+          "title": "Распореди Храњења"
+        },
+        {
+          "title": "Подсетници За Лекове"
+        },
+        {
+          "title": "Означи Као Нахрањено"
+        },
+        {
+          "title": "Дневни Записи"
+        },
+        {
+          "title": "Обавештења"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Не Пропустите Храњење",
+          "description": "Приказати екран Љубимци са ставкама које су на реду, листом љубимаца, планом храњења, дугметом Нахрањено, дневним бројачем и дугметом за додавање.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Додајте Љубимца",
+          "description": "Приказати форму са именом љубимца, типом, бројем храњења, учесталошћу, временом и дугметом за чување.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Подсетници За Лекове",
+          "description": "Приказати форму за лек са називом, белешком, дозама, учесталошћу, временом и дугметом за чување.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Шта могу да пратим у апликацији Pet Feeding Reminder?",
+          "answer": "Можете пратити профиле љубимаца, учесталост храњења, време, лекове, дозе, обавештења и дневне записе."
+        },
+        {
+          "question": "Могу ли да користим апликацију за више љубимаца?",
+          "answer": "Да. Можете додати више профила и за сваког љубимца водити посебан план храњења и неге."
+        },
+        {
+          "question": "Могу ли да означим да је љубимац нахрањен?",
+          "answer": "Да. Када је храњење на реду, можете га означити као завршено једним додиром."
+        },
+        {
+          "question": "Да ли постоје подсетници за лекове?",
+          "answer": "Да. Можете унети назив лека, белешку, број доза, учесталост и време."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Pet Feeding Reminder",
+      "summary": "Pet Feeding Reminder pomaže vam pratiti hranjenje, podsjetnike za lijekove, dnevne zapise i rutine skrbi za više kućnih ljubimaca.",
+      "longDescription": [
+        "Pet Feeding Reminder je Android aplikacija za vlasnike ljubimaca koji žele bolje organizirati hranjenje i svakodnevnu skrb. Dodajte svakog ljubimca, postavite učestalost hranjenja i odaberite vrijeme.",
+        "Aplikacija je korisna za domove s više ljubimaca, poput pasa, mačaka, kornjača ili drugih životinja. Vidite što je sada na redu i brzo označite da je ljubimac nahranjen.",
+        "Ako ljubimac treba lijek, možete dodati podsjetnik s nazivom lijeka, bilješkom, brojem doza, učestalošću i vremenom.",
+        "Dnevni zapisi pokazuju što je već obavljeno i kada. To olakšava provjeru je li svaki ljubimac nahranjen i je li rutina ispoštovana.",
+        "Uz obavijesti, odabir jezika i tamni način rada, Pet Feeding Reminder čini svakodnevnu brigu o ljubimcima jednostavnijom."
+      ],
+      "bottomCtaDescription": "Držite svakog ljubimca na rasporedu uz jasne planove hranjenja, podsjetnike za lijekove, obavijesti i dnevne zapise o tome što je već obavljeno.",
+      "category": "Briga o ljubimcima",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Podsjetnik Za Hranjenje",
+        "Briga O Ljubimcima",
+        "Hranjenje Pasa",
+        "Hranjenje Mačaka",
+        "Podsjetnik Za Lijekove",
+        "Raspored Hranjenja",
+        "Dnevnik Ljubimaca",
+        "Praćenje Više Ljubimaca"
+      ],
+      "metaTitle": "Pet Feeding Reminder: hranjenje, lijekovi i zapisi",
+      "metaDescription": "Pratite rasporede hranjenja, podsjetnike za lijekove, dnevne zapise i rutine skrbi za više ljubimaca na Androidu.",
+      "featureBullets": [
+        {
+          "title": "Profili Više Ljubimaca"
+        },
+        {
+          "title": "Rasporedi Hranjenja"
+        },
+        {
+          "title": "Podsjetnici Za Lijekove"
+        },
+        {
+          "title": "Označi Kao Nahranjeno"
+        },
+        {
+          "title": "Dnevni Zapisi"
+        },
+        {
+          "title": "Obavijesti"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Ne Propustite Hranjenje",
+          "description": "Prikazati zaslon Ljubimci s obavezama sada, popisom ljubimaca, planom hranjenja, gumbom Nahranjeno, dnevnim brojačem i gumbom za dodavanje.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Dodajte Ljubimca",
+          "description": "Prikazati obrazac s imenom ljubimca, vrstom, brojem hranjenja, učestalošću, vremenom i gumbom Spremi.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Podsjetnici Za Lijekove",
+          "description": "Prikazati obrazac za lijek s nazivom, bilješkom, dozama, učestalošću, vremenom i gumbom Spremi.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Što mogu pratiti u aplikaciji Pet Feeding Reminder?",
+          "answer": "Možete pratiti profile ljubimaca, učestalost hranjenja, vrijeme hranjenja, lijekove, doze, obavijesti i dnevne zapise."
+        },
+        {
+          "question": "Mogu li upravljati s više ljubimaca?",
+          "answer": "Da. Možete dodati više profila i za svakog ljubimca voditi poseban plan hranjenja i skrbi."
+        },
+        {
+          "question": "Mogu li označiti da je ljubimac nahranjen?",
+          "answer": "Da. Kada je hranjenje na redu, možete ga označiti kao završeno jednim dodirom."
+        },
+        {
+          "question": "Podržava li aplikacija podsjetnike za lijekove?",
+          "answer": "Da. Možete unijeti naziv lijeka, bilješku, broj doza, učestalost i vrijeme."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Pet Feeding Reminder",
+      "summary": "Pet Feeding Reminder helpt je voerschema’s, medicijnherinneringen, dagelijkse logs en verzorgingsroutines voor meerdere huisdieren beheren.",
+      "longDescription": [
+        "Pet Feeding Reminder is een Android-app voor huisdiereigenaren die voeren en dagelijkse verzorging overzichtelijk willen houden. Voeg huisdieren toe, stel voerfrequentie in en kies vaste tijden.",
+        "De app is handig voor huishoudens met meerdere huisdieren, zoals honden, katten, schildpadden of andere dieren. Je ziet wat nu moet gebeuren en markeert een maaltijd snel als voltooid.",
+        "Voor huisdieren die medicijnen nodig hebben, kun je herinneringen maken met medicijnnaam, notitie, aantal doses, frequentie en tijd.",
+        "Dagelijkse logs tonen wat al gedaan is en wanneer. Zo blijft het duidelijk of een huisdier al gevoerd is, ook als meerdere mensen helpen.",
+        "Met herinneringsmeldingen, taalinstellingen en donkere modus helpt Pet Feeding Reminder om dagelijkse verzorging rustiger en consistenter te maken."
+      ],
+      "bottomCtaDescription": "Houd elk huisdier op schema met duidelijke maaltijdplannen, medicijnroutines, herinneringen en dagelijkse logs die laten zien wat al gedaan is.",
+      "category": "Dierenverzorging",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Voerherinnering",
+        "Dierenverzorging",
+        "Hond Voeren",
+        "Kat Voeren",
+        "Medicijnherinnering Huisdier",
+        "Voerschema",
+        "Huisdier Logboek",
+        "Multi Huisdier Tracker"
+      ],
+      "metaTitle": "Pet Feeding Reminder: voeren, medicatie en logs",
+      "metaDescription": "Beheer voerschema’s, medicijnherinneringen, dagelijkse logs en verzorgingsroutines voor meerdere huisdieren op Android.",
+      "featureBullets": [
+        {
+          "title": "Meerdere Huisdieren"
+        },
+        {
+          "title": "Voerschema’s"
+        },
+        {
+          "title": "Medicijnherinneringen"
+        },
+        {
+          "title": "Markeer Als Gevoerd"
+        },
+        {
+          "title": "Dagelijkse Logs"
+        },
+        {
+          "title": "Herinneringsmeldingen"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Mis Geen Voertijd",
+          "description": "Toon het Huisdieren-scherm met nu verschuldigd, alle huisdieren, voerschema, knop Gevoerd, teller van vandaag en knop Huisdier toevoegen.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Huisdieren Toevoegen",
+          "description": "Toon het formulier met huisdiernaam, type, aantal voedingen, frequentie, tijd en opslaan-knop.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Medicatie Herinneren",
+          "description": "Toon het medicijnformulier met naam, notitie, doses, frequentie, tijd en opslaan-knop.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wat kan ik bijhouden met Pet Feeding Reminder?",
+          "answer": "Je kunt huisdieren, voerfrequentie, voertijden, medicatie, doses, meldingen en dagelijkse logs bijhouden."
+        },
+        {
+          "question": "Kan ik meerdere huisdieren beheren?",
+          "answer": "Ja. Je kunt meerdere profielen toevoegen en per huisdier een eigen routine instellen."
+        },
+        {
+          "question": "Kan ik markeren dat mijn huisdier gevoerd is?",
+          "answer": "Ja. Wanneer een voeding klaarstaat, kun je die met één tik als gedaan markeren."
+        },
+        {
+          "question": "Ondersteunt de app medicijnherinneringen?",
+          "answer": "Ja. Je kunt medicijnnaam, notitie, doses, frequentie en tijd opslaan."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Pet Feeding Reminder",
+      "summary": "Pet Feeding Reminder pomaga zarządzać karmieniem, przypomnieniami o lekach, dziennymi logami i rutyną opieki nad kilkoma zwierzętami.",
+      "longDescription": [
+        "Pet Feeding Reminder to aplikacja na Androida dla opiekunów zwierząt, którzy chcą lepiej organizować karmienie i codzienną opiekę. Dodaj zwierzęta, ustaw częstotliwość karmienia i wybierz godziny.",
+        "Aplikacja sprawdza się w domach z kilkoma zwierzętami, takimi jak psy, koty, żółwie lub inne pupile. Widzisz, co jest teraz do zrobienia, i szybko oznaczasz karmienie jako wykonane.",
+        "Jeśli zwierzę potrzebuje leków, możesz dodać przypomnienie z nazwą leku, notatką, liczbą dawek, częstotliwością i godziną.",
+        "Dzienne logi pokazują, co zostało wykonane i kiedy. Dzięki temu łatwiej sprawdzić, czy każde zwierzę zostało nakarmione.",
+        "Powiadomienia, ustawienia języka i tryb ciemny pomagają utrzymać codzienną opiekę w prostym i przejrzystym rytmie."
+      ],
+      "bottomCtaDescription": "Utrzymaj każde zwierzę w stałym rytmie dzięki planom karmienia, przypomnieniom o lekach, powiadomieniom i dziennym zapisom wykonanych czynności.",
+      "category": "Opieka nad zwierzętami",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Przypomnienie O Karmieniu",
+        "Opieka Nad Zwierzętami",
+        "Karmienie Psa",
+        "Karmienie Kota",
+        "Przypomnienie O Lekach",
+        "Plan Karmienia",
+        "Dziennik Zwierząt",
+        "Tracker Wielu Zwierząt"
+      ],
+      "metaTitle": "Pet Feeding Reminder: karmienie, leki i dziennik",
+      "metaDescription": "Śledź plany karmienia, przypomnienia o lekach, dzienne logi i rutyny opieki nad wieloma zwierzętami na Androidzie.",
+      "featureBullets": [
+        {
+          "title": "Profile Wielu Zwierząt"
+        },
+        {
+          "title": "Plany Karmienia"
+        },
+        {
+          "title": "Przypomnienia O Lekach"
+        },
+        {
+          "title": "Oznacz Jako Nakarmione"
+        },
+        {
+          "title": "Dzienne Logi"
+        },
+        {
+          "title": "Powiadomienia"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Nie Przegap Karmienia",
+          "description": "Pokazać ekran Zwierzęta z sekcją do zrobienia teraz, listą zwierząt, planem karmienia, przyciskiem Nakarmione, licznikiem dnia i dodawaniem.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Dodaj Zwierzę",
+          "description": "Pokazać formularz z imieniem zwierzęcia, typem, liczbą karmień, częstotliwością, godziną i przyciskiem zapisu.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Przypomnienia O Lekach",
+          "description": "Pokazać formularz leku z nazwą, notatką, dawkami, częstotliwością, godziną i przyciskiem zapisu.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Co mogę śledzić w Pet Feeding Reminder?",
+          "answer": "Możesz śledzić profile zwierząt, częstotliwość karmienia, godziny, leki, dawki, powiadomienia i dzienne logi."
+        },
+        {
+          "question": "Czy mogę używać aplikacji dla kilku zwierząt?",
+          "answer": "Tak. Możesz dodać kilka profili i prowadzić osobny plan dla każdego zwierzęcia."
+        },
+        {
+          "question": "Czy mogę oznaczyć, że zwierzę zostało nakarmione?",
+          "answer": "Tak. Gdy karmienie jest zaplanowane, możesz oznaczyć je jako wykonane jednym dotknięciem."
+        },
+        {
+          "question": "Czy aplikacja ma przypomnienia o lekach?",
+          "answer": "Tak. Możesz dodać nazwę leku, notatkę, liczbę dawek, częstotliwość i godzinę."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Pet Feeding Reminder",
+      "summary": "Pet Feeding Reminder te ajută să gestionezi hrănirea, mementourile pentru medicamente, jurnalele zilnice și rutinele pentru mai multe animale.",
+      "longDescription": [
+        "Pet Feeding Reminder este o aplicație Android pentru proprietarii care vor să organizeze mai ușor hrănirea și îngrijirea zilnică. Adaugă fiecare animal, setează frecvența meselor și alege ora.",
+        "Aplicația este utilă pentru gospodării cu mai multe animale, precum câini, pisici, țestoase sau alte animale de companie. Vezi ce este scadent acum și marchezi rapid că animalul a fost hrănit.",
+        "Pentru animalele care au nevoie de medicamente, poți crea mementouri cu nume, notiță, număr de doze, frecvență și oră.",
+        "Jurnalele zilnice arată ce a fost făcut și când. Astfel, este mai ușor să verifici dacă fiecare animal a fost hrănit.",
+        "Cu notificări, setări de limbă și mod întunecat, Pet Feeding Reminder face rutina de îngrijire mai clară și mai constantă."
+      ],
+      "bottomCtaDescription": "Păstrează fiecare animal pe program cu planuri clare de hrană, mementouri pentru medicamente, notificări și jurnale zilnice care arată ce a fost deja făcut.",
+      "category": "Îngrijirea animalelor",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Memento Hrănire",
+        "Îngrijire Animale",
+        "Hrănire Câine",
+        "Hrănire Pisică",
+        "Memento Medicamente",
+        "Program De Hrănire",
+        "Jurnal Animale",
+        "Tracker Multi Animal"
+      ],
+      "metaTitle": "Pet Feeding Reminder: hrană, medicamente și jurnale",
+      "metaDescription": "Urmărește programe de hrănire, mementouri pentru medicamente, jurnale zilnice și rutine pentru mai multe animale.",
+      "featureBullets": [
+        {
+          "title": "Profile Multi Animal"
+        },
+        {
+          "title": "Programe De Hrănire"
+        },
+        {
+          "title": "Mementouri Medicamente"
+        },
+        {
+          "title": "Marchează Hrănit"
+        },
+        {
+          "title": "Jurnale Zilnice"
+        },
+        {
+          "title": "Notificări"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Nu Rata Ora Mesei",
+          "description": "Arată ecranul Pets cu activități scadente, lista animalelor, plan de hrănire, buton Mark fed, contor zilnic și buton de adăugare.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Adaugă Animale",
+          "description": "Arată formularul cu nume animal, tip, mese, frecvență, oră și buton de salvare.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Mementouri Pentru Medicamente",
+          "description": "Arată formularul de medicamente cu nume, notiță, doze, frecvență, oră și buton de salvare.",
+          "imagePath": "apps/screenshots/pet-feeding-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Ce pot urmări cu Pet Feeding Reminder?",
+          "answer": "Poți urmări profiluri de animale, frecvența meselor, orele, medicamentele, dozele, notificările și jurnalele zilnice."
+        },
+        {
+          "question": "Pot gestiona mai multe animale?",
+          "answer": "Da. Poți adăuga mai multe profiluri și poți crea un plan separat pentru fiecare animal."
+        },
+        {
+          "question": "Pot marca faptul că un animal a fost hrănit?",
+          "answer": "Da. Când o masă este programată, o poți marca drept finalizată cu o atingere."
+        },
+        {
+          "question": "Aplicația include mementouri pentru medicamente?",
+          "answer": "Da. Poți salva numele medicamentului, notițe, doze, frecvență și oră."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,965 @@
+{
+  "slug": "breathing-exercise",
+  "sortOrder": 27,
+  "kind": "app",
+  "featured": false,
+  "accent": "red",
+  "icon": "apps/icons/breathing-exercise.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.breathingexercise",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "HealthApplication",
+  "relatedSlugs": [
+    "gratitude-journal",
+    "mood-tracker",
+    "sleep-sound-lite"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Breathing Exercise",
+      "summary": "Breathing Exercise is a calm offline breathing timer with guided inhale, hold, and exhale cues, simple breathing modes, daily reminders, and session history.",
+      "longDescription": [
+        "Breathing Exercise is a simple Android app for anyone who wants a calmer way to pause, reset, and follow a structured breathing routine. The app focuses on clear visual cues and easy breathing modes without clutter.",
+        "Choose from simple breathing patterns such as Calm, Box, and 4-7-8. The breathing timer guides you through inhale, hold, and exhale steps with cycle counts, timing details, and a clear Start or Stop button.",
+        "Daily reminders help you build a consistent breathing habit, while sound and dark mode settings let you shape the experience around your environment. The app also supports language settings for a more comfortable routine.",
+        "Completed breathing exercises are saved in session history, making it easy to review your practice over time. Breathing Exercise is designed for quick breaks, evening routines, mindful pauses, and offline breathing practice."
+      ],
+      "bottomCtaDescription": "Build a calmer daily routine with guided breathing sessions you can start anytime. Choose a breathing mode, follow the visual cues, and keep track of completed exercises without extra complexity.",
+      "category": "Health & Wellness",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Breathing Exercise",
+        "Breathing Timer",
+        "Guided Breathing",
+        "Calm Breathing",
+        "Box Breathing",
+        "4-7-8 Breathing",
+        "Relaxation App",
+        "Mindfulness"
+      ],
+      "metaTitle": "Breathing Exercise: Guided Calm Breathing Timer",
+      "metaDescription": "Use guided breathing cues, Calm, Box, and 4-7-8 modes, daily reminders, sound, dark mode, and session history on Android.",
+      "featureBullets": [
+        {
+          "title": "Guided Breathing Timer"
+        },
+        {
+          "title": "Calm Mode"
+        },
+        {
+          "title": "Box Breathing"
+        },
+        {
+          "title": "4-7-8 Breathing"
+        },
+        {
+          "title": "Daily Reminders"
+        },
+        {
+          "title": "Session History"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Start Breathing Calmly",
+          "description": "Show the main breathing screen with the Ready state, Calm, Box, and 4-7-8 mode choices, timing summary, and Start button.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-1.png"
+        },
+        {
+          "title": "Follow Guided Cues",
+          "description": "Show an active breathing session with the circular timer, inhale cue, countdown, cycle number, selected 4-7-8 mode, and Stop button.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-2.png"
+        },
+        {
+          "title": "Set Daily Reminders",
+          "description": "Show the Settings screen with dark mode, language, sound, daily reminder toggle, and the Settings tab selected.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What does Breathing Exercise help me do?",
+          "answer": "It helps you follow structured breathing sessions with visual inhale, hold, and exhale cues, simple modes, reminders, and local session history."
+        },
+        {
+          "question": "Which breathing modes are included?",
+          "answer": "The app includes Calm, Box, and 4-7-8 breathing modes, each with its own timing pattern and guided cycle flow."
+        },
+        {
+          "question": "Can I use Breathing Exercise offline?",
+          "answer": "Yes. The app is presented as an offline breathing timer, so you can start a guided session without needing a complex setup."
+        },
+        {
+          "question": "Does the app save completed breathing sessions?",
+          "answer": "Yes. Completed exercises are saved locally in the Session history screen so you can review your practice."
+        },
+        {
+          "question": "Can I set a daily breathing reminder?",
+          "answer": "Yes. Settings include a daily reminder option, plus sound and dark mode controls."
+        }
+      ]
+    },
+    "de": {
+      "name": "Breathing Exercise",
+      "summary": "Breathing Exercise ist ein ruhiger Offline-Atemtimer mit geführten Einatmen-, Halten- und Ausatmen-Hinweisen, einfachen Atemmodi, täglichen Erinnerungen und Verlauf.",
+      "longDescription": [
+        "Breathing Exercise ist eine einfache Android-App für alle, die eine ruhige Atemroutine in den Alltag bringen möchten. Die App konzentriert sich auf klare visuelle Hinweise und leicht verständliche Atemmodi.",
+        "Wähle zwischen Calm, Box und 4-7-8. Der Atemtimer führt dich durch Einatmen, Halten und Ausatmen, inklusive Countdown, Zykluszähler und kurzer Timing-Übersicht.",
+        "Tägliche Erinnerungen helfen dir, regelmäßig zu üben. Sound, Dunkelmodus und Spracheinstellungen machen die Nutzung angenehmer, egal ob abends, in einer Pause oder vor einer ruhigen Minute.",
+        "Abgeschlossene Atemübungen werden im Sitzungsverlauf gespeichert. So kannst du nachvollziehen, welche Übungen du bereits gemacht hast, ohne dass die App überladen wirkt."
+      ],
+      "bottomCtaDescription": "Schaffe dir eine ruhige Atemroutine für den Alltag. Wähle einen Modus, folge den klaren visuellen Hinweisen und behalte abgeschlossene Übungen ohne unnötige Ablenkung im Blick.",
+      "category": "Gesundheit & Wohlbefinden",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Atemübung",
+        "Atemtimer",
+        "Geführtes Atmen",
+        "Ruhiges Atmen",
+        "Box Breathing",
+        "4-7-8 Atmung",
+        "Entspannungs App",
+        "Achtsamkeit"
+      ],
+      "metaTitle": "Breathing Exercise: geführter Atemtimer",
+      "metaDescription": "Nutze geführte Atemhinweise, Calm, Box und 4-7-8 Modi, tägliche Erinnerungen, Sound, Dunkelmodus und Sitzungsverlauf.",
+      "featureBullets": [
+        {
+          "title": "Geführter Atemtimer"
+        },
+        {
+          "title": "Calm-Modus"
+        },
+        {
+          "title": "Box Breathing"
+        },
+        {
+          "title": "4-7-8 Atmung"
+        },
+        {
+          "title": "Tägliche Erinnerungen"
+        },
+        {
+          "title": "Sitzungsverlauf"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Ruhig Starten",
+          "description": "Zeige den Hauptbildschirm im Ready-Zustand mit Calm, Box und 4-7-8 Auswahl, Timing-Zusammenfassung und Start-Button.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-1.png"
+        },
+        {
+          "title": "Atemhinweisen Folgen",
+          "description": "Zeige eine aktive Atemübung mit rundem Timer, Einatmen-Hinweis, Countdown, Zyklusnummer, ausgewähltem 4-7-8 Modus und Stop-Button.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-2.png"
+        },
+        {
+          "title": "Täglich Erinnern",
+          "description": "Zeige die Einstellungen mit Dunkelmodus, Sprache, Sound, täglicher Erinnerung und aktivem Einstellungen-Tab.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wofür ist Breathing Exercise gedacht?",
+          "answer": "Die App hilft dir, geführte Atemübungen mit Einatmen-, Halten- und Ausatmen-Hinweisen, Atemmodi, Erinnerungen und Verlauf zu nutzen."
+        },
+        {
+          "question": "Welche Atemmodi gibt es?",
+          "answer": "Es gibt Calm, Box und 4-7-8, jeweils mit eigenem Timing und geführten Atemzyklen."
+        },
+        {
+          "question": "Kann ich die App offline verwenden?",
+          "answer": "Ja. Breathing Exercise ist als Offline-Atemtimer gestaltet und kann ohne komplexe Einrichtung genutzt werden."
+        },
+        {
+          "question": "Gibt es einen Verlauf der Übungen?",
+          "answer": "Ja. Abgeschlossene Atemübungen werden lokal im Sitzungsverlauf gespeichert."
+        },
+        {
+          "question": "Kann ich tägliche Erinnerungen aktivieren?",
+          "answer": "Ja. In den Einstellungen findest du tägliche Erinnerungen sowie Sound- und Dunkelmodus-Optionen."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Breathing Exercise",
+      "summary": "Breathing Exercise est un minuteur de respiration hors ligne avec des indications guidées, des modes simples, des rappels quotidiens et un historique de séances.",
+      "longDescription": [
+        "Breathing Exercise est une application Android simple pour pratiquer des exercices de respiration structurés. Elle privilégie une interface claire, des repères visuels doux et une expérience facile à lancer.",
+        "Choisissez un mode comme Calm, Box ou 4-7-8. Le minuteur vous guide à travers les étapes inspirer, retenir et expirer avec un compte à rebours, un nombre de cycles et un résumé du rythme.",
+        "Les rappels quotidiens vous aident à créer une habitude régulière. Le son, le mode sombre et les options de langue permettent d’adapter l’app à votre moment de pratique.",
+        "L’historique de séances conserve les exercices terminés localement. Vous pouvez ainsi suivre votre régularité sans fonctionnalités inutiles ni surcharge."
+      ],
+      "bottomCtaDescription": "Installez une routine plus calme en quelques instants. Choisissez un mode de respiration, suivez les repères visuels et gardez une trace de vos exercices terminés.",
+      "category": "Santé et bien-être",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Exercice De Respiration",
+        "Minuteur Respiration",
+        "Respiration Guidée",
+        "Respiration Calme",
+        "Box Breathing",
+        "Respiration 4-7-8",
+        "Application Relaxation",
+        "Pleine Conscience"
+      ],
+      "metaTitle": "Breathing Exercise : minuteur de respiration guidée",
+      "metaDescription": "Suivez des exercices Calm, Box et 4-7-8 avec repères visuels, rappels quotidiens, son, mode sombre et historique.",
+      "featureBullets": [
+        {
+          "title": "Minuteur Guidé"
+        },
+        {
+          "title": "Mode Calm"
+        },
+        {
+          "title": "Box Breathing"
+        },
+        {
+          "title": "Respiration 4-7-8"
+        },
+        {
+          "title": "Rappels Quotidiens"
+        },
+        {
+          "title": "Historique Des Séances"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Respirez Calmement",
+          "description": "Montrer l’écran principal avec l’état Ready, les modes Calm, Box et 4-7-8, le résumé du rythme et le bouton Start.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-1.png"
+        },
+        {
+          "title": "Suivre Les Repères",
+          "description": "Montrer une séance active avec minuteur circulaire, indication Inhale, compte à rebours, cycle, mode 4-7-8 sélectionné et bouton Stop.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-2.png"
+        },
+        {
+          "title": "Rappels Quotidiens",
+          "description": "Montrer les réglages avec mode sombre, langue, son, rappel quotidien et onglet Settings sélectionné.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "À quoi sert Breathing Exercise ?",
+          "answer": "L’application aide à suivre des séances de respiration guidées avec des étapes d’inspiration, de rétention et d’expiration."
+        },
+        {
+          "question": "Quels modes de respiration sont disponibles ?",
+          "answer": "Les modes Calm, Box et 4-7-8 sont proposés avec des rythmes et cycles guidés."
+        },
+        {
+          "question": "Puis-je utiliser l’application hors ligne ?",
+          "answer": "Oui. L’app est conçue comme un minuteur de respiration hors ligne avec des repères simples."
+        },
+        {
+          "question": "Les séances terminées sont-elles enregistrées ?",
+          "answer": "Oui. Les exercices terminés sont enregistrés localement dans l’historique des séances."
+        },
+        {
+          "question": "Puis-je activer un rappel quotidien ?",
+          "answer": "Oui. Les réglages incluent un rappel quotidien, le son et le mode sombre."
+        }
+      ]
+    },
+    "it": {
+      "name": "Breathing Exercise",
+      "summary": "Breathing Exercise è un timer di respirazione offline con indicazioni guidate, modalità semplici, promemoria giornalieri e storico delle sessioni.",
+      "longDescription": [
+        "Breathing Exercise è un’app Android semplice per praticare esercizi di respirazione in modo chiaro e tranquillo. L’interfaccia punta su segnali visivi, ritmo guidato e avvio rapido.",
+        "Puoi scegliere tra Calm, Box e 4-7-8. Il timer ti accompagna nelle fasi di inspirazione, pausa ed espirazione, mostrando conto alla rovescia, ciclo e riepilogo dei tempi.",
+        "I promemoria giornalieri aiutano a mantenere una routine costante. Suono, modalità scura e lingua rendono l’esperienza più adatta al tuo momento della giornata.",
+        "Lo storico delle sessioni salva localmente gli esercizi completati. Così puoi rivedere la tua pratica senza appesantire l’esperienza con funzioni superflue."
+      ],
+      "bottomCtaDescription": "Crea una routine più calma con esercizi di respirazione guidati. Scegli una modalità, segui i segnali visivi e controlla le sessioni completate quando vuoi.",
+      "category": "Salute e benessere",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Esercizio Di Respirazione",
+        "Timer Respirazione",
+        "Respirazione Guidata",
+        "Respirazione Calma",
+        "Box Breathing",
+        "Respirazione 4-7-8",
+        "App Relax",
+        "Mindfulness"
+      ],
+      "metaTitle": "Breathing Exercise: timer di respirazione guidata",
+      "metaDescription": "Segui le modalità Calm, Box e 4-7-8 con indicazioni visive, promemoria giornalieri, suono, tema scuro e storico.",
+      "featureBullets": [
+        {
+          "title": "Timer Guidato"
+        },
+        {
+          "title": "Modalità Calm"
+        },
+        {
+          "title": "Box Breathing"
+        },
+        {
+          "title": "Respirazione 4-7-8"
+        },
+        {
+          "title": "Promemoria Giornalieri"
+        },
+        {
+          "title": "Storico Sessioni"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Inizia Con Calma",
+          "description": "Mostrare la schermata principale in stato Ready con modalità Calm, Box e 4-7-8, riepilogo dei tempi e pulsante Start.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-1.png"
+        },
+        {
+          "title": "Segui Le Indicazioni",
+          "description": "Mostrare una sessione attiva con timer circolare, indicazione Inhale, conto alla rovescia, ciclo, modalità 4-7-8 selezionata e pulsante Stop.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-2.png"
+        },
+        {
+          "title": "Promemoria Quotidiani",
+          "description": "Mostrare le impostazioni con modalità scura, lingua, suono, promemoria giornaliero e tab Settings selezionata.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "A cosa serve Breathing Exercise?",
+          "answer": "Serve a seguire esercizi di respirazione guidati con fasi di inspirazione, pausa ed espirazione, timer e storico."
+        },
+        {
+          "question": "Quali modalità di respirazione include?",
+          "answer": "Include Calm, Box e 4-7-8, ognuna con un ritmo guidato e cicli dedicati."
+        },
+        {
+          "question": "Posso usare l’app offline?",
+          "answer": "Sì. L’app è pensata come timer di respirazione offline con indicazioni semplici."
+        },
+        {
+          "question": "Le sessioni completate vengono salvate?",
+          "answer": "Sì. Gli esercizi completati vengono salvati localmente nello storico sessioni."
+        },
+        {
+          "question": "Posso impostare un promemoria giornaliero?",
+          "answer": "Sì. Nelle impostazioni puoi attivare il promemoria giornaliero, il suono e la modalità scura."
+        }
+      ]
+    },
+    "es": {
+      "name": "Breathing Exercise",
+      "summary": "Breathing Exercise es un temporizador de respiración offline con guías para inhalar, mantener y exhalar, modos simples, recordatorios diarios e historial.",
+      "longDescription": [
+        "Breathing Exercise es una app Android sencilla para practicar respiración guiada con una experiencia clara y tranquila. Está pensada para pausas rápidas, rutinas diarias y momentos de calma.",
+        "Elige entre modos como Calm, Box y 4-7-8. El temporizador te guía por inhalar, mantener y exhalar, con cuenta atrás, ciclos y resumen del patrón elegido.",
+        "Los recordatorios diarios ayudan a crear una práctica constante. También puedes ajustar sonido, modo oscuro e idioma desde la pantalla de configuración.",
+        "El historial de sesiones guarda localmente los ejercicios completados, para que puedas revisar tu práctica sin añadir complejidad innecesaria."
+      ],
+      "bottomCtaDescription": "Crea una rutina de calma con sesiones guiadas que puedes iniciar en cualquier momento. Elige un modo, sigue las señales visuales y revisa tus ejercicios completados.",
+      "category": "Salud y bienestar",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Ejercicio De Respiración",
+        "Temporizador Respiración",
+        "Respiración Guiada",
+        "Respiración Calmante",
+        "Box Breathing",
+        "Respiración 4-7-8",
+        "App Relajación",
+        "Mindfulness"
+      ],
+      "metaTitle": "Breathing Exercise: temporizador de respiración guiada",
+      "metaDescription": "Practica respiración Calm, Box y 4-7-8 con guías visuales, recordatorios diarios, sonido, modo oscuro e historial.",
+      "featureBullets": [
+        {
+          "title": "Temporizador Guiado"
+        },
+        {
+          "title": "Modo Calm"
+        },
+        {
+          "title": "Box Breathing"
+        },
+        {
+          "title": "Respiración 4-7-8"
+        },
+        {
+          "title": "Recordatorios Diarios"
+        },
+        {
+          "title": "Historial De Sesiones"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Empieza Con Calma",
+          "description": "Mostrar la pantalla principal en estado Ready con modos Calm, Box y 4-7-8, resumen de tiempos y botón Start.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-1.png"
+        },
+        {
+          "title": "Sigue Las Guías",
+          "description": "Mostrar una sesión activa con temporizador circular, señal Inhale, cuenta atrás, ciclo, modo 4-7-8 seleccionado y botón Stop.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-2.png"
+        },
+        {
+          "title": "Recordatorios Diarios",
+          "description": "Mostrar ajustes con modo oscuro, idioma, sonido, recordatorio diario y pestaña Settings seleccionada.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Para qué sirve Breathing Exercise?",
+          "answer": "Sirve para seguir ejercicios de respiración guiados con señales de inhalar, mantener y exhalar, modos simples e historial."
+        },
+        {
+          "question": "¿Qué modos de respiración incluye?",
+          "answer": "Incluye Calm, Box y 4-7-8, con tiempos y ciclos guiados para cada modo."
+        },
+        {
+          "question": "¿Puedo usar la app sin conexión?",
+          "answer": "Sí. La app está presentada como un temporizador de respiración offline."
+        },
+        {
+          "question": "¿Guarda las sesiones completadas?",
+          "answer": "Sí. Los ejercicios completados se guardan localmente en el historial de sesiones."
+        },
+        {
+          "question": "¿Puedo activar un recordatorio diario?",
+          "answer": "Sí. En ajustes puedes activar el recordatorio diario, el sonido y el modo oscuro."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Breathing Exercise",
+      "summary": "Breathing Exercise é um temporizador de respiração offline com indicações para inspirar, manter e expirar, modos simples, lembretes diários e histórico.",
+      "longDescription": [
+        "Breathing Exercise é uma aplicação Android simples para praticar respiração guiada com clareza e tranquilidade. É útil para pausas rápidas, rotinas diárias e momentos de foco calmo.",
+        "Escolha entre Calm, Box e 4-7-8. O temporizador guia cada fase de inspirar, manter e expirar, com contagem decrescente, ciclos e resumo do padrão escolhido.",
+        "Os lembretes diários ajudam a manter uma prática regular. Também pode ajustar som, modo escuro e idioma nas definições.",
+        "O histórico de sessões guarda localmente os exercícios concluídos, permitindo rever a prática sem tornar a app complicada."
+      ],
+      "bottomCtaDescription": "Crie uma rotina mais calma com sessões de respiração guiada que pode iniciar a qualquer momento. Escolha um modo, siga as pistas visuais e reveja os exercícios concluídos.",
+      "category": "Saúde e bem-estar",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Exercício De Respiração",
+        "Temporizador Respiração",
+        "Respiração Guiada",
+        "Respiração Calma",
+        "Box Breathing",
+        "Respiração 4-7-8",
+        "App Relaxamento",
+        "Mindfulness"
+      ],
+      "metaTitle": "Breathing Exercise: temporizador de respiração guiada",
+      "metaDescription": "Use modos Calm, Box e 4-7-8 com pistas visuais, lembretes diários, som, modo escuro e histórico de sessões.",
+      "featureBullets": [
+        {
+          "title": "Temporizador Guiado"
+        },
+        {
+          "title": "Modo Calm"
+        },
+        {
+          "title": "Box Breathing"
+        },
+        {
+          "title": "Respiração 4-7-8"
+        },
+        {
+          "title": "Lembretes Diários"
+        },
+        {
+          "title": "Histórico De Sessões"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Comece Com Calma",
+          "description": "Mostrar o ecrã principal em estado Ready com modos Calm, Box e 4-7-8, resumo dos tempos e botão Start.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-1.png"
+        },
+        {
+          "title": "Siga As Indicações",
+          "description": "Mostrar uma sessão ativa com temporizador circular, indicação Inhale, contagem, ciclo, modo 4-7-8 selecionado e botão Stop.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-2.png"
+        },
+        {
+          "title": "Lembretes Diários",
+          "description": "Mostrar as definições com modo escuro, idioma, som, lembrete diário e separador Settings selecionado.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Para que serve Breathing Exercise?",
+          "answer": "Serve para seguir exercícios de respiração guiada com fases de inspirar, manter e expirar, modos simples e histórico."
+        },
+        {
+          "question": "Que modos de respiração estão incluídos?",
+          "answer": "A app inclui Calm, Box e 4-7-8, cada um com tempos e ciclos guiados."
+        },
+        {
+          "question": "Posso usar a app offline?",
+          "answer": "Sim. A app é apresentada como um temporizador de respiração offline."
+        },
+        {
+          "question": "As sessões concluídas ficam guardadas?",
+          "answer": "Sim. Os exercícios concluídos são guardados localmente no histórico de sessões."
+        },
+        {
+          "question": "Posso ativar um lembrete diário?",
+          "answer": "Sim. Nas definições pode ativar o lembrete diário, o som e o modo escuro."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Breathing Exercise",
+      "summary": "Breathing Exercise је једноставан офлајн тајмер за дисање са вођеним корацима за удах, задржавање и издах, дневним подсетницима и историјом.",
+      "longDescription": [
+        "Breathing Exercise је једноставна Android апликација за вођене вежбе дисања. Направљена је за кратке паузе, мирније вечери и рутину дисања без непотребних опција.",
+        "Изаберите Calm, Box или 4-7-8 режим. Тајмер вас води кроз удах, задржавање и издах, са одбројавањем, бројем циклуса и кратким приказом трајања.",
+        "Дневни подсетници помажу да вежбање постане редовније. У подешавањима можете управљати звуком, тамним режимом и језиком.",
+        "Завршене сесије се чувају локално у историји. Тако можете прегледати своје вежбе без компликованог праћења."
+      ],
+      "bottomCtaDescription": "Направите мирнију дневну рутину уз вођене вежбе дисања које можете покренути у сваком тренутку. Изаберите режим, пратите визуелне смернице и прегледајте завршене сесије.",
+      "category": "Здравље и благостање",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Вежбе Дисања",
+        "Тајмер За Дисање",
+        "Вођено Дисање",
+        "Мирно Дисање",
+        "Box Breathing",
+        "4-7-8 Дисање",
+        "Апликација За Опуштање",
+        "Свесна Пажња"
+      ],
+      "metaTitle": "Breathing Exercise: вођени тајмер за дисање",
+      "metaDescription": "Пратите Calm, Box и 4-7-8 дисање уз визуелне смернице, дневне подсетнике, звук, тамни режим и историју.",
+      "featureBullets": [
+        {
+          "title": "Вођени Тајмер"
+        },
+        {
+          "title": "Calm Режим"
+        },
+        {
+          "title": "Box Breathing"
+        },
+        {
+          "title": "4-7-8 Дисање"
+        },
+        {
+          "title": "Дневни Подсетници"
+        },
+        {
+          "title": "Историја Сесија"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Почните Мирно",
+          "description": "Приказати главни екран у Ready стању са Calm, Box и 4-7-8 режимима, приказом трајања и Start дугметом.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-1.png"
+        },
+        {
+          "title": "Пратите Смернице",
+          "description": "Приказати активну сесију са кружним тајмером, Inhale смерницом, одбројавањем, циклусом, изабраним 4-7-8 режимом и Stop дугметом.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-2.png"
+        },
+        {
+          "title": "Дневни Подсетници",
+          "description": "Приказати подешавања са тамним режимом, језиком, звуком, дневним подсетником и изабраним Settings табом.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Чему служи Breathing Exercise?",
+          "answer": "Апликација помаже да пратите вођене вежбе дисања са корацима за удах, задржавање и издах."
+        },
+        {
+          "question": "Који режими дисања постоје?",
+          "answer": "Доступни су Calm, Box и 4-7-8 режими, сваки са својим вођеним ритмом и циклусима."
+        },
+        {
+          "question": "Могу ли да користим апликацију офлајн?",
+          "answer": "Да. Апликација је осмишљена као офлајн тајмер за дисање."
+        },
+        {
+          "question": "Да ли се чувају завршене сесије?",
+          "answer": "Да. Завршене вежбе се локално чувају у историји сесија."
+        },
+        {
+          "question": "Могу ли да укључим дневни подсетник?",
+          "answer": "Да. У подешавањима можете укључити дневни подсетник, звук и тамни режим."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Breathing Exercise",
+      "summary": "Breathing Exercise je jednostavan offline timer za disanje s vođenim koracima za udah, zadržavanje i izdah, dnevnim podsjetnicima i poviješću.",
+      "longDescription": [
+        "Breathing Exercise je jednostavna Android aplikacija za vođene vježbe disanja. Namijenjena je kratkim pauzama, večernim rutinama i trenucima kada želite mirniji ritam.",
+        "Odaberite Calm, Box ili 4-7-8 način. Timer vas vodi kroz udah, zadržavanje i izdah, uz odbrojavanje, broj ciklusa i kratki prikaz trajanja.",
+        "Dnevni podsjetnici pomažu vam održati redovitost. U postavkama možete upravljati zvukom, tamnim načinom i jezikom.",
+        "Završene sesije spremaju se lokalno u povijest. Tako možete pregledati svoje vježbe bez nepotrebne složenosti."
+      ],
+      "bottomCtaDescription": "Izgradite mirniju dnevnu rutinu uz vođene vježbe disanja koje možete pokrenuti bilo kada. Odaberite način, pratite vizualne upute i pregledajte završene sesije.",
+      "category": "Zdravlje i dobrobit",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Vježbe Disanja",
+        "Timer Za Disanje",
+        "Vođeno Disanje",
+        "Mirno Disanje",
+        "Box Breathing",
+        "4-7-8 Disanje",
+        "Aplikacija Za Opuštanje",
+        "Mindfulness"
+      ],
+      "metaTitle": "Breathing Exercise: vođeni timer za disanje",
+      "metaDescription": "Pratite Calm, Box i 4-7-8 disanje uz vizualne upute, dnevne podsjetnike, zvuk, tamni način i povijest.",
+      "featureBullets": [
+        {
+          "title": "Vođeni Timer"
+        },
+        {
+          "title": "Calm Način"
+        },
+        {
+          "title": "Box Breathing"
+        },
+        {
+          "title": "4-7-8 Disanje"
+        },
+        {
+          "title": "Dnevni Podsjetnici"
+        },
+        {
+          "title": "Povijest Sesija"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Počnite Mirno",
+          "description": "Prikazati glavni zaslon u Ready stanju s Calm, Box i 4-7-8 načinima, prikazom trajanja i gumbom Start.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-1.png"
+        },
+        {
+          "title": "Pratite Upute",
+          "description": "Prikazati aktivnu sesiju s kružnim timerom, Inhale uputom, odbrojavanjem, ciklusom, odabranim 4-7-8 načinom i gumbom Stop.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-2.png"
+        },
+        {
+          "title": "Dnevni Podsjetnici",
+          "description": "Prikazati postavke s tamnim načinom, jezikom, zvukom, dnevnim podsjetnikom i odabranom karticom Settings.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Čemu služi Breathing Exercise?",
+          "answer": "Aplikacija pomaže pratiti vođene vježbe disanja s koracima za udah, zadržavanje i izdah."
+        },
+        {
+          "question": "Koji su načini disanja dostupni?",
+          "answer": "Dostupni su Calm, Box i 4-7-8 načini, svaki s vlastitim ritmom i ciklusima."
+        },
+        {
+          "question": "Mogu li koristiti aplikaciju offline?",
+          "answer": "Da. Aplikacija je predstavljena kao offline timer za disanje."
+        },
+        {
+          "question": "Spremaju li se završene sesije?",
+          "answer": "Da. Završene vježbe spremaju se lokalno u povijest sesija."
+        },
+        {
+          "question": "Mogu li uključiti dnevni podsjetnik?",
+          "answer": "Da. U postavkama možete uključiti dnevni podsjetnik, zvuk i tamni način."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Breathing Exercise",
+      "summary": "Breathing Exercise is een rustige offline ademhalingstimer met begeleide inhale-, hold- en exhale-cues, eenvoudige modi, dagelijkse reminders en sessiegeschiedenis.",
+      "longDescription": [
+        "Breathing Exercise is een eenvoudige Android-app voor begeleide ademhaling. De app is gemaakt voor korte pauzes, rustige routines en een duidelijke timer zonder afleiding.",
+        "Kies uit Calm, Box en 4-7-8. De ademhalingstimer begeleidt je door inademen, vasthouden en uitademen, met aftelling, cycli en een korte timingbeschrijving.",
+        "Dagelijkse reminders helpen je om een regelmatige routine op te bouwen. Geluid, donkere modus en taalinstellingen maken de ervaring prettiger voor verschillende momenten.",
+        "Voltooide sessies worden lokaal opgeslagen in de sessiegeschiedenis. Zo kun je je oefeningen terugzien zonder ingewikkelde statistieken."
+      ],
+      "bottomCtaDescription": "Bouw een rustige ademroutine op met begeleide sessies die je op elk moment kunt starten. Kies een modus, volg de visuele aanwijzingen en bekijk je voltooide oefeningen.",
+      "category": "Gezondheid & welzijn",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Ademhalingsoefening",
+        "Ademhaling Timer",
+        "Begeleide Ademhaling",
+        "Rustig Ademen",
+        "Box Breathing",
+        "4-7-8 Ademhaling",
+        "Ontspanning App",
+        "Mindfulness"
+      ],
+      "metaTitle": "Breathing Exercise: begeleide ademhalingstimer",
+      "metaDescription": "Gebruik Calm, Box en 4-7-8 ademhaling met visuele cues, dagelijkse reminders, geluid, donkere modus en sessiegeschiedenis.",
+      "featureBullets": [
+        {
+          "title": "Begeleide Timer"
+        },
+        {
+          "title": "Calm Mode"
+        },
+        {
+          "title": "Box Breathing"
+        },
+        {
+          "title": "4-7-8 Ademhaling"
+        },
+        {
+          "title": "Dagelijkse Reminders"
+        },
+        {
+          "title": "Sessiegeschiedenis"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Rustig Beginnen",
+          "description": "Toon het hoofdscherm in Ready-status met Calm, Box en 4-7-8 modi, timingoverzicht en Start-knop.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-1.png"
+        },
+        {
+          "title": "Volg De Cues",
+          "description": "Toon een actieve sessie met ronde timer, Inhale-cue, aftelling, cyclus, geselecteerde 4-7-8 modus en Stop-knop.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-2.png"
+        },
+        {
+          "title": "Dagelijkse Reminders",
+          "description": "Toon instellingen met donkere modus, taal, geluid, dagelijkse reminder en geselecteerde Settings-tab.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Waarvoor gebruik ik Breathing Exercise?",
+          "answer": "Je gebruikt de app voor begeleide ademhaling met stappen voor inademen, vasthouden en uitademen."
+        },
+        {
+          "question": "Welke ademhalingsmodi zijn beschikbaar?",
+          "answer": "De app bevat Calm, Box en 4-7-8, elk met eigen timing en begeleide cycli."
+        },
+        {
+          "question": "Kan ik de app offline gebruiken?",
+          "answer": "Ja. De app is bedoeld als offline ademhalingstimer."
+        },
+        {
+          "question": "Worden voltooide sessies opgeslagen?",
+          "answer": "Ja. Voltooide oefeningen worden lokaal opgeslagen in de sessiegeschiedenis."
+        },
+        {
+          "question": "Kan ik een dagelijkse reminder instellen?",
+          "answer": "Ja. In de instellingen kun je dagelijkse reminders, geluid en donkere modus beheren."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Breathing Exercise",
+      "summary": "Breathing Exercise to prosty timer oddechowy offline z prowadzeniem wdechu, zatrzymania i wydechu, trybami ćwiczeń, przypomnieniami i historią.",
+      "longDescription": [
+        "Breathing Exercise to prosta aplikacja na Androida do prowadzonych ćwiczeń oddechowych. Sprawdza się przy krótkich przerwach, spokojnych rytuałach i codziennej praktyce.",
+        "Wybierz tryb Calm, Box lub 4-7-8. Timer prowadzi przez wdech, zatrzymanie i wydech, pokazując odliczanie, cykl oraz podsumowanie rytmu.",
+        "Codzienne przypomnienia pomagają utrzymać regularność. W ustawieniach możesz zarządzać dźwiękiem, ciemnym motywem i językiem.",
+        "Ukończone sesje są zapisywane lokalnie w historii. Dzięki temu możesz wrócić do swoich ćwiczeń bez rozbudowanych i zbędnych funkcji."
+      ],
+      "bottomCtaDescription": "Zbuduj spokojniejszą codzienną rutynę dzięki prowadzonym ćwiczeniom oddechowym. Wybierz tryb, podążaj za wskazówkami i sprawdzaj ukończone sesje.",
+      "category": "Zdrowie i dobre samopoczucie",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Ćwiczenia Oddechowe",
+        "Timer Oddechu",
+        "Oddychanie Prowadzone",
+        "Spokojny Oddech",
+        "Box Breathing",
+        "Oddychanie 4-7-8",
+        "Aplikacja Relaksacyjna",
+        "Mindfulness"
+      ],
+      "metaTitle": "Breathing Exercise: prowadzony timer oddechowy",
+      "metaDescription": "Ćwicz tryby Calm, Box i 4-7-8 z wizualnymi wskazówkami, przypomnieniami, dźwiękiem, ciemnym motywem i historią.",
+      "featureBullets": [
+        {
+          "title": "Prowadzony Timer"
+        },
+        {
+          "title": "Tryb Calm"
+        },
+        {
+          "title": "Box Breathing"
+        },
+        {
+          "title": "Oddychanie 4-7-8"
+        },
+        {
+          "title": "Codzienne Przypomnienia"
+        },
+        {
+          "title": "Historia Sesji"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Zacznij Spokojnie",
+          "description": "Pokazać ekran główny w stanie Ready z trybami Calm, Box i 4-7-8, podsumowaniem czasu i przyciskiem Start.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-1.png"
+        },
+        {
+          "title": "Podążaj Za Wskazówkami",
+          "description": "Pokazać aktywną sesję z okrągłym timerem, wskazówką Inhale, odliczaniem, cyklem, wybranym trybem 4-7-8 i przyciskiem Stop.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-2.png"
+        },
+        {
+          "title": "Codzienne Przypomnienia",
+          "description": "Pokazać ustawienia z ciemnym motywem, językiem, dźwiękiem, codziennym przypomnieniem i wybraną kartą Settings.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do czego służy Breathing Exercise?",
+          "answer": "Aplikacja pomaga wykonywać prowadzone ćwiczenia oddechowe z etapami wdechu, zatrzymania i wydechu."
+        },
+        {
+          "question": "Jakie tryby oddechu są dostępne?",
+          "answer": "Dostępne są Calm, Box i 4-7-8, każdy z własnym rytmem i prowadzonymi cyklami."
+        },
+        {
+          "question": "Czy aplikacja działa offline?",
+          "answer": "Tak. Aplikacja jest przedstawiona jako timer oddechowy offline."
+        },
+        {
+          "question": "Czy ukończone sesje są zapisywane?",
+          "answer": "Tak. Ukończone ćwiczenia są zapisywane lokalnie w historii sesji."
+        },
+        {
+          "question": "Czy mogę ustawić codzienne przypomnienie?",
+          "answer": "Tak. W ustawieniach dostępne są codzienne przypomnienia, dźwięk i ciemny motyw."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Breathing Exercise",
+      "summary": "Breathing Exercise este un temporizator offline pentru respirație, cu ghidare pentru inspirare, pauză și expirare, moduri simple, mementouri și istoric.",
+      "longDescription": [
+        "Breathing Exercise este o aplicație Android simplă pentru exerciții de respirație ghidată. Este potrivită pentru pauze scurte, rutine liniștite și momente în care vrei să urmezi un ritm clar.",
+        "Alege dintre modurile Calm, Box și 4-7-8. Temporizatorul te ghidează prin inspirare, pauză și expirare, cu numărătoare inversă, cicluri și rezumatul timpilor.",
+        "Mementourile zilnice te ajută să păstrezi o rutină constantă. Setările includ sunet, mod întunecat și opțiuni de limbă.",
+        "Sesiunile finalizate sunt salvate local în istoricul exercițiilor. Astfel, poți vedea ce ai completat fără funcții inutile."
+      ],
+      "bottomCtaDescription": "Construiește o rutină mai calmă cu sesiuni de respirație ghidată pe care le poți începe oricând. Alege un mod, urmărește indicațiile vizuale și verifică sesiunile finalizate.",
+      "category": "Sănătate și stare de bine",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Exerciții De Respirație",
+        "Temporizator Respirație",
+        "Respirație Ghidată",
+        "Respirație Calmă",
+        "Box Breathing",
+        "Respirație 4-7-8",
+        "Aplicație Relaxare",
+        "Mindfulness"
+      ],
+      "metaTitle": "Breathing Exercise: temporizator de respirație ghidată",
+      "metaDescription": "Folosește modurile Calm, Box și 4-7-8 cu indicații vizuale, mementouri zilnice, sunet, mod întunecat și istoric.",
+      "featureBullets": [
+        {
+          "title": "Temporizator Ghidat"
+        },
+        {
+          "title": "Mod Calm"
+        },
+        {
+          "title": "Box Breathing"
+        },
+        {
+          "title": "Respirație 4-7-8"
+        },
+        {
+          "title": "Mementouri Zilnice"
+        },
+        {
+          "title": "Istoric Sesiuni"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Începe Calm",
+          "description": "Arată ecranul principal în starea Ready cu modurile Calm, Box și 4-7-8, rezumatul timpilor și butonul Start.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-1.png"
+        },
+        {
+          "title": "Urmărește Indicațiile",
+          "description": "Arată o sesiune activă cu temporizator circular, indicația Inhale, numărătoare inversă, ciclu, modul 4-7-8 selectat și butonul Stop.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-2.png"
+        },
+        {
+          "title": "Mementouri Zilnice",
+          "description": "Arată setările cu mod întunecat, limbă, sunet, memento zilnic și fila Settings selectată.",
+          "imagePath": "apps/screenshots/breathing-exercise/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "La ce folosește Breathing Exercise?",
+          "answer": "Aplicația te ajută să urmezi exerciții de respirație ghidată cu pași pentru inspirare, pauză și expirare."
+        },
+        {
+          "question": "Ce moduri de respirație sunt incluse?",
+          "answer": "Sunt incluse modurile Calm, Box și 4-7-8, fiecare cu ritm și cicluri ghidate."
+        },
+        {
+          "question": "Pot folosi aplicația offline?",
+          "answer": "Da. Aplicația este prezentată ca temporizator offline pentru respirație."
+        },
+        {
+          "question": "Sesiunile finalizate sunt salvate?",
+          "answer": "Da. Exercițiile finalizate sunt salvate local în istoricul sesiunilor."
+        },
+        {
+          "question": "Pot seta un memento zilnic?",
+          "answer": "Da. Setările includ memento zilnic, sunet și mod întunecat."
+        }
+      ]
+    }
+  }
+}

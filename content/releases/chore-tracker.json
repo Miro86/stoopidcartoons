@@ -1,0 +1,940 @@
+{
+  "slug": "chore-tracker",
+  "sortOrder": 25,
+  "kind": "app",
+  "featured": false,
+  "accent": "green",
+  "icon": "apps/icons/chore-tracker.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.choretracker",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "ProductivityApplication",
+  "relatedSlugs": [
+    "subscription-tracker",
+    "bill-reminder",
+    "daily-checklist"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Chore Tracker",
+      "summary": "Chore Tracker helps you organize household tasks, assign chores, set repeat schedules, complete tasks with one tap, and review completion history.",
+      "longDescription": [
+        "Chore Tracker is a simple Android app for keeping household tasks organized. It helps you see what is due today, manage active chores, and keep shared home routines easier to follow.",
+        "Add chores with a task name, assignee, and repeat schedule such as daily, every 2 days, or weekly. Whether you are tracking cleaning, bathroom tasks, laundry, or other recurring home duties, the app keeps the routine clear.",
+        "The Today screen shows a household board with progress, due chores, active chores, and a quick Complete button. One-tap completion makes it easy to update progress as soon as a task is done.",
+        "Completion history lets you review what was finished and when, making household progress easier to understand over time. Settings include dark mode, sound, and daily reminders for due chores.",
+        "Designed for families, roommates, and anyone who wants a cleaner routine, Chore Tracker makes household organization feel lighter and more consistent."
+      ],
+      "bottomCtaDescription": "Keep your home running with less friction. Add recurring chores, see what is due today, track shared progress, and stay on top of daily household routines with simple reminders.",
+      "category": "Productivity",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Chore Tracker",
+        "Household Tasks",
+        "Cleaning Schedule",
+        "Family Organizer",
+        "Task Reminder",
+        "Recurring Chores",
+        "Completion History",
+        "Home Productivity"
+      ],
+      "metaTitle": "Chore Tracker: Household Tasks and Chore Reminders",
+      "metaDescription": "Organize household chores, assign tasks, set repeat schedules, complete chores fast, and review completion history with Chore Tracker.",
+      "featureBullets": [
+        {
+          "title": "Today Chore Board"
+        },
+        {
+          "title": "Recurring Task Schedules"
+        },
+        {
+          "title": "Assignee Tracking"
+        },
+        {
+          "title": "One-Tap Completion"
+        },
+        {
+          "title": "Completion History"
+        },
+        {
+          "title": "Daily Reminders"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "See What’s Due",
+          "description": "Show the Today screen with the household board, progress ring, due today count, active chores, assignee, repeat schedule, and Add chore button.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Add Chores Easily",
+          "description": "Show the New chore form with chore name, assignee, repeat schedule options such as Daily, Every 2 days, Weekly, and Save button.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-2.png"
+        },
+        {
+          "title": "View Completion History",
+          "description": "Show the completion history screen with a completed chore entry, completion date and time, and the History tab selected.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What can I track with Chore Tracker?",
+          "answer": "You can track household chores, assignees, repeat schedules, today’s due tasks, active chores, completed chores, and completion history."
+        },
+        {
+          "question": "Can I create recurring chores?",
+          "answer": "Yes. You can create chores with repeat schedules such as daily, every 2 days, or weekly."
+        },
+        {
+          "question": "Can chores be assigned to a person?",
+          "answer": "Yes. When adding a chore, you can enter an assignee so it is clear who is responsible for the task."
+        },
+        {
+          "question": "Does Chore Tracker keep a history of completed tasks?",
+          "answer": "Yes. The History screen shows completed chores and when they were done."
+        },
+        {
+          "question": "Does the app support reminders?",
+          "answer": "Yes. Settings include daily reminders for due chores, along with sound and dark mode options."
+        }
+      ]
+    },
+    "de": {
+      "name": "Chore Tracker",
+      "summary": "Chore Tracker hilft dir, Haushaltsaufgaben zu organisieren, Aufgaben zuzuweisen, Wiederholungen festzulegen, Erledigtes schnell abzuhaken und den Verlauf zu prüfen.",
+      "longDescription": [
+        "Chore Tracker ist eine einfache Android-App, mit der Haushaltsaufgaben übersichtlich bleiben. Du siehst, was heute fällig ist, welche Aufgaben aktiv sind und wie der Fortschritt im Haushalt aussieht.",
+        "Lege Aufgaben mit Namen, zuständiger Person und Wiederholungsplan an, zum Beispiel täglich, alle 2 Tage oder wöchentlich. So lassen sich Putzen, Bad reinigen, Wäsche und andere regelmäßige Routinen leichter strukturieren.",
+        "Der Heute-Bereich zeigt ein Haushaltsboard mit Fortschritt, fälligen Aufgaben, aktiven Aufgaben und einem schnellen Erledigen-Button. Mit einem Tipp ist eine Aufgabe abgeschlossen.",
+        "Im Erledigungsverlauf siehst du, was wann gemacht wurde. Dadurch bleibt nachvollziehbar, welche Aufgaben bereits erledigt sind und wie sich die Routine entwickelt.",
+        "Mit Dunkelmodus, Sound und täglichen Erinnerungen für fällige Aufgaben ist Chore Tracker praktisch für Familien, WGs und alle, die ihren Haushalt besser organisieren möchten."
+      ],
+      "bottomCtaDescription": "Bringe mehr Ruhe in den Haushalt: Lege wiederkehrende Aufgaben an, sieh sofort, was heute ansteht, verfolge den Fortschritt und nutze tägliche Erinnerungen für mehr Verlässlichkeit.",
+      "category": "Produktivität",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Aufgabenplaner",
+        "Haushaltsaufgaben",
+        "Putzplan",
+        "Familien Organizer",
+        "Aufgaben Erinnerung",
+        "Wiederkehrende Aufgaben",
+        "Erledigungsverlauf",
+        "Haushalt Produktivität"
+      ],
+      "metaTitle": "Chore Tracker: Haushaltsaufgaben und Erinnerungen",
+      "metaDescription": "Organisiere Haushaltsaufgaben, weise Aufgaben zu, plane Wiederholungen, hake Erledigtes ab und prüfe den Verlauf.",
+      "featureBullets": [
+        {
+          "title": "Heute-Übersicht"
+        },
+        {
+          "title": "Wiederkehrende Aufgaben"
+        },
+        {
+          "title": "Zuständige Personen"
+        },
+        {
+          "title": "Mit Einem Tipp Erledigen"
+        },
+        {
+          "title": "Erledigungsverlauf"
+        },
+        {
+          "title": "Tägliche Erinnerungen"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Sehen, Was Ansteht",
+          "description": "Zeige den Heute-Bereich mit Haushaltsboard, Fortschrittsring, fälligen Aufgaben, aktiven Aufgaben, zuständiger Person, Wiederholung und Hinzufügen-Button.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Aufgaben Hinzufügen",
+          "description": "Zeige das Formular für eine neue Aufgabe mit Aufgabenname, zuständiger Person, Wiederholungsoptionen wie Täglich, Alle 2 Tage, Wöchentlich und Speichern-Button.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Verlauf Prüfen",
+          "description": "Zeige den Erledigungsverlauf mit einer abgeschlossenen Aufgabe, Datum, Uhrzeit und aktivem Verlauf-Tab.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Was kann ich mit Chore Tracker organisieren?",
+          "answer": "Du kannst Haushaltsaufgaben, zuständige Personen, Wiederholungen, fällige Aufgaben, aktive Aufgaben und den Erledigungsverlauf verwalten."
+        },
+        {
+          "question": "Kann ich wiederkehrende Aufgaben anlegen?",
+          "answer": "Ja. Aufgaben können zum Beispiel täglich, alle 2 Tage oder wöchentlich wiederholt werden."
+        },
+        {
+          "question": "Kann ich Aufgaben einer Person zuweisen?",
+          "answer": "Ja. Beim Erstellen einer Aufgabe kannst du eine zuständige Person eintragen."
+        },
+        {
+          "question": "Gibt es einen Verlauf abgeschlossener Aufgaben?",
+          "answer": "Ja. Im Verlauf siehst du, welche Aufgaben wann abgeschlossen wurden."
+        },
+        {
+          "question": "Unterstützt die App Erinnerungen?",
+          "answer": "Ja. In den Einstellungen kannst du tägliche Erinnerungen für fällige Aufgaben aktivieren."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Chore Tracker",
+      "summary": "Chore Tracker vous aide à organiser les tâches ménagères, attribuer les corvées, programmer les répétitions, valider les tâches et consulter l’historique.",
+      "longDescription": [
+        "Chore Tracker est une application Android simple pour mieux organiser les tâches ménagères. Elle vous aide à voir ce qui est prévu aujourd’hui, quelles tâches sont actives et où en est le foyer.",
+        "Ajoutez une tâche avec son nom, une personne assignée et une fréquence comme quotidien, tous les 2 jours ou hebdomadaire. Idéal pour le ménage, la salle de bain, la lessive et les routines domestiques récurrentes.",
+        "L’écran Aujourd’hui affiche un tableau de bord du foyer avec la progression, les tâches dues, les tâches actives et un bouton pour marquer rapidement une tâche comme terminée.",
+        "L’historique de complétion permet de voir ce qui a été fait et à quel moment. C’est utile pour garder une trace claire des efforts et éviter les oublis.",
+        "Avec le mode sombre, le son et les rappels quotidiens, Chore Tracker convient aux familles, colocations et foyers qui veulent une organisation plus fluide."
+      ],
+      "bottomCtaDescription": "Gardez la maison mieux organisée sans compliquer le quotidien. Ajoutez des tâches récurrentes, voyez ce qui est prévu aujourd’hui et suivez les progrès avec des rappels simples.",
+      "category": "Productivité",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Suivi Des Tâches",
+        "Tâches Ménagères",
+        "Planning Ménage",
+        "Organisation Familiale",
+        "Rappel De Tâches",
+        "Corvées Récurrentes",
+        "Historique Des Tâches",
+        "Productivité Maison"
+      ],
+      "metaTitle": "Chore Tracker : tâches ménagères et rappels",
+      "metaDescription": "Organisez les corvées, attribuez les tâches, planifiez les répétitions, validez les actions et consultez l’historique.",
+      "featureBullets": [
+        {
+          "title": "Tableau Du Jour"
+        },
+        {
+          "title": "Tâches Récurrentes"
+        },
+        {
+          "title": "Attribution Des Tâches"
+        },
+        {
+          "title": "Validation En Un Geste"
+        },
+        {
+          "title": "Historique De Complétion"
+        },
+        {
+          "title": "Rappels Quotidiens"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Voir Les Tâches Du Jour",
+          "description": "Montrer l’écran Aujourd’hui avec tableau du foyer, cercle de progression, tâches dues, tâches actives, personne assignée, fréquence et bouton d’ajout.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Ajouter Une Tâche",
+          "description": "Montrer le formulaire de nouvelle tâche avec nom, personne assignée, options de répétition comme Quotidien, Tous les 2 jours, Hebdomadaire et bouton Enregistrer.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Consulter L’Historique",
+          "description": "Montrer l’écran historique avec une tâche terminée, la date, l’heure et l’onglet Historique sélectionné.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "À quoi sert Chore Tracker ?",
+          "answer": "L’application permet de suivre les tâches ménagères, les personnes assignées, les répétitions, les tâches du jour et l’historique des tâches terminées."
+        },
+        {
+          "question": "Puis-je créer des tâches récurrentes ?",
+          "answer": "Oui. Vous pouvez définir des fréquences comme quotidien, tous les 2 jours ou hebdomadaire."
+        },
+        {
+          "question": "Puis-je attribuer une tâche à quelqu’un ?",
+          "answer": "Oui. Chaque tâche peut inclure une personne assignée afin de clarifier la responsabilité."
+        },
+        {
+          "question": "Chore Tracker garde-t-il un historique ?",
+          "answer": "Oui. L’écran Historique indique quelles tâches ont été terminées et quand."
+        }
+      ]
+    },
+    "it": {
+      "name": "Chore Tracker",
+      "summary": "Chore Tracker ti aiuta a organizzare le faccende di casa, assegnare attività, impostare ricorrenze, completare le pulizie con un tap e vedere lo storico.",
+      "longDescription": [
+        "Chore Tracker è un’app Android semplice per tenere ordinate le faccende domestiche. Ti mostra cosa è in scadenza oggi, quali attività sono attive e il progresso del lavoro in casa.",
+        "Aggiungi faccende con nome, persona assegnata e programma di ripetizione, come giornaliero, ogni 2 giorni o settimanale. È utile per pulizie, bagno, bucato e altre routine domestiche.",
+        "La schermata Oggi mostra una board della casa con avanzamento, attività dovute, faccende attive e un pulsante per completare rapidamente ogni task.",
+        "Lo storico dei completamenti ti permette di vedere cosa è stato fatto e quando. In questo modo diventa più facile mantenere una routine chiara e condivisa.",
+        "Con modalità scura, suoni e promemoria giornalieri, Chore Tracker è pensata per famiglie, coinquilini e chi vuole gestire meglio le attività di casa."
+      ],
+      "bottomCtaDescription": "Rendi più semplice la gestione della casa: aggiungi faccende ricorrenti, controlla cosa è previsto oggi, segna i progressi e usa promemoria quotidiani per restare costante.",
+      "category": "Produttività",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Tracker Faccende",
+        "Faccende Domestiche",
+        "Programma Pulizie",
+        "Organizzazione Casa",
+        "Promemoria Attività",
+        "Faccende Ricorrenti",
+        "Storico Completamenti",
+        "Produttività Domestica"
+      ],
+      "metaTitle": "Chore Tracker: faccende domestiche e promemoria",
+      "metaDescription": "Organizza le faccende, assegna attività, imposta ricorrenze, completa i task con un tap e consulta lo storico.",
+      "featureBullets": [
+        {
+          "title": "Board Giornaliera"
+        },
+        {
+          "title": "Faccende Ricorrenti"
+        },
+        {
+          "title": "Attività Assegnate"
+        },
+        {
+          "title": "Completamento Rapido"
+        },
+        {
+          "title": "Storico Attività"
+        },
+        {
+          "title": "Promemoria Giornalieri"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Controlla Cosa Fare",
+          "description": "Mostrare la schermata Oggi con board della casa, anello di progresso, faccende del giorno, attività attive, assegnatario, ricorrenza e pulsante Aggiungi.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Aggiungi Faccende",
+          "description": "Mostrare il modulo Nuova faccenda con nome, assegnatario, opzioni di ripetizione come Giornaliero, Ogni 2 giorni, Settimanale e pulsante Salva.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Vedi Lo Storico",
+          "description": "Mostrare lo storico con una faccenda completata, data, ora e tab Storico selezionata.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Cosa posso organizzare con Chore Tracker?",
+          "answer": "Puoi organizzare faccende domestiche, assegnatari, ripetizioni, attività in scadenza, faccende attive e storico dei completamenti."
+        },
+        {
+          "question": "Posso creare faccende ricorrenti?",
+          "answer": "Sì. Puoi impostare ripetizioni come giornaliero, ogni 2 giorni o settimanale."
+        },
+        {
+          "question": "Posso assegnare una faccenda a una persona?",
+          "answer": "Sì. Durante la creazione puoi indicare un assegnatario per rendere chiara la responsabilità."
+        },
+        {
+          "question": "L’app salva le attività completate?",
+          "answer": "Sì. La sezione Storico mostra cosa è stato completato e quando."
+        }
+      ]
+    },
+    "es": {
+      "name": "Chore Tracker",
+      "summary": "Chore Tracker te ayuda a organizar tareas del hogar, asignar quehaceres, configurar repeticiones, completarlos con un toque y revisar el historial.",
+      "longDescription": [
+        "Chore Tracker es una app Android sencilla para mantener ordenadas las tareas del hogar. Te ayuda a ver qué toca hoy, qué tareas siguen activas y cómo avanza la rutina de casa.",
+        "Añade tareas con nombre, persona asignada y frecuencia de repetición, como diaria, cada 2 días o semanal. Es útil para limpieza, baño, lavandería y otras tareas domésticas recurrentes.",
+        "La pantalla Hoy muestra un tablero del hogar con progreso, tareas pendientes para el día, tareas activas y un botón para completar cada quehacer con un toque.",
+        "El historial de completados permite revisar qué se hizo y cuándo. Así es más fácil mantener claridad, repartir responsabilidades y evitar olvidos.",
+        "Con modo oscuro, sonido y recordatorios diarios, Chore Tracker encaja bien en familias, pisos compartidos y hogares que quieren una rutina más organizada."
+      ],
+      "bottomCtaDescription": "Mantén la casa más organizada con menos esfuerzo. Añade tareas recurrentes, consulta lo que toca hoy, marca avances y usa recordatorios diarios para no perder el ritmo.",
+      "category": "Productividad",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Control De Tareas",
+        "Tareas Del Hogar",
+        "Calendario De Limpieza",
+        "Organizador Familiar",
+        "Recordatorio De Tareas",
+        "Quehaceres Recurrentes",
+        "Historial De Tareas",
+        "Productividad En Casa"
+      ],
+      "metaTitle": "Chore Tracker: tareas del hogar y recordatorios",
+      "metaDescription": "Organiza quehaceres, asigna tareas, configura repeticiones, completa tareas rápido y revisa el historial con Chore Tracker.",
+      "featureBullets": [
+        {
+          "title": "Tablero De Hoy"
+        },
+        {
+          "title": "Tareas Recurrentes"
+        },
+        {
+          "title": "Asignación De Quehaceres"
+        },
+        {
+          "title": "Completar Con Un Toque"
+        },
+        {
+          "title": "Historial De Completados"
+        },
+        {
+          "title": "Recordatorios Diarios"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Mira Qué Toca Hoy",
+          "description": "Mostrar la pantalla Hoy con tablero del hogar, anillo de progreso, tareas del día, tareas activas, persona asignada, frecuencia y botón Añadir.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Añade Tareas Fácilmente",
+          "description": "Mostrar el formulario Nueva tarea con nombre, persona asignada, opciones de repetición como Diaria, Cada 2 días, Semanal y botón Guardar.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Revisa El Historial",
+          "description": "Mostrar el historial con una tarea completada, fecha, hora y la pestaña Historial seleccionada.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Qué puedo organizar con Chore Tracker?",
+          "answer": "Puedes organizar tareas del hogar, personas asignadas, repeticiones, tareas pendientes de hoy, tareas activas e historial de completados."
+        },
+        {
+          "question": "¿Puedo crear tareas recurrentes?",
+          "answer": "Sí. Puedes configurar repeticiones como diaria, cada 2 días o semanal."
+        },
+        {
+          "question": "¿Puedo asignar una tarea a alguien?",
+          "answer": "Sí. Al crear una tarea puedes añadir una persona asignada para dejar clara la responsabilidad."
+        },
+        {
+          "question": "¿La app muestra qué tareas se completaron?",
+          "answer": "Sí. La sección Historial muestra qué tareas se completaron y cuándo."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Chore Tracker",
+      "summary": "Chore Tracker ajuda a organizar tarefas domésticas, atribuir responsabilidades, definir repetições, concluir tarefas com um toque e ver o histórico.",
+      "longDescription": [
+        "Chore Tracker é uma aplicação Android simples para organizar tarefas domésticas. Ajuda a ver o que está previsto para hoje, quais tarefas continuam ativas e como está o progresso da casa.",
+        "Adicione tarefas com nome, responsável e calendário de repetição, como diário, a cada 2 dias ou semanal. É útil para limpezas, casa de banho, roupa e outras rotinas recorrentes.",
+        "O ecrã Hoje mostra um quadro doméstico com progresso, tarefas do dia, tarefas ativas e um botão rápido para marcar uma tarefa como concluída.",
+        "O histórico de conclusão permite rever o que foi feito e quando. Assim, é mais fácil manter a rotina clara e evitar esquecimentos.",
+        "Com modo escuro, som e lembretes diários para tarefas pendentes, Chore Tracker é prático para famílias, colegas de casa e qualquer pessoa que queira uma casa mais organizada."
+      ],
+      "bottomCtaDescription": "Mantenha a casa mais organizada com menos esforço. Adicione tarefas recorrentes, veja o que vence hoje, acompanhe o progresso e use lembretes diários para manter a rotina.",
+      "category": "Produtividade",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Gestor De Tarefas",
+        "Tarefas Domésticas",
+        "Plano De Limpeza",
+        "Organizador Familiar",
+        "Lembrete De Tarefas",
+        "Tarefas Recorrentes",
+        "Histórico De Conclusão",
+        "Produtividade Em Casa"
+      ],
+      "metaTitle": "Chore Tracker: tarefas domésticas e lembretes",
+      "metaDescription": "Organize tarefas domésticas, atribua responsáveis, defina repetições, conclua tarefas rapidamente e veja o histórico.",
+      "featureBullets": [
+        {
+          "title": "Quadro Do Dia"
+        },
+        {
+          "title": "Tarefas Recorrentes"
+        },
+        {
+          "title": "Responsáveis Por Tarefa"
+        },
+        {
+          "title": "Conclusão Com Um Toque"
+        },
+        {
+          "title": "Histórico De Tarefas"
+        },
+        {
+          "title": "Lembretes Diários"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Veja O Que Está Previsto",
+          "description": "Mostrar o ecrã Hoje com quadro doméstico, anel de progresso, tarefas do dia, tarefas ativas, responsável, repetição e botão Adicionar.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Adicionar Tarefas",
+          "description": "Mostrar o formulário Nova tarefa com nome, responsável, opções de repetição como Diário, A cada 2 dias, Semanal e botão Guardar.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Ver Histórico",
+          "description": "Mostrar o histórico com uma tarefa concluída, data, hora e separador Histórico selecionado.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "O que posso organizar no Chore Tracker?",
+          "answer": "Pode organizar tarefas domésticas, responsáveis, repetições, tarefas de hoje, tarefas ativas e histórico de conclusão."
+        },
+        {
+          "question": "Posso criar tarefas recorrentes?",
+          "answer": "Sim. Pode definir repetições como diário, a cada 2 dias ou semanal."
+        },
+        {
+          "question": "Posso atribuir uma tarefa a uma pessoa?",
+          "answer": "Sim. Ao criar uma tarefa, pode indicar uma pessoa responsável."
+        },
+        {
+          "question": "A aplicação guarda tarefas concluídas?",
+          "answer": "Sim. O Histórico mostra quais tarefas foram concluídas e quando."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Chore Tracker",
+      "summary": "Chore Tracker вам помаже да организујете кућне обавезе, доделите задатке, подесите понављања, означите завршено једним додиром и видите историју.",
+      "longDescription": [
+        "Chore Tracker је једноставна Android апликација за организацију кућних обавеза. Помаже вам да видите шта је данас на реду, које су обавезе активне и како напредује кућна рутина.",
+        "Додајте обавезу са називом, особом која је задужена и распоредом понављања, на пример дневно, свака 2 дана или недељно. Практично је за чишћење, купатило, веш и друге редовне кућне послове.",
+        "Екран Данас приказује кућну таблу са напретком, обавезама за данас, активним обавезама и дугметом за брзо означавање завршеног задатка.",
+        "Историја завршетака показује шта је урађено и када. Тако је лакше пратити договоре, обавезе и напредак током времена.",
+        "Уз тамни режим, звук и дневне подсетнике, Chore Tracker је користан за породице, цимере и све који желе уреднију кућну рутину."
+      ],
+      "bottomCtaDescription": "Одржавајте дом организованијим уз мање договарања. Додајте понављајуће обавезе, погледајте шта је данас на реду и пратите напредак уз дневне подсетнике.",
+      "category": "Продуктивност",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Праћење Обавеза",
+        "Кућни Задаци",
+        "Распоред Чишћења",
+        "Породични Организатор",
+        "Подсетник За Задатке",
+        "Понављајуће Обавезе",
+        "Историја Завршетка",
+        "Продуктивност Дома"
+      ],
+      "metaTitle": "Chore Tracker: кућне обавезе и подсетници",
+      "metaDescription": "Организујте кућне обавезе, доделите задатке, подесите понављања, брзо означите завршено и пратите историју.",
+      "featureBullets": [
+        {
+          "title": "Табла За Данас"
+        },
+        {
+          "title": "Понављајући Задаци"
+        },
+        {
+          "title": "Додела Обавеза"
+        },
+        {
+          "title": "Завршено Једним Додиром"
+        },
+        {
+          "title": "Историја Завршетака"
+        },
+        {
+          "title": "Дневни Подсетници"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Погледајте Шта Је На Реду",
+          "description": "Приказати екран Данас са кућном таблом, кругом напретка, обавезама за данас, активним обавезама, задуженом особом, понављањем и дугметом за додавање.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Додајте Обавезе",
+          "description": "Приказати форму Нова обавеза са називом, задуженом особом, опцијама понављања као Дневно, Свака 2 дана, Недељно и дугметом за чување.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Преглед Историје",
+          "description": "Приказати историју са завршеном обавезом, датумом, временом и изабраним табом Историја.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Шта могу да организујем у апликацији Chore Tracker?",
+          "answer": "Можете организовати кућне обавезе, задужене особе, понављања, данашње задатке, активне задатке и историју завршетака."
+        },
+        {
+          "question": "Могу ли да направим понављајуће обавезе?",
+          "answer": "Да. Можете подесити понављања као дневно, свака 2 дана или недељно."
+        },
+        {
+          "question": "Могу ли да доделим задатак некој особи?",
+          "answer": "Да. При креирању обавезе можете унети особу која је задужена."
+        },
+        {
+          "question": "Да ли апликација чува завршене обавезе?",
+          "answer": "Да. Историја приказује које обавезе су завршене и када."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Chore Tracker",
+      "summary": "Chore Tracker pomaže vam organizirati kućanske obaveze, dodijeliti zadatke, postaviti ponavljanja, označiti završeno jednim dodirom i pregledati povijest.",
+      "longDescription": [
+        "Chore Tracker je jednostavna Android aplikacija za organizaciju kućanskih obaveza. Pomaže vam vidjeti što je danas na redu, koje su obaveze aktivne i kako napreduje kućna rutina.",
+        "Dodajte obavezu s nazivom, osobom kojoj je dodijeljena i rasporedom ponavljanja, primjerice dnevno, svaka 2 dana ili tjedno. Korisno je za čišćenje, kupaonicu, rublje i druge redovite kućanske zadatke.",
+        "Zaslon Danas prikazuje kućnu ploču s napretkom, obavezama za dan, aktivnim obavezama i gumbom za brzo označavanje zadatka kao dovršenog.",
+        "Povijest završetaka pokazuje što je obavljeno i kada. Tako je lakše pratiti dogovore, odgovornosti i napredak kroz vrijeme.",
+        "Uz tamni način rada, zvuk i dnevne podsjetnike, Chore Tracker je praktičan za obitelji, cimere i sve koji žele uredniju kućnu rutinu."
+      ],
+      "bottomCtaDescription": "Neka kućanstvo funkcionira mirnije: dodajte ponavljajuće obaveze, pogledajte što je danas na redu, pratite zajednički napredak i uključite dnevne podsjetnike.",
+      "category": "Produktivnost",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Praćenje Obaveza",
+        "Kućanski Zadaci",
+        "Raspored Čišćenja",
+        "Obiteljski Organizator",
+        "Podsjetnik Za Zadatke",
+        "Ponavljajuće Obaveze",
+        "Povijest Završetaka",
+        "Produktivnost Doma"
+      ],
+      "metaTitle": "Chore Tracker: kućanske obaveze i podsjetnici",
+      "metaDescription": "Organizirajte kućanske obaveze, dodijelite zadatke, postavite ponavljanja, brzo označite završeno i pratite povijest.",
+      "featureBullets": [
+        {
+          "title": "Ploča Za Danas"
+        },
+        {
+          "title": "Ponavljajući Zadaci"
+        },
+        {
+          "title": "Dodjela Obaveza"
+        },
+        {
+          "title": "Završeno Jednim Dodirom"
+        },
+        {
+          "title": "Povijest Završetaka"
+        },
+        {
+          "title": "Dnevni Podsjetnici"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Pogledajte Što Je Na Redu",
+          "description": "Prikazati zaslon Danas s kućnom pločom, krugom napretka, obavezama za danas, aktivnim obavezama, dodijeljenom osobom, ponavljanjem i gumbom za dodavanje.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Dodajte Obaveze",
+          "description": "Prikazati obrazac Nova obaveza s nazivom, dodijeljenom osobom, opcijama ponavljanja kao Dnevno, Svaka 2 dana, Tjedno i gumbom Spremi.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Pregledajte Povijest",
+          "description": "Prikazati povijest s dovršenom obavezom, datumom, vremenom i odabranom karticom Povijest.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Što mogu organizirati u aplikaciji Chore Tracker?",
+          "answer": "Možete organizirati kućanske obaveze, dodijeljene osobe, ponavljanja, današnje zadatke, aktivne zadatke i povijest završetaka."
+        },
+        {
+          "question": "Mogu li dodati ponavljajuće obaveze?",
+          "answer": "Da. Možete postaviti ponavljanja kao dnevno, svaka 2 dana ili tjedno."
+        },
+        {
+          "question": "Mogu li zadatak dodijeliti osobi?",
+          "answer": "Da. Pri dodavanju obaveze možete unijeti osobu kojoj je zadatak dodijeljen."
+        },
+        {
+          "question": "Čuva li aplikacija povijest dovršenih obaveza?",
+          "answer": "Da. Povijest prikazuje koje su obaveze dovršene i kada."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Chore Tracker",
+      "summary": "Chore Tracker helpt je huishoudelijke taken organiseren, klusjes toewijzen, herhaalschema’s instellen, taken afvinken en de geschiedenis bekijken.",
+      "longDescription": [
+        "Chore Tracker is een eenvoudige Android-app om huishoudelijke taken overzichtelijk te houden. Je ziet wat vandaag moet gebeuren, welke klusjes actief zijn en hoe de voortgang in huis loopt.",
+        "Voeg een klusje toe met taaknaam, verantwoordelijke persoon en herhaalschema, zoals dagelijks, elke 2 dagen of wekelijks. Handig voor schoonmaken, badkamer, was en andere terugkerende taken.",
+        "Het Vandaag-scherm toont een huishoudbord met voortgang, taken die vandaag klaar moeten, actieve klusjes en een knop om een taak met één tik te voltooien.",
+        "De voltooiingsgeschiedenis laat zien wat gedaan is en wanneer. Zo blijft het makkelijker om afspraken, taken en routines te volgen.",
+        "Met donkere modus, geluid en dagelijkse herinneringen is Chore Tracker geschikt voor gezinnen, huisgenoten en iedereen die thuis meer structuur wil."
+      ],
+      "bottomCtaDescription": "Houd het huishouden overzichtelijker met terugkerende klusjes, een duidelijk dagoverzicht, gedeelde voortgang en dagelijkse herinneringen voor taken die vandaag klaar moeten.",
+      "category": "Productiviteit",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Klusjes Tracker",
+        "Huishoudelijke Taken",
+        "Schoonmaakschema",
+        "Gezinsplanner",
+        "Taakherinnering",
+        "Terugkerende Klusjes",
+        "Voltooiingsgeschiedenis",
+        "Thuis Productiviteit"
+      ],
+      "metaTitle": "Chore Tracker: huishoudelijke taken en reminders",
+      "metaDescription": "Organiseer klusjes, wijs taken toe, stel herhaalschema’s in, vink taken snel af en bekijk de voltooiingsgeschiedenis.",
+      "featureBullets": [
+        {
+          "title": "Vandaag-Bord"
+        },
+        {
+          "title": "Terugkerende Taken"
+        },
+        {
+          "title": "Taken Toewijzen"
+        },
+        {
+          "title": "Afvinken Met Eén Tik"
+        },
+        {
+          "title": "Voltooiingsgeschiedenis"
+        },
+        {
+          "title": "Dagelijkse Herinneringen"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Zie Wat Vandaag Moet",
+          "description": "Toon het Vandaag-scherm met huishoudbord, voortgangsring, taken van vandaag, actieve taken, verantwoordelijke persoon, herhaling en knop om toe te voegen.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Klusjes Toevoegen",
+          "description": "Toon het formulier Nieuw klusje met taaknaam, verantwoordelijke persoon, herhaalopties zoals Dagelijks, Elke 2 dagen, Wekelijks en opslaan-knop.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Bekijk De Geschiedenis",
+          "description": "Toon de geschiedenis met een voltooid klusje, datum, tijd en geselecteerde Geschiedenis-tab.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wat kan ik organiseren met Chore Tracker?",
+          "answer": "Je kunt huishoudelijke taken, verantwoordelijke personen, herhalingen, taken voor vandaag, actieve klusjes en voltooiingsgeschiedenis organiseren."
+        },
+        {
+          "question": "Kan ik terugkerende klusjes maken?",
+          "answer": "Ja. Je kunt klusjes laten herhalen, bijvoorbeeld dagelijks, elke 2 dagen of wekelijks."
+        },
+        {
+          "question": "Kan ik een klusje aan iemand toewijzen?",
+          "answer": "Ja. Bij het toevoegen van een klusje kun je een verantwoordelijke persoon invullen."
+        },
+        {
+          "question": "Bewaart de app afgeronde taken?",
+          "answer": "Ja. In de geschiedenis zie je welke taken zijn afgerond en wanneer."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Chore Tracker",
+      "summary": "Chore Tracker pomaga organizować obowiązki domowe, przypisywać zadania, ustawiać powtórzenia, oznaczać wykonanie jednym dotknięciem i sprawdzać historię.",
+      "longDescription": [
+        "Chore Tracker to prosta aplikacja na Androida do organizowania obowiązków domowych. Pomaga zobaczyć, co jest do zrobienia dziś, które zadania są aktywne i jak wygląda postęp w domu.",
+        "Dodawaj obowiązki z nazwą, przypisaną osobą i harmonogramem powtarzania, na przykład codziennie, co 2 dni lub co tydzień. Przydaje się przy sprzątaniu, łazience, praniu i innych regularnych zadaniach.",
+        "Ekran Dzisiaj pokazuje domową tablicę z postępem, zadaniami na dziś, aktywnymi obowiązkami i przyciskiem do szybkiego oznaczenia zadania jako wykonanego.",
+        "Historia wykonania pokazuje, co zostało zrobione i kiedy. Dzięki temu łatwiej śledzić ustalenia, odpowiedzialność i rytm domowych zadań.",
+        "Tryb ciemny, dźwięk i codzienne przypomnienia sprawiają, że Chore Tracker dobrze sprawdza się w rodzinach, mieszkaniach współdzielonych i codziennej organizacji domu."
+      ],
+      "bottomCtaDescription": "Utrzymaj domowe zadania w porządku: dodawaj powtarzalne obowiązki, sprawdzaj, co jest na dziś, śledź postęp i korzystaj z codziennych przypomnień.",
+      "category": "Produktywność",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Tracker Obowiązków",
+        "Obowiązki Domowe",
+        "Harmonogram Sprzątania",
+        "Organizer Rodzinny",
+        "Przypomnienie O Zadaniach",
+        "Powtarzalne Obowiązki",
+        "Historia Wykonania",
+        "Produktywność Domowa"
+      ],
+      "metaTitle": "Chore Tracker: obowiązki domowe i przypomnienia",
+      "metaDescription": "Organizuj obowiązki, przypisuj zadania, ustawiaj powtórzenia, szybko oznaczaj wykonanie i przeglądaj historię.",
+      "featureBullets": [
+        {
+          "title": "Tablica Na Dziś"
+        },
+        {
+          "title": "Powtarzalne Zadania"
+        },
+        {
+          "title": "Przypisywanie Obowiązków"
+        },
+        {
+          "title": "Wykonanie Jednym Dotknięciem"
+        },
+        {
+          "title": "Historia Wykonania"
+        },
+        {
+          "title": "Codzienne Przypomnienia"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Zobacz, Co Jest Na Dziś",
+          "description": "Pokazać ekran Dzisiaj z tablicą domową, pierścieniem postępu, zadaniami na dziś, aktywnymi obowiązkami, przypisaną osobą, powtórzeniem i przyciskiem dodawania.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Dodaj Obowiązki",
+          "description": "Pokazać formularz Nowy obowiązek z nazwą, przypisaną osobą, opcjami powtarzania jak Codziennie, Co 2 dni, Co tydzień i przyciskiem zapisu.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Sprawdź Historię",
+          "description": "Pokazać historię z wykonanym obowiązkiem, datą, godziną i wybraną zakładką Historia.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Co mogę organizować w Chore Tracker?",
+          "answer": "Możesz organizować obowiązki domowe, przypisane osoby, powtórzenia, zadania na dziś, aktywne obowiązki i historię wykonania."
+        },
+        {
+          "question": "Czy mogę tworzyć powtarzalne obowiązki?",
+          "answer": "Tak. Możesz ustawić powtarzanie codziennie, co 2 dni lub co tydzień."
+        },
+        {
+          "question": "Czy mogę przypisać zadanie konkretnej osobie?",
+          "answer": "Tak. Podczas dodawania obowiązku możesz wpisać osobę odpowiedzialną."
+        },
+        {
+          "question": "Czy aplikacja zapisuje wykonane zadania?",
+          "answer": "Tak. Historia pokazuje, które obowiązki zostały wykonane i kiedy."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Chore Tracker",
+      "summary": "Chore Tracker te ajută să organizezi treburile casnice, să atribui sarcini, să setezi repetări, să marchezi rapid finalizarea și să vezi istoricul.",
+      "longDescription": [
+        "Chore Tracker este o aplicație Android simplă pentru organizarea treburilor casnice. Te ajută să vezi ce este de făcut azi, ce sarcini sunt active și cum evoluează rutina casei.",
+        "Adaugă treburi cu nume, persoană responsabilă și program de repetare, cum ar fi zilnic, la fiecare 2 zile sau săptămânal. Este utilă pentru curățenie, baie, rufe și alte sarcini recurente.",
+        "Ecranul Today afișează un panou al gospodăriei cu progres, sarcini scadente azi, treburi active și un buton pentru finalizare rapidă cu o singură atingere.",
+        "Istoricul finalizărilor arată ce a fost făcut și când. Astfel, responsabilitățile și rutina devin mai ușor de urmărit.",
+        "Cu mod întunecat, sunet și mementouri zilnice, Chore Tracker este potrivit pentru familii, colegi de locuință și oricine vrea o casă mai bine organizată."
+      ],
+      "bottomCtaDescription": "Păstrează rutina casei mai clară: adaugă treburi recurente, vezi ce trebuie făcut azi, urmărește progresul și folosește mementouri zilnice pentru sarcinile scadente.",
+      "category": "Productivitate",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Urmărire Treburi",
+        "Sarcini Casnice",
+        "Program De Curățenie",
+        "Organizer Familie",
+        "Memento Sarcini",
+        "Treburi Recurente",
+        "Istoric Finalizări",
+        "Productivitate Acasă"
+      ],
+      "metaTitle": "Chore Tracker: treburi casnice și mementouri",
+      "metaDescription": "Organizează treburile casei, atribuie sarcini, setează repetări, marchează finalizarea rapid și vezi istoricul.",
+      "featureBullets": [
+        {
+          "title": "Panou Pentru Azi"
+        },
+        {
+          "title": "Sarcini Recurente"
+        },
+        {
+          "title": "Atribuire Treburi"
+        },
+        {
+          "title": "Finalizare Cu O Atingere"
+        },
+        {
+          "title": "Istoric Finalizări"
+        },
+        {
+          "title": "Mementouri Zilnice"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Vezi Ce Este De Făcut",
+          "description": "Arată ecranul Today cu panoul gospodăriei, inelul de progres, sarcini pentru azi, treburi active, persoană responsabilă, repetare și buton de adăugare.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Adaugă Treburi",
+          "description": "Arată formularul New chore cu nume, responsabil, opțiuni de repetare precum Zilnic, La fiecare 2 zile, Săptămânal și buton de salvare.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Vezi Istoricul",
+          "description": "Arată istoricul cu o treabă finalizată, dată, oră și fila History selectată.",
+          "imagePath": "apps/screenshots/chore-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Ce pot organiza cu Chore Tracker?",
+          "answer": "Poți organiza treburi casnice, persoane responsabile, repetări, sarcini pentru azi, treburi active și istoricul finalizărilor."
+        },
+        {
+          "question": "Pot crea treburi recurente?",
+          "answer": "Da. Poți seta repetări precum zilnic, la fiecare 2 zile sau săptămânal."
+        },
+        {
+          "question": "Pot atribui o sarcină unei persoane?",
+          "answer": "Da. Când adaugi o treabă, poți introduce persoana responsabilă."
+        },
+        {
+          "question": "Aplicația păstrează istoricul sarcinilor finalizate?",
+          "answer": "Da. Istoricul arată ce sarcini au fost finalizate și când."
+        }
+      ]
+    }
+  }
+}

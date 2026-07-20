@@ -1,0 +1,936 @@
+{
+  "slug": "bill-reminder",
+  "sortOrder": 23,
+  "kind": "app",
+  "featured": false,
+  "accent": "red",
+  "icon": "apps/icons/bill-reminder.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.billreminder",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "FinanceApplication",
+  "relatedSlugs": [
+    "subscription-tracker",
+    "chore-tracker",
+    "habit-tracker"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Bill Reminder",
+      "summary": "Bill Reminder helps you track upcoming, overdue, paid, and unpaid bills in one clear Android app so you can stay organized and pay on time.",
+      "longDescription": [
+        "Bill Reminder is a practical Android app for anyone who wants a clearer way to manage bills and avoid missed payments. Keep your upcoming, overdue, paid, and unpaid bills organized in one focused place.",
+        "Add bills with the details that matter: name, amount, category, repeat cycle, due date, reminder lead time, autopay status, and notes. Whether you are tracking internet, utilities, subscriptions, or monthly expenses, the app keeps each payment easy to find.",
+        "The dashboard gives you a quick overview of what is due this month, what has already been paid, what is due soon, and what needs attention. Search, filters, due-date sorting, and category views help you stay prepared as your list grows.",
+        "When a bill is handled, mark it paid and keep a clean payment history. You can also edit, duplicate, delete, or undo the last payment from the bill details screen.",
+        "With customizable reminders, currency symbol settings, language options, and a dark theme, Bill Reminder is designed to make payment organization simple, calm, and reliable."
+      ],
+      "bottomCtaDescription": "Take control of your monthly payments with a simple bill tracker built for everyday use. Add bills, set due dates, customize reminders, and keep your payment history easy to review.",
+      "category": "Finance",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Bill Reminder",
+        "Payment Reminder",
+        "Bill Tracker",
+        "Due Date Reminder",
+        "Personal Finance",
+        "Expense Organizer",
+        "Payment History",
+        "Budget Planning"
+      ],
+      "metaTitle": "Bill Reminder: Payment Tracker and Due Date Alerts",
+      "metaDescription": "Track bills, due dates, paid payments, overdue items, categories, reminders, and payment history with Bill Reminder for Android.",
+      "featureBullets": [
+        {
+          "title": "Bill Due Date Tracking"
+        },
+        {
+          "title": "Custom Payment Reminders"
+        },
+        {
+          "title": "Search And Filters"
+        },
+        {
+          "title": "Payment History"
+        },
+        {
+          "title": "Recurring Bill Setup"
+        },
+        {
+          "title": "Paid And Overdue Status"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Track Your Bills",
+          "description": "Show the dashboard with due this month, paid this month, due soon, overdue bills, and a visible Add bill button.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Add Bills Easily",
+          "description": "Show the add bill form with bill name, amount, category, repeat cycle, due date, reminder lead time, autopay, notes, and Save bill button.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Manage Every Payment",
+          "description": "Show a bill details bottom sheet with amount, due date, reminder, Mark paid, Duplicate, Edit, Delete, and payment history options.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What can I track with Bill Reminder?",
+          "answer": "You can track bill names, amounts, categories, due dates, repeat cycles, reminder timing, autopay status, notes, and payment history."
+        },
+        {
+          "question": "Can Bill Reminder help me avoid overdue bills?",
+          "answer": "Yes. The app highlights due soon and overdue bills, and you can enable reminders before due dates."
+        },
+        {
+          "question": "Can I mark bills as paid?",
+          "answer": "Yes. You can mark a bill as paid, view payment history, and undo the last payment when needed."
+        },
+        {
+          "question": "Does the app support recurring bills?",
+          "answer": "Yes. When adding a bill, you can choose a repeat cycle such as monthly to manage recurring payments."
+        },
+        {
+          "question": "Can I organize bills by category?",
+          "answer": "Yes. Bills can be assigned to categories and filtered so you can find the right payment quickly."
+        }
+      ]
+    },
+    "de": {
+      "name": "Bill Reminder",
+      "summary": "Bill Reminder hilft dir, fällige, überfällige, bezahlte und unbezahlte Rechnungen übersichtlich zu verfolgen, damit keine Zahlung untergeht.",
+      "longDescription": [
+        "Bill Reminder ist eine praktische Android-App für alle, die Rechnungen klarer organisieren und Zahlungen pünktlich erledigen möchten. Behalte anstehende, überfällige, bezahlte und unbezahlte Rechnungen an einem Ort im Blick.",
+        "Lege Rechnungen mit allen wichtigen Details an: Name, Betrag, Kategorie, Wiederholungsrhythmus, Fälligkeitsdatum, Erinnerungszeitpunkt, Autopay-Status und Notizen. So lassen sich Internet, Nebenkosten, Abos und andere regelmäßige Ausgaben einfach verwalten.",
+        "Das Dashboard zeigt dir schnell, was diesen Monat fällig ist, was bereits bezahlt wurde, was bald ansteht und wo Aufmerksamkeit nötig ist. Suche, Filter, Sortierung nach Fälligkeit und Kategorien helfen dir, auch bei vielen Rechnungen den Überblick zu behalten.",
+        "Nach der Zahlung kannst du eine Rechnung als bezahlt markieren und den Zahlungsverlauf nachvollziehen. Rechnungen lassen sich außerdem bearbeiten, duplizieren, löschen oder bei Bedarf rückgängig machen.",
+        "Mit anpassbaren Erinnerungen, Währungssymbol, Spracheinstellungen und dunklem Design ist Bill Reminder auf einfache und zuverlässige Zahlungsorganisation ausgelegt."
+      ],
+      "bottomCtaDescription": "Behalte deine monatlichen Zahlungen im Griff: Rechnungen hinzufügen, Fälligkeitsdaten setzen, Erinnerungen anpassen und erledigte Zahlungen sauber nachvollziehen.",
+      "category": "Finanzen",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Rechnungserinnerung",
+        "Zahlungserinnerung",
+        "Rechnungsplaner",
+        "Fälligkeitsdatum",
+        "Persönliche Finanzen",
+        "Ausgaben Organizer",
+        "Zahlungsverlauf",
+        "Budgetplanung"
+      ],
+      "metaTitle": "Bill Reminder: Rechnungen und Zahlungen verfolgen",
+      "metaDescription": "Verfolge Rechnungen, Fälligkeiten, bezahlte Beträge, überfällige Zahlungen, Kategorien, Erinnerungen und Zahlungsverlauf.",
+      "featureBullets": [
+        {
+          "title": "Fälligkeiten Verfolgen"
+        },
+        {
+          "title": "Individuelle Erinnerungen"
+        },
+        {
+          "title": "Suche Und Filter"
+        },
+        {
+          "title": "Zahlungsverlauf"
+        },
+        {
+          "title": "Wiederkehrende Rechnungen"
+        },
+        {
+          "title": "Bezahlt Und Überfällig"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Rechnungen Im Blick",
+          "description": "Zeige das Dashboard mit fällig diesen Monat, bezahlt diesen Monat, bald fällig, überfällig und sichtbarem Button zum Hinzufügen.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Rechnung Hinzufügen",
+          "description": "Zeige das Formular mit Rechnungsname, Betrag, Kategorie, Wiederholung, Fälligkeitsdatum, Erinnerung, Autopay, Notizen und Speichern-Button.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Zahlungen Verwalten",
+          "description": "Zeige die Detailansicht einer Rechnung mit Betrag, Fälligkeit, Erinnerung, Bezahlt markieren, Duplizieren, Bearbeiten, Löschen und Zahlungsverlauf.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Was kann ich mit Bill Reminder verfolgen?",
+          "answer": "Du kannst Rechnungsnamen, Beträge, Kategorien, Fälligkeiten, Wiederholungen, Erinnerungen, Autopay-Status, Notizen und Zahlungsverlauf speichern."
+        },
+        {
+          "question": "Hilft Bill Reminder gegen überfällige Rechnungen?",
+          "answer": "Ja. Die App hebt bald fällige und überfällige Rechnungen hervor und unterstützt Erinnerungen vor dem Fälligkeitsdatum."
+        },
+        {
+          "question": "Kann ich Rechnungen als bezahlt markieren?",
+          "answer": "Ja. Du kannst Zahlungen markieren, den Verlauf ansehen und die letzte Zahlung bei Bedarf rückgängig machen."
+        },
+        {
+          "question": "Kann ich monatliche Rechnungen anlegen?",
+          "answer": "Ja. Beim Hinzufügen einer Rechnung kannst du einen Wiederholungsrhythmus wie monatlich auswählen."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Bill Reminder",
+      "summary": "Bill Reminder vous aide à suivre vos factures à venir, en retard, payées et impayées dans une application Android simple et organisée.",
+      "longDescription": [
+        "Bill Reminder est une application Android conçue pour mieux organiser les factures et éviter les paiements oubliés. Retrouvez vos factures à venir, en retard, payées et impayées dans un espace clair.",
+        "Ajoutez chaque facture avec son nom, son montant, sa catégorie, son cycle de répétition, sa date d’échéance, son délai de rappel, son statut de paiement automatique et vos notes.",
+        "Le tableau de bord résume ce qui est dû ce mois-ci, ce qui a déjà été payé, les factures qui arrivent bientôt et les éléments en retard. La recherche, les filtres, le tri par échéance et les catégories rendent la gestion plus rapide.",
+        "Une fois la facture réglée, vous pouvez la marquer comme payée et conserver un historique. Les fiches de facture permettent aussi de modifier, dupliquer, supprimer ou annuler le dernier paiement.",
+        "Avec des rappels personnalisables, le symbole de devise, les options de langue et le thème sombre, Bill Reminder rend le suivi des paiements plus simple au quotidien."
+      ],
+      "bottomCtaDescription": "Gardez le contrôle de vos paiements mensuels avec un suivi clair des factures, des dates d’échéance, des rappels personnalisés et de l’historique de paiement.",
+      "category": "Finance",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Rappel De Facture",
+        "Rappel De Paiement",
+        "Suivi Des Factures",
+        "Date D’Échéance",
+        "Finances Personnelles",
+        "Organisation Des Dépenses",
+        "Historique Des Paiements",
+        "Gestion Budget"
+      ],
+      "metaTitle": "Bill Reminder : rappels de factures et paiements",
+      "metaDescription": "Suivez vos factures, échéances, paiements effectués, retards, catégories, rappels et historique avec Bill Reminder.",
+      "featureBullets": [
+        {
+          "title": "Suivi Des Échéances"
+        },
+        {
+          "title": "Rappels Personnalisés"
+        },
+        {
+          "title": "Recherche Et Filtres"
+        },
+        {
+          "title": "Historique Des Paiements"
+        },
+        {
+          "title": "Factures Récurrentes"
+        },
+        {
+          "title": "Statuts De Paiement"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Suivez Vos Factures",
+          "description": "Montrer le tableau de bord avec le montant dû ce mois-ci, payé ce mois-ci, dû bientôt, en retard et le bouton d’ajout.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Ajouter Une Facture",
+          "description": "Montrer le formulaire avec nom, montant, catégorie, répétition, date d’échéance, délai de rappel, paiement automatique, notes et bouton d’enregistrement.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Gérer Chaque Paiement",
+          "description": "Montrer la fiche de facture avec montant, date, rappel, marquer comme payé, dupliquer, modifier, supprimer et historique.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "À quoi sert Bill Reminder ?",
+          "answer": "L’application sert à suivre les factures, montants, catégories, dates d’échéance, rappels, notes et paiements effectués."
+        },
+        {
+          "question": "Puis-je recevoir un rappel avant une échéance ?",
+          "answer": "Oui. Vous pouvez activer les rappels et choisir un délai, par exemple plusieurs jours avant la date prévue."
+        },
+        {
+          "question": "Puis-je marquer une facture comme payée ?",
+          "answer": "Oui. Vous pouvez marquer une facture comme payée et consulter l’historique des paiements associés."
+        },
+        {
+          "question": "L’application permet-elle de gérer des factures récurrentes ?",
+          "answer": "Oui. Vous pouvez définir un cycle de répétition lorsque vous ajoutez une facture."
+        }
+      ]
+    },
+    "it": {
+      "name": "Bill Reminder",
+      "summary": "Bill Reminder ti aiuta a monitorare bollette in scadenza, pagate, non pagate e in ritardo in un’unica app Android chiara e ordinata.",
+      "longDescription": [
+        "Bill Reminder è un’app Android pensata per organizzare le bollette e ridurre il rischio di dimenticare una scadenza. In un unico spazio puoi vedere pagamenti imminenti, in ritardo, pagati e non pagati.",
+        "Aggiungi ogni bolletta con nome, importo, categoria, ciclo di ripetizione, data di scadenza, anticipo del promemoria, stato autopay e note personali.",
+        "La dashboard mostra subito cosa è dovuto questo mese, cosa è già stato pagato, cosa scade a breve e cosa richiede attenzione. Ricerca, filtri, ordinamento per data e categorie rendono tutto più facile da gestire.",
+        "Quando paghi una bolletta, puoi segnarla come pagata e mantenere uno storico ordinato. Dalla scheda dettaglio puoi anche modificare, duplicare, eliminare o annullare l’ultimo pagamento.",
+        "Con promemoria personalizzabili, simbolo valuta, lingua e tema scuro, Bill Reminder è progettata per una gestione semplice e quotidiana delle scadenze."
+      ],
+      "bottomCtaDescription": "Gestisci le tue scadenze con meno stress: aggiungi bollette, imposta promemoria, controlla cosa è stato pagato e mantieni lo storico sempre a portata di mano.",
+      "category": "Finanza",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Promemoria Bollette",
+        "Promemoria Pagamenti",
+        "Tracker Bollette",
+        "Scadenze Pagamenti",
+        "Finanza Personale",
+        "Organizzazione Spese",
+        "Storico Pagamenti",
+        "Gestione Budget"
+      ],
+      "metaTitle": "Bill Reminder: promemoria bollette e pagamenti",
+      "metaDescription": "Tieni traccia di bollette, scadenze, pagamenti effettuati, ritardi, categorie, promemoria e storico con Bill Reminder.",
+      "featureBullets": [
+        {
+          "title": "Scadenze Bollette"
+        },
+        {
+          "title": "Promemoria Personalizzati"
+        },
+        {
+          "title": "Ricerca E Filtri"
+        },
+        {
+          "title": "Storico Pagamenti"
+        },
+        {
+          "title": "Bollette Ricorrenti"
+        },
+        {
+          "title": "Stato Pagato E Scaduto"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Tieni Tutto Sotto Controllo",
+          "description": "Mostrare la dashboard con dovuto questo mese, pagato questo mese, scadenze imminenti, pagamenti in ritardo e pulsante Aggiungi.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Aggiungi Una Bolletta",
+          "description": "Mostrare il modulo con nome, importo, categoria, ripetizione, data di scadenza, promemoria, autopay, note e pulsante Salva.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Gestisci I Pagamenti",
+          "description": "Mostrare la scheda dettaglio con importo, scadenza, promemoria, Segna pagato, Duplica, Modifica, Elimina e storico pagamenti.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Cosa posso gestire con Bill Reminder?",
+          "answer": "Puoi gestire bollette, importi, categorie, date di scadenza, cicli ricorrenti, promemoria, note e storico pagamenti."
+        },
+        {
+          "question": "Bill Reminder segnala le bollette in ritardo?",
+          "answer": "Sì. L’app evidenzia le bollette in scadenza e quelle in ritardo, così puoi intervenire rapidamente."
+        },
+        {
+          "question": "Posso segnare una bolletta come pagata?",
+          "answer": "Sì. Puoi marcarla come pagata e conservare lo storico dei pagamenti."
+        },
+        {
+          "question": "Posso duplicare una bolletta?",
+          "answer": "Sì. La scheda dettaglio include l’opzione Duplica per creare più velocemente una bolletta simile."
+        }
+      ]
+    },
+    "es": {
+      "name": "Bill Reminder",
+      "summary": "Bill Reminder te ayuda a controlar facturas próximas, vencidas, pagadas y pendientes en una app Android clara para pagar a tiempo.",
+      "longDescription": [
+        "Bill Reminder es una app Android para organizar facturas y reducir el riesgo de olvidar un pago. Mantén en un solo lugar las facturas próximas, vencidas, pagadas y pendientes.",
+        "Añade cada factura con nombre, importe, categoría, ciclo de repetición, fecha de vencimiento, tiempo de aviso, estado de autopago y notas.",
+        "El panel principal muestra de un vistazo lo que vence este mes, lo que ya pagaste, lo que vence pronto y lo que está atrasado. La búsqueda, los filtros, la ordenación por fecha y las categorías facilitan la gestión.",
+        "Cuando pagues una factura, márcala como pagada y conserva un historial claro. También puedes editar, duplicar, eliminar o deshacer el último pago desde el detalle de la factura.",
+        "Con recordatorios personalizables, símbolo de moneda, idioma y tema oscuro, Bill Reminder está pensada para ayudarte a mantener tus pagos ordenados."
+      ],
+      "bottomCtaDescription": "Organiza tus pagos mensuales con una herramienta sencilla: añade facturas, configura vencimientos, activa recordatorios y revisa tu historial cuando lo necesites.",
+      "category": "Finanzas",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Recordatorio De Facturas",
+        "Recordatorio De Pagos",
+        "Control De Facturas",
+        "Fecha De Vencimiento",
+        "Finanzas Personales",
+        "Organizador De Gastos",
+        "Historial De Pagos",
+        "Planificación De Presupuesto"
+      ],
+      "metaTitle": "Bill Reminder: recordatorio de facturas y pagos",
+      "metaDescription": "Controla facturas, vencimientos, pagos realizados, atrasos, categorías, recordatorios e historial con Bill Reminder para Android.",
+      "featureBullets": [
+        {
+          "title": "Seguimiento De Vencimientos"
+        },
+        {
+          "title": "Recordatorios Personalizados"
+        },
+        {
+          "title": "Búsqueda Y Filtros"
+        },
+        {
+          "title": "Historial De Pagos"
+        },
+        {
+          "title": "Facturas Recurrentes"
+        },
+        {
+          "title": "Pagadas Y Vencidas"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Controla Tus Facturas",
+          "description": "Mostrar el panel con vence este mes, pagado este mes, vence pronto, vencidas y botón para añadir factura.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Añade Facturas Fácilmente",
+          "description": "Mostrar el formulario con nombre, importe, categoría, repetición, fecha de vencimiento, aviso, autopago, notas y botón Guardar.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Gestiona Cada Pago",
+          "description": "Mostrar el detalle de factura con importe, vencimiento, recordatorio, Marcar pagado, Duplicar, Editar, Eliminar e historial.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Qué puedo registrar en Bill Reminder?",
+          "answer": "Puedes registrar facturas, importes, categorías, fechas de vencimiento, ciclos de repetición, recordatorios, autopago, notas e historial."
+        },
+        {
+          "question": "¿La app me ayuda a evitar pagos atrasados?",
+          "answer": "Sí. Muestra facturas próximas y vencidas, y permite activar recordatorios antes de la fecha de pago."
+        },
+        {
+          "question": "¿Puedo marcar una factura como pagada?",
+          "answer": "Sí. Puedes marcarla como pagada, consultar el historial y deshacer el último pago si lo necesitas."
+        },
+        {
+          "question": "¿Puedo filtrar mis facturas?",
+          "answer": "Sí. Puedes buscar, filtrar por estado y organizar las facturas por fecha o categoría."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Bill Reminder",
+      "summary": "Bill Reminder ajuda a acompanhar contas futuras, vencidas, pagas e por pagar numa aplicação Android simples para nunca perder uma data.",
+      "longDescription": [
+        "Bill Reminder é uma aplicação Android para organizar contas e evitar esquecimentos. Veja contas futuras, vencidas, pagas e por pagar num único lugar.",
+        "Adicione cada conta com nome, valor, categoria, ciclo de repetição, data de vencimento, antecedência do lembrete, estado de pagamento automático e notas.",
+        "O painel mostra rapidamente o que vence este mês, o que já foi pago, o que vence em breve e o que precisa de atenção. A pesquisa, os filtros, a ordenação por data e as categorias ajudam a manter tudo organizado.",
+        "Depois de pagar, marque a conta como paga e mantenha um histórico claro. Também pode editar, duplicar, eliminar ou desfazer o último pagamento a partir dos detalhes.",
+        "Com lembretes personalizáveis, símbolo de moeda, opções de idioma e tema escuro, Bill Reminder torna a gestão de pagamentos mais simples no dia a dia."
+      ],
+      "bottomCtaDescription": "Organize os seus pagamentos mensais com mais confiança: adicione contas, defina datas, personalize lembretes e consulte o histórico sempre que precisar.",
+      "category": "Finanças",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Lembrete De Contas",
+        "Lembrete De Pagamento",
+        "Gestor De Contas",
+        "Data De Vencimento",
+        "Finanças Pessoais",
+        "Organizador De Despesas",
+        "Histórico De Pagamentos",
+        "Planeamento De Orçamento"
+      ],
+      "metaTitle": "Bill Reminder: lembretes de contas e pagamentos",
+      "metaDescription": "Acompanhe contas, vencimentos, pagamentos, atrasos, categorias, lembretes e histórico com Bill Reminder para Android.",
+      "featureBullets": [
+        {
+          "title": "Controlo De Vencimentos"
+        },
+        {
+          "title": "Lembretes Personalizados"
+        },
+        {
+          "title": "Pesquisa E Filtros"
+        },
+        {
+          "title": "Histórico De Pagamentos"
+        },
+        {
+          "title": "Contas Recorrentes"
+        },
+        {
+          "title": "Estado Pago E Vencido"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Acompanhe As Contas",
+          "description": "Mostrar o painel com vencimento deste mês, pago este mês, vencimento próximo, contas vencidas e botão Adicionar conta.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Adicionar Conta",
+          "description": "Mostrar o formulário com nome, valor, categoria, repetição, data de vencimento, lembrete, pagamento automático, notas e botão Guardar.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Gerir Pagamentos",
+          "description": "Mostrar os detalhes da conta com valor, data, lembrete, Marcar pago, Duplicar, Editar, Eliminar e histórico de pagamentos.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "O que posso acompanhar no Bill Reminder?",
+          "answer": "Pode acompanhar contas, valores, categorias, vencimentos, ciclos recorrentes, lembretes, pagamento automático, notas e histórico."
+        },
+        {
+          "question": "Bill Reminder mostra contas vencidas?",
+          "answer": "Sim. A aplicação destaca contas vencidas e contas que vencem em breve para ajudar a agir a tempo."
+        },
+        {
+          "question": "Posso marcar uma conta como paga?",
+          "answer": "Sim. Pode marcar como paga, ver o histórico e desfazer o último pagamento quando necessário."
+        },
+        {
+          "question": "Posso personalizar a moeda?",
+          "answer": "Sim. As definições incluem um campo para ajustar o símbolo da moeda."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Bill Reminder",
+      "summary": "Bill Reminder вам помаже да пратите рачуне који стижу, касне, плаћени су или нису плаћени, како бисте остали организовани и плаћали на време.",
+      "longDescription": [
+        "Bill Reminder је Android апликација за све који желе јасније да организују рачуне и избегну пропуштене уплате. На једном месту пратите рачуне који стижу, касне, плаћени су или још нису плаћени.",
+        "Додајте рачун са називом, износом, категоријом, циклусом понављања, датумом доспећа, временом подсетника, статусом аутоматског плаћања и белешкама.",
+        "Почетни екран приказује шта доспева овог месеца, шта је већ плаћено, шта стиже ускоро и шта захтева пажњу. Претрага, филтери, сортирање по року и категорије олакшавају сналажење.",
+        "Када рачун платите, можете га означити као плаћен и сачувати историју. У детаљима рачуна можете и да измените, дуплирате, обришете или поништите последњу уплату.",
+        "Уз прилагодљиве подсетнике, симбол валуте, избор језика и тамну тему, Bill Reminder је направљен за једноставну свакодневну организацију плаћања."
+      ],
+      "bottomCtaDescription": "Организујте месечне обавезе без непотребног стреса: додајте рачуне, подесите рокове, укључите подсетнике и лако прегледајте историју плаћања.",
+      "category": "Финансије",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Подсетник За Рачуне",
+        "Подсетник За Плаћање",
+        "Праћење Рачуна",
+        "Рок Плаћања",
+        "Личне Финансије",
+        "Организатор Трошкова",
+        "Историја Плаћања",
+        "Планирање Буџета"
+      ],
+      "metaTitle": "Bill Reminder: подсетник за рачуне и плаћања",
+      "metaDescription": "Пратите рачуне, рокове, плаћене ставке, кашњења, категорије, подсетнике и историју плаћања уз Bill Reminder.",
+      "featureBullets": [
+        {
+          "title": "Праћење Рокова"
+        },
+        {
+          "title": "Прилагодљиви Подсетници"
+        },
+        {
+          "title": "Претрага И Филтери"
+        },
+        {
+          "title": "Историја Плаћања"
+        },
+        {
+          "title": "Понављајући Рачуни"
+        },
+        {
+          "title": "Плаћено И Доспело"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Пратите Рачуне",
+          "description": "Приказати почетни екран са износом за овај месец, плаћеним износом, рачунима који ускоро доспевају, закашњелим рачунима и дугметом за додавање.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Додајте Рачун",
+          "description": "Приказати форму са називом, износом, категоријом, понављањем, датумом доспећа, подсетником, аутоматским плаћањем, белешкама и дугметом за чување.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Управљајте Плаћањем",
+          "description": "Приказати детаље рачуна са износом, роком, подсетником, опцијама Означи плаћено, Дуплирај, Измени, Обриши и историјом плаћања.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Шта могу да пратим у апликацији Bill Reminder?",
+          "answer": "Можете пратити називе рачуна, износе, категорије, рокове, понављања, подсетнике, аутоматско плаћање, белешке и историју."
+        },
+        {
+          "question": "Да ли апликација помаже да не закасним са плаћањем?",
+          "answer": "Да. Приказује рачуне који ускоро доспевају и оне који касне, уз могућност подсетника пре рока."
+        },
+        {
+          "question": "Могу ли да означим рачун као плаћен?",
+          "answer": "Да. Рачун можете означити као плаћен, прегледати историју и поништити последњу уплату ако је потребно."
+        },
+        {
+          "question": "Да ли могу да користим понављајуће рачуне?",
+          "answer": "Да. При додавању рачуна можете подесити циклус понављања, на пример месечно."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Bill Reminder",
+      "summary": "Bill Reminder pomaže vam pratiti nadolazeće, zakašnjele, plaćene i neplaćene račune kako biste ostali organizirani i plaćali na vrijeme.",
+      "longDescription": [
+        "Bill Reminder je Android aplikacija za sve koji žele bolje organizirati račune i izbjeći propuštena plaćanja. Na jednom mjestu pratite nadolazeće, zakašnjele, plaćene i neplaćene račune.",
+        "Dodajte račun s nazivom, iznosom, kategorijom, ciklusom ponavljanja, datumom dospijeća, vremenom podsjetnika, statusom automatskog plaćanja i bilješkama.",
+        "Nadzorna ploča prikazuje što dospijeva ovaj mjesec, što je već plaćeno, što uskoro dolazi na naplatu i što zahtijeva pažnju. Pretraga, filtri, sortiranje po datumu i kategorije olakšavaju svakodnevno snalaženje.",
+        "Kada platite račun, možete ga označiti kao plaćen i zadržati povijest plaćanja. Iz detalja računa možete ga urediti, duplicirati, obrisati ili poništiti zadnju uplatu.",
+        "Uz prilagodljive podsjetnike, simbol valute, jezične postavke i tamnu temu, Bill Reminder je praktičan alat za mirniju organizaciju plaćanja."
+      ],
+      "bottomCtaDescription": "Organizirajte mjesečne obveze jednostavnije: dodajte račune, postavite datume dospijeća, prilagodite podsjetnike i pregledajte povijest plaćanja kad god trebate.",
+      "category": "Financije",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Podsjetnik Za Račune",
+        "Podsjetnik Za Plaćanje",
+        "Praćenje Računa",
+        "Datum Dospijeća",
+        "Osobne Financije",
+        "Organizator Troškova",
+        "Povijest Plaćanja",
+        "Planiranje Budžeta"
+      ],
+      "metaTitle": "Bill Reminder: podsjetnik za račune i plaćanja",
+      "metaDescription": "Pratite račune, dospijeća, plaćene stavke, kašnjenja, kategorije, podsjetnike i povijest plaćanja uz Bill Reminder.",
+      "featureBullets": [
+        {
+          "title": "Praćenje Dospijeća"
+        },
+        {
+          "title": "Prilagodljivi Podsjetnici"
+        },
+        {
+          "title": "Pretraga I Filtri"
+        },
+        {
+          "title": "Povijest Plaćanja"
+        },
+        {
+          "title": "Ponavljajući Računi"
+        },
+        {
+          "title": "Plaćeno I Zakašnjelo"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Pratite Račune",
+          "description": "Prikazati nadzornu ploču s iznosom dospjelim ovaj mjesec, plaćenim iznosom, računima koji uskoro dospijevaju, zakašnjelima i gumbom Dodaj račun.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Dodajte Račun",
+          "description": "Prikazati obrazac s nazivom, iznosom, kategorijom, ponavljanjem, datumom dospijeća, podsjetnikom, automatskim plaćanjem, bilješkama i gumbom Spremi.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Upravljajte Plaćanjem",
+          "description": "Prikazati detalje računa s iznosom, dospijećem, podsjetnikom, Označi plaćeno, Dupliciraj, Uredi, Obriši i poviješću plaćanja.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Što mogu pratiti u aplikaciji Bill Reminder?",
+          "answer": "Možete pratiti račune, iznose, kategorije, datume dospijeća, ponavljanja, podsjetnike, automatsko plaćanje, bilješke i povijest."
+        },
+        {
+          "question": "Može li me aplikacija podsjetiti prije dospijeća?",
+          "answer": "Da. Možete uključiti podsjetnike i odabrati koliko ranije želite dobiti obavijest."
+        },
+        {
+          "question": "Mogu li označiti račun kao plaćen?",
+          "answer": "Da. Račun možete označiti kao plaćen, pregledati povijest i poništiti zadnju uplatu ako je potrebno."
+        },
+        {
+          "question": "Podržava li aplikacija ponavljajuće račune?",
+          "answer": "Da. Pri dodavanju računa možete odabrati ciklus ponavljanja, primjerice mjesečno."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Bill Reminder",
+      "summary": "Bill Reminder helpt je aankomende, verlopen, betaalde en openstaande rekeningen overzichtelijk bij te houden op Android.",
+      "longDescription": [
+        "Bill Reminder is een Android-app voor iedereen die rekeningen overzichtelijk wil beheren en betalingen niet wil vergeten. Je ziet aankomende, verlopen, betaalde en openstaande rekeningen op één plek.",
+        "Voeg een rekening toe met naam, bedrag, categorie, herhaalcyclus, vervaldatum, herinneringstijd, autopay-status en notities. Handig voor internet, vaste lasten, abonnementen en andere terugkerende kosten.",
+        "Het dashboard laat zien wat deze maand verschuldigd is, wat al betaald is, wat binnenkort afloopt en wat aandacht nodig heeft. Zoeken, filters, sorteren op vervaldatum en categorieën houden alles overzichtelijk.",
+        "Zodra een rekening betaald is, markeer je die als betaald en bouw je een duidelijke betaalgeschiedenis op. Vanuit de details kun je ook bewerken, dupliceren, verwijderen of de laatste betaling ongedaan maken.",
+        "Met aanpasbare herinneringen, valutasymbool, taalinstellingen en een donker thema is Bill Reminder gemaakt voor eenvoudige dagelijkse betaalorganisatie."
+      ],
+      "bottomCtaDescription": "Houd je maandelijkse betalingen rustig onder controle: voeg rekeningen toe, stel vervaldatums in, pas herinneringen aan en bekijk je betaalgeschiedenis wanneer je wilt.",
+      "category": "Financiën",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Rekening Herinnering",
+        "Betaalherinnering",
+        "Rekening Tracker",
+        "Vervaldatum",
+        "Persoonlijke Financiën",
+        "Uitgaven Organizer",
+        "Betaalgeschiedenis",
+        "Budgetplanning"
+      ],
+      "metaTitle": "Bill Reminder: rekeningen en betalingen bijhouden",
+      "metaDescription": "Volg rekeningen, vervaldatums, betaalde bedragen, verlopen betalingen, categorieën, herinneringen en betaalgeschiedenis.",
+      "featureBullets": [
+        {
+          "title": "Vervaldatums Bijhouden"
+        },
+        {
+          "title": "Aangepaste Herinneringen"
+        },
+        {
+          "title": "Zoeken En Filteren"
+        },
+        {
+          "title": "Betaalgeschiedenis"
+        },
+        {
+          "title": "Terugkerende Rekeningen"
+        },
+        {
+          "title": "Betaald En Verlopen"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Volg Je Rekeningen",
+          "description": "Toon het dashboard met verschuldigd deze maand, betaald deze maand, binnenkort verschuldigd, verlopen rekeningen en de knop Rekening toevoegen.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Rekening Toevoegen",
+          "description": "Toon het formulier met naam, bedrag, categorie, herhaling, vervaldatum, herinnering, autopay, notities en opslaan-knop.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Elke Betaling Beheren",
+          "description": "Toon het rekeningdetail met bedrag, vervaldatum, herinnering, Markeer betaald, Dupliceren, Bewerken, Verwijderen en betaalgeschiedenis.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wat kan ik bijhouden met Bill Reminder?",
+          "answer": "Je kunt rekeningen, bedragen, categorieën, vervaldatums, herhalingen, herinneringen, autopay, notities en betaalgeschiedenis bijhouden."
+        },
+        {
+          "question": "Helpt Bill Reminder met verlopen rekeningen?",
+          "answer": "Ja. De app toont rekeningen die binnenkort vervallen en rekeningen die al verlopen zijn."
+        },
+        {
+          "question": "Kan ik een rekening als betaald markeren?",
+          "answer": "Ja. Je kunt een rekening als betaald markeren, de geschiedenis bekijken en de laatste betaling terugdraaien."
+        },
+        {
+          "question": "Kan ik rekeningen filteren?",
+          "answer": "Ja. Je kunt zoeken, filteren op status en rekeningen ordenen op datum of categorie."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Bill Reminder",
+      "summary": "Bill Reminder pomaga kontrolować nadchodzące, zaległe, opłacone i nieopłacone rachunki w przejrzystej aplikacji na Androida.",
+      "longDescription": [
+        "Bill Reminder to aplikacja na Androida dla osób, które chcą lepiej organizować rachunki i unikać przeoczonych płatności. Nadchodzące, zaległe, opłacone i nieopłacone rachunki są widoczne w jednym miejscu.",
+        "Dodaj rachunek z nazwą, kwotą, kategorią, cyklem powtarzania, terminem płatności, wyprzedzeniem przypomnienia, statusem autopłatności i notatkami.",
+        "Panel główny pokazuje, ile jest do zapłaty w tym miesiącu, ile już zapłacono, co zbliża się w najbliższych dniach i co wymaga uwagi. Wyszukiwanie, filtry, sortowanie według daty i kategorie pomagają utrzymać porządek.",
+        "Po opłaceniu rachunku możesz oznaczyć go jako zapłacony i zachować historię płatności. W szczegółach rachunku dostępne są też opcje edycji, duplikowania, usuwania i cofnięcia ostatniej płatności.",
+        "Dzięki konfigurowalnym przypomnieniom, symbolowi waluty, ustawieniom języka i ciemnemu motywowi Bill Reminder ułatwia codzienne zarządzanie płatnościami."
+      ],
+      "bottomCtaDescription": "Uporządkuj miesięczne płatności bez chaosu: dodawaj rachunki, ustawiaj terminy, wybieraj przypomnienia i sprawdzaj historię opłat w jednym miejscu.",
+      "category": "Finanse",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Przypomnienie O Rachunkach",
+        "Przypomnienie O Płatności",
+        "Śledzenie Rachunków",
+        "Termin Płatności",
+        "Finanse Osobiste",
+        "Organizer Wydatków",
+        "Historia Płatności",
+        "Planowanie Budżetu"
+      ],
+      "metaTitle": "Bill Reminder: rachunki, płatności i przypomnienia",
+      "metaDescription": "Śledź rachunki, terminy, płatności, zaległości, kategorie, przypomnienia i historię opłat z Bill Reminder na Androida.",
+      "featureBullets": [
+        {
+          "title": "Terminy Płatności"
+        },
+        {
+          "title": "Własne Przypomnienia"
+        },
+        {
+          "title": "Wyszukiwanie I Filtry"
+        },
+        {
+          "title": "Historia Płatności"
+        },
+        {
+          "title": "Rachunki Cykliczne"
+        },
+        {
+          "title": "Opłacone I Zaległe"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Kontroluj Rachunki",
+          "description": "Pokazać panel z kwotą do zapłaty w tym miesiącu, zapłacone w tym miesiącu, zbliżające się terminy, zaległości i przycisk dodawania.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Dodaj Rachunek",
+          "description": "Pokazać formularz z nazwą, kwotą, kategorią, powtarzaniem, terminem płatności, przypomnieniem, autopłatnością, notatkami i zapisem.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Zarządzaj Płatnością",
+          "description": "Pokazać szczegóły rachunku z kwotą, terminem, przypomnieniem, oznaczeniem jako zapłacony, duplikowaniem, edycją, usunięciem i historią.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Co mogę śledzić w Bill Reminder?",
+          "answer": "Możesz śledzić rachunki, kwoty, kategorie, terminy płatności, cykle powtarzania, przypomnienia, autopłatność, notatki i historię."
+        },
+        {
+          "question": "Czy aplikacja pokazuje zaległe rachunki?",
+          "answer": "Tak. Bill Reminder wyróżnia rachunki zaległe i te, które zbliżają się do terminu płatności."
+        },
+        {
+          "question": "Czy mogę oznaczyć rachunek jako opłacony?",
+          "answer": "Tak. Możesz oznaczyć rachunek jako opłacony, zobaczyć historię i cofnąć ostatnią płatność."
+        },
+        {
+          "question": "Czy mogę ustawić rachunki cykliczne?",
+          "answer": "Tak. Przy dodawaniu rachunku możesz wybrać cykl powtarzania, na przykład miesięczny."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Bill Reminder",
+      "summary": "Bill Reminder te ajută să urmărești facturi viitoare, restante, plătite și neplătite într-o aplicație Android clară și ușor de folosit.",
+      "longDescription": [
+        "Bill Reminder este o aplicație Android pentru cei care vor să își organizeze mai bine facturile și să evite plățile uitate. Vezi facturile viitoare, restante, plătite și neplătite într-un singur loc.",
+        "Adaugă fiecare factură cu nume, sumă, categorie, ciclu de repetare, dată scadentă, timp de notificare, status autopay și notițe.",
+        "Dashboardul arată rapid ce este de plată luna aceasta, ce a fost deja plătit, ce urmează curând și ce necesită atenție. Căutarea, filtrele, sortarea după dată și categoriile te ajută să rămâi organizat.",
+        "După ce plătești o factură, o poți marca drept plătită și poți păstra un istoric clar. Din detaliile facturii poți edita, duplica, șterge sau anula ultima plată.",
+        "Cu mementouri personalizabile, simbol de monedă, opțiuni de limbă și temă întunecată, Bill Reminder simplifică organizarea plăților de zi cu zi."
+      ],
+      "bottomCtaDescription": "Ține plățile lunare sub control: adaugă facturi, setează scadențe, personalizează mementouri și verifică istoricul plăților oricând ai nevoie.",
+      "category": "Finanțe",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Memento Facturi",
+        "Memento Plată",
+        "Urmărire Facturi",
+        "Dată Scadentă",
+        "Finanțe Personale",
+        "Organizator Cheltuieli",
+        "Istoric Plăți",
+        "Planificare Buget"
+      ],
+      "metaTitle": "Bill Reminder: mementouri pentru facturi și plăți",
+      "metaDescription": "Urmărește facturi, scadențe, plăți, restanțe, categorii, mementouri și istoricul plăților cu Bill Reminder.",
+      "featureBullets": [
+        {
+          "title": "Urmărire Scadențe"
+        },
+        {
+          "title": "Mementouri Personalizate"
+        },
+        {
+          "title": "Căutare Și Filtre"
+        },
+        {
+          "title": "Istoric Plăți"
+        },
+        {
+          "title": "Facturi Recurente"
+        },
+        {
+          "title": "Plătit Și Restant"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Urmărește Facturile",
+          "description": "Arată dashboardul cu de plată luna aceasta, plătit luna aceasta, scadent curând, restant și butonul de adăugare factură.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-1.png"
+        },
+        {
+          "title": "Adaugă O Factură",
+          "description": "Arată formularul cu nume, sumă, categorie, repetare, dată scadentă, memento, autopay, notițe și buton de salvare.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-2.png"
+        },
+        {
+          "title": "Gestionează Plățile",
+          "description": "Arată detaliile facturii cu sumă, scadență, memento, Marchează plătit, Duplică, Editează, Șterge și istoric plăți.",
+          "imagePath": "apps/screenshots/bill-reminder/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Ce pot urmări cu Bill Reminder?",
+          "answer": "Poți urmări facturi, sume, categorii, scadențe, cicluri recurente, mementouri, autopay, notițe și istoricul plăților."
+        },
+        {
+          "question": "Bill Reminder mă ajută să evit facturile restante?",
+          "answer": "Da. Aplicația evidențiază facturile scadente curând și cele restante, iar mementourile pot fi activate înainte de scadență."
+        },
+        {
+          "question": "Pot marca o factură ca plătită?",
+          "answer": "Da. Poți marca factura ca plătită, poți vedea istoricul și poți anula ultima plată atunci când este necesar."
+        },
+        {
+          "question": "Pot organiza facturile pe categorii?",
+          "answer": "Da. Poți atribui categorii facturilor și le poți filtra pentru a găsi rapid ceea ce cauți."
+        }
+      ]
+    }
+  }
+}

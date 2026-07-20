@@ -1,0 +1,936 @@
+{
+  "slug": "subscription-tracker",
+  "sortOrder": 24,
+  "kind": "app",
+  "featured": false,
+  "accent": "orange",
+  "icon": "apps/icons/subscription-tracker.png",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.stoopidcartoons.subscriptiontracker",
+  "websiteUrl": null,
+  "schemaApplicationCategory": "FinanceApplication",
+  "relatedSlugs": [
+    "bill-reminder",
+    "chore-tracker",
+    "mood-tracker"
+  ],
+  "screenshotOrientation": "portrait",
+  "translations": {
+    "en": {
+      "name": "Subscription Tracker",
+      "summary": "Subscription Tracker helps you monitor recurring services, renewal dates, trial deadlines, monthly costs, yearly estimates, and cancelled plans in one simple Android app.",
+      "longDescription": [
+        "Subscription Tracker is a focused Android app for keeping recurring services under control. Track streaming plans, apps, memberships, trials, and other subscriptions without relying on memory.",
+        "The dashboard gives you a clear view of monthly total, yearly estimate, renewals in the next 7 days, trial endings, active subscriptions, cancelled savings, and spending insights by category.",
+        "Adding a service is simple: enter the service name, price, category, billing cycle, next renewal date, free trial end date, cancel-by date, and notes. This makes it easier to see what is charging next and what may need attention before billing.",
+        "Search and sort your active subscriptions by renewal date, then archive cancelled plans to keep your list clean. Archived items stay separate so you can review what you stopped paying for without mixing them with active services.",
+        "With customizable renewal and trial reminders, currency symbol settings, language options, and dark theme support, Subscription Tracker helps you stay organized and reduce subscription waste."
+      ],
+      "bottomCtaDescription": "Stay ahead of renewals before they become unwanted charges. Add your services, track what renews next, review your spending, and keep cancelled subscriptions archived without cluttering your active list.",
+      "category": "Finance",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Subscription Tracker",
+        "Subscription Manager",
+        "Renewal Reminder",
+        "Recurring Payments",
+        "Trial Reminder",
+        "Monthly Spending",
+        "Personal Finance",
+        "Budget Tracker"
+      ],
+      "metaTitle": "Subscription Tracker: Renewal and Cost Manager",
+      "metaDescription": "Track subscriptions, renewals, trial dates, monthly costs, yearly estimates, reminders, and cancelled plans with Subscription Tracker.",
+      "featureBullets": [
+        {
+          "title": "Renewal Date Tracking"
+        },
+        {
+          "title": "Monthly And Yearly Costs"
+        },
+        {
+          "title": "Trial End Reminders"
+        },
+        {
+          "title": "Cancel-By Dates"
+        },
+        {
+          "title": "Archive Cancelled Plans"
+        },
+        {
+          "title": "Spending Insights"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Track Your Subscriptions",
+          "description": "Show the dashboard with monthly total, yearly estimate, renewals next 7 days, trial endings, active count, cancelled savings, and spending insights.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Add Services Easily",
+          "description": "Show the add subscription form with service name, price, category, billing cycle, next renewal, free trial end, cancel-by date, notes, and Save button.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Stay Ahead Of Renewals",
+          "description": "Show the active subscriptions list with search, renewal date sorting, a service card, renewal information, price, and Add subscription button.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What can I track with Subscription Tracker?",
+          "answer": "You can track service names, prices, categories, billing cycles, renewal dates, free trial end dates, cancel-by dates, notes, and archived cancelled plans."
+        },
+        {
+          "question": "Does Subscription Tracker show my monthly spending?",
+          "answer": "Yes. The dashboard shows your monthly total, yearly estimate, active count, and spending insights by category."
+        },
+        {
+          "question": "Can I get reminders before a subscription renews?",
+          "answer": "Yes. You can enable reminders and choose a lead time before renewal or trial dates."
+        },
+        {
+          "question": "Can I track free trials?",
+          "answer": "Yes. You can add a free trial end date and a cancel-by date so trial deadlines are easier to monitor."
+        },
+        {
+          "question": "What happens to cancelled subscriptions?",
+          "answer": "Cancelled subscriptions can be archived, keeping your active list clean while still letting you review past plans."
+        }
+      ]
+    },
+    "de": {
+      "name": "Subscription Tracker",
+      "summary": "Subscription Tracker hilft dir, Abos, Verlängerungen, Testzeiträume, monatliche Kosten, Jahresprognosen und gekündigte Dienste übersichtlich zu verwalten.",
+      "longDescription": [
+        "Subscription Tracker ist eine übersichtliche Android-App für alle, die wiederkehrende Dienste besser kontrollieren möchten. Behalte Streaming-Abos, Apps, Mitgliedschaften, Testphasen und andere laufende Kosten an einem Ort im Blick.",
+        "Das Dashboard zeigt dir monatliche Gesamtkosten, geschätzte Jahreskosten, Verlängerungen in den nächsten 7 Tagen, endende Testzeiträume, aktive Abos, Einsparungen durch Kündigungen und Kategorie-Insights.",
+        "Beim Hinzufügen eines Dienstes speicherst du Name, Preis, Kategorie, Abrechnungszyklus, nächste Verlängerung, Ende der Testphase, Kündigungsfristdatum und Notizen. So erkennst du schneller, was als Nächstes berechnet wird.",
+        "Du kannst aktive Abos durchsuchen, nach Verlängerungsdatum sortieren und gekündigte Pläne archivieren. Dadurch bleibt die aktive Liste aufgeräumt, während frühere Abos weiterhin nachvollziehbar bleiben.",
+        "Mit anpassbaren Erinnerungen für Verlängerungen und Tests, Währungssymbol, Spracheinstellungen und dunklem Design unterstützt Subscription Tracker eine ruhige, klare Abo-Organisation."
+      ],
+      "bottomCtaDescription": "Behalte deine Abos im Blick, bevor aus Verlängerungen unerwünschte Kosten werden. Füge Dienste hinzu, prüfe kommende Abbuchungen und archiviere gekündigte Pläne sauber getrennt.",
+      "category": "Finanzen",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Abo Tracker",
+        "Abo Verwaltung",
+        "Verlängerung Erinnerung",
+        "Wiederkehrende Zahlungen",
+        "Testzeitraum Erinnerung",
+        "Monatliche Kosten",
+        "Persönliche Finanzen",
+        "Budget Tracker"
+      ],
+      "metaTitle": "Subscription Tracker: Abo-Kosten und Verlängerungen",
+      "metaDescription": "Verfolge Abos, Verlängerungen, Testzeiträume, Monatskosten, Jahresprognosen, Erinnerungen und gekündigte Pläne.",
+      "featureBullets": [
+        {
+          "title": "Verlängerungen Verfolgen"
+        },
+        {
+          "title": "Monats- Und Jahreskosten"
+        },
+        {
+          "title": "Testzeitraum Erinnerungen"
+        },
+        {
+          "title": "Kündigungsdatum"
+        },
+        {
+          "title": "Gekündigte Pläne Archivieren"
+        },
+        {
+          "title": "Ausgaben-Insights"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Abos Im Überblick",
+          "description": "Zeige das Dashboard mit monatlicher Summe, Jahresprognose, Verlängerungen in 7 Tagen, Testenden, aktiven Abos, gekündigten Einsparungen und Insights.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Dienst Hinzufügen",
+          "description": "Zeige das Formular mit Dienstname, Preis, Kategorie, Abrechnungszyklus, nächster Verlängerung, Testende, Kündigungsdatum, Notizen und Speichern-Button.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Verlängerungen Im Blick",
+          "description": "Zeige die aktive Abo-Liste mit Suche, Sortierung nach Verlängerungsdatum, Servicekarte, Verlängerungsinfo, Preis und Hinzufügen-Button.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Was kann ich mit Subscription Tracker verfolgen?",
+          "answer": "Du kannst Dienste, Preise, Kategorien, Abrechnungszyklen, Verlängerungsdaten, Testenden, Kündigungsdaten, Notizen und archivierte Abos verwalten."
+        },
+        {
+          "question": "Zeigt die App meine monatlichen Abo-Kosten?",
+          "answer": "Ja. Das Dashboard zeigt Monatskosten, geschätzte Jahreskosten, aktive Abos und Ausgaben-Insights nach Kategorie."
+        },
+        {
+          "question": "Kann ich Erinnerungen vor einer Verlängerung erhalten?",
+          "answer": "Ja. Du kannst Erinnerungen aktivieren und festlegen, wie viele Tage vorher du benachrichtigt werden möchtest."
+        },
+        {
+          "question": "Kann ich kostenlose Testphasen verfolgen?",
+          "answer": "Ja. Du kannst ein Testende und ein Kündigungsdatum eintragen, damit Fristen besser sichtbar bleiben."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Subscription Tracker",
+      "summary": "Subscription Tracker vous aide à suivre vos abonnements, renouvellements, essais gratuits, coûts mensuels, estimations annuelles et formules annulées.",
+      "longDescription": [
+        "Subscription Tracker est une application Android conçue pour reprendre le contrôle de vos abonnements récurrents. Elle convient aux services de streaming, applications, adhésions, essais gratuits et autres frais réguliers.",
+        "Le tableau de bord affiche le total mensuel, l’estimation annuelle, les renouvellements dans les 7 prochains jours, les essais qui se terminent, le nombre d’abonnements actifs, les économies liées aux annulations et les insights par catégorie.",
+        "Ajoutez un service avec son nom, son prix, sa catégorie, son cycle de facturation, sa prochaine date de renouvellement, la fin d’essai gratuit, la date limite d’annulation et vos notes.",
+        "La liste active permet de rechercher vos services et de les trier par date de renouvellement. Les formules annulées peuvent être archivées afin de garder une liste propre sans perdre l’historique utile.",
+        "Avec des rappels personnalisables, le symbole de devise, les options de langue et le thème sombre, Subscription Tracker simplifie le suivi des renouvellements et des coûts récurrents."
+      ],
+      "bottomCtaDescription": "Gardez une longueur d’avance sur les renouvellements et évitez les frais oubliés. Ajoutez vos services, suivez les prochaines dates et archivez les abonnements annulés.",
+      "category": "Finance",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Suivi Abonnement",
+        "Gestion Abonnements",
+        "Rappel Renouvellement",
+        "Paiements Récurrents",
+        "Rappel Essai Gratuit",
+        "Dépenses Mensuelles",
+        "Finances Personnelles",
+        "Budget"
+      ],
+      "metaTitle": "Subscription Tracker : gérer abonnements et coûts",
+      "metaDescription": "Suivez abonnements, renouvellements, essais, coûts mensuels, estimations annuelles, rappels et abonnements annulés.",
+      "featureBullets": [
+        {
+          "title": "Suivi Des Renouvellements"
+        },
+        {
+          "title": "Coûts Mensuels Et Annuels"
+        },
+        {
+          "title": "Rappels D’Essai Gratuit"
+        },
+        {
+          "title": "Dates Limites D’Annulation"
+        },
+        {
+          "title": "Archive Des Abonnements"
+        },
+        {
+          "title": "Insights De Dépenses"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Suivez Vos Abonnements",
+          "description": "Montrer le tableau de bord avec total mensuel, estimation annuelle, renouvellements sous 7 jours, essais terminant bientôt, abonnements actifs, économies et insights.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Ajouter Un Service",
+          "description": "Montrer le formulaire avec nom du service, prix, catégorie, cycle, prochain renouvellement, fin d’essai, date limite d’annulation, notes et bouton Enregistrer.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Anticiper Les Renouvellements",
+          "description": "Montrer la liste active avec recherche, tri par date de renouvellement, carte de service, date de renouvellement, prix et bouton d’ajout.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Que puis-je suivre avec Subscription Tracker ?",
+          "answer": "Vous pouvez suivre les services, prix, catégories, cycles de facturation, renouvellements, fins d’essai, dates d’annulation, notes et abonnements archivés."
+        },
+        {
+          "question": "L’application affiche-t-elle le coût total de mes abonnements ?",
+          "answer": "Oui. Le tableau de bord affiche le total mensuel, l’estimation annuelle, le nombre d’abonnements actifs et les insights par catégorie."
+        },
+        {
+          "question": "Puis-je recevoir un rappel avant un renouvellement ?",
+          "answer": "Oui. Vous pouvez activer les rappels et choisir un délai avant la date de renouvellement ou de fin d’essai."
+        },
+        {
+          "question": "Puis-je archiver les abonnements annulés ?",
+          "answer": "Oui. Les abonnements annulés peuvent être déplacés vers l’archive pour garder la liste active claire."
+        }
+      ]
+    },
+    "it": {
+      "name": "Subscription Tracker",
+      "summary": "Subscription Tracker ti aiuta a monitorare abbonamenti, rinnovi, prove gratuite, costi mensili, stime annuali e piani annullati in un’unica app Android.",
+      "longDescription": [
+        "Subscription Tracker è un’app Android pensata per gestire meglio i servizi ricorrenti. Puoi usarla per streaming, app, membership, prove gratuite e altri abbonamenti che si rinnovano nel tempo.",
+        "La dashboard mostra totale mensile, stima annuale, rinnovi nei prossimi 7 giorni, prove in scadenza, numero di abbonamenti attivi, risparmi da cancellazioni e insight per categoria.",
+        "Aggiungere un servizio è rapido: inserisci nome, prezzo, categoria, ciclo di fatturazione, prossimo rinnovo, fine della prova gratuita, data limite per annullare e note.",
+        "Puoi cercare gli abbonamenti attivi, ordinarli per data di rinnovo e archiviare quelli annullati. In questo modo la lista resta pulita senza perdere traccia dei piani disattivati.",
+        "Con promemoria personalizzabili per rinnovi e prove, simbolo valuta, lingua e tema scuro, Subscription Tracker rende più semplice controllare costi ricorrenti e scadenze."
+      ],
+      "bottomCtaDescription": "Tieni sotto controllo i rinnovi prima che diventino addebiti indesiderati. Aggiungi i servizi, controlla le prossime scadenze e archivia gli abbonamenti cancellati.",
+      "category": "Finanza",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Tracker Abbonamenti",
+        "Gestione Abbonamenti",
+        "Promemoria Rinnovi",
+        "Pagamenti Ricorrenti",
+        "Promemoria Prova Gratuita",
+        "Spese Mensili",
+        "Finanza Personale",
+        "Budget"
+      ],
+      "metaTitle": "Subscription Tracker: gestisci abbonamenti e costi",
+      "metaDescription": "Tieni traccia di abbonamenti, rinnovi, prove gratuite, costi mensili, stime annuali, promemoria e piani annullati.",
+      "featureBullets": [
+        {
+          "title": "Tracciamento Rinnovi"
+        },
+        {
+          "title": "Costi Mensili E Annuali"
+        },
+        {
+          "title": "Promemoria Prove Gratuite"
+        },
+        {
+          "title": "Date Limite Di Cancellazione"
+        },
+        {
+          "title": "Archivio Piani Annullati"
+        },
+        {
+          "title": "Insight Di Spesa"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Monitora Gli Abbonamenti",
+          "description": "Mostrare la dashboard con totale mensile, stima annuale, rinnovi nei prossimi 7 giorni, prove in scadenza, attivi, risparmi e insight.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Aggiungi Un Servizio",
+          "description": "Mostrare il modulo con nome servizio, prezzo, categoria, ciclo, prossimo rinnovo, fine prova gratuita, data limite di cancellazione, note e Salva.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Anticipa I Rinnovi",
+          "description": "Mostrare la lista degli abbonamenti attivi con ricerca, ordinamento per rinnovo, scheda servizio, data di rinnovo, prezzo e pulsante di aggiunta.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Cosa posso monitorare con Subscription Tracker?",
+          "answer": "Puoi monitorare servizi, prezzi, categorie, cicli di fatturazione, rinnovi, fine prova gratuita, date limite per annullare, note e archivi."
+        },
+        {
+          "question": "L’app mostra quanto spendo in abbonamenti?",
+          "answer": "Sì. La dashboard mostra totale mensile, stima annuale, numero di abbonamenti attivi e insight per categoria."
+        },
+        {
+          "question": "Posso impostare promemoria prima del rinnovo?",
+          "answer": "Sì. Puoi attivare promemoria e scegliere con quanti giorni di anticipo riceverli."
+        },
+        {
+          "question": "Posso gestire le prove gratuite?",
+          "answer": "Sì. Puoi inserire la data di fine prova e una data limite per annullare prima dell’addebito."
+        }
+      ]
+    },
+    "es": {
+      "name": "Subscription Tracker",
+      "summary": "Subscription Tracker te ayuda a controlar suscripciones, renovaciones, pruebas gratis, costes mensuales, estimaciones anuales y planes cancelados.",
+      "longDescription": [
+        "Subscription Tracker es una app Android para organizar servicios recurrentes y tener claro qué pagas cada mes. Es útil para streaming, apps, membresías, pruebas gratuitas y otros planes con renovación.",
+        "El panel principal muestra total mensual, estimación anual, renovaciones en los próximos 7 días, pruebas que terminan, número de suscripciones activas, ahorro por cancelaciones e información por categoría.",
+        "Añade cada servicio con nombre, precio, categoría, ciclo de facturación, próxima renovación, fin de prueba gratuita, fecha límite para cancelar y notas.",
+        "Busca tus suscripciones activas, ordénalas por fecha de renovación y archiva los planes cancelados para mantener la lista limpia. Así puedes centrarte en lo activo sin perder el contexto de lo que dejaste de pagar.",
+        "Con recordatorios configurables, símbolo de moneda, opciones de idioma y tema oscuro, Subscription Tracker facilita el seguimiento de renovaciones y costes recurrentes."
+      ],
+      "bottomCtaDescription": "Anticípate a las renovaciones y evita cargos no deseados. Añade tus servicios, revisa qué se cobra próximamente y archiva suscripciones canceladas sin desorden.",
+      "category": "Finanzas",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Control De Suscripciones",
+        "Gestor De Suscripciones",
+        "Recordatorio De Renovación",
+        "Pagos Recurrentes",
+        "Recordatorio De Prueba Gratis",
+        "Gastos Mensuales",
+        "Finanzas Personales",
+        "Presupuesto"
+      ],
+      "metaTitle": "Subscription Tracker: controla suscripciones y gastos",
+      "metaDescription": "Controla suscripciones, renovaciones, pruebas gratis, costes mensuales, estimaciones anuales, recordatorios y planes cancelados.",
+      "featureBullets": [
+        {
+          "title": "Seguimiento De Renovaciones"
+        },
+        {
+          "title": "Costes Mensuales Y Anuales"
+        },
+        {
+          "title": "Recordatorios De Prueba"
+        },
+        {
+          "title": "Fechas Límite De Cancelación"
+        },
+        {
+          "title": "Archivo De Planes Cancelados"
+        },
+        {
+          "title": "Análisis De Gastos"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Controla Tus Suscripciones",
+          "description": "Mostrar el panel con total mensual, estimación anual, renovaciones en 7 días, pruebas que terminan, activas, ahorro por cancelación e insights.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Añade Servicios",
+          "description": "Mostrar el formulario con nombre, precio, categoría, ciclo, próxima renovación, fin de prueba, fecha límite para cancelar, notas y botón Guardar.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Anticípate A Renovaciones",
+          "description": "Mostrar la lista activa con búsqueda, orden por renovación, tarjeta de servicio, fecha de renovación, precio y botón de añadir.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Qué puedo registrar en Subscription Tracker?",
+          "answer": "Puedes registrar servicios, precios, categorías, ciclos de facturación, renovaciones, fin de prueba gratis, fecha límite de cancelación, notas y archivo."
+        },
+        {
+          "question": "¿La app calcula el gasto mensual en suscripciones?",
+          "answer": "Sí. Muestra total mensual, estimación anual, suscripciones activas e información de gasto por categoría."
+        },
+        {
+          "question": "¿Puedo recibir avisos antes de una renovación?",
+          "answer": "Sí. Puedes activar recordatorios y elegir el tiempo de aviso antes de renovaciones o fin de pruebas."
+        },
+        {
+          "question": "¿Puedo archivar suscripciones canceladas?",
+          "answer": "Sí. Los planes cancelados pueden archivarse para mantener separada la lista de suscripciones activas."
+        }
+      ]
+    },
+    "pt": {
+      "name": "Subscription Tracker",
+      "summary": "Subscription Tracker ajuda a acompanhar subscrições, renovações, períodos de teste, custos mensais, estimativas anuais e planos cancelados.",
+      "longDescription": [
+        "Subscription Tracker é uma aplicação Android para organizar serviços recorrentes e perceber melhor quanto gasta. Use-a para streaming, apps, memberships, testes gratuitos e outros planos com renovação.",
+        "O painel mostra total mensal, estimativa anual, renovações nos próximos 7 dias, testes a terminar, número de subscrições ativas, poupança de planos cancelados e insights por categoria.",
+        "Ao adicionar um serviço, pode guardar nome, preço, categoria, ciclo de faturação, próxima renovação, fim do teste gratuito, data limite para cancelar e notas.",
+        "Pesquise subscrições ativas, ordene por data de renovação e arquive planos cancelados para manter a lista limpa. Assim, os serviços ativos ficam separados dos que já deixou de pagar.",
+        "Com lembretes personalizáveis, símbolo de moeda, opções de idioma e tema escuro, Subscription Tracker ajuda a controlar renovações, testes e custos recorrentes."
+      ],
+      "bottomCtaDescription": "Antecipe renovações antes que se tornem cobranças indesejadas. Adicione serviços, veja o que vai renovar e arquive planos cancelados sem confundir a lista ativa.",
+      "category": "Finanças",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Gestor De Subscrições",
+        "Controlo De Subscrições",
+        "Lembrete De Renovação",
+        "Pagamentos Recorrentes",
+        "Lembrete De Teste Gratuito",
+        "Despesas Mensais",
+        "Finanças Pessoais",
+        "Orçamento"
+      ],
+      "metaTitle": "Subscription Tracker: gerir subscrições e custos",
+      "metaDescription": "Acompanhe subscrições, renovações, testes, custos mensais, estimativas anuais, lembretes e planos cancelados.",
+      "featureBullets": [
+        {
+          "title": "Acompanhamento De Renovações"
+        },
+        {
+          "title": "Custos Mensais E Anuais"
+        },
+        {
+          "title": "Lembretes De Teste"
+        },
+        {
+          "title": "Datas Limite De Cancelamento"
+        },
+        {
+          "title": "Arquivo De Planos Cancelados"
+        },
+        {
+          "title": "Insights De Despesa"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Acompanhe As Subscrições",
+          "description": "Mostrar o painel com total mensal, estimativa anual, renovações em 7 dias, testes a terminar, ativas, poupança e insights.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Adicionar Serviço",
+          "description": "Mostrar o formulário com nome, preço, categoria, ciclo, próxima renovação, fim de teste, data limite de cancelamento, notas e botão Guardar.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Antecipe Renovações",
+          "description": "Mostrar a lista ativa com pesquisa, ordenação por renovação, cartão de serviço, data de renovação, preço e botão para adicionar.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "O que posso acompanhar no Subscription Tracker?",
+          "answer": "Pode acompanhar serviços, preços, categorias, ciclos de faturação, renovações, fim de teste gratuito, datas de cancelamento, notas e arquivo."
+        },
+        {
+          "question": "A aplicação mostra quanto gasto por mês?",
+          "answer": "Sim. O painel mostra o total mensal, a estimativa anual, o número de subscrições ativas e insights por categoria."
+        },
+        {
+          "question": "Posso receber lembretes antes da renovação?",
+          "answer": "Sim. Pode ativar lembretes e escolher a antecedência antes de renovações ou fins de teste."
+        },
+        {
+          "question": "Posso arquivar planos cancelados?",
+          "answer": "Sim. Os planos cancelados podem ser arquivados para manter a lista ativa organizada."
+        }
+      ]
+    },
+    "sr": {
+      "name": "Subscription Tracker",
+      "summary": "Subscription Tracker вам помаже да пратите претплате, обнове, пробне периоде, месечне трошкове, годишње процене и отказане планове.",
+      "longDescription": [
+        "Subscription Tracker је Android апликација за лакше управљање сервисима који се редовно наплаћују. Погодна је за streaming сервисе, апликације, чланства, пробне периоде и друге претплате.",
+        "Почетни екран приказује месечни укупан трошак, годишњу процену, обнове у наредних 7 дана, пробне периоде који истичу, број активних претплата, уштеду од отказаних планова и увид по категоријама.",
+        "При додавању сервиса можете унети назив, цену, категорију, циклус наплате, следећу обнову, крај бесплатног пробног периода, датум до када треба отказати и белешке.",
+        "Активне претплате можете претраживати и сортирати по датуму обнове. Отказане планове можете архивирати како би активна листа остала прегледна.",
+        "Уз прилагодљиве подсетнике, симбол валуте, избор језика и тамну тему, Subscription Tracker помаже да јасније пратите обнове, пробне периоде и трошкове."
+      ],
+      "bottomCtaDescription": "Будите корак испред обнова и избегните нежељене трошкове. Додајте сервисе, пратите шта се следеће наплаћује и архивирајте отказане претплате без нереда.",
+      "category": "Финансије",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Праћење Претплата",
+        "Управљање Претплатама",
+        "Подсетник За Обнову",
+        "Понављајућа Плаћања",
+        "Подсетник За Пробни Период",
+        "Месечни Трошкови",
+        "Личне Финансије",
+        "Буџет"
+      ],
+      "metaTitle": "Subscription Tracker: претплате, обнове и трошкови",
+      "metaDescription": "Пратите претплате, обнове, пробне периоде, месечне трошкове, годишње процене, подсетнике и отказане планове.",
+      "featureBullets": [
+        {
+          "title": "Праћење Обнова"
+        },
+        {
+          "title": "Месечни И Годишњи Трошкови"
+        },
+        {
+          "title": "Подсетници За Пробу"
+        },
+        {
+          "title": "Датуми За Отказивање"
+        },
+        {
+          "title": "Архива Отказаних Планова"
+        },
+        {
+          "title": "Увид У Потрошњу"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Пратите Претплате",
+          "description": "Приказати почетни екран са месечним укупним трошком, годишњом проценом, обновама у 7 дана, пробним периодима, активним бројем, уштедом и увидима.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Додајте Сервис",
+          "description": "Приказати форму са називом сервиса, ценом, категоријом, циклусом, следећом обновом, крајем пробе, датумом отказивања, белешкама и дугметом за чување.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Будите Испред Обнова",
+          "description": "Приказати листу активних претплата са претрагом, сортирањем по обнови, картицом сервиса, датумом обнове, ценом и дугметом за додавање.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Шта могу да пратим у апликацији Subscription Tracker?",
+          "answer": "Можете пратити сервисе, цене, категорије, циклусе наплате, обнове, крај пробног периода, датуме за отказивање, белешке и архиву."
+        },
+        {
+          "question": "Да ли апликација приказује месечне трошкове претплата?",
+          "answer": "Да. Почетни екран приказује месечни трошак, годишњу процену, број активних претплата и увид по категоријама."
+        },
+        {
+          "question": "Могу ли да добијем подсетник пре обнове?",
+          "answer": "Да. Можете укључити подсетнике и изабрати колико дана раније желите обавештење."
+        },
+        {
+          "question": "Могу ли да архивирам отказане претплате?",
+          "answer": "Да. Отказане претплате могу бити архивиране како би активна листа остала чиста."
+        }
+      ]
+    },
+    "hr": {
+      "name": "Subscription Tracker",
+      "summary": "Subscription Tracker pomaže vam pratiti pretplate, obnove, probna razdoblja, mjesečne troškove, godišnje procjene i otkazane planove.",
+      "longDescription": [
+        "Subscription Tracker je Android aplikacija za jednostavnije upravljanje servisima koji se redovito naplaćuju. Korisna je za streaming, aplikacije, članstva, probna razdoblja i druge pretplate.",
+        "Nadzorna ploča prikazuje mjesečni ukupni trošak, godišnju procjenu, obnove u sljedećih 7 dana, završetke probnih razdoblja, broj aktivnih pretplata, uštedu od otkazanih planova i uvide po kategorijama.",
+        "Pri dodavanju servisa možete unijeti naziv, cijenu, kategoriju, ciklus naplate, sljedeću obnovu, kraj besplatnog probnog razdoblja, datum do kada treba otkazati i bilješke.",
+        "Aktivne pretplate možete pretraživati i sortirati po datumu obnove, a otkazane planove arhivirati. Tako aktivna lista ostaje čista, a ranije pretplate i dalje su odvojeno dostupne.",
+        "Uz prilagodljive podsjetnike, simbol valute, jezične postavke i tamnu temu, Subscription Tracker pomaže vam jasnije pratiti obnove i ponavljajuće troškove."
+      ],
+      "bottomCtaDescription": "Ostanite korak ispred obnova i izbjegnite neželjene troškove. Dodajte servise, pratite što se naplaćuje sljedeće i arhivirajte otkazane pretplate.",
+      "category": "Financije",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Praćenje Pretplata",
+        "Upravljanje Pretplatama",
+        "Podsjetnik Za Obnovu",
+        "Ponavljajuća Plaćanja",
+        "Podsjetnik Za Probno Razdoblje",
+        "Mjesečni Troškovi",
+        "Osobne Financije",
+        "Budžet"
+      ],
+      "metaTitle": "Subscription Tracker: pretplate, obnove i troškovi",
+      "metaDescription": "Pratite pretplate, obnove, probna razdoblja, mjesečne troškove, godišnje procjene, podsjetnike i otkazane planove.",
+      "featureBullets": [
+        {
+          "title": "Praćenje Obnova"
+        },
+        {
+          "title": "Mjesečni I Godišnji Troškovi"
+        },
+        {
+          "title": "Podsjetnici Za Probe"
+        },
+        {
+          "title": "Datumi Za Otkazivanje"
+        },
+        {
+          "title": "Arhiva Otkazanih Planova"
+        },
+        {
+          "title": "Uvid U Potrošnju"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Pratite Pretplate",
+          "description": "Prikazati nadzornu ploču s mjesečnim ukupnim troškom, godišnjom procjenom, obnovama u 7 dana, probama, aktivnim brojem, uštedom i uvidima.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Dodajte Servis",
+          "description": "Prikazati obrazac s nazivom servisa, cijenom, kategorijom, ciklusom, sljedećom obnovom, krajem probe, datumom otkazivanja, bilješkama i spremanjem.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Budite Ispred Obnova",
+          "description": "Prikazati listu aktivnih pretplata s pretragom, sortiranjem po obnovi, karticom servisa, datumom obnove, cijenom i gumbom za dodavanje.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Što mogu pratiti u aplikaciji Subscription Tracker?",
+          "answer": "Možete pratiti servise, cijene, kategorije, cikluse naplate, obnove, završetke proba, datume za otkazivanje, bilješke i arhivu."
+        },
+        {
+          "question": "Prikazuje li aplikacija mjesečni trošak pretplata?",
+          "answer": "Da. Nadzorna ploča prikazuje mjesečni trošak, godišnju procjenu, broj aktivnih pretplata i uvide po kategorijama."
+        },
+        {
+          "question": "Mogu li dobiti podsjetnik prije obnove?",
+          "answer": "Da. Možete uključiti podsjetnike i odabrati koliko dana ranije želite obavijest."
+        },
+        {
+          "question": "Mogu li arhivirati otkazane pretplate?",
+          "answer": "Da. Otkazani planovi mogu se arhivirati kako bi aktivna lista ostala pregledna."
+        }
+      ]
+    },
+    "nl": {
+      "name": "Subscription Tracker",
+      "summary": "Subscription Tracker helpt je abonnementen, verlengingen, proefperiodes, maandkosten, jaarinschattingen en geannuleerde plannen bij te houden.",
+      "longDescription": [
+        "Subscription Tracker is een Android-app voor iedereen die terugkerende services overzichtelijk wil beheren. Gebruik de app voor streaming, apps, lidmaatschappen, proefperiodes en andere abonnementen.",
+        "Het dashboard toont je maandtotaal, jaarinschatting, verlengingen in de komende 7 dagen, proefperiodes die eindigen, actieve abonnementen, besparing door annuleringen en inzichten per categorie.",
+        "Voeg een service toe met naam, prijs, categorie, factuurcyclus, volgende verlenging, einde van proefperiode, annuleer-datum en notities. Zo zie je sneller wat er binnenkort wordt verlengd.",
+        "Doorzoek actieve abonnementen, sorteer op verlengingsdatum en archiveer geannuleerde plannen. Je actieve lijst blijft schoon terwijl oude abonnementen apart bewaard blijven.",
+        "Met aanpasbare herinneringen, valutasymbool, taalinstellingen en donkere modus helpt Subscription Tracker je om abonnementskosten rustig en duidelijk te volgen."
+      ],
+      "bottomCtaDescription": "Blijf verlengingen voor voordat ze ongewenste kosten worden. Voeg services toe, bekijk wat binnenkort wordt afgeschreven en archiveer geannuleerde abonnementen.",
+      "category": "Financiën",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Abonnement Tracker",
+        "Abonnement Beheer",
+        "Verlenging Herinnering",
+        "Terugkerende Betalingen",
+        "Proefperiode Herinnering",
+        "Maandelijkse Kosten",
+        "Persoonlijke Financiën",
+        "Budget Tracker"
+      ],
+      "metaTitle": "Subscription Tracker: abonnementen en kosten beheren",
+      "metaDescription": "Volg abonnementen, verlengingen, proefperiodes, maandkosten, jaarinschattingen, herinneringen en geannuleerde plannen.",
+      "featureBullets": [
+        {
+          "title": "Verlengingen Bijhouden"
+        },
+        {
+          "title": "Maand- En Jaarkosten"
+        },
+        {
+          "title": "Proefperiode Herinneringen"
+        },
+        {
+          "title": "Annuleer-Datums"
+        },
+        {
+          "title": "Geannuleerde Plannen Archiveren"
+        },
+        {
+          "title": "Uitgaveninzichten"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Volg Je Abonnementen",
+          "description": "Toon het dashboard met maandtotaal, jaarinschatting, verlengingen binnen 7 dagen, proefperiodes, actieve count, besparing en inzichten.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Service Toevoegen",
+          "description": "Toon het formulier met servicenaam, prijs, categorie, factuurcyclus, volgende verlenging, einde proefperiode, annuleer-datum, notities en opslaan.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Vooruitkijken Naar Verlengingen",
+          "description": "Toon de actieve lijst met zoeken, sorteren op verlengingsdatum, servicekaart, verlengingsinfo, prijs en knop om toe te voegen.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wat kan ik bijhouden met Subscription Tracker?",
+          "answer": "Je kunt services, prijzen, categorieën, factuurcycli, verlengingsdatums, proefperiodes, annuleer-datums, notities en archiefitems bijhouden."
+        },
+        {
+          "question": "Laat de app mijn maandelijkse abonnementskosten zien?",
+          "answer": "Ja. Het dashboard toont maandtotaal, jaarinschatting, actieve abonnementen en inzichten per categorie."
+        },
+        {
+          "question": "Kan ik herinneringen krijgen voor verlengingen?",
+          "answer": "Ja. Je kunt herinneringen inschakelen en kiezen hoeveel dagen van tevoren je een melding wilt."
+        },
+        {
+          "question": "Kan ik geannuleerde abonnementen archiveren?",
+          "answer": "Ja. Geannuleerde plannen kun je archiveren zodat je actieve lijst overzichtelijk blijft."
+        }
+      ]
+    },
+    "pl": {
+      "name": "Subscription Tracker",
+      "summary": "Subscription Tracker pomaga śledzić subskrypcje, odnowienia, okresy próbne, koszty miesięczne, szacunki roczne i anulowane plany.",
+      "longDescription": [
+        "Subscription Tracker to aplikacja na Androida do porządkowania usług z płatnościami cyklicznymi. Sprawdzi się przy streamingu, aplikacjach, członkostwach, okresach próbnych i innych subskrypcjach.",
+        "Panel główny pokazuje miesięczną sumę, roczny szacunek, odnowienia w ciągu najbliższych 7 dni, kończące się okresy próbne, liczbę aktywnych subskrypcji, oszczędności po anulowaniu i informacje według kategorii.",
+        "Przy dodawaniu usługi wpisujesz nazwę, cenę, kategorię, cykl rozliczeniowy, kolejne odnowienie, koniec darmowego okresu próbnego, datę anulowania i notatki.",
+        "Aktywne subskrypcje można wyszukiwać i sortować według daty odnowienia. Anulowane plany można archiwizować, aby aktywna lista pozostała przejrzysta.",
+        "Dzięki konfigurowalnym przypomnieniom, symbolowi waluty, ustawieniom języka i ciemnemu motywowi Subscription Tracker ułatwia kontrolę kosztów i terminów odnowień."
+      ],
+      "bottomCtaDescription": "Bądź przed odnowieniami, zanim zamienią się w niechciane opłaty. Dodawaj usługi, sprawdzaj nadchodzące płatności i archiwizuj anulowane subskrypcje.",
+      "category": "Finanse",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Śledzenie Subskrypcji",
+        "Menedżer Subskrypcji",
+        "Przypomnienie O Odnowieniu",
+        "Płatności Cykliczne",
+        "Przypomnienie O Okresie Próbnym",
+        "Miesięczne Wydatki",
+        "Finanse Osobiste",
+        "Budżet"
+      ],
+      "metaTitle": "Subscription Tracker: subskrypcje, koszty i terminy",
+      "metaDescription": "Śledź subskrypcje, odnowienia, okresy próbne, miesięczne koszty, roczne szacunki, przypomnienia i anulowane plany.",
+      "featureBullets": [
+        {
+          "title": "Śledzenie Odnowień"
+        },
+        {
+          "title": "Koszty Miesięczne I Roczne"
+        },
+        {
+          "title": "Przypomnienia O Próbach"
+        },
+        {
+          "title": "Daty Anulowania"
+        },
+        {
+          "title": "Archiwum Anulowanych Planów"
+        },
+        {
+          "title": "Wgląd W Wydatki"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Śledź Subskrypcje",
+          "description": "Pokazać panel z miesięczną sumą, rocznym szacunkiem, odnowieniami w 7 dni, końcem prób, aktywną liczbą, oszczędnościami i wglądem.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Dodaj Usługę",
+          "description": "Pokazać formularz z nazwą usługi, ceną, kategorią, cyklem, kolejnym odnowieniem, końcem próby, datą anulowania, notatkami i zapisem.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Wyprzedzaj Odnowienia",
+          "description": "Pokazać aktywną listę z wyszukiwaniem, sortowaniem po odnowieniu, kartą usługi, datą odnowienia, ceną i przyciskiem dodawania.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Co mogę śledzić w Subscription Tracker?",
+          "answer": "Możesz śledzić usługi, ceny, kategorie, cykle rozliczeniowe, odnowienia, końce okresów próbnych, daty anulowania, notatki i archiwum."
+        },
+        {
+          "question": "Czy aplikacja pokazuje miesięczne koszty subskrypcji?",
+          "answer": "Tak. Panel pokazuje miesięczną sumę, roczny szacunek, liczbę aktywnych subskrypcji i informacje według kategorii."
+        },
+        {
+          "question": "Czy mogę ustawić przypomnienie przed odnowieniem?",
+          "answer": "Tak. Możesz włączyć przypomnienia i wybrać, ile dni wcześniej chcesz otrzymać powiadomienie."
+        },
+        {
+          "question": "Czy można archiwizować anulowane subskrypcje?",
+          "answer": "Tak. Anulowane plany można przenieść do archiwum, aby lista aktywnych subskrypcji była czysta."
+        }
+      ]
+    },
+    "ro": {
+      "name": "Subscription Tracker",
+      "summary": "Subscription Tracker te ajută să urmărești abonamente, reînnoiri, perioade de probă, costuri lunare, estimări anuale și planuri anulate.",
+      "longDescription": [
+        "Subscription Tracker este o aplicație Android pentru organizarea serviciilor cu plată recurentă. O poți folosi pentru streaming, aplicații, abonamente, perioade de probă și alte costuri periodice.",
+        "Dashboardul afișează totalul lunar, estimarea anuală, reînnoirile din următoarele 7 zile, perioadele de probă care se termină, numărul de abonamente active, economiile din planuri anulate și informații pe categorii.",
+        "Când adaugi un serviciu, poți salva numele, prețul, categoria, ciclul de facturare, următoarea reînnoire, finalul perioadei gratuite, data limită de anulare și notițe.",
+        "Poți căuta abonamentele active, le poți sorta după data reînnoirii și poți arhiva planurile anulate. Astfel, lista activă rămâne clară, iar abonamentele vechi sunt păstrate separat.",
+        "Cu mementouri personalizabile, simbol de monedă, opțiuni de limbă și temă întunecată, Subscription Tracker te ajută să controlezi mai ușor reînnoirile și costurile recurente."
+      ],
+      "bottomCtaDescription": "Fii pregătit înainte de reînnoiri și evită costurile nedorite. Adaugă servicii, vezi ce urmează să se taxeze și arhivează abonamentele anulate.",
+      "category": "Finanțe",
+      "platforms": [
+        "Android"
+      ],
+      "tags": [
+        "Urmărire Abonamente",
+        "Manager Abonamente",
+        "Memento Reînnoire",
+        "Plăți Recurente",
+        "Memento Perioadă De Probă",
+        "Cheltuieli Lunare",
+        "Finanțe Personale",
+        "Buget"
+      ],
+      "metaTitle": "Subscription Tracker: abonamente, costuri și reînnoiri",
+      "metaDescription": "Urmărește abonamente, reînnoiri, perioade de probă, costuri lunare, estimări anuale, mementouri și planuri anulate.",
+      "featureBullets": [
+        {
+          "title": "Urmărire Reînnoiri"
+        },
+        {
+          "title": "Costuri Lunare Și Anuale"
+        },
+        {
+          "title": "Mementouri Pentru Probe"
+        },
+        {
+          "title": "Date Limită De Anulare"
+        },
+        {
+          "title": "Arhivă Planuri Anulate"
+        },
+        {
+          "title": "Informații Despre Cheltuieli"
+        }
+      ],
+      "screenshotRequirements": [
+        {
+          "title": "Urmărește Abonamentele",
+          "description": "Arată dashboardul cu total lunar, estimare anuală, reînnoiri în 7 zile, probe care se termină, active, economii și informații.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-1.png"
+        },
+        {
+          "title": "Adaugă Servicii",
+          "description": "Arată formularul cu nume serviciu, preț, categorie, ciclu, următoarea reînnoire, finalul probei, data anulării, notițe și salvare.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-2.png"
+        },
+        {
+          "title": "Anticipează Reînnoirile",
+          "description": "Arată lista activă cu căutare, sortare după reînnoire, card de serviciu, informații despre reînnoire, preț și buton de adăugare.",
+          "imagePath": "apps/screenshots/subscription-tracker/screenshot-3.png"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Ce pot urmări cu Subscription Tracker?",
+          "answer": "Poți urmări servicii, prețuri, categorii, cicluri de facturare, reînnoiri, finaluri de perioadă de probă, date de anulare, notițe și arhivă."
+        },
+        {
+          "question": "Aplicația arată costul lunar al abonamentelor?",
+          "answer": "Da. Dashboardul arată totalul lunar, estimarea anuală, numărul de abonamente active și informații pe categorii."
+        },
+        {
+          "question": "Pot primi mementouri înainte de reînnoire?",
+          "answer": "Da. Poți activa mementouri și poți alege cu câte zile înainte vrei să fii notificat."
+        },
+        {
+          "question": "Pot arhiva abonamentele anulate?",
+          "answer": "Da. Planurile anulate pot fi arhivate pentru a păstra lista activă curată."
+        }
+      ]
+    }
+  }
+}
